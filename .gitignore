@@ -68,3 +68,5 @@ __pycache__
 Network Trash Folder
 Temporary Items
 .apdisk
+*.csv#
+/Text/_textentries

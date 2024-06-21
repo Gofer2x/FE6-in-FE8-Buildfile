@@ -1,0 +1,316 @@
+## RoyName
+Roy[X]
+
+## MarcusName
+Marcus[X]
+
+## AlenName
+Alen[X]
+
+## LanceName
+Lance[X]
+
+## WoltName
+Wolt[X]
+
+## BorsName
+Bors[X]
+
+## MerlinusName
+Merlinus[X]
+
+## ElenName
+Elen[X]
+
+## DieckName
+Dieck[X]
+
+## WardName
+Ward[X]
+
+## LotName
+Lot[X]
+
+## ShannaName
+Shanna[X]
+
+## ChadName
+Chad[X]
+
+## LughName
+Lugh[X]
+
+## ClarineName
+Clarine[X]
+
+## RutgerName
+Rutger[X]
+
+## SaulName
+Saul[X]
+
+## DorothyName
+Dorothy[X]
+
+## SueName
+Sue[X]
+
+## ZelotName
+Zelot[X]
+
+## TrecName
+Trec[X]
+
+## NoahName
+Noah[X]
+
+## AstolfoName
+Astolfo[X]
+
+## LilinaName
+Lilina[X]
+
+## BartheName
+Barthe[X]
+
+## OgierName
+Ogier[X]
+
+## GwendolynName
+Gwendolyn[X]
+
+## FirName
+Fir[X]
+
+## SinName
+Sin[X]
+
+## GeeseName
+Geese[X]
+
+## GonzalezName
+Gonzalez[X]
+
+## KleinName
+Klein[X]
+
+## TheaName
+Thea[X]
+
+## LarumName
+Larum[X]
+
+## ElffinName
+Elffin[X]
+
+## EchidnaName
+Echidna[X]
+
+## BartreName
+Bartre[X]
+
+## RaighName
+Raigh[X]
+
+## CathName
+Cath[X]
+
+## MeladyName
+Melady[X]
+
+## PercevalName
+Perceval[X]
+
+## CeciliaName
+Cecilia[X]
+
+## SophiaName
+Sophia[X]
+
+## IgreneName
+Igrene[X]
+
+## GarretName
+Garret[X]
+
+## FaeName
+Fae[X]
+
+## HughName
+Hugh[X]
+
+## ZeissName
+Zeiss[X]
+
+## DouglasName
+Douglas[X]
+
+## NiimeName
+Niime[X]
+
+## JunoName
+Juno[X]
+
+## DayanName
+Dayan[X]
+
+## YoderName
+Yoder[X]
+
+## KarelName
+Karel[X]
+
+
+
+
+
+## NarcianName
+Narcian[X]
+
+## GalleName
+Galle[X]
+
+## HectorName
+Hector[X]
+
+## BrunnyaName
+Brunnya[X]
+
+## MurdockName
+Murdock[X]
+
+## EliwoodName
+Eliwood[X]
+
+## ZephielName
+Zephiel[X]
+
+## GuinivereName
+Guinivere[X]
+
+
+
+
+
+## DamasName
+Damas[X]
+
+## RuudName
+Ruud[X]
+
+## SlaterName
+Slater[X]
+
+## ErikName
+Erik[X]
+
+## DoryName
+Dory[X]
+
+## WagnerName
+Wagner[X]
+
+## DebiasName
+Debias[X]
+
+## LeganceName
+Legance[X]
+
+## HenningName
+Henning[X]
+
+## ScottName
+Scott[X]
+
+## NordName
+Nord[X]
+
+## ZinqueName
+Zinque[X]
+
+## ScollanName
+Scollan[X]
+
+## OrloName
+Orlo[X]
+
+## RobertsName
+Roberts[X]
+
+## MorganName
+Morgan[X]
+
+## EinName
+Ein[X]
+
+## GuerreroName
+Guerrero[X]
+
+## FlaerName
+Flaer[X]
+
+## RandyName
+Randy[X]
+
+## MaggieName
+Maggie[X]
+
+## RoseName
+Rose[X]
+
+## OatesName
+Oates[X]
+
+## RaithName
+Raith[X]
+
+## WindhamName
+Windham[X]
+
+## ArcardoName
+Arcardo[X]
+
+## MartelName
+Martel[X]
+
+## MonkeName
+Monke[X]
+
+## SiguneName
+Sigune[X]
+
+## KelName
+Kel[X]
+
+## RoartzName
+Roartz[X]
+
+## TickName
+Tick[X]
+
+## ThorilName
+Thoril[X]
+
+## BrakulName
+Brakul[X]
+
+## KudokaName
+Kudoka[X]
+
+## MarralName
+Marral[X]
+
+## KabulName
+Kabul[X]
+
+## ChanName
+Chan[X]
+
+## PeresName
+Peres[X]
+
+## JahnName
+Jahn[X]
+
+## IdunnName
+Idunn[X]

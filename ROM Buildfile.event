@@ -15,11 +15,11 @@
 	
 	#include "Engine Hacks/Master Hack Installer.event"
 	
-	#include "Map/Master Map Installer.event"
+	//#include "Map/Master Map Installer.event"
 	
-	#include "Events/Chapter Events Installer.event"
+	//#include "Events/Chapter Events Installer.event"
 	
-	#include "Graphics/Installer.event"
+	//#include "Graphics/Installer.event"
 
 	
 	#include "Music/Music Installer.event"

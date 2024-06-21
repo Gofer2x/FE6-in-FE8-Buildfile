@@ -1,0 +1,28 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+	#include "EA Standard Library/Backward Compatibility.txt"
+	#define FreeSpace 0xefb2e0
+	
+	ORG FreeSpace
+	
+	//You shouldn't need to mess with this file much. If you're adding/removing content, go to the respective installers and add/remove content there. The less you mess with this file, the better.
+	
+	//will be generated once textprocess has run
+	#include "Text/Install Text Data.event"
+	
+	#include "Tables/Table Definitions.txt"
+	#include "Tables/Table Installer.event"
+	
+	#include "Engine Hacks/Master Hack Installer.event"
+	
+	#include "Map/Master Map Installer.event"
+	
+	#include "Events/Chapter Events Installer.event"
+	
+	#include "Graphics/Installer.event"
+
+	
+	#include "Music/Music Installer.event"
+#else
+    ERROR You are not assembling FE8 events!
+#endif

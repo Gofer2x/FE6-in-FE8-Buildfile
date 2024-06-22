@@ -1,6 +1,7 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
 	#include "EA Standard Library/Backward Compatibility.txt"
+	#include "Definitions/Master Definitions Installer.event"
 	#define FreeSpace 0xefb2e0
 	
 	ORG FreeSpace
@@ -17,9 +18,9 @@
 	
 	#include "Engine Hacks/Master Hack Installer.event"
 	
-	//#include "Map/Master Map Installer.event"
+	#include "Map/Master Map Installer.event"
 	
-	//#include "Events/Chapter Events Installer.event"
+	#include "Events/Chapter Events Installer.event"
 	
 	//#include "Graphics/Installer.event"
 

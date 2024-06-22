@@ -1,0 +1,131 @@
+## Ch1Name
+Breath of Destiny
+
+## Ch2Name
+Princess of Bern
+
+## Ch3Name
+Latecomer's Sorrow
+
+## Ch4Name
+Crumbling League
+
+## Ch5Name
+Fire Emblem
+
+## Ch6Name
+Ensnared
+
+## Ch7Name
+The Ostian Revolt
+
+## Ch8Name
+Reunion
+
+## Ch8xName
+The Blazing Blade
+
+## Ch9Name
+The Misty Isles
+
+## Ch10AName
+Western Resistance
+
+## Ch11AName
+The Hero of the West
+
+## Ch10BName
+Amidst a Struggle
+
+## Ch11BName
+Flight Toward Freedom
+
+## Ch12Name
+The True Enemy
+
+## Ch12xName
+The Thunder Axe
+
+## Ch13Name
+Rescue Mission
+
+## Ch14Name
+Arcadia
+
+## Ch14xName
+The Infernal Truth
+
+## Ch15Name
+The Dragon Child
+
+## Ch16Name
+Storming the Capital
+
+## Ch16xName
+The Glorious Ascension
+
+## Ch17AName
+Ocean's Parting
+
+## Ch18AName
+The Frozen River
+
+## Ch19AName
+Bitter Cold
+
+## Ch20AName
+Ilia's Salvation
+
+## Ch20AxName
+The Freezing Lance
+
+## Ch17BName
+The Bishop's Teachings
+
+## Ch18BName
+The Laws of Sacae
+
+## Ch19BName
+Battle in Bulgar
+
+## Ch20BName
+The Silver Wolf
+
+## Ch20BxName
+The Bow of Swift Wind
+
+## Ch21Name
+The Binding Blade
+
+## Ch21xName
+The Elder Revelation
+
+## Ch22Name
+Unattained Dream
+
+## Ch23Name
+The Ghosts of Bern
+
+## Ch24Name
+Legends and Lies
+
+## EndgameName
+Beyond Darkness
+
+## TutorialChapterName
+Tutorial
+
+## Trial_ValleyOfDeathName
+Valley of Death
+
+## Trial_RainyIslandName
+Rainy Island
+
+## Trial_SnowyDefensiveName
+Snowy Defensive
+
+## Trial_PiratesChallengeName
+Pirate's Challenge
+
+## Trial_RoysTrial
+Roy's Trial

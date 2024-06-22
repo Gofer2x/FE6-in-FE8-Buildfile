@@ -3,7 +3,7 @@
 
 #include EAstdlib.event
 
-EventPointerTable(0x7,ThisChapter)
+EventPointerTable(EVENTS_Ch1,ThisChapter)
 
 ALIGN 4
 
@@ -60,7 +60,6 @@ LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies
 ENUN
-Text(0x903)
 ENDA
 
 EndingScene:

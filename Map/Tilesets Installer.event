@@ -12,8 +12,8 @@ PAL_FieldsRawData:
 
 ALIGN 4
 CONFIG_FieldsRawData:
-#incbin "Tilesets/TileConfigs/Fields.mapchip_config"
+#incext compress "Tilesets/TileConfigs/Fields.mapchip_config"
 
-//EventPointerTable(OBJ_Fields, OBJ_FieldsRawData)
+EventPointerTable(OBJ_Fields, OBJ_FieldsRawData)
 EventPointerTable(PAL_Fields, PAL_FieldsRawData)
-//EventPointerTable(CONFIG_Fields, CONFIG_FieldsRawData)
+EventPointerTable(CONFIG_Fields, CONFIG_FieldsRawData)

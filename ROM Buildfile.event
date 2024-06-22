@@ -23,7 +23,7 @@
 	
 	#include "Events/Chapter Events Installer.event"
 	
-	//#include "Graphics/Installer.event"
+	//#include "Graphics/Master Graphics Installer.event"
 
 	
 	#include "Music/Music Installer.event"

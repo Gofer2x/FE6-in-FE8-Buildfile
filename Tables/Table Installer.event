@@ -4,7 +4,7 @@
 
 #include "Chapter Data\Chapter Data Editor.event"
 
-#include "Character and Class\FE8 Character Editor.event"
+#include "Character and Class\CharacterTable.event"
 
 #include "Character and Class\FE8 Class Editor.event"
 

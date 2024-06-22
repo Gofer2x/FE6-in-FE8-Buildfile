@@ -18,6 +18,7 @@
 	
 	#include "Engine Hacks/Master Hack Installer.event"
 	
+	#include "Map/Tilesets Installer.event"
 	#include "Map/Master Map Installer.event"
 	
 	#include "Events/Chapter Events Installer.event"

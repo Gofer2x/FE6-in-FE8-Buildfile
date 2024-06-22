@@ -2,6 +2,7 @@
 #include "ItemIDs.event"
 #include "ClassIDs.event"
 #include "CharacterIDs.event"
+#include "AffinityIDs.event"
 
 //#include "TempPList.event"
 #include "PListIDs.event"

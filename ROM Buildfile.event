@@ -10,8 +10,8 @@
 	
 	#include "repointedTextTable.event"
 	
-	//will be generated once textprocess has run
 	#include "Text/Install Text Data.event"
+	#include "Graphics/Master Graphics Installer.event"
 	
 	#include "Tables/Table Definitions.txt"
 	#include "Tables/Table Installer.event"
@@ -22,8 +22,7 @@
 	#include "Map/Master Map Installer.event"
 	
 	#include "Events/Chapter Events Installer.event"
-	
-	//#include "Graphics/Master Graphics Installer.event"
+
 
 	
 	#include "Music/Music Installer.event"

@@ -45,8 +45,8 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Eirika EirikaLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Franz Cavalier 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, IronLance] NoAI
+UNIT Roy EirikaLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
 UNIT
 
 Enemies:

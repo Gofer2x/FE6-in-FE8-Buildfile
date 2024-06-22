@@ -1,3 +1,7 @@
 #include "ChapterIDs.event"
+#include "ItemIDs.event"
+#include "ClassIDs.event"
+#include "CharacterIDs.event"
+
 //#include "TempPList.event"
 #include "PListIDs.event"

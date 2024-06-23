@@ -1,0 +1,30 @@
+class stuff:
+do i want to tear up the whole class table and remake it from scratch? yes, it's a lot of work, but i'll have to change the stats and growths on all classes anyway and the monster/fe8 exclusive ones get in the way. might have to go about it that way. 
+but yes, for new classes that will need map sprites and anims:
+nomads and nomad troopers (4 total)
+roy lord and master lord
+female thief
+manakete classes. i think there are 5 total needed, 2 for fae (normal and map anims), ditto for enemy manaketes, and 1 for idunn.
+bard and dancer
+
+
+animations:
+certainly don't remake the whole animations table, though. too big of a hassle. just keep track of all vanilla pointers and the ones i add.
+speaking of which,
+roy lord and master lord
+female thief
+female hero
+female shaman
+female druid
+fae manakete
+fire manakete
+idunn
+zephiel
+bard and dancer
+
+music:
+all of it.
+
+
+patches:
+mainly easy to install stuff that changes things like the convoy character. leave all the advanced stuff to the experts.

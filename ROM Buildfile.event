@@ -13,13 +13,13 @@
 	#include "Text/Install Text Data.event"
 	#include "Graphics/Master Graphics Installer.event"
 	
+	#include "Map/Tilesets Installer.event"
+	#include "Map/Master Map Installer.event"
+	
 	#include "Tables/Table Definitions.txt"
 	#include "Tables/Table Installer.event"
 	
 	#include "Engine Hacks/Master Hack Installer.event"
-	
-	#include "Map/Tilesets Installer.event"
-	#include "Map/Master Map Installer.event"
 	
 	#include "Events/Chapter Events Installer.event"
 

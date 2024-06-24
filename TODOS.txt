@@ -6,9 +6,10 @@ roy lord and master lord
 female thief
 manakete classes. i think there are 5 total needed, 2 for fae (normal and map anims), ditto for enemy manaketes, and 1 for idunn.
 bard and dancer
-
+. due to how moving map anims work, this means i'll have to repoint them all as well. have a def with all moving class anims addresses.
 
 animations:
+expand animation table?
 certainly don't remake the whole animations table, though. too big of a hassle. just keep track of all vanilla pointers and the ones i add.
 speaking of which,
 roy lord and master lord

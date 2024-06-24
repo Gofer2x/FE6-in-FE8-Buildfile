@@ -3,3 +3,4 @@ Erm, what the sigma?[X]
 
 #include CharacterNames.txt
 #include CharacterDescriptions.txt
+#include ChapterNames.txt

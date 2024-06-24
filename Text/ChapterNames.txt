@@ -1,131 +1,131 @@
 ## Ch1Name
-Breath of Destiny
+Breath of Destiny[X]
 
 ## Ch2Name
-Princess of Bern
+Princess of Bern[X]
 
 ## Ch3Name
-Latecomer's Sorrow
+Latecomer's Sorrow[X]
 
 ## Ch4Name
-Crumbling League
+Crumbling League[X]
 
 ## Ch5Name
-Fire Emblem
+Fire Emblem[X]
 
 ## Ch6Name
-Ensnared
+Ensnared[X]
 
 ## Ch7Name
-The Ostian Revolt
+The Ostian Revolt[X]
 
 ## Ch8Name
-Reunion
+Reunion[X]
 
 ## Ch8xName
-The Blazing Blade
+The Blazing Blade[X]
 
 ## Ch9Name
-The Misty Isles
+The Misty Isles[X]
 
 ## Ch10AName
-Western Resistance
+Western Resistance[X]
 
 ## Ch11AName
-The Hero of the West
+The Hero of the West[X]
 
 ## Ch10BName
-Amidst a Struggle
+Amidst a Struggle[X]
 
 ## Ch11BName
-Flight Toward Freedom
+Flight Toward Freedom[X]
 
 ## Ch12Name
-The True Enemy
+The True Enemy[X]
 
 ## Ch12xName
-The Thunder Axe
+The Thunder Axe[X]
 
 ## Ch13Name
-Rescue Mission
+Rescue Mission[X]
 
 ## Ch14Name
-Arcadia
+Arcadia[X]
 
 ## Ch14xName
-The Infernal Truth
+The Infernal Truth[X]
 
 ## Ch15Name
-The Dragon Child
+The Dragon Child[X]
 
 ## Ch16Name
-Storming the Capital
+Storming the Capital[X]
 
 ## Ch16xName
-The Glorious Ascension
+The Glorious Ascension[X]
 
 ## Ch17AName
-Ocean's Parting
+Ocean's Parting[X]
 
 ## Ch18AName
-The Frozen River
+The Frozen River[X]
 
 ## Ch19AName
-Bitter Cold
+Bitter Cold[X]
 
 ## Ch20AName
-Ilia's Salvation
+Ilia's Salvation[X]
 
 ## Ch20AxName
-The Freezing Lance
+The Freezing Lance[X]
 
 ## Ch17BName
-The Bishop's Teachings
+The Bishop's Teachings[X]
 
 ## Ch18BName
-The Laws of Sacae
+The Laws of Sacae[X]
 
 ## Ch19BName
-Battle in Bulgar
+Battle in Bulgar[X]
 
 ## Ch20BName
-The Silver Wolf
+The Silver Wolf[X]
 
 ## Ch20BxName
-The Bow of Swift Wind
+The Bow of Swift Wind[X]
 
 ## Ch21Name
-The Binding Blade
+The Binding Blade[X]
 
 ## Ch21xName
-The Elder Revelation
+The Elder Revelation[X]
 
 ## Ch22Name
-Unattained Dream
+Unattained Dream[X]
 
 ## Ch23Name
-The Ghosts of Bern
+The Ghosts of Bern[X]
 
 ## Ch24Name
-Legends and Lies
+Legends and Lies[X]
 
 ## EndgameName
-Beyond Darkness
+Beyond Darkness[X]
 
 ## TutorialChapterName
-Tutorial
+Tutorial[X]
 
 ## Trial_ValleyOfDeathName
-Valley of Death
+Valley of Death[X]
 
 ## Trial_RainyIslandName
-Rainy Island
+Rainy Island[X]
 
 ## Trial_SnowyDefensiveName
-Snowy Defensive
+Snowy Defensive[X]
 
 ## Trial_PiratesChallengeName
-Pirate's Challenge
+Pirate's Challenge[X]
 
 ## Trial_RoysTrial
-Roy's Trial
+Roy's Trial[X]

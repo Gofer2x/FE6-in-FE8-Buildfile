@@ -3,6 +3,7 @@
 #include "ClassIDs.event"
 #include "CharacterIDs.event"
 #include "AffinityIDs.event"
+#include "ChNumbersIDs.event"
 
 //#include "TempPList.event"
 #include "PListIDs.event"

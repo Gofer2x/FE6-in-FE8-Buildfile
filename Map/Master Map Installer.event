@@ -21,3 +21,6 @@
 {
 #include "Chapter 4\Chapter4.event"
 }
+{
+#include "Chapter 5\Chapter5.event"
+}

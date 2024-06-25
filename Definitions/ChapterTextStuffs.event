@@ -1,0 +1,7 @@
+//tbh let's just keep them the same for now
+
+#define WindowGoalGate 0x19F
+#define WindowGoalThrone 0x1A1
+
+#define StatusGoalGate 0x19F
+#define StatusGoalThrone 0x1A1

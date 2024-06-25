@@ -4,6 +4,7 @@
 #include "CharacterIDs.event"
 #include "AffinityIDs.event"
 #include "ChNumbersIDs.event"
+#include "ChapterTextStuffs.event"
 
 //#include "TempPList.event"
 #include "PListIDs.event"

@@ -6,3 +6,6 @@
 {
 #include "Chapter2.event"
 }
+{
+#include "Chapter3.event"
+}

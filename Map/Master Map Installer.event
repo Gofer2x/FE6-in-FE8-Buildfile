@@ -15,3 +15,6 @@
 {
 #include "Chapter 2\Chapter2.event"
 }
+{
+#include "Chapter 3\Chapter3.event"
+}

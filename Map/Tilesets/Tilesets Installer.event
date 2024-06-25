@@ -1,0 +1,17 @@
+ALIGN 4
+OBJ_FieldsRawData:
+#incbin "ObjectTypes/Fields.dmp"
+
+ALIGN 4
+PAL_FieldsRawData:
+#incbin "Palettes/Fields_pal.dmp"
+
+ALIGN 4
+CONFIG_FieldsRawData:
+#incext compress "TileConfigs/Fields.mapchip_config"
+
+EventPointerTable(OBJ_Fields, OBJ_FieldsRawData)
+EventPointerTable(PAL_Fields, PAL_FieldsRawData)
+EventPointerTable(CONFIG_Fields, CONFIG_FieldsRawData)
+
+#include "TileAnims/Tile Anims Installer.event"

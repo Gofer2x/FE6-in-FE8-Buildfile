@@ -36,5 +36,24 @@ EventPointerTable(CONFIG_Village, CONFIG_VillageRawData)
 
 
 
+//Fort
+ALIGN 4
+OBJ_FortRawData:
+#incbin "ObjectTypes/Fort.dmp"
+
+ALIGN 4
+PAL_FortRawData:
+#incbin "Palettes/Fort_pal.dmp"
+
+ALIGN 4
+CONFIG_FortRawData:
+#incext compress "TileConfigs/Fort.mapchip_config"
+
+EventPointerTable(OBJ_Fort, OBJ_FortRawData)
+EventPointerTable(PAL_Fort, PAL_FortRawData)
+EventPointerTable(CONFIG_Fort, CONFIG_FortRawData)
+
+
+
 //Anims
 #include "TileAnims/Tile Anims Installer.event"

@@ -27,3 +27,9 @@
 {
 #include "Chapter 6\Chapter6.event"
 }
+{
+#include "Chapter 7\Chapter7.event"
+}
+{
+#include "Chapter 8\Chapter8.event"
+}

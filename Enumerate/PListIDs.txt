@@ -134,6 +134,7 @@ EVENTS_Trial_RoysTrial
 OBJ_Fields 
 OBJ_Village 
 OBJ_Fort 
+OBJ_Castle
 OBJ_Frontier 
 OBJ_FrontierVillage 
 OBJ_FrontierCastle 

@@ -1,8 +1,0 @@
-#define NoAffinity 0
-#define FireAffinity 1
-#define ThunderAffinity 2
-#define WindAffinity 3
-#define IceAffinity 4
-#define DarkAffinity 5
-#define LightAffinity 6
-#define AnimaAffinity 7

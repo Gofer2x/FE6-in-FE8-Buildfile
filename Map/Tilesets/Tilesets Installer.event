@@ -55,5 +55,24 @@ EventPointerTable(CONFIG_Fort, CONFIG_FortRawData)
 
 
 
+//Castle
+ALIGN 4
+OBJ_CastleRawData:
+#incbin "ObjectTypes/Castle.dmp"
+
+ALIGN 4
+PAL_CastlePurpleRawData:
+#incbin "Palettes/CastlePurple_pal.dmp"
+
+ALIGN 4
+CONFIG_CastleRawData:
+#incext compress "TileConfigs/Castle.mapchip_config"
+
+EventPointerTable(OBJ_Castle, OBJ_CastleRawData)
+EventPointerTable(PAL_CastlePurple, PAL_CastlePurpleRawData)
+EventPointerTable(CONFIG_Castle, CONFIG_CastleRawData)
+
+
+
 //Anims
 #include "TileAnims/Tile Anims Installer.event"

@@ -2,7 +2,7 @@
 #include "ItemIDs.event"
 #include "ClassIDs.event"
 #include "CharacterIDs.event"
-#include "AffinityIDs.event"
+#include "TableDefinitions.event"
 #include "ChNumbersIDs.event"
 #include "ChapterTextStuffs.event"
 

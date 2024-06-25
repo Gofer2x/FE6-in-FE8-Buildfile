@@ -1,0 +1,29 @@
+#define WaterwalkingInfantryMovementCost 0x80B808
+#define PromotedCavalryMovementCost 0x80BAD3
+#define CavalryMovementCost 0x80BA92
+#define ArmorMovementCost 0x80B88A
+#define ThiefMovementCost 0x80B9CF
+#define MageMovementCost 0x80BA10
+#define FlierMovementCost 0x80BB96
+#define FighterWarriorMovementCost 0x80B8CB
+#define OtherInfantryMovementCost 0x80B849
+#define BrigandMovementCost 0x80B94D
+#define PirateMovementCost 0x80B98E
+#define BerserkerMovementCost 0x807110
+#define CivillianMovementCost 0x80BA51
+
+//idc about rain or snow lol
+
+#define TerrainAvoNormal 0x80C479
+#define TerrainAvoFlier 0x80C53C
+
+#define TerrainDefNormal 0x80C4BA
+#define TerrainDefFlier 0x80C57D
+
+#define TerrainResNormal 0x80C4FB
+#define TerrainResFlier 0x80C5BE
+
+#define TerrainHealingAll 0x80C744
+#define TerrainRecoveryBadStatusAll 0x80C785
+#define TerrainDisplayInfoAll 0x80B90C
+#define BallistaMovCost 0x80BC18

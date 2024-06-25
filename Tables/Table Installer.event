@@ -6,7 +6,7 @@
 
 #include "Character and Class\CharacterTable.event"
 
-#include "Character and Class\FE8 Class Editor.event"
+#include "Character and Class\ClassTable.event"
 
 #include "Item\FE8 Custom Item Animation List.event"
 

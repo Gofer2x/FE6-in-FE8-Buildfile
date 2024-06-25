@@ -63,7 +63,7 @@ ENUN
 ENDA
 
 EndingScene:
-MoveToChapter(1)
+MoveToChapter(CHAPTER_Ch3)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

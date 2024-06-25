@@ -3,7 +3,7 @@
 
 #include EAstdlib.event
 
-EventPointerTable(EVENTS_Ch3,ThisChapter)
+EventPointerTable(EVENTS_Ch4,ThisChapter)
 
 ALIGN 4
 
@@ -63,7 +63,7 @@ ENUN
 ENDA
 
 EndingScene:
-MoveToChapter(CHAPTER_Ch4)
+MoveToChapter(CHAPTER_Ch5)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

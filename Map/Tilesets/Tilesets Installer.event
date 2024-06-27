@@ -2,4 +2,6 @@
 #include "Village/Installer.event"
 #include "Fort/Installer.event"
 #include "Castle/Installer.event"
+#include "Frontier/Installer.event"
+#include "FrontierVillage/Installer.event"
 #include "FrontierCastle/Installer.event"

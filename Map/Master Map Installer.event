@@ -13,6 +13,18 @@
 #include "Chapter 1\Chapter1.event"
 }
 {
+#include "Chapter 10A\Chapter10A.event"
+}
+{
+#include "Chapter 10B\Chapter10B.event"
+}
+{
+#include "Chapter 11A\Chapter11A.event"
+}
+{
+#include "Chapter 11B\Chapter11B.event"
+}
+{
 #include "Chapter 2\Chapter2.event"
 }
 {
@@ -35,4 +47,7 @@
 }
 {
 #include "Chapter 8x\Chapter8x.event"
+}
+{
+#include "Chapter 9\Chapter9.event"
 }

@@ -152,6 +152,7 @@ CONFIG_Village
 CONFIG_Fort 
 CONFIG_Castle 
 CONFIG_Frontier 
+CONFIG_FrontierVillage 
 CONFIG_FrontierCastle 
 CONFIG_Desert 
 CONFIG_Cave 

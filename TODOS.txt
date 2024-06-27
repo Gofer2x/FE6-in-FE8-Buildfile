@@ -27,6 +27,9 @@ bard and dancer
 music:
 all of it.
 
+maps:
+tile change names in the western isles village chapters
+
 
 patches:
 mainly easy to install stuff that changes things like the convoy character. leave all the advanced stuff to the experts.

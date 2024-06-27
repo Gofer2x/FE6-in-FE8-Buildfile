@@ -27,3 +27,18 @@
 {
 #include "Chapter8x.event"
 }
+{
+#include "Chapter9.event"
+}
+{
+#include "Chapter10A.event"
+}
+{
+#include "Chapter11A.event"
+}
+{
+#include "Chapter10B.event"
+}
+{
+#include "Chapter11B.event"
+}

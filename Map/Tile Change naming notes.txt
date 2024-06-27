@@ -1,0 +1,24 @@
+I will be describing chests, but this applies to stuff like villages and houses too.
+
+If there is no confusion as to what location of the tile change is, a simple description is fine.
+E.g. there is only one chest on the map. Therefore naming its tile change "ChestOpened" is fine.
+
+If there are multiple chests in a horizontal column, let's say 3, name them like "LeftChestOpened", "MiddleChestOpened", "RightChestOpened".
+
+If there are multiple locations containing chests, describe the locations appropriately.
+E.g. "EastTreasureRoomChestOpened", "WestTreasureRoomTopChestOpened"...
+
+If there is a more complicated arrangement, just number them from top left to bottom right.
+E.g. there are 8 chests in this formation.
+
+C   C   C
+  C   C
+C   C   C
+
+Number them as follows:
+
+1   2   3
+  4   5  
+6   7   8
+
+For map directions such as East and North, they can be replaced with "Top" or "Left" if appropriate. E.g. there are two treasure rooms, both located near top of the map. Then it's fine to describe them as "NorthLeftTreasureRoom" and "NorthRightTreasureRoom."

@@ -642,7 +642,7 @@
    <tile gid="214"/>
   </data>
  </layer>
- <layer id="2" name="SouthVillageDestroyed" width="24" height="26" visible="0">
+ <layer id="2" name="SouthWestVillageDestroyed" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="0"/>
@@ -1277,7 +1277,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="LeftVillageDestroyed" width="24" height="26" visible="0">
+ <layer id="3" name="NorthLeftVillageDestroyed" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="1"/>
@@ -1912,7 +1912,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="RightVillageDestroyed" width="24" height="26" visible="0">
+ <layer id="4" name="NorthRightVillageDestroyed" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="2"/>
@@ -2547,7 +2547,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="SouthVillageVisited" width="24" height="26" visible="0">
+ <layer id="5" name="SouthWestVillageVisited" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
@@ -3182,7 +3182,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="LeftVillageVisited" width="24" height="26" visible="0">
+ <layer id="6" name="NorthLeftVillageVisited" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
@@ -3817,7 +3817,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="RightVillageVisited" width="24" height="26" visible="0">
+ <layer id="7" name="NorthRightVillageVisited" width="24" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>

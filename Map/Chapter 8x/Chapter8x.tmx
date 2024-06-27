@@ -694,7 +694,7 @@
    <tile gid="725"/>
   </data>
  </layer>
- <layer id="2" name="DummyMapChange8x" width="26" height="26">
+ <layer id="2" name="DummyMapChange" width="26" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>

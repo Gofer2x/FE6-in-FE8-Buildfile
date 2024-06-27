@@ -642,7 +642,7 @@
    <tile gid="794"/>
   </data>
  </layer>
- <layer id="2" name="WestSouthmostRoomOpened" width="26" height="24" visible="0">
+ <layer id="2" name="SouthmostWestRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="5"/>
    <property name="ID" value="0"/>
@@ -1277,7 +1277,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="WestSouthRoomOpened" width="26" height="24" visible="0">
+ <layer id="3" name="SouthWestRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="6"/>
    <property name="ID" value="1"/>
@@ -1912,7 +1912,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="WestNorthRoomOpened" width="26" height="24" visible="0">
+ <layer id="4" name="NorthWestRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="5"/>
    <property name="ID" value="2"/>
@@ -2547,7 +2547,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="WestNorthmostRoomOpened" width="26" height="24" visible="0">
+ <layer id="5" name="NorthmostWestRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="3"/>
@@ -3182,7 +3182,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="WestNorthmostRoomDoorOpened" width="26" height="24" visible="0">
+ <layer id="6" name="NorthmostWestRoomDoorOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
@@ -3817,7 +3817,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="EastNorthmostRoomDoorOpened" width="26" height="24" visible="0">
+ <layer id="7" name="NorthmostEastRoomDoorOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -4452,7 +4452,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="EastNorthmostRoomOpened" width="26" height="24">
+ <layer id="8" name="NorthmostEastRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="6"/>
@@ -5087,7 +5087,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="9" name="EastNorthRoomOpened" width="26" height="24" visible="0">
+ <layer id="9" name="NorthEastRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="5"/>
    <property name="ID" value="7"/>
@@ -5722,7 +5722,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="10" name="EastSouthRoomOpened" width="26" height="24" visible="0">
+ <layer id="10" name="SouthEastRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="6"/>
    <property name="ID" value="8"/>
@@ -6357,7 +6357,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="11" name="EastSouthmostRoomOpened" width="26" height="24" visible="0">
+ <layer id="11" name="SouthmostEastRoomOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="5"/>
    <property name="ID" value="9"/>
@@ -6992,7 +6992,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="12" name="WestSouthRoomBottomChestOpened" width="26" height="24" visible="0">
+ <layer id="12" name="SouthWestRoomBottomChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="10"/>
@@ -7627,7 +7627,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="13" name="WestSouthRoomTopChestOpened" width="26" height="24" visible="0">
+ <layer id="13" name="SouthWestRoomTopChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="11"/>
@@ -8262,7 +8262,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="14" name="WestNorthmostRoomChestOpened" width="26" height="24" visible="0">
+ <layer id="14" name="NorthmostWestRoomChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="12"/>
@@ -8897,7 +8897,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="15" name="EastNorthRoomTopChestOpened" width="26" height="24" visible="0">
+ <layer id="15" name="NorthEastRoomTopChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="13"/>
@@ -9532,7 +9532,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="16" name="EastNorthRoomMiddleChestOpened" width="26" height="24" visible="0">
+ <layer id="16" name="NorthEastRoomMiddleChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="14"/>
@@ -10167,7 +10167,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="17" name="EastNorthRoomBottomChestOpened" width="26" height="24" visible="0">
+ <layer id="17" name="NorthEastRoomBottomChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="15"/>
@@ -10802,7 +10802,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="18" name="EastSouthRoomTopChestOpened" width="26" height="24" visible="0">
+ <layer id="18" name="SouthEastRoomTopChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="16"/>
@@ -11437,7 +11437,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="19" name="EastSouthRoomBottomChestOpened" width="26" height="24" visible="0">
+ <layer id="19" name="SouthEastRoomBottomChestOpened" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="17"/>
@@ -12072,7 +12072,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="20" name="WestNorthRoomDoorShadow" width="26" height="24" visible="0">
+ <layer id="20" name="NorthWestRoomDoorShadow" width="26" height="24" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="18"/>

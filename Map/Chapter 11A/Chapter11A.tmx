@@ -798,7 +798,7 @@
    <tile gid="588"/>
   </data>
  </layer>
- <layer id="2" name="Map Change 0" width="30" height="26">
+ <layer id="2" name="House4Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0"/>
@@ -1589,7 +1589,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="Map Change 1" width="30" height="26">
+ <layer id="3" name="House7Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="1"/>
@@ -2380,7 +2380,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="Map Change 2" width="30" height="26">
+ <layer id="4" name="House8Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
@@ -3171,7 +3171,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="Map Change 3" width="30" height="26">
+ <layer id="5" name="House5Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
@@ -3962,7 +3962,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="Map Change 4" width="30" height="26">
+ <layer id="6" name="House6Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="4"/>
@@ -4753,7 +4753,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="Map Change 5" width="30" height="26">
+ <layer id="7" name="House3Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="5"/>
@@ -5544,7 +5544,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="Map Change 6" width="30" height="26">
+ <layer id="8" name="House1Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="6"/>
@@ -6335,7 +6335,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="9" name="Map Change 7" width="30" height="26">
+ <layer id="9" name="House2Destroyed" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="7"/>
@@ -7126,7 +7126,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="10" name="Map Change 8" width="30" height="26">
+ <layer id="10" name="NorthWallBroken" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="8"/>
@@ -7917,7 +7917,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="11" name="Map Change 9" width="30" height="26">
+ <layer id="11" name="SouthWallBroken" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
@@ -8708,7 +8708,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="12" name="Map Change 10" width="30" height="26">
+ <layer id="12" name="House7Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="10"/>
@@ -9499,7 +9499,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="13" name="Map Change 11" width="30" height="26">
+ <layer id="13" name="House8Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="11"/>
@@ -10290,7 +10290,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="14" name="Map Change 12" width="30" height="26">
+ <layer id="14" name="House4Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="12"/>
@@ -11081,7 +11081,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="15" name="Map Change 13" width="30" height="26">
+ <layer id="15" name="House5Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="13"/>
@@ -11872,7 +11872,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="16" name="Map Change 14" width="30" height="26">
+ <layer id="16" name="House6Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="14"/>
@@ -12663,7 +12663,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="17" name="Map Change 15" width="30" height="26">
+ <layer id="17" name="House3Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="15"/>
@@ -13454,7 +13454,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="18" name="Map Change 16" width="30" height="26">
+ <layer id="18" name="House1Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="16"/>
@@ -14245,7 +14245,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="19" name="Map Change 17" width="30" height="26">
+ <layer id="19" name="House2Visited" width="30" height="26" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="17"/>

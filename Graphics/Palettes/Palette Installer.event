@@ -6,3 +6,27 @@ ALIGN 4
 Marcus_Paladin:
 	#incbin "./_palettes/Marcus_Paladin.lzpal" 
 
+Alen_Cavalier:
+	#incbin "./_palettes/Alen_Cavalier.lzpal" 
+
+Alen_Paladin:
+	#incbin "./_palettes/Alen_Paladin.lzpal" 
+
+Lance_Cavalier:
+	#incbin "./_palettes/Lance_Cavalier.lzpal" 
+
+Lance_Paladin:
+	#incbin "./_palettes/Lance_Paladin.lzpal" 
+
+Wolt_Archer:
+	#incbin "./_palettes/Wolt_Archer.lzpal" 
+
+Wolt_Sniper:
+	#incbin "./_palettes/Wolt_Sniper.lzpal" 
+
+Bors_Knight:
+	#incbin "./_palettes/Bors_Knight.lzpal" 
+
+Bors_General:
+	#incbin "./_palettes/Bors_General.lzpal" 
+

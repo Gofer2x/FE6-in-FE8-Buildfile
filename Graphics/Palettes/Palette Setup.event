@@ -5,5 +5,37 @@
 #include "Palette Installer.event"
 
 // Marcus_Paladin
-	setPalette(1,Marcus_Paladin)
-	setCBSP(1,Marcus, 3, Paladin)
+	setPalette(2,Marcus_Paladin)
+	setCBSP(2,Marcus, 3, Paladin)
+
+// Alen_Cavalier
+	setPalette(3,Alen_Cavalier)
+	setCBSP(3,Alen, 1, Cavalier)
+
+// Alen_Paladin
+	setPalette(4,Alen_Paladin)
+	setCBSP(4,Alen, 3, Paladin)
+
+// Lance_Cavalier
+	setPalette(5,Lance_Cavalier)
+	setCBSP(5,Lance, 1, Cavalier)
+
+// Lance_Paladin
+	setPalette(6,Lance_Paladin)
+	setCBSP(6,Lance, 3, Paladin)
+
+// Wolt_Archer
+	setPalette(7,Wolt_Archer)
+	setCBSP(7,Wolt, 1, Archer)
+
+// Wolt_Sniper
+	setPalette(8,Wolt_Sniper)
+	setCBSP(8,Wolt, 3, Sniper)
+
+// Bors_Knight
+	setPalette(9,Bors_Knight)
+	setCBSP(9,Bors, 1, Knight)
+
+// Bors_General
+	setPalette(10,Bors_General)
+	setCBSP(10,Bors, 3, General)

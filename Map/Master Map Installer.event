@@ -33,3 +33,6 @@
 {
 #include "Chapter 8\Chapter8.event"
 }
+{
+#include "Chapter 8x\Chapter8x.event"
+}

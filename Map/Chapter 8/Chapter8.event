@@ -8,55 +8,55 @@ Map:
 #incbin "Chapter8_data.dmp"
 
 MapChanges:
-TileMap(0,0,9,1,1,LeftTreasureRoomChest1Open)
-TileMap(1,1,10,1,1,LeftTreasureRoomChest2Open)
-TileMap(2,0,11,1,1,LeftTreasureRoomChest3Open)
-TileMap(3,1,12,1,1,LeftTreasureRoomChest4Open)
-TileMap(4,8,9,1,1,RightTreasureRoomChest1Open)
-TileMap(5,9,10,1,1,RightTreasureRoomChest3Open)
-TileMap(6,10,9,1,1,RightTreasureRoomChest2Open)
-TileMap(7,11,10,1,1,RightTreasureRoomChest4Open)
-TileMap(8,0,15,3,2,LeftTreasureRoomDoorOpen)
+TileMap(0,0,9,1,1,LeftTreasureRoomChest1Opened)
+TileMap(1,1,10,1,1,LeftTreasureRoomChest2Opened)
+TileMap(2,0,11,1,1,LeftTreasureRoomChest3Opened)
+TileMap(3,1,12,1,1,LeftTreasureRoomChest4Opened)
+TileMap(4,8,9,1,1,RightTreasureRoomChest1Opened)
+TileMap(5,9,10,1,1,RightTreasureRoomChest3Opened)
+TileMap(6,10,9,1,1,RightTreasureRoomChest2Opened)
+TileMap(7,11,10,1,1,RightTreasureRoomChest4Opened)
+TileMap(8,0,15,3,2,LeftTreasureRoomDoorOpened)
 TileMap(9,6,0,2,2,ScrubSquadWallBroken)
-TileMap(10,6,7,2,4,RightTreasureRoomLeftDoorOpen)
-TileMap(11,13,8,2,4,RightTreasureRoomRightDoorOpen)
-TileMap(12,18,12,1,1,LilinaRoomDoorOpen)
+TileMap(10,6,7,2,4,RightTreasureRoomLeftDoorOpened)
+TileMap(11,13,8,2,4,RightTreasureRoomRightDoorOpened)
+TileMap(12,18,12,1,1,LilinaRoomDoorOpened)
 TileMap(13,19,10,2,2,LilinaRoomWallBroken)
 TileMapEnd
 
-LeftTreasureRoomChest1Open:
+LeftTreasureRoomChest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-LeftTreasureRoomChest2Open:
+LeftTreasureRoomChest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-LeftTreasureRoomChest3Open:
+LeftTreasureRoomChest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-LeftTreasureRoomChest4Open:
+LeftTreasureRoomChest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-RightTreasureRoomChest1Open:
+RightTreasureRoomChest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-RightTreasureRoomChest3Open:
+RightTreasureRoomChest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-RightTreasureRoomChest2Open:
+RightTreasureRoomChest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-RightTreasureRoomChest4Open:
+RightTreasureRoomChest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-LeftTreasureRoomDoorOpen:
+LeftTreasureRoomDoorOpened:
 SHORT 0x8a4 0xb40 0x8a0 0x0 0xb44 0x0 
 ALIGN 4
 
@@ -64,15 +64,15 @@ ScrubSquadWallBroken:
 SHORT 0x7a8 0x0 0xb48 0xb44 
 ALIGN 4
 
-RightTreasureRoomLeftDoorOpen:
+RightTreasureRoomLeftDoorOpened:
 SHORT 0x748 0x0 0x7c8 0x0 0xce0 0xcd8 0x728 0x0 
 ALIGN 4
 
-RightTreasureRoomRightDoorOpen:
+RightTreasureRoomRightDoorOpened:
 SHORT 0x748 0x0 0x7c8 0x0 0xce0 0xcd4 0x7ac 0x0 
 ALIGN 4
 
-LilinaRoomDoorOpen:
+LilinaRoomDoorOpened:
 SHORT 0xcd0 
 ALIGN 4
 

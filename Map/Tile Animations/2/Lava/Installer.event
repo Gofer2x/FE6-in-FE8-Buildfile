@@ -1,0 +1,65 @@
+ALIGN 4
+TILEANIM2_LavaColors0:
+#incbin "LavaColors0.dmp"
+ALIGN 4
+TILEANIM2_LavaColors1:
+#incbin "LavaColors1.dmp"
+ALIGN 4
+TILEANIM2_LavaColors2:
+#incbin "LavaColors2.dmp"
+ALIGN 4
+TILEANIM2_LavaColors3:
+#incbin "LavaColors3.dmp"
+ALIGN 4
+TILEANIM2_LavaColors4:
+#incbin "LavaColors4.dmp"
+ALIGN 4
+TILEANIM2_LavaColors5:
+#incbin "LavaColors5.dmp"
+ALIGN 4
+TILEANIM2_LavaColors6:
+#incbin "LavaColors6.dmp"
+ALIGN 4
+TILEANIM2_LavaColors7:
+#incbin "LavaColors7.dmp"
+ALIGN 4
+TILEANIM2_LavaColors8:
+#incbin "LavaColors8.dmp"
+ALIGN 4
+TILEANIM2_LavaColors9:
+#incbin "LavaColors9.dmp"
+ALIGN 4
+TILEANIM2_LavaColors10:
+#incbin "LavaColors10.dmp"
+ALIGN 4
+TILEANIM2_LavaColors11:
+#incbin "LavaColors11.dmp"
+ALIGN 4
+TILEANIM2_LavaColors12:
+#incbin "LavaColors12.dmp"
+ALIGN 4
+TILEANIM2_LavaColors13:
+#incbin "LavaColors13.dmp"
+ALIGN 4
+TILEANIM2_LavaColors14:
+#incbin "LavaColors14.dmp"
+
+ALIGN 4
+TILEANIM2_LavaRawData:
+paletteAnimation(TILEANIM2_LavaColors0, 19, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors1, 18, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors2, 17, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors3, 16, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors4, 16, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors5, 16, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors6, 17, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors7, 18, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors8, 19, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors9, 18, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors10, 17, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors11, 16, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors12, 16, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors13, 17, 4, 60, 0)
+paletteAnimation(TILEANIM2_LavaColors14, 18, 4, 60, 0)
+
+EventPointerTable(TILEANIM2_Lava,TILEANIM2_LavaRawData)

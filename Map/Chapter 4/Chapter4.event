@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(CHAPTER_Ch4,OBJ_Fields,0,PAL_Fields,CONFIG_Fields,MAP_Ch4,Map,TILEANIM_Water,0,MAPCHANGES_Ch4)
+SetChapterData(CHAPTER_Ch4,OBJ_Fields,0,PAL_Fields,CONFIG_Fields,MAP_Ch4,Map,TILEANIM1_Water,0,MAPCHANGES_Ch4)
 EventPointerTable(MAPCHANGES_Ch4, MapChanges)
 Map:
 #incbin "Chapter4_data.dmp"

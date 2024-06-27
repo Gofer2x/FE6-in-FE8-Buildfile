@@ -187,10 +187,10 @@ PAL_Mountainous
 PAL_Stronghold 
 PAL_TempleDragon 
 PAL_TempleLight 
-TILEANIM_Water 
-TILEANIM_Snow1 
-TILEANIM_Stronghold1 
-TILEANIM_Endgame 
-TILEANIM_Snow2 
-TILEANIM_Firey 
-TILEANIM_Stronghold2 
+TILEANIM1_Water 
+TILEANIM1_Snow
+TILEANIM1_Stronghold
+TILEANIM1_Endgame 
+TILEANIM2_Snow
+TILEANIM2_Lava
+TILEANIM2_Stronghold

@@ -1,7 +1,0 @@
-#define OBJ_Fields 0x01
-#define PAL_Fields 0x02
-#define CONFIG_Fields 0x03
-#define MAP_Ch1 0x04
-#define TILEANIM_Water 0x05
-#define MAPCHANGES_Ch1 0x06
-#define EVENTS_Ch1 0x07

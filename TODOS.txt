@@ -30,3 +30,83 @@ all of it.
 
 patches:
 mainly easy to install stuff that changes things like the convoy character. leave all the advanced stuff to the experts.
+
+
+new class list:
+lord
+master lord
+mercenary
+	blank
+hero
+hero f
+myrm
+myrm f
+swordmaster
+swordmaster f
+fighter
+	blank
+warrior
+	blank
+brigand
+	blank
+pirate
+	blank
+berserker
+	blank
+soldier
+	blank
+	blank
+	blank
+knight
+knight f
+general
+general f
+archer
+archer f
+sniper
+sniper f
+thief
+thief f
+cavalier
+	blank
+paladin
+	blank
+nomad
+nomad f
+nomad trp
+nomad trp f
+priest
+cleric (f)
+bishop
+bishop f
+troubadour
+valkyrie
+mage
+mage f
+sage
+sage f
+shaman
+shaman f
+druid
+druid f
+pegasus knight
+falcoknight
+wyvern rider
+wyvern rider f
+wyvern lord
+wyvern lord f
+
+bard
+dancer
+transporter
+manakete (fire)
+manakete (fae)
+fire dragon
+divine dragon
+king
+demon dragon
+
+civillian
+civillian f
+
+ballista stuff?

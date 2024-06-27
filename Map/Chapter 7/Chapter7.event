@@ -16,9 +16,9 @@ TileMap(4,12,17,3,2,EastHouse3Destroyed)
 TileMap(5,14,20,3,2,EastHouse4Destroyed)
 TileMap(6,18,20,3,2,EastHouse5Destroyed)
 TileMap(7,12,23,3,2,EastHouse6Destroyed)
-TileMap(8,4,8,2,1,GateOpen)
-TileMap(9,18,1,1,1,LeftChestOpen)
-TileMap(10,20,1,1,1,RightChestOpen)
+TileMap(8,4,8,2,1,GateOpened)
+TileMap(9,18,1,1,1,LeftChestOpened)
+TileMap(10,20,1,1,1,RightChestOpened)
 TileMap(11,1,18,1,1,WestTopHouseVisited)
 TileMap(12,1,24,1,1,WestBottomHouseVisited)
 TileMap(13,15,15,1,1,EastHouse1Visited)
@@ -27,7 +27,7 @@ TileMap(15,13,18,1,1,EastHouse3Visited)
 TileMap(16,15,21,1,1,EastHouse4Visited)
 TileMap(17,19,21,1,1,EastHouse5Visited)
 TileMap(18,13,24,1,1,EastHouse6Visited)
-TileMap(19,17,3,1,1,ChestRoomDoorOpen)
+TileMap(19,17,3,1,1,ChestRoomDoorOpened)
 TileMapEnd
 
 WestTopHouseDestroyed:
@@ -62,15 +62,15 @@ EastHouse6Destroyed:
 SHORT 0x44 0x48 0x38 0xc4 0xc8 0xb8 
 ALIGN 4
 
-GateOpen:
+GateOpened:
 SHORT 0xb64 0xb68 
 ALIGN 4
 
-LeftChestOpen:
+LeftChestOpened:
 SHORT 0x4 
 ALIGN 4
 
-RightChestOpen:
+RightChestOpened:
 SHORT 0x4 
 ALIGN 4
 
@@ -106,7 +106,7 @@ EastHouse6Visited:
 SHORT 0x80 
 ALIGN 4
 
-ChestRoomDoorOpen:
+ChestRoomDoorOpened:
 SHORT 0xcd0 
 ALIGN 4
 

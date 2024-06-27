@@ -1,0 +1,34 @@
+ALIGN 4
+TILEANIM2_SnowColors0:
+#incbin "SnowColors0.dmp"
+ALIGN 4
+TILEANIM2_SnowColors1:
+#incbin "SnowColors1.dmp"
+ALIGN 4
+TILEANIM2_SnowColors2:
+#incbin "SnowColors2.dmp"
+ALIGN 4
+TILEANIM2_SnowColors3:
+#incbin "SnowColors3.dmp"
+ALIGN 4
+TILEANIM2_SnowColors4:
+#incbin "SnowColors4.dmp"
+ALIGN 4
+TILEANIM2_SnowColors5:
+#incbin "SnowColors5.dmp"
+ALIGN 4
+TILEANIM2_SnowColors6:
+#incbin "SnowColors6.dmp"
+
+ALIGN 4
+TILEANIM2_SnowRawData:
+paletteAnimation(TILEANIM2_SnowColors0, 61, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors0, 61, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors1, 3, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors2, 4, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors3, 5, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors4, 4, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors5, 3, 4, 60, 0)
+paletteAnimation(TILEANIM2_SnowColors6, 2, 4, 60, 0)
+
+EventPointerTable(TILEANIM2_Snow,TILEANIM2_SnowRawData)

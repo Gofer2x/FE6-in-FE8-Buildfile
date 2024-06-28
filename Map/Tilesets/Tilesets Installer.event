@@ -6,3 +6,4 @@
 #include "FrontierVillage/Installer.event"
 #include "FrontierCastle/Installer.event"
 #include "DesertAndCave/Installer.event"
+#include "Temple/Installer.event"

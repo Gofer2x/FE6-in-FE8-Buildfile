@@ -46,6 +46,9 @@
 #include "Chapter 16\Chapter16.event"
 }
 {
+#include "Chapter 16x\Chapter16x.event"
+}
+{
 #include "Chapter 2\Chapter2.event"
 }
 {

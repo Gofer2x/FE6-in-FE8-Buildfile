@@ -28,8 +28,7 @@ music:
 all of it.
 
 maps:
-ch12x is fucked up. is it the tileset? it's a weird one, because the obj is used for both desert (14) and cave (12x) maps with their own respective chipsets and palettes. i dumped them just like the rest but they seem broken. something to look into later.
-ch13's map is also bungled. the fe6 ch13 uses map object 2 for something, and idk how work with it. also something to look into.
+ch13's map is bungled. the fe6 ch13 uses map object 2 for something, and idk how work with it. something to look into.
 
 patches:
 mainly easy to install stuff that changes things like the convoy character. leave all the advanced stuff to the experts.

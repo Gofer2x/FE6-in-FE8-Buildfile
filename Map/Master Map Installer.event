@@ -40,6 +40,12 @@
 #include "Chapter 14x\Chapter14x.event"
 }
 {
+#include "Chapter 15\Chapter15.event"
+}
+{
+#include "Chapter 16\Chapter16.event"
+}
+{
 #include "Chapter 2\Chapter2.event"
 }
 {

@@ -189,6 +189,7 @@ PAL_Stronghold
 PAL_TempleDragon 
 PAL_TempleLight 
 TILEANIM1_Water 
+TILEANIM1_WaterInside 
 TILEANIM1_Snow
 TILEANIM1_Stronghold
 TILEANIM1_Endgame 

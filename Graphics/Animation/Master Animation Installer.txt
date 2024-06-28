@@ -7,24 +7,9 @@
   #endif
 #endif
 
-#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
-#define animSword 0
-#define animLance 1
-#define animAxe 2
-#define animBow 3
-#define animStaff 4
-#define animAnima 5
-#define animLight 6
-#define animDark 7
-#define animNone 9
-#define weaponTypeAnim(weaponType, ID) "BYTE weaponType 1 ID 0;"
-#define weaponAnim(weaponID, ID) "BYTE weaponID 0 ID 0;"
-#define weaponAnimEnd "WORD 0"
-#define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
+#include "Animation Definitions.event"
 
-#define RoyLord_SwordAnim 0x1
-#define RoyLord_BindingBladeAnim 0x2
-#define RoyLord_UnarmedAnim 0x3
+
 
 //////////////Installed animations go here:
   {
@@ -34,9 +19,85 @@
   #include "RoyLord\Sword BB Installer.event"
   #include "RoyLord\Unarmed Installer.event"
   }
-  
+  {
+  #include "Paladin\Axe Installer.event"
+  #include "Paladin\Handaxe Installer.event"
+  }
+  {
+  #include "PaladinF\Axe Installer.event"
+  #include "PaladinF\Handaxe Installer.event"
+  }
+  {
+  #include "ThiefF\Sword Installer.event"
+  #include "ThiefF\Unarmed Installer.event"
+  }
+  {
+  #include "Nomad\Bow Installer.event"
+  #include "Nomad\Unarmed Installer.event"
+  }
+  {
+  #include "NomadF\Bow Installer.event"
+  #include "NomadF\Unarmed Installer.event"
+  }
+  {
+  #include "NomadTrooper\Bow Installer.event"
+  #include "NomadTrooper\Sword Installer.event"
+  #include "NomadTrooper\Unarmed Installer.event"
+  }
+  {
+  #include "NomadTrooperF\Bow Installer.event"
+  #include "NomadTrooperF\Sword Installer.event"
+  #include "NomadTrooperF\Unarmed Installer.event"
+  }
+
+
+ALIGN 4
 RoyLordAnims:
-weaponTypeAnim(animSword, RoyLord_SwordAnim)
-weaponAnim(SteelSword, RoyLord_BindingBladeAnim)
-weaponTypeAnim(animNone, RoyLord_UnarmedAnim)
-weaponAnimEnd
+SwordAnim(RoyLord_SwordAnim)
+SpecialAnim(RoyLord_BindingBladeAnim, SteelSword)
+UnarmedAnim(RoyLord_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+PaladinAnims:
+SwordAnim(Paladin_SwordAnim)
+LanceAnim(Paladin_LanceAnim)
+AxeAnim(Paladin_AxeAnim)
+HandAxeAnim(Paladin_HandAxeAnim)
+UnarmedAnim(Paladin_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+PaladinFAnims:
+SwordAnim(PaladinF_SwordAnim)
+LanceAnim(PaladinF_LanceAnim)
+AxeAnim(PaladinF_AxeAnim)
+HandAxeAnim(PaladinF_HandAxeAnim)
+UnarmedAnim(PaladinF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadAnims:
+BowAnim(Nomad_BowAnim)
+UnarmedAnim(Nomad_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadFAnims:
+BowAnim(NomadF_BowAnim)
+UnarmedAnim(NomadF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooperAnims:
+BowAnim(NomadTrooper_BowAnim)
+SwordAnim(NomadTrooper_SwordAnim)
+UnarmedAnim(NomadTrooper_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooperFAnims:
+BowAnim(NomadTrooperF_BowAnim)
+SwordAnim(NomadTrooperF_SwordAnim)
+UnarmedAnim(NomadTrooperF_UnarmedAnim)
+EndAnim

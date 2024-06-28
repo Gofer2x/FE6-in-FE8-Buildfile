@@ -1,9 +1,9 @@
 Well, I'm having trouble expanding the animation table. When I set it up, it either doesn't work (the table isn't expanded) or when it does, all animations I insert have an offset of +1.
 Let's just overwrite parts of the vanilla list for now.
 
-0x01 Ephraim -> Roy Sword
-0x02 Ephraim Disarmed -> Roy Binding Blade
-0x03 Eirika -> Roy Unarmed
+0x01 Ephraim -> RoyLord_SwordAnim
+0x02 Ephraim Disarmed -> RoyLord_BindingBladeAnim
+0x03 Eirika -> RoyLord_UnarmedAnim
 0x04 Eirika Disarmed
 0x05 Great Lord Ephraim
 0x06 Eirika
@@ -12,22 +12,22 @@ Let's just overwrite parts of the vanilla list for now.
 0x09 Eirika
 0x0A Great Lord Eirika Disarmed
 
-0xA0 Zombie
-0xA1 Mummy
-0xA2 Skeleton w/ Sword
-0xA3 Skeleton w/ Spear
-0xA4 Skeleton Disarmed
-0xA5 Skeleton w/ Bow
-0xA6 Skeleton Disarmed
-0xA7 Hellbone w/ Sword
-0xA8 Hellbone w/ Spear
-0xA9 Hellbone Disarmed
-0xAA Hellbone w/ Bow
-0xAB Hellbone Disarmed
-0xAC Bael
-0xAD Elder Bael
-0xAE Cyclops
-0xAF Cyclops w/ Hand Axe
+0xA0 Zombie -> Paladin_AxeAnim
+0xA1 Mummy -> Paladin_HandAxeAnim
+0xA2 Skeleton w/ Sword -> PaladinF_AxeAnim
+0xA3 Skeleton w/ Spear -> PaladinF_HandAxeAnim
+0xA4 Skeleton Disarmed -> ThiefF_SwordAnim
+0xA5 Skeleton w/ Bow -> ThiefF_UnarmedAnim
+0xA6 Skeleton Disarmed -> Nomad_BowAnim
+0xA7 Hellbone w/ Sword -> Nomad_UnarmedAnim
+0xA8 Hellbone w/ Spear -> NomadF_BowAnim
+0xA9 Hellbone Disarmed -> NomadF_UnarmedAnim
+0xAA Hellbone w/ Bow -> NomadTrooper_BowAnim
+0xAB Hellbone Disarmed -> NomadTrooper_SwordAnim
+0xAC Bael -> NomadTrooper_UnarmedAnim
+0xAD Elder Bael -> NomadTrooperF_BowAnim
+0xAE Cyclops -> NomadTrooperF_SwordAnim
+0xAF Cyclops w/ Hand Axe -> NomadTrooperF_UnarmedAnim
 0xB0 Cyclops Disarmed
 0xB1 Mauthedoog
 0xB2 Cerberus

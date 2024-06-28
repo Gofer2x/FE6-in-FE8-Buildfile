@@ -9,6 +9,7 @@
 
 #include "1/Water/Installer.event"
 #include "1/WaterInside/Installer.event"
+#include "1/Snow/Installer.event"
 
 #include "2/Lava/Installer.event"
 #include "2/Snow/Installer.event"

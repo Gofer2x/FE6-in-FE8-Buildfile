@@ -7,3 +7,5 @@
 #include "FrontierCastle/Installer.event"
 #include "DesertAndCave/Installer.event"
 #include "Temple/Installer.event"
+#include "Snow/Installer.event"
+#include "SnowCastle/Installer.event"

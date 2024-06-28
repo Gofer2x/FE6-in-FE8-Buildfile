@@ -10,9 +10,10 @@ bard and dancer
 
 animations:
 expand animation table?
+	tried it, had issues. maybe later.
 certainly don't remake the whole animations table, though. too big of a hassle. just keep track of all vanilla pointers and the ones i add.
 speaking of which,
-roy lord and master lord
+	roy lord and master lord
 axe for paladin
 female thief
 female hero
@@ -28,7 +29,6 @@ music:
 all of it.
 
 maps:
-tile change names in the western isles village chapters
 
 
 patches:
@@ -47,19 +47,11 @@ myrm f
 swordmaster
 swordmaster f
 fighter
-	blank
 warrior
-	blank
 brigand
-	blank
 pirate
-	blank
 berserker
-	blank
 soldier
-	blank
-	blank
-	blank
 knight
 knight f
 general

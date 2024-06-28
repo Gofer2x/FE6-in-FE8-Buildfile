@@ -7,8 +7,6 @@
   #endif
 #endif
 
-#include "NewAnimationsTable.event"
-
 #define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
 #define animSword 0
 #define animLance 1
@@ -24,6 +22,21 @@
 #define weaponAnimEnd "WORD 0"
 #define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
 
-//////////////Installed animations go here:
+#define RoyLord_SwordAnim 0x1
+#define RoyLord_BindingBladeAnim 0x2
+#define RoyLord_UnarmedAnim 0x3
 
-  #include "SalvCav\Sword Installer.event"
+//////////////Installed animations go here:
+  {
+  #include "RoyLord\Sword Installer.event"
+  }
+  {
+  #include "RoyLord\Sword BB Installer.event"
+  #include "RoyLord\Unarmed Installer.event"
+  }
+  
+RoyLordAnims:
+weaponTypeAnim(animSword, RoyLord_SwordAnim)
+weaponAnim(SteelSword, RoyLord_BindingBladeAnim)
+weaponTypeAnim(animNone, RoyLord_UnarmedAnim)
+weaponAnimEnd

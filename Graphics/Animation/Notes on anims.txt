@@ -1,0 +1,50 @@
+Well, I'm having trouble expanding the animation table. When I set it up, it either doesn't work (the table isn't expanded) or when it does, all animations I insert have an offset of +1.
+Let's just overwrite parts of the vanilla list for now.
+
+0x01 Ephraim -> Roy Sword
+0x02 Ephraim Disarmed -> Roy Binding Blade
+0x03 Eirika -> Roy Unarmed
+0x04 Eirika Disarmed
+0x05 Great Lord Ephraim
+0x06 Eirika
+0x07 Great Lord Ephraim Disarmed
+0x08 Great Lord Eirika
+0x09 Eirika
+0x0A Great Lord Eirika Disarmed
+
+0xA0 Zombie
+0xA1 Mummy
+0xA2 Skeleton w/ Sword
+0xA3 Skeleton w/ Spear
+0xA4 Skeleton Disarmed
+0xA5 Skeleton w/ Bow
+0xA6 Skeleton Disarmed
+0xA7 Hellbone w/ Sword
+0xA8 Hellbone w/ Spear
+0xA9 Hellbone Disarmed
+0xAA Hellbone w/ Bow
+0xAB Hellbone Disarmed
+0xAC Bael
+0xAD Elder Bael
+0xAE Cyclops
+0xAF Cyclops w/ Hand Axe
+0xB0 Cyclops Disarmed
+0xB1 Mauthedoog
+0xB2 Cerberus
+0xB3 Tarvos
+0xB4 Tarvos w/ Hand Axe
+0xB5 Tarvos Disarmed
+0xB6 Macdaire w/ Axe
+0xB7 Macdaire w/ Hand Axe
+0xB8 Macdaire w/ Bow
+0xB9 Macdaire Disarmed
+0xBA Bigl
+0xBB Arch Bigl
+0xBC Gorgon
+0xBD Gargoyle
+0xBE Gargoyle Disarmed
+0xBF Death Gargoyle
+0xC0 Death Gargoyle Disarmed
+0xC1 Zombie Dragon
+0xC2 Demon King w/ Ravager
+0xC3 Demon King w/ Demon Light

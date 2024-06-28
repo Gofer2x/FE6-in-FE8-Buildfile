@@ -8,90 +8,90 @@ Map:
 #incbin "Chapter10B_data.dmp"
 
 MapChanges:
-TileMap(0,3,7,3,2,Map_Change_0)
-TileMap(1,7,7,3,2,Map_Change_1)
-TileMap(2,4,12,3,2,Map_Change_2)
-TileMap(3,7,19,3,2,Map_Change_3)
-TileMap(4,17,10,3,2,Map_Change_4)
-TileMap(5,17,15,3,2,Map_Change_5)
-TileMap(6,16,22,3,2,Map_Change_6)
-TileMap(7,12,10,2,1,Map_Change_7)
-TileMap(8,18,18,2,1,Map_Change_8)
-TileMap(9,8,24,2,1,Map_Change_9)
-TileMap(10,4,8,1,1,Map_Change_10)
-TileMap(11,8,8,1,1,Map_Change_11)
-TileMap(12,5,13,1,1,Map_Change_12)
-TileMap(13,8,20,1,1,Map_Change_13)
-TileMap(14,18,11,1,1,Map_Change_14)
-TileMap(15,18,16,1,1,Map_Change_15)
-TileMap(16,17,23,1,1,Map_Change_16)
+TileMap(0,3,7,3,2,WestHouse1Destroyed)
+TileMap(1,7,7,3,2,WestHouse2Destroyed)
+TileMap(2,4,12,3,2,WestHouse3Destroyed)
+TileMap(3,7,19,3,2,WestHouse4Destroyed)
+TileMap(4,17,10,3,2,EastHouse1Destroyed)
+TileMap(5,17,15,3,2,EastHouse2Destroyed)
+TileMap(6,16,22,3,2,EastHouse3Destroyed)
+TileMap(7,12,10,2,1,NorthWallBroken)
+TileMap(8,18,18,2,1,EastWallBroken)
+TileMap(9,8,24,2,1,SouthWallBroken)
+TileMap(10,4,8,1,1,WestHouse1Visited)
+TileMap(11,8,8,1,1,WestHouse2Visited)
+TileMap(12,5,13,1,1,WestHouse3Visited)
+TileMap(13,8,20,1,1,WestHouse4Visited)
+TileMap(14,18,11,1,1,EastHouse1Visited)
+TileMap(15,18,16,1,1,EastHouse2Visited)
+TileMap(16,17,23,1,1,EastHouse3Visited)
 TileMapEnd
 
-Map_Change_0:
+WestHouse1Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_1:
+WestHouse2Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_2:
+WestHouse3Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_3:
+WestHouse4Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_4:
+EastHouse1Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_5:
+EastHouse2Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_6:
+EastHouse3Destroyed:
 SHORT 0x44 0x48 0x4c 0xc4 0xc8 0xcc 
 ALIGN 4
 
-Map_Change_7:
+NorthWallBroken:
 SHORT 0x7dc 0x284 
 ALIGN 4
 
-Map_Change_8:
+EastWallBroken:
 SHORT 0x7dc 0x284 
 ALIGN 4
 
-Map_Change_9:
+SouthWallBroken:
 SHORT 0x7dc 0x284 
 ALIGN 4
 
-Map_Change_10:
+WestHouse1Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_11:
+WestHouse2Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_12:
+WestHouse3Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_13:
+WestHouse4Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_14:
+EastHouse1Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_15:
+EastHouse2Visited:
 SHORT 0x80 
 ALIGN 4
 
-Map_Change_16:
+EastHouse3Visited:
 SHORT 0x80 
 ALIGN 4
 

@@ -138,7 +138,7 @@
 #define OBJ_Frontier 0x8A
 #define OBJ_FrontierVillage 0x8B
 #define OBJ_FrontierCastle 0x8C
-#define OBJ_DesertCave 0x8D
+#define OBJ_DesertAndCave 0x8D
 #define OBJ_Snow 0x8E
 #define OBJ_SnowCastle 0x8F
 #define OBJ_Plains 0x90

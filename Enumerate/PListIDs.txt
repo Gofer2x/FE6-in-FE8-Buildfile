@@ -138,7 +138,7 @@ OBJ_Castle
 OBJ_Frontier 
 OBJ_FrontierVillage 
 OBJ_FrontierCastle 
-OBJ_DesertCave 
+OBJ_DesertAndCave
 OBJ_Snow 
 OBJ_SnowCastle 
 OBJ_Plains 

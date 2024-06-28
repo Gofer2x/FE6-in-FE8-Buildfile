@@ -8,10 +8,10 @@ Map:
 #incbin "Chapter8x_data.dmp"
 
 MapChanges:
-TileMap(0,0,0,1,1,DummyMapChange8x)
+TileMap(0,0,0,1,1,DummyMapChange)
 TileMapEnd
 
-DummyMapChange8x:
+DummyMapChange:
 SHORT 0x0 
 ALIGN 4
 

@@ -8,35 +8,35 @@ Map:
 #incbin "Chapter9_data.dmp"
 
 MapChanges:
-TileMap(0,1,22,3,3,SouthVillageDestroyed)
-TileMap(1,17,0,3,3,LeftVillageDestroyed)
-TileMap(2,20,0,3,3,RightVillageDestroyed)
-TileMap(3,2,24,1,1,SouthVillageVisited)
-TileMap(4,18,2,1,1,LeftVillageVisited)
-TileMap(5,21,2,1,1,RightVillageVisited)
+TileMap(0,1,22,3,3,SouthWestVillageDestroyed)
+TileMap(1,17,0,3,3,NorthLeftVillageDestroyed)
+TileMap(2,20,0,3,3,NorthRightVillageDestroyed)
+TileMap(3,2,24,1,1,SouthWestVillageVisited)
+TileMap(4,18,2,1,1,NorthLeftVillageVisited)
+TileMap(5,21,2,1,1,NorthRightVillageVisited)
 TileMapEnd
 
-SouthVillageDestroyed:
+SouthWestVillageDestroyed:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-LeftVillageDestroyed:
+NorthLeftVillageDestroyed:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-RightVillageDestroyed:
+NorthRightVillageDestroyed:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-SouthVillageVisited:
+SouthWestVillageVisited:
 SHORT 0x80 
 ALIGN 4
 
-LeftVillageVisited:
+NorthLeftVillageVisited:
 SHORT 0x80 
 ALIGN 4
 
-RightVillageVisited:
+NorthRightVillageVisited:
 SHORT 0x80 
 ALIGN 4
 

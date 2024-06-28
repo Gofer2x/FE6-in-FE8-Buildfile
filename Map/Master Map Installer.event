@@ -25,6 +25,15 @@
 #include "Chapter 11B\Chapter11B.event"
 }
 {
+#include "Chapter 12\Chapter12.event"
+}
+{
+#include "Chapter 12x\Chapter12x.event"
+}
+{
+#include "Chapter 13\Chapter13.event"
+}
+{
 #include "Chapter 2\Chapter2.event"
 }
 {

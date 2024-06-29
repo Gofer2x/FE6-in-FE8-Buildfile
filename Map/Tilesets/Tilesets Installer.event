@@ -11,3 +11,5 @@
 #include "SnowCastle/Installer.event"
 #include "Plains/Installer.event"
 #include "PlainsCastle/Installer.event"
+#include "Mountainous/Installer.event"
+#include "Stronghold/Installer.event"

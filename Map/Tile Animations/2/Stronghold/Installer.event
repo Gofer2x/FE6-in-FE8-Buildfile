@@ -1,0 +1,61 @@
+ALIGN 4
+TILEANIM2_StrongholdColors0:
+#incbin "StrongholdColors0.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors1:
+#incbin "StrongholdColors1.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors2:
+#incbin "StrongholdColors2.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors3:
+#incbin "StrongholdColors3.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors4:
+#incbin "StrongholdColors4.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors5:
+#incbin "StrongholdColors5.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors6:
+#incbin "StrongholdColors6.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors7:
+#incbin "StrongholdColors7.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors8:
+#incbin "StrongholdColors8.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors9:
+#incbin "StrongholdColors9.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors10:
+#incbin "StrongholdColors10.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors11:
+#incbin "StrongholdColors11.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors12:
+#incbin "StrongholdColors12.dmp"
+ALIGN 4
+TILEANIM2_StrongholdColors13:
+#incbin "StrongholdColors13.dmp"
+
+ALIGN 4
+TILEANIM2_StrongholdRawData:
+paletteAnimation(TILEANIM2_StrongholdColors0, 5, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors1, 6, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors2, 6, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors3, 8, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors4, 6, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors5, 6, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors6, 7, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors7, 9, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors8, 7, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors9, 8, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors10, 8, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors11, 8, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors12, 4, 3, 49, 0)
+paletteAnimation(TILEANIM2_StrongholdColors13, 7, 3, 49, 0)
+
+EventPointerTable(TILEANIM2_Stronghold,TILEANIM2_StrongholdRawData)

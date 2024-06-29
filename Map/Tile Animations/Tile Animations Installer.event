@@ -13,3 +13,5 @@
 
 #include "2/Lava/Installer.event"
 #include "2/Snow/Installer.event"
+#include "2/Stronghold/Installer.event"
+#include "2/Final/Installer.event"

@@ -82,6 +82,21 @@
 #include "Chapter 20Bx\Chapter20Bx.event"
 }
 {
+#include "Chapter 21\Chapter21.event"
+}
+{
+#include "Chapter 21x\Chapter21x.event"
+}
+{
+#include "Chapter 22\Chapter22.event"
+}
+{
+#include "Chapter 23\Chapter23.event"
+}
+{
+#include "Chapter 24\Chapter24.event"
+}
+{
 #include "Chapter 3\Chapter3.event"
 }
 {
@@ -104,4 +119,7 @@
 }
 {
 #include "Chapter 9\Chapter9.event"
+}
+{
+#include "Endgame\Final.event"
 }

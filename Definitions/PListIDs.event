@@ -193,7 +193,7 @@
 #define TILEANIM1_WaterInside 0xC1
 #define TILEANIM1_Snow 0xC2
 #define TILEANIM1_Stronghold 0xC3
-#define TILEANIM1_Final 0xC4
-#define TILEANIM2_Snow 0xC5
-#define TILEANIM2_Lava 0xC6
-#define TILEANIM2_Stronghold 0xC7
+#define TILEANIM2_Snow 0xC4
+#define TILEANIM2_Lava 0xC5
+#define TILEANIM2_Stronghold 0xC6
+#define TILEANIM2_Final 0xC7

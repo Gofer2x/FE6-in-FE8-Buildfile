@@ -17,7 +17,7 @@ TileMap(5,9,10,1,1,RightTreasureRoomChest3Opened)
 TileMap(6,10,9,1,1,RightTreasureRoomChest2Opened)
 TileMap(7,11,10,1,1,RightTreasureRoomChest4Opened)
 TileMap(8,0,15,3,2,LeftTreasureRoomDoorOpened)
-TileMap(9,6,0,2,2,ScrubSquadWallBroken)
+TileMap(9,6,0,2,2,NorthWestWallBroken)
 TileMap(10,6,7,2,4,RightTreasureRoomLeftDoorOpened)
 TileMap(11,13,8,2,4,RightTreasureRoomRightDoorOpened)
 TileMap(12,18,12,1,1,LilinaRoomDoorOpened)
@@ -60,7 +60,7 @@ LeftTreasureRoomDoorOpened:
 SHORT 0x8a4 0xb40 0x8a0 0x0 0xb44 0x0 
 ALIGN 4
 
-ScrubSquadWallBroken:
+NorthWestWallBroken:
 SHORT 0x7a8 0x0 0xb48 0xb44 
 ALIGN 4
 

@@ -3934,7 +3934,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="ThroneRoomRoofGone" width="25" height="22" visible="0">
+ <layer id="8" name="ThroneRoomOpened" width="25" height="22" visible="0">
   <properties>
    <property name="Height" value="5"/>
    <property name="ID" value="6"/>

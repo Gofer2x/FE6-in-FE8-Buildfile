@@ -8,85 +8,85 @@ Map:
 #incbin "Chapter19B_data.dmp"
 
 MapChanges:
-TileMap(0,6,4,1,2,Map_Change_0)
-TileMap(1,10,9,1,2,Map_Change_1)
-TileMap(2,15,11,1,2,Map_Change_2)
-TileMap(3,17,9,1,2,Map_Change_3)
-TileMap(4,26,2,1,2,Map_Change_4)
-TileMap(5,3,7,3,2,Map_Change_5)
-TileMap(6,10,4,1,2,Map_Change_6)
-TileMap(7,14,8,1,1,Map_Change_7)
-TileMap(8,15,14,2,4,Map_Change_8)
-TileMap(9,22,4,1,2,Map_Change_9)
-TileMap(10,27,5,3,3,Map_Change_10)
-TileMap(11,6,5,1,1,Map_Change_11)
-TileMap(12,10,10,1,1,Map_Change_12)
-TileMap(13,15,12,1,1,Map_Change_13)
-TileMap(14,17,10,1,1,Map_Change_14)
-TileMap(15,26,3,1,1,Map_Change_15)
+TileMap(0,6,4,1,2,NorthWestHouseDestroyed)
+TileMap(1,10,9,1,2,CenterLeftHouseDestroyed)
+TileMap(2,15,11,1,2,CenterBottomHouseDestroyed)
+TileMap(3,17,9,1,2,CenterTopHouseDestroyed)
+TileMap(4,26,2,1,2,NorthEastHouseDestroyed)
+TileMap(5,3,7,3,2,WestOuterWallBroken)
+TileMap(6,10,4,1,2,WestInnerWallBroken)
+TileMap(7,14,8,1,1,IdkLol)
+TileMap(8,15,14,2,4,CityGateOpened)
+TileMap(9,22,4,1,2,EastInnerWallBroken)
+TileMap(10,27,5,3,3,EastOuterWallBroken)
+TileMap(11,6,5,1,1,NorthWestHouseVisited)
+TileMap(12,10,10,1,1,CenterLeftHouseVisited)
+TileMap(13,15,12,1,1,CenterBottomHouseVisited)
+TileMap(14,17,10,1,1,CenterTopHouseVisited)
+TileMap(15,26,3,1,1,NorthEastHouseVisited)
 TileMapEnd
 
-Map_Change_0:
+NorthWestHouseDestroyed:
 SHORT 0x0 0xe18 
 ALIGN 4
 
-Map_Change_1:
+CenterLeftHouseDestroyed:
 SHORT 0x0 0xe18 
 ALIGN 4
 
-Map_Change_2:
+CenterBottomHouseDestroyed:
 SHORT 0x0 0xe18 
 ALIGN 4
 
-Map_Change_3:
+CenterTopHouseDestroyed:
 SHORT 0x0 0xe18 
 ALIGN 4
 
-Map_Change_4:
+NorthEastHouseDestroyed:
 SHORT 0x0 0xe18 
 ALIGN 4
 
-Map_Change_5:
+WestOuterWallBroken:
 SHORT 0xc0c 0x58c 0xc08 0xd0c 0xcd4 0xd08 
 ALIGN 4
 
-Map_Change_6:
+WestInnerWallBroken:
 SHORT 0xe1c 0x148 
 ALIGN 4
 
-Map_Change_7:
+IdkLol:
 SHORT 0x238 
 ALIGN 4
 
-Map_Change_8:
+CityGateOpened:
 SHORT 0x1c8 0x0 0xf54 0x1b8 0x60c 0xde4 0xcf8 0x214 
 ALIGN 4
 
-Map_Change_9:
+EastInnerWallBroken:
 SHORT 0xe1c 0x19c 
 ALIGN 4
 
-Map_Change_10:
+EastOuterWallBroken:
 SHORT 0xc0c 0xf54 0xc08 0xd0c 0x60c 0xd08 0x0 0xcf8 0x0 
 ALIGN 4
 
-Map_Change_11:
+NorthWestHouseVisited:
 SHORT 0xd90 
 ALIGN 4
 
-Map_Change_12:
+CenterLeftHouseVisited:
 SHORT 0xd90 
 ALIGN 4
 
-Map_Change_13:
+CenterBottomHouseVisited:
 SHORT 0xd90 
 ALIGN 4
 
-Map_Change_14:
+CenterTopHouseVisited:
 SHORT 0xd90 
 ALIGN 4
 
-Map_Change_15:
+NorthEastHouseVisited:
 SHORT 0xd90 
 ALIGN 4
 

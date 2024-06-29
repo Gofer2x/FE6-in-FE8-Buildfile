@@ -1570,7 +1570,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="EastVillageDestroyed" width="30" height="17" visible="0">
+ <layer id="4" name="NorthEastVillageDestroyed" width="30" height="17" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="2"/>
@@ -3133,7 +3133,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="EastVillageVisited" width="30" height="17">
+ <layer id="7" name="NorthEastVillageVisited" width="30" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>

@@ -1042,7 +1042,7 @@
    <tile gid="837"/>
   </data>
  </layer>
- <layer id="2" name="Map Change 0" width="32" height="32">
+ <layer id="2" name="BrokenWallID0" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="0"/>
@@ -2077,7 +2077,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="Map Change 1" width="32" height="32">
+ <layer id="3" name="BrokenWallID1" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="1"/>
@@ -3112,7 +3112,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="Map Change 2" width="32" height="32">
+ <layer id="4" name="BrokenWallID2" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="2"/>
@@ -4147,7 +4147,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="Map Change 3" width="32" height="32">
+ <layer id="5" name="BrokenWallID3" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="3"/>
@@ -5182,7 +5182,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="Map Change 4" width="32" height="32">
+ <layer id="6" name="BrokenWallID4" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="4"/>
@@ -6217,7 +6217,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="Map Change 5" width="32" height="32">
+ <layer id="7" name="BrokenWallID5" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="5"/>
@@ -7252,7 +7252,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="Map Change 6" width="32" height="32">
+ <layer id="8" name="BrokenWallID6" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="6"/>
@@ -8287,7 +8287,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="9" name="Map Change 7" width="32" height="32">
+ <layer id="9" name="BrokenWallID7" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="7"/>
@@ -9322,7 +9322,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="10" name="Map Change 8" width="32" height="32">
+ <layer id="10" name="BrokenWallID8" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="8"/>
@@ -10357,7 +10357,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="11" name="Map Change 9" width="32" height="32">
+ <layer id="11" name="BrokenWallID9" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="9"/>
@@ -11392,7 +11392,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="12" name="Map Change 10" width="32" height="32">
+ <layer id="12" name="BrokenWallID10" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="10"/>
@@ -12427,7 +12427,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="13" name="Map Change 11" width="32" height="32">
+ <layer id="13" name="BrokenWallID11" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="11"/>
@@ -13462,7 +13462,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="14" name="Map Change 12" width="32" height="32">
+ <layer id="14" name="BrokenWallID12" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="12"/>
@@ -14497,7 +14497,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="15" name="Map Change 13" width="32" height="32">
+ <layer id="15" name="BrokenWallID13" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="13"/>
@@ -15532,7 +15532,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="16" name="Map Change 14" width="32" height="32">
+ <layer id="16" name="BrokenWallID14" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="14"/>
@@ -16567,7 +16567,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="17" name="Map Change 15" width="32" height="32">
+ <layer id="17" name="BrokenWallID15" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="15"/>
@@ -17602,7 +17602,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="18" name="Map Change 16" width="32" height="32">
+ <layer id="18" name="BrokenWallID16" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="16"/>
@@ -18637,7 +18637,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="19" name="Map Change 17" width="32" height="32">
+ <layer id="19" name="BrokenWallID17" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="17"/>
@@ -19672,7 +19672,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="20" name="Map Change 18" width="32" height="32">
+ <layer id="20" name="BrokenWallID18" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="18"/>
@@ -20707,7 +20707,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="21" name="Map Change 19" width="32" height="32">
+ <layer id="21" name="BrokenWallID19" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="19"/>
@@ -21742,7 +21742,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="22" name="Map Change 20" width="32" height="32">
+ <layer id="22" name="BrokenWallID20" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="20"/>
@@ -22777,7 +22777,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="23" name="Map Change 21" width="32" height="32">
+ <layer id="23" name="BrokenWallID21" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="21"/>
@@ -23812,7 +23812,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="24" name="Map Change 22" width="32" height="32">
+ <layer id="24" name="BrokenWallID22" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="22"/>
@@ -24847,7 +24847,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="25" name="Map Change 23" width="32" height="32">
+ <layer id="25" name="BrokenWallID23" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="23"/>
@@ -25882,7 +25882,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="26" name="Map Change 24" width="32" height="32">
+ <layer id="26" name="BrokenWallID24" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="24"/>
@@ -26917,7 +26917,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="27" name="Map Change 25" width="32" height="32">
+ <layer id="27" name="BrokenWallID25" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="25"/>
@@ -27952,7 +27952,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="28" name="Map Change 26" width="32" height="32">
+ <layer id="28" name="BrokenWallID26" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="26"/>
@@ -28987,7 +28987,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="29" name="Map Change 27" width="32" height="32">
+ <layer id="29" name="BrokenWallID27" width="32" height="32" visible="0">
   <properties>
    <property name="Height" value="4"/>
    <property name="ID" value="27"/>

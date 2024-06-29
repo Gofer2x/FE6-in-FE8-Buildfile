@@ -10,10 +10,10 @@ Map:
 MapChanges:
 TileMap(0,7,13,3,3,SouthVillageDestroyed)
 TileMap(1,10,2,3,3,NorthVillageDestroyed)
-TileMap(2,26,0,3,3,EastVillageDestroyed)
+TileMap(2,26,0,3,3,NorthEastVillageDestroyed)
 TileMap(3,8,15,1,1,SouthVillageVisited)
 TileMap(4,11,4,1,1,NorthVillageVisited)
-TileMap(5,27,2,1,1,EastVillageVisited)
+TileMap(5,27,2,1,1,NorthEastVillageVisited)
 TileMapEnd
 
 SouthVillageDestroyed:
@@ -24,7 +24,7 @@ NorthVillageDestroyed:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-EastVillageDestroyed:
+NorthEastVillageDestroyed:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
@@ -36,7 +36,7 @@ NorthVillageVisited:
 SHORT 0x80 
 ALIGN 4
 
-EastVillageVisited:
+NorthEastVillageVisited:
 SHORT 0x80 
 ALIGN 4
 

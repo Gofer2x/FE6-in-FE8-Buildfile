@@ -19,7 +19,7 @@ TileMap(7,7,7,4,1,ThroneRoomDoorsOpened)
 TileMap(8,26,14,3,1,NorthEastRoomsBottomDoorOpened)
 TileMap(9,25,10,3,2,NorthEastRoomsMiddleDoorOpened)
 TileMap(10,24,4,2,3,NorthEastRoomsTopDoorOpened)
-TileMap(11,22,17,2,2,InnerWallsWallBroken)
+TileMap(11,22,17,2,2,InnerWallsCorridorWallBroken)
 TileMap(12,14,4,2,3,ThroneRoomWallBroken)
 TileMapEnd
 
@@ -67,7 +67,7 @@ NorthEastRoomsTopDoorOpened:
 SHORT 0x828 0x0 0xae0 0xad4 0x7a8 0x0 
 ALIGN 4
 
-InnerWallsWallBroken:
+InnerWallsCorridorWallBroken:
 SHORT 0x828 0x480 0xae0 0x224 
 ALIGN 4
 

@@ -8,80 +8,80 @@ Map:
 #incbin "Chapter20A_data.dmp"
 
 MapChanges:
-TileMap(0,2,10,1,1,Map_Change_0)
-TileMap(1,3,11,1,1,Map_Change_1)
-TileMap(2,4,11,1,1,Map_Change_2)
-TileMap(3,5,10,1,1,Map_Change_3)
-TileMap(4,12,16,1,1,Map_Change_4)
-TileMap(5,15,16,1,1,Map_Change_5)
-TileMap(6,17,16,1,1,Map_Change_6)
-TileMap(7,16,18,1,1,Map_Change_7)
-TileMap(8,9,8,1,1,Map_Change_8)
-TileMap(9,7,10,1,3,Map_Change_9)
-TileMap(10,7,17,1,1,Map_Change_10)
-TileMap(11,12,15,3,1,Map_Change_11)
-TileMap(12,15,20,2,2,Map_Change_12)
-TileMap(13,17,20,3,2,Map_Change_13)
-TileMap(14,21,18,2,1,Map_Change_14)
+TileMap(0,2,10,1,1,WestTreasureRoomLeftmostChestOpened)
+TileMap(1,3,11,1,1,WestTreasureRoomMiddleLeftChestOpened)
+TileMap(2,4,11,1,1,WestTreasureRoomMiddleRightChestOpened)
+TileMap(3,5,10,1,1,WestTreasureRoomRightmostChestOpened)
+TileMap(4,12,16,1,1,SouthTreasureRoomChest1Opened)
+TileMap(5,15,16,1,1,SouthTreasureRoomChest2Opened)
+TileMap(6,17,16,1,1,SouthTreasureRoomChest3Opened)
+TileMap(7,16,18,1,1,SouthTreasureRoomChest4Opened)
+TileMap(8,9,8,1,1,JailCellDoorOpened)
+TileMap(9,7,10,1,3,WestTreasureRoomDoorOpened)
+TileMap(10,7,17,1,1,ThroneRoomDoorOpened)
+TileMap(11,12,15,3,1,SouthTreasureRoomTopWallBroken)
+TileMap(12,15,20,2,2,SouthTreasureRoomBottomWallBroken)
+TileMap(13,17,20,3,2,SouthTreasureRoomDoorOpened)
+TileMap(14,21,18,2,1,EastCorridorDoorOpened)
 TileMapEnd
 
-Map_Change_0:
+WestTreasureRoomLeftmostChestOpened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_1:
+WestTreasureRoomMiddleLeftChestOpened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_2:
+WestTreasureRoomMiddleRightChestOpened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_3:
+WestTreasureRoomRightmostChestOpened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_4:
+SouthTreasureRoomChest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_5:
+SouthTreasureRoomChest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_6:
+SouthTreasureRoomChest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_7:
+SouthTreasureRoomChest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_8:
+JailCellDoorOpened:
 SHORT 0x3e0 
 ALIGN 4
 
-Map_Change_9:
+WestTreasureRoomDoorOpened:
 SHORT 0x9cc 0x2d4 0x9d0 
 ALIGN 4
 
-Map_Change_10:
+ThroneRoomDoorOpened:
 SHORT 0x358 
 ALIGN 4
 
-Map_Change_11:
+SouthTreasureRoomTopWallBroken:
 SHORT 0x8d8 0x358 0x8d4 
 ALIGN 4
 
-Map_Change_12:
+SouthTreasureRoomBottomWallBroken:
 SHORT 0x8d8 0x460 0x0 0x2d0 
 ALIGN 4
 
-Map_Change_13:
+SouthTreasureRoomDoorOpened:
 SHORT 0x848 0x460 0x8d4 0x0 0x2d0 0x0 
 ALIGN 4
 
-Map_Change_14:
+EastCorridorDoorOpened:
 SHORT 0xa60 0x358 
 ALIGN 4
 

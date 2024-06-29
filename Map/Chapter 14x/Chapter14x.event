@@ -8,265 +8,265 @@ Map:
 #incbin "Chapter14x_data.dmp"
 
 MapChanges:
-TileMap(0,2,8,1,7,Map_Change_0)
-TileMap(1,3,8,1,7,Map_Change_1)
-TileMap(2,4,8,1,7,Map_Change_2)
-TileMap(3,2,15,1,7,Map_Change_3)
-TileMap(4,3,15,1,7,Map_Change_4)
-TileMap(5,4,15,1,7,Map_Change_5)
-TileMap(6,5,22,4,2,Map_Change_6)
-TileMap(7,9,22,3,2,Map_Change_7)
-TileMap(8,5,25,3,2,Map_Change_8)
-TileMap(9,8,25,4,2,Map_Change_9)
-TileMap(10,5,24,7,1,Map_Change_10)
-TileMap(11,12,18,1,4,Map_Change_11)
-TileMap(12,14,18,1,4,Map_Change_12)
-TileMap(13,16,18,1,4,Map_Change_13)
-TileMap(14,13,18,1,4,Map_Change_14)
-TileMap(15,15,18,1,4,Map_Change_15)
-TileMap(16,17,22,2,5,Map_Change_16)
-TileMap(17,19,22,3,3,Map_Change_17)
-TileMap(18,19,25,3,2,Map_Change_18)
-TileMap(19,24,14,2,4,Map_Change_19)
-TileMap(20,26,14,2,4,Map_Change_20)
-TileMap(21,26,10,2,4,Map_Change_21)
-TileMap(22,26,4,2,6,Map_Change_22)
-TileMap(23,18,4,2,6,Map_Change_23)
-TileMap(24,18,10,2,5,Map_Change_24)
-TileMap(25,17,6,1,9,Map_Change_25)
-TileMap(26,2,8,1,7,Map_Change_26)
-TileMap(27,3,8,1,7,Map_Change_27)
-TileMap(28,4,8,1,7,Map_Change_28)
-TileMap(29,2,15,1,7,Map_Change_29)
-TileMap(30,3,15,1,7,Map_Change_30)
-TileMap(31,4,15,1,7,Map_Change_31)
-TileMap(32,5,22,4,2,Map_Change_32)
-TileMap(33,9,22,3,2,Map_Change_33)
-TileMap(34,5,25,3,2,Map_Change_34)
-TileMap(35,8,25,4,2,Map_Change_35)
-TileMap(36,5,24,7,1,Map_Change_36)
-TileMap(37,12,18,1,4,Map_Change_37)
-TileMap(38,14,18,1,4,Map_Change_38)
-TileMap(39,16,18,1,4,Map_Change_39)
-TileMap(40,13,18,1,4,Map_Change_40)
-TileMap(41,15,18,1,4,Map_Change_41)
-TileMap(42,17,22,2,5,Map_Change_42)
-TileMap(43,19,22,3,3,Map_Change_43)
-TileMap(44,19,25,3,2,Map_Change_44)
-TileMap(45,24,14,2,4,Map_Change_45)
-TileMap(46,26,14,2,4,Map_Change_46)
-TileMap(47,26,10,2,4,Map_Change_47)
-TileMap(48,26,4,2,6,Map_Change_48)
-TileMap(49,18,4,2,6,Map_Change_49)
-TileMap(50,18,10,2,5,Map_Change_50)
-TileMap(51,17,6,1,9,Map_Change_51)
+TileMap(0,2,8,1,7,WaterChangeID0)
+TileMap(1,3,8,1,7,WaterChangeID1)
+TileMap(2,4,8,1,7,WaterChangeID2)
+TileMap(3,2,15,1,7,WaterChangeID3)
+TileMap(4,3,15,1,7,WaterChangeID4)
+TileMap(5,4,15,1,7,WaterChangeID5)
+TileMap(6,5,22,4,2,WaterChangeID6)
+TileMap(7,9,22,3,2,WaterChangeID7)
+TileMap(8,5,25,3,2,WaterChangeID8)
+TileMap(9,8,25,4,2,WaterChangeID9)
+TileMap(10,5,24,7,1,WaterChangeID10)
+TileMap(11,12,18,1,4,WaterChangeID11)
+TileMap(12,14,18,1,4,WaterChangeID12)
+TileMap(13,16,18,1,4,WaterChangeID13)
+TileMap(14,13,18,1,4,WaterChangeID14)
+TileMap(15,15,18,1,4,WaterChangeID15)
+TileMap(16,17,22,2,5,WaterChangeID16)
+TileMap(17,19,22,3,3,WaterChangeID17)
+TileMap(18,19,25,3,2,WaterChangeID18)
+TileMap(19,24,14,2,4,WaterChangeID19)
+TileMap(20,26,14,2,4,WaterChangeID20)
+TileMap(21,26,10,2,4,WaterChangeID21)
+TileMap(22,26,4,2,6,WaterChangeID22)
+TileMap(23,18,4,2,6,WaterChangeID23)
+TileMap(24,18,10,2,5,WaterChangeID24)
+TileMap(25,17,6,1,9,WaterChangeID25)
+TileMap(26,2,8,1,7,WaterChangeID26)
+TileMap(27,3,8,1,7,WaterChangeID27)
+TileMap(28,4,8,1,7,WaterChangeID28)
+TileMap(29,2,15,1,7,WaterChangeID29)
+TileMap(30,3,15,1,7,WaterChangeID30)
+TileMap(31,4,15,1,7,WaterChangeID31)
+TileMap(32,5,22,4,2,WaterChangeID32)
+TileMap(33,9,22,3,2,WaterChangeID33)
+TileMap(34,5,25,3,2,WaterChangeID34)
+TileMap(35,8,25,4,2,WaterChangeID35)
+TileMap(36,5,24,7,1,WaterChangeID36)
+TileMap(37,12,18,1,4,WaterChangeID37)
+TileMap(38,14,18,1,4,WaterChangeID38)
+TileMap(39,16,18,1,4,WaterChangeID39)
+TileMap(40,13,18,1,4,WaterChangeID40)
+TileMap(41,15,18,1,4,WaterChangeID41)
+TileMap(42,17,22,2,5,WaterChangeID42)
+TileMap(43,19,22,3,3,WaterChangeID43)
+TileMap(44,19,25,3,2,WaterChangeID44)
+TileMap(45,24,14,2,4,WaterChangeID45)
+TileMap(46,26,14,2,4,WaterChangeID46)
+TileMap(47,26,10,2,4,WaterChangeID47)
+TileMap(48,26,4,2,6,WaterChangeID48)
+TileMap(49,18,4,2,6,WaterChangeID49)
+TileMap(50,18,10,2,5,WaterChangeID50)
+TileMap(51,17,6,1,9,WaterChangeID51)
 TileMapEnd
 
-Map_Change_0:
+WaterChangeID0:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_1:
+WaterChangeID1:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_2:
+WaterChangeID2:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_3:
+WaterChangeID3:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_4:
+WaterChangeID4:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_5:
+WaterChangeID5:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_6:
+WaterChangeID6:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_7:
+WaterChangeID7:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_8:
+WaterChangeID8:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_9:
+WaterChangeID9:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_10:
+WaterChangeID10:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_11:
+WaterChangeID11:
 SHORT 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_12:
+WaterChangeID12:
 SHORT 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_13:
+WaterChangeID13:
 SHORT 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_14:
+WaterChangeID14:
 SHORT 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_15:
+WaterChangeID15:
 SHORT 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_16:
+WaterChangeID16:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_17:
+WaterChangeID17:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_18:
+WaterChangeID18:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_19:
+WaterChangeID19:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_20:
+WaterChangeID20:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_21:
+WaterChangeID21:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_22:
+WaterChangeID22:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_23:
+WaterChangeID23:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_24:
+WaterChangeID24:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_25:
+WaterChangeID25:
 SHORT 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 0x354 
 ALIGN 4
 
-Map_Change_26:
+WaterChangeID26:
 SHORT 0x6cc 0x74c 0x6cc 0x6cc 0x74c 0x6cc 0x74c 
 ALIGN 4
 
-Map_Change_27:
+WaterChangeID27:
 SHORT 0x74c 0x74c 0x74c 0x750 0x750 0x74c 0x74c 
 ALIGN 4
 
-Map_Change_28:
+WaterChangeID28:
 SHORT 0x750 0x6cc 0x74c 0x750 0x6cc 0x750 0x6cc 
 ALIGN 4
 
-Map_Change_29:
+WaterChangeID29:
 SHORT 0x6cc 0x74c 0x6cc 0x74c 0x6cc 0x74c 0x6cc 
 ALIGN 4
 
-Map_Change_30:
+WaterChangeID30:
 SHORT 0x74c 0x750 0x750 0x750 0x74c 0x74c 0x74c 
 ALIGN 4
 
-Map_Change_31:
+WaterChangeID31:
 SHORT 0x74c 0x74c 0x750 0x6cc 0x750 0x6cc 0x74c 
 ALIGN 4
 
-Map_Change_32:
+WaterChangeID32:
 SHORT 0x74c 0x750 0x74c 0x750 0x74c 0x750 0x6cc 0x750 
 ALIGN 4
 
-Map_Change_33:
+WaterChangeID33:
 SHORT 0x74c 0x750 0x6cc 0x74c 0x750 0x74c 
 ALIGN 4
 
-Map_Change_34:
+WaterChangeID34:
 SHORT 0x74c 0x74c 0x6cc 0x6cc 0x74c 0x74c 
 ALIGN 4
 
-Map_Change_35:
+WaterChangeID35:
 SHORT 0x6cc 0x74c 0x74c 0x6cc 0x74c 0x750 0x6cc 0x6cc 
 ALIGN 4
 
-Map_Change_36:
+WaterChangeID36:
 SHORT 0x6cc 0x74c 0x750 0x74c 0x6cc 0x74c 0x750 
 ALIGN 4
 
-Map_Change_37:
+WaterChangeID37:
 SHORT 0x74c 0x6cc 0x750 0x74c 
 ALIGN 4
 
-Map_Change_38:
+WaterChangeID38:
 SHORT 0x750 0x74c 0x74c 0x6cc 
 ALIGN 4
 
-Map_Change_39:
+WaterChangeID39:
 SHORT 0x750 0x74c 0x6cc 0x6cc 
 ALIGN 4
 
-Map_Change_40:
+WaterChangeID40:
 SHORT 0x6cc 0x6cc 0x6cc 0x6cc 
 ALIGN 4
 
-Map_Change_41:
+WaterChangeID41:
 SHORT 0x6cc 0x6cc 0x750 0x74c 
 ALIGN 4
 
-Map_Change_42:
+WaterChangeID42:
 SHORT 0x74c 0x750 0x74c 0x750 0x6cc 0x74c 0x74c 0x750 0x6cc 0x6cc 
 ALIGN 4
 
-Map_Change_43:
+WaterChangeID43:
 SHORT 0x6cc 0x74c 0x750 0x6cc 0x750 0x750 0x750 0x6cc 0x750 
 ALIGN 4
 
-Map_Change_44:
+WaterChangeID44:
 SHORT 0x6cc 0x6cc 0x74c 0x74c 0x750 0x6cc 
 ALIGN 4
 
-Map_Change_45:
+WaterChangeID45:
 SHORT 0x750 0x6cc 0x6cc 0x74c 0x74c 0x6cc 0x74c 0x750 
 ALIGN 4
 
-Map_Change_46:
+WaterChangeID46:
 SHORT 0x6cc 0x6cc 0x750 0x750 0x750 0x750 0x6cc 0x750 
 ALIGN 4
 
-Map_Change_47:
+WaterChangeID47:
 SHORT 0x74c 0x750 0x6cc 0x750 0x6cc 0x750 0x6cc 0x74c 
 ALIGN 4
 
-Map_Change_48:
+WaterChangeID48:
 SHORT 0x6cc 0x750 0x74c 0x750 0x6cc 0x750 0x74c 0x750 0x6cc 0x750 0x6cc 0x750 
 ALIGN 4
 
-Map_Change_49:
+WaterChangeID49:
 SHORT 0x6cc 0x74c 0x74c 0x6cc 0x6cc 0x74c 0x74c 0x6cc 0x6cc 0x74c 0x74c 0x6cc 
 ALIGN 4
 
-Map_Change_50:
+WaterChangeID50:
 SHORT 0x74c 0x750 0x6cc 0x750 0x6cc 0x750 0x6cc 0x74c 0x6cc 0x6cc 
 ALIGN 4
 
-Map_Change_51:
+WaterChangeID51:
 SHORT 0x6cc 0x74c 0x6cc 0x74c 0x6d4 0x754 0x6d4 0x754 0x6d4 
 ALIGN 4
 

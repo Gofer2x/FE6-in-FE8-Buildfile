@@ -11,7 +11,7 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="MAPCHANGES_Ch13"/>
    <property name="MapID" value="MAP_Ch13"/>
-   <property name="ObjectType" value="OBJ_Fields"/>
+   <property name="ObjectType" value="OBJ_FieldsBridge"/>
    <property name="PaletteID" value="PAL_FieldsBridge"/>
    <property name="TileConfig" value="CONFIG_FieldsBridge"/>
   </properties>
@@ -4651,7 +4651,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="EastVillageVisited" width="46" height="25">
+ <layer id="5" name="EastVillageVisited" width="46" height="25" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>

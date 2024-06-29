@@ -132,6 +132,7 @@ EVENTS_Trial_SnowyDefensive
 EVENTS_Trial_TrialPiratesChallenge 
 EVENTS_Trial_RoysTrial 
 OBJ_Fields 
+OBJ_FieldsBridge 
 OBJ_Village 
 OBJ_Fort 
 OBJ_Castle

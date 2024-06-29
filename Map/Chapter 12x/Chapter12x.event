@@ -8,65 +8,65 @@ Map:
 #incbin "Chapter12x_data.dmp"
 
 MapChanges:
-TileMap(0,1,3,1,1,Map_Change_0)
-TileMap(1,3,17,1,1,Map_Change_1)
-TileMap(2,7,8,1,1,Map_Change_2)
-TileMap(3,11,4,1,1,Map_Change_3)
-TileMap(4,13,0,1,1,Map_Change_4)
-TileMap(5,13,15,1,1,Map_Change_5)
-TileMap(6,19,9,1,1,Map_Change_6)
-TileMap(7,12,24,1,1,Map_Change_7)
-TileMap(8,18,16,1,1,Map_Change_8)
-TileMap(9,25,12,1,1,Map_Change_9)
-TileMap(10,25,20,1,1,Map_Change_10)
-TileMap(11,26,24,1,1,Map_Change_11)
+TileMap(0,1,3,1,1,Chest2Opened)
+TileMap(1,3,17,1,1,Chest9Opened)
+TileMap(2,7,8,1,1,Chest4Opened)
+TileMap(3,11,4,1,1,Chest3Opened)
+TileMap(4,13,0,1,1,Chest1Opened)
+TileMap(5,13,15,1,1,Chest7Opened)
+TileMap(6,19,9,1,1,Chest5Opened)
+TileMap(7,12,24,1,1,Chest11Opened)
+TileMap(8,18,16,1,1,Chest8Opened)
+TileMap(9,25,12,1,1,Chest6Opened)
+TileMap(10,25,20,1,1,Chest10Opened)
+TileMap(11,26,24,1,1,Chest12Opened)
 TileMapEnd
 
-Map_Change_0:
+Chest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_1:
+Chest9Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_2:
+Chest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_3:
+Chest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_4:
+Chest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_5:
+Chest7Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_6:
+Chest5Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_7:
+Chest11Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_8:
+Chest8Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_9:
+Chest6Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_10:
+Chest10Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_11:
+Chest12Opened:
 SHORT 0x4 
 ALIGN 4
 

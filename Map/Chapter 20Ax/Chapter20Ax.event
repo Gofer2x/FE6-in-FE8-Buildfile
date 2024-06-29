@@ -8,145 +8,145 @@ Map:
 #incbin "Chapter20Ax_data.dmp"
 
 MapChanges:
-TileMap(0,1,20,3,3,Map_Change_0)
-TileMap(1,4,7,2,4,Map_Change_1)
-TileMap(2,4,13,2,4,Map_Change_2)
-TileMap(3,4,23,2,4,Map_Change_3)
-TileMap(4,7,0,2,4,Map_Change_4)
-TileMap(5,7,17,2,4,Map_Change_5)
-TileMap(6,10,4,2,4,Map_Change_6)
-TileMap(7,10,15,2,4,Map_Change_7)
-TileMap(8,8,23,3,3,Map_Change_8)
-TileMap(9,11,19,3,3,Map_Change_9)
-TileMap(10,11,27,3,3,Map_Change_10)
-TileMap(11,13,9,2,3,Map_Change_11)
-TileMap(12,16,15,3,3,Map_Change_12)
-TileMap(13,15,23,3,3,Map_Change_13)
-TileMap(14,18,27,3,3,Map_Change_14)
-TileMap(15,19,8,2,4,Map_Change_15)
-TileMap(16,19,19,3,3,Map_Change_16)
-TileMap(17,22,2,2,4,Map_Change_17)
-TileMap(18,22,13,2,4,Map_Change_18)
-TileMap(19,22,23,3,3,Map_Change_19)
-TileMap(20,23,27,3,3,Map_Change_20)
-TileMap(21,25,0,2,4,Map_Change_21)
-TileMap(22,25,9,2,4,Map_Change_22)
-TileMap(23,25,18,2,3,Map_Change_23)
-TileMap(24,26,28,2,4,Map_Change_24)
-TileMap(25,28,4,2,4,Map_Change_25)
-TileMap(26,28,15,2,4,Map_Change_26)
-TileMap(27,28,23,2,4,Map_Change_27)
+TileMap(0,1,20,3,3,BrokenWallID0)
+TileMap(1,4,7,2,4,BrokenWallID1)
+TileMap(2,4,13,2,4,BrokenWallID2)
+TileMap(3,4,23,2,4,BrokenWallID3)
+TileMap(4,7,0,2,4,BrokenWallID4)
+TileMap(5,7,17,2,4,BrokenWallID5)
+TileMap(6,10,4,2,4,BrokenWallID6)
+TileMap(7,10,15,2,4,BrokenWallID7)
+TileMap(8,8,23,3,3,BrokenWallID8)
+TileMap(9,11,19,3,3,BrokenWallID9)
+TileMap(10,11,27,3,3,BrokenWallID10)
+TileMap(11,13,9,2,3,BrokenWallID11)
+TileMap(12,16,15,3,3,BrokenWallID12)
+TileMap(13,15,23,3,3,BrokenWallID13)
+TileMap(14,18,27,3,3,BrokenWallID14)
+TileMap(15,19,8,2,4,BrokenWallID15)
+TileMap(16,19,19,3,3,BrokenWallID16)
+TileMap(17,22,2,2,4,BrokenWallID17)
+TileMap(18,22,13,2,4,BrokenWallID18)
+TileMap(19,22,23,3,3,BrokenWallID19)
+TileMap(20,23,27,3,3,BrokenWallID20)
+TileMap(21,25,0,2,4,BrokenWallID21)
+TileMap(22,25,9,2,4,BrokenWallID22)
+TileMap(23,25,18,2,3,BrokenWallID23)
+TileMap(24,26,28,2,4,BrokenWallID24)
+TileMap(25,28,4,2,4,BrokenWallID25)
+TileMap(26,28,15,2,4,BrokenWallID26)
+TileMap(27,28,23,2,4,BrokenWallID27)
 TileMapEnd
 
-Map_Change_0:
+BrokenWallID0:
 SHORT 0xea8 0xd90 0xfac 0xf28 0xe9c 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_1:
+BrokenWallID1:
 SHORT 0xe3c 0x0 0xebc 0x0 0xea0 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_2:
+BrokenWallID2:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_3:
+BrokenWallID3:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_4:
+BrokenWallID4:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_5:
+BrokenWallID5:
 SHORT 0xe3c 0x0 0xebc 0x0 0xea0 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_6:
+BrokenWallID6:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_7:
+BrokenWallID7:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_8:
+BrokenWallID8:
 SHORT 0xea8 0xd90 0xeac 0xfa8 0xe98 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_9:
+BrokenWallID9:
 SHORT 0xd28 0xd90 0xeac 0xfa8 0xd98 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_10:
+BrokenWallID10:
 SHORT 0xea8 0xd90 0xeac 0xf28 0xd98 0xf2c 0x0 0xe1c 0x0 
 ALIGN 4
 
-Map_Change_11:
+BrokenWallID11:
 SHORT 0xe3c 0x0 0xebc 0x374 0xea0 0x4f0 
 ALIGN 4
 
-Map_Change_12:
+BrokenWallID12:
 SHORT 0xea8 0xd90 0xeac 0xfa8 0xd98 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_13:
+BrokenWallID13:
 SHORT 0xea8 0xd90 0xeac 0xfa8 0xe98 0xf2c 0x0 0xe20 0x0 
 ALIGN 4
 
-Map_Change_14:
+BrokenWallID14:
 SHORT 0xea8 0xd90 0xeac 0xf28 0xd98 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_15:
+BrokenWallID15:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_16:
+BrokenWallID16:
 SHORT 0xea8 0xd90 0xeac 0xf28 0xe98 0xf2c 0x0 0xe20 0x0 
 ALIGN 4
 
-Map_Change_17:
+BrokenWallID17:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe1c 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_18:
+BrokenWallID18:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe1c 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_19:
+BrokenWallID19:
 SHORT 0xea8 0xd90 0xeac 0xfa8 0xd98 0xf2c 0x0 0xea0 0x0 
 ALIGN 4
 
-Map_Change_20:
+BrokenWallID20:
 SHORT 0xea8 0xd90 0xfac 0xf28 0xe98 0xf2c 0x0 0xe20 0x0 
 ALIGN 4
 
-Map_Change_21:
+BrokenWallID21:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_22:
+BrokenWallID22:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_23:
+BrokenWallID23:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 
 ALIGN 4
 
-Map_Change_24:
+BrokenWallID24:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe1c 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_25:
+BrokenWallID25:
 SHORT 0xe3c 0x0 0xebc 0x0 0xea0 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_26:
+BrokenWallID26:
 SHORT 0xe3c 0x0 0xebc 0x0 0xea0 0xd9c 0x0 0xda0 
 ALIGN 4
 
-Map_Change_27:
+BrokenWallID27:
 SHORT 0xe3c 0x0 0xebc 0x0 0xe20 0xd9c 0x0 0xda0 
 ALIGN 4
 

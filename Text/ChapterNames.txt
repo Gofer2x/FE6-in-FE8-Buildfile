@@ -110,7 +110,7 @@ The Ghosts of Bern[X]
 Legends and Lies[X]
 
 ## FinalName
-Beyond Darkness[X]
+Final: Beyond Darkness[X]
 
 ## TutorialChapterName
 Tutorial[X]

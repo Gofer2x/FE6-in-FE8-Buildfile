@@ -2344,7 +2344,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="OceanPath" width="32" height="24" visible="0">
+ <layer id="4" name="OceanPathAppeared" width="32" height="24" visible="0">
   <properties>
    <property name="Height" value="7"/>
    <property name="ID" value="2"/>

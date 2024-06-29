@@ -8,75 +8,75 @@ Map:
 #incbin "Chapter16_data.dmp"
 
 MapChanges:
-TileMap(0,1,16,1,1,Map_Change_0)
-TileMap(1,2,18,1,1,Map_Change_1)
-TileMap(2,1,20,1,1,Map_Change_2)
-TileMap(3,2,22,1,1,Map_Change_3)
-TileMap(4,3,23,1,1,Map_Change_4)
-TileMap(5,28,2,1,1,Map_Change_5)
-TileMap(6,30,3,1,1,Map_Change_6)
-TileMap(7,30,6,1,1,Map_Change_7)
-TileMap(8,30,9,1,1,Map_Change_8)
-TileMap(9,30,11,1,1,Map_Change_9)
-TileMap(10,2,2,2,2,Map_Change_10)
-TileMap(11,5,14,1,2,Map_Change_11)
-TileMap(12,11,15,2,1,Map_Change_12)
-TileMap(13,27,4,1,1,Map_Change_13)
+TileMap(0,1,16,1,1,WestTreasureRoomChest1Opened)
+TileMap(1,2,18,1,1,WestTreasureRoomChest2Opened)
+TileMap(2,1,20,1,1,WestTreasureRoomChest3Opened)
+TileMap(3,2,22,1,1,WestTreasureRoomChest4Opened)
+TileMap(4,3,23,1,1,WestTreasureRoomChest5Opened)
+TileMap(5,28,2,1,1,EastTreasureRoomChest1Opened)
+TileMap(6,30,3,1,1,EastTreasureRoomChest2Opened)
+TileMap(7,30,6,1,1,EastTreasureRoomChest3Opened)
+TileMap(8,30,9,1,1,EastTreasureRoomChest4Opened)
+TileMap(9,30,11,1,1,EastTreasureRoomChest5Opened)
+TileMap(10,2,2,2,2,NorthWestWallBroken)
+TileMap(11,5,14,1,2,WestTreasureRoomDoorOpened)
+TileMap(12,11,15,2,1,CenterCorridorDoorOpened)
+TileMap(13,27,4,1,1,EastTreasureRoomDoorOpened)
 TileMapEnd
 
-Map_Change_0:
+WestTreasureRoomChest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_1:
+WestTreasureRoomChest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_2:
+WestTreasureRoomChest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_3:
+WestTreasureRoomChest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_4:
+WestTreasureRoomChest5Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_5:
+EastTreasureRoomChest1Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_6:
+EastTreasureRoomChest2Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_7:
+EastTreasureRoomChest3Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_8:
+EastTreasureRoomChest4Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_9:
+EastTreasureRoomChest5Opened:
 SHORT 0x4 
 ALIGN 4
 
-Map_Change_10:
+NorthWestWallBroken:
 SHORT 0x7a8 0x0 0xc48 0xb44 
 ALIGN 4
 
-Map_Change_11:
+WestTreasureRoomDoorOpened:
 SHORT 0xcd8 0xcd0 
 ALIGN 4
 
-Map_Change_12:
+CenterCorridorDoorOpened:
 SHORT 0xd40 0xd44 
 ALIGN 4
 
-Map_Change_13:
+EastTreasureRoomDoorOpened:
 SHORT 0xcd0 
 ALIGN 4
 

@@ -244,7 +244,7 @@
 #define Ch22Name 0xe39
 #define Ch23Name 0xe3a
 #define Ch24Name 0xe3b
-#define EndgameName 0xe3c
+#define FinalName 0xe3c
 #define TutorialChapterName 0xe3d
 #define Trial_ValleyOfDeathName 0xe3e
 #define Trial_RainyIslandName 0xe3f

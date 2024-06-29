@@ -35,7 +35,7 @@ MAP_Ch21x
 MAP_Ch22 
 MAP_Ch23 
 MAP_Ch24 
-MAP_Endgame 
+MAP_Final 
 MAP_Tutorial 
 MAP_Trial_ValleyOfDeath 
 MAP_Trial_RainyIsland 
@@ -80,7 +80,7 @@ MAPCHANGES_Ch21x
 MAPCHANGES_Ch22 
 MAPCHANGES_Ch23 
 MAPCHANGES_Ch24 
-MAPCHANGES_Endgame 
+MAPCHANGES_Final 
 MAPCHANGES_Tutorial 
 MAPCHANGES_Trial_ValleyOfDeath 
 MAPCHANGES_Trial_RainyIsland 
@@ -124,7 +124,7 @@ EVENTS_Ch21x
 EVENTS_Ch22 
 EVENTS_Ch23 
 EVENTS_Ch24 
-EVENTS_Endgame 
+EVENTS_Final 
 EVENTS_Tutorial 
 EVENTS_Trial_ValleyOfDeath 
 EVENTS_Trial_RainyIsland 
@@ -160,6 +160,7 @@ CONFIG_Snow
 CONFIG_SnowCastle 
 CONFIG_Plains 
 CONFIG_PlainsVillage 
+CONFIG_PlainsCastle 
 CONFIG_Mountainous 
 CONFIG_Stronghold 
 CONFIG_Temple 
@@ -192,7 +193,7 @@ TILEANIM1_Water
 TILEANIM1_WaterInside 
 TILEANIM1_Snow
 TILEANIM1_Stronghold
-TILEANIM1_Endgame 
+TILEANIM1_Final 
 TILEANIM2_Snow
 TILEANIM2_Lava
 TILEANIM2_Stronghold

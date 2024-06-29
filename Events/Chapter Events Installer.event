@@ -81,3 +81,36 @@
 {
 #include "Chapter20Ax.event"
 }
+{
+#include "Chapter17B.event"
+}
+{
+#include "Chapter18B.event"
+}
+{
+#include "Chapter19B.event"
+}
+{
+#include "Chapter20B.event"
+}
+{
+#include "Chapter20Bx.event"
+}
+{
+#include "Chapter21.event"
+}
+{
+#include "Chapter21x.event"
+}
+{
+#include "Chapter22.event"
+}
+{
+#include "Chapter23.event"
+}
+{
+#include "Chapter24.event"
+}
+{
+#include "Final.event"
+}

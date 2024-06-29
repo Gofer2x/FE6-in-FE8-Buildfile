@@ -9,3 +9,5 @@
 #include "Temple/Installer.event"
 #include "Snow/Installer.event"
 #include "SnowCastle/Installer.event"
+#include "Plains/Installer.event"
+#include "PlainsCastle/Installer.event"

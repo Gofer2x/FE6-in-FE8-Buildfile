@@ -8,6 +8,9 @@ PAL_FieldsRawData:
 ALIGN 4
 PAL_FieldsBridgeRawData:
 #incbin "FieldsBridge_pal.dmp"
+ALIGN 4
+PAL_FieldsNightRawData:
+#incbin "FieldsNight_pal.dmp"
 
 ALIGN 4
 CONFIG_FieldsRawData:
@@ -19,5 +22,6 @@ CONFIG_FieldsBridgeRawData:
 EventPointerTable(OBJ_Fields, OBJ_FieldsRawData)
 EventPointerTable(PAL_Fields, PAL_FieldsRawData)
 EventPointerTable(PAL_FieldsBridge, PAL_FieldsBridgeRawData)
+EventPointerTable(PAL_FieldsNight, PAL_FieldsNightRawData)
 EventPointerTable(CONFIG_Fields, CONFIG_FieldsRawData)
 EventPointerTable(CONFIG_FieldsBridge, CONFIG_FieldsBridgeRawData)

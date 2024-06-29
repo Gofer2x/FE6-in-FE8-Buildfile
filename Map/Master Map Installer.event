@@ -52,10 +52,19 @@
 #include "Chapter 17A\Chapter17A.event"
 }
 {
+#include "Chapter 17B\Chapter17B.event"
+}
+{
 #include "Chapter 18A\Chapter18A.event"
 }
 {
+#include "Chapter 18B\Chapter18B.event"
+}
+{
 #include "Chapter 19A\Chapter19A.event"
+}
+{
+#include "Chapter 19B\Chapter19B.event"
 }
 {
 #include "Chapter 2\Chapter2.event"
@@ -65,6 +74,12 @@
 }
 {
 #include "Chapter 20Ax\Chapter20Ax.event"
+}
+{
+#include "Chapter 20B\Chapter20B.event"
+}
+{
+#include "Chapter 20Bx\Chapter20Bx.event"
 }
 {
 #include "Chapter 3\Chapter3.event"

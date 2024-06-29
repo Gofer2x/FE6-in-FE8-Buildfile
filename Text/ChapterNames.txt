@@ -109,7 +109,7 @@ The Ghosts of Bern[X]
 ## Ch24Name
 Legends and Lies[X]
 
-## EndgameName
+## FinalName
 Beyond Darkness[X]
 
 ## TutorialChapterName

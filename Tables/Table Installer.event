@@ -26,10 +26,6 @@
 
 #include "Item\Stat Bonuses Editor.event"
 
-#include "Map Sprite\Misc map sprite editor.event"
-
-#include "Map Sprite\Standing map sprite editor.event"
-
 #include "Other\Crit bonus editorFE8.event"
 
 #include "Other\FE8 Level Cap Editor.event"

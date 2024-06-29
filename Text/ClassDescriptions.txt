@@ -1,0 +1,7 @@
+## RoyLordDescription
+A noble attached to a ruling[N]
+house. Has great potential.[X]
+
+## RoyGreatLordDescription
+An honorific bestowed upon[N]
+true champions.[X]

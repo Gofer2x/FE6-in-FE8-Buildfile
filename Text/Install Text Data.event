@@ -991,3 +991,19 @@ TxtData0xe42:
 #incext ParseFile "_textentries\0xe42.txt"
 setText(0xe42,TxtData0xe42)
 
+TxtData0xe43:
+#incext ParseFile "_textentries\0xe43.txt"
+setText(0xe43,TxtData0xe43)
+
+TxtData0xe44:
+#incext ParseFile "_textentries\0xe44.txt"
+setText(0xe44,TxtData0xe44)
+
+TxtData0xe45:
+#incext ParseFile "_textentries\0xe45.txt"
+setText(0xe45,TxtData0xe45)
+
+TxtData0xe46:
+#incext ParseFile "_textentries\0xe46.txt"
+setText(0xe46,TxtData0xe46)
+

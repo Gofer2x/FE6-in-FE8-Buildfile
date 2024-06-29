@@ -1,33 +1,34 @@
+#include "MapAnimDefs.event"
 
+//SMS
 
-#include "Internals.event"
-#include "GeneratedInstaller.event"
+ALIGN 4 
+RoyLord_SMS_Data: 
+#incbin "dmp/RoyLord_SMS.dmp" 
 
-
-//First free SMS is 107
-#define Cavalier_M_Sword_SALVAGEDstand 107 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand 108 
- 
- 
-//First free MMS is 127 and will show up if you've expanded classes.
-#define Cavalier_M_Sword_SALVAGEDwalk 127 
-#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk 128 
- 
-
-
-//Copy from here 
-PUSH 
- 
-SetSMS(Cavalier_M_Sword_SALVAGEDstand, 1, Cavalier_M_Sword_SALVAGEDstand_Data) 
-SetSMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand, 0, Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand_Data) 
- 
- 
-SetMMS(Cavalier_M_Sword_SALVAGEDwalk, Cavalier_M_Sword_SALVAGEDwalk_Data, DemonKingAP) 
-SetMMS(Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk, Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk_Data, DemonKingAP) 
- 
-POP 
-//Copy until here 
+StandingMapSprite(RoyLord_SMS,MapSprite16x16,RoyLord_SMS_Data)
 
 
 
+ALIGN 4 
+RoyGreatLord_SMS_Data: 
+#incbin "dmp/RoyGreatLord_SMS.dmp" 
 
+StandingMapSprite(RoyGreatLord_SMS,MapSprite16x32,RoyGreatLord_SMS_Data)
+
+
+//MMS
+
+ALIGN 4 
+RoyLord_MMS_Data: 
+#incbin "dmp/RoyLord_MMS.dmp" 
+
+MovingMapSprite(RoyLord_MMS, AP81, RoyLord_MMS_Data)
+
+
+
+ALIGN 4 
+RoyGreatLord_MMS_Data: 
+#incbin "dmp/RoyGreatLord_MMS.dmp" 
+
+MovingMapSprite(RoyGreatLord_MMS, AP81, RoyGreatLord_MMS_Data)

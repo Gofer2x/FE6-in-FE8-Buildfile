@@ -1,0 +1,19 @@
+#define StandingMapSpriteTable 0x8AF880
+#define MovingMapSpriteTable 0x9A2E00 
+
+#define StandingMapSprite(aId, size, gfxPointer) "PUSH; ORG StandingMapSpriteTable + (aId * 8); SHORT 0 size; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG MovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+
+#define MapSprite16x16 0
+#define MapSprite16x32 1
+#define MapSprite32x32 2
+
+#define AP11 0x81C46CC
+#define AP81 0x81EEC84
+
+#define RoyLord_SMS 0 //Replace EphraimLord
+#define RoyGreatLord_SMS 1 //Replace EirikaLord
+
+#define RoyLord_MMS 1 //Ditto but offset by 1
+#define RoyGreatLord_MMS 2
+

@@ -1,5 +1,7 @@
-#define EphraimLord 0x01
-#define EirikaLord 0x02
+//#define EphraimLord 0x01
+//#define EirikaLord 0x02
+#define RoyLord 0x01
+#define RoyMasterLord 0x02
 #define EphraimMasterLord 0x03
 #define EirikaMasterLord 0x04
 #define Cavalier 0x05

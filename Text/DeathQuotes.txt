@@ -1,0 +1,317 @@
+## RoyDeathQuote
+Roy[X]
+
+## MarcusDeathQuote
+Marcus[X]
+
+## AlenDeathQuote
+Alen[X]
+
+## LanceDeathQuote
+Lance[X]
+
+## WoltDeathQuote
+Wolt[X]
+
+## BorsDeathQuote
+Bors[X]
+
+## MerlinusDeathQuote
+Merlinus[X]
+
+## ElenDeathQuote
+Elen[X]
+
+## DieckDeathQuote
+Dieck[X]
+
+## WardDeathQuote
+Ward[X]
+
+## LotDeathQuote
+Lot[X]
+
+## ShannaDeathQuote
+Shanna[X]
+
+## ChadDeathQuote
+Chad[X]
+
+## LughDeathQuote
+Lugh[X]
+
+## ClarineDeathQuote
+Clarine[X]
+
+## RutgerDeathQuote
+Rutger[X]
+
+## SaulDeathQuote
+Saul[X]
+
+## DorothyDeathQuote
+Dorothy[X]
+
+## SueDeathQuote
+Sue[X]
+
+## ZelotDeathQuote
+Zelot[X]
+
+## TrecDeathQuote
+Trec[X]
+
+## NoahDeathQuote
+Noah[X]
+
+## AstolfoDeathQuote
+Astolfo[X]
+
+## LilinaDeathQuote
+Lilina[X]
+
+## BartheDeathQuote
+Barthe[X]
+
+## OgierDeathQuote
+Ogier[X]
+
+## GwendolynDeathQuote
+Gwendolyn[X]
+
+## FirDeathQuote
+Fir[X]
+
+## SinDeathQuote
+Sin[X]
+
+## GeeseDeathQuote
+Geese[X]
+
+## GonzalezDeathQuote
+Gonzalez[X]
+
+## KleinDeathQuote
+Klein[X]
+
+## TheaDeathQuote
+Thea[X]
+
+## LarumDeathQuote
+Larum[X]
+
+## ElffinDeathQuote
+Elffin[X]
+
+## EchidnaDeathQuote
+Echidna[X]
+
+## BartreDeathQuote
+Bartre[X]
+
+## RaighDeathQuote
+Raigh[X]
+
+## CathDeathQuote
+Cath[X]
+
+## MeladyDeathQuote
+Melady[X]
+
+## PercevalDeathQuote
+Perceval[X]
+
+## CeciliaDeathQuote
+Cecilia[X]
+
+## SophiaDeathQuote
+Sophia[X]
+
+## IgreneDeathQuote
+Igrene[X]
+
+## GarretDeathQuote
+Garret[X]
+
+## FaeDeathQuote
+Fae[X]
+
+## HughDeathQuote
+Hugh[X]
+
+## ZeissDeathQuote
+Zeiss[X]
+
+## DouglasDeathQuote
+Douglas[X]
+
+## NiimeDeathQuote
+Niime[X]
+
+## JunoDeathQuote
+Juno[X]
+
+## DayanDeathQuote
+Dayan[X]
+
+## YoderDeathQuote
+Yoder[X]
+
+## KarelDeathQuote
+Karel[X]
+
+
+
+
+
+## NarcianDeathQuote
+Narcian[X]
+
+## GalleDeathQuote
+Galle[X]
+
+## HectorDeathQuote
+Hector[X]
+
+## BrunnyaDeathQuote
+Brunnya[X]
+
+## MurdockDeathQuote
+Murdock[X]
+
+## EliwoodDeathQuote
+Eliwood[X]
+
+## ZephielDeathQuote
+Zephiel[X]
+
+## GuinivereDeathQuote
+Guinivere[X]
+
+
+
+
+
+## DamasDeathQuote
+[OpenMidLeft][LoadDamas][OpenMidLeft][ToggleSmile][ToggleSmile]Wh...what the...?![AN]
+S...so strong...[A][X]
+
+## RuudDeathQuote
+Ruud[X]
+
+## SlaterDeathQuote
+Slater[X]
+
+## ErikDeathQuote
+Erik[X]
+
+## DoryDeathQuote
+Dory[X]
+
+## WagnerDeathQuote
+Wagner[X]
+
+## DebiasDeathQuote
+Debias[X]
+
+## LeganceDeathQuote
+Legance[X]
+
+## HenningDeathQuote
+Henning[X]
+
+## ScottDeathQuote
+Scott[X]
+
+## NordDeathQuote
+Nord[X]
+
+## ZinqueDeathQuote
+Zinque[X]
+
+## ScollanDeathQuote
+Scollan[X]
+
+## OrloDeathQuote
+Orlo[X]
+
+## RobertsDeathQuote
+Roberts[X]
+
+## MorganDeathQuote
+Morgan[X]
+
+## EinDeathQuote
+Ein[X]
+
+## GuerreroDeathQuote
+Guerrero[X]
+
+## FlaerDeathQuote
+Flaer[X]
+
+## RandyDeathQuote
+Randy[X]
+
+## MaggieDeathQuote
+Maggie[X]
+
+## RoseDeathQuote
+Rose[X]
+
+## OatesDeathQuote
+Oates[X]
+
+## RaithDeathQuote
+Raith[X]
+
+## WindhamDeathQuote
+Windham[X]
+
+## ArcardoDeathQuote
+Arcardo[X]
+
+## MartelDeathQuote
+Martel[X]
+
+## MonkeDeathQuote
+Monke[X]
+
+## SiguneDeathQuote
+Sigune[X]
+
+## KelDeathQuote
+Kel[X]
+
+## RoartzDeathQuote
+Roartz[X]
+
+## TickDeathQuote
+Tick[X]
+
+## ThorilDeathQuote
+Thoril[X]
+
+## BrakulDeathQuote
+Brakul[X]
+
+## KudokaDeathQuote
+Kudoka[X]
+
+## MarralDeathQuote
+Marral[X]
+
+## KabulDeathQuote
+Kabul[X]
+
+## ChanDeathQuote
+Chan[X]
+
+## PeresDeathQuote
+Peres[X]
+
+## JahnDeathQuote
+Jahn[X]
+
+## IdunnDeathQuote
+Idunn[X]

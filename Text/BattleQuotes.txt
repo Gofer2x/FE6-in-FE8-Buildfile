@@ -1,0 +1,124 @@
+## DamasBattleQuote
+[OpenMidLeft][LoadDamas][OpenMidLeft][ToggleSmile]You bumbling idiots![AN]
+You can't take down a[N]
+few pathetic knights?![AN][X]
+
+## RuudBattleQuote
+Ruud[X]
+
+## SlaterBattleQuote
+Slater[X]
+
+## ErikBattleQuote
+Erik[X]
+
+## DoryBattleQuote
+Dory[X]
+
+## WagnerBattleQuote
+Wagner[X]
+
+## DebiasBattleQuote
+Debias[X]
+
+## LeganceBattleQuote
+Legance[X]
+
+## HenningBattleQuote
+Henning[X]
+
+## ScottBattleQuote
+Scott[X]
+
+## NordBattleQuote
+Nord[X]
+
+## ZinqueBattleQuote
+Zinque[X]
+
+## ScollanBattleQuote
+Scollan[X]
+
+## OrloBattleQuote
+Orlo[X]
+
+## RobertsBattleQuote
+Roberts[X]
+
+## MorganBattleQuote
+Morgan[X]
+
+## EinBattleQuote
+Ein[X]
+
+## GuerreroBattleQuote
+Guerrero[X]
+
+## FlaerBattleQuote
+Flaer[X]
+
+## RandyBattleQuote
+Randy[X]
+
+## MaggieBattleQuote
+Maggie[X]
+
+## RoseBattleQuote
+Rose[X]
+
+## OatesBattleQuote
+Oates[X]
+
+## RaithBattleQuote
+Raith[X]
+
+## WindhamBattleQuote
+Windham[X]
+
+## ArcardoBattleQuote
+Arcardo[X]
+
+## MartelBattleQuote
+Martel[X]
+
+## MonkeBattleQuote
+Monke[X]
+
+## SiguneBattleQuote
+Sigune[X]
+
+## KelBattleQuote
+Kel[X]
+
+## RoartzBattleQuote
+Roartz[X]
+
+## TickBattleQuote
+Tick[X]
+
+## ThorilBattleQuote
+Thoril[X]
+
+## BrakulBattleQuote
+Brakul[X]
+
+## KudokaBattleQuote
+Kudoka[X]
+
+## MarralBattleQuote
+Marral[X]
+
+## KabulBattleQuote
+Kabul[X]
+
+## ChanBattleQuote
+Chan[X]
+
+## PeresBattleQuote
+Peres[X]
+
+## JahnBattleQuote
+Jahn[X]
+
+## IdunnBattleQuote
+Idunn[X]

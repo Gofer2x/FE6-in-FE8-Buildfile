@@ -1,0 +1,92 @@
+## GenericsDescBrigandsOfLycia
+Brigands of Lycia.[X]
+
+## GenericsDescBernSoldiers
+Soldiers from the eastern[N]
+kingdom of Bern.[X]
+
+## GenericsDescLausSoldiers
+Soldiers in service to the[N]
+Laus territory of Lycia.[X]
+
+## GenericsDescOutlawsRansack
+Outlaws attempting to ransack[N]
+villages in the chaos of war.[X]
+
+## GenericsDescOutlawsMountains
+Outlaws from the[N]
+mountains.[X]
+
+## GenericsDescThriaTraitors
+Soldiers of Thria who[N]
+betrayed the Lycian League.[X]
+
+## GenericsDescRebelsLegance
+Soldiers serving Legance[N]
+and the rebellion.[X]
+
+## GenericsDescThiefHunting
+Thieves hunting for[N]
+treasure to pilfer.[X]
+
+## GenericsDesc8xBrigands
+Brigands under the[N]
+guise of mercenaries.[X]
+
+## GenericsDescBanditsRoamingWest
+Bandits roaming the[N]
+Western Isles.[X]
+
+## GenericsDescArmagh
+Soldiers defending[N]
+Castle Armagh.[X]
+
+## GenericsDescEburacum
+Soldiers guarding[N]
+Eburacum.[X]
+
+## GenericsDescSoldiersServingWest
+Soldiers serving the lords[N]
+of the Western Isles.[X]
+
+## GenericsDescEidyna
+Soldiers defending[N]
+Castle Eidyna.[X]
+
+## GenericsDescResistanceCitizens
+Citizens who have taken up arms[N]
+to fight for the people.[X]
+
+## GenericsDescJuteauxCapital
+Soldiers defending the capital[N]
+of the Western Isles.[X]
+
+## GenericsDescEtruriaSoldiers
+Soldiers from the western[N]
+kingdom of Etruria.[X]
+
+## GenericsDescBrigandsDesert
+Brigands who ambush[N]
+travelers in the desert.[X]
+
+## GenericsDescArcadiaBernMercenaries
+Mercenaries from the eastern[N]
+kingdom of Bern.[X]
+
+## GenericsDescKnightsOfIllia
+Knights of Ilia.[X]
+
+## GenericsDescNomadicWarriors
+Nomadic warriors of Sacae.[X]
+
+## GenericsDescDjuteWarriors
+Warriors of the Djute clan[N]
+who support Bern.[X]
+
+## GenericsDescManaketeWar
+War dragons created[N]
+by the demon dragon.[X]
+
+## GenericsDescOstianHelpers
+Ostian soldiers helping[N]
+with Roy's training.[X]

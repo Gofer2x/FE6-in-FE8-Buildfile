@@ -1,0 +1,53 @@
+## GenericBanditName
+Bandit[X]
+
+## GenericBernName
+Bern[X]
+
+## GenericLausName
+Laus[X]
+
+## GenericPirateName
+Pirate[X]
+
+## GenericThriaName
+Thria[X]
+
+## GenericRebelsName
+Rebels[X]
+
+## GenericThiefName
+Thief[X]
+
+## GenericWestIslesName
+West Isles[X]
+
+## GenericArmaghName
+Armagh[X]
+
+## GenericEburacumName
+Eburacum[X]
+
+## GenericSoldiersName
+Soldiers[X]
+
+## GenericEidynaName
+Eidyna[X]
+
+## GenericJuteauxName
+Juteaux[X]
+
+## GenericEtruriaName
+Etruria[X]
+
+## GenericIlliaName
+Illia[X]
+
+## GenericSacaeName
+Sacae[X]
+
+## GenericDjuteName
+Djute[X]
+
+## GenericOstiaName
+Ostia[X]

@@ -4,6 +4,8 @@
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
 
+//In a nutshell, the number on the second line is 1 for unpromoted units and 3 for promoted.
+
 // Marcus_Paladin
 	setPalette(2,Marcus_Paladin)
 	setCBSP(2,Marcus, 3, Paladin)

@@ -1,5 +1,5 @@
 ## DamasBattleQuote
-[OpenMidLeft][LoadDamas][OpenMidLeft][ToggleSmile]You bumbling idiots![AN]
+[OpenMidLeft][LoadDamas][ToggleSmile]You bumbling idiots![AN]
 You can't take down a[N]
 few pathetic knights?![AN][X]
 

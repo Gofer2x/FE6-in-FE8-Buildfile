@@ -8,3 +8,5 @@ Erm, what the sigma?[X]
 #include "ChapterNames.txt"
 #include "BattleQuotes.txt"
 #include "DeathQuotes.txt"
+#include "GenericsNames.txt"
+#include "GenericsDescriptions.txt"

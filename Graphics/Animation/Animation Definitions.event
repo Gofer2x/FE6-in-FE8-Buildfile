@@ -26,7 +26,7 @@
 #define UnarmedAnim(Animation) "BYTE 0x09 0x01 ; SHORT Animation"
 #define MonsterAnim(Animation) "BYTE 0x0B 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
-#define EndAnim "WORD 0x0 0x0"
+#define EndAnim "WORD 0x0"
 
 
 

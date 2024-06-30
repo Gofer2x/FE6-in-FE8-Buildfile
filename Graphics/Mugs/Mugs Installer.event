@@ -17,7 +17,7 @@ RoyMugData:
 #incbin "Dmp/Roy_frames.dmp"
 #incbin "Dmp/Roy_palette.dmp"
 #incbin "Dmp/Roy_minimug.dmp"
-setMugEntry(RoyMug, RoyMugData, 0, 0, 0, 0)
+setMugEntry(RoyMug, RoyMugData, 2, 6, 3, 4)
 
 #define MarcusMug 0x2
 ALIGN 16
@@ -26,7 +26,7 @@ MarcusMugData:
 #incbin "Dmp/Marcus_frames.dmp"
 #incbin "Dmp/Marcus_palette.dmp"
 #incbin "Dmp/Marcus_minimug.dmp"
-setMugEntry(MarcusMug, MarcusMugData, 0, 0, 0, 0)
+setMugEntry(MarcusMug, MarcusMugData, 2, 5, 2, 3)
 
 #define AlenMug 0x3
 ALIGN 16
@@ -575,7 +575,7 @@ DamasMugData:
 #incbin "Dmp/Damas_frames.dmp"
 #incbin "Dmp/Damas_palette.dmp"
 #incbin "Dmp/Damas_minimug.dmp"
-setMugEntry(DamasMug, DamasMugData, 0, 0, 0, 0)
+setMugEntry(DamasMug, DamasMugData, 2, 5, 2, 3)
 
 #define RuudMug 0x40
 ALIGN 16

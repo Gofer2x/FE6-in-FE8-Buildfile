@@ -1,3 +1,6 @@
+## GenericEnemyName
+Evil[X]
+
 ## GenericBanditName
 Bandit[X]
 

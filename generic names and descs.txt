@@ -1,3 +1,9 @@
+rethinkg this whole file honestly
+
+
+
+
+
 Ch1
 
 BanditCh1
@@ -41,7 +47,7 @@ villages in the chaos of war.
 
 Ch5
 
-BanditCh5
+BanditsOutlaws
 Name: Bandit
 Description:
 Outlaws from the
@@ -82,9 +88,19 @@ RebelOstia
 
 
 
+Ch8x
+
+BanditsCh8x
+Name: Bandit
+Description:
+Brigands under the
+guise of mercenaries.
+
+
+
 Ch9
 
-WestIslesCh9
+WestIslesBanditsRoaming
 Name: West Isles
 Description:
 Bandits roaming the
@@ -157,3 +173,26 @@ Name: Citizen
 Description:
 Citizens who escaped
 from Castle Eidyna.
+
+
+Ch12
+
+JuteauxCh12 //Translation's "Etruria" is wrong
+Name: Juteaux
+Description:
+Soldiers defending the capital
+of the Western Isles.
+
+WestIslesCh12
+Name: West Isles
+Description:
+Soldiers defending the capital
+of the Western Isles.
+//Technically it's something like "Soldiers of the West Isles Government Office of Kingdom of Etruria but I'll let it pass cuz that's long lol
+
+BernGeneric
+
+
+
+Ch12x
+BanditsOutlaws

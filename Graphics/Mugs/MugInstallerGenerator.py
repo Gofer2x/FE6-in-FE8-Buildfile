@@ -226,3 +226,14 @@ with open("GeneratedMugInstaller.event", "w") as writeMugInstaller:
 #
 #with open("MugIDs.event", "w") as writeMugIDs:
 #    writeMugIDs.writelines(output)
+
+output = []
+
+i = 1
+for name in names:
+    output.append("[Load"+name+"] = [LoadPortrait]["+Funny(i)+"][0x1]\n")
+    i += 1
+
+with open("ShowMugs.event", "w") as write:
+    write.writelines(output)
+

@@ -1,0 +1,277 @@
+//def Funny(i):
+//    j = hex(i)
+//    j = j.upper()
+//    j = j.replace("X", "x")
+//    return str(j)
+//
+//s=["RoyLord", "RoyGreatLord", "Mercenary", "MercenaryF", "Hero", "HeroF", "Myrmidon", "MyrmidonF", "Swordmaster", "SwordmasterF", "Fighter", "Warrior", "Brigand", "Pirate", "Berserker", "Soldier", "Knight", "KnightF", "General", "GeneralF", "Archer", "ArcherF", "Sniper", "SniperF", "Thief", "ThiefF", "Rogue", "RogueF", "Assassin", "AssassinF", "Cavalier", "CavalierF", "Paladin", "PaladinF", "GreatKnight", "GreatKnightF", "Nomad", "NomadF", "NomadTrooper", "NomadTrooperF", "Priest", "Cleric", "Bishop", "BishopF", "Troubadour", "Valkyrie", "Mage", "MageF", "Sage", "SageF", "MageKnight", "Unused_GorgonEgg, "MageKnightF", "Shaman", "ShamanF", "Druid", "DruidF", "PegasusKnight", "Falcoknight", "WyvernRider", "WyvernRiderF", "WyvernLord", "WyvernLordF", "WyvernKnight", "WyvernKnightF", "Bard", "Dancer", "Transporter", "FaeManakete", "DivineDragon", "FireManakete", "FireDragon", "King", "DemonDragon", "Civilian", "CivilianF", "Child", "ChildF"]
+//
+//i = 0
+//for classname in s:
+//    print("//"+classname)
+//    print("SetMMS("+Funny(i)+", "+classname+"_MMS_Data, "+classname+"_MMS_AP)")
+//    print("")
+//    i += 1
+
+//#define SetMMS(index, graphics, another_ptr)
+
+//RoyLord
+SetMMS(0x0, RoyLord_MMS_Data, RoyLord_MMS_AP)
+
+//RoyGreatLord
+SetMMS(0x1, RoyGreatLord_MMS_Data, RoyGreatLord_MMS_AP)
+
+//Mercenary
+SetMMS(0x2, Mercenary_MMS_Data, Mercenary_MMS_AP)
+
+//MercenaryF
+SetMMS(0x3, MercenaryF_MMS_Data, MercenaryF_MMS_AP)
+
+//Hero
+SetMMS(0x4, Hero_MMS_Data, Hero_MMS_AP)
+
+//HeroF
+SetMMS(0x5, HeroF_MMS_Data, HeroF_MMS_AP)
+
+//Myrmidon
+SetMMS(0x6, Myrmidon_MMS_Data, Myrmidon_MMS_AP)
+
+//MyrmidonF
+SetMMS(0x7, MyrmidonF_MMS_Data, MyrmidonF_MMS_AP)
+
+//Swordmaster
+SetMMS(0x8, Swordmaster_MMS_Data, Swordmaster_MMS_AP)
+
+//SwordmasterF
+SetMMS(0x9, SwordmasterF_MMS_Data, SwordmasterF_MMS_AP)
+
+//Fighter
+SetMMS(0xA, Fighter_MMS_Data, Fighter_MMS_AP)
+
+//Warrior
+SetMMS(0xB, Warrior_MMS_Data, Warrior_MMS_AP)
+
+//Brigand
+SetMMS(0xC, Brigand_MMS_Data, Brigand_MMS_AP)
+
+//Pirate
+SetMMS(0xD, Pirate_MMS_Data, Pirate_MMS_AP)
+
+//Berserker
+SetMMS(0xE, Berserker_MMS_Data, Berserker_MMS_AP)
+
+//Soldier
+SetMMS(0xF, Soldier_MMS_Data, Soldier_MMS_AP)
+
+//Knight
+SetMMS(0x10, Knight_MMS_Data, Knight_MMS_AP)
+
+//KnightF
+SetMMS(0x11, Knight_MMS_Data, Knight_MMS_AP)
+
+//General
+SetMMS(0x12, General_MMS_Data, General_MMS_AP)
+
+//GeneralF
+SetMMS(0x13, General_MMS_Data, General_MMS_AP)
+
+//Archer
+SetMMS(0x14, Archer_MMS_Data, Archer_MMS_AP)
+
+//ArcherF
+SetMMS(0x15, ArcherF_MMS_Data, ArcherF_MMS_AP)
+
+//Sniper
+SetMMS(0x16, Sniper_MMS_Data, Sniper_MMS_AP)
+
+//SniperF
+SetMMS(0x17, SniperF_MMS_Data, SniperF_MMS_AP)
+
+//Thief
+SetMMS(0x18, Thief_MMS_Data, Thief_MMS_AP)
+
+//ThiefF
+SetMMS(0x19, ThiefF_MMS_Data, ThiefF_MMS_AP)
+
+//Rogue
+SetMMS(0x1A, Rogue_MMS_Data, Rogue_MMS_AP)
+
+//RogueF
+SetMMS(0x1B, RogueF_MMS_Data, RogueF_MMS_AP)
+
+//Assassin
+SetMMS(0x1C, Assassin_MMS_Data, Assassin_MMS_AP)
+
+//AssassinF
+SetMMS(0x1D, AssassinF_MMS_Data, AssassinF_MMS_AP)
+
+//Cavalier
+SetMMS(0x1E, Cavalier_MMS_Data, Cavalier_MMS_AP)
+
+//CavalierF
+SetMMS(0x1F, Cavalier_MMS_Data, Cavalier_MMS_AP)
+
+//Paladin
+SetMMS(0x20, Paladin_MMS_Data, Paladin_MMS_AP)
+
+//PaladinF
+SetMMS(0x21, Paladin_MMS_Data, Paladin_MMS_AP)
+
+//GreatKnight
+SetMMS(0x22, GreatKnight_MMS_Data, GreatKnight_MMS_AP)
+
+//GreatKnightF
+SetMMS(0x23, GreatKnight_MMS_Data, GreatKnight_MMS_AP)
+
+//Nomad
+SetMMS(0x24, Nomad_MMS_Data, Nomad_MMS_AP)
+
+//NomadF
+SetMMS(0x25, NomadF_MMS_Data, NomadF_MMS_AP)
+
+//NomadTrooper
+SetMMS(0x26, NomadTrooper_MMS_Data, NomadTrooper_MMS_AP)
+
+//NomadTrooperF
+SetMMS(0x27, NomadTrooperF_MMS_Data, NomadTrooperF_MMS_AP)
+
+//Priest
+SetMMS(0x28, Priest_MMS_Data, Priest_MMS_AP)
+
+//Cleric
+SetMMS(0x29, Cleric_MMS_Data, Cleric_MMS_AP)
+
+//Bishop
+SetMMS(0x2A, Bishop_MMS_Data, Bishop_MMS_AP)
+
+//BishopF
+SetMMS(0x2B, BishopF_MMS_Data, BishopF_MMS_AP)
+
+//Troubadour
+SetMMS(0x2C, Troubadour_MMS_Data, Troubadour_MMS_AP)
+
+//Valkyrie
+SetMMS(0x2D, Valkyrie_MMS_Data, Valkyrie_MMS_AP)
+
+//Mage
+SetMMS(0x2E, Mage_MMS_Data, Mage_MMS_AP)
+
+//MageF
+SetMMS(0x2F, MageF_MMS_Data, MageF_MMS_AP)
+
+//Sage
+SetMMS(0x30, Sage_MMS_Data, Sage_MMS_AP)
+
+//SageF
+SetMMS(0x31, SageF_MMS_Data, SageF_MMS_AP)
+
+//MageKnight
+SetMMS(0x32, MageKnight_MMS_Data, MageKnight_MMS_AP)
+
+//Unused_GorgonEgg
+SetMMS(0x33, 0x0, 0x0)
+
+//MageKnightF
+SetMMS(0x34, MageKnightF_MMS_Data, MageKnightF_MMS_AP)
+
+//Shaman
+SetMMS(0x35, Shaman_MMS_Data, Shaman_MMS_AP)
+
+//ShamanF
+SetMMS(0x36, ShamanF_MMS_Data, ShamanF_MMS_AP)
+
+//Druid
+SetMMS(0x37, Druid_MMS_Data, Druid_MMS_AP)
+
+//DruidF
+SetMMS(0x38, DruidF_MMS_Data, DruidF_MMS_AP)
+
+//PegasusKnight
+SetMMS(0x39, PegasusKnight_MMS_Data, PegasusKnight_MMS_AP)
+
+//Falcoknight
+SetMMS(0x3A, Falcoknight_MMS_Data, Falcoknight_MMS_AP)
+
+//WyvernRider
+SetMMS(0x3B, WyvernRider_MMS_Data, WyvernRider_MMS_AP)
+
+//WyvernRiderF
+SetMMS(0x3C, WyvernRiderF_MMS_Data, WyvernRiderF_MMS_AP)
+
+//WyvernLord
+SetMMS(0x3D, WyvernLord_MMS_Data, WyvernLord_MMS_AP)
+
+//WyvernLordF
+SetMMS(0x3E, WyvernLordF_MMS_Data, WyvernLordF_MMS_AP)
+
+//WyvernKnight
+SetMMS(0x3F, WyvernKnight_MMS_Data, WyvernKnight_MMS_AP)
+
+//WyvernKnightF
+SetMMS(0x40, WyvernKnight_MMS_Data, WyvernKnight_MMS_AP)
+
+//Bard
+SetMMS(0x41, Bard_MMS_Data, Bard_MMS_AP)
+
+//Dancer
+SetMMS(0x42, Dancer_MMS_Data, Dancer_MMS_AP)
+
+//Transporter
+SetMMS(0x43, Transporter_MMS_Data, Transporter_MMS_AP)
+
+//FaeManakete
+SetMMS(0x44, FaeManakete_MMS_Data, FaeManakete_MMS_AP)
+
+//DivineDragon
+SetMMS(0x45, DivineDragon_MMS_Data, DivineDragon_MMS_AP)
+
+//FireManakete
+SetMMS(0x46, FireManakete_MMS_Data, FireManakete_MMS_AP)
+
+//FireDragon
+SetMMS(0x47, FireDragon_MMS_Data, FireDragon_MMS_AP)
+
+//King
+SetMMS(0x48, King_MMS_Data, King_MMS_AP)
+
+//DemonDragon
+SetMMS(0x49, DemonDragon_MMS_Data, DemonDragon_MMS_AP)
+
+//Civilian
+SetMMS(0x4A, Civilian_MMS_Data, Civilian_MMS_AP)
+
+//CivilianF
+SetMMS(0x4B, CivilianF_MMS_Data, CivilianF_MMS_AP)
+
+//Child
+SetMMS(0x4C, Child_MMS_Data, Child_MMS_AP)
+
+//ChildF
+SetMMS(0x4D, ChildF_MMS_Data, ChildF_MMS_AP)
+
+
+
+
+
+
+//MannedBallista
+SetMMS(0x67, MannedBallista_MMS_Data, MannedBallista_MMS_AP)
+
+//MannedIronBallista
+SetMMS(0x68, MannedIronBallista_MMS_Data, MannedIronBallista_MMS_AP)
+
+//MannedKillerBallista
+SetMMS(0x69, MannedKillerBallista_MMS_Data, MannedKillerBallista_MMS_AP)
+
+//FEBuilder complains about two of the below. Guess will just 0x0 them for now.
+
+//UnmannedBallista
+//SetMMS(0x6A, UnmannedBallista_MMS_Data, UnmannedBallista_MMS_AP)
+SetMMS(0x6A, , 0x0)
+
+//UnmannedIronBallista
+SetMMS(0x6B, UnmannedIronBallista_MMS_Data, UnmannedIronBallista_MMS_AP)
+
+//UnmannedKillerBallista
+//SetMMS(0x6C, UnmannedKillerBallista_MMS_Data, UnmannedKillerBallista_MMS_AP)
+SetMMS(0x6C, 0x0, 0x0)

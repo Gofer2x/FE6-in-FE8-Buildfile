@@ -22,22 +22,6 @@ skill. Swift at killing strokes.[X]
 An honorific bestowed upon[N]
 true masters of swordplay.[X]
 
-## ThiefDescription
-Jacks of all trades who can[N]
-pick locks and learn secrets.[X]
-
-## KnightDescription
-Heavily armored knights with[N]
-stout defense, but low speed.[X]
-
-## GeneralDescription
-An honorific bestowed upon[N]
-seasoned knights.[X]
-
-## SoldierDescription
-An average soldier who has[N]
-no special abilities.[X]
-
 ## FighterDescription
 Axe-wielding soldiers whose[N]
 attack offers little defense.[X]
@@ -58,6 +42,18 @@ battle. Quite adept at sea.[X]
 An honorific bestowed upon[N]
 fighters of incredible fury.[X]
 
+## SoldierDescription
+An average soldier who has[N]
+no special abilities.[X]
+
+## KnightDescription
+Heavily armored knights with[N]
+stout defense, but low speed.[X]
+
+## GeneralDescription
+An honorific bestowed upon[N]
+seasoned knights.[X]
+
 ## ArcherDescription
 Soldiers who attack from a[N]
 distance with their bows.[X]
@@ -66,6 +62,30 @@ distance with their bows.[X]
 An honorific bestowed upon[N]
 peerless veteran archers.[X]
 
+## ThiefDescription
+Jacks of all trades who can[N]
+pick locks and learn secrets.[X]
+
+## RogueDescription
+An honorific bestowed upon[N]
+the most skilled thieves.[X]
+
+## AssassinDescription
+An honorific bestowed upon[N]
+the most lethal swordfighters.[X]
+
+## CavalierDescription
+Mounted knights with[N]
+superior movement.[X]
+
+## PaladinDescription
+An honorific bestowed upon[N]
+the most skilled mounted knights.[X]
+
+## GreatKnightDescription
+An honorific bestowed upon[N]
+the strongest mounted knights.[X]
+
 ## NomadDescription
 Sacaen plainsmen with good[N]
 movement. Armed with bows.[X]
@@ -73,30 +93,6 @@ movement. Armed with bows.[X]
 ## NomadTrooperDescription
 An honorific bestowed upon[N]
 nomads of great skill.[X]
-
-## CavalierDescription
-Mounted knights with[N]
-superior movement.[X]
-
-## PaladinDescription
-Dedicated cavaliers with[N]
-superior abilities all around.[X]
-
-## PegasusKnightDescription
-Knights who've earned the[N]
-right to fly winged steeds.[X]
-
-## FalcoknightDescription
-An honorific bestowed upon[N]
-the swiftest pegasus knights.[X]
-
-## WyvernRiderDescription
-Wyvern riders, weak only[N]
-against magic and bows.[X]
-
-## WyvernLordDescription
-An honorific bestowed upon[N]
-skilled wyvern riders.[X]
 
 ## PriestAndClericDescription
 Acolytes who aid their[N]
@@ -122,6 +118,10 @@ penetrate even the toughest armor.[X]
 An honorific bestowed upon[N]
 staff-wielding mages.[X]
 
+## MageKnightDescription
+An honorific bestowed upon[N]
+mages skilled on horseback.[X]
+
 ## ShamanDescription
 Students of dark magic.[N]
 Powerful, but very slow.[X]
@@ -129,6 +129,26 @@ Powerful, but very slow.[X]
 ## DruidDescription
 An honorific bestowed upon[N]
 true masters of dark arts.[X]
+
+## PegasusKnightDescription
+Knights who've earned the[N]
+right to fly winged steeds.[X]
+
+## FalcoknightDescription
+An honorific bestowed upon[N]
+the swiftest pegasus knights.[X]
+
+## WyvernRiderDescription
+Wyvern riders, weak only[N]
+against magic and bows.[X]
+
+## WyvernLordDescription
+An honorific bestowed upon[N]
+skilled wyvern riders.[X]
+
+## WyvernKnightDescription
+An honorific bestowed upon[N]
+deadly wyvern riders.[X]
 
 ## BardDescription
 Musicians whose melodies[N]
@@ -138,22 +158,30 @@ aid allies. Unable to attack.[X]
 Dancers whose arts aid[N]
 allies. Unable to attack.[X]
 
+## TransporterDescription
+A conveyor of goods and[N]
+items. Lacks combat skills.[X]
+
 ## ManaketeDescription
 "Unhumans" who have an[N]
 eerie air about them.[X]
 
-## DemonDragonDescription
-A powerful dragon who rips enemies[N]
-apart with her breath and claws.[X]
+## DivineDragonDescription
+If you can read this,[N]
+something went wrong.[X]
+
+## FireDragonDescription
+If you can read this,[N]
+something went wrong.[X]
 
 ## KingDescription
 The mighty king of Bern.[N]
 Gifted all-around.[X]
 
+## DemonDragonDescription
+A powerful dragon who rips enemies[N]
+apart with her breath and claws.[X]
+
 ## CivilianDescription
 An innocent peasant with[N]
 no combat skills at all.[X]
-
-## TransporterDescription
-A conveyor of goods and[N]
-items. Lacks combat skills.[X]

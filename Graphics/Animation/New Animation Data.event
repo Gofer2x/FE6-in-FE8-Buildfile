@@ -1,0 +1,175 @@
+
+#define RoyLord_SwordAnim 0xCA
+#define RoyLord_BindingBladeAnim 0xCB
+#define RoyLord_UnarmedAnim 0xCC
+
+#define Paladin_AxeAnim 0xCD
+#define Paladin_HandAxeAnim 0xCE
+#define PaladinF_AxeAnim 0xCF
+#define PaladinF_HandAxeAnim 0xD0
+#define ThiefF_SwordAnim 0xD1
+#define ThiefF_UnarmedAnim 0xD2
+#define RogueF_SwordAnim 0xD3
+#define RogueF_UnarmedAnim 0xD4
+#define Nomad_BowAnim 0xD5
+#define Nomad_UnarmedAnim 0xD6
+#define NomadF_BowAnim 0xD7
+#define NomadF_UnarmedAnim 0xD8
+#define NomadTrooper_BowAnim 0xD9
+#define NomadTrooper_SwordAnim 0xDA
+#define NomadTrooper_UnarmedAnim 0xDB
+#define NomadTrooperF_BowAnim 0xDC
+#define NomadTrooperF_SwordAnim 0xDC
+#define NomadTrooperF_UnarmedAnim 0xDD
+#define Bard_RefreshAnim 0xDE
+#define Dancer_RefreshAnim 0xDF
+//D0 For Manakete anims
+//D1
+//D2
+//D3
+//D4
+//D5
+//D6
+//D7
+#define King_SwordAnim 0xD8
+
+  {
+  #include "RoyLord\Sword Installer.event"
+  }
+  {
+  #include "RoyLord\Sword BB Installer.event"
+  #include "RoyLord\Unarmed Installer.event"
+  }
+  {
+  #include "Paladin\Axe Installer.event"
+  #include "Paladin\Handaxe Installer.event"
+  }
+  {
+  #include "PaladinF\Axe Installer.event"
+  #include "PaladinF\Handaxe Installer.event"
+  }
+  {
+  #include "ThiefF\Sword Installer.event"
+  #include "ThiefF\Unarmed Installer.event"
+  }
+  {
+  #include "RogueF\Sword Installer.event"
+  #include "RogueF\Unarmed Installer.event"
+  }
+  {
+  #include "Nomad\Bow Installer.event"
+  #include "Nomad\Unarmed Installer.event"
+  }
+  {
+  #include "NomadF\Bow Installer.event"
+  #include "NomadF\Unarmed Installer.event"
+  }
+  {
+  #include "NomadTrooper\Bow Installer.event"
+  #include "NomadTrooper\Sword Installer.event"
+  #include "NomadTrooper\Unarmed Installer.event"
+  }
+  {
+  #include "NomadTrooperF\Bow Installer.event"
+  #include "NomadTrooperF\Sword Installer.event"
+  #include "NomadTrooperF\Unarmed Installer.event"
+  }
+  {
+  #include "Bard\Refresh Installer.event"
+  }
+  {
+  #include "Dancer\Refresh Installer.event"
+  }
+  {
+  #include "King\Sword Installer.event"
+  }
+
+ALIGN 4
+RoyLord_Anims:
+SwordAnim(RoyLord_SwordAnim)
+SpecialAnim(RoyLord_BindingBladeAnim, SteelSword)
+UnarmedAnim(RoyLord_UnarmedAnim)
+EndAnim
+
+#undef Paladin_Anims
+ALIGN 4
+Paladin_Anims:
+SwordAnim(Paladin_SwordAnim)
+LanceAnim(Paladin_LanceAnim)
+AxeAnim(Paladin_AxeAnim)
+HandAxeAnim(Paladin_HandAxeAnim)
+UnarmedAnim(Paladin_UnarmedAnim)
+EndAnim
+
+#undef PaladinF_Anims
+ALIGN 4
+PaladinF_Anims:
+SwordAnim(PaladinF_SwordAnim)
+LanceAnim(PaladinF_LanceAnim)
+AxeAnim(PaladinF_AxeAnim)
+HandAxeAnim(PaladinF_HandAxeAnim)
+UnarmedAnim(PaladinF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+ThiefF_Anims:
+SwordAnim(ThiefF_SwordAnim)
+UnarmedAnim(ThiefF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+RogueF_Anims:
+SwordAnim(RogueF_SwordAnim)
+UnarmedAnim(RogueF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+Nomad_Anims:
+BowAnim(Nomad_BowAnim)
+UnarmedAnim(Nomad_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadF_Anims:
+BowAnim(NomadF_BowAnim)
+UnarmedAnim(NomadF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooper_Anims:
+BowAnim(NomadTrooper_BowAnim)
+SwordAnim(NomadTrooper_SwordAnim)
+UnarmedAnim(NomadTrooper_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooperF_Anims:
+BowAnim(NomadTrooperF_BowAnim)
+SwordAnim(NomadTrooperF_SwordAnim)
+UnarmedAnim(NomadTrooperF_UnarmedAnim)
+EndAnim
+
+ALIGN 4
+Bard_Anims:
+UnarmedAnim(Bard_RefreshAnim)
+EndAnim
+
+#undef Dancer_Anims
+ALIGN 4
+Dancer_Anims:
+UnarmedAnim(Dancer_RefreshAnim)
+EndAnim
+
+//Sadly will have to do this for now
+#define FaeManakete_Anims 0x0
+#define FireManakete_Anims 0x0
+#define DivineDragon_Anims 0x0
+#define FireDragon_Anims 0x0
+
+ALIGN 4
+King_Anims:
+SwordAnim(King_SwordAnim)
+UnarmedAnim(King_SwordAnim) //yeah, it's like that in fe6 lol
+EndAnim
+
+#define DemonDragon_Anims 0x0

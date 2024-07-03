@@ -1,34 +1,11 @@
-#include "MapAnimDefs.event"
+MESSAGE Processing Map Sprites
+#include "Internals.event"
 
-//SMS
+#include "Vanilla SMS Data.event"
+#include "Vanilla MMS Data.event"
 
-ALIGN 4 
-RoyLord_SMS_Data: 
-#incbin "dmp/RoyLord_SMS.dmp" 
+#include "New SMS Data.event"
+#include "New MMS Data.event"
 
-StandingMapSprite(RoyLord_SMS,MapSprite16x16,RoyLord_SMS_Data)
-
-
-
-ALIGN 4 
-RoyGreatLord_SMS_Data: 
-#incbin "dmp/RoyGreatLord_SMS.dmp" 
-
-StandingMapSprite(RoyGreatLord_SMS,MapSprite16x32,RoyGreatLord_SMS_Data)
-
-
-//MMS
-
-ALIGN 4 
-RoyLord_MMS_Data: 
-#incbin "dmp/RoyLord_MMS.dmp" 
-
-MovingMapSprite(RoyLord_MMS, AP81, RoyLord_MMS_Data)
-
-
-
-ALIGN 4 
-RoyGreatLord_MMS_Data: 
-#incbin "dmp/RoyGreatLord_MMS.dmp" 
-
-MovingMapSprite(RoyGreatLord_MMS, AP81, RoyGreatLord_MMS_Data)
+#include "SMS Reorder.event"
+#include "MMS Reorder.event"

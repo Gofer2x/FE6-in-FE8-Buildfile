@@ -13,6 +13,8 @@
 	#include "Text/Install Text Data.event"
 	#include "Graphics/Master Graphics Installer.event"
 	
+	#include "Misc/TerrainMovementCostInstaller.event"
+	
 	#include "Map/Tilesets/Tilesets Installer.event"
 	#include "Map/Tile Animations/Tile Animations Installer.event"
 	#include "Map/Master Map Installer.event"

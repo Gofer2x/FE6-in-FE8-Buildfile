@@ -1,17 +1,17 @@
-#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
-#define animSword 0
-#define animLance 1
-#define animAxe 2
-#define animBow 3
-#define animStaff 4
-#define animAnima 5
-#define animLight 6
-#define animDark 7
-#define animNone 9
-#define weaponTypeAnim(weaponType, ID) "BYTE weaponType 1 ID 0;"
-#define weaponAnim(weaponID, ID) "BYTE weaponID 0 ID 0;"
-#define weaponAnimEnd "WORD 0"
-#define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+MESSAGE New class anim table
+#undef ClassAnimTable
+#define ClassAnimTable NewAnimTable
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + ((index-1) * 0x20)"
 
 #define SwordAnim(Animation) "BYTE 0x00 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE 0x01 0x01 ; SHORT Animation"
@@ -28,119 +28,4 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 #define EndAnim "WORD 0x0"
 
-
-
-//ANIMATIONS TO ADD
-//RoyLord DONE
-//Repoint Paladin and PaladinF for new axe anims DONE
-//ThiefF DONE
-//Nomad, NomadF, NomadTrooper, NomadTrooperF DONE
-//HeroF and repoint
-//DivineManakete
-//FireManakete
-//DemonDragon
-//King
-//Bard
-//LarumDancer
-
-#define RoyLord_SwordAnim 0x1
-#define RoyLord_BindingBladeAnim 0x2
-#define RoyLord_UnarmedAnim 0x3
-
-#define Paladin_AxeAnim 0xA0
-#define Paladin_HandAxeAnim 0xA1
-#define PaladinF_AxeAnim 0xA2
-#define PaladinF_HandAxeAnim 0xA3
-#define ThiefF_SwordAnim 0xA4
-#define ThiefF_UnarmedAnim 0xA5
-#define Nomad_BowAnim 0xA6
-#define Nomad_UnarmedAnim 0xA7
-#define NomadF_BowAnim 0xA8
-#define NomadF_UnarmedAnim 0xA9
-#define NomadTrooper_BowAnim 0xAA
-#define NomadTrooper_SwordAnim 0xAB
-#define NomadTrooper_UnarmedAnim 0xAC
-#define NomadTrooperF_BowAnim 0xAD
-#define NomadTrooperF_SwordAnim 0xAE
-#define NomadTrooperF_UnarmedAnim 0xAF
-
-
-
-//VANILLA ANIMS
-
-#define Paladin_SwordAnim 0x3A
-#define Paladin_LanceAnim 0x3B
-#define Paladin_UnarmedAnim 0x3C
-#define PaladinF_SwordAnim 0x3D
-#define PaladinF_LanceAnim 0x3E
-#define PaladinF_UnarmedAnim 0x3F
-
-
-
-#define CavalierAnims 0x88AF008
-#define CavalierFAnims 0x88AF018 
-//#define PaladinAnims 0x88AF028 Repointed for axe anims
-//#define PaladinFAnims 0x88AF038 
-#define KnightAnims 0x88AF048 
-#define KnightFAnims 0x88AF054 
-#define GeneralAnims 0x88AF060 
-#define GeneralFAnims 0x88AF080 
-#define ThiefAnims 0x88AF0A0 
-
-#define MercenaryAnims 0x88AF0B8 
-#define MercenaryFAnims 0x88AF0C4
-#define HeroAnims 0x88AF0D0 
-//#define HeroFAnims 0x88AF0EC will be replaced
-#define MyrmidonAnims 0x88AF108 
-#define MyrmidonFAnims 0x88AF114 
-#define SwordmasterAnims 0x88AF120 
-#define SwordmasterFAnims 0x88AF12C 
-
-#define ArcherAnims 0x88AF150 
-#define ArcherFAnims 0x88AF168 
-#define SniperAnims 0x88AF180 
-#define SniperFAnims 0x88AF198 
-
-#define WyvernRiderAnims 0x88AF1D0 
-#define WyvernRiderFAnims 0x88AF1DC
-#define WyvernLordAnims 0x88AF1E8 
-#define WyvernLordFAnims 0x88AF1F8 
-
-#define MageAnims 0x88AF220 
-#define MageFAnims 0x88AF234 
-#define SageAnims 0x88AF248 
-#define SageFAnims 0x88AF260 
-
-#define BishopAnims 0x88AF2A8 
-#define BishopFAnims 0x88AF2C0 
-#define ShamanAnims 0x88AF2D8 
-#define ShamanFAnims 0x88AF2EC 
-#define DruidAnims 0x88AF300 
-#define DruidFAnims 0x88AF318 
-
-
-//#define EphraimLordAnims 0x88AEFD8 
-//#define EirikaLordAnims 0x88AEFE4 
-//#define EphraimGreatLordAnims 0x88AEFF0 
-//#define EirikaGreatLordAnims 0x88AEFFC 
-
-//#define WyvernKnightAnims 0x88AF208 
-//#define WyvernKnightFAnims 0x88AF214 
-//#define RougeAnims 0x88AF360
-
-//#define SummonerAnims 0x88AF330 
-//#define SummonerFAnims 0x88AF348 
-//#define GreatKnightAnims 0x88AF36C 
-//#define GreatKnightFAnims 0x88AF38C 
-//#define MageKnightAnims 0x88AF278 
-//#define MageKnightFAnims 0x88AF290 
-//#define AssassinAnims 0x88AF138 
-//#define AssassinFAnims 0x88AF144 No unique anims
-//#define RangerAnims 0x88AF1B0 
-//#define RangerFAnims 0x88AF1C0 
-
-
-//Label all 3
-//#define ManaketeAnims 0x88AF0AC
-//#define ManaketeAnims 0x88AF3F0 
-//#define ManaketeFAnims 0x88AF3FC 
+#define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"

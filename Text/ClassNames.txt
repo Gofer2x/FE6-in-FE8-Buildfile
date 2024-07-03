@@ -3,3 +3,144 @@ Lord[X]
 
 ## RoyGreatLordName
 Great Lord[X]
+
+## MercenaryName
+Mercenary[X]
+
+## HeroName
+Hero[X]
+
+## MyrmidonName
+Myrmidon[X]
+
+## SwordmasterName
+Swordmaster[X]
+
+## FighterName
+Fighter[X]
+
+## WarriorName
+Warrior[X]
+
+## BrigandName
+Brigand[X]
+
+## PirateName
+Pirate[X]
+
+## BerserkerName
+Berserker[X]
+
+## SoldierName
+Soldier[X]
+
+## KnightName
+Knight[X]
+
+## GeneralName
+General[X]
+
+## ArcherName
+Archer[X]
+
+## SniperName
+Sniper[X]
+
+## ThiefName
+Thief[X]
+
+## RogueName
+Rogue[X]
+
+## AssassinName
+Assassin[X]
+
+## CavalierName
+Cavalier[X]
+
+## PaladinName
+Paladin[X]
+
+## GreatKnightName
+Great Knight[X]
+
+## NomadName
+Nomad[X]
+
+## NomadTrooperName
+Nmd Trooper[X]
+
+## PriestName
+Priest[X]
+
+## ClericName
+Cleric[X]
+
+## BishopName
+Bishop[X]
+
+## TroubadourName
+Troubadour[X]
+
+## ValkyrieName
+Valkyrie[X]
+
+## MageName
+Mage[X]
+
+## SageName
+Sage[X]
+
+## MageKnightName
+Mage Knight[X]
+
+## ShamanName
+Shaman[X]
+
+## DruidName
+Druid[X]
+
+## PegasusKnightName
+Peg Knight[X]
+
+## FalcoknightName
+Falcoknight[X]
+
+## WyvernRiderName
+Wyvern Rider[X]
+
+## WyvernLordName
+Wyvern Lord[X]
+
+## WyvernKnightName
+Wyvern Knight[X]
+
+## BardName
+Bard[X]
+
+## DancerName
+Dancer[X]
+
+## TransporterName
+Transporter[X]
+
+## ManaketeName
+Manakete[X]
+
+## DivineDragonName
+Divine Drgn[X]
+
+## FireDragonName
+Fire Dragon[X]
+
+## KingName
+King[X]
+
+## DemonDragonName
+Demon Drgn[X]
+
+## CivilianName
+Civilian[X]
+
+## Unused_GorgonEggName
+GORGONEGGBAD[X]

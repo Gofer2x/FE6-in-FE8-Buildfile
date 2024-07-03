@@ -1,0 +1,328 @@
+//def Funny(i):
+//    j = hex(i)
+//    j = j.upper()
+//    j = j.replace("X", "x")
+//    return str(j)
+//
+//s=["RoyLord", "RoyGreatLord", "Mercenary", "MercenaryF", "Hero", "HeroF", "Myrmidon", "MyrmidonF", "Swordmaster", "SwordmasterF", "Fighter", "Warrior", "Brigand", "Pirate", "Berserker", "Soldier", "Knight", "General", "Archer", "ArcherF", "Sniper", "SniperF", "Thief", "ThiefF", "Rogue", "RogueF", "Assassin", "AssassinF", "Cavalier", "Paladin", "GreatKnight", "Nomad", "NomadF", "NomadTrooper", "NomadTrooperF", "Priest", "Cleric", "Bishop", "BishopF", "Troubadour", "Valkyrie", "Mage", "MageF", "Sage", "SageF", "MageKnight", "MageKnightF", "Shaman", "ShamanF", "Druid", "DruidF", "PegasusKnight", "Falcoknight", "WyvernRider", "WyvernRiderF", "WyvernLord", "WyvernLordF", "WyvernKnight", "Bard", "Dancer", "Transporter", "FaeManakete", "DivineDragon", "FireManakete", "FireDragon", "King", "DemonDragon", "Civilian", "CivilianF", "Child", "ChildF", "MannedBallista", "MannedIronBallista", "MannedKillerBallista", "UnmannedBallista", "UnmannedIronBallista", "UnmannedKillerBallista"]
+//
+//i = 0
+//for classname in s:
+//    print("//"+classname)
+//    print("#define "+classname+"_SMS "+Funny(i))
+//    print("SetSMS("+classname+"_SMS , "+classname+"_SMS_Size, "+classname+"_SMS_Data)")
+//    print("")
+//    i += 1
+
+
+MESSAGE The following SMS reorders are intentional
+
+//RoyLord
+#define RoyLord_SMS 0x0
+SetSMS(RoyLord_SMS , RoyLord_SMS_Size, RoyLord_SMS_Data)
+
+//RoyGreatLord
+#define RoyGreatLord_SMS 0x1
+SetSMS(RoyGreatLord_SMS , RoyGreatLord_SMS_Size, RoyGreatLord_SMS_Data)
+
+//Mercenary
+#define Mercenary_SMS 0x2
+SetSMS(Mercenary_SMS , Mercenary_SMS_Size, Mercenary_SMS_Data)
+
+//MercenaryF
+#define MercenaryF_SMS 0x3
+SetSMS(MercenaryF_SMS , MercenaryF_SMS_Size, MercenaryF_SMS_Data)
+
+//Hero
+#define Hero_SMS 0x4
+SetSMS(Hero_SMS , Hero_SMS_Size, Hero_SMS_Data)
+
+//HeroF
+#define HeroF_SMS 0x5
+SetSMS(HeroF_SMS , HeroF_SMS_Size, HeroF_SMS_Data)
+
+//Myrmidon
+#define Myrmidon_SMS 0x6
+SetSMS(Myrmidon_SMS , Myrmidon_SMS_Size, Myrmidon_SMS_Data)
+
+//MyrmidonF
+#define MyrmidonF_SMS 0x7
+SetSMS(MyrmidonF_SMS , MyrmidonF_SMS_Size, MyrmidonF_SMS_Data)
+
+//Swordmaster
+#define Swordmaster_SMS 0x8
+SetSMS(Swordmaster_SMS , Swordmaster_SMS_Size, Swordmaster_SMS_Data)
+
+//SwordmasterF
+#define SwordmasterF_SMS 0x9
+SetSMS(SwordmasterF_SMS , SwordmasterF_SMS_Size, SwordmasterF_SMS_Data)
+
+//Fighter
+#define Fighter_SMS 0xA
+SetSMS(Fighter_SMS , Fighter_SMS_Size, Fighter_SMS_Data)
+
+//Warrior
+#define Warrior_SMS 0xB
+SetSMS(Warrior_SMS , Warrior_SMS_Size, Warrior_SMS_Data)
+
+//Brigand
+#define Brigand_SMS 0xC
+SetSMS(Brigand_SMS , Brigand_SMS_Size, Brigand_SMS_Data)
+
+//Pirate
+#define Pirate_SMS 0xD
+SetSMS(Pirate_SMS , Pirate_SMS_Size, Pirate_SMS_Data)
+
+//Berserker
+#define Berserker_SMS 0xE
+SetSMS(Berserker_SMS , Berserker_SMS_Size, Berserker_SMS_Data)
+
+//Soldier
+#define Soldier_SMS 0xF
+SetSMS(Soldier_SMS , Soldier_SMS_Size, Soldier_SMS_Data)
+
+//Knight
+#define Knight_SMS 0x10
+SetSMS(Knight_SMS , Knight_SMS_Size, Knight_SMS_Data)
+
+//General
+#define General_SMS 0x11
+SetSMS(General_SMS , General_SMS_Size, General_SMS_Data)
+
+//Archer
+#define Archer_SMS 0x12
+SetSMS(Archer_SMS , Archer_SMS_Size, Archer_SMS_Data)
+
+//ArcherF
+#define ArcherF_SMS 0x13
+SetSMS(ArcherF_SMS , ArcherF_SMS_Size, ArcherF_SMS_Data)
+
+//Sniper
+#define Sniper_SMS 0x14
+SetSMS(Sniper_SMS , Sniper_SMS_Size, Sniper_SMS_Data)
+
+//SniperF
+#define SniperF_SMS 0x15
+SetSMS(SniperF_SMS , SniperF_SMS_Size, SniperF_SMS_Data)
+
+//Thief
+#define Thief_SMS 0x16
+SetSMS(Thief_SMS , Thief_SMS_Size, Thief_SMS_Data)
+
+//ThiefF
+#define ThiefF_SMS 0x17
+SetSMS(ThiefF_SMS , ThiefF_SMS_Size, ThiefF_SMS_Data)
+
+//Rogue
+#define Rogue_SMS 0x18
+SetSMS(Rogue_SMS , Rogue_SMS_Size, Rogue_SMS_Data)
+
+//RogueF
+#define RogueF_SMS 0x19
+SetSMS(RogueF_SMS , RogueF_SMS_Size, RogueF_SMS_Data)
+
+//Assassin
+#define Assassin_SMS 0x1A
+SetSMS(Assassin_SMS , Assassin_SMS_Size, Assassin_SMS_Data)
+
+//AssassinF
+#define AssassinF_SMS 0x1B
+SetSMS(AssassinF_SMS , AssassinF_SMS_Size, AssassinF_SMS_Data)
+
+//Cavalier
+#define Cavalier_SMS 0x1C
+SetSMS(Cavalier_SMS , Cavalier_SMS_Size, Cavalier_SMS_Data)
+
+//Paladin
+#define Paladin_SMS 0x1D
+SetSMS(Paladin_SMS , Paladin_SMS_Size, Paladin_SMS_Data)
+
+//GreatKnight
+#define GreatKnight_SMS 0x1E
+SetSMS(GreatKnight_SMS , GreatKnight_SMS_Size, GreatKnight_SMS_Data)
+
+//Nomad
+#define Nomad_SMS 0x1F
+SetSMS(Nomad_SMS , Nomad_SMS_Size, Nomad_SMS_Data)
+
+//NomadF
+#define NomadF_SMS 0x20
+SetSMS(NomadF_SMS , NomadF_SMS_Size, NomadF_SMS_Data)
+
+//NomadTrooper
+#define NomadTrooper_SMS 0x21
+SetSMS(NomadTrooper_SMS , NomadTrooper_SMS_Size, NomadTrooper_SMS_Data)
+
+//NomadTrooperF
+#define NomadTrooperF_SMS 0x22
+SetSMS(NomadTrooperF_SMS , NomadTrooperF_SMS_Size, NomadTrooperF_SMS_Data)
+
+//Priest
+#define Priest_SMS 0x23
+SetSMS(Priest_SMS , Priest_SMS_Size, Priest_SMS_Data)
+
+//Cleric
+#define Cleric_SMS 0x24
+SetSMS(Cleric_SMS , Cleric_SMS_Size, Cleric_SMS_Data)
+
+//Bishop
+#define Bishop_SMS 0x25
+SetSMS(Bishop_SMS , Bishop_SMS_Size, Bishop_SMS_Data)
+
+//BishopF
+#define BishopF_SMS 0x26
+SetSMS(BishopF_SMS , BishopF_SMS_Size, BishopF_SMS_Data)
+
+//Troubadour
+#define Troubadour_SMS 0x27
+SetSMS(Troubadour_SMS , Troubadour_SMS_Size, Troubadour_SMS_Data)
+
+//Valkyrie
+#define Valkyrie_SMS 0x28
+SetSMS(Valkyrie_SMS , Valkyrie_SMS_Size, Valkyrie_SMS_Data)
+
+//Mage
+#define Mage_SMS 0x29
+SetSMS(Mage_SMS , Mage_SMS_Size, Mage_SMS_Data)
+
+//MageF
+#define MageF_SMS 0x2A
+SetSMS(MageF_SMS , MageF_SMS_Size, MageF_SMS_Data)
+
+//Sage
+#define Sage_SMS 0x2B
+SetSMS(Sage_SMS , Sage_SMS_Size, Sage_SMS_Data)
+
+//SageF
+#define SageF_SMS 0x2C
+SetSMS(SageF_SMS , SageF_SMS_Size, SageF_SMS_Data)
+
+//MageKnight
+#define MageKnight_SMS 0x2D
+SetSMS(MageKnight_SMS , MageKnight_SMS_Size, MageKnight_SMS_Data)
+
+//MageKnightF
+#define MageKnightF_SMS 0x2E
+SetSMS(MageKnightF_SMS , MageKnightF_SMS_Size, MageKnightF_SMS_Data)
+
+//Shaman
+#define Shaman_SMS 0x2F
+SetSMS(Shaman_SMS , Shaman_SMS_Size, Shaman_SMS_Data)
+
+//ShamanF
+#define ShamanF_SMS 0x30
+SetSMS(ShamanF_SMS , ShamanF_SMS_Size, ShamanF_SMS_Data)
+
+//Druid
+#define Druid_SMS 0x31
+SetSMS(Druid_SMS , Druid_SMS_Size, Druid_SMS_Data)
+
+//DruidF
+#define DruidF_SMS 0x32
+SetSMS(DruidF_SMS , DruidF_SMS_Size, DruidF_SMS_Data)
+
+//PegasusKnight
+#define PegasusKnight_SMS 0x33
+SetSMS(PegasusKnight_SMS , PegasusKnight_SMS_Size, PegasusKnight_SMS_Data)
+
+//Falcoknight
+#define Falcoknight_SMS 0x34
+SetSMS(Falcoknight_SMS , Falcoknight_SMS_Size, Falcoknight_SMS_Data)
+
+//WyvernRider
+#define WyvernRider_SMS 0x35
+SetSMS(WyvernRider_SMS , WyvernRider_SMS_Size, WyvernRider_SMS_Data)
+
+//WyvernRiderF
+#define WyvernRiderF_SMS 0x36
+SetSMS(WyvernRiderF_SMS , WyvernRiderF_SMS_Size, WyvernRiderF_SMS_Data)
+
+//WyvernLord
+#define WyvernLord_SMS 0x37
+SetSMS(WyvernLord_SMS , WyvernLord_SMS_Size, WyvernLord_SMS_Data)
+
+//WyvernLordF
+#define WyvernLordF_SMS 0x38
+SetSMS(WyvernLordF_SMS , WyvernLordF_SMS_Size, WyvernLordF_SMS_Data)
+
+//WyvernKnight
+#define WyvernKnight_SMS 0x39
+SetSMS(WyvernKnight_SMS , WyvernKnight_SMS_Size, WyvernKnight_SMS_Data)
+
+//Bard
+#define Bard_SMS 0x3A
+SetSMS(Bard_SMS , Bard_SMS_Size, Bard_SMS_Data)
+
+//Dancer
+#define Dancer_SMS 0x3B
+SetSMS(Dancer_SMS , Dancer_SMS_Size, Dancer_SMS_Data)
+
+//Transporter
+#define Transporter_SMS 0x3C
+SetSMS(Transporter_SMS , Transporter_SMS_Size, Transporter_SMS_Data)
+
+//FaeManakete
+#define FaeManakete_SMS 0x3D
+SetSMS(FaeManakete_SMS , FaeManakete_SMS_Size, FaeManakete_SMS_Data)
+
+//DivineDragon
+#define DivineDragon_SMS 0x3E
+SetSMS(DivineDragon_SMS , DivineDragon_SMS_Size, DivineDragon_SMS_Data)
+
+//FireManakete
+#define FireManakete_SMS 0x3F
+SetSMS(FireManakete_SMS , FireManakete_SMS_Size, FireManakete_SMS_Data)
+
+//FireDragon
+#define FireDragon_SMS 0x40
+SetSMS(FireDragon_SMS , FireDragon_SMS_Size, FireDragon_SMS_Data)
+
+//King
+#define King_SMS 0x41
+SetSMS(King_SMS , King_SMS_Size, King_SMS_Data)
+
+//DemonDragon
+#define DemonDragon_SMS 0x42
+SetSMS(DemonDragon_SMS , DemonDragon_SMS_Size, DemonDragon_SMS_Data)
+
+//Civilian
+#define Civilian_SMS 0x43
+SetSMS(Civilian_SMS , Civilian_SMS_Size, Civilian_SMS_Data)
+
+//CivilianF
+#define CivilianF_SMS 0x44
+SetSMS(CivilianF_SMS , CivilianF_SMS_Size, CivilianF_SMS_Data)
+
+//Child
+#define Child_SMS 0x45
+SetSMS(Child_SMS , Child_SMS_Size, Child_SMS_Data)
+
+//ChildF
+#define ChildF_SMS 0x46
+SetSMS(ChildF_SMS , ChildF_SMS_Size, ChildF_SMS_Data)
+
+//MannedBallista
+#define MannedBallista_SMS 0x47
+SetSMS(MannedBallista_SMS , MannedBallista_SMS_Size, MannedBallista_SMS_Data)
+
+//MannedIronBallista
+#define MannedIronBallista_SMS 0x48
+SetSMS(MannedIronBallista_SMS , MannedIronBallista_SMS_Size, MannedIronBallista_SMS_Data)
+
+//MannedKillerBallista
+#define MannedKillerBallista_SMS 0x49
+SetSMS(MannedKillerBallista_SMS , MannedKillerBallista_SMS_Size, MannedKillerBallista_SMS_Data)
+
+//UnmannedBallista
+#define UnmannedBallista_SMS 0x4A
+SetSMS(UnmannedBallista_SMS , UnmannedBallista_SMS_Size, UnmannedBallista_SMS_Data)
+
+//UnmannedIronBallista
+#define UnmannedIronBallista_SMS 0x4B
+SetSMS(UnmannedIronBallista_SMS , UnmannedIronBallista_SMS_Size, UnmannedIronBallista_SMS_Data)
+
+//UnmannedKillerBallista
+#define UnmannedKillerBallista_SMS 0x4C
+SetSMS(UnmannedKillerBallista_SMS , UnmannedKillerBallista_SMS_Size, UnmannedKillerBallista_SMS_Data)
+
+MESSAGE End of SMS reordering

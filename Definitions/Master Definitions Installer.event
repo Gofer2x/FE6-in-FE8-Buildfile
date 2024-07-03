@@ -4,5 +4,6 @@
 #include "CharacterIDs.event"
 #include "ChNumbersIDs.event"
 #include "ChapterTextStuffs.event"
+#include "MovementDataPointers.event"
 
 #include "PListIDs.event"

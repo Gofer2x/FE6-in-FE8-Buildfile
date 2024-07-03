@@ -1,0 +1,346 @@
+//Present in vanilla
+
+//EphraimLord
+#define EphraimLord_MMS_Data 0x1C33CC //AP_11
+#define EphraimLord_MMS_AP AP_11
+
+//EirikaLord
+#define EirikaLord_MMS_Data 0x1C3ED4 //AP_11
+#define EirikaLord_MMS_AP AP_11
+
+//EphraimGreatLord
+#define EphraimGreatLord_MMS_Data 0x1C4824 //AP_21
+#define EphraimGreatLord_MMS_AP AP_21
+
+//EirikaGreatLord
+#define EirikaGreatLord_MMS_Data 0x1C5414 //AP_21
+#define EirikaGreatLord_MMS_AP AP_21
+
+//Cavalier
+#define Cavalier_MMS_Data 0x1C5FE4 //AP_11
+#define Cavalier_MMS_AP AP_11
+
+//Paladin
+#define Paladin_MMS_Data 0x1C6A84 //AP_11
+#define Paladin_MMS_AP AP_11
+
+//Knight
+#define Knight_MMS_Data 0x1C7580 //AP_11
+#define Knight_MMS_AP AP_11
+
+//General
+#define General_MMS_Data 0x1C7FCC //AP_22
+#define General_MMS_AP AP_22
+
+//Thief
+#define Thief_MMS_Data 0x1C8BE0 //AP_11
+#define Thief_MMS_AP AP_11
+
+//MyrrhManaketeBattle
+#define MyrrhManaketeBattle_MMS_Data 0x1C95B4 //AP_12
+#define MyrrhManaketeBattle_MMS_AP AP_12
+
+//Mercenary
+#define Mercenary_MMS_Data 0x1CA27C //AP_11
+#define Mercenary_MMS_AP AP_11
+
+//MercenaryF
+#define MercenaryF_MMS_Data 0x1CAB78 //AP_13
+#define MercenaryF_MMS_AP AP_13
+
+//Hero
+#define Hero_MMS_Data 0x1CB438 //AP_24
+#define Hero_MMS_AP AP_24
+
+//HeroF
+#define HeroF_MMS_Data 0x1CBEF4 //AP_24
+#define HeroF_MMS_AP AP_24
+
+//Myrmidon
+#define Myrmidon_MMS_Data 0x1CC9D4 //AP_13
+#define Myrmidon_MMS_AP AP_13
+
+//MyrmidonF
+#define MyrmidonF_MMS_Data 0x1CD314 //AP_11
+#define MyrmidonF_MMS_AP AP_11
+
+//Swordmaster
+#define Swordmaster_MMS_Data 0x1CDCB0 //AP_25
+#define Swordmaster_MMS_AP AP_25
+
+//SwordmasterF
+#define SwordmasterF_MMS_Data 0x1CE65C //AP_25
+#define SwordmasterF_MMS_AP AP_25
+
+//Assassin
+#define Assassin_MMS_Data 0x1CF040 //AP_11
+#define Assassin_MMS_AP AP_11
+
+//AssassinF
+#define AssassinF_MMS_Data 0x1CF940 //AP_11
+#define AssassinF_MMS_AP AP_11
+
+//Archer
+#define Archer_MMS_Data 0x1D02B8 //AP_13
+#define Archer_MMS_AP AP_13
+
+//ArcherF
+#define ArcherF_MMS_Data 0x1D0BD4 //AP_11
+#define ArcherF_MMS_AP AP_11
+
+//Sniper
+#define Sniper_MMS_Data 0x1D1520 //AP_14
+#define Sniper_MMS_AP AP_14
+
+//SniperF
+#define SniperF_MMS_Data 0x1D1EA0 //AP_15
+#define SniperF_MMS_AP AP_15
+
+//Ranger
+#define Ranger_MMS_Data 0x1D286C //AP_12
+#define Ranger_MMS_AP AP_12
+
+//WyvernRider
+#define WyvernRider_MMS_Data 0x1D32EC //AP_26
+#define WyvernRider_MMS_AP AP_26
+
+//WyvernRiderF
+#define WyvernRiderF_MMS_Data 0x1D419C //AP_27
+#define WyvernRiderF_MMS_AP AP_27
+
+//WyvernLord
+#define WyvernLord_MMS_Data 0x1D504C //AP_41
+#define WyvernLord_MMS_AP AP_41
+
+//WyvernLordF
+#define WyvernLordF_MMS_Data 0x1D5FC0 //AP_11
+#define WyvernLordF_MMS_AP AP_11
+
+//WyvernKnight
+#define WyvernKnight_MMS_Data 0x1D6EC4 //AP_2A
+#define WyvernKnight_MMS_AP AP_2A
+
+//Mage
+#define Mage_MMS_Data 0x1D7E28 //AP_16
+#define Mage_MMS_AP AP_16
+
+//MageF
+#define MageF_MMS_Data 0x1D87C0 //AP_16
+#define MageF_MMS_AP AP_16
+
+//Sage
+#define Sage_MMS_Data 0x1D91E4 //AP_17
+#define Sage_MMS_AP AP_17
+
+//SageF
+#define SageF_MMS_Data 0x1D9CB0 //AP_18
+#define SageF_MMS_AP AP_18
+
+//MageKnight
+#define MageKnight_MMS_Data 0x1DA7EC //AP_12
+#define MageKnight_MMS_AP AP_12
+
+//MageKnightF
+#define MageKnightF_MMS_Data 0x1DB250 //AP_12
+#define MageKnightF_MMS_AP AP_12
+
+//Bishop
+#define Bishop_MMS_Data 0x1DBD24 //AP_21
+#define Bishop_MMS_AP AP_21
+
+//BishopF
+#define BishopF_MMS_Data 0x1DC6F0 //AP_21
+#define BishopF_MMS_AP AP_21
+
+//Shaman
+#define Shaman_MMS_Data 0x1DD0A4 //AP_12
+#define Shaman_MMS_AP AP_12
+
+//Druid
+#define Druid_MMS_Data 0x1DD9E0 //AP_11
+#define Druid_MMS_AP AP_11
+
+//Summoner
+#define Summoner_MMS_Data 0x1DE41C //AP_11
+#define Summoner_MMS_AP AP_11
+
+//Rogue
+#define Rogue_MMS_Data 0x1DED90 //AP_11
+#define Rogue_MMS_AP AP_11
+
+//GorgonEgg
+#define GorgonEgg_MMS_Data 0x1DF6A0 //AP_12
+#define GorgonEgg_MMS_AP AP_12
+
+//GreatKnight
+#define GreatKnight_MMS_Data 0x1DFC24 //AP_12
+#define GreatKnight_MMS_AP AP_12
+
+//Recruit
+#define Recruit_MMS_Data 0x1E06E4 //AP_11
+#define Recruit_MMS_AP AP_11
+
+//Journeyman
+#define Journeyman_MMS_Data 0x1E0F98 //AP_29
+#define Journeyman_MMS_AP AP_29
+
+//Pupil
+#define Pupil_MMS_Data 0x1E189C //AP_11
+#define Pupil_MMS_AP AP_11
+
+//ZombieManaketeBattle
+#define ZombieManaketeBattle_MMS_Data 0x1E21E0 //AP_12
+#define ZombieManaketeBattle_MMS_AP AP_12
+
+//MyrrhManakete
+#define MyrrhManakete_MMS_Data 0x1E308C //AP_11
+#define MyrrhManakete_MMS_AP AP_11
+
+//Fighter
+#define Fighter_MMS_Data 0x1E3B44 //AP_12
+#define Fighter_MMS_AP AP_12
+
+//Warrior
+#define Warrior_MMS_Data 0x1E4498 //AP_11
+#define Warrior_MMS_AP AP_11
+
+//Brigand
+#define Brigand_MMS_Data 0x1E4FFC //AP_11
+#define Brigand_MMS_AP AP_11
+
+//Pirate
+#define Pirate_MMS_Data 0x1E5984 //AP_12
+#define Pirate_MMS_AP AP_12
+
+//Berserker
+#define Berserker_MMS_Data 0x1E640C //AP_11
+#define Berserker_MMS_AP AP_11
+
+//Monk
+#define Monk_MMS_Data 0x1E6F4C //AP_11
+#define Monk_MMS_AP AP_11
+
+//Priest
+#define Priest_MMS_Data 0x1E7790 //AP_11
+#define Priest_MMS_AP AP_11
+
+//Bard
+#define Bard_MMS_Data 0x1E80B0 //AP_71
+#define Bard_MMS_AP AP_71
+
+//PegasusKnight
+#define PegasusKnight_MMS_Data 0x1E89D0 //AP_11
+#define PegasusKnight_MMS_AP AP_11
+
+//Falcoknight
+#define Falcoknight_MMS_Data 0x1E9848 //AP_11
+#define Falcoknight_MMS_AP AP_11
+
+//Cleric
+#define Cleric_MMS_Data 0x1EA734 //AP_11
+#define Cleric_MMS_AP AP_11
+
+//Troubadour
+#define Troubadour_MMS_Data 0x1EAFF8 //AP_12
+#define Troubadour_MMS_AP AP_12
+
+//Valkyrie
+#define Valkyrie_MMS_Data 0x1EBAF4 //AP_12
+#define Valkyrie_MMS_AP AP_12
+
+//Dancer
+#define Dancer_MMS_Data 0x1EC654 //AP_61
+#define Dancer_MMS_AP AP_61
+
+//Soldier
+#define Soldier_MMS_Data 0x1ED418 //AP_11
+#define Soldier_MMS_AP AP_11
+
+//Necromancer
+#define Necromancer_MMS_Data 0x1EDD1C //AP_11
+#define Necromancer_MMS_AP AP_11
+
+//Fleet
+#define Fleet_MMS_Data 0x1EE6B0 //AP_81
+#define Fleet_MMS_AP AP_81
+
+//Phantom
+#define Phantom_MMS_Data 0x1EEDEC //AP_11
+#define Phantom_MMS_AP AP_11
+
+//MannedBallista
+#define MannedBallista_MMS_Data 0x1FD180 //AP_12
+#define MannedBallista_MMS_AP AP_12
+
+//MannedIronBallista
+#define MannedIronBallista_MMS_Data 0x1FE140 //AP_12
+#define MannedIronBallista_MMS_AP AP_12
+
+//MannedKillerBallista
+#define MannedKillerBallista_MMS_Data 0x1FE920 //AP_12
+#define MannedKillerBallista_MMS_AP AP_12
+
+//UnmannedBallista
+#define UnmannedBallista_MMS_Data 0x1FEE74 //AP_81
+#define UnmannedBallista_MMS_AP AP_81
+
+//UnmannedIronBallista
+#define UnmannedIronBallista_MMS_Data 0x1FF4C8 //AP_12
+#define UnmannedIronBallista_MMS_AP AP_12
+
+//UnmannedKillerBallista
+#define UnmannedKillerBallista_MMS_Data 0x1FFBBC //AP_81
+#define UnmannedKillerBallista_MMS_AP AP_81
+
+//Civilian
+#define Civilian_MMS_Data 0x200C54 //AP_11
+#define Civilian_MMS_AP AP_11
+
+//CivilianF
+#define CivilianF_MMS_Data 0x201490 //AP_11
+#define CivilianF_MMS_AP AP_11
+
+//Child
+#define Child_MMS_Data 0x1FFD24 //AP_12
+#define Child_MMS_AP AP_12
+
+//ChildF
+#define ChildF_MMS_Data 0x2004A0 //AP_12
+#define ChildF_MMS_AP AP_12
+
+//Peer
+#define Peer_MMS_Data 0x201CDC //AP_11
+#define Peer_MMS_AP AP_11
+
+//Queen
+#define Queen_MMS_Data 0x2026B0 //AP_11
+#define Queen_MMS_AP AP_11
+
+//Prince
+#define Prince_MMS_Data 0x202D5C //AP_11
+#define Prince_MMS_AP AP_11
+
+//QueenNoHat
+#define QueenNoHat_MMS_Data 0x2034C0 //AP_11
+#define QueenNoHat_MMS_AP AP_11
+
+//LightRune
+#define LightRune_MMS_Data 0x203AF8 //AP_11
+#define LightRune_MMS_AP AP_11
+
+//NilsFallen
+#define NilsFallen_MMS_Data 0x203FE4 //AP_11
+#define NilsFallen_MMS_AP AP_11
+
+//Tent
+#define Tent_MMS_Data 0x204520 //AP_12
+#define Tent_MMS_AP AP_12
+
+//Pontifex
+#define Pontifex_MMS_Data 0x204A98 //AP_11
+#define Pontifex_MMS_AP AP_11
+
+//PrinceFallen
+#define PrinceFallen_MMS_Data 0x2051C0 //AP_11
+#define PrinceFallen_MMS_AP AP_11
+

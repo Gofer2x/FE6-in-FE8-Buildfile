@@ -1,0 +1,7 @@
+ALIGN 4
+NomadMovementCost:
+#incbin "NomadMovementCost.dmp"
+
+ALIGN 4
+NomadTrooperMovementCost:
+#incbin "NomadTrooperMovementCost.dmp"

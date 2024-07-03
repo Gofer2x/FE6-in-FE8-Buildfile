@@ -9,8 +9,46 @@
 #define OtherInfantryMovementCost 0x80B849
 #define BrigandMovementCost 0x80B94D
 #define PirateMovementCost 0x80B98E
-#define BerserkerMovementCost 0x807110
-#define CivillianMovementCost 0x80BA51
+#define BerserkerMovementCost 0x80B90C
+#define CivilianMovementCost 0x80BA51
+
+#define RAINWaterwalkingInfantryMovementCost 0x0
+#define RAINPromotedCavalryMovementCost 0x0
+#define RAINCavalryMovementCost 0x0
+#define RAINArmorMovementCost 0x0
+#define RAINThiefMovementCost 0x0
+#define RAINMageMovementCost 0x0
+#define RAINFlierMovementCost 0x0
+#define RAINFighterWarriorMovementCost 0x0
+#define RAINOtherInfantryMovementCost 0x0
+#define RAINBrigandMovementCost 0x0
+#define RAINPirateMovementCost 0x0
+#define RAINBerserkerMovementCost 0x0
+#define RAINCivilianMovementCost 0x0
+
+#define SNOWWaterwalkingInfantryMovementCost 0x0
+#define SNOWPromotedCavalryMovementCost 0x0
+#define SNOWCavalryMovementCost 0x0
+#define SNOWArmorMovementCost 0x0
+#define SNOWThiefMovementCost 0x0
+#define SNOWMageMovementCost 0x0
+#define SNOWFlierMovementCost 0x0
+#define SNOWFighterWarriorMovementCost 0x0
+#define SNOWOtherInfantryMovementCost 0x0
+#define SNOWBrigandMovementCost 0x0
+#define SNOWPirateMovementCost 0x0
+#define SNOWBerserkerMovementCost 0x0
+#define SNOWCivilianMovementCost 0x0
+
+#define ManaketeMovementCost 0x0
+
+#define RAINManaketeMovementCost 0x0
+#define RAINNomadMovementCost 0x0
+#define RAINNomadTrooperMovementCost 0x0
+
+#define SNOWManaketeMovementCost 0x0
+#define SNOWNomadMovementCost 0x0
+#define SNOWNomadTrooperMovementCost 0x0
 
 //idc about rain or snow lol
 

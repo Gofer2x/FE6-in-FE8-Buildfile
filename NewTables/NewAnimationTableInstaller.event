@@ -2,7 +2,7 @@
 
 ALIGN 4
 NewAnimTable:
-	#incbin "NewAnimTable.dmp"
+	#incbin "NewAnimationTable.dmp"
 	ORG NewAnimTable + (AnimTableMaxEntries * 32)
 
 PUSH
@@ -29,3 +29,9 @@ PUSH
 POP
 
 //PROTECT NewAnimTable
+
+
+//#undef ClassAnimTable
+#define ClassAnimTable NewAnimTable
+
+MESSAGE New Animation Table at ClassAnimTable

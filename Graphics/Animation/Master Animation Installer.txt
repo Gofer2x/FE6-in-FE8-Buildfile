@@ -1,7 +1,5 @@
 #include "Vanilla Animations.event"
 
-#include "New Animation Table.event"
-
 #include "Animation Definitions.event"
 #include "New Animation Data.event"
 

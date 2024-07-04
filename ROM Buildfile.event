@@ -8,7 +8,7 @@
 	
 	//You shouldn't need to mess with this file much. If you're adding/removing content, go to the respective installers and add/remove content there. The less you mess with this file, the better.
 	
-	#include "repointedTextTable.event"
+	#include "NewTables/NewTablesMasterInstaller.event"
 	
 	#include "Text/Install Text Data.event"
 	#include "Graphics/Master Graphics Installer.event"

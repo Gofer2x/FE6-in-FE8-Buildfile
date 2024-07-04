@@ -1,11 +1,11 @@
-#ifndef ClassAnimTable
-  #ifdef _FE8_
-    #define ClassAnimTable (0xc00008-0x20)
-  #endif
-  #ifdef _FE7_
-    #define ClassAnimTable (0xe00008-0x20)
-  #endif
-#endif
+//#ifndef ClassAnimTable
+//  #ifdef _FE8_
+//    #define ClassAnimTable (0xc00008-0x20)
+//  #endif
+//  #ifdef _FE7_
+//    #define ClassAnimTable (0xe00008-0x20)
+//  #endif
+//#endif
 
 MESSAGE New class anim table
 #undef ClassAnimTable

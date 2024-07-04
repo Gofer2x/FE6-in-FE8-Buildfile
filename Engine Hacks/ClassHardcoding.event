@@ -1,0 +1,155 @@
+#define DumbEggID 0x34
+
+//0x9, OG Knight "Armor Triangle Attack Class Range From"
+PUSH
+ORG 0x074FB4
+BYTE DumbEggID //Putting em all on the egg lol
+POP
+
+//0x9, OG Knight "Armor Triangle Attack Class UnPromoted1"
+PUSH
+ORG 0x0074FC8
+BYTE DumbEggID
+ORG 0x75034
+BYTE DumbEggID
+POP
+
+//0xA, OG KnightF "Armor Triangle Attack Class UnPromoted2"
+PUSH
+ORG 0x0074FD0
+BYTE DumbEggID
+ORG 0x7503C
+BYTE DumbEggID
+POP
+
+//0xB, OG General "Armor Triangle Attack Class Promoted1"
+PUSH
+ORG 0x0074FD8
+BYTE DumbEggID
+ORG 0x75044
+BYTE DumbEggID
+POP
+
+//0xB, OG General "Great Shield First Class" Incompatible with SkillSystems
+PUSH
+ORG 0x02B34A
+BYTE DumbEggID
+POP
+
+//0xC, OG GeneralF "Armor Triangle Attack Class Promoted2"
+PUSH
+ORG 0x0074FE0
+BYTE DumbEggID
+ORG 0x7504C
+BYTE DumbEggID
+POP
+
+//0xC, OG GeneralF "Armor Triangle Attack Class Range To"
+PUSH
+ORG 0x0074FBA
+BYTE DumbEggID
+POP
+
+//0xC, OG GeneralF "Great Shield Last Class" Incompatible with SkillSystems
+PUSH
+ORG 0x02B346
+BYTE DumbEggID
+POP
+
+//OG 0x1B, Sniper "Sure Strike Skill First Class" Incompatible with SkillSystems
+PUSH
+ORG 0x02B22A
+BYTE DumbEggID
+POP
+
+//OG 0x1C, SniperF "Sure Strike Skill Last Class" Incompatible with SkillSystems
+PUSH
+ORG 0x02B226
+BYTE DumbEggID
+POP
+
+//OG 0x23, WyvernKnight "Skill Pierce from this class" Incompatible with SkillSystems
+PUSH
+ORG 0x02B2AE
+BYTE DumbEggID
+POP
+
+//OG 0x24, WyvernKnightF "Skill Pierce to this class" Incompatible with SkillSystems
+PUSH
+ORG 0x2B2AA
+BYTE DumbEggID
+POP
+
+//OG 0x2B, Bishop "Slayer Skill First Class" Incompatible with SkillSystems
+PUSH
+ORG 0x016C98
+BYTE DumbEggID
+POP
+
+//OG 0x2C, BishopF "Slayer Skill Last Class" Incompatible with SkillSystems
+PUSH
+ORG 0x016C94
+BYTE DumbEggID
+POP
+
+//OG 0x2D, Shaman "Ewan Promotes To Class For Weapon Rank Removal"
+PUSH
+ORG 0x2bd10
+BYTE DumbEggID
+ORG 0x2BE60
+BYTE DumbEggID
+POP
+
+//OG 0x33, Rogue "Class ID that determines that the AI can use Rogue lockpick skill"
+PUSH
+ORG 0x40C6A
+BYTE DumbEggID
+POP
+
+//OG 0x33, Rogue "Skill Pick"
+PUSH
+ORG 0x023E90
+BYTE DumbEggID
+POP
+
+//OG 0x3C, MyrrhManakete "Special class ID to turn the battle background into a Manakete"
+PUSH
+ORG 0x070B7E
+BYTE DumbEggID
+POP
+
+//OG 0x3E, Pupil1 "Ewan Base Class For Weapon Rank Removal"
+PUSH
+ORG 0x2bd0a
+BYTE DumbEggID
+ORG 0x2BE5A
+BYTE DumbEggID
+POP
+
+//OG 0x48, PegasusKnight "Triangle Attack Class UnPromoted"
+PUSH
+ORG 0x00750C4
+BYTE DumbEggID
+ORG 0x7510C
+BYTE DumbEggID
+ORG 0x75156
+BYTE DumbEggID
+POP
+
+PROTECT 0x00750C4
+PROTECT 0x7510C
+PROTECT 0x75156
+
+//OG 0x49, FalcoKnight "Triangle Attack Class Promoted"
+PUSH
+ORG 0x00750CC
+BYTE DumbEggID
+ORG 0x75114
+BYTE DumbEggID
+POP
+
+//OG 0x50, Fleet "Worldmap fleet icon"
+PUSH
+ORG 0xBD4CE
+Byte DumbEggID
+POP

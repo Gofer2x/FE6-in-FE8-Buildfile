@@ -1,0 +1,96 @@
+#define AI1_AttackInRange 0x0 
+#define AI1_AttackInRange80 0x1 
+#define AI1_AttackInRange50 0x2
+#define AI1_AttackInPlace 0x3
+#define AI1_AttackInPlace80 0x4
+#define AI1_AttackInPlace50 0x5
+#define AI1_None 0x6
+#define AI1_AttackInRangeNoNatasha 0x7
+#define AI1_AttackInRangeNoFCCitizen 0x8
+#define AI1_AttackInRangeNoUndefined 0x9
+
+#define AI1_AttackInHalfRange 0xC
+#define AI1_AttackInRangeOfCommander 0xD
+#define AI1_HealAllies 0xE
+
+
+
+
+
+#define AI2_Pursue 0x0
+#define AI2_DontMove 0x3
+#define AI2_PillageTreasureThenAttack 0x4
+#define AI2_PillageTreasureThenEscape 0x5
+#define AI2_PurseWithinTwoMovements 0x6
+#define AI2_RandomMovement 0x9
+#define AI2_EscapeMap 0xC
+
+#define AI2_DelayedPillageTreasureThenAttack 0x11
+#define AI2_DelayedPursue 0x12
+
+
+
+
+#define RAI_Recovery50To100 0x0
+#define RIA_Recovery30To80 0x1
+#define RAI_Recovery10To50 0x2
+#define RAI_Recovery80To100 0x3
+#define RAI_NoRecovery 0x4
+
+#define TAI_Position 0x0
+#define TAI_LowHP 0x8
+#define TAI_Reckless 0x10
+#define TAI_Defense 0x18
+#define TAI_DamageAccuracy 0x20
+#define TAI_Archers 0x28
+
+
+
+
+
+#define AI4_DoRetreat 0x0
+#define AI4_DontRetreat 0x20
+
+
+
+
+#define BossAI [0x3, 0x3, 0x9, 0x20]
+//AI1_AttackInPlace 0x3
+//AI2_DontMove 0x3
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DontRetreat 0x20
+
+
+#define AggressiveAI [0x0, 0x0, 0x9, 0x0]
+//AI1_AttackInRange 0x0
+//AI2_Pursue 0x0
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define TwoMovesAI [0x0, 0x6, 0x9, 0x0]
+//AI1_AttackInRange 0x0
+//AI2_PurseWithinTwoMovements 0x6
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define InRangeAI [0x0, 0x3, 0x9, 0x0]
+//AI1_AttackInRange 0x0
+//AI2_DontMove 0x3
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define BrigandAI [0x0, 0x4, 0x9, 0x0]
+//AI1_AttackInRange 0x0
+//AI2_PillageTreasureThenAttack 0x4
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define ThiefAI [0x6, 0x5, 0x9, 0x0]
+//AI1_None 0x6
+//AI2_PillageTreasureThenEscape 0x5
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0

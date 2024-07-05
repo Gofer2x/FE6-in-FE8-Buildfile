@@ -1,124 +1,118 @@
 ## DamasBattleQuote
-[OpenMidLeft][LoadDamas][ToggleSmile]You bumbling idiots![AN]
+[OpenMidLeft][LoadDamas]You bumbling idiots![AN]
 You can't take down a[N]
 few pathetic knights?![AN][X]
 
 ## RuudBattleQuote
-Ruud[X]
+[OpenMidLeft][LoadRuud]
 
 ## SlaterBattleQuote
-Slater[X]
+[OpenMidLeft][LoadSlater]
 
 ## ErikBattleQuote
-Erik[X]
+[OpenMidLeft][LoadErik]
 
 ## DoryBattleQuote
-Dory[X]
+[OpenMidLeft][LoadDory]
 
 ## WagnerBattleQuote
-Wagner[X]
+[OpenMidLeft][LoadWagner]
 
 ## DebiasBattleQuote
-Debias[X]
+[OpenMidLeft][LoadDebias]
 
 ## LeganceBattleQuote
-Legance[X]
+[OpenMidLeft][LoadLegance]
 
 ## HenningBattleQuote
-Henning[X]
+[OpenMidLeft][LoadHenning]
 
 ## ScottBattleQuote
-Scott[X]
+[OpenMidLeft][LoadScott]
 
 ## NordBattleQuote
-Nord[X]
+[OpenMidLeft][LoadNord]
 
 ## ZinqueBattleQuote
-Zinque[X]
+[OpenMidLeft][LoadZinque]
 
 ## ScollanBattleQuote
-Scollan[X]
+[OpenMidLeft][LoadScollan]
 
 ## OrloBattleQuote
-Orlo[X]
+[OpenMidLeft][LoadOrlo]
 
 ## RobertsBattleQuote
-Roberts[X]
+[OpenMidLeft][LoadRoberts]
 
 ## MorganBattleQuote
-Morgan[X]
+[OpenMidLeft][LoadMorgan]
 
 ## EinBattleQuote
-Ein[X]
+[OpenMidLeft][LoadEin]
 
 ## GuerreroBattleQuote
-Guerrero[X]
+[OpenMidLeft][LoadGuerrero]
 
 ## FlaerBattleQuote
-Flaer[X]
+[OpenMidLeft][LoadFlaer]
 
 ## RandyBattleQuote
-Randy[X]
+[OpenMidLeft][LoadRandy]
 
 ## MaggieBattleQuote
-Maggie[X]
+[OpenMidLeft][LoadMaggie]
 
 ## RoseBattleQuote
-Rose[X]
+[OpenMidLeft][LoadRose]
 
 ## OatesBattleQuote
-Oates[X]
+[OpenMidLeft][LoadOates]
 
 ## RaithBattleQuote
-Raith[X]
+[OpenMidLeft][LoadRaith]
+
+## NarcianBattleQuote
+[OpenMidLeft][LoadNarcian]
 
 ## WindhamBattleQuote
-Windham[X]
+[OpenMidLeft][LoadWindham]
 
 ## ArcardoBattleQuote
-Arcardo[X]
+[OpenMidLeft][LoadArcardo]
 
 ## MartelBattleQuote
-Martel[X]
+[OpenMidLeft][LoadMartel]
 
 ## MonkeBattleQuote
-Monke[X]
+[OpenMidLeft][LoadMonke]
 
 ## SiguneBattleQuote
-Sigune[X]
+[OpenMidLeft][LoadSigune]
 
 ## KelBattleQuote
-Kel[X]
+[OpenMidLeft][LoadKel]
 
 ## RoartzBattleQuote
-Roartz[X]
+[OpenMidLeft][LoadRoartz]
 
 ## TickBattleQuote
-Tick[X]
+[OpenMidLeft][LoadTick]
 
-## ThorilBattleQuote
-Thoril[X]
-
-## BrakulBattleQuote
-Brakul[X]
-
-## KudokaBattleQuote
-Kudoka[X]
-
-## MarralBattleQuote
-Marral[X]
-
-## KabulBattleQuote
-Kabul[X]
-
-## ChanBattleQuote
-Chan[X]
+## MurdockBattleQuote
+[OpenMidLeft][LoadMurdock]
 
 ## PeresBattleQuote
-Peres[X]
+[OpenMidLeft][LoadPeres]
+
+## ZephielBattleQuote
+[OpenMidLeft][LoadZephiel]
+
+## BrunnyaBattleQuote
+[OpenMidLeft][LoadBrunnya]
 
 ## JahnBattleQuote
-Jahn[X]
+[OpenMidLeft][LoadJahn]
 
 ## IdunnBattleQuote
-Idunn[X]
+[OpenMidLeft][LoadIdunnHuman]

@@ -1,0 +1,170 @@
+#define GenericMyrmidonMugData 0x828EF8
+#define GenericMyrmidonMugPalette 0X828ED8
+
+#define GenericSwordmasterMugData 0x828980
+#define GenericSwordmasterMugPalette 0X828960
+
+#define GenericFighterMugData 0x828218
+#define GenericFighterMugPalette 0X8281F8
+
+#define GenericWarriorMugData 0x827A18
+#define GenericWarriorMugPalette 0X8279F8
+
+#define GenericKnightMug 0x8272A4
+#define GenericKnightMug 0X827284
+
+#define GenericGeneralMug 0x826A68
+#define GenericGeneralMug 0X826A48
+
+#define GenericArcherMug 0x826480
+#define GenericArcherMug 0X826460
+
+#define GenericSniperMug 0x825E44
+#define GenericSniperMug 0X825E24
+
+#define GenericMonkClericMug 0x825838
+#define GenericMonkClericMug 0X825818
+
+#define GenericBishopMug 0x82518C
+#define GenericBishopMug 0X82516C
+
+#define GenericMageMug 0x824AAC
+#define GenericMageMug 0X824A8C
+
+#define GenericSageMug 0x8243F8
+#define GenericSageMug 0X8243D8
+
+#define GenericShamanMugData 0x823D64
+#define GenericShamanMugPalette 0X823D44
+
+#define GenericDruidMugData 0x8235D0
+#define GenericDruidMugPalette 0X8235B0
+
+#define GenericCavalierMugData 0x822D10
+#define GenericCavalierMugPalette 0X822CF0
+
+#define GenericPaladinMugData 0x822408
+#define GenericPaladinMugPalette 0X8223E8
+
+#define GenericTroubadourMugData 0x821CA4
+#define GenericTroubadourMugPalette 0X821C84
+
+#define GenericValkyrieMugData 0x8214D4
+#define GenericValkyrieMugPalette 0X8214B4
+
+#define GenericNomadMugData 0x820D5C
+#define GenericNomadMugPalette 0X820D3C
+
+#define GenericNomadTrooperMugData 0x8205B8
+#define GenericNomadTrooperMugPalette 0X820598
+
+#define GenericPegasusKnightMugData 0x81FCBC
+#define GenericPegasusKnightMugPalette 0X81FC9C
+
+#define GenericFalcoknightMugData 0x81F390
+#define GenericFalcoknightMugPalette 0X81F370
+
+#define GenericWyvernRiderMugData 0x81EB6C
+#define GenericWyvernRiderMugPalette 0X81EB4C
+
+#define GenericWyvernLordMugData 0x81E2F8
+#define GenericWyvernLordMugPalette 0X81E2D8
+
+#define GenericSoldierMugData 0x81DCC4
+#define GenericSoldierMugPalette 0X81DCA4
+
+#define GenericBrigandMugData 0x81D570
+#define GenericBrigandMugPalette 0X81D550
+
+#define GenericPirateMugData 0x81CD28
+#define GenericPirateMugPalette 0X81CD08
+
+#define GenericBerserkerMugData 0x81C51C
+#define GenericBerserkerMugPalette 0X81C4FC
+
+#define GenericThiefMugData 0x81BF90
+#define GenericThiefMugPalette 0X81BF70
+
+#define GenericManaketeMugData 0x81B634
+#define GenericManaketeMugPalette 0X81B614
+
+#define GenericMercenaryMugData 0x81B03C
+#define GenericMercenaryMugPalette 0X81B01C
+
+#define GenericHeroMugData 0x81AA0C
+#define GenericHeroMugPalette 0X81A9EC
+
+#define GenericFleetMugData 0x81A2C8
+#define GenericFleetMugPalette 0X81A2A8
+
+#define GenericWyvernKnightMugData 0x819A18
+#define GenericWyvernKnightMugPalette 0X8199F8
+
+#define GenericRogueMugData 0x819444
+#define GenericRogueMugPalette 0X819424
+
+#define GenericMageKnightMugData 0x818BFC
+#define GenericMageKnightMugPalette 0X818BDC
+
+#define GenericGreatKnightMugData 0x8183D0
+#define GenericGreatKnightMugPalette 0X8183B0
+
+#define GenericRangerMugData 0x817C14
+#define GenericRangerMugPalette 0X817BF4
+
+#define GenericPhantomMugData 0x817458
+#define GenericPhantomMugPalette 0X817438
+
+#define GenericRevenantMugData 0x816E08
+#define GenericRevenantMugPalette 0X816DE8
+
+#define GenericEntombedMugData 0x8167A8
+#define GenericEntombedMugPalette 0X816788
+
+#define GenericBonewalkerMugData 0x81611C
+#define GenericBonewalkerMugPalette 0X8160FC
+
+#define GenericWightMugData 0x815A74
+#define GenericWightMugPalette 0X815A54
+
+#define GenericBaelMugData 0x815194
+#define GenericBaelMugPalette 0X815174
+
+#define GenericElderBaelMugData 0x814898
+#define GenericElderBaelMugPalette 0X814878
+
+#define GenericCyclopsMugData 0x814090
+#define GenericCyclopsMugPalette 0X814070
+
+#define GenericMautheDoogMugData 0x81399C
+#define GenericMautheDoogMugPalette 0X81397C
+
+#define GenericGwyllgiMugData 0x81322C
+#define GenericGwyllgiMugPalette 0X81320C
+
+#define GenericTarvosMugData 0x812A48
+#define GenericTarvosMugPalette 0X812A28
+
+#define GenericMaelduinMugData 0x81226C
+#define GenericMaelduinMugPalette 0X81224C
+
+#define GenericMogallMugData 0x811BB8
+#define GenericMogallMugPalette 0X811B98
+
+#define GenericArchMogallMugData 0x8114D8
+#define GenericArchMogallMugPalette 0X8114B8
+
+#define GenericGorgonEggMugData 0x810C7C
+#define GenericGorgonEggMugPalette 0X810C5C
+
+#define GenericGargoyleMugData 0x810584
+#define GenericGargoyleMugPalette 0X810564
+
+#define GenericDeathgoyleMugData 0x80FE74
+#define GenericDeathgoyleMugPalette 0X80FE54
+
+#define GenericZombieDragonMugData 0x80F5D8
+#define GenericZombieDragonMugPalette 0X80F5B8
+
+#define GenericDemonKingMugData 0x80EC0C
+#define GenericDemonKingMugPalette 0X80EBEC

@@ -484,25 +484,7 @@ KarelMugData:
 #incbin "Dmp/Karel_minimug.dmp"
 setMugEntry(KarelMug, KarelMugData, 0, 0, 0, 0)
 
-#define NarcianMug 0x37
-ALIGN 16
-NarcianMugData:
-#incbin "Dmp/Narcian_mug.dmp"
-#incbin "Dmp/Narcian_frames.dmp"
-#incbin "Dmp/Narcian_palette.dmp"
-#incbin "Dmp/Narcian_minimug.dmp"
-setMugEntry(NarcianMug, NarcianMugData, 0, 0, 0, 0)
-
-#define GalleMug 0x38
-ALIGN 16
-GalleMugData:
-#incbin "Dmp/Galle_mug.dmp"
-#incbin "Dmp/Galle_frames.dmp"
-#incbin "Dmp/Galle_palette.dmp"
-#incbin "Dmp/Galle_minimug.dmp"
-setMugEntry(GalleMug, GalleMugData, 0, 0, 0, 0)
-
-#define HectorMug 0x39
+#define HectorMug 0x37
 ALIGN 16
 HectorMugData:
 #incbin "Dmp/Hector_mug.dmp"
@@ -511,25 +493,7 @@ HectorMugData:
 #incbin "Dmp/Hector_minimug.dmp"
 setMugEntry(HectorMug, HectorMugData, 0, 0, 0, 0)
 
-#define BrunnyaMug 0x3A
-ALIGN 16
-BrunnyaMugData:
-#incbin "Dmp/Brunnya_mug.dmp"
-#incbin "Dmp/Brunnya_frames.dmp"
-#incbin "Dmp/Brunnya_palette.dmp"
-#incbin "Dmp/Brunnya_minimug.dmp"
-setMugEntry(BrunnyaMug, BrunnyaMugData, 0, 0, 0, 0)
-
-#define MurdockMug 0x3B
-ALIGN 16
-MurdockMugData:
-#incbin "Dmp/Murdock_mug.dmp"
-#incbin "Dmp/Murdock_frames.dmp"
-#incbin "Dmp/Murdock_palette.dmp"
-#incbin "Dmp/Murdock_minimug.dmp"
-setMugEntry(MurdockMug, MurdockMugData, 0, 0, 0, 0)
-
-#define EliwoodMug 0x3C
+#define EliwoodMug 0x38
 ALIGN 16
 EliwoodMugData:
 #incbin "Dmp/Eliwood_mug.dmp"
@@ -538,16 +502,7 @@ EliwoodMugData:
 #incbin "Dmp/Eliwood_minimug.dmp"
 setMugEntry(EliwoodMug, EliwoodMugData, 0, 0, 0, 0)
 
-#define ZephielMug 0x3D
-ALIGN 16
-ZephielMugData:
-#incbin "Dmp/Zephiel_mug.dmp"
-#incbin "Dmp/Zephiel_frames.dmp"
-#incbin "Dmp/Zephiel_palette.dmp"
-#incbin "Dmp/Zephiel_minimug.dmp"
-setMugEntry(ZephielMug, ZephielMugData, 0, 0, 0, 0)
-
-#define GuinivereMug 0x3E
+#define GuinivereMug 0x39
 ALIGN 16
 GuinivereMugData:
 #incbin "Dmp/Guinivere_mug.dmp"
@@ -556,7 +511,7 @@ GuinivereMugData:
 #incbin "Dmp/Guinivere_minimug.dmp"
 setMugEntry(GuinivereMug, GuinivereMugData, 0, 0, 0, 0)
 
-#define DamasMug 0x3F
+#define DamasMug 0x3A
 ALIGN 16
 DamasMugData:
 #incbin "Dmp/Damas_mug.dmp"
@@ -565,7 +520,7 @@ DamasMugData:
 #incbin "Dmp/Damas_minimug.dmp"
 setMugEntry(DamasMug, DamasMugData, 0, 0, 0, 0)
 
-#define RuudMug 0x40
+#define RuudMug 0x3B
 ALIGN 16
 RuudMugData:
 #incbin "Dmp/Ruud_mug.dmp"
@@ -574,7 +529,7 @@ RuudMugData:
 #incbin "Dmp/Ruud_minimug.dmp"
 setMugEntry(RuudMug, RuudMugData, 0, 0, 0, 0)
 
-#define SlaterMug 0x41
+#define SlaterMug 0x3C
 ALIGN 16
 SlaterMugData:
 #incbin "Dmp/Slater_mug.dmp"
@@ -583,7 +538,7 @@ SlaterMugData:
 #incbin "Dmp/Slater_minimug.dmp"
 setMugEntry(SlaterMug, SlaterMugData, 0, 0, 0, 0)
 
-#define ErikMug 0x42
+#define ErikMug 0x3D
 ALIGN 16
 ErikMugData:
 #incbin "Dmp/Erik_mug.dmp"
@@ -592,7 +547,7 @@ ErikMugData:
 #incbin "Dmp/Erik_minimug.dmp"
 setMugEntry(ErikMug, ErikMugData, 0, 0, 0, 0)
 
-#define DoryMug 0x43
+#define DoryMug 0x3E
 ALIGN 16
 DoryMugData:
 #incbin "Dmp/Dory_mug.dmp"
@@ -601,7 +556,7 @@ DoryMugData:
 #incbin "Dmp/Dory_minimug.dmp"
 setMugEntry(DoryMug, DoryMugData, 0, 0, 0, 0)
 
-#define WagnerMug 0x44
+#define WagnerMug 0x3F
 ALIGN 16
 WagnerMugData:
 #incbin "Dmp/Wagner_mug.dmp"
@@ -610,7 +565,7 @@ WagnerMugData:
 #incbin "Dmp/Wagner_minimug.dmp"
 setMugEntry(WagnerMug, WagnerMugData, 0, 0, 0, 0)
 
-#define DebiasMug 0x45
+#define DebiasMug 0x40
 ALIGN 16
 DebiasMugData:
 #incbin "Dmp/Debias_mug.dmp"
@@ -619,7 +574,7 @@ DebiasMugData:
 #incbin "Dmp/Debias_minimug.dmp"
 setMugEntry(DebiasMug, DebiasMugData, 0, 0, 0, 0)
 
-#define LeganceMug 0x46
+#define LeganceMug 0x41
 ALIGN 16
 LeganceMugData:
 #incbin "Dmp/Legance_mug.dmp"
@@ -628,7 +583,7 @@ LeganceMugData:
 #incbin "Dmp/Legance_minimug.dmp"
 setMugEntry(LeganceMug, LeganceMugData, 0, 0, 0, 0)
 
-#define HenningMug 0x47
+#define HenningMug 0x42
 ALIGN 16
 HenningMugData:
 #incbin "Dmp/Henning_mug.dmp"
@@ -637,7 +592,7 @@ HenningMugData:
 #incbin "Dmp/Henning_minimug.dmp"
 setMugEntry(HenningMug, HenningMugData, 0, 0, 0, 0)
 
-#define ScottMug 0x48
+#define ScottMug 0x43
 ALIGN 16
 ScottMugData:
 #incbin "Dmp/Scott_mug.dmp"
@@ -646,7 +601,7 @@ ScottMugData:
 #incbin "Dmp/Scott_minimug.dmp"
 setMugEntry(ScottMug, ScottMugData, 0, 0, 0, 0)
 
-#define NordMug 0x49
+#define NordMug 0x44
 ALIGN 16
 NordMugData:
 #incbin "Dmp/Nord_mug.dmp"
@@ -655,7 +610,7 @@ NordMugData:
 #incbin "Dmp/Nord_minimug.dmp"
 setMugEntry(NordMug, NordMugData, 0, 0, 0, 0)
 
-#define ZinqueMug 0x4A
+#define ZinqueMug 0x45
 ALIGN 16
 ZinqueMugData:
 #incbin "Dmp/Zinque_mug.dmp"
@@ -664,7 +619,7 @@ ZinqueMugData:
 #incbin "Dmp/Zinque_minimug.dmp"
 setMugEntry(ZinqueMug, ZinqueMugData, 0, 0, 0, 0)
 
-#define ScollanMug 0x4B
+#define ScollanMug 0x46
 ALIGN 16
 ScollanMugData:
 #incbin "Dmp/Scollan_mug.dmp"
@@ -673,7 +628,7 @@ ScollanMugData:
 #incbin "Dmp/Scollan_minimug.dmp"
 setMugEntry(ScollanMug, ScollanMugData, 0, 0, 0, 0)
 
-#define OrloMug 0x4C
+#define OrloMug 0x47
 ALIGN 16
 OrloMugData:
 #incbin "Dmp/Orlo_mug.dmp"
@@ -682,7 +637,7 @@ OrloMugData:
 #incbin "Dmp/Orlo_minimug.dmp"
 setMugEntry(OrloMug, OrloMugData, 0, 0, 0, 0)
 
-#define RobertsMug 0x4D
+#define RobertsMug 0x48
 ALIGN 16
 RobertsMugData:
 #incbin "Dmp/Roberts_mug.dmp"
@@ -691,7 +646,7 @@ RobertsMugData:
 #incbin "Dmp/Roberts_minimug.dmp"
 setMugEntry(RobertsMug, RobertsMugData, 0, 0, 0, 0)
 
-#define MorganMug 0x4E
+#define MorganMug 0x49
 ALIGN 16
 MorganMugData:
 #incbin "Dmp/Morgan_mug.dmp"
@@ -700,7 +655,7 @@ MorganMugData:
 #incbin "Dmp/Morgan_minimug.dmp"
 setMugEntry(MorganMug, MorganMugData, 0, 0, 0, 0)
 
-#define EinMug 0x4F
+#define EinMug 0x4A
 ALIGN 16
 EinMugData:
 #incbin "Dmp/Ein_mug.dmp"
@@ -709,7 +664,7 @@ EinMugData:
 #incbin "Dmp/Ein_minimug.dmp"
 setMugEntry(EinMug, EinMugData, 0, 0, 0, 0)
 
-#define GuerreroMug 0x50
+#define GuerreroMug 0x4B
 ALIGN 16
 GuerreroMugData:
 #incbin "Dmp/Guerrero_mug.dmp"
@@ -718,7 +673,7 @@ GuerreroMugData:
 #incbin "Dmp/Guerrero_minimug.dmp"
 setMugEntry(GuerreroMug, GuerreroMugData, 0, 0, 0, 0)
 
-#define FlaerMug 0x51
+#define FlaerMug 0x4C
 ALIGN 16
 FlaerMugData:
 #incbin "Dmp/Flaer_mug.dmp"
@@ -727,7 +682,7 @@ FlaerMugData:
 #incbin "Dmp/Flaer_minimug.dmp"
 setMugEntry(FlaerMug, FlaerMugData, 0, 0, 0, 0)
 
-#define RandyMug 0x52
+#define RandyMug 0x4D
 ALIGN 16
 RandyMugData:
 #incbin "Dmp/Randy_mug.dmp"
@@ -736,7 +691,7 @@ RandyMugData:
 #incbin "Dmp/Randy_minimug.dmp"
 setMugEntry(RandyMug, RandyMugData, 0, 0, 0, 0)
 
-#define MaggieMug 0x53
+#define MaggieMug 0x4E
 ALIGN 16
 MaggieMugData:
 #incbin "Dmp/Maggie_mug.dmp"
@@ -745,7 +700,7 @@ MaggieMugData:
 #incbin "Dmp/Maggie_minimug.dmp"
 setMugEntry(MaggieMug, MaggieMugData, 0, 0, 0, 0)
 
-#define RoseMug 0x54
+#define RoseMug 0x4F
 ALIGN 16
 RoseMugData:
 #incbin "Dmp/Rose_mug.dmp"
@@ -754,7 +709,7 @@ RoseMugData:
 #incbin "Dmp/Rose_minimug.dmp"
 setMugEntry(RoseMug, RoseMugData, 0, 0, 0, 0)
 
-#define OatesMug 0x55
+#define OatesMug 0x50
 ALIGN 16
 OatesMugData:
 #incbin "Dmp/Oates_mug.dmp"
@@ -763,7 +718,7 @@ OatesMugData:
 #incbin "Dmp/Oates_minimug.dmp"
 setMugEntry(OatesMug, OatesMugData, 0, 0, 0, 0)
 
-#define RaithMug 0x56
+#define RaithMug 0x51
 ALIGN 16
 RaithMugData:
 #incbin "Dmp/Raith_mug.dmp"
@@ -772,7 +727,16 @@ RaithMugData:
 #incbin "Dmp/Raith_minimug.dmp"
 setMugEntry(RaithMug, RaithMugData, 0, 0, 0, 0)
 
-#define WindhamMug 0x57
+#define NarcianMug 0x52
+ALIGN 16
+NarcianMugData:
+#incbin "Dmp/Narcian_mug.dmp"
+#incbin "Dmp/Narcian_frames.dmp"
+#incbin "Dmp/Narcian_palette.dmp"
+#incbin "Dmp/Narcian_minimug.dmp"
+setMugEntry(NarcianMug, NarcianMugData, 0, 0, 0, 0)
+
+#define WindhamMug 0x53
 ALIGN 16
 WindhamMugData:
 #incbin "Dmp/Windham_mug.dmp"
@@ -781,7 +745,7 @@ WindhamMugData:
 #incbin "Dmp/Windham_minimug.dmp"
 setMugEntry(WindhamMug, WindhamMugData, 0, 0, 0, 0)
 
-#define ArcardoMug 0x58
+#define ArcardoMug 0x54
 ALIGN 16
 ArcardoMugData:
 #incbin "Dmp/Arcardo_mug.dmp"
@@ -790,7 +754,7 @@ ArcardoMugData:
 #incbin "Dmp/Arcardo_minimug.dmp"
 setMugEntry(ArcardoMug, ArcardoMugData, 0, 0, 0, 0)
 
-#define MartelMug 0x59
+#define MartelMug 0x55
 ALIGN 16
 MartelMugData:
 #incbin "Dmp/Martel_mug.dmp"
@@ -799,7 +763,7 @@ MartelMugData:
 #incbin "Dmp/Martel_minimug.dmp"
 setMugEntry(MartelMug, MartelMugData, 0, 0, 0, 0)
 
-#define MonkeMug 0x5A
+#define MonkeMug 0x56
 ALIGN 16
 MonkeMugData:
 #incbin "Dmp/Monke_mug.dmp"
@@ -808,7 +772,7 @@ MonkeMugData:
 #incbin "Dmp/Monke_minimug.dmp"
 setMugEntry(MonkeMug, MonkeMugData, 0, 0, 0, 0)
 
-#define SiguneMug 0x5B
+#define SiguneMug 0x57
 ALIGN 16
 SiguneMugData:
 #incbin "Dmp/Sigune_mug.dmp"
@@ -817,7 +781,7 @@ SiguneMugData:
 #incbin "Dmp/Sigune_minimug.dmp"
 setMugEntry(SiguneMug, SiguneMugData, 0, 0, 0, 0)
 
-#define KelMug 0x5C
+#define KelMug 0x58
 ALIGN 16
 KelMugData:
 #incbin "Dmp/Kel_mug.dmp"
@@ -826,7 +790,7 @@ KelMugData:
 #incbin "Dmp/Kel_minimug.dmp"
 setMugEntry(KelMug, KelMugData, 0, 0, 0, 0)
 
-#define RoartzMug 0x5D
+#define RoartzMug 0x59
 ALIGN 16
 RoartzMugData:
 #incbin "Dmp/Roartz_mug.dmp"
@@ -835,7 +799,7 @@ RoartzMugData:
 #incbin "Dmp/Roartz_minimug.dmp"
 setMugEntry(RoartzMug, RoartzMugData, 0, 0, 0, 0)
 
-#define TickMug 0x5E
+#define TickMug 0x5A
 ALIGN 16
 TickMugData:
 #incbin "Dmp/Tick_mug.dmp"
@@ -844,7 +808,7 @@ TickMugData:
 #incbin "Dmp/Tick_minimug.dmp"
 setMugEntry(TickMug, TickMugData, 0, 0, 0, 0)
 
-#define SacaeGaidenBossesMug 0x5F
+#define SacaeGaidenBossesMug 0x5B
 ALIGN 16
 SacaeGaidenBossesMugData:
 #incbin "Dmp/SacaeGaidenBosses_mug.dmp"
@@ -853,7 +817,25 @@ SacaeGaidenBossesMugData:
 #incbin "Dmp/SacaeGaidenBosses_minimug.dmp"
 setMugEntry(SacaeGaidenBossesMug, SacaeGaidenBossesMugData, 0, 0, 0, 0)
 
-#define PeresMug 0x60
+#define GalleMug 0x5C
+ALIGN 16
+GalleMugData:
+#incbin "Dmp/Galle_mug.dmp"
+#incbin "Dmp/Galle_frames.dmp"
+#incbin "Dmp/Galle_palette.dmp"
+#incbin "Dmp/Galle_minimug.dmp"
+setMugEntry(GalleMug, GalleMugData, 0, 0, 0, 0)
+
+#define MurdockMug 0x5D
+ALIGN 16
+MurdockMugData:
+#incbin "Dmp/Murdock_mug.dmp"
+#incbin "Dmp/Murdock_frames.dmp"
+#incbin "Dmp/Murdock_palette.dmp"
+#incbin "Dmp/Murdock_minimug.dmp"
+setMugEntry(MurdockMug, MurdockMugData, 0, 0, 0, 0)
+
+#define PeresMug 0x5E
 ALIGN 16
 PeresMugData:
 #incbin "Dmp/Peres_mug.dmp"
@@ -861,6 +843,24 @@ PeresMugData:
 #incbin "Dmp/Peres_palette.dmp"
 #incbin "Dmp/Peres_minimug.dmp"
 setMugEntry(PeresMug, PeresMugData, 0, 0, 0, 0)
+
+#define ZephielMug 0x5F
+ALIGN 16
+ZephielMugData:
+#incbin "Dmp/Zephiel_mug.dmp"
+#incbin "Dmp/Zephiel_frames.dmp"
+#incbin "Dmp/Zephiel_palette.dmp"
+#incbin "Dmp/Zephiel_minimug.dmp"
+setMugEntry(ZephielMug, ZephielMugData, 0, 0, 0, 0)
+
+#define BrunnyaMug 0x60
+ALIGN 16
+BrunnyaMugData:
+#incbin "Dmp/Brunnya_mug.dmp"
+#incbin "Dmp/Brunnya_frames.dmp"
+#incbin "Dmp/Brunnya_palette.dmp"
+#incbin "Dmp/Brunnya_minimug.dmp"
+setMugEntry(BrunnyaMug, BrunnyaMugData, 0, 0, 0, 0)
 
 #define JahnMug 0x61
 ALIGN 16
@@ -916,43 +916,7 @@ HectorBloodMugData:
 #incbin "Dmp/HectorBlood_minimug.dmp"
 setMugEntry(HectorBloodMug, HectorBloodMugData, 0, 0, 0, 0)
 
-#define HenningRecolorMug 0x67
-ALIGN 16
-HenningRecolorMugData:
-#incbin "Dmp/HenningRecolor_mug.dmp"
-#incbin "Dmp/HenningRecolor_frames.dmp"
-#incbin "Dmp/HenningRecolor_palette.dmp"
-#incbin "Dmp/HenningRecolor_minimug.dmp"
-setMugEntry(HenningRecolorMug, HenningRecolorMugData, 0, 0, 0, 0)
-
-#define MartelRecolor1Mug 0x68
-ALIGN 16
-MartelRecolor1MugData:
-#incbin "Dmp/MartelRecolor1_mug.dmp"
-#incbin "Dmp/MartelRecolor1_frames.dmp"
-#incbin "Dmp/MartelRecolor1_palette.dmp"
-#incbin "Dmp/MartelRecolor1_minimug.dmp"
-setMugEntry(MartelRecolor1Mug, MartelRecolor1MugData, 0, 0, 0, 0)
-
-#define MonkeRecolor1Mug 0x69
-ALIGN 16
-MonkeRecolor1MugData:
-#incbin "Dmp/MonkeRecolor1_mug.dmp"
-#incbin "Dmp/MonkeRecolor1_frames.dmp"
-#incbin "Dmp/MonkeRecolor1_palette.dmp"
-#incbin "Dmp/MonkeRecolor1_minimug.dmp"
-setMugEntry(MonkeRecolor1Mug, MonkeRecolor1MugData, 0, 0, 0, 0)
-
-#define MonkeRecolor2Mug 0x6A
-ALIGN 16
-MonkeRecolor2MugData:
-#incbin "Dmp/MonkeRecolor2_mug.dmp"
-#incbin "Dmp/MonkeRecolor2_frames.dmp"
-#incbin "Dmp/MonkeRecolor2_palette.dmp"
-#incbin "Dmp/MonkeRecolor2_minimug.dmp"
-setMugEntry(MonkeRecolor2Mug, MonkeRecolor2MugData, 0, 0, 0, 0)
-
-#define MordredMug 0x6B
+#define MordredMug 0x67
 ALIGN 16
 MordredMugData:
 #incbin "Dmp/Mordred_mug.dmp"
@@ -961,43 +925,7 @@ MordredMugData:
 #incbin "Dmp/Mordred_minimug.dmp"
 setMugEntry(MordredMug, MordredMugData, 0, 0, 0, 0)
 
-#define MorganRecolor1Mug 0x6C
-ALIGN 16
-MorganRecolor1MugData:
-#incbin "Dmp/MorganRecolor1_mug.dmp"
-#incbin "Dmp/MorganRecolor1_frames.dmp"
-#incbin "Dmp/MorganRecolor1_palette.dmp"
-#incbin "Dmp/MorganRecolor1_minimug.dmp"
-setMugEntry(MorganRecolor1Mug, MorganRecolor1MugData, 0, 0, 0, 0)
-
-#define MorganRecolor2Mug 0x6D
-ALIGN 16
-MorganRecolor2MugData:
-#incbin "Dmp/MorganRecolor2_mug.dmp"
-#incbin "Dmp/MorganRecolor2_frames.dmp"
-#incbin "Dmp/MorganRecolor2_palette.dmp"
-#incbin "Dmp/MorganRecolor2_minimug.dmp"
-setMugEntry(MorganRecolor2Mug, MorganRecolor2MugData, 0, 0, 0, 0)
-
-#define OatesRecolor1Mug 0x6E
-ALIGN 16
-OatesRecolor1MugData:
-#incbin "Dmp/OatesRecolor1_mug.dmp"
-#incbin "Dmp/OatesRecolor1_frames.dmp"
-#incbin "Dmp/OatesRecolor1_palette.dmp"
-#incbin "Dmp/OatesRecolor1_minimug.dmp"
-setMugEntry(OatesRecolor1Mug, OatesRecolor1MugData, 0, 0, 0, 0)
-
-#define OatesRecolor2Mug 0x6F
-ALIGN 16
-OatesRecolor2MugData:
-#incbin "Dmp/OatesRecolor2_mug.dmp"
-#incbin "Dmp/OatesRecolor2_frames.dmp"
-#incbin "Dmp/OatesRecolor2_palette.dmp"
-#incbin "Dmp/OatesRecolor2_minimug.dmp"
-setMugEntry(OatesRecolor2Mug, OatesRecolor2MugData, 0, 0, 0, 0)
-
-#define PegasusMessangerMug 0x70
+#define PegasusMessangerMug 0x68
 ALIGN 16
 PegasusMessangerMugData:
 #incbin "Dmp/PegasusMessanger_mug.dmp"
@@ -1006,7 +934,7 @@ PegasusMessangerMugData:
 #incbin "Dmp/PegasusMessanger_minimug.dmp"
 setMugEntry(PegasusMessangerMug, PegasusMessangerMugData, 0, 0, 0, 0)
 
-#define PriestMug 0x71
+#define PriestMug 0x69
 ALIGN 16
 PriestMugData:
 #incbin "Dmp/Priest_mug.dmp"
@@ -1015,16 +943,7 @@ PriestMugData:
 #incbin "Dmp/Priest_minimug.dmp"
 setMugEntry(PriestMug, PriestMugData, 0, 0, 0, 0)
 
-#define RandyRecolor1Mug 0x72
-ALIGN 16
-RandyRecolor1MugData:
-#incbin "Dmp/RandyRecolor1_mug.dmp"
-#incbin "Dmp/RandyRecolor1_frames.dmp"
-#incbin "Dmp/RandyRecolor1_palette.dmp"
-#incbin "Dmp/RandyRecolor1_minimug.dmp"
-setMugEntry(RandyRecolor1Mug, RandyRecolor1MugData, 0, 0, 0, 0)
-
-#define SacaeanVillagerMug 0x73
+#define SacaeanVillagerMug 0x6A
 ALIGN 16
 SacaeanVillagerMugData:
 #incbin "Dmp/SacaeanVillager_mug.dmp"
@@ -1033,7 +952,7 @@ SacaeanVillagerMugData:
 #incbin "Dmp/SacaeanVillager_minimug.dmp"
 setMugEntry(SacaeanVillagerMug, SacaeanVillagerMugData, 0, 0, 0, 0)
 
-#define Soldier1Mug 0x74
+#define Soldier1Mug 0x6B
 ALIGN 16
 Soldier1MugData:
 #incbin "Dmp/Soldier1_mug.dmp"
@@ -1042,7 +961,7 @@ Soldier1MugData:
 #incbin "Dmp/Soldier1_minimug.dmp"
 setMugEntry(Soldier1Mug, Soldier1MugData, 0, 0, 0, 0)
 
-#define Soldier2Mug 0x75
+#define Soldier2Mug 0x6C
 ALIGN 16
 Soldier2MugData:
 #incbin "Dmp/Soldier2_mug.dmp"
@@ -1051,7 +970,7 @@ Soldier2MugData:
 #incbin "Dmp/Soldier2_minimug.dmp"
 setMugEntry(Soldier2Mug, Soldier2MugData, 0, 0, 0, 0)
 
-#define Soldier3Mug 0x76
+#define Soldier3Mug 0x6D
 ALIGN 16
 Soldier3MugData:
 #incbin "Dmp/Soldier3_mug.dmp"
@@ -1060,7 +979,7 @@ Soldier3MugData:
 #incbin "Dmp/Soldier3_minimug.dmp"
 setMugEntry(Soldier3Mug, Soldier3MugData, 0, 0, 0, 0)
 
-#define Soldier4Mug 0x77
+#define Soldier4Mug 0x6E
 ALIGN 16
 Soldier4MugData:
 #incbin "Dmp/Soldier4_mug.dmp"
@@ -1069,7 +988,7 @@ Soldier4MugData:
 #incbin "Dmp/Soldier4_minimug.dmp"
 setMugEntry(Soldier4Mug, Soldier4MugData, 0, 0, 0, 0)
 
-#define Soldier5Mug 0x78
+#define Soldier5Mug 0x6F
 ALIGN 16
 Soldier5MugData:
 #incbin "Dmp/Soldier5_mug.dmp"
@@ -1078,7 +997,7 @@ Soldier5MugData:
 #incbin "Dmp/Soldier5_minimug.dmp"
 setMugEntry(Soldier5Mug, Soldier5MugData, 0, 0, 0, 0)
 
-#define Soldier6Mug 0x79
+#define Soldier6Mug 0x70
 ALIGN 16
 Soldier6MugData:
 #incbin "Dmp/Soldier6_mug.dmp"
@@ -1087,7 +1006,7 @@ Soldier6MugData:
 #incbin "Dmp/Soldier6_minimug.dmp"
 setMugEntry(Soldier6Mug, Soldier6MugData, 0, 0, 0, 0)
 
-#define Soldier7Mug 0x7A
+#define Soldier7Mug 0x71
 ALIGN 16
 Soldier7MugData:
 #incbin "Dmp/Soldier7_mug.dmp"
@@ -1096,25 +1015,7 @@ Soldier7MugData:
 #incbin "Dmp/Soldier7_minimug.dmp"
 setMugEntry(Soldier7Mug, Soldier7MugData, 0, 0, 0, 0)
 
-#define TickRecolor1Mug 0x7B
-ALIGN 16
-TickRecolor1MugData:
-#incbin "Dmp/TickRecolor1_mug.dmp"
-#incbin "Dmp/TickRecolor1_frames.dmp"
-#incbin "Dmp/TickRecolor1_palette.dmp"
-#incbin "Dmp/TickRecolor1_minimug.dmp"
-setMugEntry(TickRecolor1Mug, TickRecolor1MugData, 0, 0, 0, 0)
-
-#define TickRecolor2Mug 0x7C
-ALIGN 16
-TickRecolor2MugData:
-#incbin "Dmp/TickRecolor2_mug.dmp"
-#incbin "Dmp/TickRecolor2_frames.dmp"
-#incbin "Dmp/TickRecolor2_palette.dmp"
-#incbin "Dmp/TickRecolor2_minimug.dmp"
-setMugEntry(TickRecolor2Mug, TickRecolor2MugData, 0, 0, 0, 0)
-
-#define Villager1Mug 0x7D
+#define Villager1Mug 0x72
 ALIGN 16
 Villager1MugData:
 #incbin "Dmp/Villager1_mug.dmp"
@@ -1123,7 +1024,7 @@ Villager1MugData:
 #incbin "Dmp/Villager1_minimug.dmp"
 setMugEntry(Villager1Mug, Villager1MugData, 0, 0, 0, 0)
 
-#define Villager2Mug 0x7E
+#define Villager2Mug 0x73
 ALIGN 16
 Villager2MugData:
 #incbin "Dmp/Villager2_mug.dmp"
@@ -1132,7 +1033,7 @@ Villager2MugData:
 #incbin "Dmp/Villager2_minimug.dmp"
 setMugEntry(Villager2Mug, Villager2MugData, 0, 0, 0, 0)
 
-#define Villager3Mug 0x7F
+#define Villager3Mug 0x74
 ALIGN 16
 Villager3MugData:
 #incbin "Dmp/Villager3_mug.dmp"
@@ -1141,7 +1042,7 @@ Villager3MugData:
 #incbin "Dmp/Villager3_minimug.dmp"
 setMugEntry(Villager3Mug, Villager3MugData, 0, 0, 0, 0)
 
-#define Villager4Mug 0x80
+#define Villager4Mug 0x75
 ALIGN 16
 Villager4MugData:
 #incbin "Dmp/Villager4_mug.dmp"
@@ -1150,7 +1051,7 @@ Villager4MugData:
 #incbin "Dmp/Villager4_minimug.dmp"
 setMugEntry(Villager4Mug, Villager4MugData, 0, 0, 0, 0)
 
-#define Villager5Mug 0x81
+#define Villager5Mug 0x76
 ALIGN 16
 Villager5MugData:
 #incbin "Dmp/Villager5_mug.dmp"
@@ -1159,7 +1060,7 @@ Villager5MugData:
 #incbin "Dmp/Villager5_minimug.dmp"
 setMugEntry(Villager5Mug, Villager5MugData, 0, 0, 0, 0)
 
-#define Villager6Mug 0x82
+#define Villager6Mug 0x77
 ALIGN 16
 Villager6MugData:
 #incbin "Dmp/Villager6_mug.dmp"
@@ -1168,7 +1069,7 @@ Villager6MugData:
 #incbin "Dmp/Villager6_minimug.dmp"
 setMugEntry(Villager6Mug, Villager6MugData, 0, 0, 0, 0)
 
-#define Villager7Mug 0x83
+#define Villager7Mug 0x78
 ALIGN 16
 Villager7MugData:
 #incbin "Dmp/Villager7_mug.dmp"
@@ -1177,7 +1078,7 @@ Villager7MugData:
 #incbin "Dmp/Villager7_minimug.dmp"
 setMugEntry(Villager7Mug, Villager7MugData, 0, 0, 0, 0)
 
-#define Villager8Mug 0x84
+#define Villager8Mug 0x79
 ALIGN 16
 Villager8MugData:
 #incbin "Dmp/Villager8_mug.dmp"
@@ -1186,7 +1087,7 @@ Villager8MugData:
 #incbin "Dmp/Villager8_minimug.dmp"
 setMugEntry(Villager8Mug, Villager8MugData, 0, 0, 0, 0)
 
-#define Villager9Mug 0x85
+#define Villager9Mug 0x7A
 ALIGN 16
 Villager9MugData:
 #incbin "Dmp/Villager9_mug.dmp"
@@ -1195,7 +1096,7 @@ Villager9MugData:
 #incbin "Dmp/Villager9_minimug.dmp"
 setMugEntry(Villager9Mug, Villager9MugData, 0, 0, 0, 0)
 
-#define Villager10Mug 0x86
+#define Villager10Mug 0x7B
 ALIGN 16
 Villager10MugData:
 #incbin "Dmp/Villager10_mug.dmp"
@@ -1204,7 +1105,7 @@ Villager10MugData:
 #incbin "Dmp/Villager10_minimug.dmp"
 setMugEntry(Villager10Mug, Villager10MugData, 0, 0, 0, 0)
 
-#define Villager11Mug 0x87
+#define Villager11Mug 0x7C
 ALIGN 16
 Villager11MugData:
 #incbin "Dmp/Villager11_mug.dmp"
@@ -1213,7 +1114,7 @@ Villager11MugData:
 #incbin "Dmp/Villager11_minimug.dmp"
 setMugEntry(Villager11Mug, Villager11MugData, 0, 0, 0, 0)
 
-#define Villager12Mug 0x88
+#define Villager12Mug 0x7D
 ALIGN 16
 Villager12MugData:
 #incbin "Dmp/Villager12_mug.dmp"
@@ -1222,7 +1123,7 @@ Villager12MugData:
 #incbin "Dmp/Villager12_minimug.dmp"
 setMugEntry(Villager12Mug, Villager12MugData, 0, 0, 0, 0)
 
-#define Villager13Mug 0x89
+#define Villager13Mug 0x7E
 ALIGN 16
 Villager13MugData:
 #incbin "Dmp/Villager13_mug.dmp"
@@ -1231,7 +1132,7 @@ Villager13MugData:
 #incbin "Dmp/Villager13_minimug.dmp"
 setMugEntry(Villager13Mug, Villager13MugData, 0, 0, 0, 0)
 
-#define Villager14Mug 0x8A
+#define Villager14Mug 0x7F
 ALIGN 16
 Villager14MugData:
 #incbin "Dmp/Villager14_mug.dmp"
@@ -1240,7 +1141,7 @@ Villager14MugData:
 #incbin "Dmp/Villager14_minimug.dmp"
 setMugEntry(Villager14Mug, Villager14MugData, 0, 0, 0, 0)
 
-#define Villager15Mug 0x8B
+#define Villager15Mug 0x80
 ALIGN 16
 Villager15MugData:
 #incbin "Dmp/Villager15_mug.dmp"
@@ -1249,7 +1150,7 @@ Villager15MugData:
 #incbin "Dmp/Villager15_minimug.dmp"
 setMugEntry(Villager15Mug, Villager15MugData, 0, 0, 0, 0)
 
-#define Villager16Mug 0x8C
+#define Villager16Mug 0x81
 ALIGN 16
 Villager16MugData:
 #incbin "Dmp/Villager16_mug.dmp"
@@ -1258,7 +1159,7 @@ Villager16MugData:
 #incbin "Dmp/Villager16_minimug.dmp"
 setMugEntry(Villager16Mug, Villager16MugData, 0, 0, 0, 0)
 
-#define Villager17Mug 0x8D
+#define Villager17Mug 0x82
 ALIGN 16
 Villager17MugData:
 #incbin "Dmp/Villager17_mug.dmp"
@@ -1267,7 +1168,7 @@ Villager17MugData:
 #incbin "Dmp/Villager17_minimug.dmp"
 setMugEntry(Villager17Mug, Villager17MugData, 0, 0, 0, 0)
 
-#define Villager18Mug 0x8E
+#define Villager18Mug 0x83
 ALIGN 16
 Villager18MugData:
 #incbin "Dmp/Villager18_mug.dmp"
@@ -1276,7 +1177,7 @@ Villager18MugData:
 #incbin "Dmp/Villager18_minimug.dmp"
 setMugEntry(Villager18Mug, Villager18MugData, 0, 0, 0, 0)
 
-#define Villager19Mug 0x8F
+#define Villager19Mug 0x84
 ALIGN 16
 Villager19MugData:
 #incbin "Dmp/Villager19_mug.dmp"
@@ -1285,7 +1186,7 @@ Villager19MugData:
 #incbin "Dmp/Villager19_minimug.dmp"
 setMugEntry(Villager19Mug, Villager19MugData, 0, 0, 0, 0)
 
-#define Villager20Mug 0x90
+#define Villager20Mug 0x85
 ALIGN 16
 Villager20MugData:
 #incbin "Dmp/Villager20_mug.dmp"
@@ -1294,7 +1195,7 @@ Villager20MugData:
 #incbin "Dmp/Villager20_minimug.dmp"
 setMugEntry(Villager20Mug, Villager20MugData, 0, 0, 0, 0)
 
-#define Villager21Mug 0x91
+#define Villager21Mug 0x86
 ALIGN 16
 Villager21MugData:
 #incbin "Dmp/Villager21_mug.dmp"
@@ -1303,7 +1204,7 @@ Villager21MugData:
 #incbin "Dmp/Villager21_minimug.dmp"
 setMugEntry(Villager21Mug, Villager21MugData, 0, 0, 0, 0)
 
-#define Villager22Mug 0x92
+#define Villager22Mug 0x87
 ALIGN 16
 Villager22MugData:
 #incbin "Dmp/Villager22_mug.dmp"
@@ -1312,7 +1213,7 @@ Villager22MugData:
 #incbin "Dmp/Villager22_minimug.dmp"
 setMugEntry(Villager22Mug, Villager22MugData, 0, 0, 0, 0)
 
-#define Villager23Mug 0x93
+#define Villager23Mug 0x88
 ALIGN 16
 Villager23MugData:
 #incbin "Dmp/Villager23_mug.dmp"
@@ -1321,7 +1222,7 @@ Villager23MugData:
 #incbin "Dmp/Villager23_minimug.dmp"
 setMugEntry(Villager23Mug, Villager23MugData, 0, 0, 0, 0)
 
-#define Villager24Mug 0x94
+#define Villager24Mug 0x89
 ALIGN 16
 Villager24MugData:
 #incbin "Dmp/Villager24_mug.dmp"
@@ -1330,7 +1231,7 @@ Villager24MugData:
 #incbin "Dmp/Villager24_minimug.dmp"
 setMugEntry(Villager24Mug, Villager24MugData, 0, 0, 0, 0)
 
-#define Villager25Mug 0x95
+#define Villager25Mug 0x8A
 ALIGN 16
 Villager25MugData:
 #incbin "Dmp/Villager25_mug.dmp"
@@ -1339,7 +1240,7 @@ Villager25MugData:
 #incbin "Dmp/Villager25_minimug.dmp"
 setMugEntry(Villager25Mug, Villager25MugData, 0, 0, 0, 0)
 
-#define Villager26Mug 0x96
+#define Villager26Mug 0x8B
 ALIGN 16
 Villager26MugData:
 #incbin "Dmp/Villager26_mug.dmp"
@@ -1348,7 +1249,7 @@ Villager26MugData:
 #incbin "Dmp/Villager26_minimug.dmp"
 setMugEntry(Villager26Mug, Villager26MugData, 0, 0, 0, 0)
 
-#define Villager27Mug 0x97
+#define Villager27Mug 0x8C
 ALIGN 16
 Villager27MugData:
 #incbin "Dmp/Villager27_mug.dmp"
@@ -1357,7 +1258,7 @@ Villager27MugData:
 #incbin "Dmp/Villager27_minimug.dmp"
 setMugEntry(Villager27Mug, Villager27MugData, 0, 0, 0, 0)
 
-#define Villager28Mug 0x98
+#define Villager28Mug 0x8D
 ALIGN 16
 Villager28MugData:
 #incbin "Dmp/Villager28_mug.dmp"
@@ -1366,7 +1267,7 @@ Villager28MugData:
 #incbin "Dmp/Villager28_minimug.dmp"
 setMugEntry(Villager28Mug, Villager28MugData, 0, 0, 0, 0)
 
-#define Villager29Mug 0x99
+#define Villager29Mug 0x8E
 ALIGN 16
 Villager29MugData:
 #incbin "Dmp/Villager29_mug.dmp"
@@ -1375,7 +1276,7 @@ Villager29MugData:
 #incbin "Dmp/Villager29_minimug.dmp"
 setMugEntry(Villager29Mug, Villager29MugData, 0, 0, 0, 0)
 
-#define Villager30Mug 0x9A
+#define Villager30Mug 0x8F
 ALIGN 16
 Villager30MugData:
 #incbin "Dmp/Villager30_mug.dmp"
@@ -1384,7 +1285,7 @@ Villager30MugData:
 #incbin "Dmp/Villager30_minimug.dmp"
 setMugEntry(Villager30Mug, Villager30MugData, 0, 0, 0, 0)
 
-#define Villager31Mug 0x9B
+#define Villager31Mug 0x90
 ALIGN 16
 Villager31MugData:
 #incbin "Dmp/Villager31_mug.dmp"
@@ -1393,7 +1294,7 @@ Villager31MugData:
 #incbin "Dmp/Villager31_minimug.dmp"
 setMugEntry(Villager31Mug, Villager31MugData, 0, 0, 0, 0)
 
-#define Villager32Mug 0x9C
+#define Villager32Mug 0x91
 ALIGN 16
 Villager32MugData:
 #incbin "Dmp/Villager32_mug.dmp"
@@ -1402,7 +1303,7 @@ Villager32MugData:
 #incbin "Dmp/Villager32_minimug.dmp"
 setMugEntry(Villager32Mug, Villager32MugData, 0, 0, 0, 0)
 
-#define Villager33Mug 0x9D
+#define Villager33Mug 0x92
 ALIGN 16
 Villager33MugData:
 #incbin "Dmp/Villager33_mug.dmp"
@@ -1411,7 +1312,7 @@ Villager33MugData:
 #incbin "Dmp/Villager33_minimug.dmp"
 setMugEntry(Villager33Mug, Villager33MugData, 0, 0, 0, 0)
 
-#define Villager34Mug 0x9E
+#define Villager34Mug 0x93
 ALIGN 16
 Villager34MugData:
 #incbin "Dmp/Villager34_mug.dmp"
@@ -1420,7 +1321,7 @@ Villager34MugData:
 #incbin "Dmp/Villager34_minimug.dmp"
 setMugEntry(Villager34Mug, Villager34MugData, 0, 0, 0, 0)
 
-#define Villager35Mug 0x9F
+#define Villager35Mug 0x94
 ALIGN 16
 Villager35MugData:
 #incbin "Dmp/Villager35_mug.dmp"
@@ -1429,7 +1330,7 @@ Villager35MugData:
 #incbin "Dmp/Villager35_minimug.dmp"
 setMugEntry(Villager35Mug, Villager35MugData, 0, 0, 0, 0)
 
-#define Villager36Mug 0xA0
+#define Villager36Mug 0x95
 ALIGN 16
 Villager36MugData:
 #incbin "Dmp/Villager36_mug.dmp"
@@ -1438,7 +1339,7 @@ Villager36MugData:
 #incbin "Dmp/Villager36_minimug.dmp"
 setMugEntry(Villager36Mug, Villager36MugData, 0, 0, 0, 0)
 
-#define Villager37Mug 0xA1
+#define Villager37Mug 0x96
 ALIGN 16
 Villager37MugData:
 #incbin "Dmp/Villager37_mug.dmp"
@@ -1447,7 +1348,7 @@ Villager37MugData:
 #incbin "Dmp/Villager37_minimug.dmp"
 setMugEntry(Villager37Mug, Villager37MugData, 0, 0, 0, 0)
 
-#define Villager38Mug 0xA2
+#define Villager38Mug 0x97
 ALIGN 16
 Villager38MugData:
 #incbin "Dmp/Villager38_mug.dmp"
@@ -1456,7 +1357,7 @@ Villager38MugData:
 #incbin "Dmp/Villager38_minimug.dmp"
 setMugEntry(Villager38Mug, Villager38MugData, 0, 0, 0, 0)
 
-#define Villager39Mug 0xA3
+#define Villager39Mug 0x98
 ALIGN 16
 Villager39MugData:
 #incbin "Dmp/Villager39_mug.dmp"
@@ -1465,7 +1366,7 @@ Villager39MugData:
 #incbin "Dmp/Villager39_minimug.dmp"
 setMugEntry(Villager39Mug, Villager39MugData, 0, 0, 0, 0)
 
-#define Villager40Mug 0xA4
+#define Villager40Mug 0x99
 ALIGN 16
 Villager40MugData:
 #incbin "Dmp/Villager40_mug.dmp"
@@ -1474,7 +1375,7 @@ Villager40MugData:
 #incbin "Dmp/Villager40_minimug.dmp"
 setMugEntry(Villager40Mug, Villager40MugData, 0, 0, 0, 0)
 
-#define Villager41Mug 0xA5
+#define Villager41Mug 0x9A
 ALIGN 16
 Villager41MugData:
 #incbin "Dmp/Villager41_mug.dmp"
@@ -1483,7 +1384,7 @@ Villager41MugData:
 #incbin "Dmp/Villager41_minimug.dmp"
 setMugEntry(Villager41Mug, Villager41MugData, 0, 0, 0, 0)
 
-#define Villager42Mug 0xA6
+#define Villager42Mug 0x9B
 ALIGN 16
 Villager42MugData:
 #incbin "Dmp/Villager42_mug.dmp"
@@ -1492,7 +1393,7 @@ Villager42MugData:
 #incbin "Dmp/Villager42_minimug.dmp"
 setMugEntry(Villager42Mug, Villager42MugData, 0, 0, 0, 0)
 
-#define Villager43Mug 0xA7
+#define Villager43Mug 0x9C
 ALIGN 16
 Villager43MugData:
 #incbin "Dmp/Villager43_mug.dmp"
@@ -1501,7 +1402,7 @@ Villager43MugData:
 #incbin "Dmp/Villager43_minimug.dmp"
 setMugEntry(Villager43Mug, Villager43MugData, 0, 0, 0, 0)
 
-#define Villager44Mug 0xA8
+#define Villager44Mug 0x9D
 ALIGN 16
 Villager44MugData:
 #incbin "Dmp/Villager44_mug.dmp"
@@ -1510,7 +1411,7 @@ Villager44MugData:
 #incbin "Dmp/Villager44_minimug.dmp"
 setMugEntry(Villager44Mug, Villager44MugData, 0, 0, 0, 0)
 
-#define Villager45Mug 0xA9
+#define Villager45Mug 0x9E
 ALIGN 16
 Villager45MugData:
 #incbin "Dmp/Villager45_mug.dmp"
@@ -1519,7 +1420,7 @@ Villager45MugData:
 #incbin "Dmp/Villager45_minimug.dmp"
 setMugEntry(Villager45Mug, Villager45MugData, 0, 0, 0, 0)
 
-#define Villager46Mug 0xAA
+#define Villager46Mug 0x9F
 ALIGN 16
 Villager46MugData:
 #incbin "Dmp/Villager46_mug.dmp"
@@ -1528,7 +1429,7 @@ Villager46MugData:
 #incbin "Dmp/Villager46_minimug.dmp"
 setMugEntry(Villager46Mug, Villager46MugData, 0, 0, 0, 0)
 
-#define Villager47Mug 0xAB
+#define Villager47Mug 0xA0
 ALIGN 16
 Villager47MugData:
 #incbin "Dmp/Villager47_mug.dmp"
@@ -1537,7 +1438,7 @@ Villager47MugData:
 #incbin "Dmp/Villager47_minimug.dmp"
 setMugEntry(Villager47Mug, Villager47MugData, 0, 0, 0, 0)
 
-#define Villager48Mug 0xAC
+#define Villager48Mug 0xA1
 ALIGN 16
 Villager48MugData:
 #incbin "Dmp/Villager48_mug.dmp"
@@ -1546,7 +1447,7 @@ Villager48MugData:
 #incbin "Dmp/Villager48_minimug.dmp"
 setMugEntry(Villager48Mug, Villager48MugData, 0, 0, 0, 0)
 
-#define Villager49Mug 0xAD
+#define Villager49Mug 0xA2
 ALIGN 16
 Villager49MugData:
 #incbin "Dmp/Villager49_mug.dmp"
@@ -1555,7 +1456,7 @@ Villager49MugData:
 #incbin "Dmp/Villager49_minimug.dmp"
 setMugEntry(Villager49Mug, Villager49MugData, 0, 0, 0, 0)
 
-#define Villager50Mug 0xAE
+#define Villager50Mug 0xA3
 ALIGN 16
 Villager50MugData:
 #incbin "Dmp/Villager50_mug.dmp"
@@ -1564,7 +1465,7 @@ Villager50MugData:
 #incbin "Dmp/Villager50_minimug.dmp"
 setMugEntry(Villager50Mug, Villager50MugData, 0, 0, 0, 0)
 
-#define Villager51Mug 0xAF
+#define Villager51Mug 0xA4
 ALIGN 16
 Villager51MugData:
 #incbin "Dmp/Villager51_mug.dmp"
@@ -1573,7 +1474,7 @@ Villager51MugData:
 #incbin "Dmp/Villager51_minimug.dmp"
 setMugEntry(Villager51Mug, Villager51MugData, 0, 0, 0, 0)
 
-#define Villager52Mug 0xB0
+#define Villager52Mug 0xA5
 ALIGN 16
 Villager52MugData:
 #incbin "Dmp/Villager52_mug.dmp"
@@ -1582,7 +1483,7 @@ Villager52MugData:
 #incbin "Dmp/Villager52_minimug.dmp"
 setMugEntry(Villager52Mug, Villager52MugData, 0, 0, 0, 0)
 
-#define Villager53Mug 0xB1
+#define Villager53Mug 0xA6
 ALIGN 16
 Villager53MugData:
 #incbin "Dmp/Villager53_mug.dmp"
@@ -1591,7 +1492,7 @@ Villager53MugData:
 #incbin "Dmp/Villager53_minimug.dmp"
 setMugEntry(Villager53Mug, Villager53MugData, 0, 0, 0, 0)
 
-#define Villager54Mug 0xB2
+#define Villager54Mug 0xA7
 ALIGN 16
 Villager54MugData:
 #incbin "Dmp/Villager54_mug.dmp"
@@ -1600,7 +1501,7 @@ Villager54MugData:
 #incbin "Dmp/Villager54_minimug.dmp"
 setMugEntry(Villager54Mug, Villager54MugData, 0, 0, 0, 0)
 
-#define Villager55Mug 0xB3
+#define Villager55Mug 0xA8
 ALIGN 16
 Villager55MugData:
 #incbin "Dmp/Villager55_mug.dmp"
@@ -1609,7 +1510,7 @@ Villager55MugData:
 #incbin "Dmp/Villager55_minimug.dmp"
 setMugEntry(Villager55Mug, Villager55MugData, 0, 0, 0, 0)
 
-#define Villager56Mug 0xB4
+#define Villager56Mug 0xA9
 ALIGN 16
 Villager56MugData:
 #incbin "Dmp/Villager56_mug.dmp"
@@ -1618,7 +1519,7 @@ Villager56MugData:
 #incbin "Dmp/Villager56_minimug.dmp"
 setMugEntry(Villager56Mug, Villager56MugData, 0, 0, 0, 0)
 
-#define Villager57Mug 0xB5
+#define Villager57Mug 0xAA
 ALIGN 16
 Villager57MugData:
 #incbin "Dmp/Villager57_mug.dmp"
@@ -1627,7 +1528,7 @@ Villager57MugData:
 #incbin "Dmp/Villager57_minimug.dmp"
 setMugEntry(Villager57Mug, Villager57MugData, 0, 0, 0, 0)
 
-#define Villager58Mug 0xB6
+#define Villager58Mug 0xAB
 ALIGN 16
 Villager58MugData:
 #incbin "Dmp/Villager58_mug.dmp"
@@ -1636,7 +1537,7 @@ Villager58MugData:
 #incbin "Dmp/Villager58_minimug.dmp"
 setMugEntry(Villager58Mug, Villager58MugData, 0, 0, 0, 0)
 
-#define Villager59Mug 0xB7
+#define Villager59Mug 0xAC
 ALIGN 16
 Villager59MugData:
 #incbin "Dmp/Villager59_mug.dmp"
@@ -1645,7 +1546,7 @@ Villager59MugData:
 #incbin "Dmp/Villager59_minimug.dmp"
 setMugEntry(Villager59Mug, Villager59MugData, 0, 0, 0, 0)
 
-#define Villager60Mug 0xB8
+#define Villager60Mug 0xAD
 ALIGN 16
 Villager60MugData:
 #incbin "Dmp/Villager60_mug.dmp"
@@ -1654,7 +1555,7 @@ Villager60MugData:
 #incbin "Dmp/Villager60_minimug.dmp"
 setMugEntry(Villager60Mug, Villager60MugData, 0, 0, 0, 0)
 
-#define Villager61Mug 0xB9
+#define Villager61Mug 0xAE
 ALIGN 16
 Villager61MugData:
 #incbin "Dmp/Villager61_mug.dmp"
@@ -1663,7 +1564,7 @@ Villager61MugData:
 #incbin "Dmp/Villager61_minimug.dmp"
 setMugEntry(Villager61Mug, Villager61MugData, 0, 0, 0, 0)
 
-#define Villager62Mug 0xBA
+#define Villager62Mug 0xAF
 ALIGN 16
 Villager62MugData:
 #incbin "Dmp/Villager62_mug.dmp"
@@ -1672,7 +1573,7 @@ Villager62MugData:
 #incbin "Dmp/Villager62_minimug.dmp"
 setMugEntry(Villager62Mug, Villager62MugData, 0, 0, 0, 0)
 
-#define WagnerRecolor1Mug 0xBB
+#define WagnerRecolor1Mug 0xB0
 ALIGN 16
 WagnerRecolor1MugData:
 #incbin "Dmp/WagnerRecolor1_mug.dmp"
@@ -1681,7 +1582,7 @@ WagnerRecolor1MugData:
 #incbin "Dmp/WagnerRecolor1_minimug.dmp"
 setMugEntry(WagnerRecolor1Mug, WagnerRecolor1MugData, 0, 0, 0, 0)
 
-#define WagnerRecolor2Mug 0xBC
+#define WagnerRecolor2Mug 0xB1
 ALIGN 16
 WagnerRecolor2MugData:
 #incbin "Dmp/WagnerRecolor2_mug.dmp"

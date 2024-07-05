@@ -112,13 +112,13 @@
 #define ItemType 0x9
 */
 
-#define NoRank 0x0
-#define ERank 0x1
-#define DRank 0x1F
-#define CRank 0x47
-#define BRank 0x79
-#define ARank 0xB5
-#define SRank 0xFB
+//#define NoRank 0x0
+//#define ERank 0x1
+//#define DRank 0x1F
+//#define CRank 0x47
+//#define BRank 0x79
+//#define ARank 0xB5
+//#define SRank 0xFB
 
 #define NoAffinity 0
 #define FireAffinity 1

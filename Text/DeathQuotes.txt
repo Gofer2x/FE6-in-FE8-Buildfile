@@ -193,7 +193,7 @@ Guinivere[X]
 
 
 ## DamasDeathQuote
-[OpenMidLeft][LoadDamas][ToggleSmile]Wh...what the...?![AN]
+[OpenMidLeft][LoadDamas]Wh...what the...?![AN]
 S...so strong...[A][X]
 
 ## RuudDeathQuote

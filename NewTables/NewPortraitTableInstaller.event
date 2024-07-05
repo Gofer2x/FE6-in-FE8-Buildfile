@@ -1,0 +1,15 @@
+#define MaxPortraitEntries 0xFF
+
+ALIGN 4
+NewPortraitTable:
+  #incbin "NewPortraitTable.dmp"
+  ORG NewPortraitTable + (MaxTextEntries) * 28
+  
+PUSH
+ORG $5524
+POIN NewPortraitTable
+POP
+  
+#define PortraitTable NewPortraitTable
+
+MESSAGE New Portrait Table at PortraitTable

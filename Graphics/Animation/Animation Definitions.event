@@ -7,10 +7,6 @@
 //  #endif
 //#endif
 
-MESSAGE New class anim table
-#undef ClassAnimTable
-#define ClassAnimTable NewAnimTable
-
 #define AnimTableEntry(index) "ORG ClassAnimTable + ((index-1) * 0x20)"
 
 #define SwordAnim(Animation) "BYTE 0x00 0x01 ; SHORT Animation"

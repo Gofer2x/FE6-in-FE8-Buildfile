@@ -30,8 +30,6 @@ POP
 
 //PROTECT NewAnimTable
 
-
-//#undef ClassAnimTable
 #define ClassAnimTable NewAnimTable
 
 MESSAGE New Animation Table at ClassAnimTable

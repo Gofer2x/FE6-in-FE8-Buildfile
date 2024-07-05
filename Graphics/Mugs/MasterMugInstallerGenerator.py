@@ -179,9 +179,6 @@ names = ["Roy",
          "Villager60",
          "Villager61",
          "Villager62",
-         "WagnerRecolor1",
-         "WagnerRecolor2",
-
 ]
 
 output = []
@@ -192,13 +189,79 @@ for name in names:
     output.append("#define "+name+"Mug "+Funny(i)+"\n")
     templateString = [
         "ALIGN 4\n",
-        (name+":\n"),
-
-        ("
+        (name+"MugData:\n"),
+        ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+        ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+        ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+        ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+        ("setMugEntry("+name+"Mug, "+name+"MugData, 0, 0, 0, 0)\n")]
     for line in templateString:
         output.append(line)
     output.append("\n")
     i += 1
     
-with open("GeneratedCardInstaller.event", "w") as writeMugInstaller:
+with open("GeneratedMugInstaller.event", "w") as writeMugInstaller:
     writeMugInstaller.writelines(output)
+
+
+# ShowMugs
+output = []
+
+i = 1
+for name in names:
+    output.append("[Load"+name+"] = [LoadPortrait]["+Funny(i)+"][0x1]\n")
+    i += 1
+
+with open("ShowMugsAddToTextParseDefs.event", "w") as write:
+    write.writelines(output)
+
+# Cards
+
+names = ["Mercenary",
+         "Hero",
+         "Myrmidon",
+         "Swordmaster",
+         "Fighter",
+         "Warrior",
+         "Brigand",
+         "Pirate",
+         "Berserker",
+         "Soldier",
+         "Knight",
+         "General",
+         "Archer",
+         "Sniper",
+         "Thief",
+         "Rogue",
+         #"Assassin",
+         "Cavalier",
+         "Paladin",
+         "GreatKnight",
+         "Nomad",
+         "NomadTrooper",
+         "MonkCleric",
+         "Bishop",
+         "Troubadour",
+         "Valkyrie",
+         "Mage",
+         "Sage",
+         "MageKnight",
+         "Shaman",
+         "Druid",
+         "PegasusKnight",
+         "Falcoknight",
+         "WyvernRider",
+         "WyvernLord",
+         "WyvernKnight",
+         "FireManakete"
+]
+
+output = []
+for name in names:
+    output.append("#define "+name+"ClassCard"+" "+Funny(i)+"\n")
+    output.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPalette)\n")
+    output.append("\n")
+    i += 1
+    
+with open("GeneratedCardInstaller.event", "w") as writeCardInstaller:
+    writeCardInstaller.writelines(output)

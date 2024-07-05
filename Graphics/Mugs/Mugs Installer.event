@@ -1,5 +1,7 @@
 // setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
 
+#define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"
+
 //define XYZMug 0x
 
 //ALIGN 16
@@ -1584,22 +1586,3 @@ Villager62MugData:
 #incbin "Dmp/Villager62_palette.dmp"
 #incbin "Dmp/Villager62_minimug.dmp"
 setMugEntry(Villager62Mug, Villager62MugData, 0, 0, 0, 0)
-
-#define WagnerRecolor1Mug 0xB0
-ALIGN 16
-WagnerRecolor1MugData:
-#incbin "Dmp/WagnerRecolor1_mug.dmp"
-#incbin "Dmp/WagnerRecolor1_frames.dmp"
-#incbin "Dmp/WagnerRecolor1_palette.dmp"
-#incbin "Dmp/WagnerRecolor1_minimug.dmp"
-setMugEntry(WagnerRecolor1Mug, WagnerRecolor1MugData, 0, 0, 0, 0)
-
-#define WagnerRecolor2Mug 0xB1
-ALIGN 16
-WagnerRecolor2MugData:
-#incbin "Dmp/WagnerRecolor2_mug.dmp"
-#incbin "Dmp/WagnerRecolor2_frames.dmp"
-#incbin "Dmp/WagnerRecolor2_palette.dmp"
-#incbin "Dmp/WagnerRecolor2_minimug.dmp"
-setMugEntry(WagnerRecolor2Mug, WagnerRecolor2MugData, 0, 0, 0, 0)
-

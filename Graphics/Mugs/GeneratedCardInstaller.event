@@ -1,0 +1,6 @@
+#define MercenaryClassCard 0xB0
+setCardEntry(0xB0, MercenaryCardData, MercenaryCardPalette)
+
+#define HeroClassCard 0xB1
+setCardEntry(0xB1, HeroCardData, HeroCardPalette)
+

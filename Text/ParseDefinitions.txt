@@ -223,5 +223,3 @@
 [LoadVillager60] = [LoadPortrait][0xAD][0x1]
 [LoadVillager61] = [LoadPortrait][0xAE][0x1]
 [LoadVillager62] = [LoadPortrait][0xAF][0x1]
-[LoadWagnerRecolor1] = [LoadPortrait][0xB0][0x1]
-[LoadWagnerRecolor2] = [LoadPortrait][0xB1][0x1]

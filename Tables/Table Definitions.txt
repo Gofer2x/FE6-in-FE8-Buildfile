@@ -19,6 +19,27 @@
   //#define PersonalMusicTable 0x758a60
 //#endif
 
+// Weapon Effect
+#define NoEffect 0x0
+#define PoisonEffect 0x1
+#define NosferatuEffect 0x2
+#define EclipseEffect 0x3
+#define DevilEffect 0x4
+#define StoneEffect 0x5
+#define CannotDoubleEffect 0xC
+
+// Effectiveness
+#define LordWeaponEffectiveness 0x8ADEC2
+#define ArmorEffectiveness 0x8ADEBB
+#define DragonEffectiveness 0x8ADF13
+#define HorseEffectiveness 0x8ADEE0
+#define SwordEffectiveness 0x8ADED7
+#define FlierEffectiveness 0x8ADF2A
+#define SacredWeaponEffectiveness 0x8ADF39
+#define MonsterEffectiveness 0x8ADF39
+#define FlierAndMonster1 0x8ADEF1
+#define FlierAndMonster2 0x8ADEF1
+
 //Weapon Ability
 #define IsWeapon 0x00000001
 #define IsMagic 0x00000002
@@ -128,6 +149,19 @@
 #define DarkAffinity 5
 #define LightAffinity 6
 #define AnimaAffinity 7
+
+//Status Effects
+#define NoStatusID 0
+#define PoisonStatusID 1
+#define SleepStatusID 2
+#define SilenceStatusID 3
+#define BerserkStatusID 4
+#define AtkRingStatusID 5
+#define DefRingStatusID 6
+#define CritRingStatusID 7
+#define AvoRingStatusID 8
+#define SickStatusID 9
+#define PetrifyStatusID 13
 
 #define negateByte(byte) "0x100-byte"
 #define IsPointer 0x8000000

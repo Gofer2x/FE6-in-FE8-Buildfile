@@ -1,3 +1,29 @@
+on the gay agenda, from highest to lowest priority (aka how much i feel like it):
+
+item changes
+	:checkmark: all existing weapons had stats changed
+	to be implemented:
+	aircalibur
+	legendary weapons + binding blade
+	firestone, divinestone, idunn weapon
+	eckehehsshashsh
+
+death quotes for characters
+death quotes for bosses
+
+battle quotes for bosses
+specific battle quotes for bosses
+
+supports
+
+actually implementing the 5 above (create bigger tables and repoint the nmm files for all probably)
+
+
+effectiveness changes tables things (look at image in root)
+
+
 harp and birdie sounds for elffin animation
+
+
 
 manakete anims

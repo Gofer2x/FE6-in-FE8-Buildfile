@@ -610,25 +610,7 @@ NordMugData:
 #incbin "Dmp/Nord_minimug.dmp"
 setMugEntry(NordMug, NordMugData, 0, 0, 0, 0)
 
-#define ZinqueMug 0x45
-ALIGN 4
-ZinqueMugData:
-#incbin "Dmp/Zinque_mug.dmp"
-#incbin "Dmp/Zinque_frames.dmp"
-#incbin "Dmp/Zinque_palette.dmp"
-#incbin "Dmp/Zinque_minimug.dmp"
-setMugEntry(ZinqueMug, ZinqueMugData, 0, 0, 0, 0)
-
-#define ScollanMug 0x46
-ALIGN 4
-ScollanMugData:
-#incbin "Dmp/Scollan_mug.dmp"
-#incbin "Dmp/Scollan_frames.dmp"
-#incbin "Dmp/Scollan_palette.dmp"
-#incbin "Dmp/Scollan_minimug.dmp"
-setMugEntry(ScollanMug, ScollanMugData, 0, 0, 0, 0)
-
-#define OrloMug 0x47
+#define OrloMug 0x45
 ALIGN 4
 OrloMugData:
 #incbin "Dmp/Orlo_mug.dmp"
@@ -637,7 +619,7 @@ OrloMugData:
 #incbin "Dmp/Orlo_minimug.dmp"
 setMugEntry(OrloMug, OrloMugData, 0, 0, 0, 0)
 
-#define RobertsMug 0x48
+#define RobertsMug 0x46
 ALIGN 4
 RobertsMugData:
 #incbin "Dmp/Roberts_mug.dmp"
@@ -645,6 +627,24 @@ RobertsMugData:
 #incbin "Dmp/Roberts_palette.dmp"
 #incbin "Dmp/Roberts_minimug.dmp"
 setMugEntry(RobertsMug, RobertsMugData, 0, 0, 0, 0)
+
+#define ZinqueMug 0x47
+ALIGN 4
+ZinqueMugData:
+#incbin "Dmp/Zinque_mug.dmp"
+#incbin "Dmp/Zinque_frames.dmp"
+#incbin "Dmp/Zinque_palette.dmp"
+#incbin "Dmp/Zinque_minimug.dmp"
+setMugEntry(ZinqueMug, ZinqueMugData, 0, 0, 0, 0)
+
+#define ScollanMug 0x48
+ALIGN 4
+ScollanMugData:
+#incbin "Dmp/Scollan_mug.dmp"
+#incbin "Dmp/Scollan_frames.dmp"
+#incbin "Dmp/Scollan_palette.dmp"
+#incbin "Dmp/Scollan_minimug.dmp"
+setMugEntry(ScollanMug, ScollanMugData, 0, 0, 0, 0)
 
 #define MorganMug 0x49
 ALIGN 4

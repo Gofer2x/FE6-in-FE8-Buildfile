@@ -87,10 +87,10 @@
 #define Henning 0x57
 #define Scott 0x58
 #define Nord 0x59
-#define Zinque 0x5A
-#define Scollan 0x5B
-#define Orlo 0x5C
-#define Roberts 0x5D
+#define Orlo 0x5A
+#define Roberts 0x5B
+#define Zinque 0x5C
+#define Scollan 0x5D
 #define Morgan 0x5E
 #define Ein 0x5F
 #define Guerrero 0x60

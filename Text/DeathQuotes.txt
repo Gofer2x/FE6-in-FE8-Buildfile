@@ -226,17 +226,17 @@ Scott[X]
 ## NordDeathQuote
 Nord[X]
 
-## ZinqueDeathQuote
-Zinque[X]
-
-## ScollanDeathQuote
-Scollan[X]
-
 ## OrloDeathQuote
 Orlo[X]
 
 ## RobertsDeathQuote
 Roberts[X]
+
+## ZinqueDeathQuote
+Zinque[X]
+
+## ScollanDeathQuote
+Scollan[X]
 
 ## MorganDeathQuote
 Morgan[X]

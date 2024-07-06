@@ -104,11 +104,11 @@
 #define Windham 0x68
 #define Arcardo 0x69
 #define Martel 0x6A
-#define Monke 0x6B
-#define Sigune 0x6C
-#define Kel 0x6D
-#define Roartz 0x6E
-#define Tick 0x6F
+#define Sigune 0x6B
+#define Roartz 0x6C
+#define Tick 0x6D
+#define Monke 0x6E
+#define Kel 0x6F
 #define Thoril 0x70
 #define Brakul 0x71
 #define Kudoka 0x72

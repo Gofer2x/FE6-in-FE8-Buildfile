@@ -33,17 +33,17 @@ few pathetic knights?![AN][X]
 ## NordBattleQuote
 [OpenMidLeft][LoadNord]
 
-## ZinqueBattleQuote
-[OpenMidLeft][LoadZinque]
-
-## ScollanBattleQuote
-[OpenMidLeft][LoadScollan]
-
 ## OrloBattleQuote
 [OpenMidLeft][LoadOrlo]
 
 ## RobertsBattleQuote
 [OpenMidLeft][LoadRoberts]
+
+## ZinqueBattleQuote
+[OpenMidLeft][LoadZinque]
+
+## ScollanBattleQuote
+[OpenMidLeft][LoadScollan]
 
 ## MorganBattleQuote
 [OpenMidLeft][LoadMorgan]
@@ -84,20 +84,20 @@ few pathetic knights?![AN][X]
 ## MartelBattleQuote
 [OpenMidLeft][LoadMartel]
 
-## MonkeBattleQuote
-[OpenMidLeft][LoadMonke]
-
 ## SiguneBattleQuote
 [OpenMidLeft][LoadSigune]
-
-## KelBattleQuote
-[OpenMidLeft][LoadKel]
 
 ## RoartzBattleQuote
 [OpenMidLeft][LoadRoartz]
 
 ## TickBattleQuote
 [OpenMidLeft][LoadTick]
+
+## MonkeBattleQuote
+[OpenMidLeft][LoadMonke]
+
+## KelBattleQuote
+[OpenMidLeft][LoadKel]
 
 ## MurdockBattleQuote
 [OpenMidLeft][LoadMurdock]

@@ -763,16 +763,7 @@ MartelMugData:
 #incbin "Dmp/Martel_minimug.dmp"
 setMugEntry(MartelMug, MartelMugData, 0, 0, 0, 0)
 
-#define MonkeMug 0x56
-ALIGN 4
-MonkeMugData:
-#incbin "Dmp/Monke_mug.dmp"
-#incbin "Dmp/Monke_frames.dmp"
-#incbin "Dmp/Monke_palette.dmp"
-#incbin "Dmp/Monke_minimug.dmp"
-setMugEntry(MonkeMug, MonkeMugData, 0, 0, 0, 0)
-
-#define SiguneMug 0x57
+#define SiguneMug 0x56
 ALIGN 4
 SiguneMugData:
 #incbin "Dmp/Sigune_mug.dmp"
@@ -781,16 +772,7 @@ SiguneMugData:
 #incbin "Dmp/Sigune_minimug.dmp"
 setMugEntry(SiguneMug, SiguneMugData, 0, 0, 0, 0)
 
-#define KelMug 0x58
-ALIGN 4
-KelMugData:
-#incbin "Dmp/Kel_mug.dmp"
-#incbin "Dmp/Kel_frames.dmp"
-#incbin "Dmp/Kel_palette.dmp"
-#incbin "Dmp/Kel_minimug.dmp"
-setMugEntry(KelMug, KelMugData, 0, 0, 0, 0)
-
-#define RoartzMug 0x59
+#define RoartzMug 0x57
 ALIGN 4
 RoartzMugData:
 #incbin "Dmp/Roartz_mug.dmp"
@@ -799,7 +781,7 @@ RoartzMugData:
 #incbin "Dmp/Roartz_minimug.dmp"
 setMugEntry(RoartzMug, RoartzMugData, 0, 0, 0, 0)
 
-#define TickMug 0x5A
+#define TickMug 0x58
 ALIGN 4
 TickMugData:
 #incbin "Dmp/Tick_mug.dmp"
@@ -807,6 +789,24 @@ TickMugData:
 #incbin "Dmp/Tick_palette.dmp"
 #incbin "Dmp/Tick_minimug.dmp"
 setMugEntry(TickMug, TickMugData, 0, 0, 0, 0)
+
+#define MonkeMug 0x59
+ALIGN 4
+MonkeMugData:
+#incbin "Dmp/Monke_mug.dmp"
+#incbin "Dmp/Monke_frames.dmp"
+#incbin "Dmp/Monke_palette.dmp"
+#incbin "Dmp/Monke_minimug.dmp"
+setMugEntry(MonkeMug, MonkeMugData, 0, 0, 0, 0)
+
+#define KelMug 0x5A
+ALIGN 4
+KelMugData:
+#incbin "Dmp/Kel_mug.dmp"
+#incbin "Dmp/Kel_frames.dmp"
+#incbin "Dmp/Kel_palette.dmp"
+#incbin "Dmp/Kel_minimug.dmp"
+setMugEntry(KelMug, KelMugData, 0, 0, 0, 0)
 
 #define SacaeGaidenBossesMug 0x5B
 ALIGN 4

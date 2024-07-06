@@ -290,14 +290,6 @@ groups on the Western Isles.[X]
 An Etrurian noble in charge[N]
 of Castle Armagh.[X]
 
-## ZinqueDescription
-An Etrurian commander in charge of a[N]
-small fort on the Western Isles.[X]
-
-## ScollanDescription
-The leader of a group of brigands[N]
-on the Western Isles.[X]
-
 ## OrloDescription
 A bishop of the St. Elimine Church.[N]
 Oversees the mine at Eburacum.[X]
@@ -305,6 +297,14 @@ Oversees the mine at Eburacum.[X]
 ## RobertsDescription
 An Etrurian commander in charge[N]
 of forces on the Western Isles.[X]
+
+## ZinqueDescription
+An Etrurian commander in charge of a[N]
+small fort on the Western Isles.[X]
+
+## ScollanDescription
+The leader of a group of brigands[N]
+on the Western Isles.[X]
 
 ## MorganDescription
 An Etrurian commander in[N]
@@ -354,17 +354,9 @@ operation in the Western Isles.[X]
 A bishop heading one of[N]
 Bern's units in Ilia.[X]
 
-## MonkeDescription
-The chieftain of the[N]
-Djute clan of Sacae.[X]
-
 ## SiguneDescription
 A unit leader of the Ilian[N]
 pegasus knights.[X]
-
-## KelDescription
-A swordfighter defending Bulgar[N]
-under Brunnya's orders.[X]
 
 ## RoartzDescription
 The former High Chancellor[N]
@@ -373,6 +365,14 @@ of Etruria.[X]
 ## TickDescription
 A commander in charge of Bern's[N]
 standing forces in Ilia.[X]
+
+## MonkeDescription
+The chieftain of the[N]
+Djute clan of Sacae.[X]
+
+## KelDescription
+A swordfighter defending Bulgar[N]
+under Brunnya's orders.[X]
 
 ## SacaeGaidenBossesDescription
 A survivor of the Djute clan.[N]

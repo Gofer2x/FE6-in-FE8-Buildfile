@@ -1963,3 +1963,91 @@ TxtData0xf35:
 #incext ParseFile "_textentries\0xf35.txt"
 setText(0xf35,TxtData0xf35)
 
+TxtData0xf36:
+#incext ParseFile "_textentries\0xf36.txt"
+setText(0xf36,TxtData0xf36)
+
+TxtData0xf37:
+#incext ParseFile "_textentries\0xf37.txt"
+setText(0xf37,TxtData0xf37)
+
+TxtData0xf38:
+#incext ParseFile "_textentries\0xf38.txt"
+setText(0xf38,TxtData0xf38)
+
+TxtData0xf39:
+#incext ParseFile "_textentries\0xf39.txt"
+setText(0xf39,TxtData0xf39)
+
+TxtData0xf3a:
+#incext ParseFile "_textentries\0xf3a.txt"
+setText(0xf3a,TxtData0xf3a)
+
+TxtData0xf3b:
+#incext ParseFile "_textentries\0xf3b.txt"
+setText(0xf3b,TxtData0xf3b)
+
+TxtData0xf3c:
+#incext ParseFile "_textentries\0xf3c.txt"
+setText(0xf3c,TxtData0xf3c)
+
+TxtData0xf3d:
+#incext ParseFile "_textentries\0xf3d.txt"
+setText(0xf3d,TxtData0xf3d)
+
+TxtData0xf3e:
+#incext ParseFile "_textentries\0xf3e.txt"
+setText(0xf3e,TxtData0xf3e)
+
+TxtData0xf3f:
+#incext ParseFile "_textentries\0xf3f.txt"
+setText(0xf3f,TxtData0xf3f)
+
+TxtData0xf40:
+#incext ParseFile "_textentries\0xf40.txt"
+setText(0xf40,TxtData0xf40)
+
+TxtData0xf41:
+#incext ParseFile "_textentries\0xf41.txt"
+setText(0xf41,TxtData0xf41)
+
+TxtData0xf42:
+#incext ParseFile "_textentries\0xf42.txt"
+setText(0xf42,TxtData0xf42)
+
+TxtData0xf43:
+#incext ParseFile "_textentries\0xf43.txt"
+setText(0xf43,TxtData0xf43)
+
+TxtData0xf44:
+#incext ParseFile "_textentries\0xf44.txt"
+setText(0xf44,TxtData0xf44)
+
+TxtData0xf45:
+#incext ParseFile "_textentries\0xf45.txt"
+setText(0xf45,TxtData0xf45)
+
+TxtData0xf46:
+#incext ParseFile "_textentries\0xf46.txt"
+setText(0xf46,TxtData0xf46)
+
+TxtData0xf47:
+#incext ParseFile "_textentries\0xf47.txt"
+setText(0xf47,TxtData0xf47)
+
+TxtData0xf48:
+#incext ParseFile "_textentries\0xf48.txt"
+setText(0xf48,TxtData0xf48)
+
+TxtData0xf49:
+#incext ParseFile "_textentries\0xf49.txt"
+setText(0xf49,TxtData0xf49)
+
+TxtData0xf4a:
+#incext ParseFile "_textentries\0xf4a.txt"
+setText(0xf4a,TxtData0xf4a)
+
+TxtData0xf4b:
+#incext ParseFile "_textentries\0xf4b.txt"
+setText(0xf4b,TxtData0xf4b)
+

@@ -1,9 +1,11 @@
 #define MaxPortraitEntries 0xFF
+#define PortraitTableEntryLength 28
 
 ALIGN 4
 NewPortraitTable:
-  #incbin "NewPortraitTable.dmp"
-  ORG NewPortraitTable + (MaxTextEntries) * 28
+  //#incbin "NewPortraitTable.dmp"
+  //ORG NewPortraitTable + (MaxTextEntries) * 28
+  FILL (MaxPortraitEntries*PortraitTableEntryLength)
   
 PUSH
 ORG $5524

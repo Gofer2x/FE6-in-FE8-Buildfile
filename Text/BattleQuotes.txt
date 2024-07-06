@@ -5,114 +5,215 @@ few pathetic knights?![AN][X]
 
 ## RuudBattleQuote
 [OpenMidLeft][LoadRuud]
+Curse it all![AN]
+Just when I thought things had[N]
+finally turned my way...[AN][X]
 
 ## SlaterBattleQuote
 [OpenMidLeft][LoadSlater]
+I-I can't fail![N]
+If I do...[AN]
+...What awaits me...is a[N]
+fate worse than death...!![AN][X]
 
 ## ErikBattleQuote
 [OpenMidLeft][LoadErik]
+You fools are bound down[N]
+by your allegiance![AN]
+Allow me to teach you[N]
+the way of the world![AN][X]
 
 ## DoryBattleQuote
 [OpenMidLeft][LoadDory]
+No one's ever survived[N]
+a blow from my axe![AN]
+Hey, you. Wanna see why?[AN][X]
 
 ## WagnerBattleQuote
 [OpenMidLeft][LoadWagner]
+Useless guards![N]
+But very well.[AN]
+Witness my magic...and bow[N]
+down before its power![AN][X]
 
 ## DebiasBattleQuote
 [OpenMidLeft][LoadDebias]
+You...you beat Bern's[N]
+wyvern riders!?[AN]
+Ergh...[N]
+I'll not let you pass![AN][X]
 
 ## LeganceBattleQuote
 [OpenMidLeft][LoadLegance]
+Dogs of the Lycian Army...[N]
+Come.[AN]
+I shall cut you down[N]
+where you stand![AN][X]
 
 ## HenningBattleQuote
 [OpenMidLeft][LoadHenning]
+Sigh.[AN]
+How did you find[N]
+yourselves in here?[AN]
+I'm afraid I can't[N]
+let you go.[AN][X]
 
 ## ScottBattleQuote
 [OpenMidLeft][LoadScott]
+Maybe the fog[N]
+didn't stop you...[AN]
+But you must be in rough[N]
+shape at least![AN]
+I'll finish you off![AN][X]
 
 ## NordBattleQuote
 [OpenMidLeft][LoadNord]
+You made it all the[N]
+way here.[AN]
+But I shall take your[N]
+pathetic lives...[AN][X]
 
 ## OrloBattleQuote
 [OpenMidLeft][LoadOrlo]
-
-## RobertsBattleQuote
-[OpenMidLeft][LoadRoberts]
+Opposing me...is the equivalent[N]
+of opposing the gods![AN][2NL]
+I shall rain divine punishment[N]
+upon you![AN][X]
 
 ## ZinqueBattleQuote
 [OpenMidLeft][LoadZinque]
-
-## ScollanBattleQuote
-[OpenMidLeft][LoadScollan]
+The people are suffering...?[.....][N]
+What concern is that to me?[AN]
+They live to serve me.[N]
+Their wails are meaningless.[AN][X]
 
 ## MorganBattleQuote
 [OpenMidLeft][LoadMorgan]
+What are you doing?![AN]
+Hurry and kill the ones[N]
+who escaped![AN][2NL]
+Wait, you're not one of[N]
+my men... Wh-who are you?![AN][X]
 
 ## EinBattleQuote
 [OpenMidLeft][LoadEin]
+...Burn.[AN][X]
 
 ## GuerreroBattleQuote
 [OpenMidLeft][LoadGuerrero]
+Daaaahhhhhh![AN][2NL]
+Rah![AN][X]
 
 ## FlaerBattleQuote
 [OpenMidLeft][LoadFlaer]
+You've made it...[AN][2NL]
+But I am a knight of Bern![N]
+I will not surrender![AN][X]
 
 ## RandyBattleQuote
 [OpenMidLeft][LoadRandy]
-
-## MaggieBattleQuote
-[OpenMidLeft][LoadMaggie]
-
-## RoseBattleQuote
-[OpenMidLeft][LoadRose]
+My sword is unmatchable.
+Choose your death.[AN]
+Will you die by the blade...[N]
+or by its light?[AN][X]
 
 ## OatesBattleQuote
 [OpenMidLeft][LoadOates]
+I...wasn't expecting you to[N]
+put up such a fight.[AN][X]
 
 ## RaithBattleQuote
 [OpenMidLeft][LoadRaith]
+What is your purpose here?[AN]
+I don't know why you would[N]
+attack us.[AN][X]
 
 ## NarcianBattleQuote
 [OpenMidLeft][LoadNarcian]
+I am strong. I am wise.[N]
+I am beautiful.[AN]
+And most importantly,[N]
+I am right! Always![AN][2NL]
+...Me! No one else![AN][X]
 
 ## WindhamBattleQuote
 [OpenMidLeft][LoadWindham]
+Perish![N]
+Every last one of you![AN][2NL]
+Everything to ash![AN][X]
 
 ## ArcardoBattleQuote
 [OpenMidLeft][LoadArcardo]
+W-why?![AN]
+What have I done to[N]
+deserve such a fate?![AN][X]
 
 ## MartelBattleQuote
 [OpenMidLeft][LoadMartel]
+You made it through[N]
+this snow...[AN]
+Curse that useless woman![AN][X]
 
 ## SiguneBattleQuote
 [OpenMidLeft][LoadSigune]
+So...you've made it through[N]
+the blizzard.[AN][2NL]
+Congratulations.[AN]
+Unfortunately, the only prize[N]
+that awaits you is death.[AN][X]
 
 ## RoartzBattleQuote
 [OpenMidLeft][LoadRoartz]
+S-someone![N]
+Come to my aid![AN][2NL]
+All is lost if I fall![AN][X]
 
 ## TickBattleQuote
 [OpenMidLeft][LoadTick]
+No...[N]
+This is a nightmare.[AN][2NL]
+How did you get[N]
+through those walls?[AN][X]
 
 ## MonkeBattleQuote
 [OpenMidLeft][LoadMonke]
+Yes... That's it![N]
+Closer... Closer...[AN][2NL]
+Right into our trap![AN][X]
 
 ## KelBattleQuote
 [OpenMidLeft][LoadKel]
+I am Kel.[AN][2NL]
+Behold my blade...as I swing[N]
+it for the last time.[AN][X]
 
 ## MurdockBattleQuote
 [OpenMidLeft][LoadMurdock]
+Hm...[N]
+You have made it far.[AN][2NL]
+I congratulate you.[N]
+But can you defeat me?[AN][X]
 
 ## PeresBattleQuote
 [OpenMidLeft][LoadPeres]
+Darkness from an age[N]
+long forgotten...[AN][2NL]
+I will show you its power.[AN][X]
 
 ## ZephielBattleQuote
 [OpenMidLeft][LoadZephiel]
+You shall not bar my path![AN][X]
 
 ## BrunnyaBattleQuote
 [OpenMidLeft][LoadBrunnya]
+Bern will never die![AN]
+Even if I fall, Bern will[N]
+rise once more![AN][X]
 
 ## JahnBattleQuote
 [OpenMidLeft][LoadJahn]
-
-## IdunnBattleQuote
-[OpenMidLeft][LoadIdunnHuman]
+I have waited a
+millennium...[AN]
+My strength has recovered,[N]
+and it is greater than ever.[AN]
+I can feel it...[AN][X]

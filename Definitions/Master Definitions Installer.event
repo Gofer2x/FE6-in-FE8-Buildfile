@@ -5,7 +5,14 @@
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"
 
+#include "VanillaData/VanillaClassCards.event"
+#include "VanillaData/MovementDataPointers.event"
+#include "VanillaData/VanillaAnimations.event"
+#include "VanillaData/VanillaSMSData.event"
+#include "VanillaData/VanillaMMSData.event"
+#include "VanillaData/VanillaItemNames.event"
+#include "VanillaData/VanillaItemDescriptions.event"
+
 #include "NewWeaponRanks.event"
 #include "ChapterTextStuffs.event"
-#include "MovementDataPointers.event"
 #include "AIDefinitions.event"

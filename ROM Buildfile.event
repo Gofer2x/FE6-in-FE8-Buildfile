@@ -8,12 +8,15 @@
 	
 	#include "Engine Hacks/Master Hack Installer.event"
 	
+	#include "Misc/TerrainMovementCostInstaller.event"
+	#include "Misc/NewEffectivenessTables.event"
+	
 	#include "NewTables/Installer.event"
 	
 	#include "Text/Install Text Data.event"
 	#include "Graphics/Master Graphics Installer.event"
 	
-	#include "Misc/TerrainMovementCostInstaller.event"
+	
 	
 	#include "Map/Tilesets/Tilesets Installer.event"
 	#include "Map/Tile Animations/Tile Animations Installer.event"

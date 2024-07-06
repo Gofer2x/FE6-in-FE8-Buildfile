@@ -1,5 +1,7 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
+reorganize item table entirely. can keep the funny dummy and vanilla items, just move the ones that will certainly stay unused to the bottom.
+
 item changes
 	:checkmark: all existing weapons had stats changed
 	to be implemented:
@@ -10,6 +12,7 @@ item changes
 
 move as many definition files into the definitions folder and organize into folders
 especially the vanilla data ones
+
 
 death quotes for characters
 death quotes for bosses
@@ -24,9 +27,14 @@ actually implementing the 5 above (create bigger tables and repoint the nmm file
 
 effectiveness changes tables things (look at image in root)
 
+for tables that are replaced in their entirety, generate one on the fly with FILL instead of having a .dmp. so applies to stuff like map sprites and mugs, but not to text and battle anims.
 
 harp and birdie sounds for elffin animation
 
 
-
 manakete anims
+
+
+
+experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
+this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.

@@ -1,0 +1,16 @@
+ALIGN 4
+
+RapierEffectiveness:
+	BYTE Cavalier
+	BYTE CavalierF
+	BYTE Paladin
+	BYTE PaladinF
+	BYTE GreatKnight
+	BYTE GreatKnightF
+	BYTE Knight
+	BYTE KnightF
+	BYTE General
+	BYTE GeneralF
+	BYTE 0x0
+	
+MESSAGE RapierEffective at RapierEffectiveness

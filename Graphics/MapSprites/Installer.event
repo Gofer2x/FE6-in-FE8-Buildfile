@@ -1,11 +1,8 @@
 MESSAGE Processing Map Sprites
 #include "Internals.event"
 
-#include "Vanilla SMS Data.event"
-#include "Vanilla MMS Data.event"
+#include "NewSMSData.event"
+#include "NewMMSData.event"
 
-#include "New SMS Data.event"
-#include "New MMS Data.event"
-
-#include "SMS Reorder.event"
-#include "MMS Reorder.event"
+#include "SMSReorder.event"
+#include "MMSReorder.event"

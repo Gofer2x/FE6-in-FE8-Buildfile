@@ -1,4 +1,5 @@
 #include "_FE8EssentialFixes.event"
 #include "FillAIDangerMap.event"
 #include "ClassHardcoding.event"
+#include "CharacterHardcoding.event"
 #include "WeaponRanks.event"

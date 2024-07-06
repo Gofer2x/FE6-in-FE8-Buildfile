@@ -8,6 +8,9 @@ item changes
 	firestone, divinestone, idunn weapon
 	eckehehsshashsh
 
+move as many definition files into the definitions folder and organize into folders
+especially the vanilla data ones
+
 death quotes for characters
 death quotes for bosses
 

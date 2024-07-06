@@ -66,7 +66,7 @@
 #define Bard 0x42
 #define Dancer 0x43
 #define Transporter 0x44
-#define FaeManakeete 0x45
+#define FaeManakete 0x45
 #define DivineDragon 0x46
 #define FireManakete 0x47
 #define FireDragon 0x48

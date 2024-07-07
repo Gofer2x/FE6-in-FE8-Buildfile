@@ -486,8 +486,8 @@
 #define MartelDeathQuote 0xf2b
 #define SiguneDeathQuote 0xf2c
 #define RoartzDeathQuote 0xf2d
-#define MonkeDeathQuote 0xf2e
-#define TickDeathQuote 0xf2f
+#define TickDeathQuote 0xf2e
+#define MonkeDeathQuote 0xf2f
 #define KelDeathQuote 0xf30
 #define MurdockDeathQuote 0xf31
 #define GalleDeathQuote 0xf32

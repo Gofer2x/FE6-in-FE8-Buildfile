@@ -450,18 +450,18 @@ I shall...absolve you[N]
 of your crimes...[AN][2NL]
 Guh...![AN][X]
 
-## MonkeDeathQuote
-[OpenMidLeft][LoadMonke]
-Urkh...![N]
-How could you defeat us...?[AN][2NL]
-My trap...was...perfect...[AN][X]
-
 ## TickDeathQuote
 [OpenMidLeft][LoadTick]
 You have bested us...[N]
 You may pass...[AN][2NL]
 But you will know Bern's[N]
 true power soon...[AN][X]
+
+## MonkeDeathQuote
+[OpenMidLeft][LoadMonke]
+Urkh...![N]
+How could you defeat us...?[AN][2NL]
+My trap...was...perfect...[AN][X]
 
 ## KelDeathQuote
 [OpenMidLeft][LoadKel]

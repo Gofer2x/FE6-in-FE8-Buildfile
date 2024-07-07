@@ -9,12 +9,10 @@
 	#include "Engine Hacks/Master Hack Installer.event"
 	
 	#include "Misc/TerrainMovementCostInstaller.event"
-	#include "Misc/NewEffectivenessTables.event"
 	
 	#include "NewTables/Installer.event"
 	
 	#include "Text/Install Text Data.event"
-	#include "Misc/NewBattleQuotesTable.event"
 	#include "Graphics/Master Graphics Installer.event"
 	
 	
@@ -25,8 +23,10 @@
 	
 	#include "Tables/Table Definitions.txt"
 	#include "Tables/Table Installer.event"
+	#include "Tables/External Tables Installer.event"
 	
 	#include "Events/Chapter Events Installer.event"
+	
 
 
 	

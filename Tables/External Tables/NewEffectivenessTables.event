@@ -1,16 +1,117 @@
 ALIGN 4
-
 RapierEffectiveness:
-	BYTE Cavalier
-	BYTE CavalierF
-	BYTE Paladin
-	BYTE PaladinF
-	BYTE GreatKnight
-	BYTE GreatKnightF
-	BYTE Knight
-	BYTE KnightF
-	BYTE General
-	BYTE GeneralF
-	BYTE 0x0
-	
-MESSAGE RapierEffective at RapierEffectiveness
+BYTE Knight
+BYTE KnightF
+BYTE General
+BYTE GeneralF
+BYTE Cavalier
+BYTE CavalierF
+BYTE Paladin
+BYTE PaladinF
+BYTE GreatKnight
+BYTE GreatKnightF
+//BYTE Nomad
+//BYTE NomadF
+//BYTE NomadTrooper
+//BYTE NomadTrooperF
+BYTE MageKnight
+BYTE MageKnightF
+BYTE 0x0
+
+#undef FlierEffectiveness
+ALIGN 4
+FlierEffectiveness:
+BYTE PegasusKnight
+BYTE Falcoknight
+BYTE WyvernRider
+BYTE WyvernRiderF
+BYTE WyvernLord
+BYTE WyvernLordF
+BYTE WyvernKnight
+BYTE WyvernKnightF
+BYTE 0x0
+
+
+#undef ArmorEffectiveness
+ALIGN 4
+ArmorEffectiveness:
+BYTE Knight
+BYTE KnightF
+BYTE General
+BYTE GeneralF
+BYTE GreatKnight
+BYTE GreatKnightF
+BYTE 0x0
+
+
+#undef HorseEffectiveness
+ALIGN 4
+HorseEffectiveness:
+BYTE Cavalier
+BYTE CavalierF
+BYTE Paladin
+BYTE PaladinF
+BYTE GreatKnight
+BYTE GreatKnightF
+//BYTE Nomad
+//BYTE NomadF
+//BYTE NomadTrooper
+//BYTE NomadTrooperF
+BYTE MageKnight
+BYTE MageKnightF
+BYTE 0x0
+
+
+#undef DragonEffectiveness
+ALIGN 4
+DragonEffectiveness:
+BYTE WyvernRider
+BYTE WyvernRiderF
+BYTE WyvernLord
+BYTE WyvernLordF
+BYTE WyvernKnight
+BYTE WyvernKnightF
+BYTE FaeManakete
+BYTE DivineDragon
+BYTE FireManakete
+BYTE FireDragon
+BYTE 0x0
+
+ALIGN 4
+FlierAndDragonEffectiveness:
+BYTE PegasusKnight
+BYTE Falcoknight
+BYTE WyvernRider
+BYTE WyvernRiderF
+BYTE WyvernLord
+BYTE WyvernLordF
+BYTE WyvernKnight
+BYTE WyvernKnightF
+BYTE FaeManakete
+BYTE DivineDragon
+BYTE FireManakete
+BYTE FireDragon
+BYTE 0x0
+
+ALIGN 4
+BindingBladeDivinestoneEffectiveness:
+BYTE FaeManakete
+BYTE DivineDragon
+BYTE FireManakete
+BYTE FireDragon
+BYTE DemonDragon
+BYTE 0x0
+
+
+#undef SwordEffectiveness
+ALIGN 4
+SwordEffectiveness:
+BYTE Myrmidon
+BYTE MyrmidonF
+BYTE Swordmaster
+BYTE SwordmasterF
+BYTE Mercenary
+BYTE MercenaryF
+BYTE Hero
+BYTE HeroF
+BYTE 0x0

@@ -15,7 +15,7 @@
 setlocal enableextensions enabledelayedexpansion
 set /a count = 222
 @for /f "tokens=*" %%m in (png.txt) do (
-echo #define %%~nmIcon !count! >> GeneratedInstaller.txt
+echo #define %%~nm_ItemIcon !count! >> GeneratedInstaller.txt
 set /a count += 1
 ) 
 endlocal 
@@ -34,7 +34,7 @@ endlocal
 @echo PUSH >> GeneratedInstaller.txt
 @echo. >> GeneratedInstaller.txt
 @for /f "tokens=*" %%m in (png.txt) do (
-echo ItemIconEntry^(%%~nmIcon^) >> GeneratedInstaller.txt
+echo ItemIconEntry^(%%~nm_ItemIcon^) >> GeneratedInstaller.txt
 echo #incbin "dmp/%%~nm.dmp" >> GeneratedInstaller.txt
 echo. >> GeneratedInstaller.txt
 )

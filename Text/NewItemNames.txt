@@ -1,0 +1,73 @@
+## BindingBladeName
+Binding Blade[X]
+
+## DurandalName
+Durandal[X]
+
+## ArmadsName
+Armads[X]
+
+## ForblazeName
+Forblaze[X]
+
+## AureolaName
+Aureola[X]
+
+## MulagirName
+Mulagir[X]
+
+## MaltetName
+Maltet[X]
+
+## SaintsStaffName
+Saint's Staff[X]
+
+## ApocalypseName
+Apocalypse[X]
+
+## EckesachsName
+Eckesachs[X]
+
+
+
+## AircaliburName
+Aircalibur[X]
+
+
+
+## AlsSwordName
+Al's Sword[X]
+
+## GantsLanceName
+Gant's Lance[X]
+
+## TinasStaffName
+Tina's Staff[X]
+
+
+## WoDaoName
+Wo Dao[X]
+
+
+## DivinestoneName
+Divinestone[X]
+
+## FirestoneName
+Firestone[X]
+
+
+
+## DarkBreathName
+Dark Breath[X]
+
+
+## BootsName
+Boots[X]
+
+
+## DelphiShieldName
+Delphi Shield[X]
+
+
+## PlayName
+Play[X]

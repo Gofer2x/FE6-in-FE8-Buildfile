@@ -1,0 +1,17 @@
+//Durandal - +5 POW (Vanilla, PlusFivePOWBoost)
+//Binding Blade - +5 DEF, +5 RES (Vanilla, NightmareBoost)
+//Maltet - +5 SKL (Vanilla, PlusFiveSKLBoost)
+//Armads - +5 DEF (Vanilla, PlusFiveDEFBoost)
+//Mulagir - +5 SPD (Vanilla, PlusFiveSPDBoost)
+//Forblaze - +5 LUCK (Vanilla, PlusFiveLUCKBoost)
+//Aureola - +5 RES (Vanilla, PlusFiveRESBoost)
+//Apocalypse - +5 POW (Vanilla, PlusFivePOWBoost)
+
+//Firestone - +10 POW, +10 SKL, +20 DEF, +5 RES (Vanilla, EDITED WretchedAirBoost)
+//Divinestone - +12 POW, +12 SKL, +15 DEF, +20 RES (Vanilla, DragonstoneBoost)
+
+//Edit WretchedAirBoost's RES to +5 (from +10)
+PUSH
+ORG 0x8AEF71
+BYTE 5
+POP

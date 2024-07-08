@@ -2,7 +2,7 @@
 
 #include "MapSprites/Installer.event"
 
-//#include "ItemIcons/Installer.event"
+#include "ItemIcons/Installer.event"
 
 #include "Palettes/Palette Setup.event"
 

@@ -1,3 +1,4 @@
 #include "External Tables/NewDeathQuotesTable.event"
 #include "External Tables/NewBattleQuotesTable.event"
 #include "External Tables/NewEffectivenessTables.event"
+#include "External Tables/NewTerrainMovementCostTables.event"

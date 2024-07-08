@@ -1,31 +1,19 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
-reorganize item table entirely. can keep the funny dummy and vanilla items, just move the ones that will certainly stay unused to the bottom.
-
-item changes
-	:checkmark: all existing weapons had stats changed
-	to be implemented:
-	aircalibur
-	legendary weapons + binding blade
-	firestone, divinestone, idunn weapon
-	eckehehsshashsh
+new item table is waiting in a folder outside of project, but i'll need to do some extra nonsense for it first.
+namely, rebuild class animations table. that's gonna be fun.
+also start phasing out using vanilla data for most things if possible. mainly text.
 
 move as many definition files into the definitions folder and organize into folders
 especially the vanilla data ones
 
 
-death quotes for characters
-death quotes for bosses
-
-battle quotes for bosses
-specific battle quotes for bosses
 
 supports
 
-actually implementing the 5 above (create bigger tables and repoint the nmm files for all probably)
+actually implementing supports
 
 
-effectiveness changes tables things (look at image in root)
 
 for tables that are replaced in their entirety, generate one on the fly with FILL instead of having a .dmp. so applies to stuff like map sprites and mugs, but not to text and battle anims.
 

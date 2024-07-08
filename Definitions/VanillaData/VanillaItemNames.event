@@ -105,7 +105,7 @@
 #define ChestKeyName 0x3e2
 #define DoorKeyName 0x3e3
 #define LockpickName 0x3e4
-#define Vulnerary2Name 0x3e5
+#define VulneraryName 0x3e5
 #define ElixirName 0x3e6
 #define PureWaterName 0x3e7
 #define AntitoxinName 0x3e8
@@ -159,8 +159,8 @@
 #define Item_3000GName 0x400
 #define Item_5000GName 0x401
 #define WindSwordName 0x368
-#define VulneraryName 0x3e5
-#define VulneraryGreennoteName 0x3e5
+#define Vulnerary2Name 0x3e5
+#define VulneraryGreenNoteName 0x3e5
 #define VulneraryRedNoteName 0x3e5
 #define DanceName 0x3d2
 #define NightmareName 0x39c

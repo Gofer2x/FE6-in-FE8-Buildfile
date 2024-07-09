@@ -1,0 +1,165 @@
+//FE8 Walking Sounds Fix patch
+//By Tequila
+
+//NOTE: this is good and works, but it's not febuilder friendly. eventually might switch this out to the usual vanilla method. but for now it's here.
+
+#define WalkingSounds 0x0
+#define MountedSounds 0x1 
+#define WyvernSounds 0x2
+#define PegasiSounds 0x3
+#define ArmoredOrDragonSounds 0x4
+#define FleetSounds 0x5
+#define FlyingManaketeSounds 0x6
+#define ZombiesSounds 0x7
+#define SkeletonsSounds 0x8
+#define SpidersSounds 0x9
+#define DogsSounds 0xA
+#define MogallsSounds 0xB 
+#define GorgonSounds 0xC
+
+PUSH
+
+#define table1 0x78D90
+#define table2 0x78E90
+
+ORG table1
+//#incbin walking_sounds_class_dict.dmp
+BYTE 0x0 //Blank
+BYTE WalkingSounds //RoyLord
+BYTE WalkingSounds //RoyGreatLord
+BYTE WalkingSounds //Mercenary
+BYTE WalkingSounds //MercenaryF
+BYTE WalkingSounds //Hero
+BYTE WalkingSounds //HeroF
+BYTE WalkingSounds //Myrmidon
+BYTE WalkingSounds //MyrmidonF
+BYTE WalkingSounds //Swordmaster
+BYTE WalkingSounds //SwordmasterF
+BYTE WalkingSounds //Fighter
+BYTE WalkingSounds //Warrior
+BYTE WalkingSounds //Brigand
+BYTE WalkingSounds //Pirate
+BYTE WalkingSounds //Berserker
+BYTE WalkingSounds //Soldier
+BYTE ArmoredOrDragonSounds //Knight
+BYTE ArmoredOrDragonSounds //KnightF
+BYTE ArmoredOrDragonSounds //General
+BYTE ArmoredOrDragonSounds //GeneralF
+BYTE WalkingSounds //Archer
+BYTE WalkingSounds //ArcherF
+BYTE WalkingSounds //Sniper
+BYTE WalkingSounds //SniperF
+BYTE WalkingSounds //Thief
+BYTE WalkingSounds //ThiefF
+BYTE WalkingSounds //Rogue
+BYTE WalkingSounds //RogueF
+BYTE WalkingSounds //Assassin
+BYTE WalkingSounds //AssassinF
+BYTE MountedSounds //Cavalier
+BYTE MountedSounds //CavalierF
+BYTE MountedSounds //Paladin
+BYTE MountedSounds //PaladinF
+BYTE MountedSounds //GreatKnight
+BYTE MountedSounds //GreatKnightF
+BYTE MountedSounds //Nomad
+BYTE MountedSounds //NomadF
+BYTE MountedSounds //NomadTrooper
+BYTE MountedSounds //NomadTrooperF
+BYTE WalkingSounds //Priest
+BYTE WalkingSounds //Cleric
+BYTE WalkingSounds //Monk
+BYTE WalkingSounds //Bishop
+BYTE WalkingSounds //BishopF
+BYTE WalkingSounds //Troubadour
+BYTE WalkingSounds //Valkyrie
+BYTE WalkingSounds //Mage
+BYTE WalkingSounds //MageF
+BYTE WalkingSounds //Sage
+BYTE WalkingSounds //SageF
+BYTE 0x0 //Unused_GorgonEgg
+BYTE MountedSounds //MageKnight
+BYTE MountedSounds //MageKnightF
+BYTE WalkingSounds //Shaman
+BYTE WalkingSounds //ShamanF
+BYTE WalkingSounds //Druid
+BYTE WalkingSounds //DruidF
+BYTE WalkingSounds //Summoner
+BYTE PegasiSounds //PegasusKnight
+BYTE PegasiSounds //Falcoknight
+BYTE WyvernSounds //WyvernRider
+BYTE WyvernSounds //WyvernRiderF
+BYTE WyvernSounds //WyvernLord
+BYTE WyvernSounds //WyvernLordF
+BYTE WyvernSounds //WyvernKnight
+BYTE WyvernSounds //WyvernKnightF
+BYTE WalkingSounds //Bard
+BYTE WalkingSounds //Dancer
+BYTE WalkingSounds //Transporter
+BYTE WalkingSounds //FaeManakete
+BYTE ArmoredOrDragonSounds //DivineDragon
+BYTE WalkingSounds //FireManakete
+BYTE ArmoredOrDragonSounds //FireDragon
+BYTE ArmoredOrDragonSounds //King
+BYTE ArmoredOrDragonSounds //DemonDragon
+BYTE WalkingSounds //Civilian
+BYTE WalkingSounds //CivilianF
+BYTE WalkingSounds //Child
+BYTE WalkingSounds //ChildF
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //MannedBallista
+BYTE 0x0 //MannedIronBallista
+BYTE 0x0 //MannedKillerBallista
+BYTE 0x0 //UnmannedBallista
+BYTE 0x0 //UnmannedIronBallista
+BYTE 0x0 //UnmannedKillerBallista
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+BYTE 0x0 //Blank
+
+ORG table2
+#incbin walking_sounds_pointer_table.dmp
+
+ORG 0x78D78
+BYTE 0x03 0x49 0x08 0x5C 0x03 0x49 0x80 0x00 0x09 0x18 0x0D 0x68 0x33 0xE1 0xC0 0x46
+POIN table1
+POIN table2
+	
+
+POP

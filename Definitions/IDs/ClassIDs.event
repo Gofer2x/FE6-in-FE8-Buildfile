@@ -78,9 +78,9 @@
 #define CivilianF 0x4E
 #define Child 0x4F
 #define ChildF 0x50
-#define MannedBallista 0x51
-#define MannedIronBallista 0x52
-#define MannedKillerBallista 0x53
-#define UnmannedBallista 0x54
-#define UnmannedIronBallista 0x55
-#define UnmannedKillerBallista 0x56
+#define MannedBallista 0x67
+#define MannedIronBallista 0x68
+#define MannedKillerBallista 0x69
+#define UnmannedBallista 0x6A
+#define UnmannedIronBallista 0x6B
+#define UnmannedKillerBallista 0x6C

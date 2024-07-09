@@ -78,7 +78,7 @@ Civilian
 CivilianF
 Child
 ChildF
-MannedBallista
+MannedBallista 0x67
 MannedIronBallista
 MannedKillerBallista
 UnmannedBallista

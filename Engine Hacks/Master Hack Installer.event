@@ -4,3 +4,4 @@
 #include "CharacterHardcoding.event"
 #include "WeaponRanks.event"
 #include "FE8WalkingSoundsFix/FE8-Walking Sounds EA.event"
+#include "WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"

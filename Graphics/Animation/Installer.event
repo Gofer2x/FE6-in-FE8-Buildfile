@@ -1,6 +1,3 @@
 #include "AnimationDefinitions.event"
 #include "NewAnimationData.event"
-
-
-
-
+#include "NewAnimationTables.event"

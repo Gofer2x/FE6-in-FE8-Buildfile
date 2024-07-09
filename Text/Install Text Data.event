@@ -2315,3 +2315,19 @@ TxtData0xf8d:
 #incext ParseFile "_textentries\0xf8d.txt"
 setText(0xf8d,TxtData0xf8d)
 
+TxtData0xf8e:
+#incext ParseFile "_textentries\0xf8e.txt"
+setText(0xf8e,TxtData0xf8e)
+
+TxtData0xf8f:
+#incext ParseFile "_textentries\0xf8f.txt"
+setText(0xf8f,TxtData0xf8f)
+
+TxtData0xf90:
+#incext ParseFile "_textentries\0xf90.txt"
+setText(0xf90,TxtData0xf90)
+
+TxtData0xf91:
+#incext ParseFile "_textentries\0xf91.txt"
+setText(0xf91,TxtData0xf91)
+

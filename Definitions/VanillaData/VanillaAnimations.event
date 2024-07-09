@@ -53,7 +53,7 @@
 #define Cavalier_SwordAnim 0x34 
 #define Cavalier_LanceAnim 0x35 
 #define Cavalier_UnarmedAnim 0x36 
-#define CavalierFSword 0x37 
+#define CavalierF_SwordAnim 0x37 
 #define CavalierF_LanceAnim 0x38 
 #define CavalierF_UnarmedAnim 0x39 
 #define Paladin_SwordAnim 0x3A 
@@ -126,11 +126,11 @@
 #define Monk_MagicAnim 0x7D 
 #define Priest_UnarmedAnim 0x7E 
 #define Priest_StaffAnim 0x7F 
-#define Sister_StaffAnim 0x80 
+#define Cleric_StaffAnim 0x80 
 #define Bishop_UnarmedAnim 0x81 
 #define Bishop_MagicAnim 0x82 
 #define BishopF_MagicAnim 0x83 
-#define BishopF_StaffAnim 0x84 
+#define BishopF_UnarmedAnimBroken 0x84 
 #define Troubadour_UnarmedAnim 0x85 
 #define Troubadour_StaffAnim 0x86 
 #define Valkyrie_MagicAnim 0x87 
@@ -198,5 +198,5 @@
 #define MyrrhManaketeTransform_MonsterAnim 0xC5 
 #define MyrrhManaketeUntransform_MonsterAnim 0xC6 
 #define Myrrh_UnarmedAnim 0xC7 
-#define Sister_UnarmedAnim 0xC8 
+#define Cleric_UnarmedAnim 0xC8 
 #define ZombieManakete_MonsterAnim 0xC9 

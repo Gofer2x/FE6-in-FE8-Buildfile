@@ -76,6 +76,9 @@ Priest[X]
 ## ClericName
 Cleric[X]
 
+## MonkName
+Monk[X]
+
 ## BishopName
 Bishop[X]
 
@@ -99,6 +102,9 @@ Shaman[X]
 
 ## DruidName
 Druid[X]
+
+## SummonerName
+Summoner[X]
 
 ## PegasusKnightName
 Peg Knight[X]

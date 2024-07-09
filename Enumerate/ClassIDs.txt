@@ -40,6 +40,7 @@ NomadTrooper
 NomadTrooperF
 Priest
 Cleric
+Monk
 Bishop
 BishopF
 Troubadour
@@ -48,13 +49,14 @@ Mage
 MageF
 Sage
 SageF
-MageKnight
 Unused_GorgonEgg
+MageKnight
 MageKnightF
 Shaman
 ShamanF
 Druid
 DruidF
+Summoner
 PegasusKnight
 Falcoknight
 WyvernRider

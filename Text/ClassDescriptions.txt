@@ -98,6 +98,10 @@ nomads of great skill.[X]
 Acolytes who aid their[N]
 allies with sacred staves.[X]
 
+## MonkDescription
+Ascetics who wield light[N]
+magic, but can't use staves.[X]
+
 ## BishopDescription
 An honorific bestowed upon[N]
 devout priests and clerics.[X]
@@ -129,6 +133,10 @@ Powerful, but very slow.[X]
 ## DruidDescription
 An honorific bestowed upon[N]
 true masters of dark arts.[X]
+
+## SummonerDescription
+An honoric bestowed upon[N]
+the masters of dark conjuration.[X]
 
 ## PegasusKnightDescription
 Knights who've earned the[N]

@@ -1,9 +1,12 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
 new item table is waiting in a folder outside of project, but i'll need to do some extra nonsense for it first.
-namely, rebuild class animations table. that's gonna be fun.
+
 also start phasing out using vanilla data for most things if possible. mainly text.
 in other words, add item names, descs, use descs for all items. then comment out the #includes for the vanilla data to cehck what's missing. the usual.
+
+fix movement speed in class table
+and also the movement footsteps table. lol, the things this game has.
 
 move as many definition files into the definitions folder and organize into folders
 especially the vanilla data ones

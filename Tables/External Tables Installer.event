@@ -2,3 +2,4 @@
 #include "External Tables/NewBattleQuotesTable.event"
 #include "External Tables/NewEffectivenessTables.event"
 #include "External Tables/NewTerrainMovementCostTables.event"
+#include "External Tables/NewItemEffectsTable.event"

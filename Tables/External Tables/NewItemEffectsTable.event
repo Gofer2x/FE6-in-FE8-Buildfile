@@ -1,0 +1,53 @@
+//BYTE ItemID
+//BYTE 0x0
+//BYTE map only anim or map and battle, 0x1 for map only - rare (stuff like unlock staff) or 0x2 for map and battle (common)
+//BYTE 0x0
+//SHORT battle animation or map animation from table 0x0-0xFFFF
+//SHORT 0x0
+//POIN map animation effect (bunch of pointers, track them down)
+//BYTE 0 (don't show hp?) or 1 (show hp?)
+//BYTE map sprite during effect (0 still, 0 face down, 0 turn left)
+//BYTE map sprite color when hit (0 white, 1 black, 2 red, 3 green, 4 blue, 5 yellow, 6 black)
+//BYTE 0xFF
+
+#define ItemEffectsTableEntryLength 16
+
+ALIGN 4
+NewItemEffectsTable:
+FILL 0xCE * ItemEffectsTableEntryLength
+
+PUSH
+ORG 0x58014
+POIN NewItemEffectsTable
+POP
+
+#define ItemEffectsTableEntry(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapOrBattleMapAnim ; BYTE 0x0 ; SHORT BattleAnim ; SHORT 0x0 ; POIN MapAnimEffect ; BYTE ShowHP ; BYTE MapSpriteDir ; BYTE Color ; POP"
+
+#define NormalWeaponItemEffectsTableEntry(EntryID, ItemID) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE 0x2 ; BYTE 0x0 ; SHORT 0xFFFF ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+
+//MapOrBattleMapAnim
+#define MapOnly 0x1
+#define MapAndBattle 0x2
+
+//ShowHP
+#define DontShowHP 0x0
+#define DoShowHP 0x1
+
+//MapSpriteDir
+#define StandStill 0x0
+#define TurnDown 0x1
+#define TurnLeft 0x2
+
+//Color
+#define White 0x0
+#define Black 0x1
+#define Red 0x2
+#define Green 0x3
+#define Blue 0x4
+#define Yellow 0x5
+#define Black2 0x6
+
+//ItemEffectsTableEntry(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color)
+ItemEffectsTableEntry(0x0, IronSword, MapAndBattle, 0xFFFF, 0x0, DoShowHP, StandStill, White)
+NormalWeaponItemEffectsTableEntry(0x1, SlimSword)

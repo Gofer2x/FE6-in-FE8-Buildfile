@@ -9,7 +9,10 @@ in other words, add item names, descs, use descs for all items. then comment out
 move as many definition files into the definitions folder and organize into folders
 especially the vanilla data ones
 
+use the multiple dancers patch(es) to implement both larum and elffin
 
+
+item stealing priority table
 
 supports
 

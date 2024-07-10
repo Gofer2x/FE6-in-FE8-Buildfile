@@ -21,9 +21,9 @@ ORG 0x58014
 POIN NewItemEffectsTable
 POP
 
-#define ItemEffectsTableEntry(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapOrBattleMapAnim ; BYTE 0x0 ; SHORT BattleAnim ; SHORT 0x0 ; POIN MapAnimEffect ; BYTE ShowHP ; BYTE MapSpriteDir ; BYTE Color ; POP"
+#define FullItemEffect(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapOrBattleMapAnim ; BYTE 0x0 ; SHORT BattleAnim ; SHORT 0x0 ; POIN MapAnimEffect ; BYTE ShowHP ; BYTE MapSpriteDir ; BYTE Color ; POP"
 
-#define NormalWeaponItemEffectsTableEntry(EntryID, ItemID) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE 0x2 ; BYTE 0x0 ; SHORT 0xFFFF ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+#define NormalWeapon(EntryID, ItemID) "PUSH ; ORG NewItemEffectsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE 0x2 ; BYTE 0x0 ; SHORT 0xFFFF ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
 
 
 //MapOrBattleMapAnim
@@ -48,6 +48,6 @@ POP
 #define Yellow 0x5
 #define Black2 0x6
 
-//ItemEffectsTableEntry(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color)
-ItemEffectsTableEntry(0x0, IronSword, MapAndBattle, 0xFFFF, 0x0, DoShowHP, StandStill, White)
-NormalWeaponItemEffectsTableEntry(0x1, SlimSword)
+//FullItemEffect(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color)
+FullItemEffect(0x0, IronSword, MapAndBattle, 0xFFFF, 0x0, DoShowHP, StandStill, White)
+NormalWeapon(0x1, SlimSword)

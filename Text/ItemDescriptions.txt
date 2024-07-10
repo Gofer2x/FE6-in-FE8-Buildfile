@@ -1,0 +1,472 @@
+## BlankDescription
+[N][X]
+
+## PoisonWepDescription
+Improves critical hit rate.[X]
+
+## KillerWepDescription
+Improves critical hit rate.[X]
+
+## BraveWepDescription
+Can strike consecutively.[X]
+
+## RangedWepDescription
+Doubles as ranged attack.[X]
+
+## ArmorEffectiveDescription
+Effective against knights.[X]
+
+## HorseEffectiveDescription
+Effective against cavalry.[X]
+
+## DragonEffectiveDescription
+Effective against dragons, wyverns.[X]
+
+## SwordEffectiveDescription
+Effective against sword users.[X]
+
+## FlierEffectiveDescription
+Effective against fliers.[X]
+
+
+
+
+
+## LancereaverDescription
+Strong against lances.[X]
+
+## AxereaverDescription
+Strong against axes.[X]
+
+## SwordreaverDescription
+Strong against swords.[X]
+
+## RapierDescription
+Effective against cavalry, knights.[X]
+
+## LightBrandDescription
+Imbued with magic.[X]
+
+## RuneswordDescription
+Restores HP on impact.[X]
+
+## DevilAxeDescription
+Might injure its wielder.[X]
+
+## LongbowDescription
+Extended attack range.[X]
+
+## BallistaDescription
+Long-range weapon.[X]
+
+## IronBallistaDescription
+Long-range weapon.[X]
+
+## KillerBallistaDescription
+Improves critical hit rate.[X]
+
+## BoltingDescription
+Long-range lightning strike.[X]
+
+## PurgeDescription
+Long-range magic attack.[X]
+
+## EclipseDescription
+Reduces enemy HP to 1.[X]
+
+
+
+## BindingBladeDescription
+Increases Def and Res by 5 pts.[X]
+
+## DurandalDescription
+Increases strength by 5 pts.[X]
+
+## ArmadsDescription
+Increases strength by 5 pts.[X]
+
+## ForblazeDescription
+Increases luck by 5 pts.[X]
+
+## AureolaDescription
+Boosts resistance by 5 pts.[X]
+
+## MulagirDescription
+Increases speed by 5 pts.[X]
+
+## MaltetDescription
+Increases strength by 5 pts.[X]
+
+## SaintsStaffDescription
+Fully restores all allies.[X]
+
+## ApocalypseDescription
+Boosts magic by 5 pts.[X]
+
+## EckesachsDescription
+Usable only by the king of Bern.[X]
+
+
+## AlsSwordDescription
+Wielded by Al.[X]
+
+## GantsLanceDescription
+Wielded by Gant.[X]
+
+## LunaDescription
+Ignores enemy resistance.[X]
+
+## NosferatuDescription
+Drains enemy HP into caster.[X]
+
+## HealDescription
+Restores HP to allies in[N]
+adjacent spaces.[X]
+
+## HealUseScreen
+Restores HP.[X]
+
+## MendDescription
+Restores many HP to allies[N]
+in adjacent spaces.[X]
+
+## MendUseScreen
+Restores many HP.[X]
+
+## RecoverDescription
+Restores all HP to allies[N]
+in adjacent spaces.[X]
+
+## RecoverUseScreen
+Restores all HP.[X]
+
+## PhysicDescription
+Restores HP to allies[N]
+at a distance.[X]
+
+## PhysicUseScreen
+Restores HP to[N]
+distant allies.[X]
+
+## FortifyDescription
+Restores all HP to allies[N]
+nearby.[X]
+
+## FortifyUseScreen
+Restores HP to all[N]
+allies in one area.[X]
+
+## RestoreDescription
+Returns allies to normal[N]
+condition. (Cures sleep, etc.)[X]
+
+## RestoreUseScreen
+Restores allies to[N]
+normal status.[X]
+
+## SilenceDescription
+Halts all enemy magic[N]
+for several turns.[X]
+
+## SilenceUseScreen
+Blocks all enemy[N]
+magic.[X]
+
+## SleepDescription
+Puts enemies to sleep for[N]
+several turns.[X]
+
+## SleepUseScreen
+Puts enemies to[N]
+sleep.[X]
+
+## BerserkDescription
+Sends enemies into a[N]
+berserker rage.[X]
+
+## BerserkUseScreen
+Drives enemies to[N]
+attack wildly in a[N]
+frenzy of rage.[X]
+
+## WarpDescription
+Moves allies in adjacent[N]
+spaces instantly elsewhere.[X]
+
+## WarpUseScreen
+Warps allies to[N]
+other spaces.[X]
+
+## RescueDescription
+Moves allies from distant[N]
+spaces to adjacent ones.[X]
+
+## RescueUseScreen
+Warps allies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+## TorchStaffDescription
+Lights an area. The light[N]
+grows weaker each turn.[X]
+
+## TorchStaffUseScreen
+Lights up an[N]
+area.[X]
+
+## HammerneDescription
+Restores an adjacent ally's[N]
+weapon to new condition.[X]
+
+## HammerneUseScreen
+Restores items to[N]
+new condition.[X]
+
+## UnlockDescription
+Unlocks doors.[X]
+
+## UnlockUseScreen
+Opens doors.[X]
+
+## BarrierDescription
+Increases magic resistance[N]
+of adjacent allies briefly.[X]
+
+## BarrierUseScreen
+Increases resistance.[X]
+
+## TinasStaffDescription
+Increases resistance.[X]
+
+## TinasStaffUseScreen
+Restores many HP.[X]
+
+## SaintsStaffDescription
+Fully restores all allies.[X]
+
+## SaintsStaffUseScreen
+Restores all allies[N]
+completely.[X]
+
+## VulneraryDescription
+A medicinal solution used[N]
+for healing minor wounds.[X]
+
+## VulneraryUseScreen
+Restores some HP.[X]
+
+## ElixirDescription
+A powerful solution that[N]
+restores all HP.[X]
+
+## ElixirUseScreen
+Restores all HP.[X]
+
+## PureWaterDescription
+A draught that boosts Res.[N]
+Grows weaker each turn.[X]
+
+## PureWaterUseScreen
+Reduces damage[N]
+from magic attacks.[X]
+
+## AntitoxinDescription
+A medicinal solution that[N]
+cures poison.[X]
+
+## AntitoxinUseScreen
+Cures poison.[X]
+
+## TorchDescription
+A staff with burning pitch.[N]
+Grows dimmer each turn.[X]
+
+## TorchUseScreen
+Lights an area.[X]
+
+## LockpickDescription
+Opens doors and chests.[N]
+Usable only by thieves.[X]
+
+## LockpickUseScreen
+Universal lockpicks[N]
+designed for thieves.[X]
+
+## DoorKeyDescription
+Opens doors.[X]
+
+## DoorKeyUseScreen
+Opens doors.[X]
+
+## ChestKeyDescription
+Opens chests.[X]
+
+## ChestKeyUseScreen
+Opens chests.[X]
+
+
+
+## RedGemDescription
+An uncommon gemstone[N]
+worth 3,000 gold.[X]
+
+## BlueGemDescription
+A rare gemstone worth[N]
+5,000 gold.[X]
+
+## WhiteGemDescription
+A valuable gemstone worth[N]
+10,000 gold.[X]
+
+
+
+## SilverCardDescription
+A special card that reduces[N]
+the cost of all items by half.[X]
+
+## SilverCardUseScreen
+Reduces the cost[N]
+of items.[X]
+
+## MemberCardDescription
+If someone with this card[N]
+stops in a suspicious space...[X]
+
+## MemberCardUseScreen
+Grants access to[N]
+secret shops.[X]
+
+## DelphiShieldDescription
+An amulet of the god Delphi.[N]
+Protects fliers from arrows.[X]
+
+## DelphiShieldUseScreen
+Protects airborne[N]
+units from bows.[X]
+
+## AngelicRobeDescription
+Increases HP by a max of[N]
+7 points. Vanishes after use.[X]
+
+## AngelicRobeUseScreen
+Increases max HP.[X]
+
+## EnergyRingDescription
+Increases Mag or Str by[N]
+2 points. Vanishes after use.[X]
+
+## EnergyRingUseScreen
+Increases either[N]
+strength or magic.[X]
+
+## SecretBookDescription
+Increases skill by[N]
+2 points. Vanishes after use.[X]
+
+## SecretBookUseScreen
+Increases skill.[X]
+
+## SpeedwingsDescription
+Increases speed by[N]
+2 points. Vanishes after use.[X]
+
+## SpeedwingsUseScreen
+Increases speed.[X]
+
+## GoddessIconDescription
+Increases luck by[N]
+2 points. Vanishes after use.[X]
+
+## GoddessIconUseScreen
+Increases luck.[X]
+
+## DragonshieldDescription
+Increases defense by[N]
+2 points. Vanishes after use.[X]
+
+## DragonshieldUseScreen
+Increases defense.[X]
+
+## TalismanDescription
+Increases resistance by[N]
+2 points. Vanishes after use.[X]
+
+## TalismanUseScreen
+Increases resistance.[X]
+
+## BootsDescription
+Increases movement by[N]
+2 points. Vanishes after use.[X]
+
+## BootsUseScreen
+Increases movement.[X]
+
+## BodyRingDescription
+Increases constitution by[N]
+2 points. Vanishes after use.[X]
+
+## BodyRingUseScreen
+Increases[N]
+constitution.[X]
+
+## HeroCrestDescription
+For mercenaries, myrmidons,[N]
+and axe fighters Lv. 10 and up.[X]
+
+## HeroCrestUseScreen
+Use this on a worthy[N]
+mercenary, myrmidon,[N]
+or wielder of axes.[X]
+
+## KnightCrestDescription
+For knights and cavaliers[N]
+Lv. 10 and up.[X]
+
+## KnightCrestUseScreen
+Use this on a worthy[N]
+cavalier or knight.[X]
+
+## OrionsBoltDescription
+For archers and nomads[N]
+Lv. 10 and up.[X]
+
+## OrionsBoltUseScreen
+Use this on a worthy[N]
+archer or nomad.[X]
+
+## ElysianWhipDescription
+For pegasus knights and[N]
+wyvern riders Lv. 10 and up.[X]
+
+## ElysianWhipUseScreen
+Use this on a worthy[N]
+master of a winged[N]
+mount.[X]
+
+## GuidingRingDescription
+For magic wielders[N]
+Lv. 10 and up.[X]
+
+## GuidingRingUseScreen
+Use this on a worthy[N]
+wielder of magic[N]
+power and staves.[X]
+
+## FirestoneDescription
+Transforms manaketes[N]
+into fire dragons.[X]
+
+## FirestoneUseScreen
+Manakete only.[X]
+
+## DivinestoneDescription
+Transforms Fae into[N]
+a divine dragon.[X]
+
+## DivinestoneUseScreen
+Fae only.[X]
+
+
+## DarkBreathDescription
+A devastating wave[N]
+of darkness.[X]

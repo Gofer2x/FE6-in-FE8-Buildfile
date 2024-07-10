@@ -9,8 +9,7 @@ in other words, add item names, descs, use descs for all items. then comment out
 move as many definition files into the definitions folder and organize into folders
 especially the vanilla data ones
 
-use the multiple dancers patch(es) to implement both larum and elffin
-
+is there a patch to change eclipse behavior to fe6? if yes, install. if not, change desc.
 
 item stealing priority table
 
@@ -23,9 +22,9 @@ character palettes
 
 character promotions aka promotion tables
 
-change sacred weapon effectiveness to x3 and repoint to the new legendaries (for the shine effect)
-
 for tables that are replaced in their entirety, generate one on the fly with FILL instead of having a .dmp. so applies to stuff like map sprites and mugs, but not to text and battle anims.
+
+larum/dancer mms is broken
 
 harp and birdie sounds for elffin animation
 

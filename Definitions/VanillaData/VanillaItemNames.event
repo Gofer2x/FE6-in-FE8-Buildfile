@@ -146,7 +146,7 @@
 #define SiegmundName 0x375
 #define GarmName 0x389
 #define NidhoggName 0x396
-#define HeavyLanceName 0x378
+#define HeavySpearName 0x378
 #define ShortSpearName 0x379
 #define OceanSealName 0x3f6
 #define LunarBraceName 0x3f7

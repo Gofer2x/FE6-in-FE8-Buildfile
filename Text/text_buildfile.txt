@@ -10,5 +10,5 @@ Erm, what the sigma?[X]
 #include "DeathQuotes.txt"
 #include "GenericsNames.txt"
 #include "GenericsDescriptions.txt"
-#include "NewItemNames.txt"
-#include "NewItemDescriptions.txt"
+#include "ItemNames.txt"
+#include "ItemDescriptions.txt"

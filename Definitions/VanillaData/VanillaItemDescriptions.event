@@ -146,7 +146,7 @@
 #define SiegmundDescription 0x425
 #define GarmDescription 0x438
 #define NidhoggDescription 0x446
-#define HeavyLanceDescription 0x428
+#define HeavySpearDescription 0x428
 #define ShortSpearDescription 0x429
 #define OceanSealDescription 0x4a7
 #define LunarBraceDescription 0x4a8

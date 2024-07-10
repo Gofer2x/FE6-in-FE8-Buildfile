@@ -106,7 +106,6 @@ Boosts magic by 5 pts.[X]
 ## EckesachsDescription
 Usable only by the king of Bern.[X]
 
-
 ## AlsSwordDescription
 Wielded by Al.[X]
 

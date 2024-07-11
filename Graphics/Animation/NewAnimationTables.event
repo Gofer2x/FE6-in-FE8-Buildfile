@@ -61,6 +61,7 @@ ALIGN 4
 Fighter_Anims:
 AxeAnim(Fighter_AxeAnim)
 HandAxeAnim(Fighter_HandAxeAnim)
+UnarmedAnim(Fighter_UnarmedAnim)
 EndAnim
 
 ALIGN 4
@@ -68,24 +69,28 @@ Warrior_Anims:
 AxeAnim(Warrior_AxeAnim)
 HandAxeAnim(Warrior_HandAxeAnim)
 BowAnim(Warrior_BowAnim)
+UnarmedAnim(Warrior_UnarmedAnim)
 EndAnim
 
 ALIGN 4
 Brigand_Anims:
 AxeAnim(Brigand_AxeAnim)
 HandAxeAnim(Brigand_HandAxeAnim)
+UnarmedAnim(Brigand_UnarmedAnim)
 EndAnim
 
 ALIGN 4
 Pirate_Anims:
 AxeAnim(Pirate_AxeAnim)
 HandAxeAnim(Pirate_HandAxeAnim)
+UnarmedAnim(Pirate_UnarmedAnim)
 EndAnim
 
 ALIGN 4
 Berserker_Anims:
 AxeAnim(Berserker_AxeAnim)
 HandAxeAnim(Berserker_HandAxeAnim)
+UnarmedAnim(Berserker_UnarmedAnim)
 EndAnim
 
 ALIGN 4

@@ -1,0 +1,4 @@
+PUSH
+ORG 0x0582C0
+BYTE HandAxe
+POP

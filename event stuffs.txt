@@ -1,0 +1,92 @@
+CAM1 [Position X, Position Y]
+	Move camera to coords.
+CAM1 Character 
+	Move camera to character (BYTE).
+
+FADI Time
+	Fade into dark at speed of Time (SHORT).
+
+FADU Time
+	Fade out of dark at speed of Time (SHORT).
+	
+FAWI Time
+FAWU Time
+	Ditto but white (SHORT).
+
+MOVE Speed Character [Dest. X, Dest. Y] 
+	
+ENDA
+	End event.
+	Add "NoFade" before it to not have the fade effect! You want this most of the time.
+	
+SOUN Sound
+	Plays a Sound.
+
+TILECHANGE TileChange
+
+TILEREVERSE TileChange
+	
+BEQ *Conditional ID* *Memory Slot 1* *Memory Slot 2* 
+
+    These commands compare two memory slots and branch to LABEL *conditional ID* if the condition is met
+   Branch if equal
+
+   Parameters:
+    Conditional ID
+    Memory Slot 1
+    Memory Slot 2
+	
+	
+(eventID = Flag)
+TurnEventPlayer(eventID,pointer,turn)
+TurnEventPlayer(eventID,pointer,startTurn,amountOfTurns)
+TurnEventEnemy(eventID,pointer,turn)
+TurnEventEnemy(eventID,pointer,startTurn,amountOfTurns)
+TurnEventNPC(eventID,pointer,turn)
+TurnEventNPC(eventID,pointer,startTurn,amountOfTurns)
+Survive(pointer,endturn)
+OpeningTurnEvent(pointer)
+	
+//Location Based Events
+Village(eventID,offset,villX,villY)    
+House(eventID,offset,villX,villY)      
+Armory(offset,shopX,shopY)             
+Vendor(offset,shopX,shopY)             
+SecretShop(offset,shopX,shopY)      
+Chest(item,chestX,chestY)              
+ChestMoney(amountOfMoney,chestX,chestY)
+Door(doorX,doorY)                      
+Seize(seizeX,seizeY)                   
+Seize(eventID,offset,seizeX,seizeY)    
+	
+VillageEventItem(textID,background,item)
+VillageEventMoney(textID,background,money)
+HouseEvent(textID,background)
+ConvoEvent(textID)
+
+
+LoadReinforcements(unitPtr)
+ReinforcementEvent(unitPtr)
+GiveMoney(amount)
+	
+	
+	
+	
+Text(Text)
+	Displays Text. Return to map included.
+	
+Text(Background, Text)
+	Displays Text with background.  Return to map included.
+
+FlashCursor(Character, Duration)
+
+FlashCursor(X, Y, Duration)
+
+SetBackground(Background)
+	Sets a Background.
+
+ShowText(Text)
+	Displays Text, but doesn't return to map.
+	
+
+MoveByCoords(speed, srcX, srcY, destX, destY)

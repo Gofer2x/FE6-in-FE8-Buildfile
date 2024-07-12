@@ -16,6 +16,7 @@
 [.7] = [.......]
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
+[Clear] = [2NL]
 
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
@@ -47,6 +48,7 @@
 [.......v] = [FarFarRight]
 
 [CurrentPortrait] = [0xFF][0xFF]
+[LoadCurrentCharacter] = [LoadFace][0xFF][0xFF]
 
 [LoadRoy] = [LoadPortrait][0x1][0x1]
 [LoadMarcus] = [LoadPortrait][0x2][0x1]
@@ -222,4 +224,3 @@
 [LoadVillager59] = [LoadPortrait][0xAC][0x1]
 [LoadVillager60] = [LoadPortrait][0xAD][0x1]
 [LoadVillager61] = [LoadPortrait][0xAE][0x1]
-[LoadVillager62] = [LoadPortrait][0xAF][0x1]

@@ -4,7 +4,13 @@
 #include "CharacterHardcoding.event"
 #include "WeaponRanks.event"
 #include "FixSomeBattleSounds.event"
+#include "PortraitHeightFix.event"
+
+
+
 #include "AlwaysTwoRangedHandAxeFix.event"
 #include "FE8WalkingSoundsFix/FE8-Walking Sounds EA.event"
 #include "WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"
 #include "MultiDancer/Installer.event"
+#include "Chapternamesastext2.1/fe8_chnames.event"
+#include "Allow254genericminimugs/Allow 254 generic minimugs.event"

@@ -240,9 +240,6 @@ Increases resistance.[X]
 ## TinasStaffUseScreen
 Restores many HP.[X]
 
-## SaintsStaffDescription
-Fully restores all allies.[X]
-
 ## SaintsStaffUseScreen
 Restores all allies[N]
 completely.[X]

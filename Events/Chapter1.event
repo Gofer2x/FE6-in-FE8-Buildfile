@@ -3,6 +3,22 @@
 
 #include EAstdlib.event
 
+//Tile Changes
+#define SouthVillageDestroyed 0x0
+#define NorthVillageDestroyed 0x1
+#define SouthVillageVisited 0x2
+#define NorthVillageVisited 0x3
+
+//Flags/EventIDs
+#define BossQuoteFlag 0x1
+#define BossDefeatFlag 0x2
+#define SeizeFlag 0x3
+#define SecondBGMFlag 0x4
+// 0x5
+#define RoutFlag 0x6
+#define NorthVillageFlag 0x7
+#define SouthVillageFlag 0x8
+
 EventPointerTable(EVENTS_Ch1,ThisChapter)
 
 ALIGN 4
@@ -20,6 +36,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,CursesReinforcementsAlready,1)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -27,6 +44,11 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(SouthVillageFlag,SouthVillageVisit,12,19)
+House(0x0,DoomHouseVisit,12,15)
+House(0x0,TerrainHouseVisit,9,16)
+House(0x0,MoneyHouseVisit,9,19)
+Seize(5,4)
 END_MAIN
 
 MiscBasedEvents:
@@ -45,25 +67,139 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [6,7] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [9,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] AggressiveAI
+UNIT Marcus Paladin 0x0 Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] AggressiveAI
+UNIT Lance Cavalier 0x0 Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT Alen Cavalier 0x0 Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
+UNIT Bors Knight 0x0 Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
+UNIT Wolt Archer 0x0 Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] AggressiveAI
 UNIT
 
-Enemies:
-UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,4] 0x0 0x0 0x0 0x0 [IronAxe] BossAI
+Bandits1:
+UNIT GenericBandit Archer 0x0 Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA1R2 [IronBow] TwoMovesAI
+UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA5R6 [SteelAxe] BossAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA1R3 [IronAxe] TwoMovesAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA4R5 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA6R5 [IronAxe] InRangeAI
 UNIT
+
+BanditsBrigand:
+UNIT GenericBandit Brigand 0x0 Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA7R7 [IronAxe] BrigandAI
+UNIT
+
+Bandits2:
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA8R9 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA9R9 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA11R7 [IronAxe] InRangeAI
+UNIT GenericBandit Archer 0x0 Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA10R10 [IronBow] AggressiveAI
+UNIT
+
+Bandits3:
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA7R15 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA8R14 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA12R13 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA8R18 [IronAxe] AggressiveAI
+UNIT
+
+LanceRunner:
+UNIT Lance Cavalier 0x0 Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA2R17 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT
+
+TheBoys1:
+UNIT Roy RoyLord 0x0 Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA2R18 [Rapier, Vulnerary] AggressiveAI
+UNIT Marcus Paladin 0x0 Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA1R17 [IronSword, SilverLance] AggressiveAI
+UNIT
+
+TheBoys2:
+UNIT Alen Cavalier 0x0 Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA3R17 [IronSword, IronLance] AggressiveAI
+UNIT Bors Knight 0x0 Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA3R19 [IronLance, Vulnerary] AggressiveAI
+UNIT Wolt Archer 0x0 Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA2R16 [IronBow, Vulnerary] AggressiveAI
+UNIT
+
 
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
+//Music: Deer of the Plains
+LOAD1 0x1 Bandits1
 ENUN
-LOAD1 0x1 Enemies
+FlashCursor(Damas, 60)
+Text(Plain, Ch1_Start1)
+CAM1 [7,8]
+LOAD1 0x1 BanditsBrigand
 ENUN
+FlashCursor(7,7,60)
+Text(Plain, Ch1_StartBrigandVillage)
+MoveByCoords(0x0, 7, 7, 4, 9)
+ENUN
+SOUN SND_VillageDestruction
+TILECHANGE NorthVillageDestroyed
+FlashCursor(5,4,60)
+Text(Castle_Hall, Ch1_Start2)
+STAL 16
+CAM1 [8,12]
+STAL 16
+LOAD1 0x1 Bandits2
+ENUN
+CAM1 [8,17]
+LOAD1 0x1 Bandits3
+ENUN
+STAL 16
+LOAD1 0x1 TheBoys1
+ENUN
+LOAD1 0x1 TheBoys2
+ENUN
+LOAD1 0x1 LanceRunner
+ENUN
+Text(Plain, Ch1_Start3)
+MOVE 0x0 Lance [4,18]
+NoFade
+ENDA
+
+CursesReinforcementsAlready:
+//Music: Deer of the Plains
+CAM1[5,3]
+ENUN
+MOVE 0x0 Damas [5, 4]
+ENUN
+STAL 16
+Text(Plain, Ch1_Start4)
+NoFade
+ENDA
+
+SouthVillageVisit:
+VillageEventMoney(Ch1_SouthVillage,Village,5000)
+TILECHANGE SouthVillageVisited
+NoFade
+ENDA
+
+DoomHouseVisit:
+HouseEvent(Ch1_DoomHouse,HouseBG)
+NoFade
+ENDA
+
+TerrainHouseVisit:
+HouseEvent(Ch1_TerrainHouse,HouseBG)
+NoFade
+ENDA
+
+MoneyHouseVisit:
+HouseEvent(Ch1_MoneyHouse,HouseBG)
+NoFade
 ENDA
 
 EndingScene:
-MoveToChapter(1)
+//Play music Triumph
+SetBackground(Castle_Room)
+TextNoBGNoREMA(Ch1_End1)
+CHECK_ALIVE Bors
+BEQ 1 s0 sC
+TextNoBGNoREMA(Ch1_End2LilinaBors)
+LABEL 1
+TextNoBGNoREMA(Ch1_End3)
+REMA
+STAL 64
+MNC2 CHAPTER_Ch2
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

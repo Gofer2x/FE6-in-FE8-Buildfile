@@ -21,7 +21,7 @@ I wish you luck...[AN][X]
 ## WoltDeathQuote
 [OpenMidLeft][LoadWolt]
 Why so soon...?[N]
-I'm sorry, Lord Roy...[AN][2NL]
+I'm sorry, Lord Roy...[AN][Clear]
 I can't help you any[N]
 further...[AN][X]
 
@@ -32,13 +32,13 @@ Lady Lilina...[AN][X]
 
 ## MerlinusDeathQuote
 [OpenMidLeft][LoadMerlinus]
-Oh no![AN][2NL]
+Oh no![AN][Clear]
 I'm getting out of here before[N]
 I lose all my goods![AN][X]
 
 ## ElenDeathQuote
 [OpenMidLeft][LoadElen]
-Princess Guinivere...[AN][2NL]
+Princess Guinivere...[AN][Clear]
 Please...[N]
 Don't give up...[AN][X]
 
@@ -64,7 +64,7 @@ Sorry... I won't make it home...[AN][X]
 ## ChadDeathQuote
 [OpenMidLeft][LoadChad]
 No![N]
-Why here...?[AN][2NL]
+Why here...?[AN][Clear]
 Lugh... I'm sorry...[AN][X]
 
 ## LughDeathQuote
@@ -132,7 +132,7 @@ I...can't die yet...[AN][X]
 ## GwendolynDeathQuote
 [OpenMidLeft][LoadGwendolyn]
 Wait...[N]
-I can't die here...[AN][2NL]
+I can't die here...[AN][Clear]
 This can't be happening...[AN][X]
 
 ## FirDeathQuote
@@ -173,7 +173,7 @@ I'm sorry...Father...[AN][X]
 ## ElffinDeathQuote
 [OpenMidLeft][LoadElffin]
 Argh...[N]
-This wound...[AN][2NL]
+This wound...[AN][Clear]
 I must retreat...[AN][X]
 
 ## EchidnaDeathQuote
@@ -219,7 +219,7 @@ light...[AN][X]
 ## IgreneDeathQuote
 [OpenMidLeft][LoadIgrene]
 I...fought hard...[N]
-at least...[AN][2NL]
+at least...[AN][Clear]
 Can I go back to the place[N]
 I love now...?[AN][X]
 
@@ -244,7 +244,7 @@ I...[AN][X]
 
 ## DouglasDeathQuote
 [OpenMidLeft][LoadDouglas]
-Ngh![AN][2NL]
+Ngh![AN][Clear]
 I...[N]
 I miscalculated...[AN][X]
 
@@ -265,7 +265,7 @@ the meadow once more...[AN][X]
 
 ## YoderDeathQuote
 [OpenMidLeft][LoadYoder]
-Please... Roy...[AN][2NL]
+Please... Roy...[AN][Clear]
 Defeat the dragons...[N]
 Save our world...[AN][X]
 
@@ -339,7 +339,7 @@ You're no ordinary army...[AN][X]
 
 ## NordDeathQuote
 [OpenMidLeft][LoadNord]
-...Death?[AN][2NL]
+...Death?[AN][Clear]
 I feel...my life...[N]
 draining...away...[AN][X]
 
@@ -351,13 +351,13 @@ You...heathens...[N]
 ## ZinqueDeathQuote
 [OpenMidLeft][LoadZinque]
 This is my land...[N]
-Mine alone...[AN][2NL]
+Mine alone...[AN][Clear]
 None...shall...[AN][X]
 
 ## MorganDeathQuote
 [OpenMidLeft][LoadMorgan]
 The resistance force has[N]
-been eliminated in this area...[AN][2NL]
+been eliminated in this area...[AN][Clear]
 Who...are you people...?[AN][X]
 
 ## EinDeathQuote
@@ -409,9 +409,9 @@ Gah...![AN][X]
 
 ## NarcianDeathQuote
 [OpenMidLeft][LoadNarcian]
-No... No...!![AN][2NL]
+No... No...!![AN][Clear]
 I will not be defeated...![N]
-Not by you...miserable...[AN][2NL]
+Not by you...miserable...[AN][Clear]
 Gaahh!![AN][X]
 
 ## WindhamDeathQuote
@@ -422,7 +422,7 @@ Haha...ha...[AN][X]
 ## ArcardoDeathQuote
 [OpenMidLeft][LoadArcardo]
 I...am a noble...[N]
-of Etruria...![AN][2NL]
+of Etruria...![AN][Clear]
 I cannot...die...in a place[N]
 such as this...[.....] Gah![AN][X]
 
@@ -447,20 +447,20 @@ a long...time ago...[AN][X]
 W-wait... Serve me![N]
 It is not too late...[AN]
 I shall...absolve you[N]
-of your crimes...[AN][2NL]
+of your crimes...[AN][Clear]
 Guh...![AN][X]
 
 ## TickDeathQuote
 [OpenMidLeft][LoadTick]
 You have bested us...[N]
-You may pass...[AN][2NL]
+You may pass...[AN][Clear]
 But you will know Bern's[N]
 true power soon...[AN][X]
 
 ## MonkeDeathQuote
 [OpenMidLeft][LoadMonke]
 Urkh...![N]
-How could you defeat us...?[AN][2NL]
+How could you defeat us...?[AN][Clear]
 My trap...was...perfect...[AN][X]
 
 ## KelDeathQuote
@@ -471,7 +471,7 @@ of all swordsmen...[AN][X]
 ## MurdockDeathQuote
 [OpenMidLeft][LoadMurdock]
 Hngh...![N]
-You...are strong...[AN][2NL]
+You...are strong...[AN][Clear]
 [ToggleSmile]Zephiel... My king...[AN]
 I cannot protect you...[N]
 any further...[AN]
@@ -480,7 +480,7 @@ Forgive me...![AN][X]
 ## GalleDeathQuote
 [OpenMidLeft][LoadGalle]
 I fought honorably...[N]
-I accept my death...[AN][2NL]
+I accept my death...[AN][Clear]
 Zeiss...[N]
 Melady...[AN][X]
 
@@ -492,7 +492,7 @@ by darkness...[AN][X]
 
 ## ZephielDeathQuote
 [OpenMidLeft][LoadZephiel]
-...I am defeated...[AN][2NL]
+...I am defeated...[AN][Clear]
 But remember this...[AN]
 My will shall never die...[AN]
 As long as humans retain[N]

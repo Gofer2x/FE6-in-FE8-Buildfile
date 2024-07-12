@@ -77,7 +77,7 @@ pathetic lives...[AN][X]
 ## OrloBattleQuote
 [OpenMidLeft][LoadOrlo][ToggleSmile]
 Opposing me...is the equivalent[N]
-of opposing the gods![AN][2NL]
+of opposing the gods![AN][Clear]
 I shall rain divine punishment[N]
 upon you![AN][X]
 
@@ -92,7 +92,7 @@ Their wails are meaningless.[AN][X]
 [OpenMidLeft][LoadMorgan][ToggleSmile]
 What are you doing?![AN]
 Hurry and kill the ones[N]
-who escaped![AN][2NL]
+who escaped![AN][Clear]
 Wait, you're not one of[N]
 my men... Wh-who are you?![AN][X]
 
@@ -102,12 +102,12 @@ my men... Wh-who are you?![AN][X]
 
 ## GuerreroBattleQuote
 [OpenMidLeft][LoadGuerrero]
-Daaaahhhhhh![AN][2NL]
+Daaaahhhhhh![AN][Clear]
 Rah![AN][X]
 
 ## FlaerBattleQuote
 [OpenMidLeft][LoadFlaer]
-You've made it...[AN][2NL]
+You've made it...[AN][Clear]
 But I am a knight of Bern![N]
 I will not surrender![AN][X]
 
@@ -134,13 +134,13 @@ attack us.[AN][X]
 I am strong. I am wise.[N]
 I am beautiful.[AN]
 And most importantly,[N]
-I am right! Always![AN][2NL]
+I am right! Always![AN][Clear]
 ...Me! No one else![AN][X]
 
 ## WindhamBattleQuote
 [OpenMidLeft][LoadWindham]
 Perish![N]
-Every last one of you![AN][2NL]
+Every last one of you![AN][Clear]
 Everything to ash![AN][X]
 
 ## ArcardoBattleQuote
@@ -158,7 +158,7 @@ Curse that useless woman![AN][X]
 ## SiguneBattleQuote
 [OpenMidLeft][LoadSigune]
 So...you've made it through[N]
-the blizzard.[AN][2NL]
+the blizzard.[AN][Clear]
 Congratulations.[AN]
 Unfortunately, the only prize[N]
 that awaits you is death.[AN][X]
@@ -166,39 +166,39 @@ that awaits you is death.[AN][X]
 ## RoartzBattleQuote
 [OpenMidLeft][LoadRoartz][ToggleSmile]
 S-someone![N]
-Come to my aid![AN][2NL]
+Come to my aid![AN][Clear]
 All is lost if I fall![AN][X]
 
 ## TickBattleQuote
 [OpenMidLeft][LoadTick][ToggleSmile]
 No...[N]
-This is a nightmare.[AN][2NL]
+This is a nightmare.[AN][Clear]
 How did you get[N]
 through those walls?[AN][X]
 
 ## MonkeBattleQuote
 [OpenMidLeft][LoadMonke]
 Yes... That's it![N]
-Closer... Closer...[AN][2NL]
+Closer... Closer...[AN][Clear]
 Right into our trap![AN][X]
 
 ## KelBattleQuote
 [OpenMidLeft][LoadKel]
-I am Kel.[AN][2NL]
+I am Kel.[AN][Clear]
 Behold my blade...as I swing[N]
 it for the last time.[AN][X]
 
 ## MurdockBattleQuote
 [OpenMidLeft][LoadMurdock]
 Hm...[N]
-You have made it far.[AN][2NL]
+You have made it far.[AN][Clear]
 I congratulate you.[N]
 But can you defeat me?[AN][X]
 
 ## PeresBattleQuote
 [OpenMidLeft][LoadPeres]
 Darkness from an age[N]
-long forgotten...[AN][2NL]
+long forgotten...[AN][Clear]
 I will show you its power.[AN][X]
 
 ## ZephielBattleQuote

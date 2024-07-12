@@ -93,7 +93,7 @@ DeathQuote(IdunnDragon,CHAPTER_Final,2,IdunnDeathQuote)
 
 
 
-DeathQuote(Roy,AnyChapter,0,RoyDeathQuote)
+DeathQuote(Roy,AnyChapter,0x65,RoyDeathQuote)
 DeathQuote(Marcus,AnyChapter,0,MarcusDeathQuote)
 DeathQuote(Alen,AnyChapter,0,AlenDeathQuote)
 DeathQuote(Lance,AnyChapter,0,LanceDeathQuote)

@@ -1,14 +1,18 @@
 # 0xd4c StartOfFreeTextSpace
 Erm, what the sigma?[X]
 
-#include "CharacterNames.txt"
-#include "CharacterDescriptions.txt"
-#include "ClassNames.txt"
-#include "ClassDescriptions.txt"
-#include "ChapterNames.txt"
+#include "NamesAndDescs/CharacterNames.txt"
+#include "NamesAndDescs/CharacterDescriptions.txt"
+#include "NamesAndDescs/ClassNames.txt"
+#include "NamesAndDescs/ClassDescriptions.txt"
+#include "NamesAndDescs/ChapterNames.txt"
+
+#include "NamesAndDescs/GenericsNames.txt"
+#include "NamesAndDescs/GenericsDescriptions.txt"
+#include "NamesAndDescs/ItemNames.txt"
+#include "NamesAndDescs/ItemDescriptions.txt"
+
 #include "BattleQuotes.txt"
 #include "DeathQuotes.txt"
-#include "GenericsNames.txt"
-#include "GenericsDescriptions.txt"
-#include "ItemNames.txt"
-#include "ItemDescriptions.txt"
+
+#include "ChapterEvents/Chapter1.txt"

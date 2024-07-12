@@ -14,9 +14,6 @@
 //    print("")
 //    i += 1
 
-
-MESSAGE The following SMS reorders are intentional
-
 //RoyLord
 #define RoyLord_SMS 0x0
 SetSMS(RoyLord_SMS , RoyLord_SMS_Size, RoyLord_SMS_Data)
@@ -332,7 +329,3 @@ SetSMS(UnmannedIronBallista_SMS , UnmannedIronBallista_SMS_Size, UnmannedIronBal
 //UnmannedKillerBallista
 #define UnmannedKillerBallista_SMS 0x4E
 SetSMS(UnmannedKillerBallista_SMS , UnmannedKillerBallista_SMS_Size, UnmannedKillerBallista_SMS_Data)
-
-
-
-MESSAGE End of SMS reordering

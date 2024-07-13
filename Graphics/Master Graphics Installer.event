@@ -4,6 +4,8 @@
 
 #include "MapSprites/Installer.event"
 
+#include "BattleScreen/Installer.event"
+
 #include "ItemIcons/Installer.event"
 
 #include "Palettes/Palette Setup.event"

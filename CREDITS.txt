@@ -1,0 +1,13 @@
+Battle animations:
+"RogueF" aka "[Rogue-Reskin] [F] Ponytail by Temp" Made by {Temp, Black Mage, Wan}
+
+Map sprites:
+"RogueF_SMS" AKA "Rogue (F) {Unknown}-stand" by Unknown (lol)
+
+Mugs/Portraits:
+All blinking mugs (except Roberts) by by {Lenh, Obsidian Daddy}
+
+
+
+Various scripts and macros/definitions taken from other projects. Most of them I found from github searches and they appeared in multiple repos, so not sure how to credit them lol. But thanks.
+Also thanks to Vesly for their great .bat files for processing data.

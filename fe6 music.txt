@@ -1,0 +1,74 @@
+MUS_FireEmblemTheme //main menu
+MUS_DeerOfThePlains //enemy phase 1
+MUS_WildFrontier //enemy phase 2
+MUS_DistantLands //enemy phase 3
+MUS_TheKingdomOfBern //enemy phase 4
+MUS_DragonSanctuary //enemy phase 5
+MUS_LegendaryInheritance //enemy phase gaiden
+MUS_DisquietingSteps //enemy phase trial
+MUS_MessengerFromTheDarkness //enemy phase fow
+MUS_BeyondDistantSkies //player phase 1
+MUS_OneWill //player phase 2
+MUS_BeholdingNaturesBeauty //player phase 3
+MUS_BeneathANewLight //player phase 4
+MUS_ThePathToGreatness //player phase 5
+MUS_ScarsOfTheScouring //player phase gaiden
+MUS_MarchToDeliverance //player phase trial
+MUS_ShadowApproaches //player phase fow
+MUS_BindingTies //allied unit theme
+MUS_WinningROad //near victory theme
+MUS_PoemOfTheSoftWind //elphin play track
+MUS_AtTheFinalDragon //jahn theme
+MUS_BattleForTomorrow //boss theme
+MUS_InTheNameOfBern //boss theme 2
+MUS_BattleForWhoseSake //zephiel boss theme
+MUS_PriestessInTheDark //idunn boss theme
+MUS_Curing //status staff use
+MUS_Healing //healing staff use
+MUS_ToTheHeights //promotion theme
+MUS_Blank1
+MUS_ICampaign //map theme 1
+MUS_IIRecapturingTheRoyalCapital //map theme 2
+MUS_IIIInvisibleEnemy //map theme 3
+MUS_IVFinalChapter //map theme 4
+MUS_PrepareToCharge //battle preps
+MUS_AnUnexpectedCaller //event theme
+MUS_WhenTheRushComes //event theme
+MUS_CogsOfFate //event theme
+MUS_DistantUtopia //event theme
+MUS_Triumph //event theme
+MUS_IntoTheShadowOfTriumph //event theme
+MUS_TheDarkPriestess //idunn theme
+MUS_TheKingOfBern //zephiel theme
+MUS_PrincessOfDestiny //guinivere theme
+MUS_Suspicious //narcian theme
+MUS_Dignified //murdock theme
+MUS_Melancholic //brunnya theme?
+MUS_Blank2
+MUS_Blank3
+MUS_FinalFarewell //event theme, also known as time of sorrow
+MUS_GoingMyWay //event theme, cath. la la la
+MUS_JoinUs //recruitment theme
+MUS_Epilogue //duh
+MUS_BattleResults //ranking screen
+MUS_AfterTheWar //character endings
+MUS_GameOver //game over maaaaaaan
+MUS_Shop
+MUS_ArenaEntrance
+MUS_ArenaBattle
+MUS_HappinessAbounds //event theme
+MUS_MainThemeArrangement
+MUS_ShockingTruth1 //event theme
+MUS_ShockingTruth2 //event theme
+MUS_Talking //event theme
+MUS_PerilousDance //larum battle theme
+MUS_CaptivatingDance //larum dance theme
+MUS_PreludeTellingALegend //game intro
+MUS_EternalWind //event theme, used in iddun and fae ending
+MUS_Unknown1 //idk what to call this but the sound that plays before the game logo appears if you let the intro play out
+MUS_WithinSadness //death theme
+MUS_ArenaVictory
+MUS_WhatCameBefore //starting text scroll theme
+MUS_Attack //player attack
+MUS_Revenge //enemy attack
+MUS_Unknown2 //reminds me of an arena theme?? swear i've heard it someplace

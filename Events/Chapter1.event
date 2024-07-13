@@ -120,7 +120,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-//Music: Deer of the Plains
+//Music: An Unexpected Caller
 LOAD1 0x1 Bandits1
 ENUN
 FlashCursor(Damas, 60)

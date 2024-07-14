@@ -1,0 +1,17 @@
+[C4]
+
+[LoadBarthe][ToggleSmile]Show the enemy the
+power of the Ostian knights![A]
+Triangle Attack!![A]
+
+[C5]
+
+[LoadBors][ToggleSmile]Ready?
+Charge![A]
+Triangle Attack!![A]
+
+[C6]
+
+[LoadGwendolyn][ToggleSmile]Uh...
+Let's go![A]
+Triangle Attack!![A]

@@ -16,3 +16,7 @@ Erm, what the sigma?[X]
 #include "DeathQuotes.txt"
 
 #include "ChapterEvents/Chapter1.txt"
+#include "ChapterEvents/Chapter2.txt"
+#include "ChapterEvents/Chapter3.txt"
+#include "ChapterEvents/Chapter4.txt"
+#include "ChapterEvents/Chapter5.txt"

@@ -1,0 +1,488 @@
+//Tutorial
+
+[14]
+
+[OpenMidLeft][LoadRoy][OpenMidRight][LoadCecilia][OpenMidRight]
+Today, Roy, I will instruct you
+in basic combat tactics.[A]
+
+[15]
+
+[OpenMidRight][LoadCecilia]
+First, do you see this
+moving square?[A]
+This is the cursor, which is used
+to give commands to soldiers.[A][LoadOverworldFaces]
+Let's begin the mock battle.[A]
+I'm sure you have questions, but I'll be
+here to advise you as needed.[A]
+
+[16]
+
+[OpenMidRight][LoadCecilia]
+To win any battle, you, Roy, must seize
+the enemy's main point of defense.[A]
+That could be a castle gate, a throne,
+or any number of locations.[A]
+The enemy leader's position is
+the location you want to seize.[A]
+
+[17]
+
+[LoadCecilia]This is the point you must seize
+for this training session.[A]
+First, make your way
+toward the castle gate.[A]
+I'll teach you how to move
+yourself around the map.[A]
+
+[18]
+
+[OpenMidRight][LoadCecilia]Units are soldiers that move
+around the field and fight.[A]
+Blue units are your allies, and
+red units are your enemies.[A]
+Let's try moving. Use the
++ Control Pad to move your cursor.[A]
+It's already positioned on you,
+so you can just press the A Button.[A]
+
+[19]
+
+The blue squares indicate where
+you can move.[A]
+Use the cursor to select where
+to move, and press the A Button.[A]
+If you change your mind,
+press the B Button to cancel.[A]
+Many actions can be cancelled
+by pressing the B Button,[A]
+so remember that if you
+make a mistake.[A]
+
+[1A]
+
+The red squares outside the blue
+squares indicate where you can attack.[A]
+It appears there's an
+enemy unit in a red square.[A]
+
+[1B]
+
+To attack him, move to an area
+adjacent to the enemy unit.[A]
+Select an area and press
+the A Button.[A]
+
+[1C]
+
+Select Attack and
+press the A Button.[A]
+
+[1D]
+
+[OpenMidRight][LoadCecilia]If an enemy survives your first attack,
+it may perform a counterattack.[A]
+A unit with much higher speed than
+its opponent will attack twice.[A]
+
+[1E]
+
+Look at the red zone,
+or the attack range.[A]
+For you it was only one space,
+but for this unit it's two spaces.[A]
+That's because Wolt can attack
+from a distance with his bow.[A]
+Different weapons can attack
+in different ways.[A]
+
+[1F]
+
+Wolt can engage in indirect
+combat with his bow.[A]
+
+[20]
+
+To attack with a bow,[A]
+your unit must be 1 space
+away from the enemy.[A]
+Try moving to one of these
+spaces.[A]
+
+[21]
+
+Select Attack from
+the menu.[A]
+
+[22]
+
+[OpenMidRight][LoadCecilia]
+That was indirect combat
+with a bow.[A]
+If the enemy has no weapons
+capable of indirect combat,[A]
+there's no fear of counterattack.[A]
+However, you cannot fire
+on adjacent spaces.[A]
+If someone moves next to
+you and attacks, that's it.[A]
+
+[23]
+
+Some weapons,
+such as magic and javelins,[A]
+can strike enemies in adjacent squares
+as well as those at a distance.[A]
+As you can see, the red
+zone is extended.[A]
+
+[24]
+
+Now you can attack
+with magic.[A]
+
+[25]
+
+You can either attack from close
+up or keep your distance.[A]
+
+[26]
+
+Select Attack.[A]
+Also, do you remember the
+R Button?[A]
+You can press the R Button to
+see help messages here, too.[A]
+
+[27]
+
+[28]
+
+[OpenMidRight][LoadCecilia]That was a magic attack.[A]
+You can attack from a distance to avoid
+counterattacks from many foes,[A]
+and you can also attack from an adjacent
+square to avoid counterattacks from bows.[A]
+I think you'll find magic to be
+highly versatile.[A]
+
+[29]
+
+Choose which weapon to equip.[A]
+
+[2A]
+
+Select the enemy to attack.[A]
+If there are multiple enemies
+in your attack range,[A]
+use your cursor to choose the
+enemy you want to attack.[A]
+Right now there's only one enemy
+in range.[A]
+
+[2B]
+
+Now, press the A Button
+to attack![A]
+
+[2C]
+
+[OpenMidRight][LoadCecilia]
+If a unit takes a hit,[A]
+its HP, or hit points,
+will be reduced.[A]
+If a unit's HP is reduced
+to zero, that unit will be lost.[A]
+Once a unit is lost,
+it's gone for good.[A]
+Also, if you lose all your HP,
+Roy, the battle is lost.[A]
+That means game over.
+So be careful.[A]
+
+[2D]
+
+[2E]
+
+Do you see the Visit command?[A]
+If you select it and press the A Button,
+you can visit the village.[A]
+
+[2F]
+
+[OpenMidRight][LoadCecilia]Visiting villages may earn you
+items or money.[A]
+You can use any items you obtain
+with the Item command.[A]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[OpenMidRight]
+These are a unit's details.
+There are many parameters here,[A]
+but I won't bore you by
+explaining each one.[A]
+If you want to know about the
+different values,[A]
+press the R Button for
+more information.[A]
+Also, if you press right and left on the
++ Control Pad on this screen,[A]
+you can view additional information,
+such as held items and weapon skills.[A]
+When you're done, press
+the B Button to return to the map.[A]
+
+[34]
+
+[35]
+
+[OpenMidRight][LoadCecilia]When the enemy's turn is done,
+it's your turn again.[A]
+The battle proceeds like this
+in a turn-by-turn fashion.[A]
+
+[36]
+
+[OpenMidRight][LoadWolt]All right! I'll help
+Lord Roy with my bow![A]
+
+[37]
+
+[LoadCecilia]Roy, the archer Wolt came
+to help you.[A]
+You're not the only unit
+you can move.[A]
+You have command over all
+of your allies, too,[A]
+but remember that you are
+responsible for their lives.[A]
+And one more thing...[A]
+
+[38]
+
+[LoadCecilia]
+Do you see where
+the cursor is?[A]
+This is the entrance
+to a village.[A]
+You should inform
+the village of the battle.[A]
+Once you move to the
+entrance of a village,[A]
+you can select Visit
+to inform them.[A]
+
+[39]
+
+[OpenMidRight][LoadLilina]Roy, are you all right?
+I'll help you with my magic![A]
+
+[3A]
+
+[3B]
+
+[OpenMidRight][LoadCecilia]
+Do you think you have a grasp
+on the basics of battle now?[A][Clear]
+Now I'll tell you about one of the
+most powerful weapons you have...[A]
+Information.[A]
+You can press the R Button to 
+investigate numerous things.[A]
+For example, if you press the R Button while
+the cursor is on a unit,[A]
+you can view its statistics,
+items, and other data.[A]
+You can also press the R Button on
+commands if you don't understand them.[A]
+If there's something you're unsure
+of, the R Button is there to help.[A]
+
+[3C]
+
+[OpenMidLeft][LoadCecilia]
+You will soon approach
+the castle.[A]
+Like I said before,
+to win,[A]
+you have to seize the
+castle gate or throne.[A]
+In other words, where
+the enemy leader is.[A]
+Bors is leading the enemy
+in this training mission,[A]
+so your final task is to
+defeat him.[A]
+Once you've done that, use
+the Seize command on the gate,[A]
+and victory will be yours![A]
+
+[3D]
+
+[OpenMidRight][LoadCecilia]
+Good! You defeated the enemy leader.[A]
+Now, Roy, all that's left is for you to
+move onto the castle gate and Seize it.[A]
+
+[3E]
+
+Do you see the Seize command?[A]
+Select it and press the A Button
+to win the battle.[A]
+
+[3F]
+
+The Rescue command allows you
+to carry allies to protect them.[A]
+A unit can only be rescued if its Con stat
+is lower than the rescuer's Aid stat.[A]
+You can see a unit's Con and Aid
+values on the unit data screen.[A]
+While a unit is carrying another,[A]
+its combat statistics are lowered
+significantly, so be careful.[A]
+After rescuing a unit,[A]
+you can drop it onto a space by
+using the Drop command.[A]
+Or if you prefer,[A]
+you can pass it to another unit
+with the Give or Take commands.[A]
+Remember, however, that you can
+only perform one command per turn.[A]
+
+[40]
+
+The Trade command allows a unit
+to trade items with other units.[A]
+If you select the command and
+press the A Button,[A]
+the two units' inventories will
+be displayed.[A]
+You may select which items you
+want to trade with the A Button.[A]
+If you just want to give or
+take an item,[A]
+trade that item to an empty
+space.[A]
+If you give all of a unit's
+weapons to another unit,[A]
+it won't be able to fight,
+however, so use caution.[A]
+
+[41]
+
+[42]
+
+These are commands that you
+can give to your units.[A]
+Right now, you can see the
+Item and Wait commands.[A]
+You can issue a command
+with the A Button.[A]
+The Item command allows you to
+equip, use, or discard items.[A]
+If you're finished with a unit,
+select Wait to end its turn.[A]
+Remember that you can cancel
+with the B Button,[A]
+but if you select Wait you can't
+take it back,[A]
+so make sure you're finished
+before selecting it.[A]
+
+[43]
+
+[44]
+
+[OpenMidRight][LoadCecilia]
+I'll tell you about the map menu now.[A]
+Move the cursor to an empty space
+and press the A Button.[A]
+You can see more information about
+each command by using the R Button.[A]
+
+[45]
+
+If you press the A Button when the
+cursor is on an unoccupied space,[A]
+the map menu appears.[A]
+First, look at the bottom command.[A]
+You can choose End to end your turn
+before moving all of your units.[A]
+Just select it and press the A Button
+if you're ready.[A]
+If you want to return to the map and
+the cursor, press the B Button.[A]
+
+[46]
+
+[LoadCecilia]Roy...! Nooo![A]
+...That's what I would be saying
+if this was a real battle.[A]
+This battle is lost.[A]
+Don't be discouraged...
+We'll try again tomorrow.[A]
+Let's get some rest.[A]
+
+[47]
+
+[LoadLilina]
+Roy... If this was a real
+battle, I'd be dead.[A]
+Remember that defeated
+allies are gone forever.[A]
+Be more careful in real
+battles, OK...?[A]
+
+[48]
+
+[LoadWolt]
+L-Lord Roy...[A]
+This is only a training
+session, so I'm fine,[A]
+but if this were a real
+battle, I would be dead.[A]
+When defeated, allies are
+gone forever.[A]
+
+[49]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+Thank you for coming.[A]
+Please remember to inform the
+villagers in real battles as well.[A]
+
+[4A]
+
+[OpenMidLeft][LoadRoy][OpenMidRight][LoadCecilia]
+Good job! You've captured
+the enemy's castle gate.[A]
+That finishes our training
+session for today.[A]
+How do you feel?
+Do you think you can do it?[A]
+If you ever find yourself in
+a real battle,[A]
+just remember what you learned
+here today and you'll be fine.[A]
+
+[4B]
+
+[LoadBors]Ah, you've made it.[A]
+This is a training session,
+but a battle all the same.[A]
+Don't expect me to go
+easy on you![A]
+
+[4C]
+
+[LoadBors]Well... You win.
+Nicely done.[A]

@@ -1,0 +1,261 @@
+//Chapter 5
+[81]
+[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadDory][OpenMidLeft][FastPrint][ToggleSmile]Boss![A]
+Our boys just got back from
+scouting the village.[A]
+[OpenMidRight][CloseSpeechFast]Then let's go get
+our tribute.[A]
+[OpenMidLeft]But Boss, something's
+different today.[A]
+There's an army stationed
+real close to us![A]
+They say it looks like
+the Lycian Army.[A]
+[OpenMidRight]Lycia? Then there's
+nothing to worry about.[A]
+They were almost wiped
+out by Bern.[A]
+We can handle a few
+battered soldiers.[A]
+[OpenMidLeft]You're right, Boss![A]
+[OpenMidRight]They've probably got some
+valuables on them too![A]
+Still, don't get careless.[A][Clear]
+Ready then? Let's mop up
+these losers, boys![A]
+
+[82]
+
+[OpenFarLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenFarLeft][ToggleSmile]A villager is here to see you,
+Lord Roy.[A]
+Hey, you, wait just a second...[A][......]
+[OpenLeft][LoadVillager4][FastPrint]Are you Lord Roy of
+House Pherae?[A]
+[OpenMidRight][NormalPrint]Yes.
+How may I help you?[A]
+[OpenLeft][FastPrint]Milord, I beg you![A]
+Please, rid us of the bandits
+terrorizing our village![A]
+[OpenMidRight][NormalPrint]Bandits?[A]
+[OpenLeft][FastPrint]There's a group of bandits that made their
+base in the castle near the cliffs.[A]
+[OpenMidRight]Where are the castle guards?[A]
+[OpenLeft][CloseSpeechFast]They fled once they heard that the
+Lycian Army was defeated by Bern...[A]
+We villagers were left on our own.[A]
+Our days are spent in fear of
+bandit attacks.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenLeft]We have no one else we can ask.
+Please, help us![A]
+[OpenFarLeft][SendToBack][NormalPrint]Lord Roy, we must keep
+our pace towards Ostia...[A][SendToBack]
+[OpenMidRight]Yes, I know.[A]
+But we can't simply ignore
+people in need of help![A]
+[OpenFarLeft]You're joking![A]
+[OpenLeft][ToggleSmile]You will help us?!
+Thank you![A]
+Please use the gate
+to the west.[A]
+It'll take you right
+to the castle.[A]
+[OpenMidRight][ToggleSmile]Thank you.[A]
+[OpenLeft]I'll arrange for the gate to be
+opened when you approach.[A][ClearFace]
+[OpenMidRight]Merlinus! We're going to the
+castle to drive off the bandits![A][SendToBack]
+[OpenFarLeft]Sigh... Youthful energy.
+Where does it come from?[A]
+
+[83]
+
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadDorothy]
+[OpenMidLeft]Thank you, Dorothy. Please tell
+Brother Saul as well.[A]
+[OpenMidRight]I will, Father Yoder.[A][OpenMidLeft][ClearFace][Clear]
+[OpenMidRight][ToggleSmile]But where did Saul run off to now?[A]
+How am I supposed to guard him
+if he keeps disappearing?[A]
+[OpenMidRight][ClearFace][OpenLeft][LoadVillager7][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate
+the offer, but not tonight...[A]
+[OpenRight][CloseSpeechFast][ToggleSmile]Come now, don't be like that.[A]
+We can sit by the fire in the dark of night
+as I soothe you with my calming sermons...[A]
+[OpenFarLeft][LoadDorothy][NormalPrint][ToggleSmile]There you are!
+Saul![A]
+[OpenRight]Wonderful.
+Dorothy...[A]
+[OpenLeft][SendToBack]I'll take my leave now.[A][ClearFace][SendToBack]
+[OpenRight]No, don't go![A][Clear]
+[OpenRight][CloseSpeechFast][ToggleSmile]Oh my... Look what you've
+done now, Dorothy.[A]
+[OpenRight][CloseSpeechFast]That expression on your face
+scared her away.[A]
+[OpenFarLeft][MoveMidLeft][ToggleSmile]This is my normal look![A]
+Saul, you can't try to woo
+every girl you meet.[A]
+[OpenRight][FastPrint][ToggleSmile]You make it sound like a bad thing![A]
+I simply offer my helping hand
+to any poor souls in need.[A]
+[OpenMidLeft][MoveLeft][ToggleSmile]Then why do you always offer
+to give your sermons at night?[A]
+[OpenRight][MoveMidRight][CloseSpeechFast][ToggleSmile]...Well, putting that aside...[A]
+Did you have some reason for
+interrupting my good work?[A]
+[OpenLeft][ToggleSmile]Oh, right.[A]
+The Lycian Army is apparently
+somewhere around here.[A]
+[OpenMidRight]Truly?! Is Princess Guinivere
+still with them?[A]
+[OpenLeft]Yes, if the reports from the
+St. Elimine Church are accurate.[A]
+[OpenMidRight]Then we must make haste!
+Let us join them.[A]
+[OpenLeft][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]What's the matter,
+Dorothy?[A]
+[OpenLeft][CloseSpeechFast]You only want to join them because Princess
+Guinivere is said to be so beautiful.[A]
+[OpenMidRight][FastPrint][ToggleSmile]Don't be ridiculous...
+Come now, hurry along.[A]
+[OpenLeft][NormalPrint]Yes, let's go![A]
+
+[84]
+
+[OpenMidRight][LoadVillager11]Oh, I heard you were coming.
+I'll open the gate now.[A]
+
+[85]
+
+[OpenMidRight][LoadDory][ToggleSmile]What?
+There was a gate there?[A]
+Cunning little
+weaklings...[A]
+
+[86]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
+[OpenMidRight]Hold on. Before you go,
+take this lance with you.[A]
+It was once wielded by a
+knight called Sir Gant.[A]
+The stories say he bested many
+a foe with this lance![A]
+
+[87]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
+If you can, try to occupy forts![A]
+That'll stop enemy reinforcements
+from showing up![A]
+
+[88]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
+[OpenMidRight]I was there when
+Araphen was taken...[A]
+The wyvern riders of Bern were
+terrifying enough...[A]
+But then a dragon engulfed the
+Lycian Army in flame...[A]
+Oh Elimine, please tell me
+it was a dream...[A]
+
+[89]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidRight][ToggleSmile]This whole area is really perfect for
+bandits. It's no wonder they appeared.[A]
+They can cross mountains and a bandit on
+a peak is a force to be reckoned with.[A]
+Dreadful. Just dreadful...[A]
+
+[8A]
+
+[LoadDory]No one's ever survived
+a blow from my axe![A]
+Hey, you. Wanna see why?[A]
+
+[8B]
+
+[LoadDory][ToggleSmile]Gah...![A]
+No...I don't wanna...
+die...[A]
+
+[8C]
+
+[OpenMidLeft][LoadMerlinus][OpenFarRight][LoadGuinivere][OpenRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy![A]
+A priest from the St. Elimine Church
+wants an audience with you...[A]
+and Princess Guinivere![A]
+[OpenRight][NormalPrint]He knew that Princess Guinivere
+was with us?[A]
+[OpenMidLeft][FastPrint]Yes. I can't imagine how.[A]
+[OpenRight]Me neither...[A]
+I'll see him alone.[A]
+[OpenFarRight][FastPrint]Roy, I will be fine.
+I wish to meet this priest.[A][SendToBack]
+[OpenRight]Princess?[A][SendToBack]
+[OpenFarRight]Tensions between my brother and the
+church have worsened as of late.[A]
+I do not believe that they would
+attempt anything underhanded.[A][SendToBack]
+[OpenRight]I see. Merlinus, allow
+this priest in.[A][SendToBack]
+[OpenMidLeft][ClearFace][OpenMidLeft][LoadSaul][CloseSpeechFast][ToggleSmile]Lord Roy, it is a pleasure to meet
+you at last.[A]
+I am Saul, an acolyte of the
+St. Elimine Church.[A]
+[OpenRight][ToggleSmile]Pleased to meet you.[A]
+[OpenMidLeft]Oh...[A]
+[ToggleSmile]And you must be Princess Guinivere![A]
+You are as beautiful as
+the rumors say![A][SendToBack]
+[OpenFarRight][NormalPrint]Pardon me...?[A][SendToBack]
+[OpenMidLeft]Ahem... Forgive me.[A][LoadOverworldFaces]
+Your Highness, I wish to know the
+location of the Fire Emblem.[A]
+You have it with you,
+do you not?[A]
+[OpenFarRight][FastPrint]
+[ToggleSmile]How did you know that?![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Bern's head church tells us the Fire Emblem
+disappeared from the Shrine of Seals.[A]
+And you also went missing at exactly the
+same time.[A]
+[OpenFarRight][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]I was sent by the church to
+confirm the truth.[A]
+[ToggleSmile]Why did you take the Fire Emblem?[A]
+[OpenFarRight][FastPrint]...I wished to stop my brother.[A]
+[OpenMidLeft]Your brother...
+Zephiel, the king of Bern.[A]
+[OpenFarRight][CloseSpeechFast]Yes.[A]
+[OpenMidLeft]Do you know what the
+Fire Emblem is used for?[A]
+[OpenFarRight][CloseSpeechFast]...It's the key that awakens a sword that
+was used to slay the dragons long ago.[A]
+That was what my father told me anyway.[A]
+I am unsure how exactly the Fire
+Emblem or the sword work.[A]
+My brother seemed to worry about the
+Fire Emblem falling into enemy hands.[A]
+...Extraordinarily so.[A]
+[OpenMidLeft]So you took the Fire Emblem to make the king
+believe it fell into enemy hands?[A]
+All in an attempt to stop his conquest?[A]
+[OpenFarRight]Yes...but the war continued anyway.[A]
+[OpenMidLeft]And what will you do now?[A]
+[OpenFarRight][FastPrint]...Must I reveal my plan
+at this moment?[A]
+[OpenMidLeft][FastPrint]Ah, so Your Highness has a plan.[A]
+[OpenFarRight][NormalPrint]Yes. I have not given up hope of settling
+this war without further bloodshed.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I see.[A]
+In that case, I will accompany
+you on your journey.[A]
+[OpenFarRight][NormalPrint]If Roy allows it.[A]
+[OpenRight]I have no objections.[A]
+[OpenFarRight][ClearFace][OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere]Thank you, Roy.[A]
+[OpenRight]Of course, Princess.[A]

@@ -1,0 +1,400 @@
+//Chapter 3
+[63]
+[OpenMidLeft][LoadBrunnya][OpenMidRight][LoadZephiel][FastPrint][OpenMidLeft][ToggleSmile]Your Majesty, we have
+captured the enemy commander.[A]
+[OpenMidRight][NormalPrint]Good.
+Bring him before me.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadHectorBlood]
+[OpenFarLeft][FastPrint]You...[A]
+You're Zephiel, the king of Bern!![A]
+Black-hearted fiend...![A]
+[OpenMidRight][CloseSpeechFast]Ah, Lord Hector.[A]
+You have my highest praise for lasting so
+long against two of my Wyvern Generals.[A]
+I suppose Ostia's reputation as the most
+powerful house in Lycia is well-earned.[A]
+The strongest of a bucket of worms is
+hardly a match for my boot, however.[A]
+Your end is nigh. If you've any last
+words, I suggest you spit them out.[A]
+[OpenFarLeft][NormalPrint]Just tell me...
+Why...?[A]
+[OpenMidRight]What was that?[A]
+[OpenFarLeft][CloseSpeechFast]Bern and Lycia...[A]
+We were always on good terms with
+each other...[A]
+Even when you took the throne, we
+always paid our respects to Bern...[A]
+[OpenMidRight][FastPrint][ToggleSmile]Respect?[A]
+[ToggleSmile]Pah. Don't make me laugh.[A]
+The whole continent shall be my domain.
+Only then can the world be liberated.[A]
+I lack the time to concern myself with
+such trivial matters as "respect."[A]
+[OpenFarLeft]You mean to liberate...the world?[A]
+What do you speak of...?[A]
+[OpenMidRight]Pay it no heed. You won't
+live to see it anyway.[A]
+You there![A]
+Take him away![A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadSoldier2]
+[OpenMidRight][CloseSpeechFast]Throw this dead man
+into the dungeon![A]
+[OpenMidLeft][CloseSpeechFast]Yes, Your Majesty![A][ClearFace][.....]
+[OpenMidLeft][LoadBrunnya][CloseSpeechFast]Your Majesty, I will take my leave now.
+I must return to the plains of Sacae.[A]
+[OpenMidRight][CloseSpeechFast]Yes, be on your way.[A]
+[OpenMidLeft][CloseSpeechFast]...One matter before I leave, Your Majesty.[A]
+If you will allow my opinion, I would not
+place so much trust in that...woman.[A]
+[OpenMidRight][CloseSpeechFast]Do you speak of Idunn?[A]
+[OpenMidLeft][CloseSpeechFast]Yes, Your Majesty.[A]
+The men call her the "Dark Priestess"
+and find her presence disturbing.[A]
+I understand that she is a shaman
+of great power, but--[A]
+[OpenMidRight][CloseSpeechFast]Brunnya,
+do you doubt my judgment?[A]
+[OpenMidLeft][CloseSpeechFast]Ah...! No, of course
+not, Your Majesty![A]
+I just think--[A]
+[OpenMidRight][CloseSpeechFast]Your duty is not to think.[A]
+Your duty is to follow orders.[A]
+Is that clear?[A]
+[OpenMidLeft][CloseSpeechFast]...Yes, Your Majesty.
+Your will shall be done.[A]
+[OpenMidLeft][ClearFace][OpenMidRight]
+"Do you doubt my judgment?"[A]
+Dear me, the words that come
+out of my mouth sometimes...[A]
+
+[64]
+
+[OpenMidLeft][LoadChad][OpenMidRight][LoadRoy][ToggleSmile]Lord Hector
+still lives?![A]
+[OpenMidLeft]Yeah, probably.[A]
+I saw some of Bern's soldiers
+take him into the castle.[A]
+[OpenMidRight]Chad, was it? Do you know the
+inside of Castle Araphen well?[A]
+[OpenMidLeft]I guess so.[A]
+...Wait, are you guys going to
+try to save Lord Hector?[A]
+Sounds like a bad idea to me.[A]
+Most of Bern's forces are gone, but there
+are still plenty of soldiers in the castle.[A]
+Marching in would be suicide.[A]
+[OpenMidRight]Perhaps.[A]
+But you said most of their
+army is already gone.[A]
+We can't afford to lose
+Lord Hector.[A]
+If we have a chance, we
+must take it.[A]
+[OpenMidLeft]Really, now...?[A]
+[ToggleSmile]I'll come with you then.[A]
+I can show you around
+the castle.[A]
+[OpenMidRight][ToggleSmile]What?
+You don't have to do that.[A]
+Please, just explain what the
+interior of the castle is like.[A]
+[OpenMidLeft]I've got a bone to pick with Bern.
+Please, let me go with you![A]
+[OpenMidRight][FastPrint]If you insist, we're happy to
+have you.[A]
+I think your skills will be an asset.[A]
+[OpenMidLeft][ToggleSmile]Yeah, I can pick any
+locked doors or chests![A][LoadOverworldFaces]
+[OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere][FastPrint][ToggleSmile]...Lord Roy...[A]
+I'm sorry for my brother...[A]
+I didn't think the invasion
+would pick up so quickly...[A]
+[OpenMidRight][CloseSpeechFast]Princess, you're not
+responsible for this.[A]
+Please don't blame yourself.
+Besides, Lycia is still united.[A]
+We just need Lord Hector to lead
+our army so we can fight![A][Clear]
+We must retake Castle Araphen for all
+of Lycia...and for Lilina...[A]
+[OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenMidRight]Let's move out![A]
+
+[65]
+
+[OpenMidRight][LoadLugh][OpenMidLeft][LoadPriest][OpenMidRight][FastPrint]Thanks for taking the children
+under your care, Bishop.[A]
+[OpenMidLeft][CloseSpeechFast]Of course.[A]
+The St. Elimine Church will take
+good care of the orphans.[A]
+And what will you do, Lugh?[A]
+[OpenMidRight]I'm going to stay here.
+I have some things to take care of.[A]
+[OpenMidLeft][FastPrint]Is that so...?
+Please be safe.[A]
+[OpenMidRight]Yes, you too.[A]
+[OpenMidLeft][ClearFace][OpenLeft][LoadVillager14][OpenFarLeft][LoadVillager13][OpenMidRight]Make sure you listen to what
+the priest says, OK?[A]
+[OpenFarLeft][ToggleSmile]You're not coming
+with us, Lugh?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]I'm going to wait for Chad.
+We'll catch up with you later...[A]
+[OpenLeft][FastPrint]Yay!
+Chad's coming too?[A]
+[OpenMidRight][NormalPrint]Of course.[A]
+[OpenFarLeft][CloseSpeechFast]I want Raigh
+back too![A]
+[OpenMidRight][NormalPrint]Yes...[A]
+If Raigh would come back we could
+all be together again.[A]
+[ClearFace]
+[OpenRight][LoadPriest][CloseSpeechFast]Children,
+we must be off.[A][ClearFace]
+[OpenMidRight][LoadLugh]
+[OpenFarLeft]See you,
+Lugh.[A]
+[OpenLeft]Don't take too long.[A]
+[OpenMidRight][FastPrint]Yes, yes. Hurry along now...[A][Clear]
+[OpenFarLeft][ClearFace][OpenLeft][ClearFace][.....][OpenMidRight][ToggleSmile]I'm sorry for lying...[A]
+But I've chosen not to run away anymore.[A]
+
+[66]
+
+[OpenMidRight][LoadZephiel][FastPrint][ToggleSmile]Narcian![A]
+[OpenMidLeft][LoadNarcian][OpenMidRight]What is causing all that noise?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]What's left of the enemy are likely
+putting up one last fight.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadIdunnHood][NormalPrint][ToggleSmile]Shall I summon the dragons,
+Your Highness?[A]
+[OpenMidRight][ClearFace][OpenRight][LoadNarcian][CloseSpeechFast][ToggleSmile]No need, my lady. We can handle them
+without so much as breaking a sweat.[A][OpenFarLeft][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
+[OpenRight][ClearFace][OpenMidRight][LoadZephiel][CloseSpeechFast][ToggleMouthMove]Not now, Idunn.[A]
+Send the dragons back to
+Bern as planned.[A]
+[OpenFarLeft]Yes, Your Highness.
+As you will.[A]
+[OpenMidRight][ClearFace][OpenRight][LoadNarcian][NormalPrint][ToggleMouthMove]......[A]
+[OpenFarLeft][ClearFace][OpenRight][ClearFace]
+[OpenMidLeft][LoadNarcian][OpenMidRight][LoadZephiel][CloseSpeechFast][ToggleMouthMove]I too must return 
+to Bern.[A]
+Narcian, I leave Lycia in
+your hands.[A]
+[OpenMidLeft][FastPrint]...What shall I do with the remnants
+of the Lycian Army?[A]
+[OpenMidRight]Kill all who stand
+against you.[A]
+[OpenMidLeft][ToggleSmile]...What of women
+and children?[A]
+[OpenMidRight][ToggleSmile]Was I unclear? Kill all who
+stand against you.[A]
+Grind them to dust.[A]
+Ensure no others dare dream
+of opposing us.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]Of course, Your Majesty.[A]
+[ToggleMouthMove]Hm[.....] hm[.....] hm...[A]
+
+[67]
+
+[OpenMidRight][LoadNarcian][OpenMidLeft][LoadSlater][OpenMidRight][ToggleSmile]Hmph, what does His Majesty
+see in that Idunn anyway?[A]
+Well, I think it's time I
+left as well.[A]
+Slater, I entrust the
+castle to you.[A]
+[OpenMidLeft][FastPrint]Might I inquire where
+you're going, milord?[A]
+[OpenMidRight]A marquess who turned against Lycia
+has a special gift for me.[A]
+He says it's a girl of Etrurian
+nobility...[A]
+[ToggleMouthMove]Hm[.....] hm[.....] hm...[ToggleMouthMove][A]
+[OpenMidLeft]Etrurian nobility?
+She must be quite a catch![A]
+[OpenMidRight][FastPrint]Yes, the marquess tells me she's
+a beautiful thing.[A]
+[OpenMidLeft]You must be looking forward
+to it.[A]
+Please be careful on your
+way there.[A]
+[OpenMidRight][CloseSpeechFast]You be careful too, Slater. Don't let
+these scattered remnants defeat you.[A]
+Should you fail, I personally will
+order your public evisceration.[A]
+[OpenMidLeft][MoveFarLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
+Have mercy...![A]
+[OpenMidRight][ToggleSmile]Ha ha ha ha...![A]
+
+[68]
+
+[OpenMidRight][LoadLugh][OpenMidLeft][LoadChad][OpenMidRight][FastPrint]Chad!
+You're OK![A]
+[OpenMidLeft][ToggleSmile]Lugh?!
+What are you doing here?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]We were hiding here.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh...[A]
+Where's everybody else?
+Are they all right?[A]
+[OpenMidRight][ToggleSmile]Yeah, the St. Elimine Church
+is going to watch over them.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]And what about you?[A]
+[OpenMidRight]What?[A]
+[OpenMidLeft][FastPrint]Why are you
+still here?[A]
+[OpenMidRight]...The same reason as you.[A]
+[OpenMidLeft]What?!
+Lugh, you're not thinking of...![A]
+[OpenMidRight][CloseSpeechFast]I can use some magic![A]
+Remember I borrowed that fire
+tome from Poppa's room?[A]
+[OpenMidLeft]Lugh, you can't. You're
+incapable of harming others.[A]
+[OpenMidRight][NormalPrint]But...[A]
+[OpenMidLeft][CloseSpeechFast]I'm going to avenge Poppa.
+You stay with the others, Lugh.[A]
+[OpenMidRight]I'm not going to hide anymore![A]
+I'm tired of everyone
+leaving me...![A]
+Poppa, you, and even Raigh...[A]
+I want to fight to protect the people
+that I care for.[A]
+I can't let others die for me my
+whole life![A]
+[OpenMidLeft]Lugh...[A][Clear]
+Fine. Once we finish Bern we can
+go back and see everyone again![A]
+[OpenMidRight][NormalPrint]Yeah![A]
+
+[69]
+
+[OpenMidRight][LoadLugh][OpenMidLeft][LoadChad][OpenMidRight][FastPrint]Chad!
+You're OK![A]
+[OpenMidLeft][ToggleSmile]Lugh?!
+What are you doing here?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]We were hiding here.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh...[A]
+Where's everybody else?
+Are they all right?[A]
+[OpenMidRight][ToggleSmile]Yeah, the St. Elimine Church
+is going to watch over them.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]And what about you?[A]
+[OpenMidRight]What?[A]
+[OpenMidLeft][FastPrint]Why are you
+still here?[A]
+[OpenMidRight]...The same reason as you.[A]
+[OpenMidLeft]What?!
+Lugh, you're not thinking of...![A]
+[OpenMidRight][CloseSpeechFast]I can use some magic![A]
+Remember I borrowed that fire
+tome from Poppa's room?[A]
+[OpenMidLeft]Lugh, you can't. You're
+incapable of harming others.[A]
+[OpenMidRight][NormalPrint]But...[A]
+[OpenMidLeft][CloseSpeechFast]I'm going to avenge Poppa.
+You stay with the others, Lugh.[A]
+[OpenMidRight]I'm not going to hide anymore![A]
+I'm tired of everyone
+leaving me...![A]
+Poppa, you, and even Raigh...[A]
+I want to fight to protect the people
+that I care for.[A]
+I can't let others die for me my
+whole life![A]
+[OpenMidLeft]Lugh...[A][Clear]
+Fine. Once we finish Bern we can
+go back and see everyone again![A]
+[OpenMidRight][NormalPrint]Yeah![A]
+[6A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadLugh][CloseSpeechFast][ToggleSmile]Excuse me!
+You're with the Lycian Army, right?[A]
+Please, let me fight with you![A]
+I don't have any useful information,
+but I can use a bit of magic![A]
+I'm sure I can help you![A]
+
+[6B]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][OpenMidRight][ToggleSmile]You're what's left of the
+Lycian Army, aren't you?[A]
+Here, take this and go quickly.[A]
+We may be occupied by Bern, but
+we're still Lycians![A]
+
+[6C]
+
+[LoadSlater][ToggleSmile]I-I can't fail!
+If I do...[A]
+...What awaits me...is a
+fate worse than death...!![A]
+
+[6D]
+
+[LoadSlater][ToggleSmile]General Narcian...
+Please...have mercy...!![A] 
+
+[6E]
+
+[OpenMidLeft][LoadMerlinus][FastPrint][ToggleSmile]Lord Roy![A]
+We found Lord Hector
+in the dungeon![A]
+[OpenMidRight][LoadRoy][NormalPrint]You did?!
+Is he all right?[A]
+[OpenMidLeft][FastPrint]He's gravely wounded...[A][ClearFace]
+[OpenFarLeft][LoadHectorBlood][NormalPrint]Well met, Roy...[A]
+[OpenMidRight][MoveRight][FastPrint]Lord Hector![A]
+That gaping wound...![A]
+We must get you help!
+Here, lean on my shoulder...[A]
+[OpenFarLeft]Don't worry yourself...
+I'm done for...[A]
+[OpenRight][NormalPrint]Lord Hector...[A]
+[OpenFarLeft][FastPrint]We were taken by surprise...[A]
+We'd have never supposed that Bern
+had summoned dragons...![A]
+[OpenRight][NormalPrint]Dragons?![A]
+[OpenFarLeft][CloseSpeechFast]Yes...[A]
+The same dragons that humans fought
+against in the Scouring...[A]
+[OpenRight][FastPrint]The Scouring?
+I learned of that in my studies.[A]
+Eons ago, dragon and human each had
+dominion of half of Elibe.[A]
+The Scouring was a war for total
+control of the continent...[A][SendToBack]
+[OpenFarLeft]Very good, lad...[A]
+The Eight Legends...defeated the dragons
+and led the humans to...victory...[A][SendToBack]
+[OpenRight]How did Bern summon dragons...?[A][OpenFarLeft][CloseSpeechFast]I...haven't the faintest...[A]
+But...Bern was once the
+dragons' domain...[A]
+Hartmut, one of the Eight Legends...
+was the founder of Bern...[A]
+Perhaps...the reason...lies
+there...[A]
+[OpenRight][NormalPrint]Lord Hector![A]
+[OpenFarLeft][CloseSpeechFast]Roy... Go to Ostia...[A]
+You must...lead what remains of
+the Lycian Army...in my place...[A]
+[OpenRight]Me...? But...[A]
+[OpenFarLeft]Fear not...in Ostia...is a weapon...
+that...can take down a dragon...[A]
+[OpenRight]A weapon?[A]
+[OpenFarLeft][CloseSpeechFast]Lilina can tell you more...
+Please take care of her...[A]
+She...may act strong...
+But she is still a child...[A]
+Please...don't let...her...d...[A][SendToBack]
+[OpenRight]...I promise you,
+I won't.[A]
+[OpenFarLeft][CloseSpeechFast]...Lilina... Let me...see you...
+just...once more...[A][Clear]
+Hrk...!![A][Clear][ToggleMouthMove]
+......[A][ToggleMouthMove]
+[ClearFace]
+[OpenRight]Lord Hector![A]
+
+
+
+
+
+

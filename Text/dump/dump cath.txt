@@ -1,0 +1,168 @@
+
+[97]
+
+[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Hey! You're...[A]
+[OpenMidLeft]Oops...[A]
+[OpenMidRight]Wait![A]
+[OpenMidLeft]Hey, cut it out![A]
+Let go of my arm![A]
+Ow! That hurts![A]
+[OpenMidRight]Oh, I'm sorry.[A]
+But what are you doing here?[A]
+[OpenMidLeft][ToggleSmile]Well, uh, you know,
+this and that.[A]
+I'm a busy girl.
+Ha ha ha...[A]
+[OpenMidRight][ToggleSmile]Here?
+In a battlefield?[A]
+[OpenMidLeft][ToggleSmile]
+Oh yes, precisely BECAUSE
+this is a battlefield--[A]
+Whoops, better watch my
+tongue...[A]
+[OpenMidRight][ToggleSmile]Do you have some
+ulterior motive?[A]
+[OpenMidLeft]Uh...[A]
+[OpenMidRight]Wait, is that why you
+told us the escape route?[A]
+[OpenMidLeft]Um, what?[A]
+Sorry, I'm a little
+deaf in this ear![A]
+[OpenMidRight]Just who are you?[A]
+[OpenMidLeft]Don't worry about it!
+Forget you saw me.[A][Clear]
+Gotta go. Cheers![A][ClearFace]
+[OpenMidRight]Hey, wait![A]
+
+[98]
+
+[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]It's you![A]
+[OpenMidLeft][ToggleSmile]Ugh, you again...
+Er, fancy meeting you here![A]
+Ha ha ha...[A]
+[OpenMidRight][ToggleSmile]...You're a thief.[A]
+You shouldn't steal.
+It's not right.[A]
+[OpenMidLeft][ToggleSmile]Nah, it's fine.
+I only take from the rich.[A]
+No one's going to starve
+or anything.[A]
+[OpenMidRight][ToggleSmile]That doesn't make
+it any better.[A]
+[OpenMidLeft]Oh really?
+Then let me offer you this.[A]
+You nobles take food and money from people
+living in what you call your land.[A]
+How is tax collection any different
+than tribute to a bandit?[A]
+[OpenMidRight]We protect the people
+in return![A]
+[OpenMidLeft]You do not![A]
+You kill them in
+wars like this![A]
+[OpenMidRight]We didn't start this war.[A]
+Bern invaded, so we have
+to defend the people...[A]
+[OpenMidLeft]You can't just do anything you want
+and say you're defending us![A]
+How does burning down villages
+help us anyway?![A]
+[OpenMidRight]Burning down villages?!
+We never--![A]
+Wait a minute, was your...?[A]
+[OpenMidLeft]...My village was burned to
+the ground by our marquess.[A]
+He said that he had to do it to
+prepare for Bern's attack.[A]
+[OpenMidRight]But...that's...[A]
+[OpenMidLeft]We always had barely enough to get by,
+and then we lost everything...[A]
+Our homes... Our crops...[A]
+And here you come, saying
+it's wrong to steal?[A]
+Ha! Look who's talking![A]
+The nobility steals from the poor so you
+can live in luxury at our expense![A]
+[OpenMidRight]I...
+I don't know what to say.[A]
+[OpenMidLeft]Sigh. Don't get gloomy.[A]
+I really don't like talking about
+how pitiful we are anyway.[A]
+But you started it.[A]
+[OpenMidRight]I...[A]
+[OpenMidLeft]Ah, to heck with this.[A]
+It's no fun stealing after a
+conversation like that.[A][Clear]
+I'm outta here.
+Ta-ta![A][ClearFace]
+[OpenMidRight][ToggleMouthMove]......[A]
+
+[99]
+
+[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Oh! You![A]
+[OpenMidLeft]Hm? ...You again?[A]
+You always come and
+mess up my plans.[A]
+Do you have it out for
+me or something?[A]
+[OpenMidRight]No!
+I just...wanted to apologize.[A]
+[OpenMidLeft]...Excuse me?[A]
+[OpenMidRight]The last time we met, I was
+pretty callous.[A]
+I said you shouldn't steal, but I didn't
+even realize what you'd been through...[A]
+[OpenMidLeft][ToggleSmile]Oh, that? Whatever.
+I don't care.[A]
+[OpenMidRight][ToggleSmile]But I still think what
+you do is wrong.[A]
+[OpenMidLeft]You've got some nerve,
+you know that?[A]
+[OpenMidRight]Just give me
+a chance.[A]
+[OpenMidLeft]A chance?[A]
+[OpenMidRight]Once this war is over, I promise to
+help rebuild your village.[A]
+I'll be sure the taxes are
+put to good use too.[A]
+Just please, stop looting.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove][Clear]
+How long will that be?[A]
+[OpenMidRight]Whenever this war ends.
+I can't say when...[A]
+[OpenMidLeft]And you expect me to wait
+patiently until then?[A]
+[OpenMidRight]No. All I want
+is your faith.[A]
+[OpenMidLeft]...Why are you so
+kind to me?[A]
+I'm just a thief.[A]
+[OpenMidRight]Without you, we wouldn't have
+escaped Wagner's trap.[A]
+Maybe you didn't care about helping us,
+but the fact is that you did.[A]
+You saved our lives. You're more than
+just a thief.[A]
+[OpenMidLeft][ToggleSmile]If things keep going
+like they have...[A]
+I guess you'll get in my way
+no matter where I go.[A]
+[OpenMidRight]As long as you appear
+in our path.[A]
+[OpenMidLeft]Fine, you win.[A]
+I'll stop looting
+battlefields.[A]
+[OpenMidRight]You will?
+Thank you.[A]
+[OpenMidLeft]But I'm coming
+with you.[A]
+[OpenMidRight]What?
+Why?[A]
+[OpenMidLeft]Actions speak louder
+than words.[A]
+Prove to me that you'll be true
+to your promise.[A]
+[OpenMidRight]I won't disappoint you![A]

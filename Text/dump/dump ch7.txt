@@ -1,0 +1,548 @@
+//Chapter 7
+[9A]
+[OpenMidLeft][LoadDebias][OpenMidRight][LoadLegance][ToggleSmile]Is everything quiet,
+Debias?[A]
+[OpenMidLeft]Yes, General. The townspeople are
+no trouble.[A]
+But the Ilian mercenaries that Hector
+hired still refuse to join us.[A]
+[OpenMidRight]What more do they want?
+We already said we'd pay more![A]
+[OpenMidLeft]Ilia's mercenary knights
+are famously loyal.[A]
+[OpenMidRight][MoveRight]I know that, you
+bloated imbecile![OpenMidLeft][MoveFarLeft][A]
+[OpenRight]But General Narcian
+will arrive soon![A]
+If we don't have Ostia under
+our control by then,[A]
+he'll never take us
+seriously![A]
+[OpenFarLeft][FastPrint]Y-yes, General.[A]
+[OpenRight][CloseSpeechFast]Lilina may make for a valuable
+bargaining chip with the mercenaries...[A]
+If her life is in danger, they
+should surrender.[A]
+But that must be a last resort.[A]
+First we must attempt to beat them
+into submission.[A]
+The wyvern riders Bern sent us
+should prove invaluable![A]
+Debias, I want the mercenaries pacified
+and the castle gate secured.[A]
+I will be inside the castle readying
+our defenses.[A]
+[OpenFarLeft][MoveMidLeft][NormalPrint]Yes, General![A]
+
+[9B]
+
+[OpenMidLeft][LoadMerlinus][OpenRight][LoadRoy][CloseSpeechFast][ToggleSmile]How many of Ostia's troops
+have joined the rebellion?[A]
+[OpenMidLeft]Quite a large majority,
+I'm afraid.[A]
+They've forgotten their fealty
+to Lord Hector.[A]
+They all simply gave in to
+Bern because they're afraid.[A]
+It's a disgrace, I tell you.[A]
+[OpenRight][NormalPrint]Is that so...[A]
+[OpenMidLeft][CloseSpeechFast]But it's not all
+bad news, Lord Roy![A]
+There's a band of mercenaries from Ilia
+that wish to join us to stop the rebels.[A][SendToBack]
+[OpenFarRight][LoadGuinivere]Mercenaries from
+Ilia, you say?[A][SendToBack]
+[OpenMidLeft][CloseSpeechFast]Oh, yes.[A]
+They signed a contract with Lord Hector
+to fight Bern alongside Ostia.[A]
+[OpenRight]They could be a great help.[A]
+But do they know Lord Hector
+has passed away?[A]
+Isn't their contract void
+now that he's gone?[A]
+[OpenMidLeft]I would have thought
+so, too, Lord Roy.[A]
+They told me themselves however that they
+heard of Lord Hector's passing.[A]
+They're still eager to fight with us.[A][SendToBack]
+[OpenFarRight]They're only mercenaries.
+Why would they go so far?[A][SendToBack]
+[OpenMidLeft]Ilia is a frozen land with a harsh
+climate so the land is very infertile.[A]
+And so, mercenary contracts are a major
+source of income in Ilia.[A]
+Ilian mercenaries are said to never
+betray their employers, no matter what.[A]
+It seems that's true indeed.[A]
+
+[C9]
+
+[OpenRight][FastPrint]Then they should be
+powerful allies.[A]
+[OpenMidLeft][CloseSpeechFast]I agree! Fortune is
+still with us![A][ToggleSmile]
+But...the mercenary I spoke to
+also had some bad news.[A]
+He said one of the three Wyvern Generals is
+headed here with a legion of wyvern riders.[A]
+Should they aid the rebels, our chance of
+victory will be all but gone.[A][SendToBack]
+[OpenFarRight][FastPrint]Roy... What are you going to do?[A][SendToBack]
+[OpenRight][CloseSpeechFast]...The Kingdom of Etruria
+might help us.[A][SendToBack]
+[OpenFarRight][FastPrint]Etruria?!
+Is it possible?[A][SendToBack]
+[OpenRight]General Cecilia, Mage General of Etruria,
+was my teacher in tactics at Ostia.[A]
+I feel she may join forces with
+us if we ask.[A]
+[OpenMidLeft]I object, Lord Roy![A]
+If we have Etruria solve this Lycian matter,
+our reputation with them will never recover![A]
+[OpenRight]That may be so...[A]
+But this is a matter of life or death
+for Lycia.[A]
+We must ask for help, for if we don't, Lycia
+as we know it may become just a memory.[A]
+[OpenMidLeft]...Lord Roy.[A]
+[OpenRight]But we must act quickly! I've already
+penned a letter to General Cecilia.[A]
+Merlinus, I need you to send the
+letter to her right away.[A]
+[OpenMidLeft]...Yes, Lord Roy!
+I trust your judgment.[A]
+I shall send it this
+instant.[A]
+[OpenRight]With any luck, she'll
+make it in time.[A][Clear]
+Get ready for combat, soldiers!
+We will retake Ostia![A]
+
+
+[9C]
+
+[OpenMidLeft][LoadTrec][OpenMidRight][LoadZelot][CloseSpeechFast][ToggleSmile]It looks like the Lycian Army has
+commenced a counterattack on the rebels.[A]
+Let's join them and quell this
+shameful little rebellion![A]
+[OpenMidLeft][NormalPrint]Uh-huh.[A]
+[OpenMidRight][CloseSpeechFast]Wait,
+where's Noah?[A]
+[OpenMidLeft]Uhhh, I think he went to the
+arena a little while ago.[A]
+He said he's coaching some
+girl in swordplay.[A]
+[OpenMidRight]Noah, a coach?
+That's not like him...[A]
+Has he made a little girlfriend,
+I wonder? Ha ha.[A]
+Well, no matter.
+He can catch up with us later.[A]
+[OpenMidLeft][NormalPrint]Uh-huh.[A]
+[OpenMidRight]Time for action.
+Move out.[A]
+
+[9D]
+
+[OpenMidLeft][LoadFir][OpenMidRight][LoadNoah][CloseSpeechFast][ToggleSmile]Looks like they've started
+attacking the rebels.[A]
+I need to get going, Fir.[A]
+[OpenMidLeft][CloseSpeechFast]Thank you for helping
+me, Sir Noah.[A]
+[OpenMidRight]Of course.[A]
+I sure was surprised when you
+came up to me though.[A]
+Not many people would challenge someone
+to a match so quickly like that.[A]
+[OpenMidLeft][ToggleSmile]I-I'm sorry, Sir Noah.[A]
+I'd never fought in
+the arena before...[A]
+[OpenMidRight][ToggleSmile]If you'd asked anyone else,
+you'd be dead now.[A]
+You need to look your opponent over
+carefully before choosing a fight.[A]
+[OpenMidLeft]And I must have the humility to surrender
+if it appears I'll lose.[A]
+[OpenMidRight][NormalPrint]Exactly.[A]
+[CloseSpeechFast]You can always get your money back,
+but don't throw your life away.[A]
+[OpenMidLeft][NormalPrint]You're right!
+Thank you![A]
+[OpenMidRight][CloseSpeechFast]What will you do now?[A]
+Will you stay here and continue
+practicing the sword?[A]
+[OpenMidLeft]No. I'm going to the
+Western Isles.[A]
+[OpenMidRight]The Western Isles?
+Why?[A]
+[OpenMidLeft]They're constructing a new mine, so there
+are many new workers headed there.[A]
+Miners are strong, so it's no doubt an ideal
+place to find new opponents to challenge.[A]
+And besides...[A][OpenMidRight][NormalPrint]Yes?[A]
+[OpenMidLeft][CloseSpeechFast]The Western Isles is where my
+mother first met my father.[A]
+She's passed on, but at my age she traveled
+around the world training herself.[A]
+[OpenMidRight][NormalPrint]So that's it...
+You surprise me again.[A]
+[OpenMidLeft][ToggleMouthMove]Why?[A]
+[OpenMidRight][CloseSpeechFast][ToggleMouthMove]I thought all you wanted was
+to become strong.[A]
+I didn't realize you were following
+in your mother's footsteps.[A]
+You do have a cute side after all![A]
+[OpenMidLeft]...Sir Noah!
+Please don't tease me![A]
+[OpenMidRight][NormalPrint]Ha ha ha ha![A]
+
+[9E]
+
+[OpenMidLeft][LoadDebias][CloseSpeechFast][ToggleSmile]The reinforcements should be
+arriving from the south soon.[A]
+Heh heh... I want to see the look on their
+faces when they get hit from behind![A]
+
+[9F]
+
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadZelot][FastPrint][OpenMidRight][ToggleSmile]Excuse me, are you Sir Zelot of
+the Ilian mercenaries?[A]
+[OpenMidLeft][NormalPrint]That's me.
+And you are?[A]
+[OpenMidRight][FastPrint]My name is Roy.[A]
+I lead the army that's
+fighting the rebels.[A]
+[OpenMidLeft][CloseSpeechFast]You?[A]
+[OpenMidLeft][FastPrint]Impressive...
+I expected someone older.[A]
+[OpenMidRight][CloseSpeechFast]I'm here because Lord Hector
+asked me to be.[A]
+[OpenMidLeft]Lord Hector...
+We've lost a great man.[A]
+He was a true warrior.[A]
+[OpenMidRight]We have to retake Ostia.
+For Lord Hector![A]
+And for Lilina...[A]
+[OpenMidLeft]I concur.[A]
+We'll offer what
+help we can.[A]
+[OpenMidRight]Thank you for
+the assistance.[A]
+[OpenMidLeft]Save the thanks for after
+we've retaken the castle.[A]
+Come! We must concentrate
+on the enemy now![A]
+[OpenMidRight]Right![A]
+
+[A0]
+
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadNoah][OpenMidRight][FastPrint][ToggleSmile]Are you one of the
+Ilian mercenaries?[A]
+[OpenMidLeft][NormalPrint]Sure am.
+Can I help you?[A]
+[OpenMidRight][FastPrint]My name is Roy.
+I lead the Lycian Army.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh! I heard about you...[A]
+I'm supposed to take orders
+from you now.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]Are you sure
+that's all right?[A]
+[OpenMidLeft]What do you mean?[A]
+[OpenMidRight][FastPrint]Don't you have to check in
+with your commander...?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]He told us we're joining the
+Lycian Army. That's enough for me.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]But did he mean like this?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]This is a battlefield.[A]
+There's no time to check
+everything with the commander.[A]
+As long as I'm following orders, and
+I am, I can play it by ear.[A]
+[OpenMidRight][NormalPrint]I see.
+Thanks for the help.[A]
+
+[A1]
+
+[OpenMidRight][LoadZelot][NormalPrint]Noah![OpenMidLeft][LoadNoah][OpenMidRight][A]
+[OpenMidLeft][FastPrint][ToggleSmile]Commander Zelot.
+Sorry I'm late.[A]
+[OpenMidRight][CloseSpeechFast]I heard you were coaching a
+girl in swordplay.[A]
+[OpenMidLeft]Yes...[A]
+She was inexperienced and naive,
+so I felt obligated.[A]
+[OpenMidRight][FastPrint]She isn't with you?[A]
+[OpenMidLeft][CloseSpeechFast]She left. She said she was
+heading for the Western Isles.[A]
+[OpenMidRight]Pity. I thought she might have been of
+some help were she still here.[A]
+But you, a coach? Since when do you
+care about other people?[A]
+It's very unlike you.[A]
+[OpenMidLeft][FastPrint]Do you think so, sir?[A]
+[OpenMidRight][NormalPrint]Oh, yes.[A]
+[CloseSpeechFast][ToggleSmile]I even joked with Trec saying
+that you fancied the lass.[A]
+But THAT wouldn't be like you
+in the least, now would it?[A]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+
+[A2]
+
+[OpenMidRight][LoadZelot][OpenMidLeft][LoadTrec][OpenMidRight][FastPrint][ToggleSmile][OpenMidRight]Trec, we're now in service
+to the Lycian Army.[A]
+[OpenMidLeft]OK, I guess.[A]
+[OpenMidRight]Not the most enthusiastic
+response. You don't like the idea?[A]
+[OpenMidLeft]Wha?
+No, it's fine.[A]
+[OpenMidRight]Oh, well, all right then.
+Get to it then.[A][ClearFace]
+[OpenMidLeft]Lycia, huh...?
+Eh, it should all work out.[A]
+
+[A3]
+
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadTrec][OpenMidRight][FastPrint][ToggleSmile]Are you one of the
+Ilian mercenaries?[A]
+[OpenMidLeft][NormalPrint]Hmmm?
+Yeah, I guess so.[A]
+[OpenMidRight][FastPrint]My name is Roy.
+I lead the Lycian Army.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh, I'll take your orders
+from now on then.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]What?
+Just like that?[A]
+[OpenMidLeft]Hm?[A]
+[OpenMidRight][FastPrint]You don't have to check in
+with your commander first?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh. Nah.[A]
+He already said we're joining
+the Lycian Army.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]But still...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Really, it's fine.
+This is a battle.[A]
+There's no time to check every
+little thing with the commander.[A]
+It's not as though I'm going
+against his orders anyway.[A]
+[OpenMidRight][ToggleMouthMove]...All right.[A]
+
+[A4]
+
+[OpenMidLeft][LoadZelot][OpenMidRight][LoadNoah]
+[OpenMidRight][ToggleSmile]Commander Zelot![A]
+[OpenMidLeft]Ah, Noah.[A]
+I heard you were
+at the arena.[A]
+[OpenMidRight]Yes,
+sorry I'm late.[A]
+[OpenMidLeft]Don't worry yourself...
+Things are just getting started.[A]
+I haven't even spoken with the
+Lycian Army's commander yet.[A]
+[OpenMidRight]Oh?[A]
+Actually, I just spoke
+to him.[A]
+[OpenMidLeft]Really?[A]
+Then we'll take any commands
+he gives from now on.[A]
+Noah, I leave further negotiations
+with the Lycian League to you.[A]
+[OpenMidRight]Yes, sir![A]
+
+[A5]
+
+[OpenMidLeft][LoadZelot][OpenMidRight][LoadTrec]
+[OpenMidRight][ToggleSmile]Commander Zelot.[A]
+[OpenMidLeft]Trec.
+What is it?[A]
+[OpenMidRight]I just met with the commander
+of the Lycian Army.[A]
+[OpenMidLeft]Ah, did you?[A]
+Then we'll take any commands
+he gives from now on.[A]
+Trec, I leave further negotiations
+with the Lycian League to you.[A]
+[OpenMidRight]Yes, sir![A]
+
+[A6]
+
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadZelot][FastPrint][OpenMidRight][ToggleSmile]Excuse me, are you Sir Zelot of
+the Ilian mercenaries?[A]
+[OpenMidLeft][NormalPrint]That's me.
+And you are?[A]
+[OpenMidRight][FastPrint]My name is Roy.[A]
+I lead the army that's
+fighting the rebels.[A]
+[OpenMidLeft][CloseSpeechFast]You?[A]
+[OpenMidLeft][FastPrint]Impressive...
+I expected someone older.[A]
+[OpenMidRight][CloseSpeechFast]I'm here because Lord Hector
+asked me to be.[A]
+[OpenMidLeft]Lord Hector...
+We've lost a great man.[A]
+He was a true warrior.[A]
+[OpenMidRight]We have to retake Ostia.
+For Lord Hector![A]
+And for Lilina...[A]
+[OpenMidLeft]I concur.[A]
+We'll offer what
+help we can.[A]
+[OpenMidRight]Thank you for the
+assistance.[A]
+[OpenMidLeft]Save the thanks for after
+we've retaken the castle.[A]
+Come! We must concentrate
+on the enemy now![A]
+[OpenMidRight]Right![A]
+
+[A7]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Look at this great
+bow I made.[A]
+It fires arrows much farther
+than a normal bow![A]
+Very useful, don't you think?
+Of course you do.[A]
+You can have it.
+I want it to go to good use.[A]
+
+[A8]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidRight]Oh, this? This is a torch staff.
+It creates light in foggy places.[A]
+If you're in fog, you can't
+attack anything you can't see.[A]
+This should be helpful if you ever
+find yourself in that situation.[A]
+
+[A9]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidRight]Would you like to buy some elixir?
+It'll patch your wounds right up![A]
+The recipe is top secret...
+Don't ask, because I'm not telling![A]
+What's that?
+You don't want any?[A]
+Here, I'll give you a free sample!
+You won't be disappointed.[A]
+
+[AA]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[ToggleSmile]Ostia is Lycia's greatest city!
+But now look at it...[A]
+What did you say? You're out
+to restore our former glory?[A]
+Then please,
+take this gem...[A]
+It'll fetch a high price
+at any store![A]
+Just use the money
+to help Ostia![A]
+
+[AB]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager14]
+[OpenMidRight][ToggleSmile]Are you going to help Lady Lilina?[A]
+Here's a staff that can heal
+injuries from a distance![A]
+If Lady Lilina's hurt,
+please heal her...[A]
+
+[AC]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
+[OpenMidRight][ToggleSmile]A while back, I saw a man
+dying in the street.[A]
+I helped him out, and he gave
+me this sword.[A]
+Really strange person, but kind...
+Hm? This is the sword.[A]
+You can have it!
+Take good care of it.[A]
+
+[AD]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadSoldier1][ToggleSmile]General Legance has allied
+himself with Bern![A]
+He had all who resisted him
+killed... I escaped, though.[A]
+Please take this. It's a
+Hero crest.[A]
+Give this to an experienced hero,
+and fight to save Ostia...[A]
+
+[AE]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
+Cavaliers, paladins...
+Mounted knights like those.[A]
+This lance is incredibly effective
+against such soldiers.[A]
+There are many horsemen in the rebel
+army, so use this against them![A]
+
+[AF]
+
+[LoadDebias][ToggleSmile]You...you beat Bern's
+wyvern riders!?[A]
+Ergh...
+I'll not let you pass![A]
+
+[B0]
+
+[LoadDebias][ToggleSmile]General Legance...
+Please be cautious...[A]
+These people are...
+powerful...[A]
+
+[B1]
+
+[OpenMidRight][LoadRoy][CloseSpeechFast][ToggleSmile]The city is finally
+under control.[A]
+[OpenMidRight][MoveRight]Now let us retake Castle Ostia
+and rescue Lilina![A]
+[OpenMidLeft][LoadMerlinus]Lord Roy, I understand your
+apprehension, but please be patient![A]
+We still need to break down
+the castle gate.[A]
+[OpenRight][MoveMidRight]...Lilina.[A]
+[OpenMidLeft][CloseSpeechFast]Speaking of Lady Lilina...[A]
+What do you think of what
+Lord Hector said?[A]
+[OpenMidRight]You mean about the dragons?[A]
+They were real, not just myth...[A]
+Lord Hector was one of the
+greatest tacticians in Lycia.[A]
+And yet his army was defeated in
+the blink of an eye...[A]
+[OpenMidLeft]Bern's army is perhaps the
+strongest in Elibe.[A]
+I say, those wyvern riders were
+indeed very formidable opponents.[A]
+[OpenMidRight]Of course the wyvern riders must
+have been difficult enough.[A]
+But the dragons... I can't even
+conceive how powerful they must be.[A]
+Lord Hector mentioned a weapon that
+is effective against dragons...[A]
+I wonder where it's hidden.[A][LoadOverworldFaces]
+[OpenMidLeft]I presume it must be one of
+the legendary weapons.[A]
+[OpenMidRight]If we can obtain those, we might have a
+fighting chance against the dragons.[A]
+But I do wonder what a legendary
+weapon is doing in Ostia.[A]
+[OpenMidLeft]Perhaps Lady Lilina knows
+the answer. I'm curious as well.[A]
+Oh![A]
+Lord Roy, our men have finished
+knocking down the gate.[A]
+We can enter now![A]
+[OpenMidRight][MoveRight]All right! Forward charge![A]
+Rescue Lilina, no matter
+the cost![A]

@@ -22,6 +22,19 @@ ENDA
 SOUN Sound
 	Plays a Sound.
 
+MUSC MusicID
+	Changes music.
+
+MUSS MusicID
+	Changes music while saving the previous song
+    so you can restore it with MURE.
+	
+
+
+
+
+
+
 TILECHANGE TileChange
 
 TILEREVERSE TileChange

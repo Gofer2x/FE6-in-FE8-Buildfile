@@ -1,5 +1,5 @@
 ## BlankDescription
-[N][X]
+ [N][X]
 
 ## PoisonWepDescription
 Improves critical hit rate.[X]

@@ -3,6 +3,7 @@
 
 #include EAstdlib.event
 
+{
 //Tile Changes
 #define SouthVillageDestroyed 0x0
 #define NorthVillageDestroyed 0x1
@@ -18,6 +19,7 @@
 #define RoutFlag 0x6
 #define NorthVillageFlag 0x7
 #define SouthVillageFlag 0x8
+}
 
 EventPointerTable(EVENTS_Ch1,ThisChapter)
 
@@ -121,6 +123,7 @@ ALIGN 4
 
 BeginningScene:
 //Music: An Unexpected Caller
+MUSC MUS_Tension
 LOAD1 0x1 Bandits1
 ENUN
 FlashCursor(Damas, 60)
@@ -158,6 +161,7 @@ ENDA
 
 CursesReinforcementsAlready:
 //Music: Deer of the Plains
+MUSC MUS_ShadowOfTheEnemy
 CAM1[5,3]
 ENUN
 MOVE 0x0 Damas [5, 4]
@@ -190,6 +194,7 @@ ENDA
 
 EndingScene:
 //Play music Triumph
+MUSC MUS_Victory
 SetBackground(Castle_Room)
 TextNoBGNoREMA(Ch1_End1)
 CHECK_ALIVE Bors

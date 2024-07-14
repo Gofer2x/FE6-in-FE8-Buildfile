@@ -1,0 +1,258 @@
+//Chapter 1
+
+
+
+
+[01]
+
+[OpenMidRight][LoadBanditKid]Boss![A]
+They've all hidden themselves
+inside the castle![A]
+[OpenMidLeft][LoadDamas]Heh. Even Eliwood, the greatest knight in
+Lycia, is no match for an illness, it seems.[A][OpenMidRight]Hee hee hee...[A]
+You were right when you said
+there wouldn't be many soldiers.[A]
+They're all getting ready
+to defend against Bern![A]
+[OpenMidLeft]Of course I was right.
+I'm always right, you fool.[A]
+But reinforcements could be
+here any minute.[A][Clear]
+All right, you curs, listen up![A]
+Kill everyone in the castle
+while we still got time![A]
+Then we can waltz outta
+here with all the loot![A]
+
+[02]
+
+[OpenMidRight][LoadScollan]Heh heh, castles ain't the only
+places with loot.[A]
+Let's go ransack the villages
+and take everything they got![A]
+
+[03]
+
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadEliwood][OpenMidLeft][ToggleSmile]Lord Eliwood![A]
+We're under attack by
+bandits from Mount Bolm![A]
+[OpenMidRight]I understand. Thank you, Merlinus...[A]
+Blast it! Were I not in this pitiful state,
+I would take care of them all myself...![A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadLilina][NormalPrint]Lord Eliwood...?[A]
+[OpenMidRight][CloseSpeechFast]Lilina, you must hide yourself.[A]
+This castle is going to
+become a war zone.[A]
+[OpenFarLeft][MoveMidLeft][NormalPrint]No, my lord.
+I can fight, too![A]
+[OpenMidRight][FastPrint]Don't be absurd.[A]
+I couldn't face Hector if something
+happened to you in my own castle.[A]
+[OpenMidLeft][NormalPrint]My father?
+But...[A]
+[OpenMidRight][FastPrint][ToggleSmile]It's going to be all right.[A]
+Roy should be here any moment, so we
+just need to hold our own until then.[A]
+He'll drive off these dastards.[A][OpenMidLeft][ClearFace][OpenMidRight][ToggleSmile]
+[04]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][ToggleSmile]Merlinus![A]
+Send a messenger to Roy to let
+him know the current situation![A]
+We need his help![A]
+[OpenMidLeft][FastPrint]Y-yes, milord![A][ClearFace]
+
+[05]
+
+[06]
+
+[OpenMidLeft][LoadLance][OpenRight][LoadRoy][OpenRight][FastPrint][ToggleSmile]Oh, it's Lance!
+What's the matter?[A]
+Why are you in such a hurry?[A]
+[OpenMidLeft]Lord Roy![A]
+Bandits have appeared and are attacking
+the castle as we speak![A]
+[OpenFarRight][LoadAlen]No!
+Is the marquess unharmed?[A]
+[OpenMidLeft][CloseSpeechFast]He's inside, defending against
+the bandits' attack.[A]
+But I don't know how long he can
+last with his illness...![A]
+[OpenFarRight][ClearFace][OpenFarRight][LoadBors][NormalPrint]Excuse me. Lance, is it?
+Is Lady Lilina safe?[A]
+[OpenMidLeft][CloseSpeechFast]You must be a knight of Ostia.
+Lady Lilina is in the castle.[A]
+She should be all right.[A]
+She's with Lord Eliwood after all,
+but he can't last forever.[A]
+[OpenFarRight][ClearFace][OpenRight]No...[A]
+I shouldn't have let Lilina go to
+the castle before me.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadWolt][FastPrint]Lord Roy, regret won't solve anything!
+We must retake the castle![A]
+[OpenLeft][LoadMarcus]Wolt is right.
+We must make haste![A]
+[OpenRight][NormalPrint]Yes, you're right.
+This is no time to despair.[A][Clear]
+[FastPrint][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenRight]Very well. To arms then![A]
+Our target is the castle!
+We must rescue everyone![A]
+
+[07]
+
+[OpenMidRight][LoadBanditKid]Boss![A]
+They've all hidden themselves
+inside the castle![A]
+[OpenMidLeft][LoadDamas]Heh, even Eliwood, the greatest knight in
+Lycia, is no match for an illness, it seems.[A][OpenMidRight]Hee hee hee...[A]
+You were right when you said
+there wouldn't be many soldiers.[A]
+They're all getting ready
+to defend against Bern![A]
+[OpenMidLeft]Of course I was right.
+I'm always right, you fool.[A]
+But reinforcements could be
+here any minute.[A]
+All right, you curs, listen up![A]
+Kill everyone in the castle
+while we still got time![A]
+Then we can waltz outta
+here with all the loot![A]
+
+[08]
+
+[OpenMidRight][LoadDamas][FastPrint][ToggleSmile]Curses!
+Reinforcements already![A]
+But they'll have to go through
+me to get into the castle![A]
+
+[09]
+
+[0A]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3][FastPrint][ToggleSmile]Are you knights going
+to the castle?[A]
+I know this isn't much...[A]
+But please accept this money
+on behalf of all of us.[A]
+Use it well![A]
+
+[0B]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][CloseSpeechFast]We're all doomed...[A]
+Soldiers from Bern have
+crossed the border...[A]
+They laid an awful attack.[A]
+And even if the allied lords
+strike back, Lord Eliwood...[A]
+He can't even stand anymore...[A]
+
+[0C]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11][CloseSpeechFast]Listen![A]
+If you wanna do well in battle
+you'd better use terrain wisely.[A]
+For example, if you're in a forest
+the trees will cover you.[A]
+That'll teach your enemies who
+they're dealing with.[A]
+
+[0D]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]Money is vital for any army.[A]
+If you don't have any, you won't be
+able to replace your broken weapons.[A]
+And you can't fight
+without weapons![A]
+
+[0E]
+
+[LoadDamas][ToggleSmile]You bumbling idiots![A]
+You can't take down a
+few pathetic knights?![A]
+
+[0F]
+
+[LoadDamas][ToggleSmile]Wh...what the...?!
+S...so strong...[A]
+
+[10]
+
+[11]
+
+[OpenMidRight][LoadRoy][NormalPrint][ToggleSmile]Father!
+Lilina![A]
+[OpenLeft][LoadEliwood][ToggleSmile]Roy, is that you?[A]
+[OpenFarLeft][LoadLilina]Roy![A]
+[OpenMidRight][FastPrint]I'm so glad to see you both!
+Thank goodness you're unharmed.[A]
+[OpenFarLeft][ClearFace][OpenLeft][NormalPrint]Thanks for the
+rescue, Roy.[A]
+[OpenMidRight][FastPrint][ToggleSmile]Of course, Father.
+How is your health?[A]
+[OpenLeft][ToggleSmile]Well enough.
+I've some life in me yet.[A][Clear]
+[ToggleSmile]But Roy, do you know why
+I called you back here?[A]
+[OpenMidRight][CloseSpeechFast]I'm to take over your role by
+leading the soldiers of Pherae.[A]
+We must join the rest of the Lycian
+Army to defend our people.[A]
+[OpenLeft]Exactly.[A]
+As you know, Bern has
+commenced an invasion of Lycia.[A]
+We are honorbound to follow
+the vows of our allegiance.[A]
+Lycia needs every lord's army,
+and we must oblige.[A]
+[OpenMidRight][NormalPrint]Of course.[A]
+[OpenLeft][CloseSpeechFast]I'm truly sorry to interrupt your
+studies and force you into this war,[A]
+but I'm not well... I'm in no
+condition to lead an army.[A]
+[OpenMidRight][NormalPrint]Father...[A][SendToBack]
+[OpenFarLeft][LoadLilina][CloseSpeechFast][ToggleSmile]Lord Eliwood!
+I'll go with Roy![A]
+My father leads
+Lycia's largest army.[A]
+And I'm certain my magic will
+be of help to Roy...[A][SendToBack]
+[OpenLeft]No, Lilina.
+You must return to Ostia.[A]
+[OpenMidRight][ClearFace][OpenFarLeft][ClearFace][OpenRight][LoadLilina][NormalPrint][ToggleSmile]...Why?[A][.....]
+[OpenLeft][CloseSpeechFast][ToggleSmile]With Hector preparing for battle, there is
+no one sitting on the throne of Ostia.[A]
+It must be an uneasy feeling for the
+people not to have a sitting lord.[A]
+As the daughter of the marquess, you must
+take the throne until Hector returns.[A]
+That will put the people at ease.[A]
+Do you have any objections?[A]
+[OpenRight][NormalPrint][ToggleSmile]...No, my lord.[A]
+[OpenRight][ClearFace][OpenMidRight][LoadRoy][OpenLeft][CloseSpeechFast][ToggleSmile]Roy, I have arranged a contract with
+a group of mercenaries.[A]
+You are to meet them at the border to
+Bern. Merlinus will accompany you.[A]
+He is knowledgable and experienced and
+should be of great help.[A]
+[OpenMidRight]Thank you for everything,
+Father.[A]
+[OpenLeft][ToggleSmile]Don't worry, my son.
+I have absolute faith in you![A]
+Fight bravely, and show everyone who
+the next marquess of Pherae is![A]
+[OpenMidRight][NormalPrint][ToggleSmile]Yes, Father![A][OpenLeft][ClearFace][OpenMidRight][ClearFace]
+
+[12]
+
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadBors][OpenMidLeft][NormalPrint][ToggleSmile]Bors, I have a
+favor to ask of you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]You needn't ask, milady.[A]
+I will accompany Lord Roy in his travels
+and protect him with my very life.[A]
+[OpenMidLeft][FastPrint]Thank you, Bors.[A][OpenMidRight][ClearFace][OpenMidLeft][ClearFace]
+
+[13]
+
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile][.....]Take care, Roy.[A]
+[OpenMidRight][ToggleSmile]I will.
+You too, Lilina.[A]

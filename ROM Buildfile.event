@@ -28,7 +28,7 @@
 	
 	#include "Events/Chapter Events Installer.event"
 	
-	#include "Music/Music Installer.event"
+	//#include "Music/Music Installer.event"
 #else
     ERROR You are not assembling FE8 events!
 #endif

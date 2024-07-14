@@ -1,0 +1,243 @@
+//Chapter 6
+[8D]
+[OpenMidRight][LoadCath][ToggleSmile]I snuck in here no problem, but
+there's nothing worth stealing![A]
+Hmm, looks like the north hall has all
+the valuables, but with that security--[A][Clear]
+...Are those footsteps?[A][ClearFace][LoadOverworldFaces][......]
+[OpenMidRight][LoadWagner][OpenMidLeft][LoadSoldier2]
+[OpenMidRight][FastPrint]I trust everything is under control.[A]
+[OpenMidLeft]Yes, Sir Wagner, the soldiers are
+stationed all around the castle.[A]
+[OpenMidRight][CloseSpeechFast]Once they're inside and have their guard
+down, ambush them, just as with Lord Orun.[A]
+[OpenMidLeft]Yes, sir.[A]
+[OpenMidRight]I want Princess Guinivere alive.[A]
+The rest you can do with
+as you wish.[A]
+Now go.[A]
+[OpenMidLeft][ClearFace][.....]
+[OpenMidRight][NormalPrint]Ha ha ha ha...[A]
+[CloseSpeechFast][ToggleSmile]First the Silver Wolf's granddaughter,
+and now Princess Guinivere...[A]
+With so much to offer, Bern is certain
+to allow us to join them.[A]
+[OpenMidRight][ClearFace][......]
+[OpenFarFarRight][LoadCath][MoveMidRight]Hmmm...[.....]
+Now isn't that interesting.[A]
+
+[8E]
+
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft]Finally we can get a good
+night's rest, Lord Roy![A]
+[OpenMidRight][ToggleSmile]I wonder.[A]
+That man said he was
+Lord Orun's advisor...[A]
+[OpenMidLeft]Wagner? Did something
+seem wrong with him?[A]
+[OpenMidRight]He seemed to be in control of
+everything, as if he were the lord.[A]
+And Lord Orun is so ill he can't
+even meet his guests?[A]
+It all seems strange...[A]
+[OpenMidLeft]Now that you mention it,
+you have a point.[A][ClearFace]
+[OpenLeft][LoadSaul][CloseSpeechFast]Excuse me, Lord Roy.[A]
+There seem to be an awful lot of
+soldiers patrolling the castle.[A]
+[OpenFarLeft][LoadDorothy]I think they're spying on us.[A][SendToBack]
+[OpenMidRight][NormalPrint]What?
+No...[A][SendToBack]
+[OpenFarFarLeft][LoadCath][CloseSpeechFast]You noticed?
+Not bad.[A]
+[OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidRight][MoveRight][NormalPrint]Who's there?!
+Show yourself, intruder![A]
+[OpenFarFarLeft][MoveMidLeft][ToggleSmile]Hi![A]
+[OpenRight][FastPrint][ToggleSmile]And...who might you be?[A]
+[OpenMidLeft][CloseSpeechFast]Aw, I'm not one to talk about myself.[A]
+I overheard that Wagner guy
+in the main hall though.[A]
+He said they're gonna ambush
+you guys.[A]
+[OpenRight][NormalPrint]Lord Orun would never do that![A]
+[OpenMidLeft]Oh yeah, he's dead, I think.[A]
+Wagner assassinated him
+or something.[A]
+[OpenRight]What?![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]He wants to capture you all
+and turn you over to Bern.[A]
+[OpenFarRight][ClearFace][LoadMerlinus][ToggleSmile]Wait, Lord Roy![A]
+We can't trust her word
+so easily![A]
+[OpenMidLeft][ToggleSmile]It's up to you whether you
+trust me or not.[A]
+But don't say I didn't
+warn ya![A][SendToBack]
+[OpenFarRight][ClearFace][LoadGuinivere][NormalPrint][ToggleSmile]Roy...
+If what she says is true...[A][SendToBack]
+[OpenRight][CloseSpeechFast]Let's spring his trap.
+We'll pretend like we're leaving.[A]
+If Wagner is after us, he'll try
+to persuade us to stay.[A]
+[OpenMidLeft][ToggleSmile]If you wanna get out,
+go through the north hall![A]
+That'll bring you to the courtyard,
+so you'll be outta here in no time.[A]
+Good luck![A]
+
+[8F]
+
+[OpenMidLeft][LoadWagner][OpenFarRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Oh, Lord Roy!
+Where are you off to?[A]
+I will escort you back into the
+castle. Please follow me.[A]
+[OpenFarRight]My apologies, Sir Wagner.[A]
+I have just received a report
+of grave importance.[A]
+Please excuse us, but we must
+take our leave now.[A]
+[OpenMidLeft]Surely you would appreciate a warm bed
+after being in the field for so long.[A]
+Lord Orun would be furious with me if you
+left without accepting our hospitality.[A]
+[OpenFarRight]Don't worry, I shall tell Lord Orun
+myself that you are not to blame.[A]
+I ought to at least offer him
+a greeting anyway.[A]
+Please show us to his room.[A]
+[OpenMidLeft]As I said, milord, Lord Orun is
+ill and cannot accept guests.[A]
+[OpenFarRight]If we cannot see him,
+then we must be off.[A]
+[OpenMidLeft][MoveLeft][NormalPrint]There's nothing I can offer
+to make you stay?[A]
+[OpenFarRight][ToggleMouthMove]......[A]
+[OpenLeft][CloseSpeechFast][ToggleMouthMove]You leave me no choice then![A]
+Guards! Attack![A]
+Kill them all, but leave
+Princess Guinivere alive![A][ClearFace]
+[OpenFarRight]The girl was right! They
+were trying to ambush us![A]
+[OpenMidLeft][LoadSaul]Lord Roy![A]
+If we go this way, we'll be leaving
+our rear open to attack![A]
+[OpenFarRight]Then we'll seize the whole castle!
+Everyone, follow my lead![A]
+
+[90]
+
+[OpenMidRight][LoadCath][FastPrint]Hoo-boy, they're at each
+other's throats now.[A]
+Time to pilfer what I can now
+that security's busy.[A]
+
+[91]
+
+[OpenMidRight][LoadSue][FastPrint][ToggleSmile]All that noise...[A]
+A battle?
+What is going on out there?[A]
+
+[92]
+
+[OpenMidLeft][LoadSue][OpenMidRight][LoadRoy][OpenMidLeft][NormalPrint][ToggleSmile]Who are you?[A]
+[OpenMidRight][FastPrint]What's a girl doing in here?[A]
+[OpenMidLeft]You aren't with the castle?[A]
+[OpenMidRight]My name is Roy.
+Who are you?[A]
+[OpenMidLeft]I am Sue. Are you the one
+causing that noise outside?[A]
+[OpenMidRight][NormalPrint]Noise?[A]
+[OpenMidLeft]The noise of a battle.[A]
+[OpenMidRight][CloseSpeechFast]Oh, I guess so.[A]
+We're fighting the
+castle guards.[A]
+It's a bit of
+a long story...[A]
+[OpenMidLeft][FastPrint]I see.
+Then I will join your side.[A]
+[OpenMidRight][NormalPrint]You will?
+Why?[A]
+[OpenMidLeft][FastPrint]The soldiers of this castle
+have wronged me.[A]
+[OpenMidRight]What?
+What do you mean...?[A]
+[OpenMidLeft]Please give me a bow.
+I will fight with you.[A]
+
+[93]
+
+[LoadWagner][ToggleSmile]Useless guards!
+But very well.[A]
+Witness my magic...and bow
+down before its power![A]
+
+[94]
+
+[LoadWagner]
+[ToggleSmile]No... My plan...
+was flawless...[A]
+
+[95]
+
+[OpenMidLeft][LoadSue][OpenMidRight][LoadRoy][OpenMidRight][CloseSpeechFast][ToggleSmile]...You're the granddaughter of one
+of the chieftains of Sacae?[A]
+[OpenMidLeft]My grandfather is the strongest
+warrior in Sacae.[A]
+People call him the
+Silver Wolf.[A]
+[OpenMidRight]The Silver Wolf...
+I've heard tales of him.[A]
+But what are you doing in Lycia?
+This is a long way from Sacae.[A]
+[OpenMidLeft]Bern invaded Sacae, so the Kutolah
+clan decided to take up arms.[A]
+Grandfather had the women and
+children escape to Lycia, but...[A]
+[OpenMidRight][NormalPrint]But?[A]
+[OpenMidLeft][FastPrint]There was a traitor.[A]
+[CloseSpeechFast]The Djute clan, who turned to
+Bern's side, ambushed us.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]We were all separated.[A]
+I found my way into this land and
+I was rescued by Lord Orun.[A]
+But Wagner, his advisor, assassinated
+Lord Orun and took over the castle.[A]
+[OpenMidRight]And that's when you
+were captured...[A]
+[OpenMidLeft][FastPrint]Is your army fighting Bern?[A]
+[OpenMidRight]Yes, we will fight for
+as long as it takes.[A]
+[OpenMidLeft]Then let me join you.[A]
+Fighting Bern may lead
+me to Grandfather.[A]
+Lord Orun deserves
+vengeance as well.[A]
+[OpenMidRight]We're headed for Ostia, in the west.[A]
+Sacae is in the east, the opposite
+direction. Is that all right?[A]
+[OpenMidLeft][CloseSpeechFast]I don't mind.[A]
+No matter where we are, Mother Earth
+and Father Sky watch over me.[A]
+
+[96]
+
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]
+Lord Roy! The spy I sent to
+Ostia has just returned.[A]
+He says that Ostia is in
+a state of anarchy![A]
+[OpenMidRight][MoveRight]What?! Why?[A]
+[OpenMidLeft][CloseSpeechFast]There's been a rebellion among those
+who want to surrender to Bern.[A]
+[OpenRight][FastPrint]Is Lilina safe?[A]
+[OpenMidLeft][CloseSpeechFast]The spy says that she has
+been taken hostage.[A]
+The rebels already took over Castle Ostia
+and are fighting the loyalist soldiers.[A]
+[OpenMidLeft][ClearFace]
+[OpenRight][FastPrint]We must hurry to Ostia!
+Lilina... Please be safe![A]

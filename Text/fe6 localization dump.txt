@@ -1,3613 +1,7 @@
 [00]
 
-[01]
-[OpenMidRight][LoadBanditKid]Boss![A]
-They've all hidden themselves
-inside the castle![A]
-[OpenMidLeft][LoadDamas]Heh. Even Eliwood, the greatest knight in
-Lycia, is no match for an illness, it seems.[A][OpenMidRight]Hee hee hee...[A]
-You were right when you said
-there wouldn't be many soldiers.[A]
-They're all getting ready
-to defend against Bern![A]
-[OpenMidLeft]Of course I was right.
-I'm always right, you fool.[A]
-But reinforcements could be
-here any minute.[A][Clear]
-All right, you curs, listen up![A]
-Kill everyone in the castle
-while we still got time![A]
-Then we can waltz outta
-here with all the loot![A]
-[02]
-[OpenMidRight][LoadScollan]Heh heh, castles ain't the only
-places with loot.[A]
-Let's go ransack the villages
-and take everything they got![A]
-[03]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadEliwood][OpenMidLeft][ToggleSmile]Lord Eliwood![A]
-We're under attack by
-bandits from Mount Bolm![A]
-[OpenMidRight]I understand. Thank you, Merlinus...[A]
-Blast it! Were I not in this pitiful state,
-I would take care of them all myself...![A]
-[OpenMidLeft][ClearFace][OpenFarLeft][LoadLilina][NormalPrint]Lord Eliwood...?[A]
-[OpenMidRight][CloseSpeechFast]Lilina, you must hide yourself.[A]
-This castle is going to
-become a war zone.[A]
-[OpenFarLeft][MoveMidLeft][NormalPrint]No, my lord.
-I can fight, too![A]
-[OpenMidRight][FastPrint]Don't be absurd.[A]
-I couldn't face Hector if something
-happened to you in my own castle.[A]
-[OpenMidLeft][NormalPrint]My father?
-But...[A]
-[OpenMidRight][FastPrint][ToggleSmile]It's going to be all right.[A]
-Roy should be here any moment, so we
-just need to hold our own until then.[A]
-He'll drive off these dastards.[A][OpenMidLeft][ClearFace][OpenMidRight][ToggleSmile]
-[04]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][ToggleSmile]Merlinus![A]
-Send a messenger to Roy to let
-him know the current situation![A]
-We need his help![A]
-[OpenMidLeft][FastPrint]Y-yes, milord![A][ClearFace]
-[05]
 
-[06]
-[OpenMidLeft][LoadLance][OpenRight][LoadRoy][OpenRight][FastPrint][ToggleSmile]Oh, it's Lance!
-What's the matter?[A]
-Why are you in such a hurry?[A]
-[OpenMidLeft]Lord Roy![A]
-Bandits have appeared and are attacking
-the castle as we speak![A]
-[OpenFarRight][LoadAlen]No!
-Is the marquess unharmed?[A]
-[OpenMidLeft][CloseSpeechFast]He's inside, defending against
-the bandits' attack.[A]
-But I don't know how long he can
-last with his illness...![A]
-[OpenFarRight][ClearFace][OpenFarRight][LoadBors][NormalPrint]Excuse me. Lance, is it?
-Is Lady Lilina safe?[A]
-[OpenMidLeft][CloseSpeechFast]You must be a knight of Ostia.
-Lady Lilina is in the castle.[A]
-She should be all right.[A]
-She's with Lord Eliwood after all,
-but he can't last forever.[A]
-[OpenFarRight][ClearFace][OpenRight]No...[A]
-I shouldn't have let Lilina go to
-the castle before me.[A]
-[OpenMidLeft][ClearFace][OpenFarLeft][LoadWolt][FastPrint]Lord Roy, regret won't solve anything!
-We must retake the castle![A]
-[OpenLeft][LoadMarcus]Wolt is right.
-We must make haste![A]
-[OpenRight][NormalPrint]Yes, you're right.
-This is no time to despair.[A][Clear]
-[FastPrint][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenRight]Very well. To arms then![A]
-Our target is the castle!
-We must rescue everyone![A]
-[07]
-[OpenMidRight][LoadBanditKid]Boss![A]
-They've all hidden themselves
-inside the castle![A]
-[OpenMidLeft][LoadDamas]Heh, even Eliwood, the greatest knight in
-Lycia, is no match for an illness, it seems.[A][OpenMidRight]Hee hee hee...[A]
-You were right when you said
-there wouldn't be many soldiers.[A]
-They're all getting ready
-to defend against Bern![A]
-[OpenMidLeft]Of course I was right.
-I'm always right, you fool.[A]
-But reinforcements could be
-here any minute.[A]
-All right, you curs, listen up![A]
-Kill everyone in the castle
-while we still got time![A]
-Then we can waltz outta
-here with all the loot![A]
-[08]
-[OpenMidRight][LoadDamas][FastPrint][ToggleSmile]Curses!
-Reinforcements already![A]
-But they'll have to go through
-me to get into the castle![A]
-[09]
-
-[0A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3][FastPrint][ToggleSmile]Are you knights going
-to the castle?[A]
-I know this isn't much...[A]
-But please accept this money
-on behalf of all of us.[A]
-Use it well![A]
-[0B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][CloseSpeechFast]We're all doomed...[A]
-Soldiers from Bern have
-crossed the border...[A]
-They laid an awful attack.[A]
-And even if the allied lords
-strike back, Lord Eliwood...[A]
-He can't even stand anymore...[A]
-[0C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11][CloseSpeechFast]Listen![A]
-If you wanna do well in battle
-you'd better use terrain wisely.[A]
-For example, if you're in a forest
-the trees will cover you.[A]
-That'll teach your enemies who
-they're dealing with.[A]
-[0D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]Money is vital for any army.[A]
-If you don't have any, you won't be
-able to replace your broken weapons.[A]
-And you can't fight
-without weapons![A]
-[0E]
-[LoadDamas][ToggleSmile]You bumbling idiots![A]
-You can't take down a
-few pathetic knights?![A]
-[0F]
-[LoadDamas][ToggleSmile]Wh...what the...?!
-S...so strong...[A]
-[10]
-
-[11]
-[OpenMidRight][LoadRoy][NormalPrint][ToggleSmile]Father!
-Lilina![A]
-[OpenLeft][LoadEliwood][ToggleSmile]Roy, is that you?[A]
-[OpenFarLeft][LoadLilina]Roy![A]
-[OpenMidRight][FastPrint]I'm so glad to see you both!
-Thank goodness you're unharmed.[A]
-[OpenFarLeft][ClearFace][OpenLeft][NormalPrint]Thanks for the
-rescue, Roy.[A]
-[OpenMidRight][FastPrint][ToggleSmile]Of course, Father.
-How is your health?[A]
-[OpenLeft][ToggleSmile]Well enough.
-I've some life in me yet.[A][Clear]
-[ToggleSmile]But Roy, do you know why
-I called you back here?[A]
-[OpenMidRight][CloseSpeechFast]I'm to take over your role by
-leading the soldiers of Pherae.[A]
-We must join the rest of the Lycian
-Army to defend our people.[A]
-[OpenLeft]Exactly.[A]
-As you know, Bern has
-commenced an invasion of Lycia.[A]
-We are honorbound to follow
-the vows of our allegiance.[A]
-Lycia needs every lord's army,
-and we must oblige.[A]
-[OpenMidRight][NormalPrint]Of course.[A]
-[OpenLeft][CloseSpeechFast]I'm truly sorry to interrupt your
-studies and force you into this war,[A]
-but I'm not well... I'm in no
-condition to lead an army.[A]
-[OpenMidRight][NormalPrint]Father...[A][SendToBack]
-[OpenFarLeft][LoadLilina][CloseSpeechFast][ToggleSmile]Lord Eliwood!
-I'll go with Roy![A]
-My father leads
-Lycia's largest army.[A]
-And I'm certain my magic will
-be of help to Roy...[A][SendToBack]
-[OpenLeft]No, Lilina.
-You must return to Ostia.[A]
-[OpenMidRight][ClearFace][OpenFarLeft][ClearFace][OpenRight][LoadLilina][NormalPrint][ToggleSmile]...Why?[A][.....]
-[OpenLeft][CloseSpeechFast][ToggleSmile]With Hector preparing for battle, there is
-no one sitting on the throne of Ostia.[A]
-It must be an uneasy feeling for the
-people not to have a sitting lord.[A]
-As the daughter of the marquess, you must
-take the throne until Hector returns.[A]
-That will put the people at ease.[A]
-Do you have any objections?[A]
-[OpenRight][NormalPrint][ToggleSmile]...No, my lord.[A]
-[OpenRight][ClearFace][OpenMidRight][LoadRoy][OpenLeft][CloseSpeechFast][ToggleSmile]Roy, I have arranged a contract with
-a group of mercenaries.[A]
-You are to meet them at the border to
-Bern. Merlinus will accompany you.[A]
-He is knowledgable and experienced and
-should be of great help.[A]
-[OpenMidRight]Thank you for everything,
-Father.[A]
-[OpenLeft][ToggleSmile]Don't worry, my son.
-I have absolute faith in you![A]
-Fight bravely, and show everyone who
-the next marquess of Pherae is![A]
-[OpenMidRight][NormalPrint][ToggleSmile]Yes, Father![A][OpenLeft][ClearFace][OpenMidRight][ClearFace]
-[12]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadBors][OpenMidLeft][NormalPrint][ToggleSmile]Bors, I have a
-favor to ask of you.[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]You needn't ask, milady.[A]
-I will accompany Lord Roy in his travels
-and protect him with my very life.[A]
-[OpenMidLeft][FastPrint]Thank you, Bors.[A][OpenMidRight][ClearFace][OpenMidLeft][ClearFace]
-[13]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile][.....]Take care, Roy.[A]
-[OpenMidRight][ToggleSmile]I will.
-You too, Lilina.[A]
-[14]
-[OpenMidLeft][LoadRoy][OpenMidRight][LoadCecilia][OpenMidRight]
-Today, Roy, I will instruct you
-in basic combat tactics.[A]
-[15]
-[OpenMidRight][LoadCecilia]
-First, do you see this
-moving square?[A]
-This is the cursor, which is used
-to give commands to soldiers.[A][LoadOverworldFaces]
-Let's begin the mock battle.[A]
-I'm sure you have questions, but I'll be
-here to advise you as needed.[A]
-[16]
-[OpenMidRight][LoadCecilia]
-To win any battle, you, Roy, must seize
-the enemy's main point of defense.[A]
-That could be a castle gate, a throne,
-or any number of locations.[A]
-The enemy leader's position is
-the location you want to seize.[A]
-[17]
-[LoadCecilia]This is the point you must seize
-for this training session.[A]
-First, make your way
-toward the castle gate.[A]
-I'll teach you how to move
-yourself around the map.[A]
-[18]
-[OpenMidRight][LoadCecilia]Units are soldiers that move
-around the field and fight.[A]
-Blue units are your allies, and
-red units are your enemies.[A]
-Let's try moving. Use the
-+ Control Pad to move your cursor.[A]
-It's already positioned on you,
-so you can just press the A Button.[A]
-[19]
-The blue squares indicate where
-you can move.[A]
-Use the cursor to select where
-to move, and press the A Button.[A]
-If you change your mind,
-press the B Button to cancel.[A]
-Many actions can be cancelled
-by pressing the B Button,[A]
-so remember that if you
-make a mistake.[A]
-[1A]
-The red squares outside the blue
-squares indicate where you can attack.[A]
-It appears there's an
-enemy unit in a red square.[A]
-[1B]
-To attack him, move to an area
-adjacent to the enemy unit.[A]
-Select an area and press
-the A Button.[A]
-[1C]
-Select Attack and
-press the A Button.[A]
-[1D]
-[OpenMidRight][LoadCecilia]If an enemy survives your first attack,
-it may perform a counterattack.[A]
-A unit with much higher speed than
-its opponent will attack twice.[A]
-[1E]
-Look at the red zone,
-or the attack range.[A]
-For you it was only one space,
-but for this unit it's two spaces.[A]
-That's because Wolt can attack
-from a distance with his bow.[A]
-Different weapons can attack
-in different ways.[A]
-[1F]
-Wolt can engage in indirect
-combat with his bow.[A]
-[20]
-To attack with a bow,[A]
-your unit must be 1 space
-away from the enemy.[A]
-Try moving to one of these
-spaces.[A]
-[21]
-Select Attack from
-the menu.[A]
-[22]
-[OpenMidRight][LoadCecilia]
-That was indirect combat
-with a bow.[A]
-If the enemy has no weapons
-capable of indirect combat,[A]
-there's no fear of counterattack.[A]
-However, you cannot fire
-on adjacent spaces.[A]
-If someone moves next to
-you and attacks, that's it.[A]
-[23]
-Some weapons,
-such as magic and javelins,[A]
-can strike enemies in adjacent squares
-as well as those at a distance.[A]
-As you can see, the red
-zone is extended.[A]
-[24]
-Now you can attack
-with magic.[A]
-[25]
-You can either attack from close
-up or keep your distance.[A]
-[26]
-Select Attack.[A]
-Also, do you remember the
-R Button?[A]
-You can press the R Button to
-see help messages here, too.[A]
-[27]
-
-[28]
-[OpenMidRight][LoadCecilia]That was a magic attack.[A]
-You can attack from a distance to avoid
-counterattacks from many foes,[A]
-and you can also attack from an adjacent
-square to avoid counterattacks from bows.[A]
-I think you'll find magic to be
-highly versatile.[A]
-[29]
-Choose which weapon to equip.[A]
-[2A]
-Select the enemy to attack.[A]
-If there are multiple enemies
-in your attack range,[A]
-use your cursor to choose the
-enemy you want to attack.[A]
-Right now there's only one enemy
-in range.[A]
-[2B]
-Now, press the A Button
-to attack![A]
-[2C]
-[OpenMidRight][LoadCecilia]
-If a unit takes a hit,[A]
-its HP, or hit points,
-will be reduced.[A]
-If a unit's HP is reduced
-to zero, that unit will be lost.[A]
-Once a unit is lost,
-it's gone for good.[A]
-Also, if you lose all your HP,
-Roy, the battle is lost.[A]
-That means game over.
-So be careful.[A]
-[2D]
-
-[2E]
-Do you see the Visit command?[A]
-If you select it and press the A Button,
-you can visit the village.[A]
-[2F]
-[OpenMidRight][LoadCecilia]Visiting villages may earn you
-items or money.[A]
-You can use any items you obtain
-with the Item command.[A]
-[30]
-
-[31]
-
-[32]
-
-[33]
-[OpenMidRight]
-These are a unit's details.
-There are many parameters here,[A]
-but I won't bore you by
-explaining each one.[A]
-If you want to know about the
-different values,[A]
-press the R Button for
-more information.[A]
-Also, if you press right and left on the
-+ Control Pad on this screen,[A]
-you can view additional information,
-such as held items and weapon skills.[A]
-When you're done, press
-the B Button to return to the map.[A]
-[34]
-
-[35]
-[OpenMidRight][LoadCecilia]When the enemy's turn is done,
-it's your turn again.[A]
-The battle proceeds like this
-in a turn-by-turn fashion.[A]
-[36]
-[OpenMidRight][LoadWolt]All right! I'll help
-Lord Roy with my bow![A]
-[37]
-[LoadCecilia]Roy, the archer Wolt came
-to help you.[A]
-You're not the only unit
-you can move.[A]
-You have command over all
-of your allies, too,[A]
-but remember that you are
-responsible for their lives.[A]
-And one more thing...[A]
-[38]
-[LoadCecilia]
-Do you see where
-the cursor is?[A]
-This is the entrance
-to a village.[A]
-You should inform
-the village of the battle.[A]
-Once you move to the
-entrance of a village,[A]
-you can select Visit
-to inform them.[A]
-[39]
-[OpenMidRight][LoadLilina]Roy, are you all right?
-I'll help you with my magic![A]
-[3A]
-
-[3B]
-[OpenMidRight][LoadCecilia]
-Do you think you have a grasp
-on the basics of battle now?[A][Clear]
-Now I'll tell you about one of the
-most powerful weapons you have...[A]
-Information.[A]
-You can press the R Button to 
-investigate numerous things.[A]
-For example, if you press the R Button while
-the cursor is on a unit,[A]
-you can view its statistics,
-items, and other data.[A]
-You can also press the R Button on
-commands if you don't understand them.[A]
-If there's something you're unsure
-of, the R Button is there to help.[A]
-[3C]
-[OpenMidLeft][LoadCecilia]
-You will soon approach
-the castle.[A]
-Like I said before,
-to win,[A]
-you have to seize the
-castle gate or throne.[A]
-In other words, where
-the enemy leader is.[A]
-Bors is leading the enemy
-in this training mission,[A]
-so your final task is to
-defeat him.[A]
-Once you've done that, use
-the Seize command on the gate,[A]
-and victory will be yours![A]
-[3D]
-[OpenMidRight][LoadCecilia]
-Good! You defeated the enemy leader.[A]
-Now, Roy, all that's left is for you to
-move onto the castle gate and Seize it.[A]
-[3E]
-Do you see the Seize command?[A]
-Select it and press the A Button
-to win the battle.[A]
-[3F]
-The Rescue command allows you
-to carry allies to protect them.[A]
-A unit can only be rescued if its Con stat
-is lower than the rescuer's Aid stat.[A]
-You can see a unit's Con and Aid
-values on the unit data screen.[A]
-While a unit is carrying another,[A]
-its combat statistics are lowered
-significantly, so be careful.[A]
-After rescuing a unit,[A]
-you can drop it onto a space by
-using the Drop command.[A]
-Or if you prefer,[A]
-you can pass it to another unit
-with the Give or Take commands.[A]
-Remember, however, that you can
-only perform one command per turn.[A]
-[40]
-The Trade command allows a unit
-to trade items with other units.[A]
-If you select the command and
-press the A Button,[A]
-the two units' inventories will
-be displayed.[A]
-You may select which items you
-want to trade with the A Button.[A]
-If you just want to give or
-take an item,[A]
-trade that item to an empty
-space.[A]
-If you give all of a unit's
-weapons to another unit,[A]
-it won't be able to fight,
-however, so use caution.[A]
-[41]
-
-[42]
-These are commands that you
-can give to your units.[A]
-Right now, you can see the
-Item and Wait commands.[A]
-You can issue a command
-with the A Button.[A]
-The Item command allows you to
-equip, use, or discard items.[A]
-If you're finished with a unit,
-select Wait to end its turn.[A]
-Remember that you can cancel
-with the B Button,[A]
-but if you select Wait you can't
-take it back,[A]
-so make sure you're finished
-before selecting it.[A]
-[43]
-
-[44]
-[OpenMidRight][LoadCecilia]
-I'll tell you about the map menu now.[A]
-Move the cursor to an empty space
-and press the A Button.[A]
-You can see more information about
-each command by using the R Button.[A]
-[45]
-If you press the A Button when the
-cursor is on an unoccupied space,[A]
-the map menu appears.[A]
-First, look at the bottom command.[A]
-You can choose End to end your turn
-before moving all of your units.[A]
-Just select it and press the A Button
-if you're ready.[A]
-If you want to return to the map and
-the cursor, press the B Button.[A]
-[46]
-[LoadCecilia]Roy...! Nooo![A]
-...That's what I would be saying
-if this was a real battle.[A]
-This battle is lost.[A]
-Don't be discouraged...
-We'll try again tomorrow.[A]
-Let's get some rest.[A]
-[47]
-[LoadLilina]
-Roy... If this was a real
-battle, I'd be dead.[A]
-Remember that defeated
-allies are gone forever.[A]
-Be more careful in real
-battles, OK...?[A]
-[48]
-[LoadWolt]
-L-Lord Roy...[A]
-This is only a training
-session, so I'm fine,[A]
-but if this were a real
-battle, I would be dead.[A]
-When defeated, allies are
-gone forever.[A]
-[49]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
-Thank you for coming.[A]
-Please remember to inform the
-villagers in real battles as well.[A]
-[4A]
-[OpenMidLeft][LoadRoy][OpenMidRight][LoadCecilia]
-Good job! You've captured
-the enemy's castle gate.[A]
-That finishes our training
-session for today.[A]
-How do you feel?
-Do you think you can do it?[A]
-If you ever find yourself in
-a real battle,[A]
-just remember what you learned
-here today and you'll be fine.[A]
-[4B]
-[LoadBors]Ah, you've made it.[A]
-This is a training session,
-but a battle all the same.[A]
-Don't expect me to go
-easy on you![A]
-[4C]
-[LoadBors]Well... You win.
-Nicely done.[A]
-[4D]
-[OpenMidRight][LoadMelady][OpenMidLeft][LoadRuud][OpenMidRight][ToggleSmile]All I want to know is what
-happened to Princess Guinivere![A]
-[OpenMidLeft]Y-yes, Captain Melady...[A]
-I'm certain she was in her room this
-morning, but she simply vanished...[A]
-[OpenMidRight][MoveRight][FastPrint]You told me that already, you buffoon![A]
-I don't want excuses! Are you so
-incompetent you can't understand that?![A]
-[OpenMidLeft][MoveFarLeft][NormalPrint]Well... I... Er...[A]
-[OpenRight][FastPrint]Our forces are mobilizing to
-begin a full-scale war with Lycia.[A]
-How are we to focus on the battle
-if the princess is missing?![A]
-Naturally, you will take full
-responsibility for her disappearance.[A]
-[OpenFarLeft][NormalPrint][ToggleMouthMove]......[A]
-[OpenRight][CloseSpeechFast][ToggleMouthMove]I never should have let Her Highness
-come to the border to begin with.[A]
-I will return to Bern and inform
-the king of this matter.[A]
-I'll try not to cause a panic, but I can't
-promise your life if the princess isn't found.[A]
-I trust you'll take every measure to
-locate her as soon as possible.[A]
-[OpenFarLeft][NormalPrint]Yes, Captain![A]
-[4E]
-[OpenMidRight][LoadRuud][OpenMidLeft][LoadSoldier2][OpenMidRight][FastPrint][ToggleSmile]Is Princess Guinivere
-secure?[A]
-[OpenMidLeft][NormalPrint]Yes, Commander. She's under constant
-surveillance in the cellar.[A]
-[OpenMidRight][CloseSpeechFast]Good.
-Don't let her escape.[A]
-[OpenMidLeft]But Commander...[A]
-Are you sure this
-is a good idea?[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]Of course I'm sure![A]
-The younger sister of King Zephiel...[A]
-We're sure to get a hefty sum turning
-her over to one of Bern's enemies.[A]
-[OpenMidLeft][ToggleSmile][ToggleMouthMove]......[A][ToggleMouthMove]
-[OpenMidRight]Loyalty to one's king.
-Bah. What a worthless notion.[A]
-The world is ruled by neither king
-nor queen. It's ruled by gold![A]
-[OpenMidLeft]Yes, indubitably, Commander.[A]
-...But there has been a
-snag, shall we say.[A]
-[OpenMidRight]Hm?
-What do you mean?[A]
-[OpenMidLeft]I just received a report...[A]
-It seems that Princess Guinivere's
-lady-in-waiting has escaped...[A]
-[OpenMidRight]What?! You lout, why didn't
-you say so earlier?[A][Clear]
-Find her this instant!
-Don't let her get away![A]
-[4F]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy,
-this is the location.[A]
-[OpenMidRight]This is where we're supposed
-to meet the mercenaries?[A]
-[OpenMidLeft][FastPrint]Yes, though it seems
-they aren't here yet.[A]
-[Clear]Wait, who's that? Somebody's
-coming this way...[A]
-[50]
-[OpenMidRight][LoadElen][OpenMidLeft][LoadRoy][ToggleSmile]
-Be careful there![A]
-[OpenMidRight]Oh, forgive me!
-I'm in such a hurry...[A]
-[OpenMidLeft][ToggleSmile]No need for apologies.[A]
-Are you hurt?[A]
-[OpenMidRight][ToggleSmile]No, I'm fine.
-Thank you, good sir.[A]
-[OpenMidLeft][ToggleSmile]Farewell, then.[A]
-[OpenMidRight][ToggleSmile]...Are you from Lycia,
-by chance?[A]
-[OpenMidLeft][ToggleSmile]I am.[A]
-I am the son of
-Marquess Pherae.[A]
-[OpenMidRight]Oh, Saint Elimine! Thank you
-for guiding me to this boy![A]
-[OpenMidLeft][ToggleSmile]Pardon?[A][LoadOverworldFaces]
-[OpenMidRight][MoveRight]Please, I need your help
-to rescue my mistress.[A]
-[OpenMidLeft]What happened?[A]
-[OpenRight]My name is Elen. I am a
-cleric of Saint Elimine.[A]
-My mistress and I came from Bern to seek
-an audience with the lords of Lycia.[A]
-However, Commander Ruud of the
-castle east of here trapped us.[A]
-We were captured, imprisoned
-by our own countrymen.[A]
-[OpenFarRight][LoadMerlinus]
-Lord Roy![A]
-We must avoid unnecessary
-entanglements with Bern![A]
-[OpenMidLeft]But we can't neglect a noble of Bern who
-wants to speak with the lords of Lycia.[A]
-...Then again, we can't simply charge
-into enemy territory either...[A][Clear]
-Wait, who's there?![A]
-[51]
-[OpenMidLeft][LoadSoldier2]
-[ToggleSmile]There she is![A]
-Over here, boys!
-Get the girl![A]
-[OpenMidLeft]Our orders say
-dead or alive![A]
-[52]
-[OpenMidRight][LoadElen][ToggleSmile]Oh dear...[A][ClearFace]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
-Well, Merlinus, they provoked hostilities.
-I don't think we have any choice now.[A]
-[OpenMidLeft]You wouldn't listen even
-if we did, I'm sure.[A]
-But no matter. Let me witness all you've
-learned about tactics in Ostia.[A]
-[OpenMidRight]All right, everyone!
-We're going to charge the castle![A]
-Sister Elen, you should
-find a place to hide...[A]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadElen]No, I will
-come with you.[A]
-I cannot fight, but I can
-heal wounded allies.[A]
-[OpenMidRight][NormalPrint]But...[A]
-[OpenMidLeft][CloseSpeechFast]I'm the one that got you
-tangled up in this mess.[A]
-Please let me do what I can to help.[A]
-[OpenMidRight]OK, but just stay behind
-us so you aren't hurt.[A]
-[OpenMidLeft]Certainly. Thank you
-for the concern.[A]
-[53]
-[OpenMidRight][LoadDieck][ToggleSmile]They should be around
-here somewhere...[A]
-[ToggleSmile]Shanna, [OpenMidLeft][LoadShanna][OpenMidRight]check around and try to
-find the soldiers from Pherae, will you?[A]
-[OpenMidLeft][NormalPrint]Sure![A]
-[54]
-[OpenMidLeft][LoadWard][OpenMidRight][LoadDieck][OpenMidLeft][CloseSpeechFast]So Big Man, who's our
-client this time?[A]
-[OpenMidRight][FastPrint]House Pherae, one of the
-noble families of Lycia.[A]
-The marquess's son is going to join the
-other armies of the Lycian League.[A]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadLot][ToggleSmile]We're going up
-against Bern then?[A]
-[OpenMidRight][NormalPrint][ToggleSmile]Looks that way.[A]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadWard][FastPrint]Finally, a foe worthy of my axe!
-Let's show 'em what we're made of![A]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadLot][ToggleSmile]Bern, eh? This won't be easy, I can
-tell you that. We had best tread lightly.[A]
-[55]
-[OpenMidLeft][LoadShanna][OpenMidRight][LoadDieck][OpenMidLeft][CloseSpeechFast]I think I've found them![A]
-[ToggleSmile]But it looks like they're already
-caught up in a skirmish.[A]
-[OpenMidRight][FastPrint]What? The fighting's
-started already?[A]
-Let's get a move on then.
-Time to earn our pay![A]
-[56]
-[OpenMidLeft][LoadDieck][OpenMidRight][LoadRoy][OpenMidLeft][FastPrint]Are you Lord Roy of
-House Pherae?[A]
-[OpenMidRight][NormalPrint][ToggleSmile]Who is it that's asking?[A]
-[OpenMidLeft][FastPrint][ToggleSmile]Name's Dieck.[A]
-You should've heard about me from
-an older man named Merlinus.[A]
-[OpenMidRight]So you're the leader of
-the mercenary band?[A]
-[OpenMidLeft][FastPrint]Just a small company, really.[A]
-Sorry we're late.[A]
-Didn't think the fighting
-would start so soon.[A]
-[OpenMidRight][FastPrint][ToggleSmile]Well... There was
-a complication...[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Don't take it the wrong way.
-We don't blame you.[A]
-Actually, quite the contrary.[A]
-My boys are excited for a chance
-to show off their skills.[A]
-[OpenMidRight][FastPrint]Brilliant. It sounds like you're just
-the caliber of fighters we need.[A]
-[OpenMidLeft][NormalPrint]Enough chitchat then.[A]
-Let's wrap things up.[A]
-[57]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]Flying units may be weak against bows, but
-you can use that against your enemies too.[A]
-If a pegasus or wyvern comes close, you
-can tear 'em apart with arrows![A]
-[58]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]Armored knights have nearly
-impenetrable defenses.[A]
-But some weapons, like this sword,
-can pierce their armor.[A]
-I'm sure you can get better use out
-of it than us. Please, take it.[A]
-[59]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]Pegasi are useful for flying to
-hard-to-reach places.[A]
-But woe to any rider who finds
-herself against an archer.[A]
-An arrow can make short work
-of a pegasus![A]
-[5A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]The weapon triangle...
-Swords, axes, and lances.[A]
-Remember, swords best axes, axes best
-lances, and lances best swords.[A]
-Keep this in mind and things
-will be much easier for you.[A]
-[5B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Forts are the key to a good defense.[A]
-If you're in a fort, you can defend
-and even dodge more easily.[A]
-On top of that, your wounds
-will heal slowly over time.[A]
-[5C]
-[LoadRuud][ToggleSmile]Curse it all![A]
-Just when I thought things had
-finally turned my way...[A]
-[5D]
-[LoadRuud][ToggleSmile]Oof...[A]
-Greed can only...bring
-you...an ill fate...[A]
-[5E]
-[OpenMidLeft][LoadMerlinus][OpenRight][LoadRoy]
-[OpenMidLeft][ToggleSmile]Lord Roy![A]
-There was a woman locked
-in the cellar![A]
-[OpenRight]That must be Elen's mistress.
-Bring her here.[A]
-[OpenMidLeft]Yes, milord.[ToggleSmile][A][OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere]
-[5F]
-[OpenFarRight][LoadElen]Your Highness![A]
-[OpenMidLeft]Elen!
-I'm so relieved you're well.[A]
-[ToggleSmile]You put yourself in such danger
-running off like you did...[A]
-I worried myself sick about you.[A]
-[OpenFarRight]I am sorry, Your Highness, but I couldn't
-leave you in that dank cellar...[A]
-[OpenMidLeft][ToggleSmile]Don't worry yourself, Elen.
-It's thanks to you I am safe now.[A][OpenFarRight][ClearFace]
-[60]
-[OpenMidLeft]I am in your debt.
-May I ask your name...?[A]
-[OpenRight]I am Roy, son of Eliwood,
-Marquess Pherae.[A]
-[OpenMidLeft]It's a pleasure...
-As for myself...[A]
-[61]
-[OpenFarRight][LoadElen][ToggleSmile]Your Highness... Are you
-certain you should?[A]
-[OpenMidLeft][ToggleSmile]Yes, Elen. It is fine.[A][OpenFarRight][ClearFace]
-[62]
-[OpenMidLeft][ToggleSmile]My name is
-Guinivere.[A]
-[OpenRight]Guinivere?![A]
-That's the name of the
-princess of Bern![A]
-[OpenMidLeft]Yes, that is I.[A]
-[OpenFarRight][LoadMerlinus]What?![A]
-This was a trap,
-wasn't it?![A]
-[OpenRight]Merlinus, hold.[A][SendToBack]
-[OpenFarRight]I beg your pardon,
-Lord Roy, but...[A]
-[SendToBack]
-[OpenRight]I wish to hear her out.
-Give her a chance, will you?[A]
-[SendToBack]
-[OpenFarRight]Tsk. As you will...[A]
-[OpenFarRight][ClearFace][SendToBack]
-[OpenRight]You are truly Princess
-Guinivere from Bern?[A]
-[OpenMidLeft]Yes, truly. I cannot blame you
-for doubting me, however.[A]
-[OpenRight]Maybe you are the princess of Bern,
-and maybe you aren't.[A]
-I can see from your actions and dress
-that you are at least of high status.[A]
-If you are indeed Princess Guinivere, however,
-there's one thing I don't understand.[A]
-Elen told me you intended to meet
-the lords of the Lycian League.[A]
-[OpenMidLeft]Yes, that is correct.[A]
-[OpenRight]Why, if you are the sister
-of the king of Bern?[A]
-[OpenMidLeft]I want to find a peaceful
-way to end the war.[A]
-If I can speak to the Lycian council, I'm
-certain we can come to a solution.[A]
-[OpenRight]Your brother instigated this war.
-Is it in your power to stop it?[A]
-[OpenMidLeft]At the very least, I wish to do everything
-I can. No, I MUST do everything I can.[A]
-[OpenRight][ToggleSmile]...I see.[A]
-For the time being, come with us to
-meet the Lycian League armies.[A]
-I want to see what Lord Hector
-thinks of this affair.[A]
-[OpenMidLeft][ToggleSmile]You will allow me
-to accompany you?[A]
-[OpenRight][ToggleSmile]Yes. If there is any possibility to
-avoid further bloodshed, we must try.[A]
-It matters not how small the chance.[A]
-[OpenMidLeft]Thank you![A]
-I truly am in your debt...[A]
-[63]
-[OpenMidLeft][LoadBrunnya][OpenMidRight][LoadZephiel][FastPrint][OpenMidLeft][ToggleSmile]Your Majesty, we have
-captured the enemy commander.[A]
-[OpenMidRight][NormalPrint]Good.
-Bring him before me.[A]
-[OpenMidLeft][ClearFace][OpenFarLeft][LoadHectorBlood]
-[OpenFarLeft][FastPrint]You...[A]
-You're Zephiel, the king of Bern!![A]
-Black-hearted fiend...![A]
-[OpenMidRight][CloseSpeechFast]Ah, Lord Hector.[A]
-You have my highest praise for lasting so
-long against two of my Wyvern Generals.[A]
-I suppose Ostia's reputation as the most
-powerful house in Lycia is well-earned.[A]
-The strongest of a bucket of worms is
-hardly a match for my boot, however.[A]
-Your end is nigh. If you've any last
-words, I suggest you spit them out.[A]
-[OpenFarLeft][NormalPrint]Just tell me...
-Why...?[A]
-[OpenMidRight]What was that?[A]
-[OpenFarLeft][CloseSpeechFast]Bern and Lycia...[A]
-We were always on good terms with
-each other...[A]
-Even when you took the throne, we
-always paid our respects to Bern...[A]
-[OpenMidRight][FastPrint][ToggleSmile]Respect?[A]
-[ToggleSmile]Pah. Don't make me laugh.[A]
-The whole continent shall be my domain.
-Only then can the world be liberated.[A]
-I lack the time to concern myself with
-such trivial matters as "respect."[A]
-[OpenFarLeft]You mean to liberate...the world?[A]
-What do you speak of...?[A]
-[OpenMidRight]Pay it no heed. You won't
-live to see it anyway.[A]
-You there![A]
-Take him away![A]
-[OpenFarLeft][ClearFace][OpenMidLeft][LoadSoldier2]
-[OpenMidRight][CloseSpeechFast]Throw this dead man
-into the dungeon![A]
-[OpenMidLeft][CloseSpeechFast]Yes, Your Majesty![A][ClearFace][.....]
-[OpenMidLeft][LoadBrunnya][CloseSpeechFast]Your Majesty, I will take my leave now.
-I must return to the plains of Sacae.[A]
-[OpenMidRight][CloseSpeechFast]Yes, be on your way.[A]
-[OpenMidLeft][CloseSpeechFast]...One matter before I leave, Your Majesty.[A]
-If you will allow my opinion, I would not
-place so much trust in that...woman.[A]
-[OpenMidRight][CloseSpeechFast]Do you speak of Idunn?[A]
-[OpenMidLeft][CloseSpeechFast]Yes, Your Majesty.[A]
-The men call her the "Dark Priestess"
-and find her presence disturbing.[A]
-I understand that she is a shaman
-of great power, but--[A]
-[OpenMidRight][CloseSpeechFast]Brunnya,
-do you doubt my judgment?[A]
-[OpenMidLeft][CloseSpeechFast]Ah...! No, of course
-not, Your Majesty![A]
-I just think--[A]
-[OpenMidRight][CloseSpeechFast]Your duty is not to think.[A]
-Your duty is to follow orders.[A]
-Is that clear?[A]
-[OpenMidLeft][CloseSpeechFast]...Yes, Your Majesty.
-Your will shall be done.[A]
-[OpenMidLeft][ClearFace][OpenMidRight]
-"Do you doubt my judgment?"[A]
-Dear me, the words that come
-out of my mouth sometimes...[A]
-[64]
-[OpenMidLeft][LoadChad][OpenMidRight][LoadRoy][ToggleSmile]Lord Hector
-still lives?![A]
-[OpenMidLeft]Yeah, probably.[A]
-I saw some of Bern's soldiers
-take him into the castle.[A]
-[OpenMidRight]Chad, was it? Do you know the
-inside of Castle Araphen well?[A]
-[OpenMidLeft]I guess so.[A]
-...Wait, are you guys going to
-try to save Lord Hector?[A]
-Sounds like a bad idea to me.[A]
-Most of Bern's forces are gone, but there
-are still plenty of soldiers in the castle.[A]
-Marching in would be suicide.[A]
-[OpenMidRight]Perhaps.[A]
-But you said most of their
-army is already gone.[A]
-We can't afford to lose
-Lord Hector.[A]
-If we have a chance, we
-must take it.[A]
-[OpenMidLeft]Really, now...?[A]
-[ToggleSmile]I'll come with you then.[A]
-I can show you around
-the castle.[A]
-[OpenMidRight][ToggleSmile]What?
-You don't have to do that.[A]
-Please, just explain what the
-interior of the castle is like.[A]
-[OpenMidLeft]I've got a bone to pick with Bern.
-Please, let me go with you![A]
-[OpenMidRight][FastPrint]If you insist, we're happy to
-have you.[A]
-I think your skills will be an asset.[A]
-[OpenMidLeft][ToggleSmile]Yeah, I can pick any
-locked doors or chests![A][LoadOverworldFaces]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere][FastPrint][ToggleSmile]...Lord Roy...[A]
-I'm sorry for my brother...[A]
-I didn't think the invasion
-would pick up so quickly...[A]
-[OpenMidRight][CloseSpeechFast]Princess, you're not
-responsible for this.[A]
-Please don't blame yourself.
-Besides, Lycia is still united.[A]
-We just need Lord Hector to lead
-our army so we can fight![A][Clear]
-We must retake Castle Araphen for all
-of Lycia...and for Lilina...[A]
-[OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenMidRight]Let's move out![A]
-[65]
-[OpenMidRight][LoadLugh][OpenMidLeft][LoadPriest][OpenMidRight][FastPrint]Thanks for taking the children
-under your care, Bishop.[A]
-[OpenMidLeft][CloseSpeechFast]Of course.[A]
-The St. Elimine Church will take
-good care of the orphans.[A]
-And what will you do, Lugh?[A]
-[OpenMidRight]I'm going to stay here.
-I have some things to take care of.[A]
-[OpenMidLeft][FastPrint]Is that so...?
-Please be safe.[A]
-[OpenMidRight]Yes, you too.[A]
-[OpenMidLeft][ClearFace][OpenLeft][LoadVillager14][OpenFarLeft][LoadVillager13][OpenMidRight]Make sure you listen to what
-the priest says, OK?[A]
-[OpenFarLeft][ToggleSmile]You're not coming
-with us, Lugh?[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]I'm going to wait for Chad.
-We'll catch up with you later...[A]
-[OpenLeft][FastPrint]Yay!
-Chad's coming too?[A]
-[OpenMidRight][NormalPrint]Of course.[A]
-[OpenFarLeft][CloseSpeechFast]I want Raigh
-back too![A]
-[OpenMidRight][NormalPrint]Yes...[A]
-If Raigh would come back we could
-all be together again.[A]
-[ClearFace]
-[OpenRight][LoadPriest][CloseSpeechFast]Children,
-we must be off.[A][ClearFace]
-[OpenMidRight][LoadLugh]
-[OpenFarLeft]See you,
-Lugh.[A]
-[OpenLeft]Don't take too long.[A]
-[OpenMidRight][FastPrint]Yes, yes. Hurry along now...[A][Clear]
-[OpenFarLeft][ClearFace][OpenLeft][ClearFace][.....][OpenMidRight][ToggleSmile]I'm sorry for lying...[A]
-But I've chosen not to run away anymore.[A]
-[66]
-[OpenMidRight][LoadZephiel][FastPrint][ToggleSmile]Narcian![A]
-[OpenMidLeft][LoadNarcian][OpenMidRight]What is causing all that noise?[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]What's left of the enemy are likely
-putting up one last fight.[A]
-[OpenMidLeft][ClearFace][OpenFarLeft][LoadIdunnHood][NormalPrint][ToggleSmile]Shall I summon the dragons,
-Your Highness?[A]
-[OpenMidRight][ClearFace][OpenRight][LoadNarcian][CloseSpeechFast][ToggleSmile]No need, my lady. We can handle them
-without so much as breaking a sweat.[A][OpenFarLeft][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
-[OpenRight][ClearFace][OpenMidRight][LoadZephiel][CloseSpeechFast][ToggleMouthMove]Not now, Idunn.[A]
-Send the dragons back to
-Bern as planned.[A]
-[OpenFarLeft]Yes, Your Highness.
-As you will.[A]
-[OpenMidRight][ClearFace][OpenRight][LoadNarcian][NormalPrint][ToggleMouthMove]......[A]
-[OpenFarLeft][ClearFace][OpenRight][ClearFace]
-[OpenMidLeft][LoadNarcian][OpenMidRight][LoadZephiel][CloseSpeechFast][ToggleMouthMove]I too must return 
-to Bern.[A]
-Narcian, I leave Lycia in
-your hands.[A]
-[OpenMidLeft][FastPrint]...What shall I do with the remnants
-of the Lycian Army?[A]
-[OpenMidRight]Kill all who stand
-against you.[A]
-[OpenMidLeft][ToggleSmile]...What of women
-and children?[A]
-[OpenMidRight][ToggleSmile]Was I unclear? Kill all who
-stand against you.[A]
-Grind them to dust.[A]
-Ensure no others dare dream
-of opposing us.[A]
-[OpenMidLeft][NormalPrint][ToggleSmile]Of course, Your Majesty.[A]
-[ToggleMouthMove]Hm[.....] hm[.....] hm...[A]
-[67]
-[OpenMidRight][LoadNarcian][OpenMidLeft][LoadSlater][OpenMidRight][ToggleSmile]Hmph, what does His Majesty
-see in that Idunn anyway?[A]
-Well, I think it's time I
-left as well.[A]
-Slater, I entrust the
-castle to you.[A]
-[OpenMidLeft][FastPrint]Might I inquire where
-you're going, milord?[A]
-[OpenMidRight]A marquess who turned against Lycia
-has a special gift for me.[A]
-He says it's a girl of Etrurian
-nobility...[A]
-[ToggleMouthMove]Hm[.....] hm[.....] hm...[ToggleMouthMove][A]
-[OpenMidLeft]Etrurian nobility?
-She must be quite a catch![A]
-[OpenMidRight][FastPrint]Yes, the marquess tells me she's
-a beautiful thing.[A]
-[OpenMidLeft]You must be looking forward
-to it.[A]
-Please be careful on your
-way there.[A]
-[OpenMidRight][CloseSpeechFast]You be careful too, Slater. Don't let
-these scattered remnants defeat you.[A]
-Should you fail, I personally will
-order your public evisceration.[A]
-[OpenMidLeft][MoveFarLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
-Have mercy...![A]
-[OpenMidRight][ToggleSmile]Ha ha ha ha...![A]
-[68]
-[OpenMidRight][LoadLugh][OpenMidLeft][LoadChad][OpenMidRight][FastPrint]Chad!
-You're OK![A]
-[OpenMidLeft][ToggleSmile]Lugh?!
-What are you doing here?[A]
-[OpenMidRight][NormalPrint][ToggleSmile]We were hiding here.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh...[A]
-Where's everybody else?
-Are they all right?[A]
-[OpenMidRight][ToggleSmile]Yeah, the St. Elimine Church
-is going to watch over them.[A]
-[OpenMidLeft][NormalPrint][ToggleSmile]And what about you?[A]
-[OpenMidRight]What?[A]
-[OpenMidLeft][FastPrint]Why are you
-still here?[A]
-[OpenMidRight]...The same reason as you.[A]
-[OpenMidLeft]What?!
-Lugh, you're not thinking of...![A]
-[OpenMidRight][CloseSpeechFast]I can use some magic![A]
-Remember I borrowed that fire
-tome from Poppa's room?[A]
-[OpenMidLeft]Lugh, you can't. You're
-incapable of harming others.[A]
-[OpenMidRight][NormalPrint]But...[A]
-[OpenMidLeft][CloseSpeechFast]I'm going to avenge Poppa.
-You stay with the others, Lugh.[A]
-[OpenMidRight]I'm not going to hide anymore![A]
-I'm tired of everyone
-leaving me...![A]
-Poppa, you, and even Raigh...[A]
-I want to fight to protect the people
-that I care for.[A]
-I can't let others die for me my
-whole life![A]
-[OpenMidLeft]Lugh...[A][Clear]
-Fine. Once we finish Bern we can
-go back and see everyone again![A]
-[OpenMidRight][NormalPrint]Yeah![A]
-[69]
-[OpenMidRight][LoadLugh][OpenMidLeft][LoadChad][OpenMidRight][FastPrint]Chad!
-You're OK![A]
-[OpenMidLeft][ToggleSmile]Lugh?!
-What are you doing here?[A]
-[OpenMidRight][NormalPrint][ToggleSmile]We were hiding here.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh...[A]
-Where's everybody else?
-Are they all right?[A]
-[OpenMidRight][ToggleSmile]Yeah, the St. Elimine Church
-is going to watch over them.[A]
-[OpenMidLeft][NormalPrint][ToggleSmile]And what about you?[A]
-[OpenMidRight]What?[A]
-[OpenMidLeft][FastPrint]Why are you
-still here?[A]
-[OpenMidRight]...The same reason as you.[A]
-[OpenMidLeft]What?!
-Lugh, you're not thinking of...![A]
-[OpenMidRight][CloseSpeechFast]I can use some magic![A]
-Remember I borrowed that fire
-tome from Poppa's room?[A]
-[OpenMidLeft]Lugh, you can't. You're
-incapable of harming others.[A]
-[OpenMidRight][NormalPrint]But...[A]
-[OpenMidLeft][CloseSpeechFast]I'm going to avenge Poppa.
-You stay with the others, Lugh.[A]
-[OpenMidRight]I'm not going to hide anymore![A]
-I'm tired of everyone
-leaving me...![A]
-Poppa, you, and even Raigh...[A]
-I want to fight to protect the people
-that I care for.[A]
-I can't let others die for me my
-whole life![A]
-[OpenMidLeft]Lugh...[A][Clear]
-Fine. Once we finish Bern we can
-go back and see everyone again![A]
-[OpenMidRight][NormalPrint]Yeah![A]
-[6A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadLugh][CloseSpeechFast][ToggleSmile]Excuse me!
-You're with the Lycian Army, right?[A]
-Please, let me fight with you![A]
-I don't have any useful information,
-but I can use a bit of magic![A]
-I'm sure I can help you![A]
-[6B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][OpenMidRight][ToggleSmile]You're what's left of the
-Lycian Army, aren't you?[A]
-Here, take this and go quickly.[A]
-We may be occupied by Bern, but
-we're still Lycians![A]
-[6C]
-[LoadSlater][ToggleSmile]I-I can't fail!
-If I do...[A]
-...What awaits me...is a
-fate worse than death...!![A]
-[6D]
-[LoadSlater][ToggleSmile]General Narcian...
-Please...have mercy...!![A] 
-[6E]
-[OpenMidLeft][LoadMerlinus][FastPrint][ToggleSmile]Lord Roy![A]
-We found Lord Hector
-in the dungeon![A]
-[OpenMidRight][LoadRoy][NormalPrint]You did?!
-Is he all right?[A]
-[OpenMidLeft][FastPrint]He's gravely wounded...[A][ClearFace]
-[OpenFarLeft][LoadHectorBlood][NormalPrint]Well met, Roy...[A]
-[OpenMidRight][MoveRight][FastPrint]Lord Hector![A]
-That gaping wound...![A]
-We must get you help!
-Here, lean on my shoulder...[A]
-[OpenFarLeft]Don't worry yourself...
-I'm done for...[A]
-[OpenRight][NormalPrint]Lord Hector...[A]
-[OpenFarLeft][FastPrint]We were taken by surprise...[A]
-We'd have never supposed that Bern
-had summoned dragons...![A]
-[OpenRight][NormalPrint]Dragons?![A]
-[OpenFarLeft][CloseSpeechFast]Yes...[A]
-The same dragons that humans fought
-against in the Scouring...[A]
-[OpenRight][FastPrint]The Scouring?
-I learned of that in my studies.[A]
-Eons ago, dragon and human each had
-dominion of half of Elibe.[A]
-The Scouring was a war for total
-control of the continent...[A][SendToBack]
-[OpenFarLeft]Very good, lad...[A]
-The Eight Legends...defeated the dragons
-and led the humans to...victory...[A][SendToBack]
-[OpenRight]How did Bern summon dragons...?[A][OpenFarLeft][CloseSpeechFast]I...haven't the faintest...[A]
-But...Bern was once the
-dragons' domain...[A]
-Hartmut, one of the Eight Legends...
-was the founder of Bern...[A]
-Perhaps...the reason...lies
-there...[A]
-[OpenRight][NormalPrint]Lord Hector![A]
-[OpenFarLeft][CloseSpeechFast]Roy... Go to Ostia...[A]
-You must...lead what remains of
-the Lycian Army...in my place...[A]
-[OpenRight]Me...? But...[A]
-[OpenFarLeft]Fear not...in Ostia...is a weapon...
-that...can take down a dragon...[A]
-[OpenRight]A weapon?[A]
-[OpenFarLeft][CloseSpeechFast]Lilina can tell you more...
-Please take care of her...[A]
-She...may act strong...
-But she is still a child...[A]
-Please...don't let...her...d...[A][SendToBack]
-[OpenRight]...I promise you,
-I won't.[A]
-[OpenFarLeft][CloseSpeechFast]...Lilina... Let me...see you...
-just...once more...[A][Clear]
-Hrk...!![A][Clear][ToggleMouthMove]
-......[A][ToggleMouthMove]
-[ClearFace]
-[OpenRight]Lord Hector![A]
-[6F]
-[OpenMidLeft][LoadErik][OpenMidRight][LoadNarcian][OpenMidLeft]Ah, welcome,
-General Narcian.[A]
-[OpenMidRight]Lord Erik.[A]
-I don't think I've yet praised your
-wisdom in joining Bern.[A]
-[OpenMidLeft]Thank you. My nation has never been
-anything but a burden to me anyway.[A]
-[OpenMidRight]You, my friend, are wise
-beyond your years.[A]
-Now, where is that gift
-you promised me?[A]
-She does not seem to be here.[A]
-[OpenMidLeft]Ah, yes!
-She is in her quarters.[A]
-[OpenMidLeft]She is exceedingly naive, you see.[A]
-When I told her she could meet her brother,
-she cooperated without question.[A]
-[ToggleSmile]You there!
-Bring her here![A]
-[OpenMidLeft][ClearFace][.....][OpenFarLeft][LoadClarine]What is this hall?
-Klein? Where are you, Brother?[A]
-[OpenMidRight][ToggleSmile]Welcome, Lady Clarine.[A]
-[OpenFarLeft][ToggleSmile]Who might you be?[A]
-[OpenMidRight][ToggleSmile]I am Narcian, one of Bern's
-three Wyvern Generals.[A]
-My lovely little lass, I think you will enjoy
-my company more than your brother's...[A]
-[MoveRight][ToggleMouthMove]Hm[.....] hm[.....] hm...[ToggleMouthMove][A]
-[OpenFarLeft][NormalPrint]Heh...
-Ha ha ha![A]
-[OpenRight][FastPrint][ToggleSmile]What?[A]
-Why do you laugh?[A]
-[OpenFarLeft][CloseSpeechFast][ToggleSmile]You compare yourself to my brother?[A]
-You think too highly of yourself.[A]
-Your garb, your hair--even your speech...[A]
-All a painfully obvious guise to hide
-your true lowborn face.[A]
-[OpenRight][MoveMidRight][FastPrint][ToggleSmile]Lowborn?! Me?!
-You would compare ME to a peasant?![A]
-[OpenFarLeft][CloseSpeechFast]Oh, heavens no.[A]
-I would sooner compare you to a
-filthy, disease-ridden mutt![A]
-[OpenMidRight][MoveRight]Y-you vermin!![A]
-I'll see you
-suffer![A]
-[OpenFarLeft][ClearFace][OpenLeft][LoadSoldier2]General Narcian, we just received word that
-Castle Araphen was retaken by the enemy![A]
-[OpenRight]What?! Impossible!
-What of Slater?[A]
-[OpenLeft]Err...
-His whereabouts are unknown, sir.[A]
-The enemy is reported to be Roy,
-son of Marquess Pherae.[A][ClearFace]
-[OpenFarLeft][LoadClarine][NormalPrint][ToggleMouthMove]......[A]
-[OpenRight][ToggleMouthMove][CloseSpeechFast]Accursed interruptions![A]
-Lord Erik, lock the girl in a cell.[A]
-I will give her the pleasure of
-my company when I return![A]
-You, blockade the highroad
-from Ostia.[A]
-This Roy might just pass by.
-I want his head![A]
-[OpenLeft][LoadSoldier2]Yes, sir![A]
-[70]
-[OpenMidRight][LoadScollan][NormalPrint]Heh... Foolish nobility. Always
-involved in some petty dispute.[A]
-'Course, you'll hear no complaints from us.
-Turmoil's how we make a living.[A]
-Heh heh heh...[A]
-[71]
-[OpenMidRight][LoadClarine][FastPrint][ToggleSmile]They will pay dearly
-for this treatment...[A]
-[OpenMidLeft][NormalPrint]...Hey.[A]
-[OpenMidRight]Who's there?![A]
-[OpenMidLeft][LoadRutger][CloseSpeechFast]I'm a mercenary hired by Lord Erik.[A]
-He wants to see you.[A]
-[OpenMidRight][MoveFarRight]I will not.[A]
-I refuse to meet with
-such churlish people.[A]
-[OpenMidLeft][MoveLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
-Just get over here.[A]
-[OpenFarRight][FastPrint]Let go! You will regret this!
-Have you any idea who I am?![A]
-[OpenLeft][NormalPrint][ToggleMouthMove]......[A]
-[OpenFarRight][FastPrint][ToggleMouthMove]Let go, I say![A]
-[72]
-[OpenMidRight][LoadClarine][OpenMidLeft][LoadRutger][OpenMidRight][NormalPrint][ToggleSmile]Let go!
-Let go, I say![A]
-[OpenMidLeft][FastPrint]Keep it down.[A]
-You won't be able to make a clean
-escape making all that noise.[A]
-[OpenMidRight][NormalPrint]Escape?![.....]
-Then you're...[A]
-[OpenMidLeft][FastPrint]I prepared a horse for you
-out back under a tree.[A]
-Take it and go, while
-everyone's distracted.[A]
-[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
-Why are you helping me?[A]
-[OpenMidLeft][NormalPrint]I despise Bern with
-all my soul.[A]
-[OpenMidRight]With all your soul?[A]
-[OpenMidLeft]...Never mind.
-Forget it.[A]
-[OpenMidRight][FastPrint]
-Saying that only piques
-my curiosity further.[A]
-[OpenMidLeft][NormalPrint]Time is short.
-Hurry![A]
-[OpenMidRight][ToggleMouthMove]......[A]
-[73]
-[LoadRutger][NormalPrint][ToggleMouthMove]......[A]
-[74]
-[OpenMidRight][LoadClarine][ToggleSmile]I've never met such a boorish man!
-This is a battlefield![A]
-A proper gentleman would escort
-a lady to her mansion![A]
-Well, it's hardly of concern now.[A]
-Sigh, I only came here to see my brother,
-and now look at the mess I'm in...[A]
-What am I to do now?[A]
-[75]
-[OpenMidLeft][LoadErik][OpenMidRight][LoadRutger][OpenMidLeft][ToggleSmile]Ah,
-there you are![A]
-[OpenMidRight]What do you want?[A]
-[OpenMidLeft]We need some backup.[A]
-Take some troops and
-prepare for battle.[A]
-[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenMidLeft]Are you deaf?
-Go and fight![A]
-[OpenMidRight]I heard you.
-I'll leave when I'm ready.[A][ClearFace]
-[OpenMidLeft]Tsk. Not the amiable sort, is he?[A]
-If his sword arm is as skilled as the rumors
-say, though, then it's no matter.[A]
-[76]
-[OpenMidLeft][LoadClarine][NormalPrint][ToggleSmile]Pardon me,
-you there![A]
-[OpenMidRight][LoadRoy]Me?[A]
-[OpenMidLeft][FastPrint]Do you see anyone else?[A]
-You are the leader of this
-little group, are you not?[A]
-[OpenMidRight][NormalPrint]I am.[A]
-[OpenMidLeft][FastPrint]Most convenient.[A]
-Very well then. You
-will protect me.[A]
-[OpenMidRight][NormalPrint]Excuse me?[A]
-[OpenMidLeft][CloseSpeechFast]Hard of hearing?[A]
-I said that you will
-protect me from harm.[A]
-[OpenMidRight][ClearFace][OpenFarRight][LoadMerlinus]Mind your mouth,
-young lady![A]
-[OpenMidLeft][FastPrint]Away with you, peasant.
-I was not addressing you.[A]
-[OpenFarRight][MoveMidRight]What?!
-Who do you think--[A]
-[OpenMidRight][ClearFace][OpenRight][LoadRoy][FastPrint]Calm yourself, Merlinus...[A]
-It looks like she's being pursued
-by the castle's soldiers.[A]
-That's why she wants us to
-guard her.[A]
-Right?[A]
-[OpenMidLeft]Um, yes![A]
-That is correct...[A]
-[OpenRight][ClearFace][OpenMidRight][LoadMerlinus]
-Im...impudent child![A]
-We can't simply accept any
-useless girl into our army![A]
-[OpenMidLeft][MoveLeft]You may call me
-Lady Clarine, peasant.[A]
-And I am not useless![A]
-I can use staves to heal
-wounded allies.[A]
-[OpenMidRight][ClearFace][OpenRight][LoadRoy][FastPrint]So you'll help us fight?[A]
-[OpenLeft][CloseSpeechFast]...If that's what it takes![A]
-I suppose I can't simply demand protection
-without any kind of payment.[A]
-[OpenRight][ToggleSmile]Thanks, we appreciate it![A]
-Our enemy is Bern, so we need
-everyone we can get.[A]
-I'm Roy.
-Pleased to meet you, Lady Clarine.[A]
-[OpenLeft][FastPrint]The pleasure is all--[A]
-[MoveMidLeft][ToggleSmile]Ahem! Let's focus on
-the issue at hand.[A]
-[77]
-[OpenMidRight][LoadClarine][OpenMidLeft][LoadRutger][OpenMidRight][NormalPrint][ToggleSmile]Oh!
-It's you...[A]
-[OpenMidLeft]What?
-You're still here?[A]
-[OpenMidRight][MoveRight][CloseSpeechFast]"Still here?"[A]
-You abandoned me in the middle
-of a battlefield![A]
-How can you have the
-nerve to say that?![A]
-I could have been killed![A]
-[OpenMidLeft]I guess you're lucky
-you're still alive then.[A]
-Did you want something or
-can I go now?[A]
-[OpenRight]Just a moment![A]
-I shan't allow you to abandon
-me twice.[A]
-A gentleman must take
-responsibility for his actions.[A]
-[OpenMidLeft][NormalPrint]Responsibility? For what? I saved
-you from that twisted sadist.[A]
-[OpenRight][CloseSpeechFast]If a gentleman rescues a lady, he must
-also escort her to her mansion![A]
-In what fairy tale does some barf
-of a man abandon his princess?[A]
-[OpenMidLeft][FastPrint]...What in the world
-are you on about?[A]
-[OpenRight][CloseSpeechFast]Besides, you said you "despise
-Bern with all your soul."[A]
-If you ask me, you'd be better off joining
-us. We'll be fighting Bern, you know.[A]
-[OpenMidLeft][NormalPrint]What? Wait!
-Is that true?[A]
-Is that army you're in really
-going to challenge Bern?[A]
-[OpenRight][MoveMidRight]Yes... Our leader, Floyd or whatever
-his name is, told me so himself.[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
-Fine.[A]
-[OpenMidRight][NormalPrint]Yes?[A]
-[OpenMidLeft][FastPrint]I'll join your army.
-Satisfied?[A]
-[OpenMidRight][NormalPrint]Ah...I suppose.[A]
-[OpenMidLeft][ClearFace][OpenMidRight]Wait![A]
-My protection is more important
-than fighting Bern! Come back![A]
-[78]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager13]
-Without a thief, you can't open
-doors and chests so easily.[A]
-Only thieves can use lockpicks.[A]
-But I have something called a door
-key, which will open any door.[A]
-Anyone can use it.
-You can have it.[A]
-[79]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]We're all on your side.[A]
-[OpenMidRight]We're not about to abandon the
-land in which we were born.[A]
-[OpenMidRight]Please take this sword.[A]
-It was given to us generations ago.
-A gift from the marquess.[A]
-[7A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
-[OpenMidRight][ToggleSmile]I can't believe this war is happening...[A]
-We'll all suffer under Bern's
-iron-fisted rule.[A]
-But you just might be able
-to stop them.[A]
-Here is something that will help
-you fight a little longer.[A]
-Think carefully before using it.[A]
-[7B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]Bandits and pirates will
-attack nearby towns.[A]
-Once they loot a town,
-there's nothing left.[A]
-Visit the towns quickly and they
-might just share something good![A]
-[7C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]There are mounted soldiers
-with bows in Laus' army.[A]
-They're from the nomad clans
-of Sacae.[A]
-Everyone wants their fighting
-prowess these days...[A]
-[7D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
-[OpenMidRight][ToggleSmile]You know the weapon triangle, but did you
-know it doesn't apply to all weapons?[A]
-Some weapons completely reverse
-the weapon triangle.[A]
-For instance, you might find an axe that
-will work well against swords.[A]
-[7E]
-[LoadErik][ToggleSmile]You fools are bound down
-by your allegiance![A]
-Allow me to teach you
-the way of the world![A]
-[7F]
-[LoadErik][ToggleSmile]Ha...ha ha... Fools...
-There is no future for...[A]
-those...who oppose...
-absolute power...[A]
-[80]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy! The remaining
-soldiers from Laus are retreating.[A]
-[OpenMidRight]Thank you.
-Tell everyone to get some rest.[A]
-[OpenMidLeft]Yes, milord.[A]
-[OpenMidLeft][ClearFace][LoadOverworldFaces][OpenMidLeft][.....][LoadGuinivere]Roy...
-Are you all right?[A]
-[OpenMidRight]
-I never would have thought that
-Lord Erik would turn on Lycia.[A]
-I thought the Lycian League's
-bond was stronger than this.[A]
-Cowardly Bern!
-Underhanded tactics![A]
-[OpenMidLeft]...I apologize.[A]
-[OpenMidRight]Oh... I'm sorry.[A]
-I wasn't even thinking
-about you...[A]
-[OpenMidLeft]No... You are right.[A]
-[OpenMidRight]We'll now proceed west towards Ostia.[A]
-But now we know that even the other
-marquesses can't be trusted.[A]
-With Lord Hector gone, I fear there
-may be no peaceful end for this war.[A]
-Princess, do you plan on returning
-to Bern? If you need anything--[A]
-[OpenMidLeft]No, please allow me to stay,
-if it would not be a burden.[A]
-[OpenMidRight]You, a burden? Never!
-But why do you wish to stay?[A]
-[OpenMidLeft]My brother is wrong.[A]
-He is pulling the dragons
-into a human war.[A]
-If he thinks this is how he can
-free the world, I must stop him.[A]
-[OpenMidRight]Free the world?[A]
-[OpenMidLeft]Yes, he has always been obsessed
-with "liberating the world."[A]
-He said that's the purpose
-of this war.[A]
-[OpenMidRight]What does that mean?[A]
-[OpenMidLeft]I do not know...[A]
-My brother is not so power-hungry that
-he would attempt to conquer the world.[A]
-I'm sure he believes strongly in
-what he's done to Elibe.[A]
-Regardless, that doesn't excuse
-the violence he has caused...[A]
-[OpenMidRight]Princess Guinivere...[A]
-[81]
-[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadDory][OpenMidLeft][FastPrint][ToggleSmile]Boss![A]
-Our boys just got back from
-scouting the village.[A]
-[OpenMidRight][CloseSpeechFast]Then let's go get
-our tribute.[A]
-[OpenMidLeft]But Boss, something's
-different today.[A]
-There's an army stationed
-real close to us![A]
-They say it looks like
-the Lycian Army.[A]
-[OpenMidRight]Lycia? Then there's
-nothing to worry about.[A]
-They were almost wiped
-out by Bern.[A]
-We can handle a few
-battered soldiers.[A]
-[OpenMidLeft]You're right, Boss![A]
-[OpenMidRight]They've probably got some
-valuables on them too![A]
-Still, don't get careless.[A][Clear]
-Ready then? Let's mop up
-these losers, boys![A]
-[82]
-[OpenFarLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenFarLeft][ToggleSmile]A villager is here to see you,
-Lord Roy.[A]
-Hey, you, wait just a second...[A][......]
-[OpenLeft][LoadVillager4][FastPrint]Are you Lord Roy of
-House Pherae?[A]
-[OpenMidRight][NormalPrint]Yes.
-How may I help you?[A]
-[OpenLeft][FastPrint]Milord, I beg you![A]
-Please, rid us of the bandits
-terrorizing our village![A]
-[OpenMidRight][NormalPrint]Bandits?[A]
-[OpenLeft][FastPrint]There's a group of bandits that made their
-base in the castle near the cliffs.[A]
-[OpenMidRight]Where are the castle guards?[A]
-[OpenLeft][CloseSpeechFast]They fled once they heard that the
-Lycian Army was defeated by Bern...[A]
-We villagers were left on our own.[A]
-Our days are spent in fear of
-bandit attacks.[A]
-[OpenMidRight][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenLeft]We have no one else we can ask.
-Please, help us![A]
-[OpenFarLeft][SendToBack][NormalPrint]Lord Roy, we must keep
-our pace towards Ostia...[A][SendToBack]
-[OpenMidRight]Yes, I know.[A]
-But we can't simply ignore
-people in need of help![A]
-[OpenFarLeft]You're joking![A]
-[OpenLeft][ToggleSmile]You will help us?!
-Thank you![A]
-Please use the gate
-to the west.[A]
-It'll take you right
-to the castle.[A]
-[OpenMidRight][ToggleSmile]Thank you.[A]
-[OpenLeft]I'll arrange for the gate to be
-opened when you approach.[A][ClearFace]
-[OpenMidRight]Merlinus! We're going to the
-castle to drive off the bandits![A][SendToBack]
-[OpenFarLeft]Sigh... Youthful energy.
-Where does it come from?[A]
-[83]
-[OpenMidLeft][LoadYoder][OpenMidRight][LoadDorothy]
-[OpenMidLeft]Thank you, Dorothy. Please tell
-Brother Saul as well.[A]
-[OpenMidRight]I will, Father Yoder.[A][OpenMidLeft][ClearFace][Clear]
-[OpenMidRight][ToggleSmile]But where did Saul run off to now?[A]
-How am I supposed to guard him
-if he keeps disappearing?[A]
-[OpenMidRight][ClearFace][OpenLeft][LoadVillager7][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate
-the offer, but not tonight...[A]
-[OpenRight][CloseSpeechFast][ToggleSmile]Come now, don't be like that.[A]
-We can sit by the fire in the dark of night
-as I soothe you with my calming sermons...[A]
-[OpenFarLeft][LoadDorothy][NormalPrint][ToggleSmile]There you are!
-Saul![A]
-[OpenRight]Wonderful.
-Dorothy...[A]
-[OpenLeft][SendToBack]I'll take my leave now.[A][ClearFace][SendToBack]
-[OpenRight]No, don't go![A][Clear]
-[OpenRight][CloseSpeechFast][ToggleSmile]Oh my... Look what you've
-done now, Dorothy.[A]
-[OpenRight][CloseSpeechFast]That expression on your face
-scared her away.[A]
-[OpenFarLeft][MoveMidLeft][ToggleSmile]This is my normal look![A]
-Saul, you can't try to woo
-every girl you meet.[A]
-[OpenRight][FastPrint][ToggleSmile]You make it sound like a bad thing![A]
-I simply offer my helping hand
-to any poor souls in need.[A]
-[OpenMidLeft][MoveLeft][ToggleSmile]Then why do you always offer
-to give your sermons at night?[A]
-[OpenRight][MoveMidRight][CloseSpeechFast][ToggleSmile]...Well, putting that aside...[A]
-Did you have some reason for
-interrupting my good work?[A]
-[OpenLeft][ToggleSmile]Oh, right.[A]
-The Lycian Army is apparently
-somewhere around here.[A]
-[OpenMidRight]Truly?! Is Princess Guinivere
-still with them?[A]
-[OpenLeft]Yes, if the reports from the
-St. Elimine Church are accurate.[A]
-[OpenMidRight]Then we must make haste!
-Let us join them.[A]
-[OpenLeft][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidRight][ToggleMouthMove]What's the matter,
-Dorothy?[A]
-[OpenLeft][CloseSpeechFast]You only want to join them because Princess
-Guinivere is said to be so beautiful.[A]
-[OpenMidRight][FastPrint][ToggleSmile]Don't be ridiculous...
-Come now, hurry along.[A]
-[OpenLeft][NormalPrint]Yes, let's go![A]
-[84]
-[OpenMidRight][LoadVillager11]Oh, I heard you were coming.
-I'll open the gate now.[A]
-[85]
-[OpenMidRight][LoadDory][ToggleSmile]What?
-There was a gate there?[A]
-Cunning little
-weaklings...[A]
-[86]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
-[OpenMidRight]Hold on. Before you go,
-take this lance with you.[A]
-It was once wielded by a
-knight called Sir Gant.[A]
-The stories say he bested many
-a foe with this lance![A]
-[87]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
-If you can, try to occupy forts![A]
-That'll stop enemy reinforcements
-from showing up![A]
-[88]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
-[OpenMidRight]I was there when
-Araphen was taken...[A]
-The wyvern riders of Bern were
-terrifying enough...[A]
-But then a dragon engulfed the
-Lycian Army in flame...[A]
-Oh Elimine, please tell me
-it was a dream...[A]
-[89]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
-[OpenMidRight][ToggleSmile]This whole area is really perfect for
-bandits. It's no wonder they appeared.[A]
-They can cross mountains and a bandit on
-a peak is a force to be reckoned with.[A]
-Dreadful. Just dreadful...[A]
-[8A]
-[LoadDory]No one's ever survived
-a blow from my axe![A]
-Hey, you. Wanna see why?[A]
-[8B]
-[LoadDory][ToggleSmile]Gah...![A]
-No...I don't wanna...
-die...[A]
-[8C]
-[OpenMidLeft][LoadMerlinus][OpenFarRight][LoadGuinivere][OpenRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy![A]
-A priest from the St. Elimine Church
-wants an audience with you...[A]
-and Princess Guinivere![A]
-[OpenRight][NormalPrint]He knew that Princess Guinivere
-was with us?[A]
-[OpenMidLeft][FastPrint]Yes. I can't imagine how.[A]
-[OpenRight]Me neither...[A]
-I'll see him alone.[A]
-[OpenFarRight][FastPrint]Roy, I will be fine.
-I wish to meet this priest.[A][SendToBack]
-[OpenRight]Princess?[A][SendToBack]
-[OpenFarRight]Tensions between my brother and the
-church have worsened as of late.[A]
-I do not believe that they would
-attempt anything underhanded.[A][SendToBack]
-[OpenRight]I see. Merlinus, allow
-this priest in.[A][SendToBack]
-[OpenMidLeft][ClearFace][OpenMidLeft][LoadSaul][CloseSpeechFast][ToggleSmile]Lord Roy, it is a pleasure to meet
-you at last.[A]
-I am Saul, an acolyte of the
-St. Elimine Church.[A]
-[OpenRight][ToggleSmile]Pleased to meet you.[A]
-[OpenMidLeft]Oh...[A]
-[ToggleSmile]And you must be Princess Guinivere![A]
-You are as beautiful as
-the rumors say![A][SendToBack]
-[OpenFarRight][NormalPrint]Pardon me...?[A][SendToBack]
-[OpenMidLeft]Ahem... Forgive me.[A][LoadOverworldFaces]
-Your Highness, I wish to know the
-location of the Fire Emblem.[A]
-You have it with you,
-do you not?[A]
-[OpenFarRight][FastPrint]
-[ToggleSmile]How did you know that?![A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Bern's head church tells us the Fire Emblem
-disappeared from the Shrine of Seals.[A]
-And you also went missing at exactly the
-same time.[A]
-[OpenFarRight][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]I was sent by the church to
-confirm the truth.[A]
-[ToggleSmile]Why did you take the Fire Emblem?[A]
-[OpenFarRight][FastPrint]...I wished to stop my brother.[A]
-[OpenMidLeft]Your brother...
-Zephiel, the king of Bern.[A]
-[OpenFarRight][CloseSpeechFast]Yes.[A]
-[OpenMidLeft]Do you know what the
-Fire Emblem is used for?[A]
-[OpenFarRight][CloseSpeechFast]...It's the key that awakens a sword that
-was used to slay the dragons long ago.[A]
-That was what my father told me anyway.[A]
-I am unsure how exactly the Fire
-Emblem or the sword work.[A]
-My brother seemed to worry about the
-Fire Emblem falling into enemy hands.[A]
-...Extraordinarily so.[A]
-[OpenMidLeft]So you took the Fire Emblem to make the king
-believe it fell into enemy hands?[A]
-All in an attempt to stop his conquest?[A]
-[OpenFarRight]Yes...but the war continued anyway.[A]
-[OpenMidLeft]And what will you do now?[A]
-[OpenFarRight][FastPrint]...Must I reveal my plan
-at this moment?[A]
-[OpenMidLeft][FastPrint]Ah, so Your Highness has a plan.[A]
-[OpenFarRight][NormalPrint]Yes. I have not given up hope of settling
-this war without further bloodshed.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]I see.[A]
-In that case, I will accompany
-you on your journey.[A]
-[OpenFarRight][NormalPrint]If Roy allows it.[A]
-[OpenRight]I have no objections.[A]
-[OpenFarRight][ClearFace][OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere]Thank you, Roy.[A]
-[OpenRight]Of course, Princess.[A]
-[8D]
-[OpenMidRight][LoadCath][ToggleSmile]I snuck in here no problem, but
-there's nothing worth stealing![A]
-Hmm, looks like the north hall has all
-the valuables, but with that security--[A][Clear]
-...Are those footsteps?[A][ClearFace][LoadOverworldFaces][......]
-[OpenMidRight][LoadWagner][OpenMidLeft][LoadSoldier2]
-[OpenMidRight][FastPrint]I trust everything is under control.[A]
-[OpenMidLeft]Yes, Sir Wagner, the soldiers are
-stationed all around the castle.[A]
-[OpenMidRight][CloseSpeechFast]Once they're inside and have their guard
-down, ambush them, just as with Lord Orun.[A]
-[OpenMidLeft]Yes, sir.[A]
-[OpenMidRight]I want Princess Guinivere alive.[A]
-The rest you can do with
-as you wish.[A]
-Now go.[A]
-[OpenMidLeft][ClearFace][.....]
-[OpenMidRight][NormalPrint]Ha ha ha ha...[A]
-[CloseSpeechFast][ToggleSmile]First the Silver Wolf's granddaughter,
-and now Princess Guinivere...[A]
-With so much to offer, Bern is certain
-to allow us to join them.[A]
-[OpenMidRight][ClearFace][......]
-[OpenFarFarRight][LoadCath][MoveMidRight]Hmmm...[.....]
-Now isn't that interesting.[A]
-[8E]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
-[OpenMidLeft]Finally we can get a good
-night's rest, Lord Roy![A]
-[OpenMidRight][ToggleSmile]I wonder.[A]
-That man said he was
-Lord Orun's advisor...[A]
-[OpenMidLeft]Wagner? Did something
-seem wrong with him?[A]
-[OpenMidRight]He seemed to be in control of
-everything, as if he were the lord.[A]
-And Lord Orun is so ill he can't
-even meet his guests?[A]
-It all seems strange...[A]
-[OpenMidLeft]Now that you mention it,
-you have a point.[A][ClearFace]
-[OpenLeft][LoadSaul][CloseSpeechFast]Excuse me, Lord Roy.[A]
-There seem to be an awful lot of
-soldiers patrolling the castle.[A]
-[OpenFarLeft][LoadDorothy]I think they're spying on us.[A][SendToBack]
-[OpenMidRight][NormalPrint]What?
-No...[A][SendToBack]
-[OpenFarFarLeft][LoadCath][CloseSpeechFast]You noticed?
-Not bad.[A]
-[OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidRight][MoveRight][NormalPrint]Who's there?!
-Show yourself, intruder![A]
-[OpenFarFarLeft][MoveMidLeft][ToggleSmile]Hi![A]
-[OpenRight][FastPrint][ToggleSmile]And...who might you be?[A]
-[OpenMidLeft][CloseSpeechFast]Aw, I'm not one to talk about myself.[A]
-I overheard that Wagner guy
-in the main hall though.[A]
-He said they're gonna ambush
-you guys.[A]
-[OpenRight][NormalPrint]Lord Orun would never do that![A]
-[OpenMidLeft]Oh yeah, he's dead, I think.[A]
-Wagner assassinated him
-or something.[A]
-[OpenRight]What?![A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]He wants to capture you all
-and turn you over to Bern.[A]
-[OpenFarRight][ClearFace][LoadMerlinus][ToggleSmile]Wait, Lord Roy![A]
-We can't trust her word
-so easily![A]
-[OpenMidLeft][ToggleSmile]It's up to you whether you
-trust me or not.[A]
-But don't say I didn't
-warn ya![A][SendToBack]
-[OpenFarRight][ClearFace][LoadGuinivere][NormalPrint][ToggleSmile]Roy...
-If what she says is true...[A][SendToBack]
-[OpenRight][CloseSpeechFast]Let's spring his trap.
-We'll pretend like we're leaving.[A]
-If Wagner is after us, he'll try
-to persuade us to stay.[A]
-[OpenMidLeft][ToggleSmile]If you wanna get out,
-go through the north hall![A]
-That'll bring you to the courtyard,
-so you'll be outta here in no time.[A]
-Good luck![A]
-[8F]
-[OpenMidLeft][LoadWagner][OpenFarRight][LoadRoy]
-[OpenMidLeft][ToggleSmile]Oh, Lord Roy!
-Where are you off to?[A]
-I will escort you back into the
-castle. Please follow me.[A]
-[OpenFarRight]My apologies, Sir Wagner.[A]
-I have just received a report
-of grave importance.[A]
-Please excuse us, but we must
-take our leave now.[A]
-[OpenMidLeft]Surely you would appreciate a warm bed
-after being in the field for so long.[A]
-Lord Orun would be furious with me if you
-left without accepting our hospitality.[A]
-[OpenFarRight]Don't worry, I shall tell Lord Orun
-myself that you are not to blame.[A]
-I ought to at least offer him
-a greeting anyway.[A]
-Please show us to his room.[A]
-[OpenMidLeft]As I said, milord, Lord Orun is
-ill and cannot accept guests.[A]
-[OpenFarRight]If we cannot see him,
-then we must be off.[A]
-[OpenMidLeft][MoveLeft][NormalPrint]There's nothing I can offer
-to make you stay?[A]
-[OpenFarRight][ToggleMouthMove]......[A]
-[OpenLeft][CloseSpeechFast][ToggleMouthMove]You leave me no choice then![A]
-Guards! Attack![A]
-Kill them all, but leave
-Princess Guinivere alive![A][ClearFace]
-[OpenFarRight]The girl was right! They
-were trying to ambush us![A]
-[OpenMidLeft][LoadSaul]Lord Roy![A]
-If we go this way, we'll be leaving
-our rear open to attack![A]
-[OpenFarRight]Then we'll seize the whole castle!
-Everyone, follow my lead![A]
-[90]
-[OpenMidRight][LoadCath][FastPrint]Hoo-boy, they're at each
-other's throats now.[A]
-Time to pilfer what I can now
-that security's busy.[A]
-[91]
-[OpenMidRight][LoadSue][FastPrint][ToggleSmile]All that noise...[A]
-A battle?
-What is going on out there?[A]
-[92]
-[OpenMidLeft][LoadSue][OpenMidRight][LoadRoy][OpenMidLeft][NormalPrint][ToggleSmile]Who are you?[A]
-[OpenMidRight][FastPrint]What's a girl doing in here?[A]
-[OpenMidLeft]You aren't with the castle?[A]
-[OpenMidRight]My name is Roy.
-Who are you?[A]
-[OpenMidLeft]I am Sue. Are you the one
-causing that noise outside?[A]
-[OpenMidRight][NormalPrint]Noise?[A]
-[OpenMidLeft]The noise of a battle.[A]
-[OpenMidRight][CloseSpeechFast]Oh, I guess so.[A]
-We're fighting the
-castle guards.[A]
-It's a bit of
-a long story...[A]
-[OpenMidLeft][FastPrint]I see.
-Then I will join your side.[A]
-[OpenMidRight][NormalPrint]You will?
-Why?[A]
-[OpenMidLeft][FastPrint]The soldiers of this castle
-have wronged me.[A]
-[OpenMidRight]What?
-What do you mean...?[A]
-[OpenMidLeft]Please give me a bow.
-I will fight with you.[A]
-[93]
-[LoadWagner][ToggleSmile]Useless guards!
-But very well.[A]
-Witness my magic...and bow
-down before its power![A]
-[94]
-[LoadWagner]
-[ToggleSmile]No... My plan...
-was flawless...[A]
-[95]
-[OpenMidLeft][LoadSue][OpenMidRight][LoadRoy][OpenMidRight][CloseSpeechFast][ToggleSmile]...You're the granddaughter of one
-of the chieftains of Sacae?[A]
-[OpenMidLeft]My grandfather is the strongest
-warrior in Sacae.[A]
-People call him the
-Silver Wolf.[A]
-[OpenMidRight]The Silver Wolf...
-I've heard tales of him.[A]
-But what are you doing in Lycia?
-This is a long way from Sacae.[A]
-[OpenMidLeft]Bern invaded Sacae, so the Kutolah
-clan decided to take up arms.[A]
-Grandfather had the women and
-children escape to Lycia, but...[A]
-[OpenMidRight][NormalPrint]But?[A]
-[OpenMidLeft][FastPrint]There was a traitor.[A]
-[CloseSpeechFast]The Djute clan, who turned to
-Bern's side, ambushed us.[A]
-[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]We were all separated.[A]
-I found my way into this land and
-I was rescued by Lord Orun.[A]
-But Wagner, his advisor, assassinated
-Lord Orun and took over the castle.[A]
-[OpenMidRight]And that's when you
-were captured...[A]
-[OpenMidLeft][FastPrint]Is your army fighting Bern?[A]
-[OpenMidRight]Yes, we will fight for
-as long as it takes.[A]
-[OpenMidLeft]Then let me join you.[A]
-Fighting Bern may lead
-me to Grandfather.[A]
-Lord Orun deserves
-vengeance as well.[A]
-[OpenMidRight]We're headed for Ostia, in the west.[A]
-Sacae is in the east, the opposite
-direction. Is that all right?[A]
-[OpenMidLeft][CloseSpeechFast]I don't mind.[A]
-No matter where we are, Mother Earth
-and Father Sky watch over me.[A]
-[96]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
-[OpenMidLeft][ToggleSmile]
-Lord Roy! The spy I sent to
-Ostia has just returned.[A]
-He says that Ostia is in
-a state of anarchy![A]
-[OpenMidRight][MoveRight]What?! Why?[A]
-[OpenMidLeft][CloseSpeechFast]There's been a rebellion among those
-who want to surrender to Bern.[A]
-[OpenRight][FastPrint]Is Lilina safe?[A]
-[OpenMidLeft][CloseSpeechFast]The spy says that she has
-been taken hostage.[A]
-The rebels already took over Castle Ostia
-and are fighting the loyalist soldiers.[A]
-[OpenMidLeft][ClearFace]
-[OpenRight][FastPrint]We must hurry to Ostia!
-Lilina... Please be safe![A]
-[97]
-[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
-[OpenMidRight][ToggleSmile]Hey! You're...[A]
-[OpenMidLeft]Oops...[A]
-[OpenMidRight]Wait![A]
-[OpenMidLeft]Hey, cut it out![A]
-Let go of my arm![A]
-Ow! That hurts![A]
-[OpenMidRight]Oh, I'm sorry.[A]
-But what are you doing here?[A]
-[OpenMidLeft][ToggleSmile]Well, uh, you know,
-this and that.[A]
-I'm a busy girl.
-Ha ha ha...[A]
-[OpenMidRight][ToggleSmile]Here?
-In a battlefield?[A]
-[OpenMidLeft][ToggleSmile]
-Oh yes, precisely BECAUSE
-this is a battlefield--[A]
-Whoops, better watch my
-tongue...[A]
-[OpenMidRight][ToggleSmile]Do you have some
-ulterior motive?[A]
-[OpenMidLeft]Uh...[A]
-[OpenMidRight]Wait, is that why you
-told us the escape route?[A]
-[OpenMidLeft]Um, what?[A]
-Sorry, I'm a little
-deaf in this ear![A]
-[OpenMidRight]Just who are you?[A]
-[OpenMidLeft]Don't worry about it!
-Forget you saw me.[A][Clear]
-Gotta go. Cheers![A][ClearFace]
-[OpenMidRight]Hey, wait![A]
-[98]
-[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
-[OpenMidRight][ToggleSmile]It's you![A]
-[OpenMidLeft][ToggleSmile]Ugh, you again...
-Er, fancy meeting you here![A]
-Ha ha ha...[A]
-[OpenMidRight][ToggleSmile]...You're a thief.[A]
-You shouldn't steal.
-It's not right.[A]
-[OpenMidLeft][ToggleSmile]Nah, it's fine.
-I only take from the rich.[A]
-No one's going to starve
-or anything.[A]
-[OpenMidRight][ToggleSmile]That doesn't make
-it any better.[A]
-[OpenMidLeft]Oh really?
-Then let me offer you this.[A]
-You nobles take food and money from people
-living in what you call your land.[A]
-How is tax collection any different
-than tribute to a bandit?[A]
-[OpenMidRight]We protect the people
-in return![A]
-[OpenMidLeft]You do not![A]
-You kill them in
-wars like this![A]
-[OpenMidRight]We didn't start this war.[A]
-Bern invaded, so we have
-to defend the people...[A]
-[OpenMidLeft]You can't just do anything you want
-and say you're defending us![A]
-How does burning down villages
-help us anyway?![A]
-[OpenMidRight]Burning down villages?!
-We never--![A]
-Wait a minute, was your...?[A]
-[OpenMidLeft]...My village was burned to
-the ground by our marquess.[A]
-He said that he had to do it to
-prepare for Bern's attack.[A]
-[OpenMidRight]But...that's...[A]
-[OpenMidLeft]We always had barely enough to get by,
-and then we lost everything...[A]
-Our homes... Our crops...[A]
-And here you come, saying
-it's wrong to steal?[A]
-Ha! Look who's talking![A]
-The nobility steals from the poor so you
-can live in luxury at our expense![A]
-[OpenMidRight]I...
-I don't know what to say.[A]
-[OpenMidLeft]Sigh. Don't get gloomy.[A]
-I really don't like talking about
-how pitiful we are anyway.[A]
-But you started it.[A]
-[OpenMidRight]I...[A]
-[OpenMidLeft]Ah, to heck with this.[A]
-It's no fun stealing after a
-conversation like that.[A][Clear]
-I'm outta here.
-Ta-ta![A][ClearFace]
-[OpenMidRight][ToggleMouthMove]......[A]
-[99]
-[OpenMidLeft][LoadCath][OpenMidRight][LoadRoy]
-[OpenMidRight][ToggleSmile]Oh! You![A]
-[OpenMidLeft]Hm? ...You again?[A]
-You always come and
-mess up my plans.[A]
-Do you have it out for
-me or something?[A]
-[OpenMidRight]No!
-I just...wanted to apologize.[A]
-[OpenMidLeft]...Excuse me?[A]
-[OpenMidRight]The last time we met, I was
-pretty callous.[A]
-I said you shouldn't steal, but I didn't
-even realize what you'd been through...[A]
-[OpenMidLeft][ToggleSmile]Oh, that? Whatever.
-I don't care.[A]
-[OpenMidRight][ToggleSmile]But I still think what
-you do is wrong.[A]
-[OpenMidLeft]You've got some nerve,
-you know that?[A]
-[OpenMidRight]Just give me
-a chance.[A]
-[OpenMidLeft]A chance?[A]
-[OpenMidRight]Once this war is over, I promise to
-help rebuild your village.[A]
-I'll be sure the taxes are
-put to good use too.[A]
-Just please, stop looting.[A]
-[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove][Clear]
-How long will that be?[A]
-[OpenMidRight]Whenever this war ends.
-I can't say when...[A]
-[OpenMidLeft]And you expect me to wait
-patiently until then?[A]
-[OpenMidRight]No. All I want
-is your faith.[A]
-[OpenMidLeft]...Why are you so
-kind to me?[A]
-I'm just a thief.[A]
-[OpenMidRight]Without you, we wouldn't have
-escaped Wagner's trap.[A]
-Maybe you didn't care about helping us,
-but the fact is that you did.[A]
-You saved our lives. You're more than
-just a thief.[A]
-[OpenMidLeft][ToggleSmile]If things keep going
-like they have...[A]
-I guess you'll get in my way
-no matter where I go.[A]
-[OpenMidRight]As long as you appear
-in our path.[A]
-[OpenMidLeft]Fine, you win.[A]
-I'll stop looting
-battlefields.[A]
-[OpenMidRight]You will?
-Thank you.[A]
-[OpenMidLeft]But I'm coming
-with you.[A]
-[OpenMidRight]What?
-Why?[A]
-[OpenMidLeft]Actions speak louder
-than words.[A]
-Prove to me that you'll be true
-to your promise.[A]
-[OpenMidRight]I won't disappoint you![A]
-[9A]
-[OpenMidLeft][LoadDebias][OpenMidRight][LoadLegance][ToggleSmile]Is everything quiet,
-Debias?[A]
-[OpenMidLeft]Yes, General. The townspeople are
-no trouble.[A]
-But the Ilian mercenaries that Hector
-hired still refuse to join us.[A]
-[OpenMidRight]What more do they want?
-We already said we'd pay more![A]
-[OpenMidLeft]Ilia's mercenary knights
-are famously loyal.[A]
-[OpenMidRight][MoveRight]I know that, you
-bloated imbecile![OpenMidLeft][MoveFarLeft][A]
-[OpenRight]But General Narcian
-will arrive soon![A]
-If we don't have Ostia under
-our control by then,[A]
-he'll never take us
-seriously![A]
-[OpenFarLeft][FastPrint]Y-yes, General.[A]
-[OpenRight][CloseSpeechFast]Lilina may make for a valuable
-bargaining chip with the mercenaries...[A]
-If her life is in danger, they
-should surrender.[A]
-But that must be a last resort.[A]
-First we must attempt to beat them
-into submission.[A]
-The wyvern riders Bern sent us
-should prove invaluable![A]
-Debias, I want the mercenaries pacified
-and the castle gate secured.[A]
-I will be inside the castle readying
-our defenses.[A]
-[OpenFarLeft][MoveMidLeft][NormalPrint]Yes, General![A]
-[9B]
-[OpenMidLeft][LoadMerlinus][OpenRight][LoadRoy][CloseSpeechFast][ToggleSmile]How many of Ostia's troops
-have joined the rebellion?[A]
-[OpenMidLeft]Quite a large majority,
-I'm afraid.[A]
-They've forgotten their fealty
-to Lord Hector.[A]
-They all simply gave in to
-Bern because they're afraid.[A]
-It's a disgrace, I tell you.[A]
-[OpenRight][NormalPrint]Is that so...[A]
-[OpenMidLeft][CloseSpeechFast]But it's not all
-bad news, Lord Roy![A]
-There's a band of mercenaries from Ilia
-that wish to join us to stop the rebels.[A][SendToBack]
-[OpenFarRight][LoadGuinivere]Mercenaries from
-Ilia, you say?[A][SendToBack]
-[OpenMidLeft][CloseSpeechFast]Oh, yes.[A]
-They signed a contract with Lord Hector
-to fight Bern alongside Ostia.[A]
-[OpenRight]They could be a great help.[A]
-But do they know Lord Hector
-has passed away?[A]
-Isn't their contract void
-now that he's gone?[A]
-[OpenMidLeft]I would have thought
-so, too, Lord Roy.[A]
-They told me themselves however that they
-heard of Lord Hector's passing.[A]
-They're still eager to fight with us.[A][SendToBack]
-[OpenFarRight]They're only mercenaries.
-Why would they go so far?[A][SendToBack]
-[OpenMidLeft]Ilia is a frozen land with a harsh
-climate so the land is very infertile.[A]
-And so, mercenary contracts are a major
-source of income in Ilia.[A]
-Ilian mercenaries are said to never
-betray their employers, no matter what.[A]
-It seems that's true indeed.[A]
-[9C]
-[OpenMidLeft][LoadTrec][OpenMidRight][LoadZelot][CloseSpeechFast][ToggleSmile]It looks like the Lycian Army has
-commenced a counterattack on the rebels.[A]
-Let's join them and quell this
-shameful little rebellion![A]
-[OpenMidLeft][NormalPrint]Uh-huh.[A]
-[OpenMidRight][CloseSpeechFast]Wait,
-where's Noah?[A]
-[OpenMidLeft]Uhhh, I think he went to the
-arena a little while ago.[A]
-He said he's coaching some
-girl in swordplay.[A]
-[OpenMidRight]Noah, a coach?
-That's not like him...[A]
-Has he made a little girlfriend,
-I wonder? Ha ha.[A]
-Well, no matter.
-He can catch up with us later.[A]
-[OpenMidLeft][NormalPrint]Uh-huh.[A]
-[OpenMidRight]Time for action.
-Move out.[A]
-[9D]
-[OpenMidLeft][LoadFir][OpenMidRight][LoadNoah][CloseSpeechFast][ToggleSmile]Looks like they've started
-attacking the rebels.[A]
-I need to get going, Fir.[A]
-[OpenMidLeft][CloseSpeechFast]Thank you for helping
-me, Sir Noah.[A]
-[OpenMidRight]Of course.[A]
-I sure was surprised when you
-came up to me though.[A]
-Not many people would challenge someone
-to a match so quickly like that.[A]
-[OpenMidLeft][ToggleSmile]I-I'm sorry, Sir Noah.[A]
-I'd never fought in
-the arena before...[A]
-[OpenMidRight][ToggleSmile]If you'd asked anyone else,
-you'd be dead now.[A]
-You need to look your opponent over
-carefully before choosing a fight.[A]
-[OpenMidLeft]And I must have the humility to surrender
-if it appears I'll lose.[A]
-[OpenMidRight][NormalPrint]Exactly.[A]
-[CloseSpeechFast]You can always get your money back,
-but don't throw your life away.[A]
-[OpenMidLeft][NormalPrint]You're right!
-Thank you![A]
-[OpenMidRight][CloseSpeechFast]What will you do now?[A]
-Will you stay here and continue
-practicing the sword?[A]
-[OpenMidLeft]No. I'm going to the
-Western Isles.[A]
-[OpenMidRight]The Western Isles?
-Why?[A]
-[OpenMidLeft]They're constructing a new mine, so there
-are many new workers headed there.[A]
-Miners are strong, so it's no doubt an ideal
-place to find new opponents to challenge.[A]
-And besides...[A][OpenMidRight][NormalPrint]Yes?[A]
-[OpenMidLeft][CloseSpeechFast]The Western Isles is where my
-mother first met my father.[A]
-She's passed on, but at my age she traveled
-around the world training herself.[A]
-[OpenMidRight][NormalPrint]So that's it...
-You surprise me again.[A]
-[OpenMidLeft][ToggleMouthMove]Why?[A]
-[OpenMidRight][CloseSpeechFast][ToggleMouthMove]I thought all you wanted was
-to become strong.[A]
-I didn't realize you were following
-in your mother's footsteps.[A]
-You do have a cute side after all![A]
-[OpenMidLeft]...Sir Noah!
-Please don't tease me![A]
-[OpenMidRight][NormalPrint]Ha ha ha ha![A]
-[9E]
-[OpenMidLeft][LoadDebias][CloseSpeechFast][ToggleSmile]The reinforcements should be
-arriving from the south soon.[A]
-Heh heh... I want to see the look on their
-faces when they get hit from behind![A]
-[9F]
-[OpenMidRight][LoadRoy][OpenMidLeft][LoadZelot][FastPrint][OpenMidRight][ToggleSmile]Excuse me, are you Sir Zelot of
-the Ilian mercenaries?[A]
-[OpenMidLeft][NormalPrint]That's me.
-And you are?[A]
-[OpenMidRight][FastPrint]My name is Roy.[A]
-I lead the army that's
-fighting the rebels.[A]
-[OpenMidLeft][CloseSpeechFast]You?[A]
-[OpenMidLeft][FastPrint]Impressive...
-I expected someone older.[A]
-[OpenMidRight][CloseSpeechFast]I'm here because Lord Hector
-asked me to be.[A]
-[OpenMidLeft]Lord Hector...
-We've lost a great man.[A]
-He was a true warrior.[A]
-[OpenMidRight]We have to retake Ostia.
-For Lord Hector![A]
-And for Lilina...[A]
-[OpenMidLeft]I concur.[A]
-We'll offer what
-help we can.[A]
-[OpenMidRight]Thank you for
-the assistance.[A]
-[OpenMidLeft]Save the thanks for after
-we've retaken the castle.[A]
-Come! We must concentrate
-on the enemy now![A]
-[OpenMidRight]Right![A]
-[A0]
-[OpenMidRight][LoadRoy][OpenMidLeft][LoadNoah][OpenMidRight][FastPrint][ToggleSmile]Are you one of the
-Ilian mercenaries?[A]
-[OpenMidLeft][NormalPrint]Sure am.
-Can I help you?[A]
-[OpenMidRight][FastPrint]My name is Roy.
-I lead the Lycian Army.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh! I heard about you...[A]
-I'm supposed to take orders
-from you now.[A]
-[OpenMidRight][NormalPrint][ToggleSmile]Are you sure
-that's all right?[A]
-[OpenMidLeft]What do you mean?[A]
-[OpenMidRight][FastPrint]Don't you have to check in
-with your commander...?[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]He told us we're joining the
-Lycian Army. That's enough for me.[A]
-[OpenMidRight][NormalPrint][ToggleSmile]But did he mean like this?[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]This is a battlefield.[A]
-There's no time to check
-everything with the commander.[A]
-As long as I'm following orders, and
-I am, I can play it by ear.[A]
-[OpenMidRight][NormalPrint]I see.
-Thanks for the help.[A]
-[A1]
-[OpenMidRight][LoadZelot][NormalPrint]Noah![OpenMidLeft][LoadNoah][OpenMidRight][A]
-[OpenMidLeft][FastPrint][ToggleSmile]Commander Zelot.
-Sorry I'm late.[A]
-[OpenMidRight][CloseSpeechFast]I heard you were coaching a
-girl in swordplay.[A]
-[OpenMidLeft]Yes...[A]
-She was inexperienced and naive,
-so I felt obligated.[A]
-[OpenMidRight][FastPrint]She isn't with you?[A]
-[OpenMidLeft][CloseSpeechFast]She left. She said she was
-heading for the Western Isles.[A]
-[OpenMidRight]Pity. I thought she might have been of
-some help were she still here.[A]
-But you, a coach? Since when do you
-care about other people?[A]
-It's very unlike you.[A]
-[OpenMidLeft][FastPrint]Do you think so, sir?[A]
-[OpenMidRight][NormalPrint]Oh, yes.[A]
-[CloseSpeechFast][ToggleSmile]I even joked with Trec saying
-that you fancied the lass.[A]
-But THAT wouldn't be like you
-in the least, now would it?[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
-[A2]
-[OpenMidRight][LoadZelot][OpenMidLeft][LoadTrec][OpenMidRight][FastPrint][ToggleSmile][OpenMidRight]Trec, we're now in service
-to the Lycian Army.[A]
-[OpenMidLeft]OK, I guess.[A]
-[OpenMidRight]Not the most enthusiastic
-response. You don't like the idea?[A]
-[OpenMidLeft]Wha?
-No, it's fine.[A]
-[OpenMidRight]Oh, well, all right then.
-Get to it then.[A][ClearFace]
-[OpenMidLeft]Lycia, huh...?
-Eh, it should all work out.[A]
-[A3]
-[OpenMidRight][LoadRoy][OpenMidLeft][LoadTrec][OpenMidRight][FastPrint][ToggleSmile]Are you one of the
-Ilian mercenaries?[A]
-[OpenMidLeft][NormalPrint]Hmmm?
-Yeah, I guess so.[A]
-[OpenMidRight][FastPrint]My name is Roy.
-I lead the Lycian Army.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh, I'll take your orders
-from now on then.[A]
-[OpenMidRight][NormalPrint][ToggleSmile]What?
-Just like that?[A]
-[OpenMidLeft]Hm?[A]
-[OpenMidRight][FastPrint]You don't have to check in
-with your commander first?[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Oh. Nah.[A]
-He already said we're joining
-the Lycian Army.[A]
-[OpenMidRight][NormalPrint][ToggleSmile]But still...[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Really, it's fine.
-This is a battle.[A]
-There's no time to check every
-little thing with the commander.[A]
-It's not as though I'm going
-against his orders anyway.[A]
-[OpenMidRight][ToggleMouthMove]...All right.[A]
-[A4]
-[OpenMidLeft][LoadZelot][OpenMidRight][LoadNoah]
-[OpenMidRight][ToggleSmile]Commander Zelot![A]
-[OpenMidLeft]Ah, Noah.[A]
-I heard you were
-at the arena.[A]
-[OpenMidRight]Yes,
-sorry I'm late.[A]
-[OpenMidLeft]Don't worry yourself...
-Things are just getting started.[A]
-I haven't even spoken with the
-Lycian Army's commander yet.[A]
-[OpenMidRight]Oh?[A]
-Actually, I just spoke
-to him.[A]
-[OpenMidLeft]Really?[A]
-Then we'll take any commands
-he gives from now on.[A]
-Noah, I leave further negotiations
-with the Lycian League to you.[A]
-[OpenMidRight]Yes, sir![A]
-[A5]
-[OpenMidLeft][LoadZelot][OpenMidRight][LoadTrec]
-[OpenMidRight][ToggleSmile]Commander Zelot.[A]
-[OpenMidLeft]Trec.
-What is it?[A]
-[OpenMidRight]I just met with the commander
-of the Lycian Army.[A]
-[OpenMidLeft]Ah, did you?[A]
-Then we'll take any commands
-he gives from now on.[A]
-Trec, I leave further negotiations
-with the Lycian League to you.[A]
-[OpenMidRight]Yes, sir![A]
-[A6]
-[OpenMidRight][LoadRoy][OpenMidLeft][LoadZelot][FastPrint][OpenMidRight][ToggleSmile]Excuse me, are you Sir Zelot of
-the Ilian mercenaries?[A]
-[OpenMidLeft][NormalPrint]That's me.
-And you are?[A]
-[OpenMidRight][FastPrint]My name is Roy.[A]
-I lead the army that's
-fighting the rebels.[A]
-[OpenMidLeft][CloseSpeechFast]You?[A]
-[OpenMidLeft][FastPrint]Impressive...
-I expected someone older.[A]
-[OpenMidRight][CloseSpeechFast]I'm here because Lord Hector
-asked me to be.[A]
-[OpenMidLeft]Lord Hector...
-We've lost a great man.[A]
-He was a true warrior.[A]
-[OpenMidRight]We have to retake Ostia.
-For Lord Hector![A]
-And for Lilina...[A]
-[OpenMidLeft]I concur.[A]
-We'll offer what
-help we can.[A]
-[OpenMidRight]Thank you for the
-assistance.[A]
-[OpenMidLeft]Save the thanks for after
-we've retaken the castle.[A]
-Come! We must concentrate
-on the enemy now![A]
-[OpenMidRight]Right![A]
-[A7]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Look at this great
-bow I made.[A]
-It fires arrows much farther
-than a normal bow![A]
-Very useful, don't you think?
-Of course you do.[A]
-You can have it.
-I want it to go to good use.[A]
-[A8]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
-[OpenMidRight]Oh, this? This is a torch staff.
-It creates light in foggy places.[A]
-If you're in fog, you can't
-attack anything you can't see.[A]
-This should be helpful if you ever
-find yourself in that situation.[A]
-[A9]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
-[OpenMidRight]Would you like to buy some elixir?
-It'll patch your wounds right up![A]
-The recipe is top secret...
-Don't ask, because I'm not telling![A]
-What's that?
-You don't want any?[A]
-Here, I'll give you a free sample!
-You won't be disappointed.[A]
-[AA]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
-[ToggleSmile]Ostia is Lycia's greatest city!
-But now look at it...[A]
-What did you say? You're out
-to restore our former glory?[A]
-Then please,
-take this gem...[A]
-It'll fetch a high price
-at any store![A]
-Just use the money
-to help Ostia![A]
-[AB]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager14]
-[OpenMidRight][ToggleSmile]Are you going to help Lady Lilina?[A]
-Here's a staff that can heal
-injuries from a distance![A]
-If Lady Lilina's hurt,
-please heal her...[A]
-[AC]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
-[OpenMidRight][ToggleSmile]A while back, I saw a man
-dying in the street.[A]
-I helped him out, and he gave
-me this sword.[A]
-Really strange person, but kind...
-Hm? This is the sword.[A]
-You can have it!
-Take good care of it.[A]
-[AD]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadSoldier1][ToggleSmile]General Legance has allied
-himself with Bern![A]
-He had all who resisted him
-killed... I escaped, though.[A]
-Please take this. It's a
-Hero crest.[A]
-Give this to an experienced hero,
-and fight to save Ostia...[A]
-[AE]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
-Cavaliers, paladins...
-Mounted knights like those.[A]
-This lance is incredibly effective
-against such soldiers.[A]
-There are many horsemen in the rebel
-army, so use this against them![A]
-[AF]
-[LoadDebias][ToggleSmile]You...you beat Bern's
-wyvern riders!?[A]
-Ergh...
-I'll not let you pass![A]
-[B0]
-[LoadDebias][ToggleSmile]General Legance...
-Please be cautious...[A]
-These people are...
-powerful...[A]
-[B1]
-[OpenMidRight][LoadRoy][CloseSpeechFast][ToggleSmile]The city is finally
-under control.[A]
-[OpenMidRight][MoveRight]Now let us retake Castle Ostia
-and rescue Lilina![A]
-[OpenMidLeft][LoadMerlinus]Lord Roy, I understand your
-apprehension, but please be patient![A]
-We still need to break down
-the castle gate.[A]
-[OpenRight][MoveMidRight]...Lilina.[A]
-[OpenMidLeft][CloseSpeechFast]Speaking of Lady Lilina...[A]
-What do you think of what
-Lord Hector said?[A]
-[OpenMidRight]You mean about the dragons?[A]
-They were real, not just myth...[A]
-Lord Hector was one of the
-greatest tacticians in Lycia.[A]
-And yet his army was defeated in
-the blink of an eye...[A]
-[OpenMidLeft]Bern's army is perhaps the
-strongest in Elibe.[A]
-I say, those wyvern riders were
-indeed very formidable opponents.[A]
-[OpenMidRight]Of course the wyvern riders must
-have been difficult enough.[A]
-But the dragons... I can't even
-conceive how powerful they must be.[A]
-Lord Hector mentioned a weapon that
-is effective against dragons...[A]
-I wonder where it's hidden.[A][LoadOverworldFaces]
-[OpenMidLeft]I presume it must be one of
-the legendary weapons.[A]
-[OpenMidRight]If we can obtain those, we might have a
-fighting chance against the dragons.[A]
-But I do wonder what a legendary
-weapon is doing in Ostia.[A]
-[OpenMidLeft]Perhaps Lady Lilina knows
-the answer. I'm curious as well.[A]
-Oh![A]
-Lord Roy, our men have finished
-knocking down the gate.[A]
-We can enter now![A]
-[OpenMidRight][MoveRight]All right! Forward charge![A]
-Rescue Lilina, no matter
-the cost![A]
-[B2]
-[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadLegance][ToggleSmile]
-[MoveMidRight]The enemy has broken
-into the castle?![A]
-How could Debias have
-failed against them?![A]
-Were those Ilian mercenaries
-that skilled?[A]
-...Or was the Lycian Army larger
-than we expected...?[A]
-Whatever the case, they have broken into
-the impregnable Castle Ostia![A][OpenMidLeft][ClearFace]
-[OpenMidRight]We must defeat them here, or we'll
-be a laughing stock in Bern...[A][Clear]
-You over there![A]
-[OpenMidLeft][LoadSoldier2]Yes, General![A]
-[OpenMidRight]Have the troops take defensive positions
-throughout the castle![A]
-Particularly around the throne room![A]
-We must not allow the Lycian Army
-any further into the castle![A]
-[OpenMidLeft]Of course, General![A]
-[OpenMidRight][MoveRight]One other matter.[A]
-I want you to have Lilina quietly
-assassinated during the battle.[A]
-[OpenMidLeft][MoveFarLeft]What? ...I thought we
-were to keep her alive.[A]
-[OpenRight]I felt she might make
-a valuable hostage.[A]
-But many of our rebel soldiers
-still swear loyalty to her.[A]
-If we openly use her as a hostage,
-those soldiers may turn.[A]
-[OpenFarLeft]If that's the case, General, would they not
-also turn if we assassinate her?[A]
-[OpenRight][MoveRight]That's why I said to do
-it quietly, isn't it?![A]
-Kill her discreetly, and say that
-she was hit by a stray arrow.[A]
-We can hold the enemy responsible!
-Now go![A]
-[OpenFarLeft]Yes, General...[A]
-[B3]
-[OpenMidRight][LoadRoy][.....]
-[OpenFarLeft][LoadAstolfo]...General Roy of Pherae,
-I presume.[A]
-[OpenMidRight][MoveRight][ToggleSmile]Who are you?!
-An enemy?![A]
-[OpenFarLeft][ToggleSmile]No, no. I'm on your side.
-My name is Astolfo.[A]
-I used to work here in the
-service of the marquess.[A]
-[OpenFarRight][LoadMerlinus]What kind of work were
-you doing exactly?[A]
-You certainly aren't dressed
-like a servant...[A]
-[OpenFarLeft]A bit nosy, don't you
-think, old man?[A]
-I'm a spy, see.[A]
-I gather information, steal things,
-check on people... Things like that.[A]
-[OpenFarRight]That explains it.[A][ClearFace]
-[OpenFarLeft]I'm not much of a spy if you can tell I
-work for a noble at first glance, am I?[A]
-[OpenFarLeft][ToggleSmile]I've been running around Lycia gathering
-intelligence for about a month now.[A]
-When I heard about Araphen, I got back
-as quickly as my legs would allow.[A]
-And what do I find but those muttonheads
-Legance and Debias inciting rebellion![A]
-I couldn't save Lord Hector, but I
-won't let them take Lady Lilina.[A]
-[OpenRight]Then you'll join us?
-Do you know where Lilina is?[A]
-[OpenFarLeft]Of course. Finding that
-stuff out is my job.[A]
-Lady Lilina is locked in a small room
-in the heart of the castle.[A]
-And Legance is sitting on the
-throne like he owns the place.[A]
-[OpenRight]We have to hurry then.[A]
-We must defeat the rebels and save Lilina
-before Narcian arrives from Bern![A]
-[B4]
-[OpenMidRight][LoadLilina][CloseSpeechFast][ToggleSmile]What's all that noise?
-Is there a battle going on?[A]
-I wish I could see outside
-this chamber...[A]
-[B5]
-[OpenFarRight][LoadOgier][CloseSpeechFast][ToggleSmile]Sir Barthe,
-it's a dead end![A]
-[OpenMidLeft][LoadBarthe][CloseSpeechFast]This wall has cracks in it.[A]
-We can break it down if we hit
-it with our weapons.[A]
-[OpenRight][LoadGwendolyn]I wonder where
-Lady Lilina is.[A]
-[OpenMidLeft]I have a pretty good idea
-of where she might be.[A]
-I've known this castle
-for a long time.[A]
-I do wonder what's causing
-all the noise, though.[A]
-[OpenRight]The Lycian Army, perhaps?[A]
-My brother must be
-with them...[A]
-[OpenMidLeft]...We can't be sure he's
-still alive.[A]
-You had best keep your
-hopes low.[A]
-[OpenRight][FastPrint]Ah...
-Yes, you're right.[A]
-[OpenFarRight][CloseSpeechFast]Sir Barthe, must you
-be so aloof?[A]
-Bors is Gwendolyn's only brother.[A]
-[OpenMidLeft][FastPrint]We must always stand
-firmly in reality.[A]
-[OpenFarRight][NormalPrint]But--[A]
-[OpenRight][FastPrint]It's all right, Ogier.
-Sir Barthe is right.[A]
-[OpenMidLeft][CloseSpeechFast]As a knight of Ostia,
-you must always remain calm.[A]
-It matters not how grave the
-situation.[A]
-Understood, Gwendolyn?[A]
-[OpenRight][NormalPrint]...Yes, sir.[A]
-[B6]
-[OpenMidLeft][LoadCath]Oh baby![A]
-Just as I thought.
-They're at it again.[A]
-How stupid can these
-nobles get?[A]
-I'll never understand what fun
-it is fighting all the time.[A]
-Oh well. I'll take the opportunity
-to swipe what I can.[A]
-[B7]
-[OpenMidRight][LoadRoy][NormalPrint]Lilina![A]
-[OpenMidLeft][LoadLilina]...Roy?[.....]
-Is it really you?[A]
-[OpenMidRight]Yes, it's me![A]
-[OpenMidLeft]You came!
-Thank you so much.[A]
-[OpenMidRight][CloseSpeechFast]I'm so glad you're unhurt.
-Here, take this spell tome.[A]
-Use it to defend yourself for
-the time being.[A]
-[OpenMidLeft][FastPrint]Thanks.[A]
-[B8]
-[OpenMidLeft][LoadGwendolyn][NormalPrint]Bors!
-You're all right![A]
-[OpenMidRight][LoadBors][FastPrint]Is that you, Gwendolyn?[A]
-I'm so glad to see
-you in one piece.[A][Clear]
-[ToggleSmile]Wha...!? What...what's
-that you're wearing?![A]
-Did you join up with
-the Ostian knights?[A]
-[OpenMidLeft][ToggleSmile]Ah... Actually, yes.
-I was knighted just yesterday.[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]What are you thinking...?[A]
-I told you to leave the fighting
-to me and live as you wish![A]
-You didn't need to become
-a knight...[A]
-[OpenMidLeft][FastPrint][ToggleSmile]Yes, well, I thought about it, and I
-realized that this is what I want.[A]
-[OpenMidRight][NormalPrint][ToggleSmile]But...[A]
-[OpenMidLeft][CloseSpeechFast]I don't want to sit idly by and wait
-for you to return from battle.[A]
-I want to be a great knight,
-just like you.[A]
-[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidLeft][ToggleMouthMove]...Bors?[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]You've always been a
-stubborn one, Gwendolyn.[A]
-[OpenMidLeft][NormalPrint][ToggleSmile]Bors...[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]Live as you wish.[A]
-If Mother and Father were alive,
-I'm certain they'd say the same...[A]
-But the life of a knight
-is never easy![A]
-[OpenMidLeft][FastPrint][ToggleSmile]Yes, I'm prepared!
-I'm ready for the challenge![A]
-[B9]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadBors]
-Lady Lilina!
-You are unharmed![A]
-[OpenMidLeft]Bors, I'm sorry that
-I worried you.[A]
-[OpenMidRight]Not at all, milady!
-You are well...[A]
-That in itself is
-enough for me.[A]
-[OpenMidLeft]Thank you, Bors.[A]
-And you kept your promise
-to protect Roy.[A]
-I knew I could
-depend on you.[A]
-[OpenMidRight]Thank you, milady![A]
-[BA]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadBarthe]
-[OpenMidLeft][ToggleSmile]Barthe![A]
-[OpenMidRight]Lady Lilina!
-I am overjoyed to see you safe.[A]
-[OpenMidLeft][ToggleSmile]Barthe, you were right.
-Legance was planning this rebellion.[A]
-[OpenMidRight][ToggleMouthMove]......[A]
-[OpenMidLeft][ToggleMouthMove]I'm sorry...[A]
-If only I'd trusted your word,
-this would not have happened...[A]
-[OpenMidRight]No...[A]
-Lady Lilina, you have
-nothing to apologize for.[A]
-Legance betrayed your
-kindness and trust.[A]
-He is the one responsible
-for this.[A]
-[ToggleSmile]It is your undying kindness that we
-soldiers respect the most, milady.[A]
-[OpenMidLeft]Barthe...[A]
-[BB]
-[LoadLegance][ToggleSmile]Dogs of the Lycian Army...
-Come.[A]
-I shall cut you down
-where you stand![A]
-[BC]
-[LoadLegance][ToggleSmile]How? You will only...
-be crushed by Bern...[A]
-How can you fight with
-such conviction...?[A]
-[BD]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy]
-[OpenMidRight]We've finally retaken
-the castle, Lilina.[A]
-[OpenMidLeft]Thank you, Roy.[A]
-I'm glad that my father didn't have
-to go to the trouble.[A]
-[OpenMidRight][ToggleSmile][ToggleMouthMove]![A][ToggleMouthMove]
-[OpenMidLeft][ToggleSmile]Roy, is my father still in Araphen?[A]
-I heard there was a horrible battle there,
-but how much longer will he be?[A]
-[OpenMidRight][ToggleSmile]Lilina...
-You haven't heard?[A]
-[OpenMidLeft][ToggleSmile]Heard what?[A]
-[LoadOverworldFaces][OpenMidRight][ToggleSmile]Lord Hector...
-passed on.[A]
-[OpenMidLeft]What...?[A]
-[OpenMidRight]I'm sorry... By the time we arrived
-at Castle Araphen...[A]
-It was already under Bern's control.[A]
-[OpenMidLeft]It's not your fault...
-Don't apologize.[A]
-[OpenMidRight]Lord Hector had been fatally
-wounded when we arrived.[A]
-If only we had gotten there sooner,
-we could have helped him...[A]
-[OpenMidLeft][ToggleSmile]No...
-I...was prepared for this...[A]
-I'm the daughter of
-a warrior.[A]
-I've been taught to steel myself
-in times such as these.[A]
-[OpenMidRight][ToggleSmile]Lilina.[A]
-[OpenMidLeft]Everybody kept it from me...
-They didn't want to hurt me...[A]
-But I'm strong... I can
-handle this...[A]
-[OpenMidRight]Lilina, you don't have
-to hold back...[A]
-[OpenMidLeft]Roy... I...[A]
-[OpenMidRight]We'll get through this...
-I'm here for you.[A]
-[BE]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenMidLeft][CloseSpeechFast][ToggleSmile]Lord Roy! Bern's wyvern riders
-are in front of Castle Ostia![A]
-[OpenMidRight][MoveRight]What?!
-They're here already?![A]
-[BF]
-[OpenFarLeft][LoadNarcian][OpenFarRight][LoadRoy][OpenFarLeft][ToggleMouthMove]Hm [.....]hm [.....]hm...[A]
-[ToggleMouthMove]You must be Roy.[A]
-I thank you for ridding me
-of that cretin Legance.[A]
-[OpenFarLeft][MoveMidLeft]Now, leave Ostia to me and we can all
-go home with our limbs attached.[A]
-[OpenFarRight][MoveRight][ToggleSmile]Never![A]
-I'll never hand Ostia over to
-the likes of you...![A]
-[OpenMidLeft][ToggleSmile]Oho?[A]
-You think you can best us with that
-sad little group of yours?[A]
-[OpenMidLeft][MoveLeft]I will cut you open,
-just as I did to Hector![A]
-[OpenRight][NormalPrint][ToggleSmile][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenFarFarRight]That's enough![A]
-[C0]
-[OpenMidLeft][LoadNarcian][.....]
-[OpenRight][LoadSoldier2][CloseSpeechFast]General Narcian!
-A legion has arrived from Etruria![A]
-[OpenRight][ClearFace][OpenMidLeft][ToggleSmile]I can see that, you fool!
-But why...?[A]
-[OpenMidRight][LoadPerceval][FastPrint]I am Perceval,
-Knight General of Etruria.[A]
-[CloseSpeechFast]Mage General Cecilia informed me that the
-Lycian Army had requested Etruria's aid.[A]
-[OpenMidLeft][NormalPrint]What...?![A][SendToBack]
-[OpenMidRight][ClearFace][OpenMidRight][LoadCecilia][CloseSpeechFast][ToggleSmile]We are prepared for battle.[A]
-Can those wyvern riders of yours
-stand against our might?[A]
-[OpenMidLeft][ToggleSmile]You...![A]
-[OpenMidRight]I am Cecilia,
-Mage General of Etruria![A]
-Ostia is now under our
-protection.[A]
-[OpenMidLeft][MoveLeft]Argh...!
-You...you...!!![A]
-[OpenFarLeft][LoadSoldier2][CloseSpeechFast]General Narcian,
-please control your temper![A]
-General Perceval is one of the
-most skilled knights in Etruria![A]
-Combined with General Cecilia,
-we haven't a chance![A]
-[OpenLeft]I know that!
-We're leaving![A]
-[OpenFarLeft][ClearFace][OpenLeft][MoveFarLeft]Cecilia, was it?[A]
-We'll see who has
-the last laugh![A]
-[C1]
-[OpenMidLeft][LoadPerceval][OpenMidRight][LoadRoy]
-[OpenMidLeft][ToggleSmile]Are you General Roy of
-the Lycian Army?[A]
-[OpenMidRight]Y-yes, I am![A]
-I lead the Lycian Army
-in Lord Hector's place.[A]
-[OpenMidLeft]It's a pleasure.[A]
-You have my sympathy for the
-current turmoil in Lycia.[A]
-Our king also sends his
-condolences for Lord Hector.[A]
-[OpenMidRight]Thank you.[A]
-If you hadn't helped us...Ostia
-would be under Bern's control now.[A]
-[OpenMidLeft]You have no reason to thank me.
-I simply followed my king's orders.[A]
-You should thank Cecilia. She defied the
-king until he agreed to help you.[A]
-[OpenMidRight]She...
-opposed the king?[A]
-[OpenMidLeft]Yes, she put her neck on the line.[A]
-Well, I must be off.[A]
-Etruria calls. As one of the three Generals
-of Etruria, it requires my presence.[A]
-Cecilia,[OpenMidRight][ClearFace][OpenMidRight][LoadCecilia]
-[OpenMidLeft]will you take care of the loose ends?[A]
-[OpenMidRight]Yes. Thank you, Perceval.
-Leave the rest to me.[A]
-[C2]
-[OpenMidRight][LoadRoy][ToggleSmile]Wow...
-General Perceval...[A]
-Just his presence was
-intimidating.[A]
-[OpenMidLeft][LoadCecilia][ToggleSmile]Nervous, were you?[A]
-[OpenMidRight]General Cecilia!
-It is good to see you again.[A]
-[OpenMidLeft]How are you, Roy?
-You look a little tired.[A]
-[OpenMidRight]I'm fine, thanks to you.
-It could have been a calamity.[A]
-[OpenMidLeft]I'm glad we made
-it in time.[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]I'm sorry I put you through
-so much trouble.[A]
-[OpenMidLeft]Don't be.[A]
-It will benefit Etruria for Ostia
-to go under our protection.[A]
-[OpenMidRight]Benefit Etruria?
-How?[A]
-[OpenMidLeft]Bern's been increasingly
-aggressive, as you know.[A]
-If Bern gains any further strength, the
-balance of power will be shattered.[A]
-Still, we haven't been attacked, so
-we couldn't simply declare war.[A]
-[OpenMidRight]So when we requested aid, it was
-justification to declare war on Bern?[A]
-[OpenMidLeft]Precisely.[A]
-We only did what is
-best for our land.[A]
-You needn't feel that
-you're in our debt.[A]
-[OpenMidRight][FastPrint]If you insist.[A]
-[OpenMidRight]Regardless, please come in and
-meet the rest of the army.[A]
-[C3]
-[OpenMidLeft][LoadCecilia]...He's grown so much in the short
-time since I met him last.[A]
-He's maturing into a man.[A]
-[C4]
-[LoadBarthe][ToggleSmile]Show the enemy the
-power of the Ostian knights![A]
-Triangle Attack!![A]
-[C5]
-[LoadBors][ToggleSmile]Ready?
-Charge![A]
-Triangle Attack!![A]
-[C6]
-[LoadGwendolyn][ToggleSmile]Uh...
-Let's go![A]
-Triangle Attack!![A]
-[C7]
-[OpenMidLeft][LoadScollan][OpenMidRight][LoadScott]
-[OpenMidLeft][ToggleSmile]Boss! The Lycians
-are here![A]
-[OpenMidRight][FastPrint]You sure?[A]
-[OpenMidLeft][CloseSpeechFast]Oh yeah. We just saw 'em dock at
-that little island in the east.[A]
-[OpenMidRight][CloseSpeechFast]Good. They're probably floundering
-about in this thick fog.[A]
-Sneak up from where they can't
-see and finish 'em.[A]
-[OpenMidLeft][NormalPrint]Sure thing, Boss.[A]
-[C8]
-[OpenMidRight][LoadRoy][OpenMidLeft][LoadCecilia]
-[OpenMidLeft][ToggleSmile]Roy, I'm sorry that
-I couldn't stop this.[A]
-[OpenMidRight]It isn't your responsibility, General
-Cecilia. Don't concern yourself.[A]
-[OpenMidLeft]Even in Etruria people dislike how the high
-chancellor treats the Lycians as pawns.[A]
-[OpenMidRight]High chancellor? I thought the king
-made the decision to send us here.[A]
-[OpenMidLeft]Actually, he didn't. High Chancellor Roartz
-works closely with Lord Arcardo,[A]
-the noble who heads the mining operations
-here in the Western Isles.[A]
-They made the decision without
-consulting the king.[A]
-[OpenMidRight]They have that power?[A]
-How?[A]
-[OpenMidLeft]...Did you hear of the tragedy that
-occurred in Etruria last year?[A]
-[OpenMidRight]Of course.[A]
-Prince Myrddin, next in line to be king,
-abruptly passed away last year.[A]
-[OpenMidLeft]Yes, that's it.[A]
-[OpenMidRight]I never had the honor to
-make his acquaintance.[A]
-I understand that he was a very
-bright individual.[A]
-[OpenMidLeft]Yes... Were the prince alive, Etruria
-would surely not be in this sad shape.[A]
-King Mordred was overcome with sorrow
-when his son departed.[A]
-The shock was so great that he has
-yet to recover.[A]
-Of late, it seems he's always detached
-from reality.[A]
-He pays no mind to anything happening
-around him or in the kingdom.[A][Clear]
-Roartz is exploiting the king's
-condition for his own benefit.[A]
-Now, he's essentially in charge
-of the goings-on in the palace.[A]
-He keeps the three Etrurian Generals,
-Perceval, Douglas, and myself,[A]
-away from the king except in times
-of great urgency.[A]
-[C9]
-[OpenRight][FastPrint]Then they should be
-powerful allies.[A]
-[OpenMidLeft][CloseSpeechFast]I agree! Fortune is
-still with us![A][ToggleSmile]
-But...the mercenary I spoke to
-also had some bad news.[A]
-He said one of the three Wyvern Generals is
-headed here with a legion of wyvern riders.[A]
-Should they aid the rebels, our chance of
-victory will be all but gone.[A][SendToBack]
-[OpenFarRight][FastPrint]Roy... What are you going to do?[A][SendToBack]
-[OpenRight][CloseSpeechFast]...The Kingdom of Etruria
-might help us.[A][SendToBack]
-[OpenFarRight][FastPrint]Etruria?!
-Is it possible?[A][SendToBack]
-[OpenRight]General Cecilia, Mage General of Etruria,
-was my teacher in tactics at Ostia.[A]
-I feel she may join forces with
-us if we ask.[A]
-[OpenMidLeft]I object, Lord Roy![A]
-If we have Etruria solve this Lycian matter,
-our reputation with them will never recover![A]
-[OpenRight]That may be so...[A]
-But this is a matter of life or death
-for Lycia.[A]
-We must ask for help, for if we don't, Lycia
-as we know it may become just a memory.[A]
-[OpenMidLeft]...Lord Roy.[A]
-[OpenRight]But we must act quickly! I've already
-penned a letter to General Cecilia.[A]
-Merlinus, I need you to send the
-letter to her right away.[A]
-[OpenMidLeft]...Yes, Lord Roy!
-I trust your judgment.[A]
-I shall send it this
-instant.[A]
-[OpenRight]With any luck, she'll
-make it in time.[A][Clear]
-Get ready for combat, soldiers!
-We will retake Ostia![A]
-[CA]
-[OpenMidRight][ToggleSmile]But what about when you came
-to our aid in Ostia?[A]
-[OpenMidLeft]That was an exception because
-I had Perceval behind me.[A]
-But I'm sorry, I didn't have
-the clout to prevent this...[A]
-[OpenMidRight]I don't blame you.[A]
-We will return to Lycia as soon as
-we complete our mission here.[A]
-But please, I only ask that you take
-care of Lycia in our absence.[A]
-[OpenMidLeft]You needn't ask.[A]
-The Lycian League is in safe hands,
-as is Princess Guinivere.[A][ClearFace]
-[OpenFarLeft][LoadGuinivere]Roy...
-May I not go with you?[A]
-[OpenMidRight]The battles on these islands
-are likely to be ugly.[A]
-I can't predict what might
-happen.[A]
-You should stay in hiding in Etruria
-with General Cecilia's protection.[A]
-[SendToBack]
-[OpenLeft][LoadCecilia]You can trust me, Your Highness.[A]
-I know you want a truce to end
-this war.[A]
-I will defend you no
-matter the cost.[A][SendToBack]
-[OpenFarLeft]...I understand.
-I'm truly sorry to trouble you.[A]
-Roy, I pray for your safety.[A]
-[OpenMidRight][ToggleSmile]Thank you, Your Highness.
-I will pray for yours as well.[A]
-[CB]
-[OpenMidRight][LoadScott]
-[OpenMidLeft][LoadFir][NormalPrint][ToggleSmile]Scott![A]
-[OpenMidRight][FastPrint][ToggleSmile]Oh, Fir.
-Sorry to call you in.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]What's going on out there?[A]
-[OpenMidRight]The island is under
-attack by pirates.[A]
-They've come to kill the
-people living here.[A]
-[OpenMidLeft][MoveLeft][FastPrint]What?![A]
-[OpenMidRight][CloseSpeechFast]I sent some guys over to try and stop
-them, but the pirates are very skilled.[A]
-The outlook isn't good.[A]
-[OpenLeft][NormalPrint]I can't believe it...[A]
-[OpenMidRight][CloseSpeechFast]I'd like to fight them myself,
-but I can't leave this castle.[A]
-Fir, I'm sorry, but can
-you go in my place?[A]
-[OpenLeft][CloseSpeechFast]Yes. I will go and purge the
-people of these pirates.[A]
-[OpenMidRight][FastPrint][ToggleSmile]Yeah, thanks.[A]
-[OpenLeft][FastPrint][ToggleSmile]Leave them to my blade![A]
-Anyone who attacks innocent villagers
-will get no mercy from me![A]
-[OpenMidRight][FastPrint]I have someone you
-can work with too.[A]
-[OpenLeft][NormalPrint]You do?[A]
-[OpenMidRight][CloseSpeechFast]Yeah. He's a nomad named Sin.[A]
-He's a little skinny, but he's
-a decent shot with his bow.[A]
-[CC]
-[OpenMidRight][LoadScott]
-[OpenMidLeft][LoadScollan][ToggleSmile]Boss, you sure? I mean, that
-girl won't have any chance...[A]
-[OpenMidRight][ToggleSmile]I know what I'm doing.[A]
-Once she's killed, we can take
-that sword she's carrying.[A]
-[OpenMidLeft][ToggleSmile]The sword?
-That weird one she has?[A]
-[OpenMidRight][ToggleSmile]It's not just any weird sword. It's a
-Wo Dao, a famous blade from the east.[A]
-It's worth a fortune. Heh heh...[A]
-[OpenMidLeft]Ohhh, I get it now.[A]
-[CloseSpeechFast]That's why you were so
-hospitable to her.[A]
-[OpenMidRight]I couldn't do anything before,
-but now's our chance.[A]
-I want you to follow her.[A]
-Once she's finished, take the sword
-from her lifeless hands![A]
-[OpenMidLeft][NormalPrint]Sure thing, Boss![A]
-[CD]
-[OpenMidRight][LoadSin][OpenMidLeft][LoadFir][NormalPrint][ToggleSmile]Are you...
-Sin?[A]
-[OpenMidRight][FastPrint]Yes.[A]
-I heard everything from Scott.
-Let's go.[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidRight][NormalPrint]......[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]So, uh...[A]
-[OpenMidRight][NormalPrint]What?[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Uh, are you here to
-protect the villagers like me?[A]
-[OpenMidRight][ToggleSmile]No... I have no interest
-in such things.[A]
-[OpenMidLeft][FastPrint]Then why are you here?[A]
-[OpenMidRight][CloseSpeechFast]I'm paid to fight.[.....]
-That is all.[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
-[OpenMidRight][NormalPrint]......[ToggleMouthMove][A]
-[OpenMidRight][ClearFace][OpenMidLeft][FastPrint]...I need to keep the 
-conversation going.[A][Clear]
-[OpenMidRight][LoadSin][.....][OpenMidLeft][ToggleSmile]Uh... You're from Sacae,
-right?[A]
-[OpenMidRight][NormalPrint][ToggleSmile]Right.[A]
-[OpenMidLeft][FastPrint][ToggleSmile]What brings you all
-the way out here?[A]
-[OpenMidRight][FastPrint][ToggleSmile]Nothing special. You appear to be
-from Sacae yourself.[A]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]As for me, I'm traveling around
-Elibe to train myself, and...[A]
-Oh, you didn't ask about me,
-did you...?[A]
-[OpenMidRight][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
-[OpenMidLeft][NormalPrint][ToggleMouthMove]...Sigh.[A]
-[OpenMidRight][CloseSpeechFast]...I'm looking for someone.[A]
-[OpenMidLeft][CloseSpeechFast]Who?[A]
-[OpenMidRight]...My clan was crushed by Bern
-when they invaded Sacae.[A]
-[OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenMidRight]Our chieftain had me escape and told me
-to find and protect his granddaughter.[A]
-I'm still in search of her.[A]
-[OpenMidLeft]I see...
-Well, I hope you find her.[A]
-[OpenMidRight]...Me too.[A]
-[CE]
-[OpenMidLeft][LoadFir][OpenMidRight][LoadNoah]
-[OpenMidRight][CloseSpeechFast]Fir!
-It is you![A]
-[OpenMidLeft][FastPrint]Sir Noah?!
-What are you doing here?![A]
-[OpenMidRight][CloseSpeechFast]I joined this army
-back in Ostia...[.....] Whoa![A][ClearFace]
-[OpenMidRight][LoadNoah][ToggleSmile]What are you doing?!
-Sheathe your sword![A]
-[OpenMidLeft]Sir Noah! You aren't the noble
-man I thought you were![A]
-[OpenMidRight][NormalPrint]What?[A]
-[OpenMidLeft][CloseSpeechFast]I know you're a mercenary...
-But lending your services to pirates?![A]
-You should be ashamed![A]
-[OpenMidRight][NormalPrint]...What?[A]
-[OpenMidLeft][CloseSpeechFast]Don't act like you don't know![A]
-You're working with pirates to
-attack the people living here![A]
-And you call yourself a knight?![A]
-[OpenMidRight][ToggleSmile]Hold on, I think there's been
-some kind of misunderstanding...[A]
-[OpenMidLeft][ToggleSmile]Misunderstanding?!
-You still have the nerve--[A]
-[OpenMidRight][ToggleSmile]We're trying to help
-the villagers.[A]
-Our goal is to defeat the
-head of the pirate group here.[A]
-His name is Scott, I think.[A]
-[OpenMidLeft][ToggleSmile]What? Scott is the head
-of the pirates?[A]
-[OpenMidRight][ToggleSmile]Sure is. If you don't believe me why
-don't you ask the pirate over there?[A]
-The one behind you, hiding in
-the bushes.[A]
-[OpenMidLeft][ToggleSmile]Pirate?
-What pirate--?[A]
-[OpenMidRight][ClearFace][OpenMidLeft][ClearFace][OpenMidRight][LoadFir][OpenMidLeft][LoadScollan]
-[OpenMidLeft][CloseSpeechFast]The plan failed! I gotta
-go tell the boss![A][ClearFace]
-[OpenMidRight][NormalPrint]Hey!
-Come back here![A][ClearFace]
-[OpenMidLeft][LoadFir][OpenMidRight][LoadNoah][OpenMidRight][ToggleSmile]...You didn't suspect
-them at all?[A]
-[OpenMidLeft]No! Scott was very
-kind to me...[A]
-[OpenMidRight]Really? The rumors say that
-he's a brute of a man...[A]
-[OpenMidLeft][ToggleSmile]My mother always said that you shouldn't
-judge a person by their looks...[A]
-[OpenMidRight][ToggleSmile]Well, certainly,
-but...[A]
-[OpenMidLeft][ToggleSmile]...I was fighting for
-pirates this whole time...[A]
-What should I do now?[A]
-[OpenMidRight][ToggleSmile]Do you want to
-come with us?[A]
-[OpenMidLeft][FastPrint]Truly?
-Can I?[A]
-[OpenMidRight][CloseSpeechFast]We're always looking for new
-recruits to bolster our strength.[A]
-I'll talk to Roy for you.[A]
-[OpenMidLeft][FastPrint]Thank you![A]
-[CF]
-[OpenMidLeft][LoadSue][OpenMidRight][LoadSin]
-[OpenMidRight][NormalPrint]Sue![A]
-[OpenMidLeft][FastPrint][ToggleSmile]Sin...
-What are you doing here?[A]
-[OpenMidRight][CloseSpeechFast][ToggleSmile]I was looking for you.[A]
-[OpenMidLeft][NormalPrint][ToggleSmile]For me? Why?[A]
-[OpenMidRight][ToggleSmile]The chieftain told me to.[A]
-[OpenMidLeft][FastPrint][ToggleSmile]...What happened to
-the clan after I left?[A]
-[OpenMidRight]We were no equal
-for Bern...[A]
-[OpenMidLeft][NormalPrint]...We lost.[A]
-[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
-[OpenMidLeft][FastPrint]What happened to
-my grandfather?[A]
-[OpenMidRight][CloseSpeechFast]He still continues the
-resistance against Bern...[A]
-[OpenMidLeft][NormalPrint]Is that so...[A]
-[OpenMidRight][NormalPrint]I was told by the chieftain
-to find and protect you.[A]
-[OpenMidLeft][FastPrint]Then you will fight
-alongside us?[A]
-[OpenMidRight]With you?[A]
-[OpenMidLeft][CloseSpeechFast]This army is fighting against Bern, like
-my grandfather. They also saved my life.[A]
-[OpenMidRight][FastPrint]Then of course.[A]
-If that is what you desire,
-I am at your disposal.[A]
-[OpenMidLeft][ToggleSmile]Thank you.[A]
-[D0]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
-[ToggleSmile]This whole area is basically
-pirate territory.[A]
-They take everything
-from us.[A][Clear]
-Resist, you say?
-It's of no use.[A]
-They can do whatever they want
-because of their numbers.[A]
-We can't fight against them
-like the resistance force.[A]
-[D1]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
-[Clear]You saved us![A]
-Are you with the resistance?[.....]
-No?[A]
-Then you just did it out of the
-goodness of your heart?[A]
-As I'm sure you've seen, these islands
-are swarming with pirates and bandits![A]
-There's nothing we can do out here,[A]
-but word is the resistance is waging
-battle in the western part of the Isles.[A]
-Tell them we'll all move to the mainland.
-They don't have to worry about us...[A]
-[D2]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
-[ToggleSmile]The only people here are
-women and children.[A]
-All the workers have been
-taken north to the mines.[A]
-They aren't even allowed to rest.
-They're forced to work until they die...[A]
-My brother escaped, but he
-was reduced to skin and bone.[A]
-That day he came back, he was already
-too weak, and he drew his last breath...[A]
-Now that I've told you this...can you...[A]
-Er, sorry...[A]
-I've said too much.
-Please forget all of this.[A]
-We'll leave the Isles now.[A]
-[D3]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
-There's so much mist here...[A]
-In these conditions, you can never
-know if someone's waiting to pounce![A]
-Torches can be very useful, even if
-you have an eagle-eyed thief with you.[A]
-[D4]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
-The resistance is faring quite well.[A]
-In the north and in the west,
-they're always engaged in battle.[A]
-Which way will you go?[A]
-[D5]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]
-Among the pirates is a very
-skilled nomad...[A]
-You can't see him
-through all this fog,[A]
-but he also has a girl
-with him...[A]
-[D6]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
-The nearby villagers...[A]
-They're all deserting the
-Isles for the mainland.[A]
-It's very sad, really.[A]
-If you want to visit, you'd
-best do it quickly.[A]
-You won't have time to go to both,
-so you'll have to decide.[A]
-[D7]
-[LoadScott][ToggleSmile]Maybe the fog
-didn't stop you...[A]
-But you must be in rough
-shape at least![A]
-I'll finish you off![A]
-[D8]
-[LoadScott][ToggleSmile]Who...
-are you?[A]
-You're no ordinary army...[A]
-[D9]
-[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
-[OpenMidRight][ToggleSmile]Merlinus, it appeared the enemy
-was trying to ambush us...[A]
-[OpenMidLeft]They must have known
-we were coming.[A]
-[OpenMidRight][FastPrint]I think there's more to this
-than we realize...[A]
-[OpenMidLeft]You're right. Clearing out the bandits
-may be more difficult than expected.[A]
-Ever since Bern's aggressive behavior
-started, Elibe has changed.[A]
-[OpenMidRight]I don't even know what to expect...[A]
-Dragons appearing, Bern's sudden invasion,
-the collapse of the Lycian League...[A]
-Everything happened so suddenly.[A]
-In the end I suppose all we can do is
-take it one problem at a time.[A]
-[DA]
-[OpenMidLeft][FastPrint][ToggleSmile]Now...
-Where do we go from here?[A]
-[OpenMidRight][CloseSpeechFast]Let's move north
-along the coast.[A]
-[OpenMidLeft]North...
-Toward the mines?[A]
-[OpenMidRight]Yes.[A]
-I hear the people living on the islands are
-being forced into slave labor there.[A]
-[OpenMidLeft]So you think we
-should rescue them.[A]
-[OpenMidRight]If we do, we might be able to
-find out who's behind all of this.[A]
-[OpenMidLeft]Well, we must start
-somewhere.[A]
-[OpenMidRight]Then let's not waste time...
-Let's head north.[A]
-[DB]
-[OpenMidLeft][FastPrint][ToggleSmile]Now...
-Where do we go from here?[A]
-[OpenMidRight][CloseSpeechFast]Let's head west.[A]
-[OpenMidLeft]West?[A]
-[OpenMidRight]I heard there's a resistance
-group based there.[A]
-They're fighting the bandits
-to protect the villagers.[A]
-[OpenMidLeft]They may have information on
-what's going on in the Isles.[A]
-[OpenMidRight]Indeed.
-We need a lead.[A]
-[OpenMidLeft]It seems like a sound idea,
-Lord Roy.[A]
-[OpenMidRight]Then let's not waste time.
-Let's move west.[A]
-[DC]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Now...
-Where do we go from here?[A]
-We must choose a direction.[A]
-[OpenMidRight][FastPrint]Do you have any ideas?[A]
-[OpenMidLeft][CloseSpeechFast]If we follow the coast north, we will
-reach the largest mine on the Isles.[A]
-The bandits may be based
-around there.[A]
-[OpenMidRight]Ah, that makes sense.[A]
-[OpenMidLeft]We have an assignment, and it's
-to get rid of the bandits.[A]
-We mustn't wander about
-aimlessly wasting time.[A]
-[OpenMidRight][FastPrint]You're right.
-Let's head north![A]
+//Ch10A
 [DD]
 [OpenMidRight][LoadNord][ToggleSmile]What can you tell me about
 that spy from the resistance?[A]
@@ -3647,7 +41,9 @@ before they even reach you![A]
 [OpenMidLeft][FastPrint]Yes, milord.[A]
 [OpenRight][CloseSpeechFast]Just make sure the enemy
 doesn't get hold of it![A]
+
 [DE]
+
 [OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Lord Roy, soldiers are
 flowing out from the castle.[A]
@@ -3671,7 +67,9 @@ You're right.[A]
 [OpenMidRight]All right, storm the castle![A]
 But have mercy! Some of their soldiers
 may be willing to listen![A]
+
 [DF]
+
 [OpenMidRight][LoadNord][ToggleSmile]Gonzalez!
 Gonzalez, where are you?![A]
 [OpenMidLeft][LoadGonzalez][FastPrint]Here... I here...[A]
@@ -3696,9 +94,11 @@ Are you trying to say something?[A]
 a needlessly compassionate heart.[A]
 He will learn the value of
 destroying a village firsthand![A]
+
 [E0]
 
 [E1]
+
 [OpenMidLeft][LoadGeese][OpenMidRight][LoadVillager41]
 [OpenMidRight][ToggleSmile]Geese...
 You're really leaving?[A]
@@ -3737,7 +137,9 @@ we'll be here.[A]
 [OpenMidLeft]Maybe I'll take you up on that,
 if I'm still alive.[A]
 ...Thanks.[A]
+
 [E2]
+
 [OpenMidLeft][LoadBartre][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Are you with
 Etruria?![A]
@@ -3776,7 +178,9 @@ Very well! I think I'll
 join your little army![A]
 [OpenMidRight][FastPrint]You'll help us?
 Thank you![A]
+
 [E3]
+
 [OpenMidLeft][LoadBartre][OpenMidRight][LoadFir]
 [OpenMidRight][FastPrint][ToggleSmile]Father?
 What are you doing here?[A]
@@ -3810,7 +214,9 @@ the castle.[A]
 [ClearFace][OpenMidRight][NormalPrint][ToggleSmile]Sigh...[A]
 [CloseSpeechFast]I guess I should tell Roy that
 we have another member...[A]
+
 [E4]
+
 [OpenMidLeft][LoadGonzalez][OpenMidRight][LoadLilina]
 [OpenMidRight][NormalPrint][ToggleSmile]Excuse me![A]
 [OpenMidLeft][FastPrint]W-what you doing?!
@@ -3861,7 +267,9 @@ won't do that to you.[A]
 Be brave... Take that first step, and
 you'll never have to be afraid again.[A]
 [OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+
 [E5]
+
 [OpenMidLeft][LoadGeese][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Yeah? What?
 You got something to say to me?[A]
@@ -3912,7 +320,9 @@ Can you taste it?
 You'll have your vengeance.[A]
 And after you do, I might just tag along
 with this Roy fellow for a while...[A]
+
 [E6]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
 [ToggleSmile]I'm worried about Larum.
 I hope she's all right.[A]
@@ -3926,22 +336,30 @@ It's strong against swords,
 but weak against lances![A]
 I'd gladly trade it for her safety,
 though, so please, take it...[A]
+
 [E7]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
 [ToggleSmile]Brigands and pirates... They were all just as
 innocent as anyone when they were young.[A]
 Maybe if you spoke to some of them,
 you could make them understand.[A]
+
 [E8]
+
 [LoadNord]You made it all the
 way here.[A]
 But I shall take your
 pathetic lives...[A]
+
 [E9]
+
 [LoadNord][ToggleSmile]...Death?[A][Clear]
 I feel...my life...
 draining...away...[A]
+
 [EA]
+
 [OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Lord Roy...[A]
 We couldn't find any evidence
@@ -4024,6 +442,13 @@ It belongs to Echidna, the leader
 of the resistance.[A]
 You're helping us though, so you
 can have it for now.[A]
+
+
+
+
+
+
+//Chapter11A
 [EB]
 [OpenMidLeft][LoadOrlo][OpenMidRight][LoadMelady]
 [OpenMidRight][FastPrint][ToggleSmile][CloseSpeechFast]So Princess Guinivere isn't
@@ -4040,7 +465,9 @@ cooperation, Father Orlo.[A]
 [OpenMidLeft][ToggleSmile]I pray that you find
 Princess Guinivere soon.[A]
 [OpenMidRight]Thank you.[A][ClearFace]
+
 [EC]
+
 [OpenMidLeft][LoadSoldier2][OpenMidRight][LoadOrlo]
 [OpenMidLeft][FastPrint]Who was that,
 Father Orlo?[A]
@@ -4073,7 +500,9 @@ so I am here for instructions.[A]
 [OpenMidRight]Well done.[A]
 Commence the attack immediately, before
 any unpleasant interruptions arrive...[A]
+
 [ED]
+
 [OpenMidLeft][LoadLarum][OpenRight][LoadRoy][ToggleSmile]The resistance hideout
 is in this village?[A]
 [OpenMidLeft]Yes, but the castle's troops
@@ -4102,7 +531,9 @@ our relationship with Etruria...[A]
 [OpenRight]We fight!![A]
 Make Lycia proud of our
 actions here today![A]
+
 [EE]
+
 [OpenMidLeft][LoadMelady][OpenMidRight][LoadGalle]
 [OpenMidRight][ToggleSmile]Melady, have you discovered
 where Princess Guinivere is?[A]
@@ -4156,14 +587,18 @@ even though I'm not of Bern by birth.[A]
 To ask any more would be nothing
 but greed.[A]
 [OpenMidLeft][NormalPrint]Galle...[A]
+
 [EF]
+
 [OpenMidLeft][LoadSoldier2][ToggleSmile]Echidna!
 We know you are here![A]
 You are surrounded on
 all sides![A]
 Drop your weapons and show
 yourself immediately![A][......]
+
 [F0]
+
 [OpenMidRight][LoadEchidna][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
 [OpenMidLeft][LoadSoldier2][ToggleMouthMove]You are Echidna,
 leader of the resistance force?[A]
@@ -4181,7 +616,9 @@ I have no intention of going quietly.[A]
 [OpenMidLeft]You resist?
 Then you leave us no choice![A][Clear]
 Take her head![A]
+
 [F1]
+
 [OpenMidRight][LoadOrlo]Ha ha ha... I've a
 delicious idea... You there![A]
 [OpenMidLeft][LoadSoldier2][FastPrint][ToggleSmile]Yes, milord?[A]
@@ -4200,7 +637,9 @@ I am immune to persecution![A]
 Hurry. Before the villagers
 realize what's happening.[A]
 [OpenMidLeft][NormalPrint]Yes, milord.[A]
+
 [F2]
+
 [OpenMidRight][LoadScollan]We can ransack
 the village?[A]
 [OpenMidLeft][LoadSoldier2][ToggleSmile]Yes.
@@ -4214,7 +653,9 @@ a real piece of work, y'know that?[A]
 Grab your weapons![A]
 Take everything
 they got![A]
+
 [F3]
+
 [OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Lord Roy, bandits are approaching
 from the mountains in the east.[A]
@@ -4222,7 +663,9 @@ from the mountains in the east.[A]
 village in the chaos...[A]
 We must stop them and help
 the villagers![A]
+
 [F4]
+
 [OpenMidLeft][LoadOrlo][OpenMidRight][LoadSoldier2]
 [OpenMidLeft][ToggleSmile]What is taking so long?![A]
 Is the resistance force
@@ -4257,14 +700,18 @@ he intends to kill them.[A]
 Let us do the job for him.
 Eradicate them![A]
 [OpenMidRight][ToggleSmile]Yes, milord![A]
+
 [F5]
+
 [OpenMidLeft][LoadOrlo][OpenMidRight][LoadSoldier2][OpenMidRight]Father Orlo, the reinforcements
 will arrive shortly.[A]
 [OpenMidLeft]I certainly hope it
 will be enough.[A]
 They are putting up a better
 fight than I expected...[A]
+
 [F6]
+
 [OpenMidLeft][LoadEchidna][OpenMidRight][LoadLarum]
 [OpenMidRight][FastPrint]Echidna![A]
 [OpenMidLeft][CloseSpeechFast]Larum?
@@ -4300,7 +747,9 @@ reason NOT to join them.[A]
 That's great![A]
 I'm sure Roy will be
 happy too.[A]
+
 [F7]
+
 [LoadOverworldFaces][OpenFarLeft][ToggleSmile]There are rumors...that Roartz and
 Arcardo are working with Bern.[A]
 [OpenMidRight][MoveRight]What?!
@@ -4356,7 +805,9 @@ if the corruption is overthrown.[A]
 We head for Juteaux![A]
 We fight for the people!
 We will defeat the true enemy![A]
+
 [F8]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]
 Oh! You're the resistance
 force, aren't you?[A]
@@ -4366,7 +817,9 @@ This is quite a situation
 you're in, though...[A]
 Here, take this.
 We believe in you.[A]
+
 [F9]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
 [ToggleSmile]I'm supposed to give
 this staff to Orlo...[A]
@@ -4376,7 +829,9 @@ But I'll give it to
 you instead![A]
 Please end his rule...
 We're counting on you.[A]
+
 [FA]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48]
 My job is to take the village's
 tribute to the castle.[A]
@@ -4387,7 +842,9 @@ to you guys instead![A]
 I'm tired of being stepped
 on by this oppressive lord.[A]
 I can tell you're different.[A]
+
 [FB]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
 [OpenMidRight]I have staves for sale
 if you want any![A]
@@ -4402,13 +859,17 @@ conditions instead of health.[A][Clear]
 You don't want any?! Darn![A]
 I'll give you a sample,
 so buy one next time![A]
+
 [FC]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49][OpenMidRight]Take this!
 I want to help in any way I can.[A]
 It's a speedwing![A]
 [OpenMidRight]Use it and you'll
 become a little faster![A]
+
 [FD]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
 [OpenMidRight][ToggleSmile]It's so difficult
 under Orlo's rule...[A]
@@ -4416,7 +877,9 @@ He takes everything from us,
 even our hopes and dreams...[A]
 Please, take this.
 I hope it helps.[A]
+
 [FE]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager40]
 [OpenMidRight]Good luck to you!
 We can't even touch these guys.[A]
@@ -4425,7 +888,9 @@ can use bows, can't they?[A]
 [OpenMidRight]This should be helpful.[A]
 [OpenMidRight]I know it's not much...
 but I want you to have it.[A]
+
 [FF]
+
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
 [ToggleSmile]This dusty old lance?[A]
 I'll give it to you to use against
@@ -4436,15 +901,21 @@ before he died.[A]
 believed his cause was just.[A]
 [OpenMidRight]That's what got him killed...[A][Clear]
 [OpenMidRight][ToggleSmile]He was so very foolish...[A]
+
 [0100]
+
 [LoadOrlo][ToggleSmile]Opposing me...is the equivalent
 of opposing the gods![A][Clear]
 I shall rain divine punishment
 upon you![A]
+
 [0101]
+
 [LoadOrlo][ToggleSmile]You...heathens...
 ...I represent the gods...[A]
+
 [0102]
+
 [OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Lord Roy, there is a young man claiming
 to be with the resistance here.[A]
@@ -4488,7 +959,9 @@ Perhaps your presence in Lycia was
 undesirable to them.[A]
 [OpenMidRight]I never even
 considered that...[A]
+
 [0103]
+
 [OpenMidLeft][LoadVillager39][OpenMidRight][LoadRoy]
 [OpenMidLeft]Are you General Roy?[A]
 [OpenMidRight]Yes, I am.[A]
@@ -4496,7 +969,13 @@ considered that...[A]
 We owe you our livelihoods.[A]
 Please, take this as a token
 of our gratitude.[A]
+
+
+
+
+//Chapter 12
 [0104]
+
 [OpenMidLeft][LoadArcardo][OpenMidRight][LoadFlaer]
 [OpenMidLeft][MoveMidLeft][ToggleSmile]S-S...
 Sir Flaer![A]
@@ -4542,11 +1021,15 @@ Am I wrong?[A]
 [OpenMidLeft][FastPrint]No... No!
 You're right.[A]
 I leave them to you.[A][ClearFace]
+
 [0105]
+
 [OpenMidRight][LoadFlaer][ToggleSmile]Hmph, cowardly Etrurian nobles.[A]
 If we defeat the Lycian Army here,
 the Isles shall be ours...[A]
+
 [0106]
+
 [OpenMidRight][LoadRoy][ToggleSmile]This is the capital...[A]
 Once we take it,
 we can finally go home.[A]
@@ -4562,7 +1045,9 @@ changes form...into a dragon.[A]
 Who turns into a dragon?[A]
 [OpenMidLeft]I can say nothing more at this point,
 but we must proceed with caution.[A]
+
 [0107]
+
 [OpenRight][LoadRoy][ToggleSmile]This is the capital...[A]
 [ToggleSmile]Once we take it,
 we can finally go home.[A]
@@ -4618,7 +1103,9 @@ That can change into a dragon?![A]
 but that's what I hear.[A]
 [SendToBack][OpenFarRight]We must proceed
 with caution.[A][SendToBack]
+
 [0108]
+
 [OpenMidLeft][LoadEin][OpenMidRight][LoadFlaer]Ah, there
 you are, Ein.[A]
 [OpenMidLeft][FastPrint][ToggleSmile]You called...?[A]
@@ -4640,7 +1127,9 @@ Normal weapons won't even scratch
 its skin.[A]
 These manaketes...
 They certainly are terrifying beasts.[A]
+
 [0109]
+
 [OpenMidRight][LoadRaigh]...So that's what
 the "unhuman" is.[A]
 Bern really has brought
@@ -4648,7 +1137,9 @@ dragons into this world.[A]
 ...What to do now...?[A]
 [ToggleSmile]I guess I'll pose as a soldier
 and observe the dragon's power.[A]
+
 [010A]
+
 [OpenMidRight][LoadCath]La la la la la,[.....]
 la la la la la...[A]
 All the way out here
@@ -4661,14 +1152,18 @@ All this loot was stolen
 anyway.[A]
 Might as well take it off
 these nobles' hands.[A]
+
 [010B]
+
 [OpenMidLeft][LoadEin][OpenMidRight][LoadSoldier2]The reinforcements from the
 south will arrive shortly![A]
 [OpenMidLeft][ToggleMouthMove]......[A]
 [OpenMidRight][ToggleMouthMove]...Th-that's all, sir.[A][Clear]
 [OpenMidLeft][ClearFace][.....][OpenMidRight]That guy gives
 me chills...[A]
+
 [010C]
+
 [OpenMidRight][LoadSoldier2][ToggleSmile]Did you handle the cave on
 the outskirts of town?[A]
 [OpenMidLeft][LoadSoldier6]Yes, sir.[A]
@@ -4679,7 +1174,9 @@ the legendary weapon now.[A]
 [OpenMidRight]Excellent![A]
 Now all we have to do is
 clean up the Lycian Army.[A]
+
 [010D]
+
 [OpenMidLeft][LoadRaigh][OpenMidRight][LoadLugh]
 [OpenMidRight][FastPrint]Raigh? Raigh!
 It's so good to see you![A]
@@ -4732,7 +1229,9 @@ Poppa or the orphanage![A]
 [OpenMidRight][FastPrint][ToggleSmile]I know, Raigh.[A]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]Then stop looking
 at me like that![A]
+
 [010E]
+
 [OpenMidLeft][LoadRaigh][OpenMidRight][LoadChad]
 [OpenMidRight][ToggleSmile]Raigh!
 What are you doing here?[A]
@@ -4767,7 +1266,9 @@ I want to learn more.[A]
 Fine.[A]
 Just don't get
 in my way.[A]
+
 [010F]
+
 [OpenMidLeft][LoadRaigh][OpenMidRight][LoadLugh]
 [OpenMidRight][FastPrint]Raigh? Raigh!
 It's so good to see you![A]
@@ -4796,7 +1297,9 @@ Poppa or the orphanage![A]
 [OpenMidRight][FastPrint][ToggleSmile]I know, Raigh.[A]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]Then stop looking
 at me like that![A]
+
 [0110]
+
 [OpenMidLeft][LoadRaigh][OpenMidRight][LoadChad]
 [OpenMidRight][ToggleSmile]Raigh!
 What are you doing here?[A]
@@ -4814,11 +1317,17 @@ about these dragons.[A]
 [OpenMidRight]...Of course you do. Fine.[A]
 But I'm here to avenge Poppa.
 Just don't get in my way.[A]
+
 [0111]
+
 [LoadEin][ToggleSmile]...Burn.[A]
+
 [0112]
+
 [LoadEin][ToggleSmile]...What...?![A]
+
 [0113]
+
 [OpenRight][LoadRoy][FastPrint][ToggleSmile]That was not an easy battle...[A]
 The dragons' power is truly...
 horrific.[A]
@@ -4854,7 +1363,9 @@ a deal with Bern.[A]
 We must return to the mainland.[A]
 We have to contact General
 Cecilia and conceive a plan...[A]
+
 [0114]
+
 [OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
 [OpenMidLeft][ToggleSmile]Lord Roy, before returning to the mainland,
 there is a matter to take care of.[A]
@@ -4871,7 +1382,9 @@ might have a chance of defeating Bern![A]
 many as we can.[A]
 [OpenMidRight]Then let's go to the
 cave and get it![A]
+
 [0115]
+
 [OpenFarLeft][LoadSoldier1][OpenRight][LoadRoy]
 [OpenFarLeft][ToggleSmile]R-report!
 I have a message from Etruria...[A]
@@ -4902,7 +1415,16 @@ will because the king was taken hostage.[A][SendToBack]
 General Cecilia...[A][Clear]
 Princess Guinivere...
 Please be safe...[A]
+
+
+
+
+
+
+
+//Chapter 13
 [0116]
+
 [OpenMidLeft][LoadFlaer][OpenMidRight][LoadNarcian]
 [OpenMidRight][FastPrint][ToggleSmile]You haven't taken
 the castle yet?![A]
@@ -4912,7 +1434,9 @@ Cecilia fight harder than anticipated...[A][ClearFace]
 That woman![A]
 She interferes in my
 work yet again![A]
+
 [0117]
+
 [OpenMidRight][LoadNarcian][OpenLeft][LoadZephiel]
 [OpenLeft][ToggleSmile]You seem to be having trouble,
 Narcian.[A]

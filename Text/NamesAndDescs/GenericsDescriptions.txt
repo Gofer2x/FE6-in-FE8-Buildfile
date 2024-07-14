@@ -1,92 +1,92 @@
-## GenericsDescBrigandsOfLycia
+## GenericDescBrigandsOfLycia
 Brigands of Lycia.[X]
 
-## GenericsDescBernSoldiers
+## GenericDescBernSoldiers
 Soldiers from the eastern[N]
 kingdom of Bern.[X]
 
-## GenericsDescLausSoldiers
+## GenericDescLausSoldiers
 Soldiers in service to the[N]
 Laus territory of Lycia.[X]
 
-## GenericsDescOutlawsRansack
+## GenericDescOutlawsRansack
 Outlaws attempting to ransack[N]
 villages in the chaos of war.[X]
 
-## GenericsDescOutlawsMountains
+## GenericDescOutlawsMountains
 Outlaws from the[N]
 mountains.[X]
 
-## GenericsDescThriaTraitors
+## GenericDescThriaTraitors
 Soldiers of Thria who[N]
 betrayed the Lycian League.[X]
 
-## GenericsDescRebelsLegance
+## GenericDescRebelsLegance
 Soldiers serving Legance[N]
 and the rebellion.[X]
 
-## GenericsDescThiefHunting
+## GenericDescThiefHunting
 Thieves hunting for[N]
 treasure to pilfer.[X]
 
-## GenericsDesc8xBrigands
+## GenericDesc8xBrigands
 Brigands under the[N]
 guise of mercenaries.[X]
 
-## GenericsDescBanditsRoamingWest
+## GenericDescBanditsRoamingWest
 Bandits roaming the[N]
 Western Isles.[X]
 
-## GenericsDescArmagh
+## GenericDescArmagh
 Soldiers defending[N]
 Castle Armagh.[X]
 
-## GenericsDescEburacum
+## GenericDescEburacum
 Soldiers guarding[N]
 Eburacum.[X]
 
-## GenericsDescSoldiersServingWest
+## GenericDescSoldiersServingWest
 Soldiers serving the lords[N]
 of the Western Isles.[X]
 
-## GenericsDescEidyna
+## GenericDescEidyna
 Soldiers defending[N]
 Castle Eidyna.[X]
 
-## GenericsDescResistanceCitizens
+## GenericDescResistanceCitizens
 Citizens who have taken up arms[N]
 to fight for the people.[X]
 
-## GenericsDescJuteauxCapital
+## GenericDescJuteauxCapital
 Soldiers defending the capital[N]
 of the Western Isles.[X]
 
-## GenericsDescEtruriaSoldiers
+## GenericDescEtruriaSoldiers
 Soldiers from the western[N]
 kingdom of Etruria.[X]
 
-## GenericsDescBrigandsDesert
+## GenericDescBrigandsDesert
 Brigands who ambush[N]
 travelers in the desert.[X]
 
-## GenericsDescArcadiaBernMercenaries
+## GenericDescArcadiaBernMercenaries
 Mercenaries from the eastern[N]
 kingdom of Bern.[X]
 
-## GenericsDescKnightsOfIllia
+## GenericDescKnightsOfIllia
 Knights of Ilia.[X]
 
-## GenericsDescNomadicWarriors
+## GenericDescNomadicWarriors
 Nomadic warriors of Sacae.[X]
 
-## GenericsDescDjuteWarriors
+## GenericDescDjuteWarriors
 Warriors of the Djute clan[N]
 who support Bern.[X]
 
-## GenericsDescManaketeWar
+## GenericDescManaketeWar
 War dragons created[N]
 by the demon dragon.[X]
 
-## GenericsDescOstianHelpers
+## GenericDescOstianHelpers
 Ostian soldiers helping[N]
 with Roy's training.[X]

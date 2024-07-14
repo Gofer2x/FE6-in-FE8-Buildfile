@@ -1,0 +1,433 @@
+//Chapter 8
+
+[B2]
+
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadLegance][ToggleSmile]
+[MoveMidRight]The enemy has broken
+into the castle?![A]
+How could Debias have
+failed against them?![A]
+Were those Ilian mercenaries
+that skilled?[A]
+...Or was the Lycian Army larger
+than we expected...?[A]
+Whatever the case, they have broken into
+the impregnable Castle Ostia![A][OpenMidLeft][ClearFace]
+[OpenMidRight]We must defeat them here, or we'll
+be a laughing stock in Bern...[A][Clear]
+You over there![A]
+[OpenMidLeft][LoadSoldier2]Yes, General![A]
+[OpenMidRight]Have the troops take defensive positions
+throughout the castle![A]
+Particularly around the throne room![A]
+We must not allow the Lycian Army
+any further into the castle![A]
+[OpenMidLeft]Of course, General![A]
+[OpenMidRight][MoveRight]One other matter.[A]
+I want you to have Lilina quietly
+assassinated during the battle.[A]
+[OpenMidLeft][MoveFarLeft]What? ...I thought we
+were to keep her alive.[A]
+[OpenRight]I felt she might make
+a valuable hostage.[A]
+But many of our rebel soldiers
+still swear loyalty to her.[A]
+If we openly use her as a hostage,
+those soldiers may turn.[A]
+[OpenFarLeft]If that's the case, General, would they not
+also turn if we assassinate her?[A]
+[OpenRight][MoveRight]That's why I said to do
+it quietly, isn't it?![A]
+Kill her discreetly, and say that
+she was hit by a stray arrow.[A]
+We can hold the enemy responsible!
+Now go![A]
+[OpenFarLeft]Yes, General...[A]
+
+[B3]
+
+[OpenMidRight][LoadRoy][.....]
+[OpenFarLeft][LoadAstolfo]...General Roy of Pherae,
+I presume.[A]
+[OpenMidRight][MoveRight][ToggleSmile]Who are you?!
+An enemy?![A]
+[OpenFarLeft][ToggleSmile]No, no. I'm on your side.
+My name is Astolfo.[A]
+I used to work here in the
+service of the marquess.[A]
+[OpenFarRight][LoadMerlinus]What kind of work were
+you doing exactly?[A]
+You certainly aren't dressed
+like a servant...[A]
+[OpenFarLeft]A bit nosy, don't you
+think, old man?[A]
+I'm a spy, see.[A]
+I gather information, steal things,
+check on people... Things like that.[A]
+[OpenFarRight]That explains it.[A][ClearFace]
+[OpenFarLeft]I'm not much of a spy if you can tell I
+work for a noble at first glance, am I?[A]
+[OpenFarLeft][ToggleSmile]I've been running around Lycia gathering
+intelligence for about a month now.[A]
+When I heard about Araphen, I got back
+as quickly as my legs would allow.[A]
+And what do I find but those muttonheads
+Legance and Debias inciting rebellion![A]
+I couldn't save Lord Hector, but I
+won't let them take Lady Lilina.[A]
+[OpenRight]Then you'll join us?
+Do you know where Lilina is?[A]
+[OpenFarLeft]Of course. Finding that
+stuff out is my job.[A]
+Lady Lilina is locked in a small room
+in the heart of the castle.[A]
+And Legance is sitting on the
+throne like he owns the place.[A]
+[OpenRight]We have to hurry then.[A]
+We must defeat the rebels and save Lilina
+before Narcian arrives from Bern![A]
+
+[B4]
+
+[OpenMidRight][LoadLilina][CloseSpeechFast][ToggleSmile]What's all that noise?
+Is there a battle going on?[A]
+I wish I could see outside
+this chamber...[A]
+
+[B5]
+
+[OpenFarRight][LoadOgier][CloseSpeechFast][ToggleSmile]Sir Barthe,
+it's a dead end![A]
+[OpenMidLeft][LoadBarthe][CloseSpeechFast]This wall has cracks in it.[A]
+We can break it down if we hit
+it with our weapons.[A]
+[OpenRight][LoadGwendolyn]I wonder where
+Lady Lilina is.[A]
+[OpenMidLeft]I have a pretty good idea
+of where she might be.[A]
+I've known this castle
+for a long time.[A]
+I do wonder what's causing
+all the noise, though.[A]
+[OpenRight]The Lycian Army, perhaps?[A]
+My brother must be
+with them...[A]
+[OpenMidLeft]...We can't be sure he's
+still alive.[A]
+You had best keep your
+hopes low.[A]
+[OpenRight][FastPrint]Ah...
+Yes, you're right.[A]
+[OpenFarRight][CloseSpeechFast]Sir Barthe, must you
+be so aloof?[A]
+Bors is Gwendolyn's only brother.[A]
+[OpenMidLeft][FastPrint]We must always stand
+firmly in reality.[A]
+[OpenFarRight][NormalPrint]But--[A]
+[OpenRight][FastPrint]It's all right, Ogier.
+Sir Barthe is right.[A]
+[OpenMidLeft][CloseSpeechFast]As a knight of Ostia,
+you must always remain calm.[A]
+It matters not how grave the
+situation.[A]
+Understood, Gwendolyn?[A]
+[OpenRight][NormalPrint]...Yes, sir.[A]
+
+[B6]
+
+[OpenMidLeft][LoadCath]Oh baby![A]
+Just as I thought.
+They're at it again.[A]
+How stupid can these
+nobles get?[A]
+I'll never understand what fun
+it is fighting all the time.[A]
+Oh well. I'll take the opportunity
+to swipe what I can.[A]
+
+[B7]
+
+[OpenMidRight][LoadRoy][NormalPrint]Lilina![A]
+[OpenMidLeft][LoadLilina]...Roy?[.....]
+Is it really you?[A]
+[OpenMidRight]Yes, it's me![A]
+[OpenMidLeft]You came!
+Thank you so much.[A]
+[OpenMidRight][CloseSpeechFast]I'm so glad you're unhurt.
+Here, take this spell tome.[A]
+Use it to defend yourself for
+the time being.[A]
+[OpenMidLeft][FastPrint]Thanks.[A]
+
+[B8]
+
+[OpenMidLeft][LoadGwendolyn][NormalPrint]Bors!
+You're all right![A]
+[OpenMidRight][LoadBors][FastPrint]Is that you, Gwendolyn?[A]
+I'm so glad to see
+you in one piece.[A][Clear]
+[ToggleSmile]Wha...!? What...what's
+that you're wearing?![A]
+Did you join up with
+the Ostian knights?[A]
+[OpenMidLeft][ToggleSmile]Ah... Actually, yes.
+I was knighted just yesterday.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]What are you thinking...?[A]
+I told you to leave the fighting
+to me and live as you wish![A]
+You didn't need to become
+a knight...[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Yes, well, I thought about it, and I
+realized that this is what I want.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]But...[A]
+[OpenMidLeft][CloseSpeechFast]I don't want to sit idly by and wait
+for you to return from battle.[A]
+I want to be a great knight,
+just like you.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidLeft][ToggleMouthMove]...Bors?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]You've always been a
+stubborn one, Gwendolyn.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]Bors...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Live as you wish.[A]
+If Mother and Father were alive,
+I'm certain they'd say the same...[A]
+But the life of a knight
+is never easy![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Yes, I'm prepared!
+I'm ready for the challenge![A]
+
+[B9]
+
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadBors]
+Lady Lilina!
+You are unharmed![A]
+[OpenMidLeft]Bors, I'm sorry that
+I worried you.[A]
+[OpenMidRight]Not at all, milady!
+You are well...[A]
+That in itself is
+enough for me.[A]
+[OpenMidLeft]Thank you, Bors.[A]
+And you kept your promise
+to protect Roy.[A]
+I knew I could
+depend on you.[A]
+[OpenMidRight]Thank you, milady![A]
+
+[BA]
+
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadBarthe]
+[OpenMidLeft][ToggleSmile]Barthe![A]
+[OpenMidRight]Lady Lilina!
+I am overjoyed to see you safe.[A]
+[OpenMidLeft][ToggleSmile]Barthe, you were right.
+Legance was planning this rebellion.[A]
+[OpenMidRight][ToggleMouthMove]......[A]
+[OpenMidLeft][ToggleMouthMove]I'm sorry...[A]
+If only I'd trusted your word,
+this would not have happened...[A]
+[OpenMidRight]No...[A]
+Lady Lilina, you have
+nothing to apologize for.[A]
+Legance betrayed your
+kindness and trust.[A]
+He is the one responsible
+for this.[A]
+[ToggleSmile]It is your undying kindness that we
+soldiers respect the most, milady.[A]
+[OpenMidLeft]Barthe...[A]
+
+[BB]
+
+[LoadLegance][ToggleSmile]Dogs of the Lycian Army...
+Come.[A]
+I shall cut you down
+where you stand![A]
+
+[BC]
+
+[LoadLegance][ToggleSmile]How? You will only...
+be crushed by Bern...[A]
+How can you fight with
+such conviction...?[A]
+
+[BD]
+
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy]
+[OpenMidRight]We've finally retaken
+the castle, Lilina.[A]
+[OpenMidLeft]Thank you, Roy.[A]
+I'm glad that my father didn't have
+to go to the trouble.[A]
+[OpenMidRight][ToggleSmile][ToggleMouthMove]![A][ToggleMouthMove]
+[OpenMidLeft][ToggleSmile]Roy, is my father still in Araphen?[A]
+I heard there was a horrible battle there,
+but how much longer will he be?[A]
+[OpenMidRight][ToggleSmile]Lilina...
+You haven't heard?[A]
+[OpenMidLeft][ToggleSmile]Heard what?[A]
+[LoadOverworldFaces][OpenMidRight][ToggleSmile]Lord Hector...
+passed on.[A]
+[OpenMidLeft]What...?[A]
+[OpenMidRight]I'm sorry... By the time we arrived
+at Castle Araphen...[A]
+It was already under Bern's control.[A]
+[OpenMidLeft]It's not your fault...
+Don't apologize.[A]
+[OpenMidRight]Lord Hector had been fatally
+wounded when we arrived.[A]
+If only we had gotten there sooner,
+we could have helped him...[A]
+[OpenMidLeft][ToggleSmile]No...
+I...was prepared for this...[A]
+I'm the daughter of
+a warrior.[A]
+I've been taught to steel myself
+in times such as these.[A]
+[OpenMidRight][ToggleSmile]Lilina.[A]
+[OpenMidLeft]Everybody kept it from me...
+They didn't want to hurt me...[A]
+But I'm strong... I can
+handle this...[A]
+[OpenMidRight]Lilina, you don't have
+to hold back...[A]
+[OpenMidLeft]Roy... I...[A]
+[OpenMidRight]We'll get through this...
+I'm here for you.[A]
+
+[BE]
+
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenMidLeft][CloseSpeechFast][ToggleSmile]Lord Roy! Bern's wyvern riders
+are in front of Castle Ostia![A]
+[OpenMidRight][MoveRight]What?!
+They're here already?![A]
+
+[BF]
+
+[OpenFarLeft][LoadNarcian][OpenFarRight][LoadRoy][OpenFarLeft][ToggleMouthMove]Hm [.....]hm [.....]hm...[A]
+[ToggleMouthMove]You must be Roy.[A]
+I thank you for ridding me
+of that cretin Legance.[A]
+[OpenFarLeft][MoveMidLeft]Now, leave Ostia to me and we can all
+go home with our limbs attached.[A]
+[OpenFarRight][MoveRight][ToggleSmile]Never![A]
+I'll never hand Ostia over to
+the likes of you...![A]
+[OpenMidLeft][ToggleSmile]Oho?[A]
+You think you can best us with that
+sad little group of yours?[A]
+[OpenMidLeft][MoveLeft]I will cut you open,
+just as I did to Hector![A]
+[OpenRight][NormalPrint][ToggleSmile][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenFarFarRight]That's enough![A]
+
+[C0]
+
+[OpenMidLeft][LoadNarcian][.....]
+[OpenRight][LoadSoldier2][CloseSpeechFast]General Narcian!
+A legion has arrived from Etruria![A]
+[OpenRight][ClearFace][OpenMidLeft][ToggleSmile]I can see that, you fool!
+But why...?[A]
+[OpenMidRight][LoadPerceval][FastPrint]I am Perceval,
+Knight General of Etruria.[A]
+[CloseSpeechFast]Mage General Cecilia informed me that the
+Lycian Army had requested Etruria's aid.[A]
+[OpenMidLeft][NormalPrint]What...?![A][SendToBack]
+[OpenMidRight][ClearFace][OpenMidRight][LoadCecilia][CloseSpeechFast][ToggleSmile]We are prepared for battle.[A]
+Can those wyvern riders of yours
+stand against our might?[A]
+[OpenMidLeft][ToggleSmile]You...![A]
+[OpenMidRight]I am Cecilia,
+Mage General of Etruria![A]
+Ostia is now under our
+protection.[A]
+[OpenMidLeft][MoveLeft]Argh...!
+You...you...!!![A]
+[OpenFarLeft][LoadSoldier2][CloseSpeechFast]General Narcian,
+please control your temper![A]
+General Perceval is one of the
+most skilled knights in Etruria![A]
+Combined with General Cecilia,
+we haven't a chance![A]
+[OpenLeft]I know that!
+We're leaving![A]
+[OpenFarLeft][ClearFace][OpenLeft][MoveFarLeft]Cecilia, was it?[A]
+We'll see who has
+the last laugh![A]
+
+[C1]
+
+[OpenMidLeft][LoadPerceval][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Are you General Roy of
+the Lycian Army?[A]
+[OpenMidRight]Y-yes, I am![A]
+I lead the Lycian Army
+in Lord Hector's place.[A]
+[OpenMidLeft]It's a pleasure.[A]
+You have my sympathy for the
+current turmoil in Lycia.[A]
+Our king also sends his
+condolences for Lord Hector.[A]
+[OpenMidRight]Thank you.[A]
+If you hadn't helped us...Ostia
+would be under Bern's control now.[A]
+[OpenMidLeft]You have no reason to thank me.
+I simply followed my king's orders.[A]
+You should thank Cecilia. She defied the
+king until he agreed to help you.[A]
+[OpenMidRight]She...
+opposed the king?[A]
+[OpenMidLeft]Yes, she put her neck on the line.[A]
+Well, I must be off.[A]
+Etruria calls. As one of the three Generals
+of Etruria, it requires my presence.[A]
+Cecilia,[OpenMidRight][ClearFace][OpenMidRight][LoadCecilia]
+[OpenMidLeft]will you take care of the loose ends?[A]
+[OpenMidRight]Yes. Thank you, Perceval.
+Leave the rest to me.[A]
+
+[C2]
+
+[OpenMidRight][LoadRoy][ToggleSmile]Wow...
+General Perceval...[A]
+Just his presence was
+intimidating.[A]
+[OpenMidLeft][LoadCecilia][ToggleSmile]Nervous, were you?[A]
+[OpenMidRight]General Cecilia!
+It is good to see you again.[A]
+[OpenMidLeft]How are you, Roy?
+You look a little tired.[A]
+[OpenMidRight]I'm fine, thanks to you.
+It could have been a calamity.[A]
+[OpenMidLeft]I'm glad we made
+it in time.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]I'm sorry I put you through
+so much trouble.[A]
+[OpenMidLeft]Don't be.[A]
+It will benefit Etruria for Ostia
+to go under our protection.[A]
+[OpenMidRight]Benefit Etruria?
+How?[A]
+[OpenMidLeft]Bern's been increasingly
+aggressive, as you know.[A]
+If Bern gains any further strength, the
+balance of power will be shattered.[A]
+Still, we haven't been attacked, so
+we couldn't simply declare war.[A]
+[OpenMidRight]So when we requested aid, it was
+justification to declare war on Bern?[A]
+[OpenMidLeft]Precisely.[A]
+We only did what is
+best for our land.[A]
+You needn't feel that
+you're in our debt.[A]
+[OpenMidRight][FastPrint]If you insist.[A]
+[OpenMidRight]Regardless, please come in and
+meet the rest of the army.[A]
+
+[C3]
+
+[OpenMidLeft][LoadCecilia]...He's grown so much in the short
+time since I met him last.[A]
+He's maturing into a man.[A]

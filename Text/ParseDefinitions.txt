@@ -153,7 +153,7 @@
 [LoadIdunnHood] = [LoadPortrait][0x65][0x1]
 [LoadHectorBlood] = [LoadPortrait][0x66][0x1]
 [LoadMordred] = [LoadPortrait][0x67][0x1]
-[LoadPegasusMessanger] = [LoadPortrait][0x68][0x1]
+[LoadGenericPegasusKnight] = [LoadPortrait][0x68][0x1]
 [LoadPriest] = [LoadPortrait][0x69][0x1]
 [LoadSacaeanVillager] = [LoadPortrait][0x6A][0x1]
 [LoadSoldier1] = [LoadPortrait][0x6B][0x1]

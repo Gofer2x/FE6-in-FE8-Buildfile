@@ -925,14 +925,14 @@ MordredMugData:
 #incbin "Dmp/Mordred_minimug.dmp"
 setMugEntry(MordredMug, MordredMugData,3,6,4,4)
 
-#define PegasusMessangerMug 0x68
+#define GenericPegasusKnightMug 0x68
 ALIGN 4
-PegasusMessangerMugData:
-#incbin "Dmp/PegasusMessanger_mug.dmp"
-#incbin "Dmp/PegasusMessanger_frames.dmp"
-#incbin "Dmp/PegasusMessanger_palette.dmp"
-#incbin "Dmp/PegasusMessanger_minimug.dmp"
-setMugEntry(PegasusMessangerMug, PegasusMessangerMugData,2,6,3,4)
+GenericPegasusKnightMugData:
+#incbin "Dmp/GenericPegasusKnight_mug.dmp"
+#incbin "Dmp/GenericPegasusKnight_frames.dmp"
+#incbin "Dmp/GenericPegasusKnight_palette.dmp"
+#incbin "Dmp/GenericPegasusKnight_minimug.dmp"
+setMugEntry(GenericPegasusKnightMug, GenericPegasusKnightMugData,2,6,3,4)
 
 #define PriestMug 0x69
 ALIGN 4

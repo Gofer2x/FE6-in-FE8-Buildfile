@@ -9,11 +9,11 @@
 // Palette - pointer at 52178
 
 // TSA1 - pointer at 51CBC, 0C 21 80 08 -> 80210C // length 180 0xB4
-// TSA2 - pointer at 51CC0 // length 540 0x21C
-// TSA3 - pointer at 51378 // length 210 0xD2
-// TSA4 - pointer at 51380 // length 224 0xE0
-// TSA5 - pointer at 52170 // length 80 0x50
-// TSA Single - pointer at 5141C // length 224 0xE0
+// TSA2 - pointer at 51CC0, C0 21 80 08 -> 8021C0 // length 540 0x21C
+// TSA3 - pointer at 51378, 74 22 80 08 -> 802274 // length 210 0xD2
+// TSA4 - pointer at 51380, 48 23 80 08 -> 802348 // length 224 0xE0
+// TSA5 - pointer at 52170, 08 25 80 08 -> 802508 // length 80 0x50
+// TSA Single - pointer at 5141C, 28 24 80 08 -> 802428 // length 224 0xE0
 
 // WITH lz77!
 

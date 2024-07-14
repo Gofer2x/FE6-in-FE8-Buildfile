@@ -260,7 +260,23 @@ HouseEvent(Ch2_WeaponTriangleHouse,HouseBG)
 
 
 EndingScene:
-MoveToChapter(CHAPTER_Ch3)
+//Play music Triumph
+MUSC MUS_Victory
+SetBackground(Castle_Room) //wrong background, set to correct after importing fe6 backgorunds
+TextNoBGNoREMA(Ch2_End1)
+CHECK_ALIVE Elen
+BEQ 1 s0 sC
+TextNoBGNoREMA(Ch2_End2IfElen)
+LABEL 1
+TextNoBGNoREMA(Ch2_End3)
+CHECK_ALIVE Elen
+BEQ 2 s0 sC
+TextNoBGNoREMA(Ch2_End4IfElen)
+LABEL 2
+TextNoBGNoREMA(Ch2_End5)
+REMA
+STAL 64
+MNC2 CHAPTER_Ch3
 ENDA
 
 ArmoryList:

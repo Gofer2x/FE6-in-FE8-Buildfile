@@ -307,7 +307,7 @@ It's thanks to you I am safe now.[AN][OpenFarRight][ClearFace][X]
 ## Ch2_End3
 [OpenMidLeft]I am in your debt.[N]
 May I ask your name...?[AN]
-[OpenRight]I am Roy, son of Eliwood,
+[OpenRight]I am Roy, son of Eliwood,[N]
 Marquess Pherae.[AN]
 [OpenMidLeft]It's a pleasure...[N]
 As for myself...[AN][X]

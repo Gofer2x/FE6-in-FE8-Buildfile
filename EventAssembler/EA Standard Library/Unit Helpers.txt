@@ -107,9 +107,3 @@
 #define DeathQuoteTable(index,Character,TextPointer,EventPointer,TriggerID) "PUSH; ORG DQTableOffset+(16*index); BYTE Character 0x43 0x0 0x0; SHORT TextPointer 0x0; POIN EventPointer; BYTE TriggerID 0x0 0x0 0x0; POP"
 #define BattleQuoteTable(index,Character1,Character2,Chapter,TextPointer,EventPointer,ID) "PUSH; ORG BQTableOffset+(16*index); BYTE Character1 Character2 Chapter 0x0; SHORT TextPointer 0x0; POIN EventPointer; BYTE ID 0x0 0x0 0x0; POP"
 #endif
-
-
-
-//Move unit at specified coordinate
-//Credit Pikmin1211
-#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"

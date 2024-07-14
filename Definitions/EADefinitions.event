@@ -1,0 +1,7 @@
+//Move unit at specified coordinate
+//Credit Pikmin1211
+#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
+
+
+#define CMON "EVBIT_T 0x09"
+#define CMOF "EVBIT_F 0x09"

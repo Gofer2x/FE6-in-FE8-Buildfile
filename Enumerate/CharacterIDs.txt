@@ -123,5 +123,5 @@ Brunnya
 Jahn
 IdunnHuman
 IdunnDragon
-GenericEnemy
 GenericBandit
+GenericBern

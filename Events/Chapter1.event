@@ -3,12 +3,11 @@
 
 #include EAstdlib.event
 
-{
 //Tile Changes
-#define SouthVillageDestroyed 0x0
-#define NorthVillageDestroyed 0x1
-#define SouthVillageVisited 0x2
-#define NorthVillageVisited 0x3
+#define Ch1_SouthVillageDestroyed 0x0
+#define Ch1_NorthVillageDestroyed 0x1
+#define Ch1_SouthVillageVisited 0x2
+#define Ch1_NorthVillageVisited 0x3
 
 //Flags/EventIDs
 #define BossQuoteFlag 0x1
@@ -17,9 +16,6 @@
 #define SecondBGMFlag 0x4
 // 0x5
 #define RoutFlag 0x6
-#define NorthVillageFlag 0x7
-#define SouthVillageFlag 0x8
-}
 
 EventPointerTable(EVENTS_Ch1,ThisChapter)
 
@@ -46,7 +42,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(SouthVillageFlag,SouthVillageVisit,12,19)
+Village(0x0,SouthVillageVisit,12,19)
 House(0x0,DoomHouseVisit,12,15)
 House(0x0,TerrainHouseVisit,9,16)
 House(0x0,MoneyHouseVisit,9,19)
@@ -68,54 +64,55 @@ ENDTRAP
 
 ALIGN 4
 
+//just here so it looks nice in febuilder tbh
 Units:
 UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] AggressiveAI
-UNIT Marcus Paladin 0x0 Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] AggressiveAI
-UNIT Lance Cavalier 0x0 Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
-UNIT Alen Cavalier 0x0 Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
-UNIT Bors Knight 0x0 Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
-UNIT Wolt Archer 0x0 Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] AggressiveAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] AggressiveAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
+UNIT Bors Knight Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] AggressiveAI
 UNIT
 
 Bandits1:
-UNIT GenericBandit Archer 0x0 Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA1R2 [IronBow] TwoMovesAI
-UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA5R6 [SteelAxe] BossAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA1R3 [IronAxe] TwoMovesAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA4R5 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA6R5 [IronAxe] InRangeAI
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] TwoMovesAI
+UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA_5_6 [SteelAxe] BossAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA_1_3 [IronAxe] TwoMovesAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA_4_5 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA_6_5 [IronAxe] InRangeAI
 UNIT
 
 BanditsBrigand:
-UNIT GenericBandit Brigand 0x0 Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA7R7 [IronAxe] BrigandAI
+UNIT GenericBandit Brigand Damas Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA_7_7 [IronAxe] BrigandAI
 UNIT
 
 Bandits2:
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA8R9 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA9R9 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA11R7 [IronAxe] InRangeAI
-UNIT GenericBandit Archer 0x0 Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA10R10 [IronBow] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA_8_9 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA_9_9 [IronAxe] InRangeAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA_11_7 [IronAxe] InRangeAI
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] AggressiveAI
 UNIT
 
 Bandits3:
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA7R15 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA8R14 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA12R13 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter 0x0 Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA8R18 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA_7_15 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA_8_14 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA_12_13 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA_8_18 [IronAxe] AggressiveAI
 UNIT
 
 LanceRunner:
-UNIT Lance Cavalier 0x0 Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA2R17 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] AggressiveAI
 UNIT
 
 TheBoys1:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA2R18 [Rapier, Vulnerary] AggressiveAI
-UNIT Marcus Paladin 0x0 Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA1R17 [IronSword, SilverLance] AggressiveAI
+UNIT Roy RoyLord Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] AggressiveAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] AggressiveAI
 UNIT
 
 TheBoys2:
-UNIT Alen Cavalier 0x0 Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA3R17 [IronSword, IronLance] AggressiveAI
-UNIT Bors Knight 0x0 Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA3R19 [IronLance, Vulnerary] AggressiveAI
-UNIT Wolt Archer 0x0 Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA2R16 [IronBow, Vulnerary] AggressiveAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] AggressiveAI
+UNIT Bors Knight Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] AggressiveAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] AggressiveAI
 UNIT
 
 
@@ -123,6 +120,7 @@ ALIGN 4
 
 BeginningScene:
 //Music: An Unexpected Caller
+CMOF
 MUSC MUS_Tension
 LOAD1 0x1 Bandits1
 ENUN
@@ -136,11 +134,12 @@ Text(Plain, Ch1_StartBrigandVillage)
 MoveByCoords(0x0, 7, 7, 4, 9)
 ENUN
 SOUN SND_VillageDestruction
-TILECHANGE NorthVillageDestroyed
+TILECHANGE Ch1_NorthVillageDestroyed
 FlashCursor(5,4,60)
 Text(Castle_Hall, Ch1_Start2)
 STAL 16
 CAM1 [8,12]
+CMOF
 STAL 16
 LOAD1 0x1 Bandits2
 ENUN
@@ -173,24 +172,15 @@ ENDA
 
 SouthVillageVisit:
 VillageEventMoney(Ch1_SouthVillage,Village,5000)
-TILECHANGE SouthVillageVisited
-NoFade
-ENDA
 
 DoomHouseVisit:
 HouseEvent(Ch1_DoomHouse,HouseBG)
-NoFade
-ENDA
 
 TerrainHouseVisit:
 HouseEvent(Ch1_TerrainHouse,HouseBG)
-NoFade
-ENDA
 
 MoneyHouseVisit:
 HouseEvent(Ch1_MoneyHouse,HouseBG)
-NoFade
-ENDA
 
 EndingScene:
 //Play music Triumph

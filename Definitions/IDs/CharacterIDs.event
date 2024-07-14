@@ -123,5 +123,5 @@
 #define Jahn 0x7B
 #define IdunnHuman 0x7C
 #define IdunnDragon 0x7D
-#define GenericEnemy 0x7E
-#define GenericBandit 0x7F
+#define GenericBandit 0x7E
+#define GenericBern 0x7F

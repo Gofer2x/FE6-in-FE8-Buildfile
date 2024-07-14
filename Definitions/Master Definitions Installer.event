@@ -22,3 +22,4 @@
 #include "NewWeaponRanks.event"
 #include "ChapterTextStuffs.event"
 #include "AIDefinitions.event"
+#include "EADefinitions.event"

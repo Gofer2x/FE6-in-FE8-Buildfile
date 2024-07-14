@@ -3,6 +3,19 @@
 
 #include EAstdlib.event
 
+//Tile Changes
+#define Ch2_VillageDestroyed 0x0
+#define Ch2_VillageVisited 0x1
+
+//Flags/EventIDs
+//#define BossQuoteFlag 0x1
+//#define BossDefeatFlag 0x2
+//#define SeizeFlag 0x3
+//#define SecondBGMFlag 0x4
+// 0x5
+//#define RoutFlag 0x6
+#define Ch2_RoyDieckTalkFlag 0x7
+
 EventPointerTable(EVENTS_Ch2,ThisChapter)
 
 ALIGN 4
@@ -20,13 +33,29 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,MercsShowUp,2)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEventBothWays(Ch2_RoyDieckTalkFlag,RoyDieckTalk,Roy,Dieck)
 END_MAIN
 
 LocationBasedEvents:
+//armorslayer village 3,4
+Village(0x0,VillageVisit,3,4)
+//vendor 7,9, only vulneraries
+Vendor(VendorList,7,9)
+//armory 6,1, iron sword, iron lance, javelin, bow
+Armory(ArmoryList,6,1)
+//house 6,7 pegasus FliersHouseVisit
+House(0x0,FliersHouseVisit,6,7)
+//house 0,4 triangle WeaponTriangleHouseVisit
+House(0x0,WeaponTriangleHouseVisit,0,4)
+//house 5,7 forts FortsHouseVisit
+House(0x0,FortsHouseVisit,5,7)
+//seize 16,3
+Seize(16,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -44,26 +73,201 @@ ENDTRAP
 
 ALIGN 4
 
-Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+JustRuud:
+UNIT Ruud Knight 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x1 REDA_16_4 [Javelin] BossAI
 UNIT
 
-Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+JustMelady:
+UNIT Melady WyvernRiderF 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] BossAI
+UNIT
+
+GateSoldier:
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT
+
+EnemiesRight:
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [17,13] 0x0 0x0 0x1 REDA_15_6 [IronAxe] InRangeAI //ghost of bern 0F,06 standby lol
+UNIT GenericBern Archer Ruud Level(2,Enemy,1) [18,14] 0x0 0x0 0x1 REDA_17_4 [IronBow] InRangeAI //ghost of bern 11,04 standby lol
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 REDA_18_6 [Javelin] AggressiveAI
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [17,12] 0x0 0x0 0x1 REDA_17_11 [IronAxe] TwoMovesAI
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_10 [IronAxe] InRangeAI
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_17_9 [Javelin] InRangeAI
+UNIT GenericBern Soldier Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_11 [IronLance] TwoMovesAI
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [18,13] 0x0 0x0 0x1 REDA_18_9 [IronAxe] AggressiveAI
+UNIT GenericBern Soldier Ruud Level(1,Enemy,1) [18,15] 0x0 0x0 0x1 REDA_18_8 [Javelin] AggressiveAI
+UNIT GenericBern Archer Ruud Level(1,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_7 [IronBow] TwoMovesAI
+UNIT GenericBern Fighter Ruud Level(3,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_17_9 [SteelAxe] InRangeAI
+UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [IronBlade] InRangeAI
+UNIT
+
+Units:
+UNIT Roy RoyLord Roy Level(1,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] AggressiveAI
+UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] AggressiveAI
+UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
+UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT Bors Knight Roy Level(2,Ally,1) [1,11] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT Wolt Archer Roy Level(1,Ally,1) [0,10] 0x0 0x0 0x0 0x0 [IronBow] AggressiveAI
+UNIT
+
+JustMerlinus:
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [2,9] 0x0 0x0 0x1 REDA_1_9 [0x0] AggressiveAI
+UNIT
+
+JustElen:
+UNIT Elen Cleric Roy Level(2,Ally,0) [4,14] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] AggressiveAI
+UNIT
+
+ElenChaser:
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] InRangeAI
+UNIT
+
+ElenChasers2:
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] InRangeAI
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] InRangeAI
+UNIT
+
+ElenChasers3:
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] AggressiveAI
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] AggressiveAI
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] InRangeAI
+UNIT
+
+WardAndLot:
+UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe, Hammer, Vulnerary] AggressiveAI
+UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] AggressiveAI
+UNIT
+
+DieckAndShanna:
+UNIT Dieck Mercenary 0x0 Level(5,Ally,0) [15,18] 0x0 0x0 0x1 REDA_13_17 [IronBlade, IronSword] AggressiveAI
+UNIT Shanna PegasusKnight Dieck Level(1,Ally,0) [16,18] 0x0 0x0 0x1 REDA_14_17 [SlimLance, Javelin, Vulnerary] AggressiveAI
 UNIT
 
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
+CAM1 [18,0]
+CMOF
+LOAD1 0x1 JustRuud
 ENUN
-LOAD1 0x1 Enemies
+LOAD1 0x1 JustMelady
 ENUN
+Text(Ch2_Start1)
+MOVE 0x0 Ruud [17,4]
+ENUN
+MOVE 0x0 Melady [13,65535]
+ENUN
+DISA Melady
+STAL 16
+MOVE 0x0 Ruud [16,4]
+ENUN
+STAL 16
+LOAD1 0x1 GateSoldier
+//Music: Deer of the Plains
+MUSC MUS_ShadowOfTheEnemy
+Text(Ch2_Start2)
+STAL 16
+MoveByCoords(0x0,16,3,17,11)
+ENUN
+MOVE 0x0 Ruud [16,3]
+ENUN
+CMOF
+LOAD1 0x1 EnemiesRight
+ENUN
+MUSCMID 0x7FFF
+//Music: When the Rush Comes
+MUSC MUS_Advance
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustMerlinus
+ENUN
+STAL 16
+CAM1 Roy
+STAL 16
+MOVE 0x0 Merlinus [2,9]
+ENUN
+Text(Ch2_Start3)
+LOAD1 0x1 JustElen
+ENUN
+STAL 16
+//move elen 3x up, ENUN, then 1x up and 1x left and ENUN.. i'll just do a normal move and not manual lol
+MOVE 0x0 Elen [4,11]
+ENUN
+MOVE 0x0 Elen [3,10]
+ENUN
+Text(Ch2_Start4)
+//Music: An Unexpected Caller
+MUSC MUS_Tension
+LOAD1 0x1 ElenChaser
+ENUN
+STAL 16
+CAM1 [0,14]
+Text(Ch2_Start5)
+LOAD1 0x1 ElenChasers2
+ENUN
+LOAD1 0x1 ElenChasers3
+ENUN
+CAM1 Roy
+Text(Ch2_Start6)
+MOVE 0x0 Merlinus [1,9]
+ENUN
+MOVE 0x0 Elen [4,10]
+ENUN
+NoFade
 ENDA
+
+MercsShowUp:
+STAL 32
+//Music: Join Us
+MUSS MUS_Comrades
+STAL 32
+LOAD1 0x1 WardAndLot
+LOAD1 0x1 DieckAndShanna
+Text(Ch2_MercsAppear1)
+CMOF
+MOVE 0x0 Shanna [0,13]
+ENUN
+MOVE 0x0 Ward [13,16]
+ENUN
+MOVE 0x0 Lot [13,18]
+ENUN
+Text(Ch2_MercsAppear2)
+MOVE 0x0 Shanna [12,17]
+ENUN
+Text(Ch2_MercsAppear3)
+MOVE 0x0 Ward [12,16]
+MOVE 0x0 Lot [12,18]
+MOVE 0x0 Shanna [14,17]
+ENUN
+MURE 0x0
+NoFade
+ENDA
+
+RoyDieckTalk:
+ConvoEvent(Ch2_RoyDieckTalk)
+
+VillageVisit:
+VillageEventItem(Ch2_ArmorslayerVillage,Village,Armorslayer)
+
+FliersHouseVisit:
+HouseEvent(Ch2_FliersHouse,HouseBG)
+
+FortsHouseVisit:
+HouseEvent(Ch2_FortsHouse,HouseBG)
+
+WeaponTriangleHouseVisit:
+HouseEvent(Ch2_WeaponTriangleHouse,HouseBG)
+
+
 
 EndingScene:
 MoveToChapter(CHAPTER_Ch3)
 ENDA
 
+ArmoryList:
+SHLI IronSword IronLance Javelin IronBow
+
+VendorList:
+SHLI Vulnerary
+
 MESSAGE Events end at offset CURRENTOFFSET
+

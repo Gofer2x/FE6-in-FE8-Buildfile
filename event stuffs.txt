@@ -29,7 +29,8 @@ MUSS MusicID
 	Changes music while saving the previous song
     so you can restore it with MURE.
 	
-
+MUSCMID 0x7FFF
+	Fade music out??
 
 
 
@@ -51,6 +52,7 @@ BEQ *Conditional ID* *Memory Slot 1* *Memory Slot 2*
 	
 	
 (eventID = Flag)
+//Turn based events
 TurnEventPlayer(eventID,pointer,turn)
 TurnEventPlayer(eventID,pointer,startTurn,amountOfTurns)
 TurnEventEnemy(eventID,pointer,turn)
@@ -59,7 +61,15 @@ TurnEventNPC(eventID,pointer,turn)
 TurnEventNPC(eventID,pointer,startTurn,amountOfTurns)
 Survive(pointer,endturn)
 OpeningTurnEvent(pointer)
-	
+
+//Character based events
+#define CharacterEvent(eventID,pointer,char1,char2)
+#define CharacterEvent(eventID,pointer,char1,char2,afterID)
+#define CharacterEventBothWays(eventID,eventPtr,char1,char2)
+
+
+
+
 //Location Based Events
 Village(eventID,offset,villX,villY)    
 House(eventID,offset,villX,villY)      
@@ -81,6 +91,15 @@ ConvoEvent(textID)
 LoadReinforcements(unitPtr)
 ReinforcementEvent(unitPtr)
 GiveMoney(amount)
+	
+	
+	
+LOAD1 commands are generally used for loading units who are actively involved in gameplay. It’s used for loading player units who join the party, and enemy/NPC units who start on the map. The primary LOAD1 command is “Load units and move. If player unit, join party (LOAD1+ENUN)”.
+
+LOAD2 commands are generally used for loading specific units in cutscenes. Player units loaded with LOAD2 will not join the party (though of course, it won’t remove units who are already in the party), so it’s useful for when you need to show blue NPCs. The primary LOAD2 command is “Load units and move (LOAD2+ENUN)”.
+
+LOAD3 is a bit different, and its name in FEBuilder, “load player units for cutscenes”, is a bit misleading. Like the other LOAD commands, LOAD3 takes in a unit group, but the units loaded will not actually be the ones shown in the Unit Placer. Instead, LOAD3 will load the first X units of the player’s current party, based on recent deployment order, in order of the slots in the Unit Placer list. This can be useful for cutscenes where you need to show a large group of the player’s units but don’t need to specify which ones in particular.
+	
 	
 	
 	

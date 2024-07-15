@@ -6,6 +6,8 @@
 
 #include "BattleScreen/Installer.event"
 
+#include "Backgrounds/Installer.event"
+
 #include "ItemIcons/Installer.event"
 
 #include "Palettes/Palette Setup.event"

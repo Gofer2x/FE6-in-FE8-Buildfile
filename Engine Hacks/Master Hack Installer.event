@@ -14,3 +14,4 @@
 #include "MultiDancer/Installer.event"
 #include "Chapternamesastext2.1/fe8_chnames.event"
 #include "Allow254genericminimugs/Allow 254 generic minimugs.event"
+#include "EVENTSCRIPT_AutoLevelUnits/Installer.event" //to simulate bugged hm bonuses

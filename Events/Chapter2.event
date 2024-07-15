@@ -42,19 +42,12 @@ CharacterEventBothWays(Ch2_RoyDieckTalkFlag,RoyDieckTalk,Roy,Dieck)
 END_MAIN
 
 LocationBasedEvents:
-//armorslayer village 3,4
 Village(0x0,VillageVisit,3,4)
-//vendor 7,9, only vulneraries
 Vendor(VendorList,7,9)
-//armory 6,1, iron sword, iron lance, javelin, bow
 Armory(ArmoryList,6,1)
-//house 6,7 pegasus FliersHouseVisit
 House(0x0,FliersHouseVisit,6,7)
-//house 0,4 triangle WeaponTriangleHouseVisit
 House(0x0,WeaponTriangleHouseVisit,0,4)
-//house 5,7 forts FortsHouseVisit
 House(0x0,FortsHouseVisit,5,7)
-//seize 16,3
 Seize(16,3)
 END_MAIN
 
@@ -246,23 +239,23 @@ RoyDieckTalk:
 ConvoEvent(Ch2_RoyDieckTalk)
 
 VillageVisit:
-VillageEventItem(Ch2_ArmorslayerVillage,Village,Armorslayer)
+VillageEventItem(Ch2_ArmorslayerVillage,BG_Village,Armorslayer)
 
 FliersHouseVisit:
-HouseEvent(Ch2_FliersHouse,HouseBG)
+HouseEvent(Ch2_FliersHouse,BG_House)
 
 FortsHouseVisit:
-HouseEvent(Ch2_FortsHouse,HouseBG)
+HouseEvent(Ch2_FortsHouse,BG_House)
 
 WeaponTriangleHouseVisit:
-HouseEvent(Ch2_WeaponTriangleHouse,HouseBG)
+HouseEvent(Ch2_WeaponTriangleHouse,BG_House)
 
 
 
 EndingScene:
 //Play music Triumph
 MUSC MUS_Victory
-SetBackground(Castle_Room) //wrong background, set to correct after importing fe6 backgorunds
+SetBackground(BG_Castle1) //wrong background, set to correct after importing fe6 backgorunds
 TextNoBGNoREMA(Ch2_End1)
 CHECK_ALIVE Elen
 BEQ 1 s0 sC

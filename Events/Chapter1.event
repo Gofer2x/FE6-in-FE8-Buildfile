@@ -66,12 +66,12 @@ ALIGN 4
 
 //just here so it looks nice in febuilder tbh
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] AggressiveAI
-UNIT Marcus Paladin Roy Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] AggressiveAI
-UNIT Lance Cavalier Roy Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
-UNIT Alen Cavalier Roy Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
-UNIT Bors Knight Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
-UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] AggressiveAI
+UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] DoNothingAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] DoNothingAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] DoNothingAI
+UNIT Bors Knight Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] DoNothingAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] DoNothingAI
 UNIT
 
 Bandits1:
@@ -101,27 +101,26 @@ UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA_8_18 [I
 UNIT
 
 LanceRunner:
-UNIT Lance Cavalier Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] AggressiveAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] DoNothingAI
 UNIT
 
 TheBoys1:
-UNIT Roy RoyLord Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] AggressiveAI
-UNIT Marcus Paladin Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] AggressiveAI
+UNIT Roy RoyLord Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] DoNothingAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] DoNothingAI
 UNIT
 
 TheBoys2:
-UNIT Alen Cavalier Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] AggressiveAI
-UNIT Bors Knight Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] AggressiveAI
-UNIT Wolt Archer Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] AggressiveAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] DoNothingAI
+UNIT Bors Knight Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] DoNothingAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] DoNothingAI
 UNIT
 
 
 ALIGN 4
 
 BeginningScene:
-//Music: An Unexpected Caller
 CMOF
-MUSC MUS_Tension
+MUSC MUS_AnUnexpectedCaller
 LOAD1 0x1 Bandits1
 ENUN
 FlashCursor(Damas, 60)
@@ -159,8 +158,7 @@ NoFade
 ENDA
 
 CursesReinforcementsAlready:
-//Music: Deer of the Plains
-MUSC MUS_ShadowOfTheEnemy
+MUSC MUS_DeerOfThePlains
 CAM1[5,3]
 ENUN
 MOVE 0x0 Damas [5, 4]
@@ -183,8 +181,7 @@ MoneyHouseVisit:
 HouseEvent(Ch1_MoneyHouse,BG_House)
 
 EndingScene:
-//Play music Triumph
-MUSC MUS_Victory
+MUSC MUS_Triumph
 SetBackground(BG_Castle1)
 TextNoBGNoREMA(Ch1_End1)
 CHECK_ALIVE Bors

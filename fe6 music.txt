@@ -16,7 +16,7 @@ MUS_ScarsOfTheScouring //player phase gaiden
 MUS_MarchToDeliverance //player phase trial
 MUS_ShadowApproaches //player phase fow
 MUS_BindingTies //allied unit theme
-MUS_WinningROad //near victory theme
+MUS_WinningRoad //near victory theme
 MUS_PoemOfTheSoftWind //elphin play track
 MUS_AtTheFinalDragon //jahn theme
 MUS_BattleForTomorrow //boss theme

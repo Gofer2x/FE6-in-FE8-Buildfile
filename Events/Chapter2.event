@@ -71,7 +71,7 @@ UNIT Ruud Knight 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x1 REDA_16_4 [Javelin] Bos
 UNIT
 
 JustMelady:
-UNIT Melady WyvernRiderF 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] BossAI
+UNIT Melady WyvernRiderF 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] DoNothingAI
 UNIT
 
 GateSoldier:
@@ -94,20 +94,20 @@ UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [I
 UNIT
 
 Units:
-UNIT Roy RoyLord Roy Level(1,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] AggressiveAI
-UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] AggressiveAI
-UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] AggressiveAI
-UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] AggressiveAI
-UNIT Bors Knight Roy Level(2,Ally,1) [1,11] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT Wolt Archer Roy Level(1,Ally,1) [0,10] 0x0 0x0 0x0 0x0 [IronBow] AggressiveAI
+UNIT Roy RoyLord Roy Level(1,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] DoNothingAI
+UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] DoNothingAI
+UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] DoNothingAI
+UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
+UNIT Bors Knight Roy Level(2,Ally,1) [1,11] 0x0 0x0 0x0 0x0 [IronLance] DoNothingAI
+UNIT Wolt Archer Roy Level(1,Ally,1) [0,10] 0x0 0x0 0x0 0x0 [IronBow] DoNothingAI
 UNIT
 
 JustMerlinus:
-UNIT Merlinus Transporter Roy Level(1,Ally,0) [2,9] 0x0 0x0 0x1 REDA_1_9 [0x0] AggressiveAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [2,9] 0x0 0x0 0x1 REDA_1_9 [0x0] DoNothingAI
 UNIT
 
 JustElen:
-UNIT Elen Cleric Roy Level(2,Ally,0) [4,14] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] AggressiveAI
+UNIT Elen Cleric Roy Level(2,Ally,0) [4,14] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] DoNothingAI
 UNIT
 
 ElenChaser:
@@ -126,13 +126,13 @@ UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [Ha
 UNIT
 
 WardAndLot:
-UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe, Hammer, Vulnerary] AggressiveAI
-UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] AggressiveAI
+UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe, Hammer, Vulnerary] DoNothingAI
+UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] DoNothingAI
 UNIT
 
 DieckAndShanna:
-UNIT Dieck Mercenary 0x0 Level(5,Ally,0) [15,18] 0x0 0x0 0x1 REDA_13_17 [IronBlade, IronSword] AggressiveAI
-UNIT Shanna PegasusKnight Dieck Level(1,Ally,0) [16,18] 0x0 0x0 0x1 REDA_14_17 [SlimLance, Javelin, Vulnerary] AggressiveAI
+UNIT Dieck Mercenary 0x0 Level(5,Ally,0) [15,18] 0x0 0x0 0x1 REDA_13_17 [IronBlade, IronSword] DoNothingAI
+UNIT Shanna PegasusKnight Dieck Level(1,Ally,0) [16,18] 0x0 0x0 0x1 REDA_14_17 [SlimLance, Javelin, Vulnerary] DoNothingAI
 UNIT
 
 ALIGN 4
@@ -155,8 +155,7 @@ MOVE 0x0 Ruud [16,4]
 ENUN
 STAL 16
 LOAD1 0x1 GateSoldier
-//Music: Deer of the Plains
-MUSC MUS_ShadowOfTheEnemy
+MUSC MUS_DeerOfThePlains
 Text(Ch2_Start2)
 STAL 16
 MoveByCoords(0x0,16,3,17,11)
@@ -167,8 +166,7 @@ CMOF
 LOAD1 0x1 EnemiesRight
 ENUN
 MUSCMID 0x7FFF
-//Music: When the Rush Comes
-MUSC MUS_Advance
+MUSC MUS_WhenTheRushComes
 LOAD3 0x0 Units
 ENUN
 LOAD1 0x1 JustMerlinus
@@ -188,8 +186,7 @@ ENUN
 MOVE 0x0 Elen [3,10]
 ENUN
 Text(Ch2_Start4)
-//Music: An Unexpected Caller
-MUSC MUS_Tension
+MUSC MUS_AnUnexpectedCaller
 LOAD1 0x1 ElenChaser
 ENUN
 STAL 16
@@ -210,8 +207,7 @@ ENDA
 
 MercsShowUp:
 STAL 32
-//Music: Join Us
-MUSS MUS_Comrades
+MUSS MUS_JoinUs
 STAL 32
 LOAD1 0x1 WardAndLot
 LOAD1 0x1 DieckAndShanna
@@ -253,8 +249,7 @@ HouseEvent(Ch2_WeaponTriangleHouse,BG_House)
 
 
 EndingScene:
-//Play music Triumph
-MUSC MUS_Victory
+MUSC MUS_Triumph
 SetBackground(BG_Castle1) //wrong background, set to correct after importing fe6 backgorunds
 TextNoBGNoREMA(Ch2_End1)
 CHECK_ALIVE Elen

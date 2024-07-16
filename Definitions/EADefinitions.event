@@ -2,6 +2,8 @@
 //Credit Pikmin1211
 #define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 
+#define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
+#define HardReinforcementEvent(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C; EVBIT_T 0x7; ENDA"
 
 #define CMON "EVBIT_T 0x09"
 #define CMOF "EVBIT_F 0x09"

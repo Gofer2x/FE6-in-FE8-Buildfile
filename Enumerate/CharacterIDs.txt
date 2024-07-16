@@ -125,3 +125,5 @@ IdunnHuman
 IdunnDragon
 GenericBandit
 GenericBern
+GenericLaus
+GenericPirate

@@ -94,7 +94,7 @@ UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [I
 UNIT
 
 Units:
-UNIT Roy RoyLord Roy Level(1,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] DoNothingAI
+UNIT Roy RoyLord Roy Level(2,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] DoNothingAI
 UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] DoNothingAI
 UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] DoNothingAI
 UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
@@ -138,6 +138,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_TheKingdomOfBern
 CAM1 [18,0]
 CMOF
 LOAD1 0x1 JustRuud
@@ -227,7 +228,7 @@ MOVE 0x0 Ward [12,16]
 MOVE 0x0 Lot [12,18]
 MOVE 0x0 Shanna [14,17]
 ENUN
-MURE 0x0
+MURE 0x5
 NoFade
 ENDA
 

@@ -38,12 +38,12 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//turn 2, bishop and kids cutscene
-//turn 3, zephiel and co cutscene
-//turn 5, hard mode only cav reinforcements
-//turn 8, all modes cav reinforcements. not ambush!
-//turn 10, hard mode only cav reinforcements
-//turn 15, hard mode only cav reinforcements
+TurnEventPlayer(0x0,BishopKidsEvent,2)
+TurnEventEnemy(0x0,ThroneRoomEvent,3)
+TurnEventEnemy(0x0,HardCavReinforcements,5)
+TurnEventPlayer(0x0,NormalCavReinforcements,8)
+TurnEventEnemy(0x0,HardCavReinforcements,10)
+TurnEventEnemy(0x0,HardCavReinforcements,15)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -77,7 +77,7 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,1) [3,19] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Vulnerary] DoNothingAI
+UNIT Roy RoyLord 0x0 Level(3,Ally,1) [3,19] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Vulnerary] DoNothingAI
 UNIT Marcus Paladin 0x0 Level(1,Ally,1) [1,19] 0x0 0x0 0x0 0x0 [IronLance] DoNothingAI
 UNIT Alen Cavalier Roy Level(3,Ally,1) [4,18] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Vulnerary] DoNothingAI
 UNIT Lance Cavalier Roy Level(3,Ally,1) [2,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary, IronLance] DoNothingAI
@@ -147,6 +147,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_TheKingOfBern
 LOAD1 0x0 Enemies
 CAM1 [19,2]
 STAL 16
@@ -165,6 +166,27 @@ CAM1 Roy
 NoFade
 ENDA
 
+BishopKidsEvent:
+MUSC MUS_BeyondDistantSkies
+CAM1 [0,0]
+CMOF
+FlashCursor(3,3)
+MUSI
+Text(BG_Outside, Ch3_LughBishopCutscene)
+MUNO
+LOAD1 0x1 JustBishop
+ENUN
+LOAD1 0x1 ThreeKids
+ENUN
+MOVE 0x0 Orlo [5,65535]
+MOVE 0x0 Cath [5,65535]
+MOVE 0x0 Raigh [5,65535]
+MOVE 0x0 Lilina [5,65535]
+ENUN
+STAL 64
+NoFade
+ENDA
+
 NorthVillageVisit:
 MUSS MUS_JoinUs
 CHECK_ACTIVE
@@ -177,21 +199,76 @@ LABEL 0
 Text(BG_Village, Ch3_LughVillage)
 LABEL 1
 REMA
-MURE 0x0
+MURE 0x5
 LOAD1 0x1 JustLugh
 ENUN
+NoFade
 ENDA
 
-
-ChadLughTalk:
-ConvoEvent(Ch3_ChadLughTalk)
-
+ThroneRoomEvent:
+MUSS MUS_TheKingdomOfBern
+STAL 16
+CAM1 [21,3]
+STAL 16
+TILECHANGE 0x6
+LOAD1 0x1 ThroneRoomGang
+STAL 16
+MOVE 0x0 Narcian [19,5]
+ENUN
+Text(Ch3_ThroneRoom1)
+STAL 16
+MOVE 0x0 Narcian [20,5]
+ENUN
+MOVE 0x0 Zephiel [19,5]
+ENUN
+MOVE 0x0 Zephiel [25,8]
+MOVE 0x0 IdunnHuman [25,8]
+ENUN
+DISA Zephiel
+DISA IdunnHuman
+STAL 16
+MOVE 0x0 Narcian [19,4]
+ENUN
+STAL 16
+MOVE 0x0 Slater [19,5]
+ENUN
+STAL 16
+Text(Ch3_ThroneRoom2)
+STAL 16
+MOVE 0x0 Slater [18,5]
+ENUN
+MOVE 0x0 Narcian [25,9]
+ENUN
+DISA Narcian
+STAL 16
+MOVE 0x0 Slater [19,4]
+MoveByCoords(0x0,16,5,17,4)
+MoveByCoords(0x0,22,5,21,4)
+ENUN
+STAL 16
+LoadReinforcements(CavReinforcements)
+ENUN
+MURE 0x5
+NoFade
+ENDA
 
 SouthVillageVisit:
 VillageEventItem(Ch3_MendHouse,BG_Village,Mend)
 
+NormalCavReinforcements:
+ReinforcementEvent(CavReinforcements)
+
+HardCavReinforcements:
+HardReinforcementEvent(CavReinforcements)
+
+ChadLughTalk:
+ConvoEvent(Ch3_ChadLughTalk)
+
 EndingScene:
-MoveToChapter(CHAPTER_Ch4)
+MUSC MUS_IntoTheShadowOfTriumph
+Text(BG_Castle1, Ch3_End)
+STAL 64
+MNC2 CHAPTER_Ch4
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

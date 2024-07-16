@@ -125,3 +125,5 @@
 #define IdunnDragon 0x7D
 #define GenericBandit 0x7E
 #define GenericBern 0x7F
+#define GenericLaus 0x80
+#define GenericPirate 0x81

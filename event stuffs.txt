@@ -92,7 +92,9 @@ LoadReinforcements(unitPtr)
 ReinforcementEvent(unitPtr)
 GiveMoney(amount)
 	
-	
+MoveByCoords(speed, srcX, srcY, destX, destY)
+
+
 	
 LOAD1 commands are generally used for loading units who are actively involved in gameplay. It’s used for loading player units who join the party, and enemy/NPC units who start on the map. The primary LOAD1 command is “Load units and move. If player unit, join party (LOAD1+ENUN)”.
 
@@ -121,4 +123,9 @@ ShowText(Text)
 	Displays Text, but doesn't return to map.
 	
 
-MoveByCoords(speed, srcX, srcY, destX, destY)
+
+
+
+
+at the top of your file you will see POIN Units Units, it's there twice because the first one is normal mode and the second one is hard mode. if you edited that to be POIN NormalUnits HardUnits or whatever, you can have a different unit setup depending on difficulty
+it should be in eastdlib

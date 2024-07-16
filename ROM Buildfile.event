@@ -9,6 +9,7 @@
 	#include "Engine Hacks/Master Hack Installer.event"
 	
 	#include "Misc/EditVanillaStatBoosts.event"
+	#include "Misc/EditItemEffects.event"
 	
 	#include "NewTables/Installer.event"
 	

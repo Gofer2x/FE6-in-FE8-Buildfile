@@ -3,6 +3,24 @@
 
 #include EAstdlib.event
 
+//Tile Changes
+//NorthHouseDestroyed 0x0
+//SouthHouseDestroyed 0x1
+//NorthHouseVisited 0x2
+//SouthHouseVisited 0x3
+//LeftChestOpened 0x4
+//RightChestOpened 0x5
+//ThroneRoomOpened 0x6
+
+//Flags/EventIDs
+//#define BossQuoteFlag 0x1
+//#define BossDefeatFlag 0x2
+//#define SeizeFlag 0x3
+//#define SecondBGMFlag 0x4
+// 0x5
+//#define RoutFlag 0x6
+#define Ch3_ChadLughTalkFlag 0x7
+
 EventPointerTable(EVENTS_Ch3,ThisChapter)
 
 ALIGN 4
@@ -20,13 +38,27 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+//turn 2, bishop and kids cutscene
+//turn 3, zephiel and co cutscene
+//turn 5, hard mode only cav reinforcements
+//turn 8, all modes cav reinforcements. not ambush!
+//turn 10, hard mode only cav reinforcements
+//turn 15, hard mode only cav reinforcements
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEventBothWays(Ch3_ChadLughTalkFlag,ChadLughTalk,Chad,Lugh)
 END_MAIN
 
 LocationBasedEvents:
+Village(0x0,NorthVillageVisit,3,3)
+Village(0x0,SouthVillageVisit,19,19)
+Chest(Halberd,20,11)
+ChestMoney(3000,22,12)
+Seize(19,4)
+
+
 END_MAIN
 
 MiscBasedEvents:
@@ -132,6 +164,31 @@ ENUN
 CAM1 Roy
 NoFade
 ENDA
+
+NorthVillageVisit:
+MUSS MUS_JoinUs
+CHECK_ACTIVE
+SVAL s1 Chad
+BNE 0 s1 sC
+Text(BG_Village, Ch3_ChadLughVillage)
+ENUT Ch3_ChadLughTalkFlag
+GOTO 1
+LABEL 0
+Text(BG_Village, Ch3_LughVillage)
+LABEL 1
+REMA
+MURE 0x0
+LOAD1 0x1 JustLugh
+ENUN
+ENDA
+
+
+ChadLughTalk:
+ConvoEvent(Ch3_ChadLughTalk)
+
+
+SouthVillageVisit:
+VillageEventItem(Ch3_MendHouse,BG_Village,Mend)
 
 EndingScene:
 MoveToChapter(CHAPTER_Ch4)

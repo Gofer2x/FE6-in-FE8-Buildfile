@@ -3,6 +3,16 @@
 
 #include EAstdlib.event
 
+//Tile Changes
+
+//Flags/EventIDs
+//#define BossQuoteFlag 0x1
+//#define BossDefeatFlag 0x2
+//#define SeizeFlag 0x3
+//#define SecondBGMFlag 0x4
+// 0x5
+//#define RoutFlag 0x6
+
 EventPointerTable(EVENTS_Ch4,ThisChapter)
 
 ALIGN 4

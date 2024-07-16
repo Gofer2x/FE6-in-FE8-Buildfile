@@ -4,10 +4,10 @@
 #include EAstdlib.event
 
 //Tile Changes
-#define Ch1_SouthVillageDestroyed 0x0
-#define Ch1_NorthVillageDestroyed 0x1
-#define Ch1_SouthVillageVisited 0x2
-#define Ch1_NorthVillageVisited 0x3
+//SouthVillageDestroyed 0x0
+//NorthVillageDestroyed 0x1
+//SouthVillageVisited 0x2
+//NorthVillageVisited 0x3
 
 //Flags/EventIDs
 #define BossQuoteFlag 0x1
@@ -133,7 +133,7 @@ Text(BG_Outside, Ch1_StartBrigandVillage)
 MoveByCoords(0x0, 7, 7, 4, 9)
 ENUN
 SOUN SND_VillageDestruction
-TILECHANGE Ch1_NorthVillageDestroyed
+TILECHANGE 0x1
 FlashCursor(5,4,60)
 Text(BG_Castle1, Ch1_Start2)
 STAL 16

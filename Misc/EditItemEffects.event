@@ -1,0 +1,34 @@
+#define IfItemCanBeUsedTable 0x288B0
+#define EffectOfUsingItemTable 0x2FC90
+
+#define TargetSelectionOfItemTable 0x28E8C
+#define TypeOfStaffTables 0x72594
+
+#define ItemPrepositionTable 0x161B0
+
+
+
+#define EditItemUseEffectTable(Table, Item, Pointer) "PUSH ; ORG Table+(Item-0x4B+1)*4 ; POIN Pointer ; POP"
+
+
+
+
+#define CanBeUsed_DoorKey 0x0028B88
+#define CanBeUsed_ChestKey 0x0028B80
+#define CanBeUsed_Lockpick 0x0028B90
+#define CanBeUsed_VulneraryElixir 0x0028B60
+#define CanBeUsed_PureWater 0x0028B68
+#define CanBeUsed_Antitoxin 0x0028B78
+#define CanBeUsed_Torch 0x0028B70
+
+#define ItemEffect_ChestKeyDoorKeyLockpick 0x002FEE6
+#define ItemEffect_Vulnerary 0x002FEC4
+#define ItemEffect_Elixir 0x002FECE
+#define ItemEffect_PureWater 0x002FED6
+#define ItemEffect_Antitoxin 0x002FEDE
+#define ItemEffect_Torch 0x002FEBC
+
+
+
+EditItemUseEffectTable(IfItemCanBeUsedTable, BindingBlade, CanBeUsed_VulneraryElixir)
+EditItemUseEffectTable(EffectOfUsingItemTable, BindingBlade, ItemEffect_Elixir)

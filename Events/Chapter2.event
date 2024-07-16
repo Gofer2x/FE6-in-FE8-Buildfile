@@ -4,8 +4,8 @@
 #include EAstdlib.event
 
 //Tile Changes
-#define Ch2_VillageDestroyed 0x0
-#define Ch2_VillageVisited 0x1
+//VillageDestroyed 0x0
+//VillageVisited 0x1
 
 //Flags/EventIDs
 //#define BossQuoteFlag 0x1
@@ -250,7 +250,7 @@ HouseEvent(Ch2_WeaponTriangleHouse,BG_House)
 
 EndingScene:
 MUSC MUS_Triumph
-SetBackground(BG_Castle1) //wrong background, set to correct after importing fe6 backgorunds
+SetBackground(BG_Castle1)
 TextNoBGNoREMA(Ch2_End1)
 CHECK_ALIVE Elen
 BEQ 1 s0 sC

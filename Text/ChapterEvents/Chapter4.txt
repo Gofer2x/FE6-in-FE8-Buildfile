@@ -61,18 +61,18 @@ You, blockade the highroad[N]
 from Ostia.[AN]
 This Roy might just pass by.[N]
 I want his head![AN]
-[OpenLeft][LoadSoldier2]Yes, sir![AN]
+[OpenLeft][LoadSoldier2]Yes, sir![AN][X]
 
 
 
 
 
-## Ch4_BanditsAppear
+## Ch4_PiratesAppear
 [OpenMidRight][LoadScollan][NormalPrint]Heh... Foolish nobility. Always[N]
 involved in some petty dispute.[AN]
 'Course, you'll hear no complaints from us.[N]
 Turmoil's how we make a living.[AN]
-Heh heh heh...[AN]
+Heh heh heh...[AN][X]
 
 
 
@@ -93,7 +93,7 @@ Just get over here.[AN]
 [OpenFarRight][FastPrint]Let go! You will regret this![N]
 Have you any idea who I am?![AN]
 [OpenLeft][NormalPrint][ToggleMouthMove]......[AN]
-[OpenFarRight][FastPrint][ToggleMouthMove]Let go, I say![AN]
+[OpenFarRight][FastPrint][ToggleMouthMove]Let go, I say![AN][X]
 
 
 
@@ -123,7 +123,7 @@ Saying that only piques[N]
 my curiosity further.[AN]
 [OpenMidLeft][NormalPrint]Time is short.[N]
 Hurry![AN]
-[OpenMidRight][ToggleMouthMove]......[AN]
+[OpenMidRight][ToggleMouthMove]......[AN][X]
 
 
 
@@ -137,13 +137,13 @@ a lady to her mansion![AN]
 Well, it's hardly of concern now.[AN]
 Sigh, I only came here to see my brother,[N]
 and now look at the mess I'm in...[AN]
-What am I to do now?[AN]
+What am I to do now?[AN][X]
 
 
 
 
 
-## Ch4_RutgerClarine5
+## Ch4_RutgerWarning
 [OpenMidLeft][LoadErik][OpenMidRight][LoadRutger][OpenMidLeft][ToggleSmile]Ah,[N]
 there you are![AN]
 [OpenMidRight]What do you want?[AN]
@@ -157,14 +157,14 @@ Go and fight![AN]
 I'll leave when I'm ready.[AN][ClearFace]
 [OpenMidLeft]Tsk. Not the amiable sort, is he?[AN]
 If his sword arm is as skilled as the rumors[N]
-say, though, then it's no matter.[AN]
+say, though, then it's no matter.[AN][X]
 
 
 
 
 
 ## Ch4_RutgerAppears
-[LoadRutger][NormalPrint][ToggleMouthMove]......[AN]
+[LoadRutger][NormalPrint][ToggleMouthMove]......[AN][X]
 
 
 
@@ -219,7 +219,7 @@ I'm Roy.[N]
 Pleased to meet you, Lady Clarine.[AN]
 [OpenLeft][FastPrint]The pleasure is all--[AN]
 [MoveMidLeft][ToggleSmile]Ahem! Let's focus on[N]
-the issue at hand.[AN]
+the issue at hand.[AN][X]
 
 
 
@@ -271,7 +271,7 @@ Satisfied?[AN]
 [OpenMidRight][NormalPrint]Ah...I suppose.[AN]
 [OpenMidLeft][ClearFace][OpenMidRight]Wait![AN]
 My protection is more important[N]
-than fighting Bern! Come back![AN]
+than fighting Bern! Come back![AN][X]
 
 
 
@@ -285,7 +285,7 @@ Only thieves can use lockpicks.[AN]
 But I have something called a door[N]
 key, which will open any door.[AN]
 Anyone can use it.[N]
-You can have it.[AN]
+You can have it.[AN][X]
 
 
 
@@ -297,7 +297,7 @@ You can have it.[AN]
 land in which we were born.[AN]
 [OpenMidRight]Please take this sword.[AN]
 It was given to us generations ago.[N]
-A gift from the marquess.[AN]
+A gift from the marquess.[AN][X]
 
 
 
@@ -312,7 +312,7 @@ But you just might be able[N]
 to stop them.[AN]
 Here is something that will help[N]
 you fight a little longer.[AN]
-Think carefully before using it.[AN]
+Think carefully before using it.[AN][X]
 
 
 
@@ -324,7 +324,7 @@ attack nearby towns.[AN]
 Once they loot a town,[N]
 there's nothing left.[AN]
 Visit the towns quickly and they[N]
-might just share something good![AN]
+might just share something good![AN][X]
 
 
 
@@ -336,7 +336,7 @@ with bows in Laus' army.[AN]
 They're from the nomad clans[N]
 of Sacae.[AN]
 Everyone wants their fighting[N]
-prowess these days...[AN]
+prowess these days...[AN][X]
 
 
 
@@ -348,7 +348,7 @@ know it doesn't apply to all weapons?[AN]
 Some weapons completely reverse[N]
 the weapon triangle.[AN]
 For instance, you might find an axe that[N]
-will work well against swords.[AN]
+will work well against swords.[AN][X]
 
 
 
@@ -403,4 +403,4 @@ I'm sure he believes strongly in[N]
 what he's done to Elibe.[AN]
 Regardless, that doesn't excuse[N]
 the violence he has caused...[AN]
-[OpenMidRight]Princess Guinivere...[AN]
+[OpenMidRight]Princess Guinivere...[AN][X]

@@ -30,15 +30,15 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//turn 2, rutger clarine 1 (npc turn)
-//turn 3, rutger clarine 2 (npc turn)
-//turn 4, pirates start appearing + text
-//turn 5, rutger warning
+TurnEventNPC(0x0,RutgerClarine1,2)
+TurnEventNPC(0x0,RutgerClarine2,3)
+TurnEventEnemy(0x0,PiratesAppear,4)
+TurnEventEnemy(0x0,RutgerWarning,5)
 //turn 5 some weird fuckin asm
-//turn 6, rutger appears (but not if boss dead)
-//turn 6, more pirates
-//turns 8-10, hard mode more pirates
-//turn 11, hard mode cavs from behind
+TurnEventEnemy(0x0,RutgerAppears,6)
+TurnEventEnemy(0x0,LoadPirateReinforcements,6)
+TurnEventEnemy(0x0,LoadPirateReinforcements,8,3)
+TurnEventEnemy(0x0,LoadCavsFromTheBackReinforcements,11)
 
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
@@ -112,8 +112,8 @@ UNIT GenericLaus Cavalier Erik Level(2,Enemy,1) [17,6] 0x0 0x0 0x1 REDA_14_7 [Ir
 UNIT GenericLaus Cavalier Erik Level(2,Enemy,1) [15,4] 0x0 0x0 0x1 REDA_13_2 [IronSword] AggressiveAI
 UNIT GenericLaus Archer Erik Level(5,Enemy,1) [8,12] 0x0 0x0 0x0 REDA_1_12 [IronBow] TwoMovesAI
 UNIT GenericLaus Archer Erik Level(5,Enemy,1) [5,8] 0x0 0x0 0x0 REDA_4_9 [IronBow] TwoMovesAI
-UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [3,10] 0x0 0x0 0x1 REDA_1_9 [IronSword] AggressiveAI
-UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [16,6] 0x0 0x0 0x1 REDA_13_7 [IronSword] InRangeAI
+UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [3,10] 0x0 0x0 0x1 REDA_1_9 [IronBow] AggressiveAI
+UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [16,6] 0x0 0x0 0x1 REDA_13_7 [IronBow] InRangeAI
 UNIT
 
 JustClarine:
@@ -127,7 +127,7 @@ UNIT GenericLaus Archer Erik Level(2,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_6_7 [IronBo
 UNIT Rutger Myrmidon Erik Level(4,Enemy,0) [3,9] 0x0 0x0 0x1 REDA_6_8 [KillingEdge] AggressiveAI
 UNIT
 
-PirateReinforcements:
+PiratesFromForts:
 UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [29,15] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAINoRecover
 UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [HandAxe] BrigandAINoRecover
 UNIT
@@ -143,13 +143,103 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
+LOAD 0x1 JustNarcian
+STAL 16
+CAM1 [3,8]
+STAL 16
+CMOF
+MOVE 0x0 Narcian [3,8] 
 ENUN
-LOAD1 0x1 Enemies
+STAL 16
+DISA Narcian
+STAL 16
+Text(BG_Castle1, Ch4_Start)
+LOAD 0x1 Enemies
+ENUN
+STAL 16
+CMON
+MOVE 0x0 Narcian [13,65535]
+ENUN
+DISA Narcian
+STAL 16
+CAM1 [0,8]
+STAL 16
+CMOF
+MOVE 0x0 Erik [3,8]
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+ENDA
+ENDA
+
+RutgerClarine1:
+CAM1 [4,8]
+MUSI
+STAL 16
+Text(BG_Dungeon, Ch4_RutgerClarine1)
+MUNO
+ENDA
+
+RutgerClarine2:
+CAM1 [4,8]
+MUSI
+STAL 16
+Text(BG_Dungeon, Ch4_RutgerClarine2)
+LOAD1 0x1 JustClarine
+Text(Ch4_RutgerClarine3)
+MUNO
 ENUN
 ENDA
 
+PiratesAppear:
+MUSC MUS_DeerOfThePlains
+STAL 16
+MUSI
+LoadReinforcements(PiratesFromForts)
+ENUN
+Text(Ch4_PiratesAppear)
+MUNO
+ENDA
+
+LoadPirateReinforcements:
+ReinforcementEvent(PiratesFromForts)
+
+LoadHardPirateReinforcements:
+HardReinforcementEvent(PiratesFromForts)
+
+LoadCavsFromTheBackReinforcements:
+HardReinforcementEvent(CavsFromTheBack)
+
+
+RutgerWarning:
+CHECK_EVENTID BossDefeatFlag
+BNE 1 s0 sC
+CAM1 [3,8]
+FlashCursor(3,8,60)
+MUSC MUS_DeerOfThePlains
+STAL 16
+Text(BG_Castle1, Ch4_RutgerWarning)
+LABEL 1
+ENDA
+
+RutgerAppears:
+CHECK_EVENTID BossDefeatFlag
+BNE 1 s0 sC
+CAM1 [4,9]
+STAL 16
+MUSC MUS_DeerOfThePlains
+CMOF
+LoadReinforcements(RutgerSquad)
+Text(Ch4_RutgerAppears)
+LABEL 1
+ENDA
+
+
 EndingScene:
+MUSC MUS_Triumph
+Text(BG_Castle1, Ch4_End)
+MUSC MUS_PrincessOfDestiny
+STAL 64
 MoveToChapter(CHAPTER_Ch5)
 ENDA
 

@@ -72,7 +72,10 @@
 
 #define SND_VillageDestruction 0xAB
 
-
+PUSH //setting laughter to map bgm so febuilder stops complaining
+ORG $2245C0
+BYTE  $D4 $6B $56 $08 $01 $00 $01 $00;
+POP
 
 
 

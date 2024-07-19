@@ -7,3 +7,6 @@
 
 #define CMON "EVBIT_T 0x09"
 #define CMOF "EVBIT_F 0x09"
+
+//don't feel like dealign with world map events rn
+#define MoveToChapter(chapter) "MNC2 chapter"

@@ -265,7 +265,7 @@ LABEL 2
 TextNoBGNoREMA(Ch2_End5)
 REMA
 STAL 64
-MNC2 CHAPTER_Ch3
+MoveToChapter(CHAPTER_Ch3)
 ENDA
 
 ArmoryList:

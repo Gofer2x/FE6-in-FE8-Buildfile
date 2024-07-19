@@ -8,10 +8,10 @@
 	
 	#include "Engine Hacks/Master Hack Installer.event"
 	
+	#include "NewTables/Installer.event"
+	
 	#include "Misc/EditVanillaStatBoosts.event"
 	#include "Misc/EditItemEffects.event"
-	
-	#include "NewTables/Installer.event"
 	
 	#include "Text/Install Text Data.event"
 	
@@ -28,6 +28,7 @@
 	#include "Tables/External Tables Installer.event"
 	
 	#include "Events/Chapter Events Installer.event"
+	#include "Events/WMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"
 #else

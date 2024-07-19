@@ -40,10 +40,10 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0x0,BishopKidsEvent,2)
 TurnEventEnemy(0x0,ThroneRoomEvent,3)
-TurnEventEnemy(0x0,HardCavReinforcements,5)
-TurnEventPlayer(0x0,NormalCavReinforcements,8)
-TurnEventEnemy(0x0,HardCavReinforcements,10)
-TurnEventEnemy(0x0,HardCavReinforcements,15)
+TurnEventEnemy(0x0,LoadHardCavReinforcements,5)
+TurnEventPlayer(0x0,LoadNormalCavReinforcements,8)
+TurnEventEnemy(0x0,LoadHardCavReinforcements,10)
+TurnEventEnemy(0x0,LoadHardCavReinforcements,15)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -255,10 +255,10 @@ ENDA
 SouthVillageVisit:
 VillageEventItem(Ch3_MendHouse,BG_Village,Mend)
 
-NormalCavReinforcements:
+LoadNormalCavReinforcements:
 ReinforcementEvent(CavReinforcements)
 
-HardCavReinforcements:
+LoadHardCavReinforcements:
 HardReinforcementEvent(CavReinforcements)
 
 ChadLughTalk:
@@ -268,7 +268,7 @@ EndingScene:
 MUSC MUS_IntoTheShadowOfTriumph
 Text(BG_Castle1, Ch3_End)
 STAL 64
-MNC2 CHAPTER_Ch4
+MoveToChapter(CHAPTER_Ch4)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

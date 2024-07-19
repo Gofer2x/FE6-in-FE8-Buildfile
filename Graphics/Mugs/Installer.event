@@ -1,5 +1,3 @@
-// setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
-#define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"
-
+#include "NewPortraitTableInstaller.event"
 #include "MugsInstaller.event"
 #include "CardsInstaller.event"

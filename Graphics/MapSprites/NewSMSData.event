@@ -54,8 +54,7 @@ ALIGN 4
 DruidF_SMS_Data:
 #incbin "dmp/DruidF_SMS.dmp"
 
-MESSAGE Overwrite for Larummy
-
+#undef Dancer_SMS_Size
 #define Dancer_SMS_Size MapSprite16x16
 #undef Dancer_SMS_Data
 ALIGN 4
@@ -97,16 +96,16 @@ ALIGN 4
 DemonDragon_SMS_Data:
 #incbin "dmp/DemonDragon_SMS.dmp"
 
-MESSAGE Overwrites for iron ballista
-
-#undef MannedIronBallista_SMS_Data
+#undef MannedIronBallista_SMS_Size
 #define MannedIronBallista_SMS_Size MapSprite16x32
+#undef MannedIronBallista_SMS_Data
 ALIGN 4
 MannedIronBallista_SMS_Data:
 #incbin "dmp/MannedIronBallista_SMS.dmp"
 
-#undef UnmannedIronBallista_SMS_Data
+#undef UnmannedIronBallista_SMS_Size
 #define UnmannedIronBallista_SMS_Size MapSprite16x32
+#undef UnmannedIronBallista_SMS_Data
 ALIGN 4
 UnmannedIronBallista_SMS_Data:
 #incbin "dmp/UnmannedIronBallista_SMS.dmp"

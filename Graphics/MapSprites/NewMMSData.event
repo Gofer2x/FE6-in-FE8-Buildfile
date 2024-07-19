@@ -60,9 +60,9 @@ ALIGN 4
 DruidF_MMS_Data:
 #incbin "dmp/DruidF_MMS.dmp"
 
-MESSAGE Overwrite for Larummy 2
-#undef Dancer_MMS_Data
+#undef Dancer_MMS_AP
 #define Dancer_MMS_AP AP_61
+#undef Dancer_MMS_Data
 ALIGN 4
 Dancer_MMS_Data:
 #incbin "dmp/Dancer_MMS.dmp"
@@ -102,9 +102,8 @@ ALIGN 4
 DemonDragon_MMS_Data:
 #incbin "dmp/DemonDragon_MMS.dmp"
 
-MESSAGE Overwrites for iron ballista 2
-#undef MannedIronBallista_MMS_Data
 #define MannedIronBallista_SMS_AP AP_12
+#undef MannedIronBallista_MMS_Data
 ALIGN 4
 MannedIronBallista_MMS_Data:
 #incbin "dmp/MannedIronBallista_MMS.dmp"

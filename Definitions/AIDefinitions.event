@@ -88,7 +88,7 @@
 //RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
 //AI4_DoRetreat 0x0
 
-
+#undef BrigandAI
 #define BrigandAI [0x0, 0x4, 0x9, 0x0]
 //AI1_AttackInRange 0x0
 //AI2_PillageTreasureThenAttack 0x4

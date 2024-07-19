@@ -1,4 +1,3 @@
-MESSAGE Processing Map Sprites
 #include "Internals.event"
 
 #include "NewSMSData.event"

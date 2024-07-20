@@ -5,6 +5,7 @@
 #include "WeaponRanks.event"
 #include "FixSomeBattleSounds.event"
 #include "PortraitHeightFix.event"
+#include "AIChanges.event"
 
 
 

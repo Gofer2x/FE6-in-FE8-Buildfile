@@ -1,0 +1,26 @@
+//Not sure what the best way to do this is, so let's just be safe.
+
+#define ClarineByte 0x5A8A00
+PUSH
+ORG ClarineByte //overwrite natasha
+BYTE Clarine
+POP
+
+//Change AI1_7 to not attack Clarine
+PUSH
+ORG 0x5A8A0C
+POIN ClarineByte
+ORG 0xEFB2E0
+POP
+
+//Ditto with AI2_1
+PUSH
+ORG 0x5A84B8
+POIN ClarineByte
+POP
+
+//Ditto with AI2_7
+PUSH
+ORG 0x5A869C
+POIN ClarineByte
+POP

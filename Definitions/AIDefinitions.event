@@ -5,9 +5,7 @@
 #define AI1_AttackInPlace80 0x4
 #define AI1_AttackInPlace50 0x5
 #define AI1_None 0x6
-#define AI1_AttackInRangeNoNatasha 0x7
-#define AI1_AttackInRangeNoFCCitizen 0x8
-#define AI1_AttackInRangeNoUndefined 0x9
+#define AI1_AttackInRangeNoClarine 0x7
 
 #define AI1_AttackInHalfRange 0xC
 #define AI1_AttackInRangeOfCommander 0xD
@@ -18,11 +16,16 @@
 
 
 #define AI2_Pursue 0x0
+#define AI2_PurseNoClarine 0x1
 #define AI2_DontMove 0x3
 #define AI2_PillageTreasureThenAttack 0x4
 #define AI2_PillageTreasureThenEscape 0x5
-#define AI2_PurseWithinTwoMovements 0x6
+#define AI2_PursueWithinTwoMovements 0x6
+#define AI2_PursueWithinTwoMovementsNoClarine 0x7
 #define AI2_RandomMovement 0x9
+
+#define AI2_MoveTowardsRoy 0xA
+
 #define AI2_EscapeMap 0xC
 
 #define AI2_DelayedPillageTreasureThenAttack 0x11
@@ -70,7 +73,7 @@
 
 #define TwoMovesAI [0x0, 0x6, 0x9, 0x0]
 //AI1_AttackInRange 0x0
-//AI2_PurseWithinTwoMovements 0x6
+//AI2_PursueWithinTwoMovements 0x6
 //RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
 //AI4_DoRetreat 0x0
 
@@ -114,3 +117,31 @@
 //AI2_DontMove 0x3
 //RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
 //AI4_DoNotRetreat 0x20
+
+
+#define AggressiveAILaus [0x7, 0x1, 0x9, 0x0]
+//AI1_AttackInRangeNoClarine 0x7
+//AI2_PurseNoClarine 0x1
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define TwoMovesAILaus [0x7, 0x7, 0x9, 0x0]
+//AI1_AttackInRangeNoClarine 0x7
+//AI2_PursueWithinTwoMovementsNoClarine 0x7
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+
+#define InRangeAILaus [0x7, 0x3, 0x9, 0x0]
+//AI1_AttackInRangeNoClarine 0x7
+//AI2_DontMove 0x3
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+
+#define ClarineAI [0x6, 0xA, 0x9, 0x0]
+//AI1_None 0x6
+//AI2_MoveTowardsRoy 0xA
+//RIA_Recovery30To80 + TAI_LowHP 0x1 + 0x8 = 0x9
+//AI4_DoRetreat 0x0
+

@@ -104,7 +104,7 @@ UNIT Lot Fighter Roy Level(3,Ally,1) [24,8] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] 
 UNIT Shanna PegasusKnight Roy Level(2,Ally,1) [23,9] 0x0 0x0 0x0 0x0 [SlimLance, IronLance] DoNothingAI
 UNIT Elen Cleric Roy Level(3,Ally,1) [23,4] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] DoNothingAI
 UNIT Chad Thief Roy Level(1,Ally,1) [24,7] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DoNothingAI
-UNIT Lugh Mage Roy Level(2,Ally,1) [52,7] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] DoNothingAI
+UNIT Lugh Mage Roy Level(2,Ally,1) [22,7] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] DoNothingAI
 UNIT Merlinus Transporter Roy Level(1,Ally,1) [24,3] 0x0 0x0 0x0 0x0 [0x0] DoNothingAI
 UNIT
 
@@ -190,6 +190,7 @@ MUSI
 STAL 16
 Text(BG_Dungeon, Ch4_RutgerClarine1)
 MUNO
+NoFade
 ENDA
 
 RutgerClarine2:
@@ -201,6 +202,7 @@ LOAD1 0x1 JustClarine
 Text(Ch4_RutgerClarine3)
 MUNO
 ENUN
+NoFade
 ENDA
 
 PiratesAppear:
@@ -211,6 +213,7 @@ LoadReinforcements(PiratesFromForts)
 ENUN
 Text(Ch4_PiratesAppear)
 MUNO
+NoFade
 ENDA
 
 LoadPirateReinforcements:
@@ -231,6 +234,7 @@ MUSC MUS_DeerOfThePlains
 STAL 16
 Text(BG_Castle1, Ch4_RutgerWarning)
 LABEL 1
+NoFade
 ENDA
 
 RutgerAppears:
@@ -243,6 +247,7 @@ CMOF
 LoadReinforcements(RutgerSquad)
 Text(Ch4_RutgerAppears)
 LABEL 1
+NoFade
 ENDA
 
 ClarineRecruitsHerself:
@@ -250,6 +255,7 @@ MUSS MUS_JoinUs
 Text(BG_Outside, Ch4_ClarineRecruitsHerself)
 BecomeAlly(Clarine)
 MURE 0x5
+NoFade
 ENDA
 
 ClarineRecruitsRutger:
@@ -257,6 +263,7 @@ MUSS MUS_JoinUs
 Text(BG_Outside, Ch4_ClarineRecruitsRutger)
 BecomeAlly(Rutger)
 MURE 0x5
+NoFade
 ENDA
 
 BanditWarningHouseVisit:

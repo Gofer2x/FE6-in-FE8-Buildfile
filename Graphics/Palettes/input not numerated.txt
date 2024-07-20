@@ -1,197 +1,197 @@
-#char{1} "Roy_RoyLord" set{Roy, 1, RoyLord}
+#char{i} "Roy_RoyLord" set{Roy, 1, RoyLord}
 	5553FF7FFF6B3F4B91255A001F2052009877F36E2D56527FCD7E896D8654A514
 	
-#char{2} "Roy_RoyGreatLord" set{Roy, 3, RoyGreatLord}
+#char{i} "Roy_RoyGreatLord" set{Roy, 3, RoyGreatLord}
 	5553FF7FFF6B3F4B91255A001F2052009877F36E2D56527FCD7E896D8654A514
 
-#char{3} "Marcus_Paladin" set{Marcus, 3, Paladin}
+#char{i} "Marcus_Paladin" set{Marcus, 3, Paladin}
 	5553FF7FFF6F3C3BD131FF2FEE7E866D1877377AF0744C54BD7FD5660E4EA514
 
-#char{4} "Alen_Cavalier" set{Alen, 1, Cavalier}
+#char{i} "Alen_Cavalier" set{Alen, 1, Cavalier}
 	5553FF7FFF5B737FF431AA797C19F414DF1AFF0019002A001D4736324E1DA514
 
-#char{5} "Alen_Paladin" set{Alen, 3, Paladin}
+#char{i} "Alen_Paladin" set{Alen, 3, Paladin}
 	5553FF7FFF6FBE3AD131DF276C7E865DBF4A3C1DB910F118FB7FF2662C4EA514
 
-#char{6} "Lance_Cavalier" set{Lance, 1, Cavalier}
+#char{i} "Lance_Cavalier" set{Lance, 1, Cavalier}
 	5553FF7FFF5BB07FF431297AA94F292EE77F435781522A391D4736324E1DA514
 
-#char{7} "Lance_Paladin" set{Lance, 3, Paladin}
+#char{i} "Lance_Paladin" set{Lance, 3, Paladin}
 	5553FF7FFF6FBE3AD131DF27707E8669F26B2A57A146C245FB7FF2662C4EA514
 
-#char{8} "Wolt_Archer" set{Wolt, 1, Archer}
+#char{i} "Wolt_Archer" set{Wolt, 1, Archer}
 	5553FF7FFF6B1F4B2E19FB3BAA1F4906BF53DA3E777F7B7FB77E517D2954A514
 
-#char{9} "Wolt_Sniper" set{Wolt, 3, Sniper}
+#char{i} "Wolt_Sniper" set{Wolt, 3, Sniper}
 	5553FF7FFF6B1F4B2E19FB3BAA1F4906BC7BF662CB45597F307E4E712954A514
 
-#char{10} "Bors_Knight" set{Bors, 1, Knight}
+#char{i} "Bors_Knight" set{Bors, 1, Knight}
 	55532E359A2292151E2F3826BF4FE5173557FF4F7F43B32D5A32FF7FFE7BA514
 
-#char{11} "Bors_General" set{Bors, 3, General}
+#char{i} "Bors_General" set{Bors, 3, General}
 	5553DE7BDE037B3A6C7EE768EF04A90059676E5AAA415D471C2B771AB101A514
 
-#char{12} "Elen_Cleric" set{Elen, 1, Cleric}
+#char{i} "Elen_Cleric" set{Elen, 1, Cleric}
 	5553FF7FFF6B1F4B2E193F4F3D2E2E19FB3E352AD26AF57FA96B0A7EE760A514
 
-#char{13} "Elen_BishopF" set{Elen, 3, BishopF}
+#char{i} "Elen_BishopF" set{Elen, 3, BishopF}
 	5553FF7FFF6BBF222E19F92D2E19FF0BD509F26B036FEF77E672665A643DA514
 
-#char{14} "Dieck_Mercenary" set{Dieck, 1, Mercenary}
+#char{i} "Dieck_Mercenary" set{Dieck, 1, Mercenary}
 	5553FF7F455967724E5A9877E65FAB56F36E537FFF6B9E4B4F199C428431A514
 
-#char{15} "Dieck_Hero" set{Dieck, 3, Hero}
+#char{i} "Dieck_Hero" set{Dieck, 3, Hero}
 	5553FF7FFF6B1F4B7119E65FAB5684319877F36E4E5A117B286A88511A32A514
 
-#char{16} "Ward_Fighter" set{Ward, 1, Fighter}
+#char{i} "Ward_Fighter" set{Ward, 1, Fighter}
 	5553FF7FFF6B1D475A32D62194194F19B97B14736F5E701D037FE271404DA514
 
-#char{17} "Ward_Warrior" set{Ward, 3, Warrior}
+#char{i} "Ward_Warrior" set{Ward, 3, Warrior}
 	5553FF7FFF6BFF465A32D6212E197A6B987FD1660C521046037FE271404DA514
 
-#char{18} "Lot_Fighter" set{Lot, 1, Fighter}
+#char{i} "Lot_Fighter" set{Lot, 1, Fighter}
 	5553FF7FFF6B1D475A32D621FD115605B97B14736F5E701DF4522D3A8825A514
 
-#char{19} "Lot_Warrior" set{Lot, 3, Warrior}
+#char{i} "Lot_Warrior" set{Lot, 3, Warrior}
 	5553FF7FFF6BFF465A32D6212E197863987FD1660C520C361F37BB09F100A514
 
-#char{20} "Shanna_PegasusKnight" set{Shanna, 1, PegasusKnight}
+#char{i} "Shanna_PegasusKnight" set{Shanna, 1, PegasusKnight}
 	5553FF7F7021BF2EFF6BFF0F6B71CF7EC8106B7E656DF377896F086F4131A514
 
-#char{21} "Shanna_Falcoknight" set{Shanna, 3, Falcoknight}
+#char{i} "Shanna_Falcoknight" set{Shanna, 3, Falcoknight}
 	5553FF7F70219E36FF6BFF0F6B71CF7EC810507F656DF67F6E7FAE7E41546310
 
-#char{22} "Chad_Thief" set{Chad, 1, Thief}
+#char{i} "Chad_Thief" set{Chad, 1, Thief}
 	5553FF7FFF6BBF422E19DC373817ED01567B6F5E8841DA29127F0D72E85CA514
 
-#char{23} "Lugh_Mage" set{Lugh, 1, Mage}
+#char{i} "Lugh_Mage" set{Lugh, 1, Mage}
 	5553FF7FFF6B1F4B2E1938368E37691ED07F607F205EFF4BBD03FA024D01A514
 
-#char{24} "Lugh_Sage" set{Lugh, 3, Sage}
+#char{i} "Lugh_Sage" set{Lugh, 3, Sage}
 	5553FF7FFF6B1F4B2E19F2232A1F47168E77006FE055DE477B03D6024D01A514
 
-#char{25} "Clarine_Troubadour" set{Clarine, 1, Troubadour}
+#char{i} "Clarine_Troubadour" set{Clarine, 1, Troubadour}
 	5553FF7FFF6BFE3E501DFF07FF077A06DF7E7D75975CAC301A43552EEA14A514
 
-#char{26} "Clarine_Valkyrie" set{Clarine, 3, Valkyrie}
+#char{i} "Clarine_Valkyrie" set{Clarine, 3, Valkyrie}
 	5553FF7FDF57DD3A501DCA41FF077A061E7FBB7D35552B3CFA77336F0B41A514
 
-#char{27} "Rutger_Myrmidon" set{Rutger, 1, Myrmidon}
+#char{i} "Rutger_Myrmidon" set{Rutger, 1, Myrmidon}
 	5553FF7FFF6B1F4B2E19793ED3294E1D567B6F5ECA49DE2D38190B000800A514
 
-#char{28} "Rutger_Swordmaster" set{Rutger, 3, Swordmaster}
+#char{i} "Rutger_Swordmaster" set{Rutger, 3, Swordmaster}
 	5553FF7FDF57BC369125793ED3294E1DB57F8E66E951DE2D391992000800A514
 
-#char{29} "Saul_Priest" set{Saul, 1, Priest}
+#char{i} "Saul_Priest" set{Saul, 1, Priest}
 	5553FF7FFF6B1F4B2E19107FC879E758FB3E352AD26AF57FAD7F0A7EE760A514
 
-#char{30} "Saul_Bishop" set{Saul, 3, Bishop}
+#char{i} "Saul_Bishop" set{Saul, 3, Bishop}
 	5553FF7FFF6BBF222E19CF7E877DFF0BD509F26B036FB57B317E4D5DC834A514
 
-#char{31} "Dorothy_ArcherF" set{Dorothy, 1, ArcherF}
+#char{i} "Dorothy_ArcherF" set{Dorothy, 1, ArcherF}
 	5553FF7FFF6B1F4B2E191D3FF8017209BF53DA3E777F7F4BFF261F161201A514
 
-#char{32} "Dorothy_SniperF" set{Dorothy, 3, SniperF}
+#char{i} "Dorothy_SniperF" set{Dorothy, 3, SniperF}
 	5553FF7FFF6B1F4B2E191D3FF8017209937FE9728259BF4B9F26BA11AF00A514
 
-#char{33} "Sue_NomadF" set{Sue, 1, NomadF}
+#char{i} "Sue_NomadF" set{Sue, 1, NomadF}
 	5553FF7FDF57ED25DF1D1A00A502C101F07F0F7FA8798454193F5232B017A514
 
-#char{34} "Sue_NomadTrooperF" set{Sue, 3, NomadTrooperF}
+#char{i} "Sue_NomadTrooperF" set{Sue, 3, NomadTrooperF}
 	5553FF7FDF1DDD3AD5111A004E2B270EF07F0F7FA8798454BE37971E0E15A514
 
-#char{35} "Zelot_Paladin" set{Zelot, 3, Paladin}
+#char{i} "Zelot_Paladin" set{Zelot, 3, Paladin}
 	5553FF7FFF6FDA2ED131DF432B7E445DFD7F387B10762B49FB7FF266EB49A514
 
-#char{36} "Trec_Cavalier" set{Trec, 1, Cavalier}
+#char{i} "Trec_Cavalier" set{Trec, 1, Cavalier}
 	5553FF7FFF5BB07FF431297A593B312A577FAE7ECA65E6481D4736324E1DA514
 
-#char{37} "Trec_Paladin" set{Trec, 3, Paladin}
+#char{i} "Trec_Paladin" set{Trec, 3, Paladin}
 	5553FF7FFF6FFA2ED131DF434B760261377FB17A6B71A848FB7FF2662C4EA514
 
-#char{38} "Noah_Cavalier" set{Noah, 1, Cavalier}
+#char{i} "Noah_Cavalier" set{Noah, 1, Cavalier}
 	5553FF7FFF5BB07FF431297AD8594F35577FAE7ECA65E6481D4736324E1DA514
 
-#char{39} "Noah_Paladin" set{Noah, 3, Paladin}
+#char{i} "Noah_Paladin" set{Noah, 3, Paladin}
 	5553FF7FFF6FBE3AD131DF27EC7D6759377FB17A6B71A848BE7FB66AF051A614
 
-#char{40} "Astolfo_Thief" set{Astolfo, 1, Thief}
+#char{i} "Astolfo_Thief" set{Astolfo, 1, Thief}
 	5553FF7FFF6BDC422E195F6E9B71B54C567B6F5E8841D829B84AD1350A1DA514
 
-#char{41} "Lilina_MageF" set{Lilina, 1, MageF}
+#char{i} "Lilina_MageF" set{Lilina, 1, MageF}
 	5553FF7FFF6B1F4B2E19557F8E7E6B699F4E5F117304F57FAD7F2B7EE760A514
 
-#char{42} "Lilina_SageF" set{Lilina, 3, SageF}
+#char{i} "Lilina_SageF" set{Lilina, 3, SageF}
 	5553FF7FFF6BBE462E19557F8E7E6B697F4EFD107304F57FAD7F2B7EA558A514
 
-#char{43} "Barthe_Knight" set{Barthe, 1, Knight}
+#char{i} "Barthe_Knight" set{Barthe, 1, Knight}
 	55536359227626564A7BCA5AEC77E517E517BB6F7F43D3297B36FF7FFE7BA514
 
-#char{44} "Barthe_General" set{Barthe, 3, General}
+#char{i} "Barthe_General" set{Barthe, 3, General}
 	5553DE7BBC43DA3A6A656444EF04A90059676E5AAA41B16F687365668145A514
 
-#char{45} "Ogier_Mercenary" set{Ogier, 1, Mercenary}
+#char{i} "Ogier_Mercenary" set{Ogier, 1, Mercenary}
 	5553FF7F8F19B4020C5298772B7E2669F36E593FFF6B9E4B4F199B42A550A514
 
-#char{46} "Ogier_Hero" set{Ogier, 3, Hero}
+#char{i} "Ogier_Hero" set{Ogier, 3, Hero}
 	5553FF7FFF6B1F4B7119107FC879E7589877F36E4E5ADC47180B2F1A1A32A514
 
-#char{47} "Gwendolyn_KnightF" set{Gwendolyn, 1, KnightF}
+#char{i} "Gwendolyn_KnightF" set{Gwendolyn, 1, KnightF}
 	5553321D7B29B6157F4257265F63E517E517BB6F7F43D3295A32FF7FFE7BA514
 
-#char{48} "Gwendolyn_GeneralF" set{Gwendolyn, 3, GeneralF}
+#char{i} "Gwendolyn_GeneralF" set{Gwendolyn, 3, GeneralF}
 	5553FF7FBD63194B4C7E0571D135A51459676E5AAA417F679F4A7B29131DA514
 
-#char{49} "Fir_MyrmidonF" set{Fir, 1, MyrmidonF}
+#char{i} "Fir_MyrmidonF" set{Fir, 1, MyrmidonF}
 	5553FF7FFF6B1F4B2E19B552CE354A21567B6F5ECA49FB77A2572153E039A514
 
-#char{50} "Fir_SwordmasterF" set{Fir, 3, SwordmasterF}
+#char{i} "Fir_SwordmasterF" set{Fir, 3, SwordmasterF}
 	5553FF7FDF57BC369125B552CE354A21767F6F5ECA49F46BC167E05A0029A514
 
-#char{51} "Sin_Nomad" set{Sin, 1, Nomad}
+#char{i} "Sin_Nomad" set{Sin, 1, Nomad}
 	5553FF7FDF57DD3A903BAC1E0E2A671DF07F0F7FA8798454193F52328311A514
 
-#char{52} "Sin_NomadTrooper" set{Sin, 3, NomadTrooper}
+#char{i} "Sin_NomadTrooper" set{Sin, 3, NomadTrooper}
 	5553FF7F2803DD3AD5116002102BC91DF07F0F7FA8798454BE37971E0E15A514
 
-#char{53} "Geese_Pirate" set{Geese, 1, Pirate}
+#char{i} "Geese_Pirate" set{Geese, 1, Pirate}
 	5553FF7FFF6B1D47382EB3210D2151739877F36E4E5A517350720969A544A514
 
-#char{54} "Geese_Berserker" set{Geese, 3, Berserker}
+#char{i} "Geese_Berserker" set{Geese, 3, Berserker}
 	5553FF7FFF6B1D47392EB51D2E19F65A9877F36E2D56FF07D47E2F6E6951A514
 
-#char{55} "Gonzalez_Brigand" set{Gonzalez, 1, Brigand}
+#char{i} "Gonzalez_Brigand" set{Gonzalez, 1, Brigand}
 	5553FF7FFF6B1D475A32D621B72AD105B97B14736F5E2E19D77EB3794E64A514
 
-#char{56} "Gonzalez_Berserker" set{Gonzalez, 3, Berserker}
+#char{i} "Gonzalez_Berserker" set{Gonzalez, 3, Berserker}
 	5553FF7FFF6B1D47392EB51D2E19F65A9877F36E2D56FF07D77EB3794E64A514
 
-#char{57} "Klein_Sniper" set{Klein, 3, Sniper}
+#char{i} "Klein_Sniper" set{Klein, 3, Sniper}
 	5553FF7FFF6B1F4B2E19FF071D03D401BC7BF662CB453B7F177EB05D6940A514
 
-#char{58} "Thea_PegasusKnight" set{Thea, 1, PegasusKnight}
+#char{i} "Thea_PegasusKnight" set{Thea, 1, PegasusKnight}
 	5553FF7F7021BF2EFF6BFF0FE35AA67BC8106B7E656DF377896F086F4131A514
 
-#char{59} "Thea_Falcoknight" set{Thea, 3, Falcoknight}
+#char{i} "Thea_Falcoknight" set{Thea, 3, Falcoknight}
 	5553FF7F70219E36FF6BFF0FE35AA67BC810507F656DF67F6E7FAE7E41546310
 
-#char{60} "Larum_Dancer" set{Larum, 1, Dancer}
+#char{i} "Larum_Dancer" set{Larum, 1, Dancer}
 	5553FF7FFF6B1F4B2E197F337F2258053F7F9B7A4E45FF07F3534C470126A514
 
-#char{61} "Elffin_Bard" set{Elffin, 1, Bard}
+#char{i} "Elffin_Bard" set{Elffin, 1, Bard}
 	5553FF7FFF6B1F4B2E199747D3360E221A3B551AD109F57F487F65664041A514
 
-#char{62} "Echidna_HeroF" set{Echidna, 3, HeroF}
+#char{i} "Echidna_HeroF" set{Echidna, 3, HeroF}
 	5553FF7FFF6B1F4B7119B77FF16EE9519877F36E4E5AED6F095F484E1A32A514
 
-#char{63} "Bartre_Warrior" set{Bartre, 3, Warrior}
+#char{i} "Bartre_Warrior" set{Bartre, 3, Warrior}
 	5553FF7FFF6BFF465A32D6212E197A6B987FD1660C521046B16FE95AC03DA514
 
-#char{64} "Raigh_Shaman" set{Raigh, 1, Shaman}
+#char{i} "Raigh_Shaman" set{Raigh, 1, Shaman}
 	5553FF7FFF6B1F4B2E19DF1FBF1E3105F823101F28095675D2644E540738A514
 
-#char{65} "Raigh_Druid" set{Raigh, 3, Druid}
+#char{i} "Raigh_Druid" set{Raigh, 3, Druid}
 	765EFF7FFF6B1F4B2E19F5338D0B8902737F2E7EA9500F7A89590749C738A514
 
-#char{66} "Cath_ThiefF" set{Cath, 1, ThiefF}
+#char{i} "Cath_ThiefF" set{Cath, 1, ThiefF}
 	5553FF7FFF6B1F4B2E193F2B3F1A5805567B6F5E8841373AB05FE04E2036A514

@@ -87,14 +87,13 @@ VillageEventMoney(textID,background,money)
 HouseEvent(textID,background)
 ConvoEvent(textID)
 
-
 LoadReinforcements(unitPtr)
 ReinforcementEvent(unitPtr)
 GiveMoney(amount)
 	
 MoveByCoords(speed, srcX, srcY, destX, destY)
 
-
+AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)
 	
 LOAD1 commands are generally used for loading units who are actively involved in gameplay. It’s used for loading player units who join the party, and enemy/NPC units who start on the map. The primary LOAD1 command is “Load units and move. If player unit, join party (LOAD1+ENUN)”.
 

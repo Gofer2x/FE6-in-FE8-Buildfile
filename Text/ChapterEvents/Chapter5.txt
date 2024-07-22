@@ -21,7 +21,7 @@ battered soldiers.[AN]
 valuables on them too![AN]
 Still, don't get careless.[AN][Clear]
 Ready then? Let's mop up[N]
-these losers, boys![AN]
+these losers, boys![AN][X]
 
 
 
@@ -68,7 +68,7 @@ opened when you approach.[AN][ClearFace]
 [OpenMidRight]Merlinus! We're going to the[N]
 castle to drive off the bandits![AN][SendToBack]
 [OpenFarLeft]Sigh... Youthful energy.[N]
-Where does it come from?[AN]
+Where does it come from?[AN][X]
 
 
 
@@ -123,7 +123,7 @@ Dorothy?[AN]
 Guinivere is said to be so beautiful.[AN]
 [OpenMidRight][FastPrint][ToggleSmile]Don't be ridiculous...[N]
 Come now, hurry along.[AN]
-[OpenLeft][NormalPrint]Yes, let's go![AN]
+[OpenLeft][NormalPrint]Yes, let's go![AN][X]
 
 
 
@@ -131,7 +131,7 @@ Come now, hurry along.[AN]
 
 ## Ch5_GateOpens
 [OpenMidRight][LoadVillager11]Oh, I heard you were coming.[N]
-I'll open the gate now.[AN]
+I'll open the gate now.[AN][X]
 
 
 
@@ -141,7 +141,7 @@ I'll open the gate now.[AN]
 [OpenMidRight][LoadDory][ToggleSmile]What?[N]
 There was a gate there?[AN]
 Cunning little[N]
-weaklings...[AN]
+weaklings...[AN][X]
 
 
 
@@ -154,7 +154,7 @@ take this lance with you.[AN]
 It was once wielded by a[N]
 knight called Sir Gant.[AN]
 The stories say he bested many[N]
-a foe with this lance![AN]
+a foe with this lance![AN][X]
 
 
 
@@ -164,7 +164,7 @@ a foe with this lance![AN]
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
 If you can, try to occupy forts![AN]
 That'll stop enemy reinforcements[N]
-from showing up![AN]
+from showing up![AN][X]
 
 
 
@@ -179,7 +179,7 @@ terrifying enough...[AN]
 But then a dragon engulfed the[N]
 Lycian Army in flame...[AN]
 Oh Elimine, please tell me[N]
-it was a dream...[AN]
+it was a dream...[AN][X]
 
 
 
@@ -192,7 +192,7 @@ it was a dream...[AN]
 bandits. It's no wonder they appeared.[AN]
 They can cross mountains and a bandit on[N]
 a peak is a force to be reckoned with.[AN]
-Dreadful. Just dreadful...[AN]
+Dreadful. Just dreadful...[AN][X]
 
 
 
@@ -234,7 +234,7 @@ You have it with you,[N]
 do you not?[AN]
 [OpenFarRight][FastPrint]
 [ToggleSmile]How did you know that?![AN]
-[OpenMidLeft][CloseSpeechFast][ToggleSmile]Bern's head church tells us the Fire Emblem
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Bern's head church tells us the Fire Emblem[N]
 disappeared from the Shrine of Seals.[AN]
 And you also went missing at exactly the[N]
 same time.[AN]
@@ -272,4 +272,4 @@ you on your journey.[AN]
 [OpenFarRight][NormalPrint]If Roy allows it.[AN]
 [OpenRight]I have no objections.[AN]
 [OpenFarRight][ClearFace][OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere]Thank you, Roy.[AN]
-[OpenRight]Of course, Princess.[AN]
+[OpenRight]Of course, Princess.[AN][X]

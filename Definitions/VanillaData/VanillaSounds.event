@@ -72,33 +72,28 @@
 
 #define SND_VillageDestruction 0xAB
 
-PUSH //setting laughter to map bgm so febuilder stops complaining
-ORG $2245C0
-BYTE  $D4 $6B $56 $08 $01 $00 $01 $00;
-POP
-
 
 
 
 #define MUS_FireEmblemTheme 0x2A //main menu
 #define MUS_DeerOfThePlains MUS_ShadowOfTheEnemy //enemy phase 1
-#define MUS_WildFrontier 0x2A //enemy phase 2
-#define MUS_DistantLands 0x2A //enemy phase 3
-#define MUS_TheKingdomOfBern 0x2A //enemy phase 4
-#define MUS_DragonSanctuary 0x2A //enemy phase 5
-#define MUS_LegendaryInheritance 0x2A //enemy phase gaiden
-#define MUS_DisquietingSteps 0x2A //enemy phase trial
-#define MUS_MessengerFromTheDarkness 0x2A //enemy phase fow
+#define MUS_WildFrontier MUS_Assault //enemy phase 2
+#define MUS_DistantLands MUS_Assault //enemy phase 3
+#define MUS_TheKingdomOfBern MUS_FromTheDarkness //enemy phase 4
+#define MUS_DragonSanctuary MUS_TwistedShadowsA //enemy phase 5
+#define MUS_LegendaryInheritance MUS_ShadowOfTheEnemy //enemy phase gaiden
+#define MUS_DisquietingSteps MUS_ShadowOfTheEnemy //enemy phase trial
+#define MUS_MessengerFromTheDarkness MUS_EnvoyFromTheDark //enemy phase fow
 #define MUS_BeyondDistantSkies MUS_DistantRoads //player phase 1
-#define MUS_OneWill 0x2A //player phase 2
-#define MUS_BeholdingNaturesBeauty 0x2A //player phase 3
-#define MUS_BeneathANewLight 0x2A //player phase 4
-#define MUS_ThePathToGreatness 0x2A //player phase 5
-#define MUS_ScarsOfTheScouring 0x2A //player phase gaiden
-#define MUS_MarchToDeliverance 0x2A //player phase trial
-#define MUS_ShadowApproaches 0x2A //player phase fow
+#define MUS_OneWill MUS_DistantRoads //player phase 2
+#define MUS_BeholdingNaturesBeauty MUS_DistantRoads //player phase 3
+#define MUS_BeneathANewLight MUS_DistantRoads //player phase 4
+#define MUS_ThePathToGreatness MUS_DistantRoads //player phase 5
+#define MUS_ScarsOfTheScouring MUS_DistantRoads //player phase gaiden
+#define MUS_MarchToDeliverance MUS_DistantRoads //player phase trial
+#define MUS_ShadowApproaches MUS_DistantRoads //player phase fow
 #define MUS_BindingTies 0x2A //allied unit theme
-#define MUS_WinningRoad 0x2A //near victory theme
+#define MUS_WinningRoad MUS_GraspAtVictory //near victory theme
 #define MUS_PoemOfTheSoftWind 0x2A //elphin play track
 #define MUS_AtTheFinalDragon 0x2A //jahn theme
 #define MUS_BattleForTomorrow MUS_TheBattleMustBeWon //boss theme

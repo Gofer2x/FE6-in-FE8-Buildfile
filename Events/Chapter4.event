@@ -4,6 +4,12 @@
 #include EAstdlib.event
 
 //Tile Changes
+//SouthVillageDestroyed 0x0
+//NorthVillageDestroyed 0x1
+//NorthEastVillageDestroyed 0x2
+//SouthVillageVisited 0x3
+//NorthVillageVisited 0x4 
+//NorthEastVillageVisited 0x05
 
 //Flags/EventIDs
 //#define BossQuoteFlag 0x1
@@ -63,15 +69,6 @@ House(0x0,ReaverHouseVisit,9,5)
 Seize(3,8)
 END_MAIN
 
-DoorKeyVillageVisit:
-VillageEventItem(Ch4_DoorKeyVillage,BG_Village,DoorKey)
-
-SteelBladeVillageVisit:
-VillageEventItem(Ch4_SteelBladeVillage,BG_Village,SteelBlade)
-
-AngelicRobeVillageVisit:
-VillageEventItem(Ch4_AngelicRobeVillage,BG_Village,AngelicRobe)
-
 MiscBasedEvents:
 CauseGameOverIfLordDies
 END_MAIN
@@ -93,7 +90,7 @@ UNIT
 
 Units:
 UNIT Roy RoyLord 0x0 Level(3,Ally,1) [23,3] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Vulnerary] DoNothingAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,1) [22,3] 0x0 0x0 0x0 0x0 [SilverLance, IronLance] DoNothingAI
+UNIT Marcus Paladin Roy Level(2,Ally,1) [22,3] 0x0 0x0 0x0 0x0 [SilverLance, IronLance] DoNothingAI
 UNIT Alen Cavalier Roy Level(5,Ally,1) [21,2] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
 UNIT Lance Cavalier Roy Level(3,Ally,1) [21,4] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DoNothingAI
 UNIT Bors Knight Roy Level(4,Ally,1) [20,3] 0x0 0x0 0x0 0x0 [IronLance, Javelin] DoNothingAI
@@ -140,8 +137,8 @@ UNIT Rutger Myrmidon Erik Level(4,Enemy,0) [3,9] 0x0 0x0 0x1 REDA_6_8 [KillingEd
 UNIT
 
 PiratesFromForts:
-UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [29,15] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAINoRecover
-UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [HandAxe] BrigandAINoRecover
+UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [29,15] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAINoRecovery
+UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [HandAxe] BrigandAINoRecovery
 UNIT
 
 CavsFromTheBack:
@@ -265,6 +262,15 @@ BecomeAlly(Rutger)
 MURE 0x5
 NoFade
 ENDA
+
+DoorKeyVillageVisit:
+VillageEventItem(Ch4_DoorKeyVillage,BG_Village,DoorKey)
+
+SteelBladeVillageVisit:
+VillageEventItem(Ch4_SteelBladeVillage,BG_Village,SteelBlade)
+
+AngelicRobeVillageVisit:
+VillageEventItem(Ch4_AngelicRobeVillage,BG_Village,AngelicRobe)
 
 BanditWarningHouseVisit:
 HouseEvent(Ch4_BanditWarningHouse,BG_House)

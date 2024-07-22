@@ -3,6 +3,7 @@
 #include "ClassHardcoding.event"
 #include "CharacterHardcoding.event"
 #include "WeaponRanks.event"
+#include "WeaponTriangle.event"
 #include "FixSomeBattleSounds.event"
 #include "PortraitHeightFix.event"
 #include "AIChanges.event"

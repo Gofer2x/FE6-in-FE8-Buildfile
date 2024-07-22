@@ -5,8 +5,12 @@
 #define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
 #define HardReinforcementEvent(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C; EVBIT_T 0x7; ENDA"
 
+#define AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)   "AREA eventID EventPointer [corner1x,corner1y] [corner2x,corner2y]" 
+
 #define CMON "EVBIT_T 0x09"
 #define CMOF "EVBIT_F 0x09"
+
+#define PlayerInRange "SVAL s2 0 ; CALL 0x89EE1B8"
 
 //don't feel like dealign with world map events rn
 #define MoveToChapter(chapter) "MNC2 chapter"

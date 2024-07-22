@@ -872,3 +872,13 @@
 #define Ch4_LausNomadsHouse 0x10ad
 #define Ch4_ReaverHouse 0x10ae
 #define Ch4_End 0x10af
+#define Ch5_Start1 0x10b0
+#define Ch5_Start2 0x10b1
+#define Ch5_DorothySaulYoderCutscene 0x10b2
+#define Ch5_GateOpens 0x10b3
+#define Ch5_BossAngryAtGate 0x10b4
+#define Ch5_GantsLanceVillage 0x10b5
+#define Ch5_FortsHouse 0x10b6
+#define Ch5_AraphenDragonHouse 0x10b7
+#define Ch5_BrigandsMountainsHouse 0x10b8
+#define Ch5_End 0x10b9

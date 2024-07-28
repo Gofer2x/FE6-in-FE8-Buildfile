@@ -72,7 +72,7 @@ UNIT
 
 CeciliaAndGuinivere:
 UNIT Cecilia Valkyrie 0x0 Level(1,Ally,0) [19,16] 0x0 0x0 0x0 0x0 [Aircalibur, Mend] DoNothingAI
-UNIT Guinivere Sage 0x0 Level (20,Ally,0) [18,16] 0x0 0x0 0x0 0x0 [Divine, Recover] DoNothingAI
+UNIT GuinivereTrial Sage 0x0 Level(20,Ally,0) [18,16] 0x0 0x0 0x0 0x0 [Divine, Recover] DoNothingAI
 UNIT
 
 Enemies:

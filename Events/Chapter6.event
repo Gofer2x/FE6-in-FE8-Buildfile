@@ -3,15 +3,36 @@
 
 #include EAstdlib.event
 
+
 //Tile Changes
+//SouthmostWestRoomOpened 0x0
+//SouthWestRoomOpened 0x1
+//NorthWestRoomOpened 0x2
+//NorthmostWestRoomOpened 0x3
+//NorthmostWestRoomBottomDoorOpened 0x4
+//NorthmostEastRoomBottomDoorOpened 0x5
+//NorthmostEastRoomOpened 0x6
+//NorthEastRoomOpened 0x7
+//SouthEastRoomOpened 0x8
+//SouthmostEastRoomOpened 0x9
+//SouthWestRoomBottomChestOpened 0xA
+//SouthWestRoomTopChestOpened 0xB
+//NorthmostWestRoomChestOpened 0xC
+//NorthEastRoomTopChestOpened 0xD
+//NorthEastRoomMiddleChestOpened 0xE
+//NorthEastRoomBottomChestOpened 0xF
+//SouthEastRoomTopChestOpened 0x10
+//SouthEastRoomBottomChestOpened 0x11
 
 //Flags/EventIDs
-//#define BossQuoteFlag 0x1
-//#define BossDefeatFlag 0x2
-//#define SeizeFlag 0x3
-//#define SecondBGMFlag 0x4
+//BossQuoteFlag 0x1
+//BossDefeatFlag 0x2
+//SeizeFlag 0x3
+//SecondBGMFlag 0x4
 // 0x5
-//#define RoutFlag 0x6
+//RoutFlag 0x6
+#define Ch6_RoySueTalkFlag 0x7
+#define Ch6_RoyCathTalkFlag 0x8
 
 EventPointerTable(EVENTS_Ch6,ThisChapter)
 
@@ -30,16 +51,45 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+//turn 1 enemy phase sue cutscne
+//turn 5 cath
+//turn 8, 12, 16 hard mode throne room reinforcements
+//turn 1-255, enemies from south once no player units in bottom half of map
+//turn 1-255, enemies from southmost east room 3 turns after open (not ambush)
+//turn 1-255, enemies from southmost west room 3 turns after open (not ambush)
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+//roy talks to cath
+//roy talks to sue
 END_MAIN
 
 LocationBasedEvents:
+//short bow chest x22 y8
+//goddess icon chest x23 y9
+//killer axe chest x22 y10
+//2000 gold chest x23 y13
+//silver lance chest x22 y15
+//unlock chest x3 y3
+//5000 gold chest x2 y13
+//3000 gold chest x2 y15
+//door x5 y14
+//door x5 y9
+//door x20 y9
+//door x20 y14
+//door x7 y17, southmost west room so flag
+//door x19 y17, southmost east room so flag
+//"door" x8 y4, northmost west room side entrance
+//"door" x6 y6, northmost west room bottom entrance
+//"door" x19 y6, northmost east room bottom entrance
+//"door" x16 y4, northmost east room side entrance
+//seize x12 y1
 END_MAIN
 
 MiscBasedEvents:
+//check for player units in bottom half and do the reinforcement thing
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -55,12 +105,86 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(8,Ally,1) [12,20] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Armorslayer] DoNothingAI
+UNIT Chad Thief Roy Level(2,Ally,1) [11,19] 0x0 0x0 0x1 REDA_12_19 [IronSword, SlimSword, Lockpick] DoNothingAI
+UNIT Lance Cavalier Roy Level(7,Ally,1) [13,19] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DoNothingAI
+UNIT Bors Knight Roy Level(7,Ally,1) [14,20] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DoNothingAI
+UNIT Wolt Archer Roy Level(8,Ally,1) [13,20] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary, Vulnerary] DoNothingAI
+UNIT Dieck Mercenary Roy Level(8,Ally,1) [11,20] 0x0 0x0 0x0 0x0 [IronSword, IronBlade, Vulnerary] DoNothingAI
+UNIT Rutger Myrmidon Roy Level(6,Ally,1) [14,21] 0x0 0x0 0x0 0x0 [IronSword, KillingEdge] DoNothingAI
+UNIT Alen Cavalier Roy Level(6,Ally,1) [11,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Vulnerary] DoNothingAI
+UNIT Clarine Troubadour Roy Level(2,Ally,1) [12,22] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] DoNothingAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [13,22] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DoNothingAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Wagner Shaman 0x0 Level(9,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [Flux] BossAI
+UNIT GenericThria Knight Wagner Level(8,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronLance, Javelin] StationaryAI
+UNIT GenericThria Knight Wagner Level(7,Enemy,1) [13,1] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] StationaryAI
+UNIT GenericThria Mage Wagner Level(7,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Thunder] StationaryAI
+UNIT GenericThria Knight Wagner Level(7,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [SteelLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(10,Enemy,1) [13,7] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [6,9] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [19,9] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] AggressiveAI
+UNIT GenericThria Mage Wagner Level(3,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [SteelLance] TwoMovesAI
+UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [IronSword] InRangeAI
+UNIT GenericThria Soldier Wagner Level(7,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [Javelin] TwoMovesAI
+UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [IronSword] InRangeAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] InRangeAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] InRangeAI
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [6,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] InRangeAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [Thunder] InRangeAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [18,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [Fire] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT Sue NomadF Roy Level(1,NPC,0) [2,9] 0x0 0x0 0x0 0x0 [0x0] DoNothingAI
+UNIT
+
+JustCath:
+UNIT Cath ThiefF 0x0 Level(1,Enemy,0) [17,23] 0x0 0x0 0x0 0x0 [0x0] ThiefAI
+
+SouthWestStairsEnemies:
+UNIT GenericThria Knight Wagner Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] InRangeAI
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_18 [SteelBow] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_20 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_20 [IronLance] AggressiveAI
+UNIT 
+
+SouthEastStairsEnemies:
+UNIT GenericThria Knight Wagner Level(6,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_18 [SteelLance] AggressiveAI
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_18 [SteelBow] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_20 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_20 [IronLance] AggressiveAI
+UNIT
+
+ThroneRoomReinforcements1:
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelBow] AggressiveAI
+UNIT GenericThria Archer Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [IronBow] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
+UNIT
+
+ThroneRoomReinforcements2:
+UNIT GenericThria Mage Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [Fire] AggressiveAI
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [Thunder] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
+UNIT
+
+ThroneRoomReinforcements3:
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [SteelLance, Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
 UNIT
 
 ALIGN 4

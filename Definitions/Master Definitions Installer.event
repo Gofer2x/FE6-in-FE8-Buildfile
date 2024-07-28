@@ -4,6 +4,7 @@
 #include "IDs/CharacterIDs.event"
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"
+#include "IDs/EventFlags.event"
 
 #include "VanillaData/VanillaClassCards.event"
 #include "VanillaData/VanillaMovementDataPointers.event"

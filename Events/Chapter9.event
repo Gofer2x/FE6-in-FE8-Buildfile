@@ -6,12 +6,12 @@
 //Tile Changes
 
 //Flags/EventIDs
-//#define BossQuoteFlag 0x1
-//#define BossDefeatFlag 0x2
-//#define SeizeFlag 0x3
-//#define SecondBGMFlag 0x4
+//BossQuoteFlag 0x1
+//BossDefeatFlag 0x2
+//SeizeFlag 0x3
+//SecondBGMFlag 0x4
 // 0x5
-//#define RoutFlag 0x6
+//RoutFlag 0x6
 
 EventPointerTable(EVENTS_Ch9,ThisChapter)
 
@@ -55,12 +55,33 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(8,Ally,1) [19,13] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] DoNothingAI
+UNIT Marcus Paladin Roy Level(4,Ally,1) [18,12] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] DoNothingAI
+UNIT Lance Cavalier Roy Level(9,Ally,1) [20,12] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DoNothingAI
+UNIT Bors Knight Roy Level(5,Ally,1) [17,13] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DoNothingAI
+UNIT Dorothy ArcherF Roy Level(7,Ally,1) [18,13] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, Vulnerary, SteelBow] DoNothingAI
+UNIT Dieck Mercenary Roy Level(11,Ally,1) [20,13] 0x0 0x0 0x0 0x0 [IronBlade, IronSword, Armorslayer, SteelSword] DoNothingAI
+UNIT Ward Fighter Roy Level(7,Ally,1) [21,13] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe, SteelAxe] DoNothingAI
+UNIT Shanna PegasusKnight Roy Level(8,Ally,1) [17,14] 0x0 0x0 0x0 0x0 [SlimLance, Javelin, Vulnerary] DoNothingAI
+UNIT Elen Cleric Roy Level(10,Ally,1) [18,14] 0x0 0x0 0x0 0x0 [Heal, Unlock, Restore, Vulnerary] DoNothingAI
+UNIT Noah Cavalier Roy Level(5,Ally,1) [18,15] 0x0 0x0 0x0 0x0 [IronSword, SteelLance, Javelin] DoNothingAI
+UNIT Lugh Mage Roy Level(5,Ally,1) [20,14] 0x0 0x0 0x0 0x0 [Fire, Thunder, Vulnerary] DoNothingAI
+UNIT Sue NomadF Roy Level(6,Ally,1) [21,14] 0x0 0x0 0x0 0x0 [IronBow, Torch, Longbow, Antitoxin] DoNothingAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [20,15] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DoNothingAI
+UNIT
+
+CeciliaAndGuinivere:
+UNIT Cecilia Valkyrie 0x0 Level(1,Ally,0) [19,16] 0x0 0x0 0x0 0x0 [Aircalibur, Mend] DoNothingAI
+UNIT Guinivere Sage 0x0 Level (20,Ally,0) [18,16] 0x0 0x0 0x0 0x0 [Divine, Recover] DoNothingAI
 UNIT
 
 Enemies:
 UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT
+
+FirAndSin:
+UNIT Fir Myrmidon Scott Level(1,Enemy,0) [0,10] 0x0 0x0 0x1 REDA_1_10 [WoDao, Vulnerary] AggressiveAI
+UNIT Sin Nomad Scott Level(6,Enemy,0) [0,5] 0x0 0x0 0x1 REDA_0_7 [ShortBow] AggressiveAI
 UNIT
 
 ALIGN 4

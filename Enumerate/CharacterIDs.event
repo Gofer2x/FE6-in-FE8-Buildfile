@@ -127,3 +127,7 @@
 #define GenericBern 0x7F
 #define GenericLaus 0x80
 #define GenericPirate 0x81
+#define GenericThria 0x82
+#define GenericRebel 0x83
+#define GenericThief 0x84
+#define GenericBanditCh8x 0x85

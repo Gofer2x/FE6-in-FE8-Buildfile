@@ -4,14 +4,34 @@
 #include EAstdlib.event
 
 //Tile Changes
+//LeftTreasureRoomChest1Opened 0x0
+//LeftTreasureRoomChest2Opened 0x1
+//LeftTreasureRoomChest3Opened 0x2
+//LeftTreasureRoomChest4Opened 0x3
+//RightTreasureRoomChest1Opened 0x4
+//RightTreasureRoomChest3Opened 0x5
+//RightTreasureRoomChest2Opened 0x6
+//RightTreasureRoomChest4Opened 0x7
+//LeftTreasureRoomDoorOpened 0x8
+//NorthWestWallBroken 0x9
+//RightTreasureRoomLeftDoorOpened 0xA
+//RightTreasureRoomRightDoorOpened 0xB
+//LilinaRoomDoorOpened 0xC
+//LilinaRoomWallBroken 0xD
 
 //Flags/EventIDs
-//#define BossQuoteFlag 0x1
-//#define BossDefeatFlag 0x2
-//#define SeizeFlag 0x3
-//#define SecondBGMFlag 0x4
+//BossQuoteFlag 0x1
+//BossDefeatFlag 0x2
+//SeizeFlag 0x3
+//SecondBGMFlag 0x4
 // 0x5
-//#define RoutFlag 0x6
+//RoutFlag 0x6
+#define Ch8_LilinaRoyTalkFlag 0x7
+#define Ch8_BorsGwendolynTalkFlag 0x8
+#define Ch8_LilinaBorsTalkFlag 0x9
+#define Ch8_LilinaBartheTalkFlag 0xA
+#define Ch8_RoyCathTalkFlag 0xB
+
 
 EventPointerTable(EVENTS_Ch8,ThisChapter)
 
@@ -30,6 +50,13 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+//lilina in her cell, enemy phase
+//turn 6, scrub squad appears on player turn
+//turn 10, cath and thief appear (if cath alive)
+//turn 15-16 hard mode reinforcements from scrub corner
+//turn 16-17 reinforcements from stairs and throneroom
+//turn 17-18 hard mode different reinforcements from scrub corner
+//turn 18-19 different reinforcements from stairs and throneroom
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -55,12 +82,36 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(7,Ally,1) [26,19] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] DoNothingAI
+UNIT Marcus Paladin Roy Level(4,Ally,1) [28,19] 0x0 0x0 0x1 REDA_26_17 [SilverLance, IronSword, IronLance, Horseslayer] DoNothingAI
+UNIT Lance Cavalier Roy Level(8,Ally,1) [24,19] 0x0 0x0 0x1 REDA_26_18 [IronSword, IronLance, Javelin] DoNothingAI
+UNIT Bors Knight Roy Level(5,Ally,1) [26,17] 0x0 0x0 0x1 REDA_27_18 [IronLance, Javelin, ChestKey5Uses] DoNothingAI
+UNIT Wolt Archer Roy Level(6,Ally,1) [26,18] 0x0 0x0 0x1 REDA_24_19 [IronBow, SilverBow, Vulnerary, SteelBow] DoNothingAI
+UNIT Dieck Mercenary Roy Level(10,Ally,1) [27,18] 0x0 0x0 0x1 REDA_28_19 [IronBlade, IronSword, Armorslayer, SteelSword] DoNothingAI
+UNIT Ward Fighter Roy Level(6,Ally,1) [27,20] 0x0 0x0 0x1 REDA_24_20 [IronAxe, Hammer, HandAxe, SteelAxe] DoNothingAI
+UNIT Shanna PegasusKnight Roy Level(7,Ally,1) [28,20] 0x0 0x0 0x1 REDA_25_20 [SlimLance, Javelin, Vulnerary] DoNothingAI
+UNIT Elen Cleric Roy Level(9,Ally,1) [27,21] 0x0 0x0 0x1 REDA_27_20 [Heal, Unlock, Restore, Vulnerary] DoNothingAI
+UNIT Chad Thief Roy Level(4,Ally,1) [24,20] 0x0 0x0 0x1 REDA_28_20 [IronSword, Lockpick] DoNothingAI
+UNIT Lugh Mage Roy Level(3,Ally,1) [25,20] 0x0 0x0 0x1 REDA_25_21 [Fire, Thunder, Vulnerary] DoNothingAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [27,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DoNothingAI
+UNIT
+
+JustAstolfo:
+UNIT Astolfo Thief Roy Level(10,Ally,0) [25,18] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DoNothingAI
+UNIT
+
+JustLilina:
+UNIT Lilina MageF Roy Level(10,Ally,0) [18,10] 0x0 0x0 0x0 0x0 [0x0] DoNothingAI
+UNIT
+
+ScrubSquad:
+UNIT Gwendolyn KnightF Roy Level(10,Ally,0) [1,0] 0x0 0x0 0x1 REDA_4_0 [IronLance, Javelin, Vulnerary] DoNothingAI
+UNIT Barthe Knight Roy Level(9,Ally,0) [0,1] 0x0 0x0 0x1 REDA_4_1 [SteelLance] DoNothingAI
+UNIT Ogier Mercenary Roy Level(3,Ally,0) [2,2] 0x0 0x0 0x1 REDA_5_2 [SteelLance] DoNothingAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Legance General 0x0 Level(1,Enemy,0) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] BossAI
 UNIT
 
 ALIGN 4

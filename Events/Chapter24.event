@@ -6,12 +6,12 @@
 //Tile Changes
 
 //Flags/EventIDs
-//#define BossQuoteFlag 0x1
-//#define BossDefeatFlag 0x2
-//#define SeizeFlag 0x3
-//#define SecondBGMFlag 0x4
+//BossQuoteFlag 0x1
+//BossDefeatFlag 0x2
+//SeizeFlag 0x3
+//SecondBGMFlag 0x4
 // 0x5
-//#define RoutFlag 0x6
+//RoutFlag 0x6
 
 EventPointerTable(EVENTS_Ch24,ThisChapter)
 

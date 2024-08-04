@@ -178,8 +178,7 @@ MOVE 0x0 Erik [3,8]
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy
-ENDA
-ENDA
+EndEvent
 
 RutgerClarine1:
 CAM1 [4,8]
@@ -187,8 +186,7 @@ MUSI
 STAL 16
 Text(BG_Dungeon, Ch4_RutgerClarine1)
 MUNO
-NoFade
-ENDA
+EndEvent
 
 RutgerClarine2:
 CAM1 [4,8]
@@ -199,8 +197,7 @@ LOAD1 0x1 JustClarine
 Text(Ch4_RutgerClarine3)
 MUNO
 ENUN
-NoFade
-ENDA
+EndEvent
 
 PiratesAppear:
 MUSC MUS_DeerOfThePlains
@@ -210,8 +207,7 @@ LoadReinforcements(PiratesFromForts)
 ENUN
 Text(Ch4_PiratesAppear)
 MUNO
-NoFade
-ENDA
+EndEvent
 
 LoadPirateReinforcements:
 ReinforcementEvent(PiratesFromForts)
@@ -231,8 +227,7 @@ MUSC MUS_DeerOfThePlains
 STAL 16
 Text(BG_Castle1, Ch4_RutgerWarning)
 LABEL 1
-NoFade
-ENDA
+EndEvent
 
 RutgerAppears:
 CHECK_EVENTID BossDefeatFlag
@@ -244,24 +239,21 @@ CMOF
 LoadReinforcements(RutgerSquad)
 Text(Ch4_RutgerAppears)
 LABEL 1
-NoFade
-ENDA
+EndEvent
 
 ClarineRecruitsHerself:
 MUSS MUS_JoinUs
 Text(BG_Outside, Ch4_ClarineRecruitsHerself)
 BecomeAlly(Clarine)
 MURE 0x5
-NoFade
-ENDA
+EndEvent
 
 ClarineRecruitsRutger:
 MUSS MUS_JoinUs
 Text(BG_Outside, Ch4_ClarineRecruitsRutger)
 BecomeAlly(Rutger)
 MURE 0x5
-NoFade
-ENDA
+EndEvent
 
 DoorKeyVillageVisit:
 VillageEventItem(Ch4_DoorKeyVillage,BG_Village,DoorKey)

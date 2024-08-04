@@ -203,8 +203,7 @@ MOVE 0x0 Merlinus [1,9]
 ENUN
 MOVE 0x0 Elen [4,10]
 ENUN
-NoFade
-ENDA
+EndEvent
 
 MercsShowUp:
 STAL 32
@@ -229,8 +228,7 @@ MOVE 0x0 Lot [12,18]
 MOVE 0x0 Shanna [14,17]
 ENUN
 MURE 0x5
-NoFade
-ENDA
+EndEvent
 
 RoyDieckTalk:
 ConvoEvent(Ch2_RoyDieckTalk)

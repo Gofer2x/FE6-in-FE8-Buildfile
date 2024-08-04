@@ -151,8 +151,7 @@ CAM1 Roy
 Text(Ch5_Start2)
 STAL 64
 ENUN
-NoFade
-ENDA
+EndEvent
 
 DorothySaulCutscene:
 MUSS MUS_GoingMyWay
@@ -167,8 +166,7 @@ ENUN
 DISA Saul
 DISA Dorothy
 MURE 0x5
-NoFade
-ENDA
+EndEvent
 
 OpenGateEvent:
 //there is some weird asm here but idk so not doing it
@@ -184,8 +182,7 @@ Text(Ch5_BossAngryAtGate)
 LoadHardReinforcements(GateOpenEnemies)
 LABEL 1
 MUNO
-NoFade
-ENDA
+EndEvent
 
 GantsLanceVillageVisit:
 VillageEventItem(Ch5_GantsLanceVillage,BG_Village,GantsLance)

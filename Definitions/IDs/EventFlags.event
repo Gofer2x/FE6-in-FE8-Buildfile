@@ -9,9 +9,9 @@
 #define DistableObjectiveWindowFlag 0x66
 // 0x67 to 0x70 are "Extra unit appearance"? idk
 // 0x71 to 0x77 are eirika ephraim route stuff
-#define GlobalFlag78 0x78
-#define GlobalFlag79 0x79
-#define GlobalFlag7A 0x7A
+#define RoyCathTalkFlag1 0x78
+#define RoyCathTalkFlag2 0x79
+#define CathDeadOrRecruited 0x7A
 #define GlobalFlag7B 0x7B
 #define GlobalFlag7C 0x7C
 #define GlobalFlag7D 0x7D

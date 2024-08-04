@@ -20,3 +20,6 @@ Erm, what the sigma?[X]
 #include "ChapterEvents/Chapter3.txt"
 #include "ChapterEvents/Chapter4.txt"
 #include "ChapterEvents/Chapter5.txt"
+#include "RoyCathConvos.txt"
+#include "ChapterEvents/Chapter6.txt"
+#include "ChapterEvents/Chapter7.txt"

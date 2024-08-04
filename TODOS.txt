@@ -17,7 +17,10 @@ harp and birdie sounds for elffin animation
 
 manakete anims
 
-
-
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.
+
+note on differences from fe6:
+the double hard mode bonuses in the first few chapters are not implemented. not sure how to do that, idk how that hm bonuses event patch works exactly.
+brigand and pirate berserker promo have different stat bonuses in fe6, but i had to combine them here.
+all the enemies iwth the wacky "ghost of bern" ai have mroe standard ai instead.

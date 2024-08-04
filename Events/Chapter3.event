@@ -163,8 +163,7 @@ MUSC MUS_WhenTheRushComes
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy
-NoFade
-ENDA
+EndEvent
 
 BishopKidsEvent:
 MUSC MUS_BeyondDistantSkies
@@ -184,8 +183,7 @@ MOVE 0x0 Raigh [5,65535]
 MOVE 0x0 Lilina [5,65535]
 ENUN
 STAL 64
-NoFade
-ENDA
+EndEvent
 
 NorthVillageVisit:
 MUSS MUS_JoinUs
@@ -202,8 +200,7 @@ REMA
 MURE 0x5
 LOAD1 0x1 JustLugh
 ENUN
-NoFade
-ENDA
+EndEvent
 
 ThroneRoomEvent:
 MUSS MUS_TheKingdomOfBern
@@ -249,8 +246,7 @@ STAL 16
 LoadReinforcements(CavReinforcements)
 ENUN
 MURE 0x5
-NoFade
-ENDA
+EndEvent
 
 SouthVillageVisit:
 VillageEventItem(Ch3_MendHouse,BG_Village,Mend)

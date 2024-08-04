@@ -12,5 +12,19 @@
 
 #define PlayerInRange "SVAL s2 0 ; CALL 0x89EE1B8"
 
+#define SetAI(unitid,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI unitid"
+#define SetAI(x,y,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI [x,y]"
+#define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
+#define SetAI(x,y,ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHAI [x,y]"
+
+//door but with event flag
+#define Door(EventFlag, DoorX, DoorY) "DOOR EventFlag [DoorX, DoorY] 0x12"
+
+//door but with event flag and event pointer
+#define DoorWithEvent(EventPointer,doorX,doorY) "DOOR 0 EventPointer [doorX,doorY] 0x12"
+
+#define EndEvent "EVBIT_T 0x7 ; ENDA"
+
 //don't feel like dealign with world map events rn
 #define MoveToChapter(chapter) "MNC2 chapter"
+

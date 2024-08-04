@@ -33,6 +33,9 @@
 //RoutFlag 0x6
 #define Ch6_RoySueTalkFlag 0x7
 #define Ch6_RoyCathTalkFlag 0x8
+#define Ch6_SouthmostWestRoomOpenFlag 0x9
+#define Ch6_SouthmostEastRoomOpenFlag 0xA
+#define Ch6_SouthReinforcementsFlag 0xB
 
 EventPointerTable(EVENTS_Ch6,ThisChapter)
 
@@ -51,9 +54,11 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//turn 1 enemy phase sue cutscne
-//turn 5 cath
-//turn 8, 12, 16 hard mode throne room reinforcements
+TurnEventEnemy(0x0,SueComplains,1)
+TurnEventEnemy(0x0,CathAppears,5)
+TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements1,8)
+TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements2,12)
+TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements3,16)
 //turn 1-255, enemies from south once no player units in bottom half of map
 //turn 1-255, enemies from southmost east room 3 turns after open (not ambush)
 //turn 1-255, enemies from southmost west room 3 turns after open (not ambush)
@@ -63,29 +68,40 @@ ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
 //roy talks to cath
+CharacterEvent(Ch6_RoyCathTalkFlag,CathRecruitmentEvent,Roy,Cath)
 //roy talks to sue
+CharacterEvent(Ch6_RoySueTalkFlag,RoyRecruitsSue,Roy,Sue)
 END_MAIN
 
 LocationBasedEvents:
-//short bow chest x22 y8
-//goddess icon chest x23 y9
-//killer axe chest x22 y10
-//2000 gold chest x23 y13
-//silver lance chest x22 y15
-//unlock chest x3 y3
-//5000 gold chest x2 y13
-//3000 gold chest x2 y15
-//door x5 y14
-//door x5 y9
-//door x20 y9
-//door x20 y14
-//door x7 y17, southmost west room so flag
-//door x19 y17, southmost east room so flag
+Chest(ShortBow,22,8)
+Chest(GoddessIcon,23,9)
+Chest(KillerAxe,22,10)
+ChestMoney(2000,23,13)
+Chest(SilverLance,22,15)
+Chest(Unlock,3,3)
+ChestMoney(5000,2,13)
+ChestMoney(3000,2,15)
+Door(5,14)
+Door(5,9)
+Door(20,9)
+Door(20,14)
+Door(Ch6_SouthmostWestRoomOpenFlag, 7,17)
+Door(Ch6_SouthmostEastRoomOpenFlag, 19,17)
+
 //"door" x8 y4, northmost west room side entrance
+DoorWithEvent(NorthmostWestRoomEvent,8,4)
+
 //"door" x6 y6, northmost west room bottom entrance
+DoorWithEvent(NorthmostWestRoomEvent,6,6)
+
 //"door" x19 y6, northmost east room bottom entrance
+DoorWithEvent(NorthmostEastRoomEvent,19,6)
+
 //"door" x16 y4, northmost east room side entrance
-//seize x12 y1
+DoorWithEvent(NorthmostEastRoomEvent,16,4)
+
+Seize(12,1)
 END_MAIN
 
 MiscBasedEvents:
@@ -151,6 +167,7 @@ UNIT
 
 JustCath:
 UNIT Cath ThiefF 0x0 Level(1,Enemy,0) [17,23] 0x0 0x0 0x0 0x0 [0x0] ThiefAI
+UNIT
 
 SouthWestStairsEnemies:
 UNIT GenericThria Knight Wagner Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] InRangeAI
@@ -187,6 +204,15 @@ UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [
 UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
 UNIT
 
+SouthReinforcements:
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [13,23] 0x0 0x0 0x1 REDA_13_22 [SteelLance] AggressiveAI
+UNIT GenericThria Archer Wagner Level(4,Enemy,1) [12,23] 0x0 0x0 0x1 REDA_12_22 [SteelBow] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [14,23] 0x0 0x0 0x1 REDA_14_22 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [11,23] 0x0 0x0 0x1 REDA_12_21 [Javelin] AggressiveAI
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [15,23] 0x0 0x0 0x1 REDA_14_21 [Javelin] AggressiveAI
+UNIT GenericThria Mage Wagner Level(3,Enemy,1) [10,23] 0x0 0x0 0x1 REDA_13_21 [Fire] AggressiveAI
+UNIT
+
 ALIGN 4
 
 BeginningScene:
@@ -195,6 +221,48 @@ ENUN
 LOAD1 0x1 Enemies
 ENUN
 ENDA
+
+NorthmostWestRoomEvent:
+TILECHANGE 0x3
+TILECHANGE 0x4
+EndEvent
+
+NorthmostEastRoomEvent:
+TILECHANGE 0x5
+TILECHANGE 0x6
+EndEvent
+
+SueComplains:
+CAM1 [2,8]
+MUSI
+Text(BG_Dungeon,Ch6_SueNoise)
+MUNO
+EndEvent
+
+CathAppears:
+CAM1 [17,23]
+MUSS MUS_GoingMyWay
+LOAD1 0x1 JustCath
+ENUN
+Text(Ch6_CathAppears)
+MURE 0x5
+EndEvent
+
+RoyRecruitsSue:
+MUSS MUS_JoinUs
+Text(Ch6_RoyRecruitsSue)
+BecomeAlly(Sue)
+MURE 0x5
+EndEvent
+
+LoadHardThroneRoomReinforcements1:
+HardReinforcementEvent(ThroneRoomReinforcements1)
+
+LoadHardThroneRoomReinforcements2:
+HardReinforcementEvent(ThroneRoomReinforcements2)
+
+LoadHardThroneRoomReinforcements3:
+HardReinforcementEvent(ThroneRoomReinforcements3)
 
 EndingScene:
 MoveToChapter(CHAPTER_Ch7)

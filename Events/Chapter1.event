@@ -154,8 +154,7 @@ LOAD1 0x1 LanceRunner
 ENUN
 Text(BG_Outside, Ch1_Start3)
 MOVE 0x0 Lance [4,18]
-NoFade
-ENDA
+EndEvent
 
 CursesReinforcementsAlready:
 MUSC MUS_DeerOfThePlains
@@ -165,8 +164,7 @@ MOVE 0x0 Damas [5, 4]
 ENUN
 STAL 16
 Text(BG_Outside, Ch1_Start4)
-NoFade
-ENDA
+EndEvent
 
 SouthVillageVisit:
 VillageEventMoney(Ch1_SouthVillage,BG_Village,5000)

@@ -66,53 +66,53 @@ ALIGN 4
 
 //just here so it looks nice in febuilder tbh
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] DoNothingAI
-UNIT Marcus Paladin Roy Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] DoNothingAI
-UNIT Lance Cavalier Roy Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
-UNIT Alen Cavalier Roy Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] DoNothingAI
-UNIT Bors Knight Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] DoNothingAI
-UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] DoNothingAI
+UNIT Roy RoyLord 0x0 Level(1,Ally,0) [2,18] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] PlaceholderAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [1,17] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] PlaceholderAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [4,18] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] PlaceholderAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [3,17] 0x0 0x0 0x0 0x0 [IronSword, IronLance] PlaceholderAI
+UNIT Bors Knight Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] PlaceholderAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] PlaceholderAI
 UNIT
 
 Bandits1:
-UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] TwoMovesAI
-UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA_5_6 [SteelAxe] BossAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA_1_3 [IronAxe] TwoMovesAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA_4_5 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA_6_5 [IronAxe] InRangeAI
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA_5_6 [SteelAxe] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_DontRetreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA_1_3 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA_4_5 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA_6_5 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 BanditsBrigand:
-UNIT GenericBandit Brigand Damas Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA_7_7 [IronAxe] BrigandAI
+UNIT GenericBandit Brigand Damas Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA_7_7 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 Bandits2:
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA_8_9 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA_9_9 [IronAxe] InRangeAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA_11_7 [IronAxe] InRangeAI
-UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA_8_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA_9_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA_11_7 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 Bandits3:
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA_7_15 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA_8_14 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA_12_13 [IronAxe] AggressiveAI
-UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA_8_18 [IronAxe] AggressiveAI
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA_7_15 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA_8_14 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA_12_13 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA_8_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 LanceRunner:
-UNIT Lance Cavalier Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] DoNothingAI
+UNIT Lance Cavalier Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] PlaceholderAI
 UNIT
 
 TheBoys1:
-UNIT Roy RoyLord Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] DoNothingAI
-UNIT Marcus Paladin Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] DoNothingAI
+UNIT Roy RoyLord Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] PlaceholderAI
+UNIT Marcus Paladin Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] PlaceholderAI
 UNIT
 
 TheBoys2:
-UNIT Alen Cavalier Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] DoNothingAI
-UNIT Bors Knight Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] DoNothingAI
-UNIT Wolt Archer Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] DoNothingAI
+UNIT Alen Cavalier Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] PlaceholderAI
+UNIT Bors Knight Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] PlaceholderAI
+UNIT Wolt Archer Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] PlaceholderAI
 UNIT
 
 

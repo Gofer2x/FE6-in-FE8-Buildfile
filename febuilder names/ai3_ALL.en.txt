@@ -1,0 +1,8 @@
+00=TAI_Pos
+08=TAI_HP
+10=TAI_Reckless
+18=TAI_Def
+20=TAI_DmgAcc
+28=TAI_Arch
+30=TAI_Weird1
+38=TAI_Weird2

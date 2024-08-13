@@ -129,6 +129,70 @@ UNIT
 
 Enemies:
 UNIT Debias Knight 0x0 Level(13,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Spear] BossAI
+UNIT Ch8GenericBern WyvernRider Debias Level(9,Enemy,1) [3,6] 0x0 0x0 0x0 0x0 [SteelLance] TwoMovesAI
+UNIT Ch8GenericBern WyvernRider Debias Level(10,Enemy,1) [9,6] 0x0 0x0 0x0 0x0 [SteelLance, RedGem] InRangeAI
+UNIT GenericRebel Priest Debias Level(7,Enemy,1) [8,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] HealerAI
+UNIT GenericRebel Priest Debias Level(7,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] HealerAI
+UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [IronSword] AggressiveAI
+UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword] AggressiveAI
+UNIT GenericRebel Knight Debias Level(7,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [SteelLance] AggressiveAI
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] TwoMovesAI
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] TwoMovesAI
+UNIT GenericRebel Mage Debias Level(6,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Elfire] AggressiveAI
+UNIT GenericRebel Mage Debias Level(6,Enemy,1) [15,8] 0x0 0x0 0x0 0x0 [Thunder] AggressiveAI
+UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] InRangeAI
+UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] InRangeAI
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [IronSword, Javelin] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] AggressiveAI
+UNIT GenericRebel Archer Debias Level(7,Enemy,1) [19,16] 0x0 0x0 0x0 0x0 [SteelBow] InRangeAI
+UNIT GenericRebel Archer Debias Level(8,Enemy,1) [19,22] 0x0 0x0 0x0 0x0 [SteelBow] InRangeAI
+UNIT GenericRebel Archer Debias Level(10,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronBow] AggressiveAI
+UNIT GenericRebel Archer Debias Level(10,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [IronBow] AggressiveAI
+UNIT
+
+HardModeEnemies:
+UNIT Ch8GenericBern WyvernRider Debias Level(8,Enemy,1) [13,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] TwoMovesAI
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [IronSword, Javelin] AggressiveAI
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [IronSword, Javelin] AggressiveAI
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
+UNIT
+
+EnemiesFromTheThrone:
+UNIT GenericRebel Mage Debias Level(7,Enemy,1) [3,0] 0x0 0x0 0x0 0x0 [Elfire] AggressiveAI
+UNIT GenericRebel Archer Debias Level(9,Enemy,1) [2,0] 0x0 0x0 0x0 0x0 [SteelBow] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [1,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SteelLance] AggressiveAI
+UNIT GenericRebel Mage Debias Level(7,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [Thunder] AggressiveAI
+UNIT GenericRebel Archer Debias Level(9,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [SteelBow] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [9,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] AggressiveAI
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [SteelLance] AggressiveAI
+UNIT
+
+CavsFromTheBack:
+UNIT GenericRebel Cavalier Debias Level(15,Enemy,1) [7,27] 0x0 0x0 0x1 REDA_6_26 [SilverLance] AggressiveAI
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,27] 0x0 0x0 0x1 REDA_5_26 [IronLance, Javelin] AggressiveAI
+UNIT GenericRebel Cavalier Debias Level(5,Enemy,1) [8,27] 0x0 0x0 0x1 REDA_7_26 [SteelLance] AggressiveAI
+UNIT GenericRebel Cavalier Debias Level(5,Enemy,1) [9,27] 0x0 0x0 0x1 REDA_8_26 [SteelLance] AggressiveAI
+UNIT
+
+ZelotAndTrec:
+UNIT Zelot Paladin Roy Level(1,Ally,0) [13,15] 0x0 0x0 0x1 REDA_13_16 [SteelSword, SteelLance, Javelin] AggressiveAI
+UNIT Trec Cavalier Roy Level(4,NPC,0) [13,15] 0x0 0x0 0x1 REDA_14_16 [IronLance, Javelin, Vulnerary] AggressiveAI
+UNIT
+
+JustFir:
+UNIT Fir Myrmidon Roy Level(1,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_17 [WoDao, Vulnerary] DoNothingAI
+UNIT
+
+JustNoah:
+UNIT Noah Cavalier Roy Level(7,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_19 [SteelSword, IronLance, Vulnerary] AggressiveAI
+UNIT
+
+JustLegance:
+UNIT Legance General 0x0 Level(1,NPC,0) [11,0] 0x0 0x0 0x1 REDA_5_1 [SteelLance, Javelin] DoNothingAI
 UNIT
 
 ALIGN 4

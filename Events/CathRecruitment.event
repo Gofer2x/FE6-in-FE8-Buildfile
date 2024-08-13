@@ -6,7 +6,7 @@ BNE 1 s0 sC
 MUSS MUS_GoingMyWay
 Text(RoyCathFirstTalkConvo)
 ENUT RoyCathTalkFlag1
-SetAI(Cath, AI1_None, AI2_EscapeMap)
+SetAI(Cath, AI1_None, AI2_Escape)
 GOTO 9
 LABEL 1
 CHECK_EVENTID RoyCathTalkFlag2
@@ -14,7 +14,7 @@ BNE 2 s0 sC
 MUSS MUS_GoingMyWay
 Text(RoyCathSecondTalkConvo)
 ENUT RoyCathTalkFlag2
-SetAI(Cath, AI1_None, AI2_EscapeMap)
+SetAI(Cath, AI1_None, AI2_Escape)
 GOTO 9
 LABEL 2
 MUSS MUS_JoinUs

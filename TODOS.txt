@@ -1,5 +1,7 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
+there are more battle quotes. find and add them
+
 is there a patch to change eclipse behavior to fe6? if yes, install. if not, change desc.
 
 item stealing priority table
@@ -9,6 +11,8 @@ supports
 actually implementing supports
 
 character palettes
+
+roy special death quote? give it a special event?
 
 larum/dancer mms is broken
 

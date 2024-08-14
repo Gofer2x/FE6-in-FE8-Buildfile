@@ -2,8 +2,8 @@
 01=AI2_ChargeLaus
 02=AI2_Douglas
 03=AI2_DontMove
-04=AI2_RaidAttack
-05=AI2_RaidEscape
+04=AI2_PillageAttack
+05=AI2_PillageEscape
 06=AI2_TwoMoves
 07=AI2_TwoMovesLaus
 08=AI2_GhostOfBern

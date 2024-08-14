@@ -121,96 +121,99 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(8,Ally,1) [12,20] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Armorslayer] DoNothingAI
-UNIT Chad Thief Roy Level(2,Ally,1) [11,19] 0x0 0x0 0x1 REDA_12_19 [IronSword, SlimSword, Lockpick] DoNothingAI
-UNIT Lance Cavalier Roy Level(7,Ally,1) [13,19] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DoNothingAI
-UNIT Bors Knight Roy Level(7,Ally,1) [14,20] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DoNothingAI
-UNIT Wolt Archer Roy Level(8,Ally,1) [13,20] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary, Vulnerary] DoNothingAI
-UNIT Dieck Mercenary Roy Level(8,Ally,1) [11,20] 0x0 0x0 0x0 0x0 [IronSword, IronBlade, Vulnerary] DoNothingAI
-UNIT Rutger Myrmidon Roy Level(6,Ally,1) [14,21] 0x0 0x0 0x0 0x0 [IronSword, KillingEdge] DoNothingAI
-UNIT Alen Cavalier Roy Level(6,Ally,1) [11,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Vulnerary] DoNothingAI
-UNIT Clarine Troubadour Roy Level(2,Ally,1) [12,22] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] DoNothingAI
-UNIT Merlinus Transporter Roy Level(1,Ally,1) [13,22] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DoNothingAI
+UNIT Roy RoyLord 0x0 Level(8,Ally,1) [12,20] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Armorslayer] PlaceholderAI
+UNIT Chad Thief Roy Level(2,Ally,1) [11,19] 0x0 0x0 0x1 REDA_12_19 [IronSword, SlimSword, Lockpick] PlaceholderAI
+UNIT Lance Cavalier Roy Level(7,Ally,1) [13,19] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] PlaceholderAI
+UNIT Bors Knight Roy Level(7,Ally,1) [14,20] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] PlaceholderAI
+UNIT Wolt Archer Roy Level(8,Ally,1) [13,20] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary, Vulnerary] PlaceholderAI
+UNIT Dieck Mercenary Roy Level(8,Ally,1) [11,20] 0x0 0x0 0x0 0x0 [IronSword, IronBlade, Vulnerary] PlaceholderAI
+UNIT Rutger Myrmidon Roy Level(6,Ally,1) [14,21] 0x0 0x0 0x0 0x0 [IronSword, KillingEdge] PlaceholderAI
+UNIT Alen Cavalier Roy Level(6,Ally,1) [11,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Vulnerary] PlaceholderAI
+UNIT Clarine Troubadour Roy Level(2,Ally,1) [12,22] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] PlaceholderAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [13,22] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] PlaceholderAI
 UNIT
 
 Enemies:
-UNIT Wagner Shaman 0x0 Level(9,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [Flux] BossAI
-UNIT GenericThria Knight Wagner Level(8,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronLance, Javelin] StationaryAI
-UNIT GenericThria Knight Wagner Level(7,Enemy,1) [13,1] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] StationaryAI
-UNIT GenericThria Mage Wagner Level(7,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Thunder] StationaryAI
-UNIT GenericThria Knight Wagner Level(7,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [SteelLance] AggressiveAI
-UNIT GenericThria Knight Wagner Level(10,Enemy,1) [13,7] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
-UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [6,9] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [19,9] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] AggressiveAI
-UNIT GenericThria Mage Wagner Level(3,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [SteelLance] TwoMovesAI
-UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [IronSword] InRangeAI
-UNIT GenericThria Soldier Wagner Level(7,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [Javelin] TwoMovesAI
-UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [IronSword] InRangeAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] InRangeAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] InRangeAI
-UNIT GenericThria Knight Wagner Level(5,Enemy,1) [6,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] InRangeAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [Thunder] InRangeAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Javelin] InRangeAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT GenericThria Knight Wagner Level(5,Enemy,1) [18,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AggressiveAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [Fire] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
-UNIT Sue NomadF Roy Level(1,NPC,0) [2,9] 0x0 0x0 0x0 0x0 [0x0] DoNothingAI
+UNIT Wagner Shaman 0x0 Level(9,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [Flux] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericThria Knight Wagner Level(8,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(7,Enemy,1) [13,1] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(7,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(7,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(10,Enemy,1) [13,7] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(10,Enemy,1) [6,9] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [19,9] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(3,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(7,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mercenary Wagner Level(5,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [6,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [18,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT Sue NomadF Roy Level(1,NPC,0) [2,9] 0x0 0x0 0x0 0x0 [0x0] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 JustCath:
-UNIT Cath ThiefF 0x0 Level(1,Enemy,0) [17,23] 0x0 0x0 0x0 0x0 [0x0] ThiefAI
+UNIT Cath ThiefF 0x0 Level(1,Enemy,0) [17,23] 0x0 0x0 0x0 0x0 [0x0] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Reckless, AI4_Retreat]
 UNIT
 
 SouthWestStairsEnemies:
-UNIT GenericThria Knight Wagner Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] InRangeAI
-UNIT GenericThria Archer Wagner Level(5,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_18 [SteelBow] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_20 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_20 [IronLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_20 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT 
 
 SouthEastStairsEnemies:
-UNIT GenericThria Knight Wagner Level(6,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_18 [SteelLance] AggressiveAI
-UNIT GenericThria Archer Wagner Level(5,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_18 [SteelBow] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_20 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_20 [IronLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(6,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_18 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_20 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
 ThroneRoomReinforcements1:
-UNIT GenericThria Archer Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelBow] AggressiveAI
-UNIT GenericThria Archer Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [IronBow] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
+UNIT GenericThria Archer Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [IronBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
 ThroneRoomReinforcements2:
-UNIT GenericThria Mage Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [Fire] AggressiveAI
-UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [Thunder] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
+UNIT GenericThria Mage Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [Fire] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [Thunder] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
 ThroneRoomReinforcements3:
-UNIT GenericThria Knight Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelLance] AggressiveAI
-UNIT GenericThria Knight Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [SteelLance, Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] AggressiveAI
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight Wagner Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
-SouthReinforcements:
-UNIT GenericThria Knight Wagner Level(5,Enemy,1) [13,23] 0x0 0x0 0x1 REDA_13_22 [SteelLance] AggressiveAI
-UNIT GenericThria Archer Wagner Level(4,Enemy,1) [12,23] 0x0 0x0 0x1 REDA_12_22 [SteelBow] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [14,23] 0x0 0x0 0x1 REDA_14_22 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [11,23] 0x0 0x0 0x1 REDA_12_21 [Javelin] AggressiveAI
-UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [15,23] 0x0 0x0 0x1 REDA_14_21 [Javelin] AggressiveAI
-UNIT GenericThria Mage Wagner Level(3,Enemy,1) [10,23] 0x0 0x0 0x1 REDA_13_21 [Fire] AggressiveAI
+SouthReinforcements1:
+UNIT GenericThria Knight Wagner Level(5,Enemy,1) [13,23] 0x0 0x0 0x1 REDA_13_22 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer Wagner Level(4,Enemy,1) [12,23] 0x0 0x0 0x1 REDA_12_22 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [14,23] 0x0 0x0 0x1 REDA_14_22 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+SouthReinforcements2:
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [11,23] 0x0 0x0 0x1 REDA_12_21 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier Wagner Level(8,Enemy,1) [15,23] 0x0 0x0 0x1 REDA_14_21 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage Wagner Level(3,Enemy,1) [10,23] 0x0 0x0 0x1 REDA_13_21 [Fire] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
 UNIT
 
 ALIGN 4

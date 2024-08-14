@@ -75,7 +75,7 @@ UNIT Wolt Archer Roy Level(1,Ally,0) [2,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary]
 UNIT
 
 Bandits1:
-UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT Damas Fighter 0x0 Level(1,Enemy,0) [5,0] 0x0 0x0 0x1 REDA_5_6 [SteelAxe] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_DontRetreat]
 UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA_1_3 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA_4_5 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
@@ -90,7 +90,7 @@ Bandits2:
 UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA_8_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA_9_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA_11_7 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 Bandits3:

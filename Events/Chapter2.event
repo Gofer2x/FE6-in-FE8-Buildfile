@@ -67,72 +67,72 @@ ENDTRAP
 ALIGN 4
 
 JustRuud:
-UNIT Ruud Knight 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x1 REDA_16_4 [Javelin] BossAI
+UNIT Ruud Knight 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x1 REDA_16_4 [Javelin] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
 UNIT
 
 JustMelady:
-UNIT Melady WyvernRiderF 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] DoNothingAI
+UNIT Melady WyvernRiderF 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] PlaceholderAI
 UNIT
 
 GateSoldier:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [IronLance] AggressiveAI
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 EnemiesRight:
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [17,13] 0x0 0x0 0x1 REDA_15_6 [IronAxe] InRangeAI //ghost of bern 0F,06 standby lol
-UNIT GenericBern Archer Ruud Level(2,Enemy,1) [18,14] 0x0 0x0 0x1 REDA_17_4 [IronBow] InRangeAI //ghost of bern 11,04 standby lol
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 REDA_18_6 [Javelin] AggressiveAI
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [17,12] 0x0 0x0 0x1 REDA_17_11 [IronAxe] TwoMovesAI
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_10 [IronAxe] InRangeAI
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_17_9 [Javelin] InRangeAI
-UNIT GenericBern Soldier Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_11 [IronLance] TwoMovesAI
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [18,13] 0x0 0x0 0x1 REDA_18_9 [IronAxe] AggressiveAI
-UNIT GenericBern Soldier Ruud Level(1,Enemy,1) [18,15] 0x0 0x0 0x1 REDA_18_8 [Javelin] AggressiveAI
-UNIT GenericBern Archer Ruud Level(1,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_7 [IronBow] TwoMovesAI
-UNIT GenericBern Fighter Ruud Level(3,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_17_9 [SteelAxe] InRangeAI
-UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [IronBlade] InRangeAI
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [17,13] 0x0 0x0 0x1 REDA_15_6 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat] //ghost of bern 0F,06 standby lol
+UNIT GenericBern Archer Ruud Level(2,Enemy,1) [18,14] 0x0 0x0 0x1 REDA_17_4 [IronBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat] //ghost of bern 11,04 standby lol
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 REDA_18_6 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [17,12] 0x0 0x0 0x1 REDA_17_11 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_10 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_17_9 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Soldier Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_11 [IronLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [18,13] 0x0 0x0 0x1 REDA_18_9 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Soldier Ruud Level(1,Enemy,1) [18,15] 0x0 0x0 0x1 REDA_18_8 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Archer Ruud Level(1,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_7 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(3,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_17_9 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [IronBlade] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 Units:
-UNIT Roy RoyLord Roy Level(2,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] DoNothingAI
-UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] DoNothingAI
-UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] DoNothingAI
-UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] DoNothingAI
-UNIT Bors Knight Roy Level(2,Ally,1) [1,11] 0x0 0x0 0x0 0x0 [IronLance] DoNothingAI
-UNIT Wolt Archer Roy Level(1,Ally,1) [0,10] 0x0 0x0 0x0 0x0 [IronBow] DoNothingAI
+UNIT Roy RoyLord Roy Level(2,Ally,1) [2,10] 0x0 0x0 0x0 0x0 [IronSword, Rapier] PlaceholderAI
+UNIT Marcus Paladin Roy Level(1,Ally,1) [2,8] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary, Vulnerary] PlaceholderAI
+UNIT Alen Cavalier Roy Level(3,Ally,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword, IronLance] PlaceholderAI
+UNIT Lance Cavalier Roy Level(2,Ally,1) [3,11] 0x0 0x0 0x0 0x0 [IronSword, Javelin, Vulnerary] PlaceholderAI
+UNIT Bors Knight Roy Level(2,Ally,1) [1,11] 0x0 0x0 0x0 0x0 [IronLance] PlaceholderAI
+UNIT Wolt Archer Roy Level(1,Ally,1) [0,10] 0x0 0x0 0x0 0x0 [IronBow] PlaceholderAI
 UNIT
 
 JustMerlinus:
-UNIT Merlinus Transporter Roy Level(1,Ally,0) [2,9] 0x0 0x0 0x1 REDA_1_9 [0x0] DoNothingAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [2,9] 0x0 0x0 0x1 REDA_1_9 [0x0] PlaceholderAI
 UNIT
 
 JustElen:
-UNIT Elen Cleric Roy Level(2,Ally,0) [4,14] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] DoNothingAI
+UNIT Elen Cleric Roy Level(2,Ally,0) [4,14] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] PlaceholderAI
 UNIT
 
 ElenChaser:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] InRangeAI
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ElenChasers2:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] InRangeAI
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] InRangeAI
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ElenChasers3:
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] AggressiveAI
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] AggressiveAI
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] InRangeAI
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 WardAndLot:
-UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe, Hammer, Vulnerary] DoNothingAI
-UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] DoNothingAI
+UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe, Hammer, Vulnerary] PlaceholderAI
+UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] PlaceholderAI
 UNIT
 
 DieckAndShanna:
-UNIT Dieck Mercenary 0x0 Level(5,Ally,0) [15,18] 0x0 0x0 0x1 REDA_13_17 [IronBlade, IronSword] DoNothingAI
-UNIT Shanna PegasusKnight Dieck Level(1,Ally,0) [16,18] 0x0 0x0 0x1 REDA_14_17 [SlimLance, Javelin, Vulnerary] DoNothingAI
+UNIT Dieck Mercenary 0x0 Level(5,Ally,0) [15,18] 0x0 0x0 0x1 REDA_13_17 [IronBlade, IronSword] PlaceholderAI
+UNIT Shanna PegasusKnight Dieck Level(1,Ally,0) [16,18] 0x0 0x0 0x1 REDA_14_17 [SlimLance, Javelin, Vulnerary] PlaceholderAI
 UNIT
 
 ALIGN 4

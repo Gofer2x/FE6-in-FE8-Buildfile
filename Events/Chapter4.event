@@ -126,7 +126,7 @@ UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [16,6] 0x0 0x0 0x1 REDA_13_7 [IronB
 UNIT
 
 JustClarine:
-UNIT Clarine Troubadour 0x0 Level(1,NPC,0) [3,6] 0x0 0x0 0x1 REDA_5_5 [Heal, Vulnerary] ClarineAI //clarine will need her own ai2 to talk to roy, look at this later
+UNIT Clarine Troubadour 0x0 Level(1,NPC,0) [3,6] 0x0 0x0 0x1 REDA_5_5 [Heal, Vulnerary] [AI1_None, AI2_MoveTowardsRoy, RAI_30_80|TAI_Pos, AI4_DoRetreat] //clarine will need her own ai2 to talk to roy, look at this later
 UNIT
 
 RutgerSquad:

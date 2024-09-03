@@ -1,0 +1,101 @@
+EastSouthmostRoomReinforcements:
+UNIT GenericThria Knight 0x0 Level(6,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_18 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer 0x0 Level(5,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_20 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+Enemies:
+UNIT Wagner Shaman 0x0 Level(9,Enemy,0) [5,1] 0x0 0x0 0x1 REDA_12_1 [Flux] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericThria Knight 0x0 Level(8,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(7,Enemy,1) [13,1] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(7,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(7,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(10,Enemy,1) [13,7] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(10,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(10,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(10,Enemy,1) [6,9] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [19,9] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(3,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(8,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mercenary 0x0 Level(5,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(7,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mercenary 0x0 Level(5,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Thunder, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(5,Enemy,1) [6,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(5,Enemy,1) [18,3] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT Sue NomadF 0x0 Level(1,NPC,0) [2,9] 0x0 0x0 0x0 0x0 [] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+JustCath:
+UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [17,23] 0x0 0x0 0x0 0x0 [IronSword, Lockpick, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT
+
+SaulDorothy:
+UNIT Saul Priest Roy Level(5,Ally,0) [11,23] 0x0 0x0 0x0 0x0 [Mend] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Dorothy ArcherF Roy Level(3,Ally,0) [14,23] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+SouthReinforcements1:
+UNIT GenericThria Knight 0x0 Level(5,Enemy,1) [13,23] 0x0 0x0 0x1 REDA_13_22 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer 0x0 Level(4,Enemy,1) [12,23] 0x0 0x0 0x1 REDA_12_22 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(8,Enemy,1) [14,23] 0x0 0x0 0x1 REDA_14_22 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+SouthReinforcements2:
+UNIT GenericThria Soldier 0x0 Level(8,Enemy,1) [11,23] 0x0 0x0 0x1 REDA_12_22 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(8,Enemy,1) [15,23] 0x0 0x0 0x1 REDA_14_22 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(3,Enemy,1) [10,23] 0x0 0x0 0x1 REDA_13_22 [Fire] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT
+
+ThroneRoomReinforcements1:
+UNIT GenericThria Archer 0x0 Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer 0x0 Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [IronBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+ThroneRoomReinforcements2:
+UNIT GenericThria Mage 0x0 Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [Fire] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Mage 0x0 Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [Thunder] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+ThroneRoomReinforcements3:
+UNIT GenericThria Knight 0x0 Level(5,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Knight 0x0 Level(4,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Def, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+
+Units:
+UNIT Roy RoyLord 0x0 Level(8,Ally,1) [12,20] 0x0 0x0 0x0 0x0 [Rapier, IronSword, Armorslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Chad Thief Roy Level(2,Ally,1) [11,19] 0x0 0x0 0x1 REDA_12_19 [IronSword, SlimSword, Lockpick] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lance Cavalier Roy Level(7,Ally,1) [13,19] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Bors Knight Roy Level(7,Ally,1) [14,20] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Wolt Archer Roy Level(8,Ally,1) [13,20] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Dieck Mercenary Roy Level(7,Ally,1) [11,20] 0x0 0x0 0x0 0x0 [IronSword, IronBlade, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Rutger Myrmidon Roy Level(6,Ally,1) [14,21] 0x0 0x0 0x0 0x0 [IronSword, KillingEdge] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Alen Cavalier Roy Level(6,Ally,1) [11,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Clarine Troubadour Roy Level(2,Ally,1) [12,22] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [13,22] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+WestSouthmostRoomReinforcements:
+UNIT GenericThria Knight 0x0 Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Archer 0x0 Level(5,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_20 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT
+

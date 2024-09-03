@@ -1,0 +1,3 @@
+ch1 player units don't have proper classses set
+ch10a geese has weird ai3 (have to change manually from 0x69 to 0x20)
+honestly lot of those. wtf

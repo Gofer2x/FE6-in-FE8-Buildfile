@@ -1,0 +1,39 @@
+IdunnManaketes:
+UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [DarkBreath] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericDragon FireManakete IdunnDragon Level(19,Enemy,1) [5,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericDragon FireManakete IdunnDragon Level(18,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+JustIdunn:
+UNIT IdunnDragon DemonDragon 0x0 Level(20,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [DarkBreath] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+ManaketeReinforcements1:
+UNIT GenericDragon FireManakete IdunnDragon Level(18,Enemy,1) [2,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+ManaketeReinforcements2:
+UNIT GenericDragon FireManakete IdunnDragon Level(17,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+ManaketeReinforcements3:
+UNIT GenericDragon FireManakete IdunnDragon Level(19,Enemy,1) [2,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+ManaketeReinforcements4:
+UNIT GenericDragon FireManakete IdunnDragon Level(18,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+Units:
+UNIT Roy RoyGreatLord 0x0 Level(15,Ally,1) [8,16] 0x0 0x0 0x1 REDA_8_15 [BindingBlade, Rapier, SilverSword, LightBrand] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Fir SwordmasterF Roy Level(18,Ally,1) [7,15] 0x0 0x0 0x0 0x0 [WoDao] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Niime DruidF Roy Level(20,Ally,1) [7,17] 0x0 0x0 0x1 REDA_9_15 [Nosferatu, Eclipse, Nosferatu, Physic] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Yoder Bishop Roy Level(20,Ally,1) [9,17] 0x0 0x0 0x1 REDA_10_16 [Aureola, Purge, Fortify, Recover] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Fae FaeManakete Roy Level(20,Ally,1) [6,16] 0x0 0x0 0x0 0x0 [Divinestone] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Klein Sniper Roy Level(18,Ally,1) [10,16] 0x0 0x0 0x1 REDA_8_14 [Mulagir, SilverBow, KillerBow, BraveBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Douglas General Roy Level(18,Ally,1) [8,13] 0x0 0x0 0x0 0x0 [Armads, SilverAxe, SilverLance, KillerAxe] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Echidna HeroF Roy Level(20,Ally,1) [6,13] 0x0 0x0 0x0 0x0 [Durandal, BraveAxe, SilverSword, SilverAxe] [AI1_None, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Karel Swordmaster Roy Level(20,Ally,1) [10,13] 0x0 0x0 0x0 0x0 [Wyrmslayer, KillingEdge, BraveSword, WoDao] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lilina SageF Roy Level(20,Ally,1) [8,17] 0x0 0x0 0x0 0x0 [Forblaze, Bolting, Aircalibur, Physic] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+

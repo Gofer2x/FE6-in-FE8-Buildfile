@@ -1,0 +1,59 @@
+Enemies:
+UNIT Windham Bishop 0x0 Level(12,Enemy,0) [15,2] 0x0 0x0 0x0 0x0 [Divine, Berserk] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Purge, Lightning, Physic] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Purge, Divine, Physic] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Knight Oates Level(15,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Knight Oates Level(15,Enemy,1) [19,7] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sage Oates Level(4,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [Silence, Aircalibur] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sage Oates Level(5,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [Bolting] [AI1_InPlace, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(12,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(13,Enemy,1) [25,11] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(14,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Bolting, Fire] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(13,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [Bolting, Thunder] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(13,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mage Oates Level(14,Enemy,1) [21,17] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Paladin Oates Level(6,Enemy,1) [25,17] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(15,Enemy,1) [27,16] 0x0 0x0 0x0 0x0 [Axereaver, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(13,Enemy,1) [25,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(13,Enemy,1) [27,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Archer Oates Level(13,Enemy,1) [3,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Archer Oates Level(12,Enemy,1) [27,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Paladin Oates Level(6,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(15,Enemy,1) [5,17] 0x0 0x0 0x0 0x0 [Axereaver, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(14,Enemy,1) [5,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Oates Level(15,Enemy,1) [3,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sniper Oates Level(14,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sniper Oates Level(14,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Mercenary Oates Level(12,Enemy,1) [9,23] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mercenary Oates Level(15,Enemy,1) [21,23] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mercenary Oates Level(14,Enemy,1) [12,17] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mercenary Oates Level(15,Enemy,1) [18,17] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Knight Oates Level(14,Enemy,1) [11,15] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Knight Oates Level(14,Enemy,1) [19,15] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT
+
+JustDouglas:
+UNIT Douglas General 0x0 Level(8,Ally,0) [15,29] 0x0 0x0 0x1 REDA_15_28 [SilverAxe, SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+NorthEastBishopReinforcements:
+UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Divine, Silence, Physic] [AI1_Healer, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
+UNIT
+
+NorthWestBishopReinforcements:
+UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Lightning, Silence, Physic] [AI1_Healer, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
+UNIT
+
+Units:
+UNIT Roy RoyLord 0x0 Level(15,Ally,1) [15,29] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, SilverSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Marcus Paladin Roy Level(9,Ally,1) [14,28] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lance Cavalier Roy Level(17,Ally,1) [16,28] 0x0 0x0 0x0 0x0 [SteelSword, IronLance, Javelin, SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Bors Knight Roy Level(13,Ally,1) [16,30] 0x0 0x0 0x0 0x0 [IronLance, Javelin, SilverLance, ChestKey5Uses] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Klein Sniper Roy Level(5,Ally,1) [14,30] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, SteelBow, KillerBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Echidna HeroF Roy Level(4,Ally,0) [15,27] 0x0 0x0 0x0 0x0 [BraveAxe, IronSword, Armorslayer, SteelSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Shanna PegasusKnight Roy Level(17,Ally,1) [15,31] 0x0 0x0 0x0 0x0 [SlimLance, Javelin, SilverLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Clarine Troubadour Roy Level(18,Ally,1) [13,27] 0x0 0x0 0x0 0x0 [Heal, Berserk, Restore, TorchStaff] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Melady WyvernRiderF Roy Level(10,Ally,0) [17,27] 0x0 0x0 0x0 0x0 [SteelLance, Javelin, IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [15,26] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+

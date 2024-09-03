@@ -42,6 +42,8 @@
 #define TAI_Def 0x18
 #define TAI_DmgAcc 0x20
 #define TAI_Arch 0x28
+#define TAI_Weird1 0x30
+#define TAI_Weird2 0x38
 
 
 
@@ -53,10 +55,10 @@
 
 
 //used for player and cutscene units.
-#define PlaceholderAI [0x6, 0x3, 0x9, 0x20]
+#define DummyAI [0x6, 0x3, 0x9, 0x20]
 
 
-//plan is to still use these for initially making chapters and find and replace afterwards, adjusting the RAI and TAI (and possibly AI4). adding units is annoying enough already so i think i'll do it like this.
+//these won't be used but might as well keep them
 
 #define BossAI [0x3, 0x3, 0x9, 0x20]
 //AI1_InPlace 0x3

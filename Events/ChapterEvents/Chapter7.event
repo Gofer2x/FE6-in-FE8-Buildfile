@@ -1,0 +1,215 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+
+//Tile Changes
+//WestTopHouseDestroyed 0x0
+//WestBottomHouseDestroyed 0x1
+//EastHouse1Destroyed 0x2
+//EastHouse2Destroyed 0x3
+//EastHouse3Destroyed 0x4
+//EastHouse4Destroyed 0x5
+//EastHouse5Destroyed 0x6
+//EastHouse6Destroyed 0x7
+//GateOpened 0x8
+//LeftChestOpened 0x9
+//RightChestOpened 0xA
+//WestTopHouseVisited 0xB
+//WestBottomHouseVisited 0xC
+//EastHouse1Visited 0xD
+//EastHouse2Visited 0xE
+//EastHouse3Visited 0xF
+//EastHouse4Visited 0x10
+//EastHouse5Visited 0x11
+//EastHouse6Visited 0x12
+//ChestRoomDoorOpened 0x13
+
+//Flags/EventIDs
+//BossQuoteFlag 0x1
+//BossDefeatFlag 0x2
+//SeizeFlag 0x3
+//SecondBGMFlag 0x4
+// 0x5
+//RoutFlag 0x6
+#define Ch7_ConvoFlagA 0x7
+#define Ch7_ConvoFlagB 0x8
+#define Ch7_ConvoFlagC 0x9
+#define Ch7_ConvoFlagD 0xA
+
+EventPointerTable(EVENTS_Ch7,ThisChapter)
+
+ALIGN 4
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+//turn 2 player turn zelot and treck
+//turn 3 player phase noah and fir (fir runs away)
+//turn 9 if boss alive reinforcement warning
+//turn 10 if boss alive cavs from the back, not ambush (npc phase)
+//turn 15 hard cavs from teh back
+//turn 20 hard cavs from teh back
+//turn 1-255 zone based from throne?
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+//roy talk to zelot, flag A
+//noah talk to zelot, flag A
+//treck talk to zelot, flag A
+//roy talk to noah, flag B
+//zelot talk to noah, flag B
+//zelot talk to treck, flag C
+//roy talk to treck, flag C
+//roy talks to zelot, flag D
+//zelot talks to roy (sure lol), flag D
+END_MAIN
+
+LocationBasedEvents:
+//hero crest village x19 y21
+//longbow village x1 y18
+//torch staff village x1 y24
+//elixir village x15 y15
+//red gem village x13 y18
+//physic village x15 y21
+//killing edge village x13 y24
+//horseslayer village x19 y15
+//rapier chest x18 y1
+//barrier chest x20 y1
+//armory 1 SlimSword IronSword SteelSword IronBlade IronAxe SteelAxe HandAxe
+//armory 2 SlimLance IronLance SteelLance Javelin IronBow SteelBow
+//vendor Fire Thunder Heal Mend Vulnerary DoorKey ChestKey5Uses
+//door x4 y8 (gate)
+//door x5 y8 (gate)
+//door x17 y3 (treasure)
+//seize x5 y1
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Roy RoyLord 0x0 Level(6,Ally,1) [6,24] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] DummyAI
+UNIT Marcus Paladin Roy Level(3,Ally,1) [5,22] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] DummyAI
+UNIT Lance Cavalier Roy Level(6,Ally,1) [6,22] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DummyAI
+UNIT Bors Knight Roy Level(4,Ally,1) [7,22] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DummyAI
+UNIT Wolt Archer Roy Level(5,Ally,1) [4,23] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, Vulnerary] DummyAI
+UNIT Dieck Mercenary Roy Level(8,Ally,1) [6,23] 0x0 0x0 0x0 0x0 [IronBlade, IronSword, Armorslayer] DummyAI
+UNIT Ward Fighter Roy Level(5,Ally,1) [8,23] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe] DummyAI
+UNIT Shanna PegasusKnight Roy Level(5,Ally,1) [5,24] 0x0 0x0 0x0 0x0 [SlimLance, Javelin, Vulnerary] DummyAI
+UNIT Elen Cleric Roy Level(7,Ally,1) [7,24] 0x0 0x0 0x0 0x0 [Heal, Unlock, Vulnerary] DummyAI
+UNIT Chad Thief Roy Level(3,Ally,1) [6,27] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Lugh Mage Roy Level(3,Ally,1) [5,25] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] DummyAI
+UNIT Clarine Troubadour Roy Level(4,Ally,1) [7,25] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [6,26] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DummyAI
+UNIT
+
+ZelotTrec:
+UNIT Zelot Paladin Roy Level(1,NPC,0) [13,15] 0x0 0x0 0x1 REDA_13_16 [SteelSword, SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT Trec Cavalier Roy Level(4,NPC,0) [13,15] 0x0 0x0 0x1 REDA_14_16 [IronLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|0x68, AI4_Retreat]
+UNIT
+
+JustNoah:
+UNIT Noah Cavalier Roy Level(7,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_19 [SteelSword, IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|0x68, AI4_Retreat]
+UNIT
+
+Enemies:
+UNIT Debias Knight 0x0 Level(13,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Spear] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBernCh8 WyvernRider Debias Level(9,Enemy,1) [3,6] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh8 WyvernRider Debias Level(10,Enemy,1) [9,6] 0x0 0x0 0x0 0x0 [SteelLance, RedGem] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Priest Debias Level(7,Enemy,1) [8,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericRebel Priest Debias Level(7,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(7,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(6,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage Debias Level(6,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericRebel Mage Debias Level(6,Enemy,1) [15,8] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(7,Enemy,1) [19,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(8,Enemy,1) [19,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(10,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(9,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT
+
+HardExtraEnemies:
+UNIT GenericBernCh8 WyvernRider Debias Level(8,Enemy,1) [13,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight Debias Level(7,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT
+
+SouthCavReinforcements:
+UNIT GenericRebel Cavalier 0x0 Level(15,Enemy,1) [7,27] 0x0 0x0 0x1 REDA_6_26 [SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Cavalier GenericRebel Level(7,Enemy,1) [6,27] 0x0 0x0 0x1 REDA_5_26 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat] //[AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat //uhh i don't feel like dealing with this
+UNIT GenericRebel Cavalier GenericRebel Level(5,Enemy,1) [8,27] 0x0 0x0 0x1 REDA_7_26 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat] // [AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat
+UNIT GenericRebel Cavalier GenericRebel Level(5,Enemy,1) [9,27] 0x0 0x0 0x1 REDA_8_26 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]  // [AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat
+UNIT
+
+ThroneReinforcements:
+UNIT GenericRebel Mage Debias Level(7,Enemy,1) [3,0] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(9,Enemy,1) [2,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [1,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage Debias Level(7,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer Debias Level(7,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [9,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT
+
+CutsceneLegance:
+UNIT Legance General 0x0 Level(12,Enemy,0) [11,0] 0x0 0x0 0x1 REDA_5_1 [KillerLance, Javelin] DummyAI
+UNIT
+
+CutsceneFir:
+UNIT Fir MyrmidonF 0x0 Level(12,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_17 [KillerLance, Javelin] DummyAI
+UNIT
+
+
+
+
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+ENDA
+
+EndingScene:
+MoveToChapter(CHAPTER_Ch8)
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

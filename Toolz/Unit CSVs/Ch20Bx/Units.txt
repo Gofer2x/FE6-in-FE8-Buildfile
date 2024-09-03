@@ -1,0 +1,124 @@
+BrakulAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [20,15] 0x0 0x0 0x1 REDA_19_13 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [20,15] 0x0 0x0 0x1 REDA_19_15 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [20,15] 0x0 0x0 0x1 REDA_20_17 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+BrakulAmbush2:
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [24,15] 0x0 0x0 0x1 REDA_23_14 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [22,15] 0x0 0x0 0x1 REDA_22_17 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+ChanAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [11,26] 0x0 0x0 0x1 REDA_10_24 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [11,26] 0x0 0x0 0x1 REDA_10_26 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [11,26] 0x0 0x0 0x1 REDA_11_28 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+ChanAmbush2:
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [13,26] 0x0 0x0 0x1 REDA_14_24 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [13,26] 0x0 0x0 0x1 REDA_14_26 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [13,26] 0x0 0x0 0x1 REDA_13_28 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+Enemies:
+UNIT Thoril NomadTrooper 0x0 Level(8,Enemy,0) [17,8] 0x0 0x0 0x0 0x0 [ShortBow, SilverSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_DontRetreat]
+UNIT Brakul Druid 0x0 Level(7,Enemy,0) [21,15] 0x0 0x0 0x0 0x0 [Fenrir, Berserk] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT Kudoka NomadTrooper 0x0 Level(8,Enemy,0) [3,10] 0x0 0x0 0x0 0x0 [ShortBow, LanceReaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT Marral Druid 0x0 Level(7,Enemy,0) [8,14] 0x0 0x0 0x0 0x0 [Fenrir, Sleep] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT Kabul NomadTrooper 0x0 Level(8,Enemy,0) [3,24] 0x0 0x0 0x0 0x0 [ShortBow, KillingEdge] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT Chan Druid 0x0 Level(7,Enemy,0) [12,26] 0x0 0x0 0x0 0x0 [Nosferatu, Silence] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT GenericSacae Nomad 0x0 Level(20,Enemy,1) [14,1] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(7,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(20,Enemy,1) [9,1] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(19,Enemy,1) [7,1] 0x0 0x0 0x0 0x0 [Flux, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(20,Enemy,1) [7,9] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(18,Enemy,1) [9,9] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(6,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [8,11] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(20,Enemy,1) [1,13] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(18,Enemy,1) [3,13] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(6,Enemy,1) [2,14] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [2,15] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [7,25] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [9,25] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(6,Enemy,1) [8,26] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [2,19] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(6,Enemy,1) [3,20] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(18,Enemy,1) [16,10] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(6,Enemy,1) [18,11] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [19,10] 0x0 0x0 0x0 0x0 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae NomadTrooper 0x0 Level(7,Enemy,1) [20,11] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(18,Enemy,1) [13,17] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernLord 0x0 Level(9,Enemy,1) [14,19] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(18,Enemy,1) [27,17] 0x0 0x0 0x0 0x0 [Axereaver, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(18,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernLord 0x0 Level(9,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+KabulAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_1_22 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_1_24 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_2_26 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+KabulAmbush2:
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [4,24] 0x0 0x0 0x1 REDA_5_22 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [4,24] 0x0 0x0 0x1 REDA_5_24 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [4,24] 0x0 0x0 0x1 REDA_4_26 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+KudokaAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [2,10] 0x0 0x0 0x1 REDA_1_8 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [2,10] 0x0 0x0 0x1 REDA_1_10 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [2,10] 0x0 0x0 0x1 REDA_2_12 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+KudokaAmbush2:
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [4,10] 0x0 0x0 0x1 REDA_5_8 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [4,10] 0x0 0x0 0x1 REDA_5_10 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(18,Enemy,1) [4,10] 0x0 0x0 0x1 REDA_4_12 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+MarralAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [7,14] 0x0 0x0 0x1 REDA_6_12 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [7,14] 0x0 0x0 0x1 REDA_6_13 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [7,14] 0x0 0x0 0x1 REDA_7_15 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+MarralAmbush2:
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [9,12] 0x0 0x0 0x1 REDA_10_13 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(18,Enemy,1) [9,12] 0x0 0x0 0x1 REDA_10_11 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+ThorilAmbush1:
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [16,8] 0x0 0x0 0x1 REDA_15_6 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(19,Enemy,1) [16,8] 0x0 0x0 0x1 REDA_15_8 [SteelSword, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [16,8] 0x0 0x0 0x1 REDA_16_10 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+ThorilAmbush2:
+UNIT GenericSacae Shaman 0x0 Level(18,Enemy,1) [20,8] 0x0 0x0 0x1 REDA_19_6 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [18,7] 0x0 0x0 0x1 REDA_19_8 [ShortBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericSacae Nomad 0x0 Level(19,Enemy,1) [20,7] 0x0 0x0 0x1 REDA_18_10 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+Units:
+UNIT Roy RoyLord 0x0 Level(7,Ally,1) [25,2] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, Armorslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Marcus Paladin Roy Level(6,Ally,1) [0,1] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Alen Cavalier Roy Level(8,Ally,1) [23,26] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lance Cavalier Roy Level(5,Ally,1) [23,2] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Bors Knight Roy Level(10,Ally,1) [0,3] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Rutger Myrmidon Roy Level(6,Ally,1) [25,4] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Astolfo Thief Roy Level(10,Ally,1) [22,25] 0x0 0x0 0x0 0x0 [Lockpick, IronSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Barthe Knight Roy Level(15,Ally,1) [1,2] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Chad Thief Roy Level(10,Ally,1) [25,0] 0x0 0x0 0x0 0x0 [Lockpick, IronSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Gwendolyn KnightF Roy Level(6,Ally,1) [22,27] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Chad Thief Roy Level(10,Ally,1) [1,0] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Cecilia Valkyrie Roy Level(6,Ally,1) [24,27] 0x0 0x0 0x0 0x0 [Mend, Elfire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [23,4] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Sue NomadF Roy Level(6,Ally,1) [27,0] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+

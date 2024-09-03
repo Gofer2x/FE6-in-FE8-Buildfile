@@ -2,117 +2,118 @@
 
 #include "REDAs.event"
 #include "CathRecruitment.event"
+#include "OstiaNarcianCutscene.event"
 {
-#include "Chapter1.event"
+#include "ChapterEvents/Chapter1.event"
 }
 {
-#include "Chapter2.event"
+#include "ChapterEvents/Chapter2.event"
 }
 {
-#include "Chapter3.event"
+#include "ChapterEvents/Chapter3.event"
 }
 {
-#include "Chapter4.event"
+#include "ChapterEvents/Chapter4.event"
 }
 {
-#include "Chapter5.event"
+#include "ChapterEvents/Chapter5.event"
 }
 {
-#include "Chapter6.event"
+#include "ChapterEvents/Chapter6.event"
 }
 {
-#include "Chapter7.event"
+#include "ChapterEvents/Chapter7.event"
 }
 {
-#include "Chapter8.event"
+#include "ChapterEvents/Chapter8.event"
 }
 {
-#include "Chapter8x.event"
+#include "ChapterEvents/Chapter8x.event"
 }
 {
-#include "Chapter9.event"
+#include "ChapterEvents/Chapter9.event"
 }
 {
-#include "Chapter10A.event"
+#include "ChapterEvents/Chapter10A.event"
 }
 {
-#include "Chapter11A.event"
+#include "ChapterEvents/Chapter11A.event"
 }
 {
-#include "Chapter10B.event"
+#include "ChapterEvents/Chapter10B.event"
 }
 {
-#include "Chapter11B.event"
+#include "ChapterEvents/Chapter11B.event"
 }
 {
-#include "Chapter12.event"
+#include "ChapterEvents/Chapter12.event"
 }
 {
-#include "Chapter12x.event"
+#include "ChapterEvents/Chapter12x.event"
 }
 {
-#include "Chapter13.event"
+#include "ChapterEvents/Chapter13.event"
 }
 {
-#include "Chapter14.event"
+#include "ChapterEvents/Chapter14.event"
 }
 {
-#include "Chapter14x.event"
+#include "ChapterEvents/Chapter14x.event"
 }
 {
-#include "Chapter15.event"
+#include "ChapterEvents/Chapter15.event"
 }
 {
-#include "Chapter16.event"
+#include "ChapterEvents/Chapter16.event"
 }
 {
-#include "Chapter16x.event"
+#include "ChapterEvents/Chapter16x.event"
 }
 {
-#include "Chapter17A.event"
+#include "ChapterEvents/Chapter17A.event"
 }
 {
-#include "Chapter18A.event"
+#include "ChapterEvents/Chapter18A.event"
 }
 {
-#include "Chapter19A.event"
+#include "ChapterEvents/Chapter19A.event"
 }
 {
-#include "Chapter20A.event"
+#include "ChapterEvents/Chapter20A.event"
 }
 {
-#include "Chapter20Ax.event"
+#include "ChapterEvents/Chapter20Ax.event"
 }
 {
-#include "Chapter17B.event"
+#include "ChapterEvents/Chapter17B.event"
 }
 {
-#include "Chapter18B.event"
+#include "ChapterEvents/Chapter18B.event"
 }
 {
-#include "Chapter19B.event"
+#include "ChapterEvents/Chapter19B.event"
 }
 {
-#include "Chapter20B.event"
+#include "ChapterEvents/Chapter20B.event"
 }
 {
-#include "Chapter20Bx.event"
+#include "ChapterEvents/Chapter20Bx.event"
 }
 {
-#include "Chapter21.event"
+#include "ChapterEvents/Chapter21.event"
 }
 {
-#include "Chapter21x.event"
+#include "ChapterEvents/Chapter21x.event"
 }
 {
-#include "Chapter22.event"
+#include "ChapterEvents/Chapter22.event"
 }
 {
-#include "Chapter23.event"
+#include "ChapterEvents/Chapter23.event"
 }
 {
-#include "Chapter24.event"
+#include "ChapterEvents/Chapter24.event"
 }
 {
-#include "Final.event"
+#include "ChapterEvents/Final.event"
 }

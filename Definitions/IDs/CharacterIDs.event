@@ -129,6 +129,6 @@
 #define GenericPirate 0x81
 #define GenericThria 0x82
 #define GenericRebel 0x83
-#define Ch8GenericBern 0x84
+#define GenericBernCh8 0x84
 #define GenericThief 0x85
 #define GenericBanditCh8x 0x86

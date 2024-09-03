@@ -129,6 +129,6 @@ GenericLaus
 GenericPirate
 GenericThria
 GenericRebel
-Ch8GenericBern
+GenericBernCh8
 GenericThief
 GenericBanditCh8x

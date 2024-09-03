@@ -1,0 +1,67 @@
+CutsceneSaulDorothy:
+UNIT Saul Priest Dory Level(5,NPC,1) [10,3] 0x0 0x0 0x1 REDA_10_4 [] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT Dorothy ArcherF Dory Level(6,NPC,1) [10,2] 0x0 0x0 0x1 REDA_10_3 [] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT
+
+EastFortBrigandReinforcements:
+UNIT GenericBandit Brigand Dory Level(5,Enemy,1) [18,7] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [17,8] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
+UNIT
+
+Enemies:
+UNIT Dory Brigand 0x0 Level(11,Enemy,0) [2,14] 0x0 0x0 0x0 0x0 [KillerAxe, HandAxe] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBandit Fighter Dory Level(4,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(4,Enemy,1) [14,5] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [11,5] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [7,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [5,6] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [4,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Dory Level(5,Enemy,1) [3,5] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(3,Enemy,1) [1,8] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(3,Enemy,1) [3,9] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [1,15] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [2,17] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [2,16] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [3,15] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(2,Enemy,1) [12,2] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(4,Enemy,1) [9,6] 0x0 0x0 0x1 REDA_7_6 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(4,Enemy,1) [2,10] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(5,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [SteelBlade] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Nomad Dory Level(3,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Nomad Dory Level(4,Enemy,1) [4,13] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Nomad Dory Level(3,Enemy,1) [1,11] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Mage Dory Level(5,Enemy,1) [1,18] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+GateOpenEnemies:
+UNIT GenericBandit Mercenary Dory Level(4,Enemy,1) [2,15] 0x0 0x0 0x1 REDA_5_16 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Mercenary Dory Level(4,Enemy,1) [2,15] 0x0 0x0 0x1 REDA_5_17 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Nomad Dory Level(3,Enemy,1) [2,15] 0x0 0x0 0x1 REDA_4_17 [IronBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Nomad Dory Level(4,Enemy,1) [2,15] 0x0 0x0 0x1 REDA_4_16 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+Units:
+UNIT Roy RoyLord 0x0 Level(4,Ally,1) [14,14] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Marcus Paladin Roy Level(2,Ally,1) [14,16] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Alen Cavalier Roy Level(4,Ally,1) [13,13] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lance Cavalier Roy Level(4,Ally,1) [13,15] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Bors Knight Roy Level(3,Ally,1) [12,14] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Wolt Archer Roy Level(3,Ally,1) [15,16] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Dieck Mercenary Roy Level(6,Ally,1) [16,11] 0x0 0x0 0x0 0x0 [IronBlade, IronSword, Armorslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Ward Fighter Roy Level(4,Ally,1) [15,12] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lot Fighter Roy Level(4,Ally,1) [17,12] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe, IronAxe] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Shanna PegasusKnight Roy Level(3,Ally,1) [16,15] 0x0 0x0 0x0 0x0 [SlimLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Elen Cleric Roy Level(5,Ally,1) [14,15] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Chad Thief Roy Level(2,Ally,1) [15,14] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Lugh Mage Roy Level(2,Ally,1) [17,14] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Clarine Troubadour Roy Level(2,Ally,1) [14,13] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Rutger Myrmidon Roy Level(4,Ally,1) [16,13] 0x0 0x0 0x0 0x0 [KillingEdge, IronSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [18,15] 0x0 0x0 0x0 0x0 [] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+WestFortBrigandReinforcements:
+UNIT GenericBandit Brigand Dory Level(5,Enemy,1) [0,4] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBandit Brigand Dory Level(6,Enemy,1) [0,17] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
+UNIT
+

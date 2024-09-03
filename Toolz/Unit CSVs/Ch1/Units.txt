@@ -1,0 +1,41 @@
+AlenBorsWolt:
+UNIT Alen Invalid Roy Level(1,Ally,0) [0,20] 0x0 0x0 0x1 REDA_3_17 [IronSword, IronLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Bors Invalid Roy Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_3_19 [IronLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Wolt Invalid Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_2_16 [IronBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+Enemies1:
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT Damas Fighter 0x0 Level(5,Enemy,0) [5,0] 0x0 0x0 0x1 REDA_5_6 [SteelAxe] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_DontRetreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [2,6] 0x0 0x0 0x1 REDA_1_3 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,10] 0x0 0x0 0x1 REDA_4_5 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,10] 0x0 0x0 0x1 REDA_6_5 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+Enemies2:
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [8,4] 0x0 0x0 0x1 REDA_8_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [9,4] 0x0 0x0 0x1 REDA_9_9 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [7,2] 0x0 0x0 0x1 REDA_11_7 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer Damas Level(1,Enemy,0) [7,3] 0x0 0x0 0x1 REDA_10_10 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT
+
+Enemies3:
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,7] 0x0 0x0 0x1 REDA_7_15 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [12,8] 0x0 0x0 0x1 REDA_8_14 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [3,8] 0x0 0x0 0x1 REDA_12_13 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Fighter Damas Level(1,Enemy,0) [4,8] 0x0 0x0 0x1 REDA_8_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+JustBrigand:
+UNIT GenericBandit Invalid Damas Level(1,Enemy,0) [7,4] 0x0 0x0 0x1 REDA_7_7 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+JustLance:
+UNIT Lance Invalid Roy Level(1,Ally,0) [10,9] 0x0 0x0 0x1 REDA_2_17 [IronSword, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+RoyMarcus:
+UNIT Roy Invalid 0x0 Level(1,Ally,0) [1,20] 0x0 0x0 0x1 REDA_2_18 [Rapier, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Marcus Invalid Roy Level(1,Ally,0) [2,20] 0x0 0x0 0x1 REDA_1_17 [IronSword, SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+

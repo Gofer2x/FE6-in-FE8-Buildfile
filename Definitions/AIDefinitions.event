@@ -6,7 +6,10 @@
 #define AI1_InPlace50 0x5
 #define AI1_None 0x6
 #define AI1_InRangeLaus 0x7
-
+#define AI1_Ballista11B 0x8
+#define AI1_Douglas 0x9
+//#define AI1_ 0xA
+//#define AI1_ 0xB
 #define AI1_AttackInHalfRange 0xC
 #define AI1_InRangeOfCommander 0xD
 #define AI1_HealAllies 0xE
@@ -15,15 +18,16 @@
 
 #define AI2_Charge 0x0
 #define AI2_ChargeLaus 0x1
+#define AI2_Douglas 0x2
 #define AI2_DontMove 0x3
 #define AI2_PillageAttack 0x4
 #define AI2_PillageEscape 0x5
 #define AI2_TwoMoves 0x6
 #define AI2_TwoMovesLaus 0x7
+//#define AI2_ 0x8
 #define AI2_RandomMovement 0x9
-
 #define AI2_MoveTowardsRoy 0xA
-
+//#define AI2_ 0xB
 #define AI2_Escape 0xC
 
 #define AI2_DelayedPillageAttack 0x11

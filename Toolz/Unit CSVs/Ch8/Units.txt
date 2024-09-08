@@ -80,6 +80,12 @@ UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [8,18] 0x0 0x0 0x0 0x0 [Aircalibur] 
 UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [4,18] 0x0 0x0 0x0 0x0 [Elfire, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
+GwendolynBartheOgier:
+UNIT Gwendolyn KnightF Roy Level(1,Ally,0) [1,0] 0x0 0x0 0x1 REDA_4_0 [IronLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Barthe Knight Roy Level(9,Ally,0) [0,1] 0x0 0x0 0x1 REDA_4_1 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Ogier Mercenary Roy Level(3,Ally,0) [2,2] 0x0 0x0 0x1 REDA_5_2 [SteelSword, Armorslayer, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
 JustAstolfo:
 UNIT Astolfo Thief Roy Level(10,Ally,0) [25,18] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
@@ -98,12 +104,6 @@ NorthWestReinforcements2:
 UNIT GenericRebel Archer Legance Level(8,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_1 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
 UNIT GenericRebel Mercenary Legance Level(10,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_1_2 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericRebel Soldier Legance Level(11,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_0_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT
-
-OstiaSquad:
-UNIT Gwendolyn KnightF Roy Level(1,Ally,0) [1,0] 0x0 0x0 0x1 REDA_4_0 [IronLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT Barthe Knight Roy Level(9,Ally,0) [0,1] 0x0 0x0 0x1 REDA_4_1 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT Ogier Mercenary Roy Level(3,Ally,0) [2,2] 0x0 0x0 0x1 REDA_5_2 [SteelSword, Armorslayer, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 StairsAndThroneReinforcements1:

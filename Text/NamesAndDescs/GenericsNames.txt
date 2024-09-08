@@ -40,8 +40,17 @@ Eidyna[X]
 ## GenericJuteauxName
 Juteaux[X]
 
+## GenericCitizenName
+Citizen[X]
+
+## GenericResistanceName
+Resistance[X]
+
 ## GenericEtruriaName
 Etruria[X]
+
+## GenericManaketeName
+Manakete[X]
 
 ## GenericIlliaName
 Illia[X]

@@ -24,3 +24,30 @@ PUSH
 ORG 0x5A869C
 POIN ClarineByte
 POP
+
+//Change AI1_8 to not attack Citizens in Chapter 11B
+#define Citizen11BByte 0x5A8B3C
+PUSH
+ORG Citizen11BByte
+BYTE GenericCitizenEidyna
+POP
+
+//Change AI1_9 to not attack Larum and Elffin (Douglas)
+//In freespace
+ALIGN 4
+DouglasNoAttackList:
+	BYTE Larum
+	BYTE 0x0
+	BYTE Elffin
+	BYTE 0x0
+	WORD 0x0
+PUSH
+ORG 0x5A8B88
+POIN DouglasNoAttackList
+POP
+
+//Ditto for AI2_2
+PUSH
+ORG 0x5A84D8
+POIN DouglasNoAttackList
+POP

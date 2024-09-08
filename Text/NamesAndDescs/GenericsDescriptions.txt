@@ -29,7 +29,7 @@ and the rebellion.[X]
 Thieves hunting for[N]
 treasure to pilfer.[X]
 
-## GenericDesc8xBrigands
+## GenericDescBrigandsCh8x
 Brigands under the[N]
 guise of mercenaries.[X]
 
@@ -53,9 +53,13 @@ of the Western Isles.[X]
 Soldiers defending[N]
 Castle Eidyna.[X]
 
-## GenericDescResistanceCitizens
+## GenericDescResistance
 Citizens who have taken up arms[N]
 to fight for the people.[X]
+
+## GenericDescCitizenEidyna
+Citizens who escaped[N]
+from Castle Eidyna.[X]
 
 ## GenericDescJuteauxCapital
 Soldiers defending the capital[N]
@@ -69,12 +73,24 @@ kingdom of Etruria.[X]
 Brigands who ambush[N]
 travelers in the desert.[X]
 
-## GenericDescArcadiaBernMercenaries
+## GenericDescManaketeWar
+War dragons created[N]
+by the demon dragon.[X]
+
+## GenericDescBernMercenaries
 Mercenaries from the eastern[N]
 kingdom of Bern.[X]
 
 ## GenericDescKnightsOfIllia
 Knights of Ilia.[X]
+
+## GenericDescMercKnightsOfIllia
+Mercenary knights[N]
+of Ilia.[X]
+
+## GenericDescIlliaCivilians
+Civilians living[N]
+in Ilia.[X]
 
 ## GenericDescNomadicWarriors
 Nomadic warriors of Sacae.[X]
@@ -82,10 +98,6 @@ Nomadic warriors of Sacae.[X]
 ## GenericDescDjuteWarriors
 Warriors of the Djute clan[N]
 who support Bern.[X]
-
-## GenericDescManaketeWar
-War dragons created[N]
-by the demon dragon.[X]
 
 ## GenericDescOstianHelpers
 Ostian soldiers helping[N]

@@ -54,13 +54,82 @@ ENDTRAP
 
 ALIGN 4
 
+
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(20,Ally,1) [19,1] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, Armorslayer] DummyAI
+UNIT Marcus Paladin Roy Level(16,Ally,1) [16,0] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] DummyAI
+UNIT Lance Cavalier Roy Level(20,Ally,1) [17,1] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DummyAI
+UNIT Bors Knight Roy Level(18,Ally,1) [19,3] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DummyAI
+UNIT Melady WyvernRiderF Roy Level(15,Ally,1) [21,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin, IronLance, Vulnerary] DummyAI
+UNIT Echidna HeroF Roy Level(8,Ally,1) [16,4] 0x0 0x0 0x0 0x0 [BraveAxe, IronSword, IronBlade, SteelSword] DummyAI
+UNIT Bartre Warrior Roy Level(5,Ally,1) [22,4] 0x0 0x0 0x0 0x0 [SteelAxe, IronAxe, HandAxe] DummyAI
+UNIT Hugh Mage Roy Level(20,Ally,1) [22,0] 0x0 0x0 0x0 0x0 [Fire, Aircalibur, Elfire, Thunder] DummyAI
+UNIT Chad Thief Roy Level(20,Ally,1) [21,1] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Igrene SniperF Roy Level(7,Ally,1) [20,2] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, Vulnerary, SteelBow] DummyAI
+UNIT Cecilia Valkyrie Roy Level(8,Ally,1) [18,2] 0x0 0x0 0x0 0x0 [Elfire, Thunder, Heal, Vulnerary] DummyAI
+UNIT Thea PegasusKnight Roy Level(20,Ally,1) [17,3] 0x0 0x0 0x0 0x0 [BraveLance, SteelLance, Javelin, IronLance] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [19,0] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Roartz General 0x0 Level(10,Enemy,0) [3,19] 0x0 0x0 0x0 0x0 [Spear, RedGem] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericIllia Knight Roartz Level(20,Enemy,1) [7,18] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Weird2, AI4_Retreat]
+UNIT GenericIllia Knight Roartz Level(20,Enemy,1) [15,10] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Weird2, AI4_Retreat]
+UNIT GenericIllia Knight Roartz Level(19,Enemy,1) [12,21] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Knight Roartz Level(19,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [14,12] 0x0 0x0 0x0 0x0 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Weird1, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Weird1, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(19,Enemy,1) [9,14] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [22,12] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(19,Enemy,1) [22,14] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [7,3] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [28,7] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Hero Roartz Level(7,Enemy,1) [22,16] 0x0 0x0 0x0 0x0 [IronBlade] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Hero Roartz Level(7,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [LightBrand] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Sniper Roartz Level(8,Enemy,1) [18,11] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericIllia Sniper Roartz Level(8,Enemy,1) [22,21] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_TwoMoves, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericIllia Sniper Roartz Level(8,Enemy,1) [8,20] 0x0 0x0 0x0 0x0 [KillerBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Druid Roartz Level(6,Enemy,1) [14,14] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Druid Roartz Level(6,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [Flux, Sleep, RedGem] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Druid Roartz Level(6,Enemy,1) [23,15] 0x0 0x0 0x0 0x0 [Flux, Sleep] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Druid Roartz Level(6,Enemy,1) [1,20] 0x0 0x0 0x0 0x0 [Nosferatu, Berserk] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(20,Enemy,1) [14,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(20,Enemy,1) [16,9] 0x0 0x0 0x0 0x0 [Swordreaver, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(18,Enemy,1) [20,11] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(19,Enemy,1) [23,11] 0x0 0x0 0x0 0x0 [Swordreaver, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Bishop Roartz Level(7,Enemy,1) [15,16] 0x0 0x0 0x0 0x0 [Lightning, Purge, Physic] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_HP, AI4_DontRetreat]
+UNIT GenericIllia Bishop Roartz Level(7,Enemy,1) [12,14] 0x0 0x0 0x0 0x0 [Lightning, Mend] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericIllia Bishop Roartz Level(7,Enemy,1) [24,19] 0x0 0x0 0x0 0x0 [Lightning, Mend] [AI1_InRange, AI2_TwoMoves, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Archer 0x0 Level(18,Enemy,1) [3,15] 0x0 0x0 0x0 0x0 [KillerBow, ElysianWhip] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_DontRetreat]
+UNIT GenericEtruria Archer 0x0 Level(18,Enemy,1) [17,25] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_DontRetreat]
+UNIT GenericEtruria Archer 0x0 Level(18,Enemy,1) [28,12] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_DontRetreat]
+UNIT Juno Falcoknight Roartz Level(9,NPC,0) [9,7] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenIllia CivilianF Roartz Level(10,NPC,0) [7,7] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_Escape, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenIllia CivilianF Roartz Level(10,NPC,0) [6,6] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_Escape, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenIllia CivilianF Roartz Level(10,NPC,0) [10,6] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_Escape, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenIllia CivilianF Roartz Level(10,NPC,0) [8,6] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_Escape, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenIllia CivilianF Roartz Level(10,NPC,0) [9,6] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_Escape, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT
+
+JustCath:
+UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [31,20] 0x0 0x0 0x1 REDA_30_20 [IronSword, Lockpick, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Def, AI4_Retreat]
+UNIT
+
+FighterReinforcements:
+UNIT GenericIllia Fighter Roartz Level(20,Enemy,1) [29,0] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(20,Enemy,1) [30,0] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Fighter Roartz Level(20,Enemy,1) [31,0] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+MercReinforcements:
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [31,19] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericIllia Mercenary Roartz Level(18,Enemy,1) [31,20] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+ThiefReinforcements:
+UNIT GenericThief Thief 0x0 Level(20,Enemy,1) [13,0] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Def, AI4_Retreat]
+UNIT GenericThief Thief 0x0 Level(20,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Def, AI4_Retreat]
 UNIT
 
 ALIGN 4

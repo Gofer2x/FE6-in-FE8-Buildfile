@@ -55,12 +55,67 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(8,Ally,1) [19,13] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] DummyAI
+UNIT Marcus Paladin Roy Level(4,Ally,1) [18,12] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] DummyAI
+UNIT Lance Cavalier Roy Level(9,Ally,1) [20,12] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin] DummyAI
+UNIT Bors Knight Roy Level(5,Ally,1) [17,13] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DummyAI
+UNIT Dorothy ArcherF Roy Level(7,Ally,1) [18,13] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, Vulnerary, SteelBow] DummyAI
+UNIT Dieck Mercenary Roy Level(11,Ally,1) [20,13] 0x0 0x0 0x0 0x0 [IronBlade, IronSword, Armorslayer, SteelSword] DummyAI
+UNIT Ward Fighter Roy Level(7,Ally,1) [21,13] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe, SteelAxe] DummyAI
+UNIT Shanna PegasusKnight Roy Level(8,Ally,1) [17,14] 0x0 0x0 0x0 0x0 [SlimLance, Javelin, Vulnerary] DummyAI
+UNIT Elen Cleric Roy Level(10,Ally,1) [18,14] 0x0 0x0 0x0 0x0 [Heal, Unlock, Restore, Vulnerary] DummyAI
+UNIT Noah Cavalier Roy Level(9,Ally,1) [18,15] 0x0 0x0 0x0 0x0 [IronSword, SteelLance, Javelin] DummyAI
+UNIT Lugh Mage Roy Level(5,Ally,1) [20,14] 0x0 0x0 0x0 0x0 [Fire, Thunder, Vulnerary] DummyAI
+UNIT Sue NomadF Roy Level(6,Ally,1) [21,14] 0x0 0x0 0x0 0x0 [IronBow, Torch, Longbow, Antitoxin] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [20,15] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Scott Berserker 0x0 Level(3,Enemy,0) [2,3] 0x0 0x0 0x0 0x0 [KillerAxe, HandAxe] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(8,Enemy,1) [17,20] 0x0 0x0 0x0 0x0 [SteelAxe, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(8,Enemy,1) [15,18] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(9,Enemy,1) [10,7] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(9,Enemy,1) [9,12] 0x0 0x0 0x0 0x0 [PoisonAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(9,Enemy,1) [10,10] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(11,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [SteelBow, Antitoxin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Mercenary Scott Level(10,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Mercenary Scott Level(8,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [IronSword, Antitoxin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(11,Enemy,1) [9,15] 0x0 0x0 0x0 0x0 [PoisonAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(9,Enemy,1) [8,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(10,Enemy,1) [10,20] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(10,Enemy,1) [8,20] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Mage Scott Level(10,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(11,Enemy,1) [4,21] 0x0 0x0 0x0 0x0 [PoisonAxe] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBanditWestIsles Pirate Scott Level(11,Enemy,1) [5,23] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(12,Enemy,1) [4,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Mercenary Scott Level(12,Enemy,1) [0,2] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Mage Scott Level(9,Enemy,1) [2,0] 0x0 0x0 0x0 0x0 [Elfire, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(12,Enemy,1) [0,13] 0x0 0x0 0x1 REDA_0_11 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Mercenary Scott Level(12,Enemy,1) [0,12] 0x0 0x0 0x1 REDA_0_10 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Mage Scott Level(9,Enemy,1) [1,13] 0x0 0x0 0x1 REDA_1_11 [Elfire, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(12,Enemy,1) [14,3] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(12,Enemy,1) [13,2] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(12,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(12,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBanditWestIsles Fighter Scott Level(12,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(11,Enemy,1) [17,5] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBanditWestIsles Archer Scott Level(11,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+FirSin:
+UNIT Fir MyrmidonF Scott Level(1,Enemy,0) [0,10] 0x0 0x0 0x1 REDA_1_10 [WoDao, Vulnerary] DummyAI
+UNIT Sin Nomad Scott Level(5,Enemy,0) [0,5] 0x0 0x0 0x1 REDA_0_7 [ShortBow] DummyAI
+UNIT
+
+FortPiratesReinforcements:
+UNIT GenericPirateWestIsles Pirate 0x0 Level(10,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericPirateWestIsles Pirate 0x0 Level(10,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericPirateWestIsles Pirate 0x0 Level(11,Enemy,1) [7,5] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT
+
+CutsceneCeciliaGuinivere:
+UNIT Cecilia Valkyrie Scott Level(1,NPC,0) [19,16] 0x0 0x0 0x0 0x0 [WoDao, Vulnerary] DummyAI
+UNIT GuinivereTrial SageF Scott Level(1,NPC,0) [18,16] 0x0 0x0 0x0 0x0 [WoDao, Vulnerary] DummyAI
 UNIT
 
 ALIGN 4

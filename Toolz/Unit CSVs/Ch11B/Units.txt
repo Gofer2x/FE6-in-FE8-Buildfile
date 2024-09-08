@@ -7,7 +7,7 @@ UNIT
 CastleMercs:
 UNIT 0xD4 Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_1_26 [Armorslayer] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
 UNIT 0xD4 Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT 0xD4 Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [LanceReaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT 0xD4 Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
 UNIT
 
 CastleReinforcements1:
@@ -25,7 +25,7 @@ UNIT GenericEidyna Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 
 UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
-CivilianChasersc:
+CivilianChasers:
 UNIT GenericEidyna Druid 0x0 Level(1,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_4_26 [Flux, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,25] 0x0 0x0 0x1 REDA_4_25 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT GenericEidyna Shaman 0x0 Level(12,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_4_24 [Flux] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]

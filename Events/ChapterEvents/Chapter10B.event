@@ -55,12 +55,117 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(9,Ally,1) [2,30] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] DummyAI
+UNIT Lilina MageF Roy Level(7,Ally,1) [2,31] 0x0 0x0 0x0 0x0 [Thunder, Fire, Vulnerary] DummyAI
+UNIT Alen Cavalier Roy Level(10,Ally,1) [1,28] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SteelLance] DummyAI
+UNIT Lance Cavalier Roy Level(10,Ally,1) [1,30] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SteelLance] DummyAI
+UNIT Ward Fighter Roy Level(8,Ally,1) [5,28] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe, SteelAxe] DummyAI
+UNIT Lot Fighter Roy Level(9,Ally,1) [5,30] 0x0 0x0 0x0 0x0 [IronAxe, Hammer, HandAxe, SteelAxe] DummyAI
+UNIT Ogier Mercenary Roy Level(9,Ally,1) [6,29] 0x0 0x0 0x0 0x0 [IronBlade, IronSword, Armorslayer, SteelSword] DummyAI
+UNIT Lugh Mage Roy Level(9,Ally,1) [3,29] 0x0 0x0 0x0 0x0 [Fire, Thunder, Vulnerary] DummyAI
+UNIT Chad Thief Roy Level(9,Ally,1) [3,28] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Shanna PegasusKnight Roy Level(10,Ally,1) [4,29] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] DummyAI
+UNIT Clarine Troubadour Roy Level(11,Ally,1) [3,30] 0x0 0x0 0x0 0x0 [Heal, Unlock, Restore, Vulnerary] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [2,29] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Zinque General 0x0 Level(5,Enemy,0) [20,2] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+UNIT GenericSoldierWestIsles Mercenary Zinque Level(12,Enemy,1) [19,4] 0x0 0x0 0x0 0x0 [SteelBlade] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Priest Zinque Level(12,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [Physic] [AI1_HealAllies, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [22,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(11,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(12,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [KillerAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Shaman Zinque Level(9,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(12,Enemy,1) [18,19] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [12,28] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [14,28] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Mercenary Zinque Level(9,Enemy,1) [18,27] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(11,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(12,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [11,11] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Shaman Zinque Level(10,Enemy,1) [15,17] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Shaman Zinque Level(10,Enemy,1) [17,21] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(11,Enemy,1) [16,19] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(12,Enemy,1) [15,24] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Shaman Zinque Level(12,Enemy,1) [13,15] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [13,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Shaman Zinque Level(9,Enemy,1) [13,23] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Priest Zinque Level(11,Enemy,1) [18,4] 0x0 0x0 0x0 0x0 [Physic] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierWestIsles Archer Zinque Level(12,Enemy,1) [8,17] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSoldierWestIsles Fighter Zinque Level(10,Enemy,1) [3,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT
+
+KleinSquad1:
+UNIT Klein Sniper 0x0 Level(1,Enemy,0) [21,31] 0x0 0x0 0x1 REDA_21_30 [SilverBow, WhiteGem] [AI1_InRange80, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT 0xD8 Archer Klein Level(14,Enemy,1) [20,28] 0x0 0x0 0x1 REDA_20_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT 0xD8 Archer Klein Level(14,Enemy,1) [22,28] 0x0 0x0 0x1 REDA_22_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT
+
+KleinSquad2:
+UNIT 0xD8 Archer Klein Level(15,Enemy,1) [20,30] 0x0 0x0 0x1 REDA_20_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT 0xD8 Archer Klein Level(15,Enemy,1) [22,30] 0x0 0x0 0x1 REDA_22_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT
+
+TheaSquad1:
+UNIT Thea PegasusKnight 0x0 Level(8,Enemy,0) [12,0] 0x0 0x0 0x1 REDA_12_1 [SlimLance, Javelin] [AI1_InRange80, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_11_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_13_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT
+
+TheaSquad2:
+UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [11,1] 0x0 0x0 0x1 REDA_12_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [15,1] 0x0 0x0 0x1 REDA_14_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT
+
+BrigandReinforcements1:
+UNIT Scollan Brigand 0x0 Level(11,Enemy,0) [2,0] 0x0 0x0 0x1 REDA_0_0 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT Gonzalez Brigand 0x0 Level(11,Enemy,0) [2,0] 0x0 0x0 0x1 REDA_0_1 [DevilAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+BrigandReinforcements2:
+UNIT GenericBanditWestIsles Brigand 0x0 Level(13,Enemy,1) [2,0] 0x0 0x0 0x1 REDA_1_1 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIsles Brigand 0x0 Level(13,Enemy,1) [2,0] 0x0 0x0 0x1 REDA_1_0 [HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+CavReinforcements1:
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(18,Enemy,1) [0,31] 0x0 0x0 0x1 REDA_2_30 [SteelLance, SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [2,31] 0x0 0x0 0x1 REDA_1_29 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [2,29] 0x0 0x0 0x1 REDA_1_31 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CavReinforcements2:
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [1,31] 0x0 0x0 0x1 REDA_3_29 [SteelLance, IronSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(12,Enemy,1) [1,29] 0x0 0x0 0x1 REDA_3_31 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CavReinforcements3:
+UNIT GenericSoldierWestIsles Paladin 0x0 Level(5,Enemy,1) [0,31] 0x0 0x0 0x1 REDA_2_30 [SilverLance, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [2,31] 0x0 0x0 0x1 REDA_1_29 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [2,29] 0x0 0x0 0x1 REDA_1_31 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CavReinforcements4:
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(13,Enemy,1) [1,31] 0x0 0x0 0x1 REDA_3_29 [SteelLance, IronSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSoldierWestIsles Cavalier 0x0 Level(12,Enemy,1) [1,29] 0x0 0x0 0x1 REDA_3_31 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CutsceneElffin:
+UNIT Elffin Bard 0x0 Level(6,NPC,1) [16,7] 0x0 0x0 0x0 0x0 [SilverBow, WhiteGem] DummyAI
+UNIT
+
+CutsceneGalle:
+UNIT Galle WyvernLord 0x0 Level(6,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [SilverBow, WhiteGem] DummyAI
+UNIT
+
+CutsceneMelady:
+UNIT Melady WyvernRiderF 0x0 Level(6,Enemy,1) [20,2] 0x0 0x0 0x1 REDA_6_1 [SilverBow, WhiteGem] DummyAI
+UNIT
+
+CutsceneThea:
+UNIT Thea PegasusKnight 0x0 Level(6,Enemy,1) [17,31] 0x0 0x0 0x1 REDA_20_30 [SilverBow, WhiteGem] DummyAI
 UNIT
 
 ALIGN 4

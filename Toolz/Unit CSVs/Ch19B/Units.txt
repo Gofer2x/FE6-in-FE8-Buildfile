@@ -7,8 +7,8 @@ UNIT GenericSacae Sage 0x0 Level(6,Enemy,1) [18,4] 0x0 0x0 0x0 0x0 [Aircalibur, 
 UNIT GenericSacae Archer 0x0 Level(18,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT GenericSacae Archer 0x0 Level(18,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT GenericSacae Archer 0x0 Level(18,Enemy,1) [12,6] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
-UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [24,6] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [24,6] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericSacae Mage 0x0 Level(18,Enemy,1) [6,2] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT GenericSacae Mage 0x0 Level(18,Enemy,1) [28,2] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT GenericSacae Archer 0x0 Level(19,Enemy,1) [9,12] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
@@ -47,7 +47,7 @@ UNIT
 
 MyrmsFromHouses:
 UNIT GenericSacae Myrmidon 0x0 Level(18,Enemy,1) [6,4] 0x0 0x0 0x0 0x0 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericSacae Myrmidon 0x0 Level(18,Enemy,1) [27,3] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(18,Enemy,1) [27,3] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericSacae Myrmidon 0x0 Level(18,Enemy,1) [12,11] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericSacae Myrmidon 0x0 Level(18,Enemy,1) [17,11] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT

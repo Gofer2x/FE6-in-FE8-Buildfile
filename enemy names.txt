@@ -73,6 +73,11 @@ Eidyna
 Soldiers defending
 Castle Eidyna.
 
+GenericResistance
+Resistance
+Citizens who have taken up arms
+to fight for the people.
+
 GenericCitizenEidyna
 Citizen
 Citizens who escaped

@@ -24,7 +24,7 @@ UNIT
 Enemies:
 UNIT Thoril NomadTrooper 0x0 Level(8,Enemy,0) [17,8] 0x0 0x0 0x0 0x0 [ShortBow, SilverSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_DontRetreat]
 UNIT Brakul Druid 0x0 Level(7,Enemy,0) [21,15] 0x0 0x0 0x0 0x0 [Fenrir, Berserk] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
-UNIT Kudoka NomadTrooper 0x0 Level(8,Enemy,0) [3,10] 0x0 0x0 0x0 0x0 [ShortBow, LanceReaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
+UNIT Kudoka NomadTrooper 0x0 Level(8,Enemy,0) [3,10] 0x0 0x0 0x0 0x0 [ShortBow, Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
 UNIT Marral Druid 0x0 Level(7,Enemy,0) [8,14] 0x0 0x0 0x0 0x0 [Fenrir, Sleep] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
 UNIT Kabul NomadTrooper 0x0 Level(8,Enemy,0) [3,24] 0x0 0x0 0x0 0x0 [ShortBow, KillingEdge] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]
 UNIT Chan Druid 0x0 Level(7,Enemy,0) [12,26] 0x0 0x0 0x0 0x0 [Nosferatu, Silence] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_DontRetreat]

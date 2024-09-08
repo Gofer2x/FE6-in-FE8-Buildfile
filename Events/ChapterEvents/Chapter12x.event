@@ -55,12 +55,43 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(6,Ally,1) [4,24] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, Armorslayer] DummyAI
+UNIT Alen Cavalier Roy Level(13,Ally,1) [5,24] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SilverLance] DummyAI
+UNIT Lance Cavalier Roy Level(13,Ally,1) [3,23] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, SilverLance] DummyAI
+UNIT Bors Knight Roy Level(12,Ally,1) [6,23] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses, SilverLance] DummyAI
+UNIT Wolt Archer Roy Level(16,Ally,1) [3,25] 0x0 0x0 0x0 0x0 [IronBow, SteelBow, KillerBow, Longbow] DummyAI
+UNIT Clarine Troubadour Roy Level(12,Ally,1) [6,25] 0x0 0x0 0x0 0x0 [Heal, Heal, Mend, Vulnerary] DummyAI
+UNIT Chad Thief Roy Level(10,Ally,1) [4,22] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Lugh Mage Roy Level(15,Ally,1) [4,26] 0x0 0x0 0x0 0x0 [Fire, Fire, Thunder, Elfire] DummyAI
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Guerrero Berserker 0x0 Level(2,Enemy,0) [25,1] 0x0 0x0 0x0 0x0 [SilverAxe, HandAxe] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBandit Thief 0x0 Level(14,Enemy,1) [4,15] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_10_50|TAI_Def, AI4_Retreat]
+UNIT GenericBandit Thief 0x0 Level(14,Enemy,1) [18,26] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_10_50|TAI_Def, AI4_Retreat]
+UNIT GenericBandit Thief 0x0 Level(15,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_10_50|TAI_Def, AI4_Retreat]
+UNIT GenericBandit Druid 0x0 Level(1,Enemy,1) [21,3] 0x0 0x0 0x0 0x0 [Eclipse, Physic, Nosferatu] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(13,Enemy,1) [6,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer 0x0 Level(13,Enemy,1) [5,17] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [3,13] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Myrmidon 0x0 Level(13,Enemy,1) [1,4] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [16,5] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Archer 0x0 Level(14,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Archer 0x0 Level(14,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [12,16] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(15,Enemy,1) [25,14] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Shaman 0x0 Level(15,Enemy,1) [14,21] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(15,Enemy,1) [26,18] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(15,Enemy,1) [18,25] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Myrmidon 0x0 Level(15,Enemy,1) [24,23] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [26,26] 0x0 0x0 0x0 0x0 [PoisonAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [24,25] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [13,22] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBandit Myrmidon 0x0 Level(15,Enemy,1) [17,0] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(14,Enemy,1) [24,2] 0x0 0x0 0x0 0x0 [DevilAxe] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericBandit Myrmidon 0x0 Level(14,Enemy,1) [26,2] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 ALIGN 4

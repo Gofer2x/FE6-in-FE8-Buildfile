@@ -1,3 +1,4 @@
+#define TilesetsSizeStart CURRENTOFFSET
 #include "Fields/Installer.event"
 #include "FieldsBridge/Installer.event"
 #include "Village/Installer.event"
@@ -14,3 +15,6 @@
 #include "PlainsCastle/Installer.event"
 #include "Mountainous/Installer.event"
 #include "Stronghold/Installer.event"
+
+#define TilesetsSizeTotal (CURRENTOFFSET-TilesetsSizeStart)
+MESSAGE Tilesets Size is TilesetsSizeTotal Bytes

@@ -55,12 +55,81 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(16,Ally,1) [2,19] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, SilverSword] DummyAI
+UNIT Barthe Knight Roy Level(18,Ally,1) [2,17] 0x0 0x0 0x0 0x0 [KillerLance, IronLance, Javelin, Vulnerary] DummyAI
+UNIT Bors Knight Roy Level(15,Ally,1) [6,18] 0x0 0x0 0x0 0x0 [SilverLance, IronLance, Javelin, Horseslayer] DummyAI
+UNIT Klein Sniper Roy Level(10,Ally,1) [1,18] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, SteelBow, KillerBow] DummyAI
+UNIT Fir SwordmasterF Roy Level(5,Ally,1) [3,18] 0x0 0x0 0x0 0x0 [WoDao, IronSword, Armorslayer, SteelSword] DummyAI
+UNIT Gwendolyn KnightF Roy Level(16,Ally,1) [4,18] 0x0 0x0 0x0 0x0 [BraveLance, IronLance, Javelin, Vulnerary] DummyAI
+UNIT Clarine Troubadour Roy Level(19,Ally,1) [5,19] 0x0 0x0 0x0 0x0 [Heal, Unlock, Restore, Barrier] DummyAI
+UNIT Shanna Falcoknight Roy Level(15,Ally,1) [1,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin, IronLance, SilverLance] DummyAI
+UNIT Lugh Sage Roy Level(14,Ally,1) [3,20] 0x0 0x0 0x0 0x0 [Fire, Thunder, Elfire, Aircalibur] DummyAI
+UNIT Sue NomadTrooperF Roy Level(12,Ally,1) [4,20] 0x0 0x0 0x0 0x0 [IronBow, Longbow, SteelBow, BraveBow] DummyAI
+UNIT Elffin Bard Roy Level(14,Ally,1) [2,21] 0x0 0x0 0x0 0x0 [Vulnerary, ChestKey5Uses] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [5,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
+UNIT
+
+JustIgrene:
+UNIT Igrene SniperF Roy Level(1,Ally,0) [3,19] 0x0 0x0 0x1 REDA_4_19 [KillerBow] DummyAI
+UNIT
+
+CavReinforcements:
+UNIT GenericEtruria Cavalier 0x0 Level(17,Enemy,1) [16,1] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [16,8] 0x0 0x0 0x1 REDA_15_10 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [15,9] 0x0 0x0 0x1 REDA_14_9 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Raith Paladin 0x0 Level(8,Enemy,0) [16,9] 0x0 0x0 0x0 0x0 [Spear] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBern WyvernRider Raith Level(18,Enemy,1) [9,8] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider Raith Level(17,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider Raith Level(15,Enemy,1) [26,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Valkyrie Raith Level(1,Enemy,1) [18,1] 0x0 0x0 0x0 0x0 [Elfire, Physic] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(18,Enemy,1) [17,2] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Weird2, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(18,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(17,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(15,Enemy,1) [19,3] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Valkyrie Raith Level(1,Enemy,1) [26,19] 0x0 0x0 0x0 0x0 [Aircalibur, Mend] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(18,Enemy,1) [25,18] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(18,Enemy,1) [25,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(17,Enemy,1) [24,17] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Raith Level(15,Enemy,1) [24,21] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sniper Raith Level(5,Enemy,1) [25,6] 0x0 0x0 0x0 0x0 [SilverBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(18,Enemy,1) [24,5] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(17,Enemy,1) [24,7] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(18,Enemy,1) [26,5] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(18,Enemy,1) [26,7] 0x0 0x0 0x0 0x0 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Archer Raith Level(17,Enemy,1) [25,4] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Archer Raith Level(18,Enemy,1) [25,8] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(18,Enemy,1) [12,20] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(17,Enemy,1) [16,21] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Archer Raith Level(15,Enemy,1) [17,24] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(17,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Mercenary Raith Level(18,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Armorslayer] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Weird1, AI4_Retreat]
+UNIT GenericEtruria Cavalier Perceval Level(14,Enemy,1) [14,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Perceval Level(14,Enemy,1) [11,10] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sniper Raith Level(5,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [SilverBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Archer Raith Level(17,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT
+
+PercevalSquad:
+UNIT Perceval Paladin 0x0 Level(5,Enemy,0) [2,0] 0x0 0x0 0x0 0x0 [SilverLance, SilverSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT Douglas General 0x0 Level(5,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SilverLance, SilverSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierPerceval Cavalier Perceval Level(14,Enemy,1) [1,4] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierPerceval Cavalier Perceval Level(15,Enemy,1) [3,4] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierPerceval Cavalier Perceval Level(14,Enemy,1) [1,2] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierPerceval Cavalier Perceval Level(14,Enemy,1) [3,2] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT
+
+GarretSquad:
+UNIT Garret Berserker 0x0 Level(1,Enemy,0) [20,0] 0x0 0x0 0x1 REDA_22_2 [SteelAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(18,Enemy,1) [20,0] 0x0 0x0 0x1 REDA_21_3 [PoisonAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBandit Brigand 0x0 Level(18,Enemy,1) [20,0] 0x0 0x0 0x1 REDA_21_2 [PoisonAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+JustFae:
+UNIT Fae FaeManakete Roy Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Divinestone] DummyAI
 UNIT
 
 ALIGN 4

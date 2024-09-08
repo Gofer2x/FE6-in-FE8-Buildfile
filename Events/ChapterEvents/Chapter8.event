@@ -92,26 +92,85 @@ UNIT Ward Fighter Roy Level(6,Ally,1) [27,20] 0x0 0x0 0x1 REDA_24_20 [IronAxe, H
 UNIT Shanna PegasusKnight Roy Level(7,Ally,1) [28,20] 0x0 0x0 0x1 REDA_25_20 [SlimLance, Javelin, Vulnerary] DummyAI
 UNIT Elen Cleric Roy Level(9,Ally,1) [27,21] 0x0 0x0 0x1 REDA_27_20 [Heal, Unlock, Restore, Vulnerary] DummyAI
 UNIT Chad Thief Roy Level(4,Ally,1) [24,20] 0x0 0x0 0x1 REDA_28_20 [IronSword, Lockpick] DummyAI
-UNIT Lugh Mage Roy Level(3,Ally,1) [25,20] 0x0 0x0 0x1 REDA_25_21 [Fire, Thunder, Vulnerary] DummyAI
-UNIT Merlinus Transporter Roy Level(1,Ally,1) [27,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DummyAI
+UNIT Lugh Mage Roy Level(4,Ally,1) [25,20] 0x0 0x0 0x1 REDA_25_21 [Fire, Thunder, Vulnerary] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,0) [27,21] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Fire] DummyAI
+UNIT
+
+JustLilina:
+UNIT Lilina MageF Roy Level(1,Ally,0) [18,10] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
 JustAstolfo:
 UNIT Astolfo Thief Roy Level(10,Ally,0) [25,18] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
 UNIT
 
-JustLilina:
-UNIT Lilina MageF Roy Level(10,Ally,0) [18,10] 0x0 0x0 0x0 0x0 [0x0] DummyAI
-UNIT
-
 GwendolynBartheOgier:
-UNIT Gwendolyn KnightF Roy Level(10,Ally,0) [1,0] 0x0 0x0 0x1 REDA_4_0 [IronLance, Javelin, Vulnerary] DummyAI
+UNIT Gwendolyn KnightF Roy Level(1,Ally,0) [1,0] 0x0 0x0 0x1 REDA_4_0 [IronLance, Javelin, Vulnerary] DummyAI
 UNIT Barthe Knight Roy Level(9,Ally,0) [0,1] 0x0 0x0 0x1 REDA_4_1 [SteelLance] DummyAI
-UNIT Ogier Mercenary Roy Level(3,Ally,0) [2,2] 0x0 0x0 0x1 REDA_5_2 [SteelLance] DummyAI
+UNIT Ogier Mercenary Roy Level(3,Ally,0) [2,2] 0x0 0x0 0x1 REDA_5_2 [SteelSword, Armorslayer, Vulnerary] DummyAI
 UNIT
 
 Enemies:
 UNIT Legance General 0x0 Level(1,Enemy,0) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+UNIT GenericRebel Soldier 0x0 Level(12,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(12,Enemy,1) [28,9] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(8,Enemy,1) [27,7] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Knight 0x0 Level(7,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [20,2] 0x0 0x0 0x0 0x0 [IronLance, Javelin, DoorKey] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(12,Enemy,1) [20,3] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [19,5] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight 0x0 Level(8,Enemy,1) [12,1] 0x0 0x0 0x0 0x0 [Horseslayer, ChestKey5Uses, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Weird2, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(12,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [10,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(10,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [3,11] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [5,12] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(10,Enemy,1) [13,14] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(10,Enemy,1) [3,12] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Soldier 0x0 Level(11,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(10,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(8,Enemy,1) [1,7] 0x0 0x0 0x0 0x0 [Elfire, DoorKey] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight 0x0 Level(8,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(8,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Knight 0x0 Level(8,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Archer 0x0 Level(9,Enemy,1) [20,11] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat] //unique ai2 that seemingly targets lilina, just making aggressive for now
+UNIT GenericRebel Knight 0x0 Level(8,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [KillerLance, ChestKey5Uses] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Knight 0x0 Level(8,Enemy,1) [6,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [8,18] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Mage 0x0 Level(7,Enemy,1) [4,18] 0x0 0x0 0x0 0x0 [Elfire, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+CathThief:
+UNIT GenericThief Thief 0x0 Level(6,Enemy,1) [15,17] 0x0 0x0 0x1 REDA_15_18 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [20,17] 0x0 0x0 0x1 REDA_20_18 [IronSword, Lockpick, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT
+
+NorthWestReinforcements1:
+UNIT GenericRebel Archer Legance Level(8,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_1 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericRebel Mercenary Legance Level(10,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_1_2 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Soldier Legance Level(11,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_0_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+NorthWestReinforcements2:
+UNIT GenericRebel Archer Legance Level(8,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_1 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericRebel Mercenary Legance Level(10,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_1_2 [Armorslayer] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Soldier Legance Level(11,Enemy,1) [0,1] 0x0 0x0 0x1 REDA_0_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+StairsAndThroneReinforcements1:
+UNIT GenericRebel Archer Legance Level(8,Enemy,1) [15,17] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericRebel Mercenary Legance Level(9,Enemy,1) [20,17] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Soldier Legance Level(11,Enemy,1) [0,23] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Soldier Legance Level(10,Enemy,1) [0,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT
+
+StairsAndThroneReinforcements2:
+UNIT GenericRebel Archer Legance Level(8,Enemy,1) [15,17] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericRebel Mercenary Legance Level(9,Enemy,1) [20,17] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Knight Legance Level(11,Enemy,1) [0,23] 0x0 0x0 0x0 0x0 [SteelLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebel Soldier Legance Level(10,Enemy,1) [0,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 ALIGN 4

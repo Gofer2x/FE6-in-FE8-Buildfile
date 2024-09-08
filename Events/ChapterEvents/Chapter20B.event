@@ -55,12 +55,78 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(20,Ally,1) [15,24] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, Armorslayer] DummyAI
+UNIT Marcus Paladin Roy Level(16,Ally,1) [15,23] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance, Horseslayer] DummyAI
+UNIT Alen Cavalier Roy Level(20,Ally,1) [14,24] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, KillerLance] DummyAI
+UNIT Cecilia Valkyrie Roy Level(8,Ally,1) [15,25] 0x0 0x0 0x0 0x0 [Elfire, Thunder, Heal, Vulnerary] DummyAI
+UNIT Bors Knight Roy Level(18,Ally,1) [13,23] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DummyAI
+UNIT Wolt Archer Roy Level(20,Ally,1) [16,23] 0x0 0x0 0x0 0x0 [IronBow, SteelBow, SilverBow, Longbow] DummyAI
+UNIT Dieck Hero Roy Level(8,Ally,1) [13,22] 0x0 0x0 0x0 0x0 [BraveAxe, IronSword, IronBlade, SteelSword] DummyAI
+UNIT Ward Fighter Roy Level(19,Ally,1) [16,22] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe, SilverAxe, KillerAxe] DummyAI
+UNIT Chad Thief Roy Level(20,Ally,1) [14,23] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Fir MyrmidonF Roy Level(20,Ally,1) [16,24] 0x0 0x0 0x0 0x0 [WoDao, IronSword, LightBrand] DummyAI
+UNIT Sue NomadF Roy Level(20,Ally,1) [13,25] 0x0 0x0 0x0 0x0 [ShortBow, IronBow, SilverBow, Vulnerary] DummyAI
+UNIT Zeiss WyvernRider Roy Level(20,Ally,1) [16,25] 0x0 0x0 0x0 0x0 [BraveLance, SteelLance, Javelin, IronLance] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [14,25] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
+UNIT
+
+JustNiime:
+UNIT Niime DruidF 0x0 Level(18,Ally,0) [13,24] 0x0 0x0 0x0 0x0 [Flux, Eclipse, Physic, Heal] DummyAI
+UNIT
+
+JustDayan:
+UNIT Dayan NomadTrooper 0x0 Level(12,NPC,0) [14,25] 0x0 0x0 0x1 REDA_14_22 [ShortBow, SteelSword] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Roartz General 0x0 Level(10,Enemy,0) [15,2] 0x0 0x0 0x0 0x0 [Spear, RedGem] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericEtruria Knight 0x0 Level(20,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Knight 0x0 Level(20,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Knight 0x0 Level(20,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(8,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [Bolting] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(8,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [Bolting] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(7,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [Aircalibur, Physic, RedGem] [AI1_HealAllies, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(5,Enemy,1) [26,19] 0x0 0x0 0x0 0x0 [Elfire, Physic, Berserk] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(4,Enemy,1) [15,7] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_HealAllies, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sage 0x0 Level(2,Enemy,1) [15,9] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mage 0x0 Level(18,Enemy,1) [6,9] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Mage 0x0 Level(18,Enemy,1) [6,13] 0x0 0x0 0x0 0x0 [Aircalibur] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Swordmaster 0x0 Level(8,Enemy,1) [7,5] 0x0 0x0 0x0 0x0 [SilverSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Swordmaster 0x0 Level(8,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [WoDao] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSacae Swordmaster 0x0 Level(8,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Swordmaster 0x0 Level(8,Enemy,1) [22,15] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [20,15] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [5,7] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(17,Enemy,1) [25,7] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Warrior 0x0 Level(8,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [KillerAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Warrior 0x0 Level(8,Enemy,1) [26,14] 0x0 0x0 0x0 0x0 [SilverAxe] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(16,Enemy,1) [6,15] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacae Myrmidon 0x0 Level(16,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Warrior 0x0 Level(3,Enemy,1) [14,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Warrior 0x0 Level(3,Enemy,1) [15,16] 0x0 0x0 0x0 0x0 [Swordreaver] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Fighter 0x0 Level(18,Enemy,1) [11,16] 0x0 0x0 0x0 0x0 [Swordreaver] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Fighter 0x0 Level(18,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Fighter 0x0 Level(18,Enemy,1) [13,18] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Fighter 0x0 Level(18,Enemy,1) [16,18] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruria Sniper 0x0 Level(8,Enemy,1) [0,12] 0x0 0x0 0x0 0x0 [SteelBow, OrionsBolt] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sniper 0x0 Level(8,Enemy,1) [29,12] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sniper 0x0 Level(8,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruria Sniper 0x0 Level(8,Enemy,1) [23,0] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT
+
+JustCath:
+UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [15,8] 0x0 0x0 0x1 REDA_15_9 [IronSword, Lockpick, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Def, AI4_Retreat]
+UNIT
+
+ThiefReinforcements:
+UNIT GenericBern Thief 0x0 Level(20,Enemy,1) [15,8] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Def, AI4_Retreat]
+UNIT
+
+GaidenBossesYouGoofed:
+UNIT Thoril NomadTrooper 0x0 Level(8,Enemy,0) [14,25] 0x0 0x0 0x1 REDA_14_23 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_DontRetreat]
+UNIT Brakul Druid 0x0 Level(7,Enemy,0) [15,25] 0x0 0x0 0x1 REDA_15_23 [Fenrir] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT Kudoka NomadTrooper 0x0 Level(8,Enemy,0) [15,25] 0x0 0x0 0x1 REDA_15_24 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT Marral Druid 0x0 Level(7,Enemy,0) [14,25] 0x0 0x0 0x1 REDA_14_24 [Fenrir] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 ALIGN 4

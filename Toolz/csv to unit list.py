@@ -201,17 +201,17 @@ unitsList = {
 "0x78" : "0x78",
 "0x79" : "GenericThief",
 "0x7A" : "GenericBanditWestIsles",
-"0x7B" : "GenericWestIslesPirate",
+"0x7B" : "GenericPirateWestIsles",
 "0x7C" : "GenericArmagh",
 "0x7D" : "GenericRobber",
 "0x7E" : "GenericResistance",
 "0x7F" : "GenericEburacum",
 "0x80" : "GenericBanditWestIsles",
-"0x81" : "GenericSoldierWestIslesLords",
+"0x81" : "GenericSoldierWestIsles",
 "0x82" : "GenericBanditWestIsles",
 "0x83" : "GenericBern",
 "0x84" : "GenericJuteaux",
-"0x85" : "GenericSoldierWestIslesCapital",
+"0x85" : "GenericJuteaux",
 "0x86" : "GenericBern",
 "0x87" : "GenericEtruria",
 "0x88" : "GenericBern",
@@ -452,7 +452,7 @@ itemsList = {
 "0x0A" : "Armorslayer",
 "0x0B" : "Rapier",
 "0x0C" : "KillingEdge",
-"0x0D" : "LanceReaver",
+"0x0D" : "Lancereaver",
 "0x0E" : "WoDao",
 "0x0F" : "BindingBlade",
 "0x10" : "IronLance",
@@ -665,10 +665,12 @@ retreatAIsList = {
 #            fe6units = list(dict_reader)
 
 cwd = os.getcwd()
+print(cwd)
 for subdir, _, files in os.walk(cwd+"/Unit CSVs/"):
     output = []
     for filename in files:
         filepath = os.path.join(subdir, filename)
+        print(filepath)
         if ".csv" in filename:
             with open(filepath, 'r', encoding='utf-8') as f:
                 dict_reader = DictReader(f)

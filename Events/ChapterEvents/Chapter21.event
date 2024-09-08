@@ -55,12 +55,156 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Roy RoyLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Marcus Paladin 0x0 Level(2,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronSword, SilverLance] NoAI
+UNIT Roy RoyLord 0x0 Level(20,Ally,1) [2,3] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey, Armorslayer] DummyAI
+UNIT Zeiss WyvernRider Roy Level(20,Ally,1) [3,2] 0x0 0x0 0x0 0x0 [SilverLance, IronLance, Horseslayer] DummyAI
+UNIT Alen Cavalier Roy Level(20,Ally,1) [1,4] 0x0 0x0 0x0 0x0 [IronSword, SilverLance, Javelin, KnightCrest] DummyAI
+UNIT Wolt Archer Roy Level(20,Ally,1) [3,4] 0x0 0x0 0x0 0x0 [Longbow, SteelBow, IronBow, OrionsBolt] DummyAI
+UNIT Bors Knight Roy Level(19,Ally,1) [4,1] 0x0 0x0 0x0 0x0 [IronLance, Javelin, ChestKey5Uses] DummyAI
+UNIT Hugh Mage Roy Level(20,Ally,1) [4,3] 0x0 0x0 0x0 0x0 [Fire, Aircalibur, Elfire, Thunder] DummyAI
+UNIT Fir MyrmidonF Roy Level(20,Ally,1) [2,5] 0x0 0x0 0x0 0x0 [WoDao, IronSword, IronBlade, SteelSword] DummyAI
+UNIT Sue NomadF Roy Level(20,Ally,1) [5,4] 0x0 0x0 0x0 0x0 [ShortBow, SteelBow, IronBow, OrionsBolt] DummyAI
+UNIT Chad Thief Roy Level(20,Ally,1) [3,6] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] DummyAI
+UNIT Thea PegasusKnight Roy Level(20,Ally,1) [4,5] 0x0 0x0 0x0 0x0 [BraveLance, SteelLance, Javelin, ElysianWhip] DummyAI
+UNIT Klein Sniper Roy Level(10,Ally,1) [5,2] 0x0 0x0 0x0 0x0 [IronBow, SilverBow, KillerBow, SteelBow] DummyAI
+UNIT Clarine Troubadour Roy Level(20,Ally,1) [1,6] 0x0 0x0 0x0 0x0 [Physic, Mend, Heal] DummyAI
+UNIT Lilina MageF Roy Level(20,Ally,1) [6,3] 0x0 0x0 0x0 0x0 [Elfire, Thunder, GuidingRing] DummyAI
+UNIT Dieck Mercenary Roy Level(15,Ally,1) [2,7] 0x0 0x0 0x0 0x0 [BraveSword, SteelAxe, HeroCrest] DummyAI
+UNIT Merlinus Transporter Roy Level(1,Ally,1) [2,1] 0x0 0x0 0x0 0x0 [IronSword, IronLance, Javelin, Restore] DummyAI
+UNIT Ward Fighter Roy Level(20,Ally,1) [0,3] 0x0 0x0 0x0 0x0 [SteelAxe] DummyAI
+UNIT Juno Falcoknight Roy Level(15,Ally,1) [0,5] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, IronLance] DummyAI
+UNIT Shanna PegasusKnight Roy Level(20,Ally,1) [6,1] 0x0 0x0 0x0 0x0 [BraveLance, SteelLance, Javelin, ElysianWhip] DummyAI
+UNIT
+
+YoderMulagir:
+UNIT Yoder Bishop 0x0 Level(20,Ally,0) [1,2] 0x0 0x0 0x0 0x0 [Recover, Lightning, Mulagir, SaintsStaff] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+YogerMaltet:
+UNIT Yoder Bishop 0x0 Level(20,Ally,0) [1,2] 0x0 0x0 0x0 0x0 [Recover, Lightning, Maltet, SaintsStaff] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 Enemies:
-UNIT 0x80 Fighter 0x0 Level(1,Enemy,0) [12,9] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Murdock General 0x0 Level(20,Enemy,0) [24,27] 0x0 0x0 0x0 0x0 [Tomahawk, KnightCrest] [AI1_InPlace, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_DontRetreat]
+UNIT GenericBern WyvernLord 0x0 Level(10,Enemy,1) [29,5] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [28,5] 0x0 0x0 0x0 0x0 [KillerLance, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [28,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [27,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [27,7] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernLord 0x0 Level(10,Enemy,1) [15,20] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [KillerLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [16,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [14,18] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [17,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernLord 0x0 Level(10,Enemy,1) [3,27] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [3,26] 0x0 0x0 0x0 0x0 [KillerLance, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [4,26] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [2,25] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(10,Enemy,1) [5,25] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericManakete FireManakete 0x0 Level(10,Enemy,1) [28,21] 0x0 0x0 0x0 0x0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericManakete FireManakete 0x0 Level(10,Enemy,1) [17,25] 0x0 0x0 0x0 0x0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Bishop 0x0 Level(10,Enemy,1) [12,23] 0x0 0x0 0x0 0x0 [Divine, Physic] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericBern Bishop 0x0 Level(10,Enemy,1) [26,19] 0x0 0x0 0x0 0x0 [Divine, Physic] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Bishop 0x0 Level(10,Enemy,1) [14,12] 0x0 0x0 0x0 0x0 [Divine, Physic] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericBern Sage 0x0 Level(12,Enemy,1) [23,4] 0x0 0x0 0x0 0x0 [Elfire, Mend] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericBern Sage 0x0 Level(12,Enemy,1) [4,16] 0x0 0x0 0x0 0x0 [Aircalibur, Mend] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Sage 0x0 Level(12,Enemy,1) [24,30] 0x0 0x0 0x0 0x0 [Bolting, Fire, Physic] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Knight 0x0 Level(20,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Knight 0x0 Level(20,Enemy,1) [16,13] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Knight 0x0 Level(20,Enemy,1) [23,15] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Knight 0x0 Level(20,Enemy,1) [22,27] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBern Knight 0x0 Level(20,Enemy,1) [26,27] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Weird2, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(19,Enemy,1) [9,19] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(19,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(19,Enemy,1) [24,17] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(20,Enemy,1) [8,18] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(20,Enemy,1) [17,14] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericBern Archer 0x0 Level(20,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT
+
+HardExtraEnemies:
+UNIT GenericBern WyvernLord 0x0 Level(10,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [17,5] 0x0 0x0 0x0 0x0 [KillerLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [17,7] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [19,7] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [19,5] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernLord 0x0 Level(10,Enemy,1) [7,34] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [6,33] 0x0 0x0 0x0 0x0 [KillerLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [8,33] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [8,35] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(10,Enemy,1) [6,35] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT
+
+EastWyvernReinforcements1:
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,12] 0x0 0x0 0x1 REDA_30_11 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [31,11] 0x0 0x0 0x1 REDA_31_10 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,10] 0x0 0x0 0x1 REDA_30_9 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,11] 0x0 0x0 0x1 REDA_30_10 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT
+
+EastWyvernReinforcements2:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [28,11] 0x0 0x0 0x1 REDA_27_10 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [28,11] 0x0 0x0 0x1 REDA_27_11 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [27,10] 0x0 0x0 0x1 REDA_26_11 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [27,10] 0x0 0x0 0x1 REDA_26_10 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+EastWyvernReinforcements3:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [31,15] 0x0 0x0 0x1 REDA_30_15 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [31,16] 0x0 0x0 0x1 REDA_29_15 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [31,16] 0x0 0x0 0x1 REDA_29_16 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [31,17] 0x0 0x0 0x1 REDA_28_14 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+SouthCenterWyvernReinforcements:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [13,29] 0x0 0x0 0x1 REDA_14_28 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [13,29] 0x0 0x0 0x1 REDA_14_27 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [13,30] 0x0 0x0 0x1 REDA_13_26 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [13,30] 0x0 0x0 0x1 REDA_15_25 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+SouthWestWyvernReinforcementsLeft:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [0,35] 0x0 0x0 0x1 REDA_1_35 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [2,35] 0x0 0x0 0x1 REDA_0_33 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [2,35] 0x0 0x0 0x1 REDA_2_33 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [2,34] 0x0 0x0 0x1 REDA_1_34 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+SouthWestWyvernReinforcementsMiddle:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [7,35] 0x0 0x0 0x1 REDA_7_34 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [5,35] 0x0 0x0 0x1 REDA_6_35 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [9,35] 0x0 0x0 0x1 REDA_8_35 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [9,35] 0x0 0x0 0x1 REDA_7_35 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT
+
+SouthWestWyvernReinforcementsRight:
+UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [11,34] 0x0 0x0 0x1 REDA_12_34 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [13,34] 0x0 0x0 0x1 REDA_14_34 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [12,35] 0x0 0x0 0x1 REDA_13_35 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [12,34] 0x0 0x0 0x1 REDA_13_34 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT
+
+PaladinReinforcements:
+UNIT GenericBern Paladin 0x0 Level(13,Enemy,1) [5,27] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Paladin 0x0 Level(5,Enemy,1) [6,27] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Paladin 0x0 Level(5,Enemy,1) [7,27] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Paladin 0x0 Level(5,Enemy,1) [8,27] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+JustGalle:
+UNIT Galle WyvernLord Galle Level(18,Enemy,0) [10,5] 0x0 0x0 0x1 REDA_10_6 [Spear] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_Gale
+UNIT
+
+GalleSquad:
+UNIT GenericBern WyvernRider Galle Level(20,Enemy,1) [9,4] 0x0 0x0 0x1 REDA_9_5 [Horseslayer] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider Galle Level(20,Enemy,1) [11,4] 0x0 0x0 0x1 REDA_11_5 [Axereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider Galle Level(20,Enemy,1) [9,6] 0x0 0x0 0x1 REDA_9_7 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT GenericBern WyvernRider Galle Level(20,Enemy,1) [11,6] 0x0 0x0 0x1 REDA_11_7 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
+UNIT
+
+PeresSquad:
+UNIT Peres Druid 0x0 Level(15,Enemy,0) [24,30] 0x0 0x0 0x1 REDA_24_34 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Druid 0x0 Level(10,Enemy,1) [24,30] 0x0 0x0 0x1 REDA_23_35 [Fenrir, Physic] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Druid 0x0 Level(10,Enemy,1) [24,30] 0x0 0x0 0x1 REDA_25_35 [Fenrir, Physic] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ALIGN 4

@@ -39,8 +39,8 @@ UNIT GenericIllia Archer 0x0 Level(18,Enemy,1) [13,19] 0x0 0x0 0x0 0x0 [IronBow,
 UNIT GenericIllia Archer 0x0 Level(18,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
 UNIT GenericIllia Archer 0x0 Level(18,Enemy,1) [23,4] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
 UNIT GenericIllia Archer 0x0 Level(18,Enemy,1) [29,17] 0x0 0x0 0x0 0x0 [IronBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
-UNIT GenericIllia Druid 0x0 Level(6,Enemy,1) [22,15] 0x0 0x0 0x0 0x0 [Physic, Silence] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
-UNIT GenericIllia Druid 0x0 Level(6,Enemy,1) [11,9] 0x0 0x0 0x0 0x0 [Physic, Sleep] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericIllia Druid 0x0 Level(6,Enemy,1) [22,15] 0x0 0x0 0x0 0x0 [Physic, Silence] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericIllia Druid 0x0 Level(6,Enemy,1) [11,9] 0x0 0x0 0x0 0x0 [Physic, Sleep] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
 UNIT
 
 JustNiime:

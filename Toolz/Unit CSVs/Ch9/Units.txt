@@ -41,9 +41,9 @@ UNIT Sin Nomad Scott Level(5,Enemy,0) [0,5] 0x0 0x0 0x1 REDA_0_7 [ShortBow] [AI1
 UNIT
 
 FortPiratesReinforcements:
-UNIT GenericWestIslesPirate Pirate 0x0 Level(10,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
-UNIT GenericWestIslesPirate Pirate 0x0 Level(10,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
-UNIT GenericWestIslesPirate Pirate 0x0 Level(11,Enemy,1) [7,5] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericPirateWestIsles Pirate 0x0 Level(10,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericPirateWestIsles Pirate 0x0 Level(10,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
+UNIT GenericPirateWestIsles Pirate 0x0 Level(11,Enemy,1) [7,5] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_DmgAcc, AI4_Retreat]
 UNIT
 
 Units:

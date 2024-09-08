@@ -1,7 +1,7 @@
 Enemies:
 UNIT Windham Bishop 0x0 Level(12,Enemy,0) [15,2] 0x0 0x0 0x0 0x0 [Divine, Berserk] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_DontRetreat]
-UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Purge, Lightning, Physic] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Purge, Divine, Physic] [AI1_Healer, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Purge, Lightning, Physic] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Purge, Divine, Physic] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
 UNIT GenericEtruria Knight Oates Level(15,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [Horseslayer] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruria Knight Oates Level(15,Enemy,1) [19,7] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruria Sage Oates Level(4,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [Silence, Aircalibur] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
@@ -37,11 +37,11 @@ UNIT Douglas General 0x0 Level(8,Ally,0) [15,29] 0x0 0x0 0x1 REDA_15_28 [SilverA
 UNIT
 
 NorthEastBishopReinforcements:
-UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Divine, Silence, Physic] [AI1_Healer, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [25,0] 0x0 0x0 0x0 0x0 [Divine, Silence, Physic] [AI1_HealAllies, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
 UNIT
 
 NorthWestBishopReinforcements:
-UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Lightning, Silence, Physic] [AI1_Healer, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
+UNIT GenericEtruria Bishop 0x0 Level(8,Enemy,1) [5,0] 0x0 0x0 0x0 0x0 [Lightning, Silence, Physic] [AI1_HealAllies, AI2_DontMove, RAI_10_50|TAI_Reckless, AI4_Retreat]
 UNIT
 
 Units:

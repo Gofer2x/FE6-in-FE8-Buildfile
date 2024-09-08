@@ -3643,3 +3643,27 @@ TxtData0x10d9:
 #incext ParseFile "_textentries\0x10d9.txt"
 setText(0x10d9,TxtData0x10d9)
 
+TxtData0x10da:
+#incext ParseFile "_textentries\0x10da.txt"
+setText(0x10da,TxtData0x10da)
+
+TxtData0x10db:
+#incext ParseFile "_textentries\0x10db.txt"
+setText(0x10db,TxtData0x10db)
+
+TxtData0x10dc:
+#incext ParseFile "_textentries\0x10dc.txt"
+setText(0x10dc,TxtData0x10dc)
+
+TxtData0x10dd:
+#incext ParseFile "_textentries\0x10dd.txt"
+setText(0x10dd,TxtData0x10dd)
+
+TxtData0x10de:
+#incext ParseFile "_textentries\0x10de.txt"
+setText(0x10de,TxtData0x10de)
+
+TxtData0x10df:
+#incext ParseFile "_textentries\0x10df.txt"
+setText(0x10df,TxtData0x10df)
+

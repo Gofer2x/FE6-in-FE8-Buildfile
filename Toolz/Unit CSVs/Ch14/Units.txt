@@ -1,40 +1,40 @@
-BanditReinforcements1:
+BrigandReinforcements1:
 UNIT Rose Berserker 0x0 Level(6,Enemy,1) [1,16] 0x0 0x0 0x1 REDA_1_18 [DevilAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Weird2, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(16,Enemy,1) [2,14] 0x0 0x0 0x1 REDA_2_16 [KillerAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(17,Enemy,1) [2,15] 0x0 0x0 0x1 REDA_2_17 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcements2:
+BrigandReinforcements2:
 UNIT GenericBanditDesert Brigand Rose Level(16,Enemy,1) [2,16] 0x0 0x0 0x1 REDA_2_18 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(15,Enemy,1) [2,17] 0x0 0x0 0x1 REDA_2_19 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcements3:
+BrigandReinforcements3:
 UNIT Maggie Berserker 0x0 Level(5,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_7_21 [Halberd] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(16,Enemy,1) [6,18] 0x0 0x0 0x1 REDA_6_20 [KillerAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(16,Enemy,1) [7,18] 0x0 0x0 0x1 REDA_7_20 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcements4:
+BrigandReinforcements4:
 UNIT GenericBanditDesert Brigand Maggie Level(17,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_8_20 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(14,Enemy,1) [9,18] 0x0 0x0 0x1 REDA_9_20 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcementsNorth:
+BrigandReinforcementsNorth:
 UNIT GenericBanditDesert Brigand Rose Level(16,Enemy,1) [7,0] 0x0 0x0 0x1 REDA_7_1 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(17,Enemy,1) [8,0] 0x0 0x0 0x1 REDA_8_1 [PoisonAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(17,Enemy,1) [9,0] 0x0 0x0 0x1 REDA_9_1 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(18,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_10_1 [PoisonAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcementsSouthEast:
+BrigandReinforcementsSouthEast:
 UNIT GenericBanditDesert Brigand Rose Level(16,Enemy,1) [31,19] 0x0 0x0 0x1 REDA_30_19 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(17,Enemy,1) [31,20] 0x0 0x0 0x1 REDA_30_20 [PoisonAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(17,Enemy,1) [31,21] 0x0 0x0 0x1 REDA_30_21 [PoisonAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(18,Enemy,1) [31,17] 0x0 0x0 0x1 REDA_30_17 [PoisonAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BanditReinforcementsSouthWest:
+BrigandReinforcementsSouthWest:
 UNIT GenericBanditDesert Brigand Rose Level(16,Enemy,1) [0,15] 0x0 0x0 0x1 REDA_0_16 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Rose Level(17,Enemy,1) [0,17] 0x0 0x0 0x1 REDA_0_18 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditDesert Brigand Maggie Level(17,Enemy,1) [9,20] 0x0 0x0 0x1 REDA_9_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
@@ -67,8 +67,8 @@ UNIT GenericBern Mage Randy Level(15,Enemy,1) [23,20] 0x0 0x0 0x0 0x0 [Elfire] [
 UNIT GenericManakete FireManakete Randy Level(3,Enemy,1) [24,20] 0x0 0x0 0x0 0x0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT GenericManakete FireManakete Randy Level(1,Enemy,1) [5,7] 0x0 0x0 0x0 0x0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Mage Randy Level(15,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Priest Randy Level(17,Enemy,1) [24,10] 0x0 0x0 0x0 0x0 [Mend, Silence] [AI1_Healer, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Priest Randy Level(17,Enemy,1) [16,8] 0x0 0x0 0x0 0x0 [Recover] [AI1_Healer, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBern Priest Randy Level(17,Enemy,1) [24,10] 0x0 0x0 0x0 0x0 [Mend, Silence] [AI1_HealAllies, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBern Priest Randy Level(17,Enemy,1) [16,8] 0x0 0x0 0x0 0x0 [Recover] [AI1_HealAllies, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
 UNIT GenericBern Bishop Randy Level(4,Enemy,1) [28,5] 0x0 0x0 0x0 0x0 [Lightning, Mend, Sleep] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Reckless, AI4_Retreat]
 UNIT GenericBern WyvernLord Randy Level(3,Enemy,1) [4,2] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT GenericBern WyvernRider Randy Level(14,Enemy,1) [3,3] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_Retreat]

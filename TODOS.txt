@@ -10,6 +10,8 @@ supports
 
 actually implementing supports
 
+optimize mugs by reusing data for palette swaps
+
 character palettes
 
 roy special death quote? give it a special event?

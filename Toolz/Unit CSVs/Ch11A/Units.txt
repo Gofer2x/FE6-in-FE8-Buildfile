@@ -1,25 +1,29 @@
-BrigandsReinforcements1:
+BrigandReinforcements1:
 UNIT GenericBanditWestIsles Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditWestIsles Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-BrigandsReinforcements2:
+BrigandReinforcements2:
 UNIT GenericBanditWestIsles Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditWestIsles Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-Echidna:
-UNIT Echidna HeroF 0x0 Level(1,NPC,0) [18,10] 0x0 0x0 0x1 REDA_18_11 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+CutsceneGalle:
+UNIT Galle WyvernRider 0x0 Level(8,Enemy,1) [29,14] 0x0 0x0 0x1 REDA_27_13 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+UNIT
+
+CutsceneMelady:
+UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [27,2] 0x0 0x0 0x0 0x0 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+UNIT
+
+CutsceneMelady2:
+UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_27_12 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
 UNIT
 
 EchidnaFighters:
 UNIT GenericEburacum Fighter 0x0 Level(17,Enemy,1) [16,10] 0x0 0x0 0x1 REDA_16_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Fighter 0x0 Level(15,Enemy,1) [20,12] 0x0 0x0 0x1 REDA_18_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Fighter 0x0 Level(15,Enemy,1) [20,10] 0x0 0x0 0x1 REDA_20_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT
-
-Elffin:
-UNIT Elffin Bard 0x0 Level(8,NPC,1) [29,3] 0x0 0x0 0x1 REDA_27_2 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
 UNIT
 
 Enemies:
@@ -47,8 +51,20 @@ UNIT GenericEburacum Archer Orlo Level(14,Enemy,1) [14,23] 0x0 0x0 0x0 0x0 [Long
 UNIT GenericEburacum Fighter Orlo Level(16,Enemy,1) [8,23] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Weird2, AI4_Retreat]
 UNIT
 
-Galle:
-UNIT Galle WyvernRider 0x0 Level(8,Enemy,1) [29,14] 0x0 0x0 0x1 REDA_27_13 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+JustEchidna:
+UNIT Echidna HeroF 0x0 Level(1,NPC,0) [18,10] 0x0 0x0 0x1 REDA_18_11 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT
+
+JustElffin:
+UNIT Elffin Bard 0x0 Level(8,NPC,1) [29,3] 0x0 0x0 0x1 REDA_27_2 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
+UNIT
+
+JustLarum:
+UNIT Larum Dancer Roy Level(1,Ally,0) [2,6] 0x0 0x0 0x1 REDA_2_7 [Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
+JustOrlo:
+UNIT Orlo Bishop 0x0 Level(8,Enemy,0) [27,2] 0x0 0x0 0x0 0x0 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
 UNIT
 
 KleinSquad1:
@@ -62,43 +78,27 @@ UNIT 0xD8 Archer Klein Level(14,Enemy,1) [20,25] 0x0 0x0 0x1 REDA_21_25 [SteelBo
 UNIT 0xD8 Archer Klein Level(15,Enemy,1) [24,25] 0x0 0x0 0x1 REDA_23_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
-Larum:
-UNIT Larum Dancer Roy Level(1,Ally,0) [2,6] 0x0 0x0 0x1 REDA_2_7 [Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT
-
-Melady:
-UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [27,2] 0x0 0x0 0x0 0x0 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
-UNIT
-
-Melady2:
-UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_27_12 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
-UNIT
-
-NorthWestCavsReinforcements1:
+NorthWestCavReinforcements1:
 UNIT GenericEburacum Cavalier 0x0 Level(19,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_1 [KillerLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [2,0] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-NorthWestCavsReinforcements2:
+NorthWestCavReinforcements2:
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_4_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [5,0] 0x0 0x0 0x1 REDA_5_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_3 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-Orlo:
-UNIT Orlo Bishop 0x0 Level(8,Enemy,0) [27,2] 0x0 0x0 0x0 0x0 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
-UNIT
-
-SouthEastCavsReinforcements1:
+SouthEastCavReinforcements1:
 UNIT Roberts Paladin 0x0 Level(1,Enemy,1) [20,25] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [18,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [19,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-SouthEastCavsReinforcements2:
+SouthEastCavReinforcements2:
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [21,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [22,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [23,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]

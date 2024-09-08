@@ -16,6 +16,10 @@ UNIT Galle WyvernLord 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_28_7 [SteelA
 UNIT Murdock General 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_29_7 [SteelAxe, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
+CutsceneRoartz:
+UNIT Roartz General 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT
+
 CutsceneYoder:
 UNIT Yoder Bishop 0x0 Level(18,NPC,1) [3,20] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
@@ -44,7 +48,7 @@ UNIT GenericEtruria Cavalier 0x0 Level(15,Enemy,1) [22,6] 0x0 0x0 0x0 0x0 [Axere
 UNIT GenericEtruria Cavalier 0x0 Level(15,Enemy,1) [20,4] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruria Cavalier 0x0 Level(15,Enemy,1) [22,4] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruria Bishop 0x0 Level(6,Enemy,1) [29,12] 0x0 0x0 0x0 0x0 [Physic, Purge] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericEtruria Bishop 0x0 Level(5,Enemy,1) [29,5] 0x0 0x0 0x0 0x0 [Physic, Divine, Sleep] [AI1_Healer, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericEtruria Bishop 0x0 Level(5,Enemy,1) [29,5] 0x0 0x0 0x0 0x0 [Physic, Divine, Sleep] [AI1_HealAllies, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_DontRetreat]
 UNIT GenericEtruria Archer 0x0 Level(17,Enemy,1) [17,14] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT GenericEtruria Fighter 0x0 Level(17,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT GenericEtruria Archer 0x0 Level(17,Enemy,1) [21,17] 0x0 0x0 0x0 0x0 [SteelBow, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]

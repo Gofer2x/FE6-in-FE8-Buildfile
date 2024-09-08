@@ -1,6 +1,6 @@
 BishopReinforcements:
-UNIT GenericBern Bishop Zephiel Level(9,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [Silence, Divine, Physic] [AI1_Healer, AI2_Charge, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Bishop Zephiel Level(10,Enemy,1) [20,0] 0x0 0x0 0x0 0x0 [Sleep, Divine, Physic] [AI1_Healer, AI2_Charge, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericBern Bishop Zephiel Level(9,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [Silence, Divine, Physic] [AI1_HealAllies, AI2_Charge, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericBern Bishop Zephiel Level(10,Enemy,1) [20,0] 0x0 0x0 0x0 0x0 [Sleep, Divine, Physic] [AI1_HealAllies, AI2_Charge, RAI_50_100|TAI_Reckless, AI4_Retreat]
 UNIT
 
 Enemies:
@@ -20,10 +20,10 @@ UNIT GenericBern Druid Zephiel Level(12,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [Fenrir,
 UNIT GenericBern Berserker Zephiel Level(10,Enemy,1) [26,4] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
 UNIT GenericBern Berserker Zephiel Level(10,Enemy,1) [28,10] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
 UNIT GenericBern Druid Zephiel Level(12,Enemy,1) [28,12] 0x0 0x0 0x0 0x0 [Fenrir, Mend, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [8,12] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [8,12] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Sniper Zephiel Level(9,Enemy,1) [8,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [8,17] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [25,12] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [25,12] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Sniper Zephiel Level(9,Enemy,1) [25,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT GenericBern Mercenary Zephiel Level(20,Enemy,1) [25,17] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Hero Zephiel Level(11,Enemy,1) [13,2] 0x0 0x0 0x0 0x0 [SilverSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
@@ -40,8 +40,8 @@ UNIT GenericManakete FireManakete Zephiel Level(10,Enemy,1) [17,12] 0x0 0x0 0x0 
 UNIT GenericBern Druid Zephiel Level(12,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [Fenrir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Druid Zephiel Level(12,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Fenrir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBern Hero Zephiel Level(9,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [SilverSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Hero Zephiel Level(9,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Bishop Zephiel Level(12,Enemy,1) [19,10] 0x0 0x0 0x0 0x0 [Divine, Recover] [AI1_Healer, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBern Hero Zephiel Level(9,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericBern Bishop Zephiel Level(12,Enemy,1) [19,10] 0x0 0x0 0x0 0x0 [Divine, Recover] [AI1_HealAllies, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
 UNIT GenericBern Sniper Zephiel Level(11,Enemy,1) [11,10] 0x0 0x0 0x0 0x0 [SilverBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
@@ -65,14 +65,14 @@ UNIT
 SouthEastReinforcements:
 UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [26,31] 0x0 0x0 0x1 REDA_26_29 [SilverSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern Sniper Zephiel Level(14,Enemy,1) [27,31] 0x0 0x0 0x1 REDA_26_30 [SilverBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [28,31] 0x0 0x0 0x1 REDA_28_29 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [28,31] 0x0 0x0 0x1 REDA_28_29 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern Druid Zephiel Level(13,Enemy,1) [29,31] 0x0 0x0 0x1 REDA_28_30 [Fenrir, Mend] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 SouthWestReinforcements:
 UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [0,31] 0x0 0x0 0x1 REDA_0_29 [SilverSword] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern Sniper Zephiel Level(14,Enemy,1) [1,31] 0x0 0x0 0x1 REDA_0_30 [SilverBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [2,31] 0x0 0x0 0x1 REDA_2_29 [LanceReaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBern Hero Zephiel Level(12,Enemy,1) [2,31] 0x0 0x0 0x1 REDA_2_29 [Lancereaver] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern Druid Zephiel Level(13,Enemy,1) [4,31] 0x0 0x0 0x1 REDA_2_30 [Fenrir, Mend] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 

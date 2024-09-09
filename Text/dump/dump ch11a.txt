@@ -1,0 +1,522 @@
+
+//Chapter11A
+[EB]
+[OpenMidLeft][LoadOrlo][OpenMidRight][LoadMelady]
+[OpenMidRight][FastPrint][ToggleSmile][CloseSpeechFast]So Princess Guinivere isn't
+in the Western Isles?[A]
+[OpenMidLeft]We searched every inch of the Isles,[A]
+and our intelligence has learned
+nothing from the Lycian Army.[A]
+The princess is nowhere to be found.
+I apologize.[A]
+[OpenMidRight]I understand.
+I will continue my search elsewhere.[A]
+Bern thanks you for your
+cooperation, Father Orlo.[A]
+[OpenMidLeft][ToggleSmile]I pray that you find
+Princess Guinivere soon.[A]
+[OpenMidRight]Thank you.[A][ClearFace]
+
+[EC]
+
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadOrlo]
+[OpenMidLeft][FastPrint]Who was that,
+Father Orlo?[A]
+[OpenMidRight][CloseSpeechFast]Captain Melady. A wyvern rider from Bern
+who serves Princess Guinivere.[A]
+She's searching for the princess.[A]
+[OpenMidLeft]Did you tell her where
+the princess is?[A]
+[OpenMidRight]Of course not.
+Princess Guinivere is far too valuable.[A]
+High Chancellor Roartz was ecstatic when
+he learned the princess was in Aquileia.[A]
+He had the same evil glint in his eye
+when Prince Myrddin was assassinated.[A]
+[OpenMidLeft]Father Orlo![A]
+You must never speak of
+the assassination...[A]
+[OpenMidRight]Oh, yes, I must watch my tongue.[A]
+Regardless, the princess is secure.[A]
+[OpenMidLeft]That's reassuring...[A]
+[OpenMidRight]So, why have you
+come before me?[A]
+Surely not just for
+court gossip?[A]
+[OpenMidLeft]No, milord.[A]
+It's regarding the village where the
+leader of the resistance hides.[A]
+We are prepared to attack,
+so I am here for instructions.[A]
+[OpenMidRight]Well done.[A]
+Commence the attack immediately, before
+any unpleasant interruptions arrive...[A]
+
+[ED]
+
+[OpenMidLeft][LoadLarum][OpenRight][LoadRoy][ToggleSmile]The resistance hideout
+is in this village?[A]
+[OpenMidLeft]Yes, but the castle's troops
+may have attacked already.[A]
+[OpenFarRight][LoadMerlinus]I must say, that Orlo sounds like a
+despicable wretch of a man.[A]
+A bishop should preach the words
+of the gods to help the people.[A]
+But what he's doing is nothing
+more than torture![A]
+[SendToBack]
+[OpenRight]It would be best to wait for
+General Cecilia's reply, but...[A][SendToBack][OpenMidLeft][ClearFace]
+[OpenFarLeft][LoadSoldier1][CloseSpeechFast]Lord Roy![A]
+The castle troops are
+attacking the village![A][ClearFace]
+[OpenFarRight]Oh dear, no!
+Lord Roy, should we attack?[A]
+[OpenRight][CloseSpeechFast]I suppose there's no time
+to await the reply...[A]
+The people here need our help,[A]
+even if doing so means souring
+our relationship with Etruria...[A]
+[OpenFarRight][ClearFace]
+[OpenMidLeft][LoadLarum]Roy...[A]
+[OpenRight]We fight!![A]
+Make Lycia proud of our
+actions here today![A]
+
+[EE]
+
+[OpenMidLeft][LoadMelady][OpenMidRight][LoadGalle]
+[OpenMidRight][ToggleSmile]Melady, have you discovered
+where Princess Guinivere is?[A]
+[OpenMidLeft]No...[A]
+It appears she has left
+the Lycian Army.[A]
+I thought we were
+so close...[A]
+[OpenMidRight]It was a
+dead end then.[A]
+[OpenMidLeft][CloseSpeechFast]Galle...
+I'm sorry.[A]
+King Zephiel wanted to keep the matter
+of Princess Guinivere a secret,[A]
+so only I was assigned to search
+for her.[A]
+I'm sorry to get you mixed
+up in this...[A]
+[OpenMidRight]Don't worry yourself.[A]
+[OpenMidLeft]But you work directly under General
+Murdock. Surely you have other duties.[A]
+[OpenMidRight]General Murdock agreed to allow
+me to assist you.[A]
+If she isn't here, then Princess
+Guinivere must be on the mainland.[A]
+I'll ask General Narcian for some
+additional assistance.[A]
+[OpenMidLeft][FastPrint]You're going to
+bow to Narcian?[A]
+[OpenMidRight][CloseSpeechFast]Hm?
+Of course.[A]
+He's one of the three
+Wyvern Generals.[A]
+He leads the offense on
+Lycia and Etruria.[A]
+[OpenMidLeft][FastPrint]Galle, doesn't that...
+frustrate you?[A]
+[OpenMidRight][NormalPrint]Why should it?[A]
+[OpenMidLeft][CloseSpeechFast]You were to be a Wyvern General.[A]
+But Narcian put forth that you're not a Bern
+native and took the title for himself.[A]
+And you're going to bow down to him
+and request his help?[A]
+[OpenMidRight][FastPrint]What he said is only the truth...
+I wasn't born in Bern.[A]
+[OpenMidLeft][NormalPrint]Still...[A]
+[OpenMidRight][CloseSpeechFast]I'm pleased with the position
+I have now.[A]
+The king and General Murdock trust me,
+even though I'm not of Bern by birth.[A]
+To ask any more would be nothing
+but greed.[A]
+[OpenMidLeft][NormalPrint]Galle...[A]
+
+[EF]
+
+[OpenMidLeft][LoadSoldier2][ToggleSmile]Echidna!
+We know you are here![A]
+You are surrounded on
+all sides![A]
+Drop your weapons and show
+yourself immediately![A][......]
+
+[F0]
+
+[OpenMidRight][LoadEchidna][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
+[OpenMidLeft][LoadSoldier2][ToggleMouthMove]You are Echidna,
+leader of the resistance force?[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadVillager46][CloseSpeechFast]Echidna, I'm so sorry! They 
+threatened the lives of my family...[A]
+[OpenMidRight]I don't blame you.
+I'll handle this.[A]
+Hurry home to your family now.[A]
+[OpenFarLeft][NormalPrint]I'm sorry...
+Truly.[A][ClearFace]
+[OpenMidLeft][LoadSoldier2][CloseSpeechFast]Surrender peacefully and Father Orlo
+may have mercy on you.[A]
+[OpenMidRight][FastPrint][ToggleSmile]I've always been a stubborn wench.
+I have no intention of going quietly.[A]
+[OpenMidLeft]You resist?
+Then you leave us no choice![A][Clear]
+Take her head![A]
+
+[F1]
+
+[OpenMidRight][LoadOrlo]Ha ha ha... I've a
+delicious idea... You there![A]
+[OpenMidLeft][LoadSoldier2][FastPrint][ToggleSmile]Yes, milord?[A]
+[OpenMidRight][CloseSpeechFast]Tell the brigands the
+village is in disarray.[A]
+Have them collect all the
+money and valuables.[A]
+[OpenMidLeft][FastPrint]Yes, milord.
+But...are you certain of this?[A]
+If this becomes public--[A]
+[OpenMidRight][CloseSpeechFast]You forget that I
+speak for the gods.[A]
+To accuse me is to oppose
+Saint Elimine![A]
+I am immune to persecution![A]
+Hurry. Before the villagers
+realize what's happening.[A]
+[OpenMidLeft][NormalPrint]Yes, milord.[A]
+
+[F2]
+
+[OpenMidRight][LoadScollan]We can ransack
+the village?[A]
+[OpenMidLeft][LoadSoldier2][ToggleSmile]Yes.
+But in return...[A]
+[OpenMidRight][ToggleSmile]Yeah, yeah. Take half the
+loot to the castle, right?[A]
+That bishop in charge of you guys is
+a real piece of work, y'know that?[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Don't disappoint him.[A][ClearFace]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]All right, kids!
+Grab your weapons![A]
+Take everything
+they got![A]
+
+[F3]
+
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy, bandits are approaching
+from the mountains in the east.[A]
+[OpenMidRight]They aim to attack the
+village in the chaos...[A]
+We must stop them and help
+the villagers![A]
+
+[F4]
+
+[OpenMidLeft][LoadOrlo][OpenMidRight][LoadSoldier2]
+[OpenMidLeft][ToggleSmile]What is taking so long?![A]
+Is the resistance force
+so powerful?![A]
+[OpenMidRight]It's the Lycian Army![A]
+They are supporting the
+resistance...[A]
+[OpenMidLeft]What?![A]
+The Lycian League would
+turn against Etruria?[A]
+[OpenMidRight]Actually, yes. We've just received
+a missive from Juteaux![A]
+The Lycian Army is responsible
+for the death of Sir Nord.[A]
+They are suspected of betraying
+Etruria's interests.[A]
+They may also have ties with
+the bandits.[A]
+Lord Arcardo now wants them
+dead or alive.[A]
+[OpenMidLeft]They killed Sir Nord,
+you say...?[A]
+[ToggleSmile]It seems they finally have just cause
+to get rid of the Lycian Army.[A]
+Ties with bandits? The Lycian Army?
+Oh, the irony...[A]
+[OpenMidRight][ToggleSmile]Lord Arcardo has sent reinforcements
+to help capture the Lycian Army.[A]
+They should arrive shortly.[A]
+[OpenMidLeft][ToggleSmile]He says "capture", but I'm sure he
+he intends to kill them.[A]
+Let us do the job for him.
+Eradicate them![A]
+[OpenMidRight][ToggleSmile]Yes, milord![A]
+
+[F5]
+
+[OpenMidLeft][LoadOrlo][OpenMidRight][LoadSoldier2][OpenMidRight]Father Orlo, the reinforcements
+will arrive shortly.[A]
+[OpenMidLeft]I certainly hope it
+will be enough.[A]
+They are putting up a better
+fight than I expected...[A]
+
+[F6]
+
+[OpenMidLeft][LoadEchidna][OpenMidRight][LoadLarum]
+[OpenMidRight][FastPrint]Echidna![A]
+[OpenMidLeft][CloseSpeechFast]Larum?
+You're all right?[A]
+That puts my mind at ease...[A]
+I don't know what I'd say to Elffin
+if something happened to you.[A]
+[OpenMidRight][ToggleSmile]I'm sorry... If I hadn't been caught
+I could have warned you...[A]
+[OpenMidLeft][ToggleSmile]It's fine.
+Don't worry.[A]
+[OpenMidRight][ToggleSmile]But...[A]
+[OpenMidLeft][ToggleSmile]It wasn't your fault.
+Cheer up.[A]
+And besides, I'm still in one
+piece, so there's that, eh?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]...Yeah.[A]
+[OpenMidLeft]Tell me, what is this
+army you're with?[A]
+[OpenMidRight]Roy and the Lycian Army![A]
+They came here to defeat
+the bandits.[A]
+[OpenMidLeft]Lycia, huh?[A]
+They've come a long
+way to get here...[A]
+Does it look like they'll
+help our cause?[A]
+[OpenMidRight][FastPrint]Yes!
+They saved me, too.[A]
+[OpenMidLeft][CloseSpeechFast]From the sound of it, I've no
+reason NOT to join them.[A]
+[OpenMidRight]Really?
+That's great![A]
+I'm sure Roy will be
+happy too.[A]
+
+[F7]
+
+[LoadOverworldFaces][OpenFarLeft][ToggleSmile]There are rumors...that Roartz and
+Arcardo are working with Bern.[A]
+[OpenMidRight][MoveRight]What?!
+Then Lycia is in danger![A]
+[OpenFarRight][LoadMerlinus]L-Lord Roy![A]
+[OpenFarLeft]Your country may be in peril.[A]
+Are you free to waste your time
+on the Isles as you are?[A]
+[OpenFarRight]He's right![A]
+Bern wanted us out of Lycia so
+they could launch an invasion![A]
+We must head back at once![A]
+[OpenRight]...We stay here.[A][SendToBack]
+[OpenFarRight]What?!
+Why?![A][SendToBack]
+[OpenFarLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenRight]It's difficult to judge what may
+be hearsay and what may be truth.[A]
+We can't simply jump on this
+rumor and run back to Lycia.[A]
+I am certainly concerned, but my father
+and General Cecilia are there.[A]
+The people on the Isles have only
+us to rely on.[A]
+[SendToBack]
+[OpenFarRight]That may be, but...[A][SendToBack]
+[OpenRight]If we leave without finishing our mission,
+then all we've done here was for naught.[A]
+[OpenFarLeft]...Your army is blessed with
+a levelheaded leader.[A]
+[OpenRight]What?[A]
+[OpenFarLeft]Lord Roy, I am sorry for
+testing you so.[A]
+[OpenFarRight]Testing us?
+So that was a lie?![A]
+[OpenFarLeft]It was the truth.[A]
+However, I presented the rumor in a
+way that you might take rash action.[A]
+Your leader is a prudent individual.
+I would join you if you allow it.[A]
+[OpenRight]...I don't like that
+you tested us.[A]
+[ToggleSmile]But if you can help,
+I welcome you.[A]
+[ToggleSmile]Now, back to the concern we face here.[A]
+What can we do to help the
+people of the Isles?[A]
+[OpenFarLeft]We must go to the
+capital. To Juteaux.[A]
+The people will only be liberated
+if the corruption is overthrown.[A]
+[OpenRight]Then it's settled!
+We head for Juteaux![A]
+We fight for the people!
+We will defeat the true enemy![A]
+
+[F8]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]
+Oh! You're the resistance
+force, aren't you?[A]
+[OpenMidRight]What? No?[A][Clear]
+Ahhh, that explains it...[A]
+This is quite a situation
+you're in, though...[A]
+Here, take this.
+We believe in you.[A]
+
+[F9]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
+[ToggleSmile]I'm supposed to give
+this staff to Orlo...[A]
+He buys things like this with
+the money he takes from us.[A]
+But I'll give it to
+you instead![A]
+Please end his rule...
+We're counting on you.[A]
+
+[FA]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48]
+My job is to take the village's
+tribute to the castle.[A]
+If we don't, the village
+will be burnt down.[A]
+I'll give the money
+to you guys instead![A]
+I'm tired of being stepped
+on by this oppressive lord.[A]
+I can tell you're different.[A]
+
+[FB]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidRight]I have staves for sale
+if you want any![A]
+Wait a second.
+Have I met you before...?[A]
+Ah, probably just my
+imagination...[A]
+Anyway, how many staves
+do you want?[A]
+[ToggleSmile]They work really well. They cure
+conditions instead of health.[A][Clear]
+You don't want any?! Darn![A]
+I'll give you a sample,
+so buy one next time![A]
+
+[FC]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49][OpenMidRight]Take this!
+I want to help in any way I can.[A]
+It's a speedwing![A]
+[OpenMidRight]Use it and you'll
+become a little faster![A]
+
+[FD]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidRight][ToggleSmile]It's so difficult
+under Orlo's rule...[A]
+He takes everything from us,
+even our hopes and dreams...[A]
+Please, take this.
+I hope it helps.[A]
+
+[FE]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager40]
+[OpenMidRight]Good luck to you!
+We can't even touch these guys.[A]
+[OpenMidRight]Some people in your army
+can use bows, can't they?[A]
+[OpenMidRight]This should be helpful.[A]
+[OpenMidRight]I know it's not much...
+but I want you to have it.[A]
+
+[FF]
+
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
+[ToggleSmile]This dusty old lance?[A]
+I'll give it to you to use against
+the villains here.[A]
+[OpenMidRight]My foolish brother wielded this
+before he died.[A]
+[OpenMidRight][ToggleSmile]He was a terrible fighter, but he
+believed his cause was just.[A]
+[OpenMidRight]That's what got him killed...[A][Clear]
+[OpenMidRight][ToggleSmile]He was so very foolish...[A]
+
+[0100]
+
+[LoadOrlo][ToggleSmile]Opposing me...is the equivalent
+of opposing the gods![A][Clear]
+I shall rain divine punishment
+upon you![A]
+
+[0101]
+
+[LoadOrlo][ToggleSmile]You...heathens...
+...I represent the gods...[A]
+
+[0102]
+
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy, there is a young man claiming
+to be with the resistance here.[A]
+[OpenMidRight][ToggleSmile]I'll see him.
+Let him pass.[A][OpenMidLeft][ClearFace]
+[OpenFarLeft][LoadElffin]I am pleased to meet you.
+My name is Elffin.[A]
+I am a member of the
+resistance force.[A]
+[OpenMidRight]I am Roy of the
+Lycian Army.[A]
+[OpenFarLeft]You have my thanks for
+saving our village here.[A]
+[OpenMidRight]We simply did what
+we believe is right.[A]
+[OpenFarLeft][ToggleSmile]But now you stand
+against Etruria.[A]
+[OpenMidRight]Even so, I have
+no regrets.[A]
+We may have opposed Etruria's
+immediate interests,[A]
+but once the truth about the Isles is
+out, I'm certain they will understand.[A]
+I sent a letter to a trustworthy
+Etrurian noble.[A]
+If she takes appropriate measures,
+they will send us aid.[A]
+[OpenFarLeft]I would not
+be so sure...[A]
+[OpenMidRight]Why is that?[A]
+[OpenFarLeft]Don't you find it odd that Etruria
+requested your help here at all?[A]
+[OpenMidRight]Actually...yes, I do.[A]
+[OpenFarLeft]If I may be so bold as to guess...[A]
+Was it High Chancellor Roartz and
+Lord Arcardo who requested your help?[A]
+[OpenMidRight]...It was.[A]
+[OpenFarLeft]There may have been ulterior motives for
+sending your army away.[A]
+Perhaps your presence in Lycia was
+undesirable to them.[A]
+[OpenMidRight]I never even
+considered that...[A]
+
+[0103]
+
+[OpenMidLeft][LoadVillager39][OpenMidRight][LoadRoy]
+[OpenMidLeft]Are you General Roy?[A]
+[OpenMidRight]Yes, I am.[A]
+[OpenMidLeft]You saved our village.
+We owe you our livelihoods.[A]
+Please, take this as a token
+of our gratitude.[A]

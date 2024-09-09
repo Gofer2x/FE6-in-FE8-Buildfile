@@ -1,0 +1,238 @@
+[0194]
+[OpenMidLeft][LoadGenericPegasusKnight][OpenMidRight][LoadSigune]
+[OpenMidLeft][ToggleSmile]Captain![A]
+The enemy has arrived.[A]
+They are just beyond
+the mountains.[A]
+[OpenMidRight][FastPrint][ToggleSmile]It begins.[A]
+[OpenMidLeft][ToggleSmile]Captain,
+are you sure?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]About what?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+The Etrurian Army says they
+will liberate us from Bern.[A]
+They say they'll give us
+our independence...[A]
+[OpenMidRight]
+You can't be fool enough
+to believe that.[A]
+No one fights a war
+without gain.[A]
+Once they defeat Bern,
+they intend to take over.[A]
+It will be the same.[A]
+[OpenMidLeft]But...[A]
+[OpenMidRight]
+Bern are the better allies. They are
+more experienced in warfare.[A]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidRight][CloseSpeechFast][ToggleMouthMove]
+Come now, we have more
+immediate problems.[A]
+We must eliminate the enemy
+that lies before us.[A]
+Are the ballistae ready?[A]
+[OpenMidLeft]
+Yes, the archers are all
+at their stations.[A]
+[OpenMidRight][ToggleSmile]Good!
+Fire at them from a distance.[A]
+They'll be floundering around in
+the dark of this powerful blizzard.[A]
+Observe nature's wrath...[A]
+[0195]
+[OpenMidLeft][LoadNiime][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Such powerful wind and hail...
+I can barely see in front of me.[A]
+[OpenMidLeft][ToggleSmile]
+Ilia's winters are always like this.[A]
+If you want to fight in this weather,
+you'll have to put up with it.[A]
+[OpenMidRight][ToggleSmile]
+We can't allow Bern time to regroup.
+We must attack now.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]You're right.[A]
+If the demon dragon is victorious,
+it could be the end of us all.[A]
+[OpenMidRight][ToggleSmile]I've been wondering...[A]
+Do you think the demon dragon
+is in human form as well?[A]
+[OpenMidLeft][ToggleSmile]It seems probable.[A]
+It could be that all dragons in
+this realm are in human form.[A]
+I've even heard stories of dragons
+in human form living with people.[A]
+[OpenMidRight][ToggleSmile]Arcadia...[A]
+[OpenMidLeft][ToggleSmile]Hm?
+What did you say?[A]
+[OpenMidRight][ToggleSmile]Er, nothing.[A][LoadOverworldFaces]
+[OpenMidLeft]I've read that dragons only began to take
+human form after the Ending Winter.[A]
+[OpenMidRight]The Ending Winter...[A]
+[OpenMidLeft]I expect you've heard of it.[A]
+[OpenMidRight]Yes, but only in legend.[A]
+I learned that in the Ending Winter,
+the laws of nature were all warped.[A]
+Day became night, and summer
+became winter.[A]
+[OpenMidLeft]That's it.[A]
+The scrolls I read on the topic are so timeworn
+that I couldn't decipher all of them.[A]
+But one thing is clear.[A]
+The Ending Winter was a disaster powerful
+enough to bend and twist the whole planet.[A]
+[OpenMidRight]What caused it?[A]
+[OpenMidLeft]Nobody knows for certain...[A]
+Legend says the dragons caused it by
+releasing vast amounts of magical power,[A]
+but even this theory lacks evidence.[A]
+In any case, it is certain that dragons began
+to take human form after the Ending Winter.[A]
+I don't believe these two occurrences
+are coincidence.[A]
+[OpenMidRight]I agree.[A]
+[OpenMidLeft][ToggleSmile]Ultimately, 
+the truth lies in Bern.[A]
+[0196]
+[OpenMidLeft][LoadGenericPegasusKnight][OpenMidRight][LoadSigune]
+[OpenMidLeft][ToggleSmile]Captain![A]
+Other pegasus knight squads
+are on their way to assist us![A]
+[OpenMidRight]Really?
+They will help immensely.[A]
+I almost feel bad for the enemy...[A]
+They'll be in a panic when they're
+suddenly attacked from all directions.[A]
+They won't see them coming in
+this snowstorm...[A]
+[0197]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+You would come to such an
+isolated place as this...?[A]
+The prophecies were
+correct...[A]
+When the world is covered
+in darkness...[A]
+A single blade of wind will
+slice through the darkness,[A]
+allowing the light to
+shine again.[A]
+[0198]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
+I've pondered a lot about whether
+I should give in to Bern...[A]
+But I've made up my mind.
+I'll hold strong.[A]
+Take this ring. It brings out
+your inner strength.[A]
+...Please bring peace
+back to this land.[A]
+[0199]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+Bern's headquarters in Ilia?[A]
+Um, I think it was Edarza...
+Edetta... Edessa! That's it.[A]
+It's to the northeast.[A]
+[019A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager52]
+You know about the ballista
+to the east, right?[A]
+We're out of its range here,
+but the shop over there isn't...[A]
+[019B]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager58]
+[ToggleSmile]Pegasus knights and ballistae...
+Captain Sigune is after you.[A]
+She's hiding in the blizzard,
+waiting to strike...[A]
+[019C]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager54]
+You go up against Ivory Devil
+Sigune. I wish you luck.[A]
+The Ilian pegasus knights
+can fly through the blizzard.[A]
+You'll be blinded by the white...[A]
+and then they will suddenly appear
+out of the swirling snow.[A]
+But when that happens it's too
+late... You're already dead...[A]
+[019D]
+[LoadSigune]
+So...you've made it through
+the blizzard.[A][Clear]
+Congratulations.[A]
+Unfortunately, the only prize
+that awaits you is death.[A]
+[019E]
+[LoadSigune]
+...Dear me...[A]
+I didn't anticipate
+perishing here...[A]
+But perhaps...
+I was already dead...[A]
+Perhaps I died...
+a long...time ago...[A]
+[019F]
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadMerlinus]
+[OpenMidRight][ToggleSmile]Merlinus, I need you to send this
+letter to Father Yoder in Etruria.[A]
+[OpenMidLeft]A letter?
+May I ask what it says?[A]
+[OpenMidRight]It has the information I learned
+from Niime about the dragons.[A]
+[OpenMidLeft]Oh?[A]
+What did you learn?[A]
+[OpenMidRight]
+It would take too long to tell you.[A]
+I haven't sealed the letter yet, so
+you can look through it if you like.[A]
+[OpenMidLeft][MoveFarLeft][OpenFarLeft][FastPrint]Very well.
+I think I will...[A][ClearFace][.......][LoadOverworldFaces]
+[OpenFarLeft][LoadGuinivere][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Is something wrong,
+Princess Guinivere?[A]
+[OpenFarLeft][MoveMidLeft]...I wish to tell you
+about my brother.[A]
+[OpenMidRight]
+...You don't mind?[A]
+[OpenMidLeft]No...[A]
+I want you to know before
+we enter Bern...[A]
+I want you to know the
+tragedies that have occurred.[A]
+You asked before if my
+brother murdered our father.[A]
+[OpenMidRight]Yes...?[A]
+[OpenMidLeft]To be frank...[.....]
+he did.[A]
+[OpenMidRight]
+King Zephiel killed his own
+father to seize the throne...[A]
+[OpenMidLeft][MoveLeft]No![A]
+[OpenMidRight]No?[A]
+[OpenLeft]
+Our father tried to kill
+Zephiel first.[A]
+[OpenMidRight]What?!
+Then King Zephiel...[A]
+[OpenLeft]He couldn't bear the abuse
+he took from our father.[A]
+So he...[A]
+[OpenMidRight]What...?
+Why did--[A][LoadOverworldFaces]
+[OpenFarLeft][LoadMerlinus][CloseSpeechFast]
+The dragons are mysterious
+creatures indeed... Hm?[A]
+What is the matter?[A]
+[SendToBack]
+[OpenLeft][FastPrint]It is nothing...
+Perhaps later...[A][ClearFace][......]
+[OpenFarLeft][CloseSpeechFast]...Did I appear at
+a bad time?[A]
+[OpenMidRight]No, it's fine.
+Did you send the letter?[A]
+[OpenFarLeft][MoveMidLeft]Yes, I sent it off after
+reading through it.[A]
+[OpenMidRight]Thank you.[A][OpenMidLeft][ClearFace]
+[OpenMidRight]...Why did the old king try
+to murder his own son...?[A]

@@ -1,0 +1,305 @@
+[0184]
+[OpenMidRight][LoadMartel][OpenFarLeft][LoadSoldier2]
+[OpenFarLeft][ToggleSmile]Father Martel![A]
+We have brought the hermit
+Niime as you asked.[A]
+[OpenMidRight][NormalPrint]Good.
+Let her pass.[A][OpenFarLeft][ClearFace][.....]
+[OpenMidLeft][LoadNiime][FastPrint]What do you want from me?[A]
+[OpenMidRight][CloseSpeechFast]You must be Niime,
+the Mountain Hermit.[A]
+[OpenMidLeft]
+I'm not aware of that nickname,
+but I am Niime.[A]
+I'm probably the one you seek.[A]
+[OpenMidRight]
+We found an elder spell tome
+within the castle.[A]
+I hear that you may be capable
+of using it.[A]
+[OpenMidLeft]Perhaps.[A]
+I have dedicated my life to the study of
+darkness and elder magic.[A]
+[OpenMidRight]
+I understand that this spell can change
+the weather surrounding the caster...[A]
+[OpenMidLeft][FastPrint]
+Stranger spells are known to exist.[A]
+[OpenMidRight][CloseSpeechFast]
+Then I order you to use the
+tome to create rainfall.[A]
+Make it rain so that the
+rivers overflow.[A]
+Push back the advancing
+Etrurian Army.[A]
+[OpenMidLeft]
+I can try, but frankly I can't guarantee
+that it will succeed.[A]
+It is also important to remember that powerful
+spells like this can only be cast once.[A]
+Are you certain you want to do this?[A]
+[OpenMidRight][MoveRight]
+No excuses, hag!
+You will do as I say.[A]
+You said you wish to join our
+forces. Make yourself useful.[A]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+[0185]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Princess Guinivere...[A]
+We are approaching
+Bern's army.[A]
+[OpenMidLeft]...Yes, I know.[A]
+[OpenMidRight]
+As we get closer, we will clash with
+soldiers of Bern more and more.[A]
+It will not be long before we
+are in full combat with Bern.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]
+I want to ask you something
+before that happens.[A]
+[OpenMidLeft]Go ahead.[A]
+[OpenMidRight]
+I have heard rumors about
+King Zephiel...[A]
+I heard that he killed his father,
+the previous king.[A]
+[OpenMidLeft][MoveFarLeft][ToggleMouthMove]![A]
+[OpenMidRight][ToggleMouthMove]
+I could scarcely believe it
+myself.[A]
+You believe in him so strongly that
+you cast away your own country.[A]
+If King Zephiel is truly as mad as
+the rumors say,[A]
+I'm sure you would not have done
+all that you have.[A]
+[OpenFarLeft][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]Princess Guinivere,[A]
+I accepted the Fire Emblem
+not to use it in battle,[A]
+but to find a way to end
+this war peacefully.[A]
+[OpenFarLeft]Roy...[A]
+[OpenMidRight]I think I have a right to know
+the truth about the rumors...[A]
+[OpenFarLeft]I...I'm sorry.
+Please...give me some time.[A][ClearFace]
+[OpenMidRight][MoveRight]Princess![A]
+[OpenFarLeft][LoadMerlinus][CloseSpeechFast]...What is the matter?[A]
+Princess Guinivere looked
+very troubled...[A]
+[OpenRight][MoveMidRight]...It's nothing to worry over.
+Do you need something?[A][LoadOverworldFaces]
+[OpenFarLeft][MoveMidLeft][OpenMidLeft]
+Yes, I have learned some troubling
+information.[A]
+A powerful dark mage by the name
+of Niime fights in the enemy ranks.[A]
+[OpenMidRight][FastPrint]A dark mage...
+A druid, probably.[A]
+[OpenMidLeft][CloseSpeechFast]
+In any case, she is apparently
+extremely learned in ancient sorcery.[A]
+She is said to be more knowledgable
+than most scholars can even imagine.[A]
+[OpenMidRight][FastPrint]We can't pull back now.
+We press on.[A]
+[OpenMidLeft]Of course, but please
+exercise caution.[A]
+[OpenMidRight]Yes, you're right.
+We must tread lightly![A]
+[0186]
+[OpenMidLeft][LoadNiime][OpenMidRight][LoadMartel]
+[OpenMidRight][ToggleSmile]Is the spell ready,
+Niime?[A]
+[OpenMidLeft][FastPrint]
+...I'll warn you one more time.[A]
+I can't guarantee the results will
+be what you want...[A]
+[OpenMidRight]Enough of your yammering!
+Cast the spell![A]
+[OpenMidLeft][CloseSpeechFast]Sigh... Very well...[A]
+[0187]
+[OpenFarLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenFarLeft][FastPrint][ToggleSmile]W-what's going on...?[A]
+[OpenMidRight]An enemy spell caster?
+Watch out, soldiers![A]
+[0188]
+[OpenMidLeft][LoadNiime][OpenMidRight][LoadMartel][ToggleSmile]What...?!
+What is this?![A]
+The rivers...
+They've frozen over![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Well, I'll be...
+That's not what I expected.[A]
+[OpenMidRight][MoveRight][OpenRight][ToggleSmile]You!
+You did this on purpose![A]
+[OpenMidLeft][CloseSpeechFast]
+Don't be absurd...[A]
+I gave you ample warning that
+I couldn't guarantee any results.[A]
+[OpenRight]Enough! You there!
+Toss her in the dungeon![A]
+[OpenFarLeft][LoadSoldier2][NormalPrint]Yes, sir![A]
+[OpenMidLeft][SendToBack]Sigh...[A]
+[0189]
+[OpenMidRight][LoadRoy][FastPrint][ToggleSmile]What...happened?[A]
+[OpenMidLeft][LoadMerlinus][CloseSpeechFast]Lord Roy, we have a report.
+The rivers have apparently frozen over.[A]
+[OpenMidRight][NormalPrint]What?[A]
+[OpenMidLeft][CloseSpeechFast]The ice is so thick that even knights
+on horseback can cross them safely.[A]
+[OpenMidRight][FastPrint]Oh...[A]
+Well, good. We can advance
+more quickly now.[A]
+Charge the castle gate![A]
+[018A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+I was told that this goddess icon
+would bring me good luck...[A]
+But I pray to it everyday,
+and nothing happens.[A]
+That con man tricked me!
+Here, take it.[A]
+Just looking at it
+is making me angry.[A]
+[018B]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager61]
+I was playing outside and
+this ring fell from the sky![A][Clear]
+...A gift from the gods?[A]
+Nah, someone on a pegasus
+or wyvern probably dropped it.[A]
+Here, take it.
+I prefer my dolls anyway.[A]
+[018C]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager57]
+Are you the Etrurian Army?[A]
+Sigh... Bern's army marched through
+here just the other day, too.[A]
+When will we have peace again?[A]
+Here, take this.
+Use it to end the war.[A]
+[018D]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager52]
+That Martel who's guarding the castle...[A]
+He said he has some secret weapon.
+I'd be careful if I were you.[A]
+[018E]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager53]
+When it gets colder the rivers
+all freeze over,[A]
+and we can get to the village in
+the east without much trouble.[A]
+But it's not quite the
+season, unfortunately.[A]
+[018F]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+You look strong.[A]
+But I bet you couldn't
+beat the Sword Saint.[A]
+They say he's on a
+level all his own.[A]
+[0190]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager59]
+[ToggleSmile]Hey, are you the Etrurian Army
+that the old lady was talking about?[A]
+I heard she was originally
+planning to join you guys,[A]
+but for some reason she
+joined up with Bern instead.[A]
+What is she thinking?[A]
+[0191]
+[LoadMartel]
+[ToggleSmile]Blast![A]
+You made it through
+this snow...[A]
+Curse that useless woman![A]
+[0192]
+[LoadMartel]
+[ToggleSmile]No...[A]
+I'm too brilliant...
+to die...[A]
+[0193]
+[OpenMidLeft][LoadNiime][OpenMidRight][LoadRoy]
+[OpenMidLeft]At last, I am released
+from Bern's dungeon.[A]
+[OpenMidRight][ToggleSmile]You are?[A]
+[OpenMidLeft][ToggleSmile]I am Niime.[A]
+I live in the mountains where
+I study arcane magic.[A]
+[OpenMidRight][ToggleSmile]
+Why were you in the dungeon?[A]
+Did you not join Bern of
+your own choice?[A]
+[OpenMidLeft][ToggleSmile]
+Well, actually, I did,
+but it was only a guise.[A]
+Bern's army has something
+I wish to study.[A]
+[OpenMidRight][ToggleSmile]And what is that?[A][LoadOverworldFaces]
+[OpenMidLeft][ToggleSmile]The dragons.[A]
+[OpenMidRight][ToggleSmile][ToggleMouthMove]!![A][ToggleMouthMove]
+[OpenMidLeft][ToggleSmile]Well, that sure got your
+attention, didn't it?[A]
+[OpenMidRight][ToggleSmile]The dragons you speak of...[A]
+They're not like the wyverns
+that Bern's soldiers ride upon.[A]
+They're strange troops that fight
+alongside Bern's soldiers...[A]
+[OpenMidLeft][ToggleSmile]I know that well.[A]
+They're the same dragons that
+were defeated in the Scouring.[A]
+[OpenMidRight][ToggleSmile]How do you know this...?[A]
+[OpenMidLeft]At first I thought this was only
+a simple act of aggression by Bern.[A]
+But then I began to sense a strange
+and...evil force among their troops.[A]
+I decided to investigate.[A]
+[OpenMidRight]Did you learn anything?[A]
+[OpenMidLeft]The dragons are very much shrouded
+in mystery.[A]
+I looked through many ancient books
+and scrolls.[A]
+I could only decipher so many of them.
+But...[A]
+[OpenMidRight]But...?[A]
+[OpenMidLeft]I have come to the conclusion that Bern
+has resurrected the demon dragon.[A]
+[OpenMidRight]The demon dragon...[A]
+The leader of the dragons
+that Hartmut defeated.[A]
+[OpenMidLeft]The very same.[A]
+Dragons are a much more advanced
+species than us humans.[A]
+Their vitality and intellect
+puts that of humans to shame.[A]
+There is one thing, however, the
+dragons lack in.[A]
+They multiply at a fraction of
+the rate humans do.[A]
+But the demon dragon...[A]
+It had the power to create
+more dragons.[A]
+That is what I learned from
+my research.[A]
+[OpenMidRight]It can make dragons...?[A]
+[OpenMidLeft]The demon dragon can create more
+of its kind.[A]
+That would explain where Bern is
+getting all of its dragons.[A]
+[OpenMidRight]I see...[A]
+[OpenMidLeft][ToggleSmile]Now, that being said...[A]
+I wish to learn more about
+the dragons.[A]
+I wield dark magic...
+Let me join your army.[A]
+I'm sure I can be of some
+assistance.[A]
+[OpenMidRight][ToggleSmile]Of course.[A]
+We want to learn about
+the dragons as well.[A]
+It will be a perilous journey,[A]
+but if that's acceptable to you,
+you're welcome to join us.[A]

@@ -1,0 +1,552 @@
+[01F6]
+[OpenMidRight][LoadRoy][ToggleSmile]This is the Dragon Sanctuary...
+The air feels strange.[A]
+Did the Eight Legends fight
+under these conditions, too?[A][LoadOverworldFaces]
+[OpenMidLeft][LoadJahn]
+You humans stand
+against us once more.[A]
+[OpenMidRight][MoveRight]What...?
+Who are you?![A]
+When did you...?[A]
+[OpenMidLeft][CloseSpeechFast]I am Jahn.[A]
+I am the last true dragon
+of the Dragon Sanctuary.[A]
+[OpenRight][MoveMidRight][FastPrint]The last true dragon?[A]
+You do seem different from
+the other dragons...[A]
+Are you the demon dragon?[A]
+[OpenMidLeft]
+The "dragons" you have fought
+thus far are war dragons.[A]
+They know nothing but battle.[A]
+The demon dragon too is quite a
+different being than I.[A]
+I am a pure-blooded dragon who fought
+you humans in the distant past.[A]
+[OpenMidRight]
+The demon dragon is a
+different being?[A]
+I thought the demon dragon
+was the leader of your kind.[A]
+[OpenMidLeft]
+The demon dragon is nothing more
+than a tool to rally us dragons.[A]
+It is hardly what I would call
+a leader.[A]
+[OpenMidRight]What?[.....] What exactly is
+the demon dragon, then?[A]
+[OpenMidLeft]
+There is much you don't know,
+it appears.[A]
+[OpenMidRight]
+What is the demon dragon?[A]
+I want to at least know what
+it is we are fighting against![A]
+[OpenMidLeft]Hrmm...[A]
+I have no reason to tell you.[A]
+But then, I have no reason
+not to tell you, either.[A]
+What to do?[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]...Very well.[A]
+A test. Are you worthy of
+hearing the truth?[A]
+I await you deep within.[A]
+Fight through the hordes of
+war dragons and come to me.[A]
+Do that, and everything will
+be made clear.[A]
+[OpenMidRight]You're deep within?
+But you're right here![A]
+[OpenMidLeft]
+What you see is an illusion.
+A projection.[A]
+Come if you wish to know
+the truth.[A]
+Prove yourself worthy of my time
+and I shall tell you all...[A]
+
+
+
+
+[01F7]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadRoy]
+[OpenMidRight][FastPrint][ToggleSmile]
+Is this really you
+this time?[A]
+Or...[A]
+[OpenMidLeft]
+This is but the beginning.[A]
+You have quite a way ahead
+of you yet.[A]
+But you didn't perish
+immediately.[A]
+That alone speaks to your
+ability.[A]
+[OpenMidRight]
+We have been through
+many trials.[A]
+We will not die here
+and let it be for naught.[A]
+[OpenMidLeft]So you say.[A]
+Allow me to tell you a little
+bit about the demon dragon.[A]
+The demon dragon is not the leader
+of the dragons as you thought.[A]
+The demon dragon was created to
+bring us victory.[A]
+[OpenMidRight][MoveRight]
+It was created...?[A]
+So it wasn't the demon dragon
+who was making dragons...?[A]
+[OpenMidLeft]
+The "dragons" you speak of are in
+fact soulless war dragons.[A]
+As I said before, they are different
+from pure dragons such as myself.[A]
+The war dragons are indeed created
+by the demon dragon.[A]
+The demon dragon was formed from
+a divine dragon,[A]
+the most powerful of our kind.[A]
+[OpenRight]
+It was formed from a
+divine dragon?[A]
+Did a divine dragon agree to
+become the demon dragon?[A]
+[OpenMidLeft]
+Agree? Ha. No.[A]
+We destroyed its very soul
+to extinguish its will.[A]
+It is a mindless drone intended
+to heed our every word.[A]
+[OpenRight][MoveMidRight]You what...?![A]
+[OpenMidLeft]
+We desperately needed the
+power of a divine dragon.[A]
+The survival of our entire
+species was at stake.[A]
+[OpenMidRight]
+You needed the power of a
+divine dragon...[A]
+So...you destroyed one's
+soul?![A]
+[OpenMidLeft]
+Do you wish to
+know more?[A]
+Come further.[A]
+Show me your
+strength...[A]
+
+
+
+
+
+
+[01F8]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]
+Not bad. Not bad at all.[A]
+I'm curious how far you
+will make it.[A]
+[OpenMidRight]
+I want to hear more.[A]
+[OpenMidLeft]
+...No matter how many of your kind
+we defeated in combat,[A]
+you humans continued to multiply
+endlessly.[A]
+We were eventually overwhelmed
+by the sheer number of you humans.[A]
+It was then we decided to form a demon
+dragon capable of creating war dragons.[A]
+[OpenMidRight]
+War dragons... Soulless beings
+who know nothing but battle.[A]
+[OpenMidLeft]Correct.[A]
+The divine dragons, however,
+were opposed to the idea.[A]
+They said it was an affront
+to the laws of nature.[A]
+As we tried to persuade
+the divine dragons,[A]
+they suddenly disappeared
+without a trace.[A]
+[OpenMidRight]Why?[A]
+[OpenMidLeft]
+They probably chose to leave before
+we could take advantage of them.[A]
+We never located the majority of
+the divine dragon tribe,[A]
+but we were able to capture a
+single member of their kind.[A]
+[OpenMidRight]And that became the
+demon dragon?[A]
+[OpenMidLeft]Precisely.[A]
+The divine dragon Idunn was to
+become the demon dragon.[A]
+It hesitated, however,[A]
+as the rift between its tribe
+and the rest of us widened.[A]
+Hesitation... Such folly
+is reserved for you humans.[A]
+It serves no end.[A]
+[OpenMidRight]
+Her hesitation impeded
+your plans...[A]
+[OpenMidLeft]
+Idunn was immature, but of enough
+strength to fulfill our purpose.[A]
+Its heart, however, wasn't with us.
+It would not follow our commands.[A]
+[OpenMidRight]
+So...that's why you
+destroyed her soul...?[A]
+[OpenMidLeft]Yes.[A]
+We destroyed its soul so that it would
+unquestioningly obey our every command.[A]
+[OpenMidRight]That's...vile...[A]
+[OpenMidLeft]That's enough for now.[A]
+Show me more of your power if
+you want to hear the rest![A]
+
+
+
+
+
+[01F9]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadRoy]
+[OpenMidLeft][FastPrint][ToggleSmile]
+You proceed at a good pace.
+But you have not won yet.[A]
+[OpenMidRight]Rest assured, we
+will reach you![A]
+[OpenMidLeft]
+Your soul is strong.[A][Clear]
+What do you wish to
+hear next?[A]
+[OpenMidRight]
+You created the demon dragon.[A]
+The demon dragon had the ability
+to create endless war dragons.[A]
+Why, then, did you lose to
+the humans?[A]
+[OpenMidLeft]
+The demon dragon created many war
+dragons for use in the battlefield.[A]
+The tables were turned.
+Our victory was in sight.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]
+However, the humans soon found out
+about the demon dragon.[A]
+They concluded that their numbers
+were not enough to defeat us.[A]
+They focused their efforts into forging
+weapons that would pierce our scales.[A]
+They are what you humans call the
+legendary weapons.[A]
+[OpenMidRight]That much I know...[A]
+[OpenMidLeft]
+The strongest human warriors were chosen
+to wield their newly crafted weapons.[A]
+They came and attacked this sanctuary.[A]
+However, the immense power of the
+weapons clashing with our own power...[A]
+It caused something none of us had
+anticipated.[A]
+[OpenMidRight]What happened?[A]
+[OpenMidLeft]The laws of nature started to collapse.[A]
+Snow began to fall in summer.
+Stars shone in the middle of day...[A]
+[OpenMidRight]
+You mean it caused the Ending Winter?[A]
+I thought it occurred because the dragons
+released vast amounts of energy...[A]
+[OpenMidLeft]Is that how your legends go?[A]
+[OpenMidRight]The power of the legendary weapons
+was used to restore order to nature.[A]
+That's what I learned.[A]
+[OpenMidLeft]
+So in other words, we were the cause
+of everything bad that happened.[A]
+How typical of you humans.[A]
+But the truth is as I said.[A]
+[OpenMidRight]
+Then the legendary weapons were sealed
+away to prevent another disaster...[A]
+The traps that were protecting them
+were meant to keep us out...[A]
+[OpenMidLeft]
+You humans sealed them away?
+An uncharacteristically good decision.[A]
+But you seem to be wielding them now.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]I wouldn't worry.[A]
+The weapons' potency seems to have
+decreased since their initial forging.[A]
+I doubt they can bring about another
+such disaster as they are now.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]Anyway, the warping of nature's laws
+dealt a great blow to us dragons.[A]
+[OpenMidRight]How?[A]
+[OpenMidLeft]
+That disaster was the reason
+we lost to the humans...[A]
+I shall continue my story when
+you advance a bit further...[A]
+
+
+
+
+
+
+[01FA]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadRoy]
+[OpenMidLeft]You have come far.
+Perhaps I underestimated you.[A]
+[OpenMidRight][ToggleSmile]...Please continue the story.[A]
+[OpenMidLeft]
+When the order of nature collapsed,
+we dragons suffered the most.[A]
+With nature weakened, we could not
+maintain our dragon forms.[A]
+And so, we sealed our power into
+gemstones and took human form.[A]
+[OpenMidRight]The dragonstones...[A]
+[OpenMidLeft]Yes.[A]
+We were utterly powerless against
+the humans.[A]
+In human form, we were even more
+feeble than the humans themselves.[A]
+The humans took the opportunity
+to slaughter us.[A]
+[OpenMidRight]Why did you choose the form of humans?
+Why not some other shape?[A]
+[OpenMidLeft]
+In the new order of nature,[A]
+the human form required the least
+energy to transform into.[A]
+The Eight Legends mercilessly crushed us
+as we were helpless in our human form.[A]
+I too suffered deep wounds.[A]
+[OpenMidRight]
+Do you hate the humans
+because of that attack?[A]
+[OpenMidLeft]
+Hate? Only humans feel such
+preposterous emotions.[A]
+We battled for survival
+and we lost.[A]
+There was nothing more to
+our fight.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]
+However, we may yet be
+victorious.[A]
+A human named Zephiel
+resurrected the demon dragon.[A]
+[OpenMidRight][MoveRight]
+Then Zephiel really did undo
+the demon dragon's seal![A]
+[OpenMidLeft][ToggleSmile]That is correct.[A]
+Show me if you're
+worthy to hear more.[A]
+
+
+
+
+[01FB]
+[OpenMidRight][LoadRoy][FastPrint][ToggleSmile]
+[OpenMidRight]Jahn!
+Where are you?[A]
+[OpenMidLeft][LoadJahn]Hm...[A]
+I should have expected this of
+the man who defeated Zephiel...[A]
+You may even have the chance
+to fight me personally.[A]
+[OpenMidRight]
+How did Zephiel know about
+the demon dragon?[A]
+[OpenMidLeft]
+Surely you know that Hartmut of
+the Eight Legends founded Bern.[A]
+[OpenMidRight]
+I do.[A]
+[OpenMidLeft]
+Do you also know that Hartmut
+chose to spare the demon dragon?[A]
+Rather than killing it, he
+sealed it away.[A]
+[OpenMidRight]Yes, but I don't
+know why.[A]
+[OpenMidLeft]
+Hm... Let me explain.[A]
+The Eight Legends defeated our leader,[A]
+and made their way into the sanctuary
+to find the demon dragon.[A]
+However, arriving at its chamber, all
+they found was a blank-eyed human girl.[A]
+That was Idunn.[A]
+[OpenMidRight][FastPrint]She didn't fight?[A]
+[OpenMidLeft][CloseSpeechFast]
+The demon dragon had its soul destroyed
+to follow our leader's commands.[A]
+With our leader dead, there were no
+commands to follow.[A]
+[OpenMidRight]Then what happened?[A]
+[OpenMidLeft]
+The Eight Legends naturally
+hesitated.[A]
+They had expected to find the
+most terrible of all dragons,[A]
+but instead they found a
+mute girl.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]
+Knowing the demon dragon still had to be
+defeated, they readied their weapons.[A]
+Idunn must have reacted to their
+attack out of instinct.[A]
+It changed into dragon form and fought
+as the soulless war dragons do.[A]
+Hartmut, however,[A]
+brandished a blade even more powerful
+than the legendary weapons.[A]
+[OpenMidRight]The Binding Blade![A]
+[OpenMidLeft]
+I don't know what you humans call it,
+but that must be it.[A]
+When the blade cut the demon dragon's
+flesh,[A]
+it fell unconscious rather
+than dying.[A]
+
+
+
+
+[01FC]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]
+You have come far.
+I am in the next chamber.[A]
+It has been ages since I've
+shown a human my true form.[A]
+I've not left this sanctuary
+since the end of the Scouring.[A]
+[OpenMidRight]Y...you've been here
+that long?[A]
+[OpenMidLeft]For one thousand years...[A]
+Having survived the Scouring,
+I waited, healing my wounds.[A]
+I waited for the resurrection
+of the demon dragon.[A]
+For our chance of victory.[A]
+At long last, that time came.[A]
+The demon dragon's seal was
+broken,[A]
+and I felt power flowing
+through my veins again.[A]
+[OpenMidRight]
+What does the demon dragon's seal
+have to do with your strength?[A]
+[OpenMidLeft]
+The Dragon Sanctuary's power is
+intertwined with the demon dragon's.[A]
+With the demon dragon sealed, the
+sanctuary, and myself, were crippled.[A]
+[OpenMidRight]I see...[A]
+[OpenMidLeft]
+After I recovered, I sought the
+person who had broken the seal.[A]
+I used my illusions to seek him
+out and ask his intentions.[A]
+With you humans ruling the world,
+I couldn't go in my true form.[A]
+[OpenMidRight]
+Wait... I thought that dragons lose
+most of their power in human form.[A]
+How do you have the power to create
+illusions like this?[A]
+[OpenMidLeft]
+This sanctuary is the only place that
+dragons maintain some power in human form.[A]
+I am also a relatively powerful dragon.[A]
+Even in human form, as long as I am in this
+sanctuary, illusions are a simple task.[A]
+I lack the power to create war dragons
+like the demon dragon can, however.[A]
+[01FD]
+[LoadJahn]I have waited a
+millennium...[A]
+My strength has recovered,
+and it is greater than ever.[A]
+I can feel it...[A]
+[01FE]
+[LoadJahn][ToggleSmile]I fall...[A]
+Humans are truly
+unpredictable...[A]
+[01FF]
+[OpenMidRight][LoadRoy][FastPrint][ToggleSmile]
+The demon dragon
+lies ahead...[A]
+[LoadOverworldFaces][OpenMidLeft][LoadFae]...Roy...[A]
+[OpenMidRight]What's wrong, Fae?[A]
+You look like you're
+about to cry.[A]
+[OpenMidLeft]Am...am I evil, too...?[A]
+[OpenMidRight]Huh?[A]
+[OpenMidLeft]When...[A]
+When I get older, will I
+be a bad dragon, too?[A]
+[OpenMidRight]Slow down, Fae.[A]
+Where did you get
+that idea?[A]
+[OpenMidLeft]
+That man said that...dragons and
+humans can't live in peace...[A]
+[OpenMidRight]
+That wasn't true. You've lived in
+Nabata with humans, haven't you?[A]
+[OpenMidLeft]
+But the demon dragon is a
+divine dragon like me![A]
+You're going to fight the demon
+dragon, but what about me?[A]
+[OpenMidLeft]
+What if...when I grow up...
+I'm like the demon dragon...?[A]
+Then...you'd have to...[A]
+[OpenMidRight][ToggleSmile]
+Don't worry, Fae.[A]
+I know you'll never be like
+the demon dragon.[A]
+You'll always live with
+humans. With people like me.[A]
+[OpenMidLeft]...Do you really
+think so?[A]
+[OpenMidRight]Of course![A]
+I want to help the
+demon dragon, too.[A]
+[OpenMidLeft][ToggleSmile]Help her?[A]
+[OpenMidRight]
+The demon dragon isn't acting
+of her own free will.[A]
+She had her soul destroyed.
+She is a slave.[A]
+I...I don't want to kill
+her if I can avoid it...[A]
+[OpenMidLeft]...Your words are too big.
+I don't understand.[A]
+[OpenMidRight]
+I'm sure you'll learn what I mean
+once you get a little older.[A]
+[OpenMidLeft][ClearFace][OpenMidRight][Clear]
+Hartmut posed a question when he
+bound the demon dragon.[A]
+And I intend to answer it![A]
+
+
+

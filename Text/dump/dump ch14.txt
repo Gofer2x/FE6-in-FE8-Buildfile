@@ -1,0 +1,286 @@
+[0135]
+[OpenLeft][LoadIgrene][OpenFarRight][LoadFae]
+[OpenLeft][FastPrint][ToggleSmile]Hurry, Fae![A]
+Follow this path and
+find a place to hide.[A]
+Can you make it?[A]
+[OpenFarRight][MoveFarRight]I'm...
+I'm tired![A]
+[OpenLeft][CloseSpeechFast]Now is no time for
+complaints.[A]
+Go, or Bern's soldiers
+will find us.[A]
+[OpenFarRight][FastPrint]What happened
+to Sophia?[A]
+[OpenLeft][CloseSpeechFast]I don't know...[A]
+She may have been captured
+by Bern's troops.[A]
+[OpenFarRight]But if Bern catches us, then
+we can see the outside world![A]
+[OpenLeft]Fae, no.[A]
+The elder strictly forbids
+communication with the outside world.[A]
+[OpenFarRight][MoveFarRight][NormalPrint]Aw...
+Please?[A]
+[OpenLeft][CloseSpeechFast]No.[A]
+...I do wonder how Bern found
+out about our village, however...[A]
+Perhaps it is related to the ominous
+force Sophia detected in the soldiers...[A]
+[OpenFarRight]What?[A]
+[OpenLeft]Ah, sorry![A]
+Now is not the time
+for that![A]
+Fae! Over here!
+Hurry![A]
+[OpenFarRight][FastPrint]...I want to see the
+outside world, too.[A]
+[0136]
+[OpenMidRight][LoadRandy][OpenMidLeft][LoadZeiss]
+[OpenMidRight][ToggleSmile]Zeiss!
+Has General Narcian arrived yet?[A]
+[OpenMidLeft]He sent some sellswords and dragons,
+but the general himself isn't here.[A]
+[OpenMidRight]What on earth is he thinking?[A]
+How does he expect these sparse troops
+to tip the odds in our favor...?[A]
+[OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenMidRight][CloseSpeechFast]King Zephiel must be notified about
+the dragons living here.[A]
+Zeiss, go to Aquileia and make
+a report to His Majesty.[A]
+[OpenMidLeft][FastPrint]What should I say?[A]
+[OpenMidRight][CloseSpeechFast]Tell him that dragons do indeed inhabit
+this village.[A]
+A captive tells us there are even divine
+dragons, the most powerful of all.[A]
+...Go quickly.[A]
+[OpenMidLeft][NormalPrint]Yes, sir.[A]
+[0137]
+[OpenFarLeft][LoadSophia][OpenMidRight][LoadRoy]
+[OpenMidRight][FastPrint][ToggleSmile]This is a fierce sandstorm.[A]
+[OpenFarLeft][CloseSpeechFast]Yes... These sandstorms have always
+protected our village from intruders.[A]
+[OpenMidRight]I can imagine that most who wander into
+this mess would give up quickly.[A]
+I can barely see an arm's length ahead...[A]
+In which direction do we move?[A]
+[OpenFarLeft]Head to the northeast...
+But...[A]
+[OpenMidRight][NormalPrint]Yes?[A]
+[OpenFarLeft][CloseSpeechFast]There may be objects covered by the
+sand, blown about by the storm...[A]
+Please watch your step...[A]
+[0138]
+[OpenFarLeft][LoadMaggie][OpenFarRight][LoadRose]
+[ToggleSmile]Maggie, my sweet, did you see that
+group heading right into the desert?[A]
+[OpenFarLeft]Yes, Rose, I most certainly did.[A]
+[OpenFarRight][MoveRight]
+They must be headed for the hidden
+village said to be near here, Maggie.[A]
+[OpenFarLeft][MoveLeft]Bless my soul, Rose.
+I believe you may be correct.[A]
+[OpenRight][MoveMidRight]But my sweet Maggie, we wouldn't want to
+get lost in the sandstorm, would we?[A]
+[OpenLeft][MoveMidLeft]Of course not, Rose.[A]
+Then we wouldn't be able to
+find our way home.[A]
+[OpenMidRight][MoveFarRight]Do you think we should give up
+on the village then, Maggie?[A]
+[OpenMidLeft][MoveFarLeft]My dear Rose, you forget the rumors say
+there is great treasure in the village.[A]
+[OpenFarRight][MoveRight]Well, we certainly wouldn't want to
+miss out on that, would we, Maggie?[A]
+[OpenFarLeft][MoveLeft]Of course not, Rose.[A]
+It would make us far richer than
+ambushing travelers has.[A][SendToBack]
+[OpenRight][MoveFarRight]But I don't want to
+get lost, Maggie.[A][SendToBack]
+[OpenLeft][MoveFarLeft]My dear Rose, hear me out.[A]
+We need only follow closely behind the
+group we saw heading into the desert.[A]
+That will ensure they lead us right
+to the village.[A]
+[SendToBack]
+[OpenFarRight]What a wonderful idea, Maggie.[A]
+And once we reach the village, we can
+thank them by mashing their heads in.[A]
+[OpenFarLeft]Marvelous, my dear Rose.[A]
+[SendToBack]
+[OpenFarRight][MoveRight]Let's be off then.
+Shall we, Maggie?[A]
+[OpenFarLeft][MoveLeft][FastPrint]Why certainly,
+my dear Rose.[A][SendToBack]
+[OpenRight]Then let's waste no time,
+my sweet Maggie.[A]
+[0139]
+[OpenMidRight][LoadRoy][FastPrint][ToggleSmile]The sandstorm...
+It stopped.[A]
+[OpenLeft][LoadMerlinus][CloseSpeechFast]This is our chance, Lord Roy!
+The village is in clear sight now![A]
+[OpenMidRight]But it is to the enemy, too.
+We must hurry![A]
+[013A]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadRandy]
+[OpenMidLeft][ToggleSmile]Sir Randy, we have finished
+searching the village.[A]
+[OpenMidRight][FastPrint]Did you find the
+legendary weapon?[A]
+[OpenMidLeft][CloseSpeechFast]No...[A]
+But we destroyed all the passageways
+we suspected might lead to it.[A]
+[OpenMidRight]Good work.[A]
+Now all that's left is to
+stop the Lycian Army.[A]
+[013B]
+[OpenMidLeft][LoadSophia]
+Something...is glittering
+in the sand...[.....] Oh...[A][Clear]
+What a beautiful ring...[A]
+[013C]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+Have you heard of the sky god, Delphi?[A]
+He is said to race through the skies
+and protect all living things.[A]
+They say that with his blessing,[A]
+wyvern riders and pegasus knights
+can fly freely without danger...[A]
+[013D]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager24]
+There are a lot of things
+buried in the sand.[A]
+If you're really lucky, you might
+find something good.[A]
+Try looking around the bones.[A]
+[013E]
+[LoadRose][ToggleSmile]Dear me, Maggie...
+This hurts, doesn't it?[A]
+[013F]
+[LoadMaggie][ToggleSmile]Oh my, Rose...
+I've never known such pain.[A]
+[0140]
+[LoadRandy]
+My sword is unmatchable.
+Choose your death.[A]
+Will you die by the blade...
+or by its light?[A]
+[0141]
+[LoadRandy]
+You're so strong...
+I'm impressed...[A]
+It's an honor to die
+by your hand...[A]
+[0142]
+[OpenFarRight][LoadSophia][OpenRight][LoadRoy]
+[OpenRight][ToggleSmile]That was a difficult battle...
+but we won.[A]
+Sophia, where are
+the villagers?[A][Clear]
+Sophia, are you OK?
+What's wrong?[A][SendToBack]
+[OpenFarRight]...The entrance to the temple...[A][SendToBack]
+[OpenRight]This door...?[A]
+It looks like it's been
+forced open.[A]
+What lies inside the temple?[A]
+[SendToBack]
+[OpenFarRight]Something we call a
+legendary weapon...[A]
+It is a spell tome...[A][SendToBack]
+[OpenRight]A legendary weapon?!
+There's one here, too?![A]
+...That must be
+what Bern was after![A]
+Are we too late?[A]
+[SendToBack]
+[OpenFarRight]It is still here...
+I can sense it...[A][SendToBack]
+[OpenRight][ClearFace][OpenLeft][LoadRoy][FastPrint]All right!
+Then let's get it![A][Clear]
+We may still be able
+to stop Bern![A]
+[0143]
+[OpenLeft][LoadVillager19][FastPrint][ToggleSmile]Who trespasses in this place?
+What is your business here?[A]
+[OpenMidRight][LoadRoy][CloseSpeechFast]My name is Roy.[A]
+Sophia brought me here. I came
+to protect the village.[A]
+[OpenLeft][FastPrint]Sophia...?[A]
+Then it was you who drove
+off Bern's soldiers?[A]
+Oh dear...
+Please forgive me.[A]
+I am the elder of Arcadia.[A]
+[OpenMidRight]The elder...
+Are you a dragon?[A]
+[OpenLeft]A dragon... I have
+been called that before.[A]
+But that was a time
+long past.[A]
+[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenLeft][CloseSpeechFast]Let me think...[A]
+Yes, the only real dragon we
+have now is Fae right here.[A]
+[OpenFarLeft][LoadFae][NormalPrint][ToggleSmile]Hi...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]This little girl is a dragon?[A]
+[OpenLeft][FastPrint]Yes, though she has
+not yet matured.[A]
+[OpenMidRight][NormalPrint]Elder, do you know anything about
+the dragons fighting for Bern?[A]
+[OpenLeft][CloseSpeechFast]What?!
+Bern is allied with dragons?[A]
+[OpenMidRight]Yes, we have seen them.[A]
+[OpenLeft]I do not know...[A]
+Dragons are not supposed to exist in
+this world, except for in this village.[A]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadIgrene]Elder,
+if I may.[A][SendToBack]
+[OpenLeft]What is it, Igrene?[A][SendToBack]
+[OpenFarLeft][CloseSpeechFast]Sophia said that she could detect an
+evil force emanating from Bern's troops.[A]
+It may be related to the dragons Roy
+says he has seen with Bern.[A]
+[SendToBack]
+[OpenLeft][FastPrint]Perhaps...[A]
+I am too old to detect
+such forces now myself.[A][SendToBack]
+[OpenMidRight]Sophia can detect an evil force?
+What does that mean?[A][SendToBack]
+[OpenLeft][CloseSpeechFast]Sophia is half dragon and half human.[A]
+That gives her the ability to detect
+the auras emitted by other dragons.[A]
+She says, however, that she detects an
+unnaturally twisted force from Bern.[A][SendToBack]
+[OpenFarLeft]I think that it should be
+investigated further.[A]
+Elder, if you will allow it, I would like
+to join Roy so that I might learn more.[A]
+[SendToBack]
+[OpenLeft]I would prefer not to involve
+ourselves in outside matters...[A]
+But this is certainly a
+special case.[A][Clear]
+Will you take her, Roy?[A]
+[SendToBack]
+[OpenMidRight]Certainly.[A]
+[OpenFarLeft]I am Igrene,
+Guardian of Nabata.[A]
+I am confident in my skills
+with the bow.[A]
+I believe I can aid you
+in battle.[A]
+[OpenMidRight]I appreciate it.[A]
+[OpenFarLeft][ClearFace][OpenFarLeft][LoadFae][NormalPrint][ToggleSmile]I want to go too![A]
+[OpenLeft][CloseSpeechFast][ToggleSmile]
+Don't be ridiculous. You may not.[A]
+There is no telling what may happen if
+the world learns of your existence![A][SendToBack]
+[OpenFarLeft][MoveFarLeft][NormalPrint][ToggleMouthMove]......[A][ToggleMouthMove][SendToBack]
+[OpenFarLeft][ClearFace][OpenLeft][ClearFace]
+[OpenLeft][LoadIgrene][CloseSpeechFast][OpenMidRight]If there is nothing else,
+let's be off.[A]
+[OpenLeft][FastPrint]Yes, let's.[A]
+[OpenLeft][ClearFace][OpenMidRight][ClearFace][......]
+[OpenFarLeft][LoadFae]...Fine... I will just follow
+them sneakily![A]

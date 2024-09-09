@@ -1,0 +1,102 @@
+[0BDF]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadOates][ToggleSmile]Haven't you found the
+legendary weapon yet?![A]
+[OpenMidLeft]We believe it is inside this
+altar, but we can't get it open...[A]
+[OpenMidRight][MoveRight]Break it open if you have to!
+It doesn't matter![A]
+[OpenMidLeft][MoveFarLeft]The enemy has already entered the temple,
+so the men are all preparing for battle![A]
+We don't have the manpower to break it
+open right now![A]
+[OpenRight]Blasted distractions...
+We don't have time for this.[A]
+As soon as the enemy is defeated, locating
+the weapon is our highest priority.[A]
+[0BE0]
+[OpenMidRight][LoadRoy][ToggleSmile]This is what it looks like
+under the desert?[A]
+There's so much...water.[A]
+[OpenMidLeft][LoadSophia]This is close to a source
+of groundwater...[A]
+This is the reason plants and animals
+can live in our village...[A]
+[OpenMidRight]So this is the source
+of the oasis.[A]
+Still, how did you find such
+an ideal location?[A]
+[OpenMidLeft]Athos...[A]
+Archsage Athos
+led us here...[A]
+[OpenMidRight][ToggleSmile]
+You mean the Athos of the
+Eight Legends?[A]
+[OpenMidLeft][ToggleSmile]Yes...[A]
+After the Scouring...Archsage Athos
+traveled all across Elibe...[A]
+At the end of his journey, he discovered
+our village of both man and dragon...[A]
+He told us it was only a matter of time
+until we were discovered...[A]
+[OpenMidRight]So he brought you into the desert
+where you could stay hidden...[A]
+[OpenMidLeft]Yes... He concealed his legendary
+weapon within this temple...[A]
+[OpenMidRight]Will your village permit us to
+use this legendary weapon?[A]
+[OpenMidLeft]The Archsage said that we were to
+use his weapon to protect Arcadia...[A]
+As long as you use it...to save Elibe
+and to protect us...then of course...[A]
+[OpenMidRight]It will be invaluable.
+Thank you.[A]
+[OpenMidLeft]Some of the pathways in this temple
+will sink into the water without warning...[A]
+Please be careful...[A]
+[0BE1]
+[LoadOates][ToggleSmile]I...wasn't expecting you to
+put up such a fight.[A]
+[0BE2]
+[LoadOates][ToggleSmile]Where...did you learn...
+to fight...like this...?[A]
+[0BE3]
+[OpenMidLeft][LoadSophia][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]It is here...
+Inside this altar...[A]
+[OpenMidRight][MoveRight][ToggleMouthMove]......[A][ToggleMouthMove][Clear]
+It won't open...[A]
+[OpenMidLeft]Only those of the village
+may open the altar...[A]
+Please allow me...[A]
+[OpenRight][MoveMidRight]Of course.[A]
+[OpenMidLeft][MoveLeft][ToggleMouthMove]......[A][.......][Clear]
+[ToggleMouthMove]There...
+This is the legendary weapon.[A]
+[OpenMidRight]Athos used this?
+Then it's...[A]
+[OpenLeft]Yes... It is the Infernal Truth.
+Forblaze...[A]
+[0BE4]
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]
+The tome appears to be inside
+the altar, Lord Roy.[A]
+[OpenMidRight]Can you get it out?[A]
+[OpenMidLeft]I sent some people to ask the
+villagers about it.[A]
+[OpenMidRight]Thank you, but let's not
+force the issue.[A]
+If they will not give us permission to
+use it, then we leave it here.[A]
+[OpenMidLeft]Yes, milord.[A][ClearFace]
+[0BE5]
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy![A]
+The villagers helped us remove
+the tome from the altar![A]
+Here it is.[A]
+[OpenMidRight]What is it?[A]
+[OpenMidLeft][ClearFace][OpenMidLeft][LoadElffin]
+...If this is what Archsage Athos used, it
+must be Forblaze, the Infernal Truth.[A]
+The legends say that none could
+escape its fiery punishment.[A]
+[OpenMidRight]...We must use it
+cautiously then.[A]

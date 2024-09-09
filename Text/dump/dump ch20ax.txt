@@ -1,0 +1,140 @@
+[0BEE]
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadTick][OpenMidLeft][ToggleSmile]Sir Tick!
+The enemy is advancing![A]
+[OpenMidRight][ToggleSmile]Don't panic.[A]
+The path through the
+ruins is blocked off.[A]
+They're not getting
+in here so easily.[A]
+[OpenMidLeft][ToggleSmile]
+But the enemy has had so many
+victories against Ilia's troops![A]
+Even many of our own men have
+fallen to them.[A]
+I don't see how we can expect
+victory...![A]
+[OpenMidRight][ToggleSmile]
+We don't need a victory.[A]
+General Murdock said that we
+simply must hold our ground.[A]
+We defend until the enemy
+gives up and leaves.[A]
+[0BEF]
+
+[0BF0]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon lies in here...[A]
+[OpenMidLeft][LoadZelot][OpenMidRight]Zelot, do you know
+about this place?[A]
+[OpenMidLeft]Yes.[A]
+I believe that Maltet, the Blizzard
+Spear, lies in these ruins.[A]
+[OpenMidRight]The Blizzard Spear...[A]
+[OpenMidLeft]Barigan the Holy Knight used it
+during the Scouring.[A]
+[OpenMidRight]Barigan?
+He's a hero to all knights.[A]
+I studied him a great deal.[A]
+He was honorable in
+everything he did.[A]
+...This building seems to
+have walls everywhere.[A]
+Is there a way inside?[A]
+[OpenMidLeft]
+Bern's forces most likely blocked the
+pathways to cover their tracks.[A]
+[OpenMidRight]Then they must have been
+in a rush...[A]
+Maybe the walls are weak in
+certain areas.[A]
+[OpenMidLeft]That is quite possible.[A]
+[OpenMidRight]All right.
+Let's do what we can.[A]
+[0BF1]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon lies in here...[A]
+[OpenMidLeft][LoadJuno][OpenMidRight]Juno, do you know
+about this place?[A]
+[OpenMidLeft]Yes.[A]
+I believe that Maltet, the Blizzard
+Spear, lies in these ruins.[A]
+[OpenMidRight]The Blizzard Spear...[A]
+[OpenMidLeft]Barigan the Holy Knight used it
+during the Scouring.[A]
+[OpenMidRight]Barigan?
+He's a hero to all knights.[A]
+I studied him a great deal.[A]
+He was honorable in
+everything he did.[A]
+...This building seems to
+have walls everywhere.[A]
+Is there a way inside?[A]
+[OpenMidLeft]
+Bern's forces most likely blocked the
+pathways to cover their tracks.[A]
+[OpenMidRight]Then they must have been
+in a rush...[A]
+Maybe the walls are weak in
+certain areas.[A]
+[OpenMidLeft]That is quite possible.[A]
+[OpenMidRight]All right.
+Let's do what we can.[A]
+[0BF2]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon lies in here...[A]
+[OpenMidLeft][LoadElffin][OpenMidRight]Elffin, do you know
+about this place?[A]
+[OpenMidLeft]Yes.[A]
+I believe that Maltet, the Blizzard
+Spear, lies in these ruins.[A]
+[OpenMidRight]The Blizzard Spear...[A]
+[OpenMidLeft]Barigan the Holy Knight used it
+during the Scouring.[A]
+[OpenMidRight]Barigan?
+He's a hero to all knights.[A]
+I studied him a great deal.[A]
+He was honorable in
+everything he did.[A]
+...This building seems to
+have walls everywhere.[A]
+Is there a way inside?[A]
+[OpenMidLeft]
+Bern's forces most likely blocked the
+pathways to cover their tracks.[A]
+[OpenMidRight]Then they must have been
+in a rush...[A]
+Maybe the walls are weak in
+certain areas.[A]
+[OpenMidLeft]That is quite possible.[A]
+[OpenMidRight]All right.
+Let's do what we can.[A]
+[0BF3]
+[LoadTick][ToggleSmile]No...
+This is a nightmare.[A][Clear]
+How did you get
+through those walls?[A]
+[0BF4]
+[LoadTick]You have bested us...
+You may pass...[A][Clear]
+But you will know Bern's
+true power soon...[A]
+[0BF5]
+[OpenMidLeft][LoadSoldier1][ToggleSmile]It's here!
+The lance is here![A][ClearFace]
+[OpenMidRight][LoadRoy][ToggleMouthMove]......[A][Clear]
+[ToggleMouthMove]...This is Barigan's
+lance Maltet...[A]
+It's beautiful, as if
+it were made of ice.[A]
+[OpenMidLeft][LoadMerlinus]Lord Roy,
+Bern's troops are fleeing.[A]
+[OpenMidRight]Good.
+Let them go.[A]
+[OpenMidLeft]Let them go?
+We must attack.[A]
+[OpenMidRight]No, don't.
+We've already won.[A]
+They don't want to
+fight us.[A]
+[OpenMidLeft]But...[A]
+[OpenMidRight]They all have lives
+and families.[A]
+There's no need to take
+that away from them.[A]

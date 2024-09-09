@@ -1,0 +1,151 @@
+[0C00]
+[OpenMidRight][LoadPeres][OpenMidLeft][LoadSoldier2][OpenMidRight]
+The battle was lost...[A]
+[OpenMidLeft]Yes, it appears so.[A]
+[OpenMidRight]
+I wish I could have been at General
+Murdock's side when he fell.[A]
+[OpenMidLeft]...I share your feelings.[A]
+[OpenMidRight]
+We carry out our final orders from
+General Murdock as planned.[A]
+We will defend the legendary weapon
+to our deaths if need be.[A]
+Apocalypse, the Elder Revelation,
+must not fall into enemy hands![A]
+[0C01]
+[OpenMidLeft][LoadMelady][OpenMidRight][LoadRoy][ToggleSmile]
+There is a legendary weapon
+in this place?[A]
+[OpenMidLeft]Yes, I believe so.[A]
+All I've heard are rumors from other
+soldiers,[A]
+but there is apparently a tome meant
+to protect the shrine from intruders.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadElffin]
+I agree that the tome is
+likely a legendary weapon.[A]
+Bern's troops are present
+as well.[A]
+[OpenMidRight]
+We will soon fight Zephiel himself.[A]
+...We need as many legendary weapons
+as we can obtain before then.[A]
+We must get that tome.[A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadMelady]
+I have also heard that there are
+numerous traps placed about.[A]
+[OpenMidRight]Traps?[A]
+[OpenMidLeft]Yes, and they are supposedly
+very well-crafted at that.[A]
+Most of us probably lack the
+dexterity to disarm them,[A]
+but thieves may be able to
+take care of them.[A]
+In any case, do be careful.[A]
+[OpenMidRight]Yes, we must stay
+on our guard.[A]
+[0C02]
+[OpenMidLeft][LoadZeiss][OpenMidRight][LoadRoy][ToggleSmile]There is a legendary weapon
+in this place?[A]
+[OpenMidLeft]Yes, I believe so.[A]
+All I've heard are rumors from other
+soldiers,[A]
+but there is apparently a tome meant
+to protect the shrine from intruders.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadElffin]
+I agree that the tome is
+likely a legendary weapon.[A]
+Bern's troops are present
+as well.[A]
+[OpenMidRight]
+We will soon fight Zephiel himself.[A]
+...We need as many legendary weapons
+as we can obtain before then.[A]
+We must get that tome.[A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadMelady]
+I have also heard that there are
+numerous traps placed about.[A]
+[OpenMidRight]Traps?[A]
+[OpenMidLeft]Yes, and they are supposedly
+very well-crafted at that.[A]
+Most of us probably lack the
+dexterity to disarm them,[A]
+but thieves may be able to
+take care of them.[A]
+In any case, do be careful.[A]
+[OpenMidRight]Yes, we must stay
+on our guard.[A]
+[0C03]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy][ToggleSmile]
+This is where the legendary weapon
+is, Princess Guinivere?[A]
+[OpenMidLeft]Most likely...[A]
+All I know is that there is a tome here
+meant to protect the shrine from intruders.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadElffin]I agree that the tome is
+likely a legendary weapon.[A]
+Bern's troops are present
+as well.[A]
+[OpenMidRight]We will soon fight Zephiel himself.[A]
+...We need as many legendary weapons
+as we can obtain before then.[A]
+We must get that tome.[A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadGuinivere]I have also heard that there are
+numerous traps placed about.[A]
+[OpenMidRight]Traps?[A]
+[OpenMidLeft]Yes, and they are supposedly
+very well-crafted at that.[A]
+Most soldiers probably lack
+the dexterity to disarm them,[A]
+but thieves may be able to
+take care of them.[A]
+In any case, do be careful.[A]
+[OpenMidRight]Yes, Princess.
+We will stay on our guard.[A]
+[0C04]
+[LoadPeres]
+Darkness from an age
+long forgotten...[A][Clear]
+I will show you its power.[A]
+[0C05]
+[LoadPeres]
+Darkness...[A]
+I am being consumed
+by darkness...[A]
+[0C06]
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadElffin][OpenMidRight][ToggleSmile]Elffin, do you know what
+this spell tome is?[A]
+[OpenMidLeft]...It is probably Apocalypse.[A]
+[OpenMidRight]Apocalypse?[A]
+[OpenMidLeft]Yes, it is also known as the
+Elder Revelation.[A]
+It was used by Bramimond, the most
+enigmatic of the Eight Legends.[A]
+[OpenMidRight]Bramimond...[A]
+I've heard the name,
+but nothing more.[A]
+[OpenMidLeft]
+We know not if Bramimond was
+man or woman, young or old.[A]
+Nothing specific is written.[A]
+[OpenMidRight]That's unusual...[A]
+[OpenMidLeft][ToggleMouthMove]......[A]
+[OpenMidLeft][ClearFace][OpenLeft][LoadGuinivere][ToggleMouthMove]Roy, is something wrong?[A]
+[OpenMidRight]No, I was just thinking.[A]
+[OpenLeft]About what?[A]
+[OpenMidRight]There always seem to be traps
+where legendary weapons lie.[A]
+[OpenLeft]...Perhaps they are meant to keep
+the unworthy from wielding them.[A]
+[OpenMidRight]Maybe so...
+But the traps are so intricate.[A]
+I feel there must be something
+more to them than that.[A]
+[OpenLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenLeft][ClearFace][OpenMidLeft][LoadElffin]
+...I have wondered the same thing.[A]
+I shall see if there is any
+information on the subject.[A]
+[OpenMidRight]Yes...
+Thank you.[A]

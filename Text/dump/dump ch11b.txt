@@ -1,0 +1,350 @@
+[096C]
+[OpenMidRight][LoadVillager44][ToggleSmile]Hurry!
+This way![A]
+[OpenMidLeft][LoadVillager46]A-are you sure about this?
+If we get caught we're--[A]
+[OpenMidRight]Don't be stupid![A]
+If we stay, we'll be
+worked to death![A]
+You're just going to lie
+down and take that?[A]
+Don't you have a family
+or something back home?[A]
+[OpenMidLeft]Yeah...[A]
+[OpenMidRight]There are people coming to
+help us from the northeast.[A]
+We just have to make it
+there in one piece![A]
+[096D]
+[OpenMidRight][LoadArcardo][ToggleSmile]More people escaped?![A]
+[MoveMidRight]Where were the guards?![A]
+[OpenFarLeft][LoadRoberts]They were unconscious.
+Someone drugged their food...[A]
+[OpenMidRight]...Then there must be a
+traitor among us.[A][OpenFarLeft][ClearFace]
+[OpenMidRight]Morgan![OpenLeft][LoadMorgan][A]
+[OpenMidRight]Pursue and eliminate
+the escaped workers.[A]
+[OpenLeft]Yes, Lord Arcardo.[A][SendToBack]
+[OpenMidRight]I will return to Juteaux.
+Don't let them escape.[A]
+Send more hands to the mines as well.
+I can't afford to lose more workers![A]
+[096E]
+[OpenMidRight][MoveRight][ToggleSmile]What?!
+Then Lycia is in danger![A]
+[OpenFarRight][LoadMerlinus]L-Lord Roy![A]
+[OpenFarLeft]Your country may be in peril.[A]
+Are you free to waste your time
+on the Isles as you are?[A][OpenFarRight]He's right![A]
+Bern wanted us out of Lycia so
+they could launch an invasion![A]
+We must head back at once![A]
+[OpenRight]...We stay here.[A][SendToBack]
+[OpenFarRight]What?!
+Why?![A][SendToBack]
+[OpenFarLeft][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenRight]It's difficult to judge what may
+be hearsay and what may be truth.[A]
+We can't simply jump on this
+rumor and run back to Lycia.[A]
+I am certainly concerned, but my father
+and General Cecilia are there.[A]
+The people on the Isles have only
+us to rely on.[A]
+[SendToBack]
+[OpenFarRight]That may be, but...[A][SendToBack]
+[OpenRight]If we leave without finishing our mission,
+then all we've done here was for naught.[A]
+[OpenFarLeft]...Your army is blessed with
+a levelheaded leader.[A]
+[OpenRight]What?[A]
+[OpenFarLeft]Lord Roy, I am sorry for
+testing you so.[A]
+[OpenFarRight]Testing us?
+So that was a lie?![A]
+[OpenFarLeft]It was the truth.[A]
+However, I presented the rumor in a
+way that you might take rash action.[A]
+Your leader is a prudent individual.
+I would join you if you allow it.[A]
+[OpenRight]...I don't like that
+you tested us.[A]
+[ToggleSmile]But if you can help,
+I welcome you.[A]
+[ToggleSmile]Now, back to the concern we face here.[A]
+What can we do to help the
+people of the Isles?[A]
+[OpenFarLeft]You should head south...
+towards Caldonia.[A]
+[OpenRight]Why?[A]
+[OpenFarLeft]Castle Eidyna is located there.[A]
+It is where workers are kept before
+they are sent to Eburacum.[A]
+[OpenRight]Then we must save
+the people there![A][......]
+[OpenFarLeft]Lord Roy,
+please take this sword.[A]
+[OpenRight]What is this?[A]
+[OpenFarLeft]It is called a wyrmslayer.[A]
+It was created during the
+Scouring to use against dragons.[A]
+It is effective against
+wyverns as well.[A]
+[OpenRight]Wyrmslayer?
+Is this a legendary weapon?[A]
+[OpenFarLeft]No. Legendary weapons can only be used by
+those whose skill rivals the Eight Legends.[A]
+This weapon, however, can be wielded by
+anyone with experience in swordplay.[A]
+[096F]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Elffin, is that castle to
+the southwest our target?[A]
+[OpenMidLeft]Yes, that is Castle Eidyna.[A]
+The people kidnapped on the Isles
+are first sent there.[A]
+They are then taken to Eburacum
+and forced to work in the mines.[A]
+As it happens, today is the weekly
+shipment of captives to the mines.[A]
+It will be difficult to rescue
+them once they've been sent off.[A]
+[OpenMidRight]Then you're saying we have
+to rescue them now![A]
+[OpenMidLeft]Yes.[A]
+I already had some spies infiltrate the
+castle and help the people escape.[A]
+[OpenMidRight]What will the captives
+do once they're out?[A]
+[OpenMidLeft]I told them to send the
+captives to the northeast.[A]
+In other words, our
+present location.[A]
+[OpenMidRight]Then we must rescue those people
+before sieging the castle.[A]
+[0970]
+[OpenMidLeft][LoadVillager46][OpenMidRight][LoadBartre]
+[OpenMidRight][ToggleSmile]They're imprisoned in
+that castle, you say?[A]
+[OpenMidLeft]That's right.[A]
+[OpenMidRight]Then we've no time to lose. Let's begin
+this daring prison break, shall we?[A]
+[OpenMidLeft]...I'm sorry to ask for
+your help like this.[A]
+I know you're looking
+for your daughter...[A]
+[OpenMidRight][ToggleSmile]Don't be absurd! Consider it
+payment for your hospitality.[A]
+I won't let some blood-sucking
+lord take advantage of his people![A][Clear]
+I'm Bartre the Brave, and I'll
+smash these puny insects![A]
+[E2]
+
+[OpenMidLeft][LoadBartre][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Are you with
+Etruria?![A]
+[OpenMidRight][FastPrint]Y-yes...[A]
+[OpenMidLeft][CloseSpeechFast]We fight for the people
+suffering under your tyranny![A]
+En garde![A]
+[OpenMidRight][FastPrint]W-wait!
+We're on your side![A]
+[OpenMidLeft][CloseSpeechFast]You aren't with
+the castle?[A]
+[OpenMidRight]We're trying to capture
+it, actually.[A]
+[OpenMidLeft]Oh!
+Sorry then.[A]
+[OpenMidRight]I am Roy, leader of
+the Lycian Army.[A]
+[OpenMidLeft]Lycia?
+You've come a long way...[A]
+[OpenMidRight]We were sent by Etruria to rid
+the Isles of the bandits.[A]
+[OpenMidLeft]What's that?!
+So you are with Etruria![A]
+[OpenMidRight]Please calm yourself!
+We share the same goal.[A]
+We want to bring peace
+to the Isles.[A]
+[OpenMidLeft]...You may end up against
+Etrurian nobility.[A]
+[OpenMidRight]...Our mission is to find and
+eliminate wrongdoers on the Isles.[A]
+Social status matters not.[A]
+[OpenMidLeft][FastPrint]You, my friend, are
+a man of conviction![A]
+Very well! I think I'll
+join your little army![A]
+[OpenMidRight][FastPrint]You'll help us?
+Thank you![A]
+
+[E3]
+
+[OpenMidLeft][LoadBartre][OpenMidRight][LoadFir]
+[OpenMidRight][FastPrint][ToggleSmile]Father?
+What are you doing here?[A]
+[OpenMidLeft][ToggleSmile]Fir!
+I've been looking for you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Father,
+I've already made up my mind.[A]
+I want to become a great master
+of the sword like Mother...[A]
+[OpenMidLeft][ToggleSmile]That is good.
+I don't intend to drag you home.[A]
+In fact, I want to help you
+in your journey.[A]
+[OpenMidRight][FastPrint][ToggleSmile]Help me?[A]
+[OpenMidLeft][CloseSpeechFast]I know well the hardships one faces
+in a journey of self-improvement.[A]
+I can help you out of a bind if
+things get rough.[A]
+[OpenMidRight]But Father, if you keep helping me,
+my training is meaningless.[A]
+[OpenMidLeft][NormalPrint]Nonsense.[A]
+[CloseSpeechFast]With your old man around, we can
+practice sparring any time![A]
+Do you refuse your
+father's love?![A]
+[OpenMidRight][FastPrint]No! It's nothing
+like that, but...[A]
+[OpenMidLeft][ToggleSmile]It's settled then.[A]
+But first we capture
+the castle.[A]
+[ClearFace][OpenMidRight][NormalPrint][ToggleSmile]Sigh...[A]
+[CloseSpeechFast]I guess I should tell Roy that
+we have another member...[A]
+[0971]
+[OpenMidLeft][LoadMorgan][OpenMidRight][LoadSoldier2]
+[OpenMidRight]Sir Morgan,
+the reinforcements are ready![A]
+[OpenMidLeft]Good.
+Deploy them immediately.[A]
+Spread them around the castle
+to defend us on all sides.[A]
+[0972]
+
+[0973]
+[OpenMidLeft][LoadBartre][OpenMidRight][LoadFir]
+[OpenMidRight][FastPrint][ToggleSmile]Father?
+What are you doing here?[A]
+[OpenMidLeft][ToggleSmile]Fir!
+I've been looking for you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Father,
+I've already made up my mind.[A]
+I want to become a great master
+of the sword like Mother...[A]
+[OpenMidLeft][ToggleSmile]That is good.
+I don't intend to drag you home.[A]
+In fact, I want to help you
+in your journey.[A]
+[OpenMidRight][FastPrint][ToggleSmile]Help me?[A]
+[OpenMidLeft][CloseSpeechFast]I know well the hardships one faces
+in a journey of self-improvement.[A]
+I can help you out of a bind if
+things get rough.[A]
+[OpenMidRight]But Father, if you keep helping me,
+my training is meaningless.[A]
+[OpenMidLeft][NormalPrint]Nonsense.[A]
+[CloseSpeechFast]With your old man around, we can
+practice sparring any time![A]
+Do you refuse your
+father's love?![A]
+[OpenMidRight][FastPrint]No! It's nothing
+like that, but...[A]
+[OpenMidLeft][ToggleSmile]It's settled then.[A]
+But first we capture
+the castle.[A]
+[ClearFace][OpenMidRight][NormalPrint][ToggleSmile]Sigh...[A]
+[CloseSpeechFast]I guess I should tell Roy that
+we have another member...[A]
+[0974]
+
+[0975]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48]
+Are you the guys
+helping us out?[A]
+Then please, take this.[A]
+I grabbed it as I escaped
+from the castle.[A]
+I hope everyone else
+made it out...[A]
+[0976]
+[LoadMorgan]
+[ToggleSmile]What are you doing?![A]
+Hurry and kill the ones
+who escaped![A][Clear]
+Wait, you're not one of
+my men... Wh-who are you?![A]
+[0977]
+[LoadMorgan]
+[ToggleSmile]The resistance force has
+been eliminated in this area...[A][Clear]
+Who...are you people...?[A]
+[0978]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Elffin!
+Are you all right?[A]
+[OpenMidLeft][ToggleSmile]This wound is great...
+But still, I must not...![A]
+[OpenMidRight][ToggleSmile]You should stay off the battlefield.
+Leave the fighting to us.[A]
+[OpenMidLeft]Yes, you are right...
+Forgive my being a hindrance...[A]
+[0979]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Even though we've saved the
+people at Castle Eidyna,[A]
+there are others still
+suffering in the mines.[A]
+[OpenMidLeft]That is correct.[A]
+To liberate the Western Isles,
+we must take the capital.[A]
+[OpenMidRight]Then our next destination
+is Juteaux.[A]
+...Elffin, may I ask
+you something?[A]
+[OpenMidLeft]Of course, Lord Roy.[A]
+[OpenMidRight]Pardon me if I am
+mistaken,[A]
+but are you of high
+Etrurian nobility?[A]
+[OpenMidLeft]What?!![A][Clear]
+...What makes you think that?[A]
+[OpenMidRight]I can't quite explain
+it, but...[A]
+The way you talk sounds
+very educated.[A]
+In Ostia, I learned how to study
+others and size them up.[A]
+Am I right?[A]
+[OpenMidLeft]What would you do
+if you are?[A]
+[OpenMidRight]Oh. Nothing
+in particular.[A]
+I'm sure you have a good reason
+to hide your identity.[A]
+You can tell me when you
+feel the time is right.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Let's head for Juteaux![A]
+To save the Isles and defeat
+the true enemy of the people![A]
+[097A]
+
+[097B]
+[OpenFarLeft][LoadVillager46][OpenLeft][LoadVillager44][OpenMidRight][LoadMerlinus]
+[OpenLeft]Hey, you with the mustache![A]
+[OpenMidRight]What?!
+Who are you?[A]
+[OpenLeft]Here, give this
+to General Roy.[A]
+Thanks to him, we can see
+our families again.[A]
+[OpenFarLeft]We of the Western Isles always
+pay our debts of gratitude![A][SendToBack]
+[OpenLeft]Tell him thanks.[A][SendToBack]
+[OpenFarLeft]We're all grateful from the
+bottom of our hearts![A]

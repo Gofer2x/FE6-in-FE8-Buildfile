@@ -1,0 +1,86 @@
+[0BD9]
+[OpenMidRight][LoadGuerrero][ToggleSmile]This is the end of the caaave?[A]
+Treasuuure...
+Where are yooouu...?[A]
+Answer meee...[A]
+[OpenMidLeft][LoadBanditKid]
+Boss... Are you sure
+about this?[A]
+The men from Bern just told
+us to block the entrance.[A]
+If they catch us now, they'll
+surely have us back in chains![A]
+[OpenMidRight][MoveRight]You foooool![OpenMidLeft][MoveFarLeft][A]
+[OpenRight]We'll do as we're told in tiiime...[A]
+They'll never know that we took
+the treasuuure...[A]
+If we block the entrance without taking
+the treasure, it's all the same anywaaay...[A]
+Do you really want that poor treasure
+trapped in here for all eternityyy?[A]
+[OpenFarLeft]Well, when you put it that way...
+I guess you're right.[A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadScollan]Boss![A]
+There's an army stationed
+outside the cave![A]
+[OpenRight]Whaaat?[A]
+They want to take our
+treasure, do theeey?[A]
+Have the boys near the entrance
+take them ooouut...[A]
+And grab all the treasure cheeests...
+We rightfully stole them fiiirst![A]
+[0BDA]
+[OpenMidRight][LoadRoy][ToggleSmile]A legendary weapon lies in this cave...?[A]
+It's so dark in here.[A]
+[OpenMidLeft][LoadElffin]According to the scholar in
+Juteaux I spoke to,[A]
+the legendary weapon in this cave is
+most likely the Thunder Axe, Armads.[A]
+[OpenMidRight]Armads...[A]
+An axe this time.[A]
+[OpenMidLeft]Armads was wielded by Durban the Berserker,
+who was said to be a colossus of a man.[A]
+A single blow from his axe surely made
+short work of any opponent.[A]
+[OpenMidRight]Elffin, you seem to know a lot about
+the Eight Legends and their weapons.[A]
+[OpenMidLeft]I'm a bard. It is my job
+to know myths and legends.[A]
+[OpenMidRight]I'd like to hear some of them
+when we have the time.[A]
+[OpenMidLeft]Of course.[A]
+...Lord Roy, it seems we are
+not alone in this cave.[A]
+[OpenMidRight]We aren't?[A]
+[OpenMidLeft]There are also noxious fumes
+coming from the cave walls.[A]
+We must tread lightly.[A]
+[0BDB]
+[LoadGuerrero]Daaaahhhhhh![A][Clear]
+Rah![A]
+[0BDC]
+[LoadGuerrero]Dah...[A]
+[0BDD]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy][ToggleSmile]Where is the legendary weapon?[A]
+[OpenMidLeft]Hmm...[A]
+I hear wind blowing from
+behind the throne.[A]
+[OpenMidRight]What?
+I can't hear it...[A]
+[MoveRight]A niche...between the
+floor and the wall.[A][Clear]
+Oh! It opened![A][Clear]
+...So this is the legendary weapon?
+This axe is enormous.[A]
+[OpenMidLeft]Armads...[A]
+The very axe wielded by
+Durban the Berserker.[A]
+It certainly appears fit for
+a warrior of his stature.[A]
+[0BDE]
+[OpenMidLeft][LoadSoldier1][ToggleSmile]Lord Roy, here it is![A]
+There's a large axe behind the
+throne![A]
+[OpenMidRight][LoadRoy]This is Armads...
+Durban's axe...[A]

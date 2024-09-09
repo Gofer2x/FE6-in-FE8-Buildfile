@@ -1,0 +1,306 @@
+[01E8]
+[OpenMidLeft][LoadJahn][OpenMidRight][LoadBrunnya]
+[ToggleSmile]Sir Jahn, Idunn is here.
+I leave her in your care.[A]
+[OpenMidLeft][FastPrint]
+And what about you, human?
+What will you do now?[A]
+[OpenMidRight]
+I will stay here. I will face the
+Etrurian Army...and my destiny.[A]
+[OpenMidLeft][NormalPrint]Do you have sufficient troops?[A]
+[OpenMidRight][CloseSpeechFast]
+The wyvern riders scattered around
+the continent have returned to us.[A]
+[OpenMidLeft]Do you have any chance
+of victory?[A]
+[OpenMidRight]
+...Our chance of victory is
+minuscule at best.[A]
+But we are the Bern Army, the
+strongest force in Elibe.[A]
+If nothing else, we shall show
+them our unwavering will.[A]
+[OpenMidLeft]Your will...?[A]
+You humans are incomprehensible
+to us at times.[A]
+Do you expect your will alone
+to earn you victory?[A]
+But so be it.[A]
+I leave you to your irrational
+pursuit.[A]
+[01E9]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadBrunnya][OpenMidRight][FastPrint][ToggleSmile]...Have you given the
+troops my message?[A]
+[OpenMidLeft][CloseSpeechFast]Yes, General Brunnya.[A]
+I told them they are free
+to leave if they so wish.[A]
+[OpenMidRight][FastPrint]How many remain?[A]
+[OpenMidLeft][CloseSpeechFast]Nearly all of the soldiers say they
+still wish to fight for you.[A]
+[OpenMidRight]Nearly all of them?[A]
+Victory is unlikely.[A]
+I'm sure many of the troops have
+family awaiting their return.[A]
+I do not want any to feel that
+they must fight on this day.[A]
+[OpenMidLeft]We are knights of Bern, General.[A]
+We have no intention of bowing our
+heads to Etruria.[A]
+[OpenMidRight]...Dismiss the injured and those with
+young children or elderly parents.[A]
+They are forbidden from fighting
+in this battle.[A]
+[OpenMidLeft][FastPrint]But General Brunnya...[A]
+[OpenMidRight]That is an order.
+Go.[A]
+[01EB]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]
+Lord Roy, the troops
+are prepared.[A]
+[OpenMidRight][FastPrint]...Did the messenger return?[A]
+[OpenMidLeft][CloseSpeechFast]Yes, but as expected, the
+enemy refuses to surrender.[A]
+[OpenMidRight]
+Was it clear that their safety would
+be guaranteed if they surrender?[A]
+[OpenMidLeft]Yes, but even given that information,
+they apparently politely refused.[A]
+[OpenMidRight]Why do they fight?
+Bern's king is defeated...[A]
+[OpenMidLeft][ClearFace][OpenLeft][LoadGuinivere][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Princess Guinivere...[.....]
+Do you understand why?[A]
+[OpenLeft]I do very well.[A]
+...Bern recognizes itself as
+the strongest force in Elibe.[A]
+Their pride does not allow them to
+accept defeat without a fight.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenFarLeft][LoadMerlinus][FastPrint]Lord Roy!
+The enemy is advancing![A]
+[OpenMidRight][CloseSpeechFast]
+...They leave us no choice.
+We must fight![A]
+Merlinus, send Princess
+Guinivere to the back lines...[A][OpenFarLeft][ClearFace]
+[OpenLeft]No. I will stay here.[A]
+I...must listen to their cries.[A]
+That is all I can do to atone
+for my betrayal...[A]
+[01EC]
+[OpenMidLeft][LoadKarel][OpenMidRight][LoadFir][NormalPrint][ToggleSmile]Uncle Karel![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Ah, Fir...
+Fancy meeting you here.[A]
+[OpenMidRight][ToggleSmile]Wh-what are you doing
+in a place like this?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+I live here.[A]
+After all my travels around the
+world, I decided to settle here.[A]
+[OpenMidRight][ToggleSmile]
+Uncle... I must tell
+you something.[A]
+Mother... She...[A]
+[OpenMidLeft][NormalPrint]Your father told me.[A]
+I'm sorry I couldn't
+be with you.[A]
+I'm sure it must have
+been difficult...[A]
+[OpenMidRight][NormalPrint]......[A]
+[01ED]
+[OpenMidLeft][LoadKarel][OpenMidRight][LoadBartre][ToggleSmile][FastPrint]K-Karel![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]...Bartre?[A]
+What are you doing
+here?[A]
+[OpenMidRight][FastPrint][ToggleSmile]I fight with the Etrurian Army...
+What about you, Karel?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+I live here.[A]
+I've traveled enough.
+It was time to settle down.[A]
+[OpenMidRight][ToggleSmile]Karel...
+I must tell you something.[A]
+[OpenMidLeft][NormalPrint]About Karla?[A]
+[OpenMidRight]...You already know?[A]
+[OpenMidLeft]Fir told me.[A]
+[OpenMidRight]I beg your forgiveness!
+I could do nothing...[A]
+[OpenMidLeft][CloseSpeechFast]I don't blame you.
+It is I who should apologize.[A]
+If only I could have been
+there with you...[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
+[01EE]
+[OpenMidLeft][LoadKarel][OpenMidRight][LoadRoy]
+[OpenMidLeft]Are you Roy?[A]
+[OpenMidRight]Who are you?[A]
+[OpenMidLeft]I am Karel.[A]
+I have decided to
+assist your army.[A]
+[OpenMidRight]You're the Sword Saint...
+Your skills are legendary.[A]
+We welcome you.[A]
+[01EF]
+[OpenMidLeft][LoadVillager8][OpenMidRight][LoadKarel]
+[OpenMidLeft][FastPrint][ToggleSmile]
+S-Sir Karel![A]
+This place will be
+a battlefield...[A]
+[OpenMidRight][CloseSpeechFast]
+So I see.[A]
+I thought I could be free of
+war in this isolated land...[A]
+[OpenMidLeft][FastPrint]What should we do?[A]
+[OpenMidRight][CloseSpeechFast]Please don't fret.
+I will protect the village.[A]
+[OpenMidLeft][FastPrint]Thank you, Sir Karel![A]
+You are truly worthy of the
+title of Sword Saint![A]
+We have nothing to fear with
+you protecting us.[A]
+[OpenMidRight][CloseSpeechFast]I am just an ordinary swordsman.[A]
+Stories grow with time, so don't
+trust all that you've heard...[A][Clear]
+...This war seems to be even
+greater than I realized.[A]
+I wonder how my sister Karla
+fares...[A]
+[OpenMidLeft][FastPrint]I never knew you had a sister.[A]
+[OpenMidRight]I haven't seen her in years,
+but she fell ill some time ago.[A]
+I only hope she leads a peaceful
+life with her husband and daughter...[A]
+[01F0]
+[OpenMidLeft][LoadKarel][OpenMidRight][LoadFir][NormalPrint][ToggleSmile]Uncle![A]
+[OpenMidLeft][FastPrint][ToggleSmile]...Fir?
+Is that you?[A]
+What are you
+doing here?[A]
+[OpenMidRight][ToggleSmile]I never expected to find
+you here, Uncle.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+I've traveled enough. I decided it
+was time to settle down.[A]
+I had hoped to train my sword without
+distractions in this quiet village...[A]
+[OpenMidRight][ToggleSmile]Uncle...
+I must tell you something.[A]
+Mother... She...passed on...[A]
+[OpenMidLeft][NormalPrint]...She's gone?[A]
+[OpenMidRight]Yes...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]......[A][ToggleMouthMove]
+So she succumbed to
+her illness...[A]
+I'm sorry.[A]
+I wasn't there when you
+needed me the most.[A]
+[OpenMidRight][NormalPrint]No... It's all right.[A]
+[OpenMidLeft][CloseSpeechFast]But why are you here?[A]
+Surely you haven't been searching
+for me just to tell me that?[A]
+[OpenMidRight][FastPrint]Actually, I'm fighting
+against Bern.[A]
+[OpenMidLeft][CloseSpeechFast]You...joined the war?[A]
+[OpenMidRight]I know that you dislike getting
+caught up in conflicts like this.[A]
+All I wanted was to help the people
+who have suffered from this war.[A]
+Uncle... Was I wrong? Was I
+mistaken in joining this fight?[A]
+Should I have found a better way
+to train my sword...?[A]
+[OpenMidLeft]
+No, you've made no
+mistakes.[A]
+A path you choose on your
+own is never wrong.[A]
+In fact, I think I'll
+join you.[A]
+[OpenMidRight][ToggleSmile]Really?![A]
+[OpenMidLeft]Absolutely.[A]
+...You have grown so
+much.[A]
+The last time I saw you,
+you couldn't even walk yet.[A]
+[OpenMidRight]Uncle...[A]
+[01F1]
+[OpenMidLeft][LoadKarel][OpenMidRight][LoadBartre][ToggleSmile][FastPrint]Karel?![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Bartre?
+What are you doing here?[A]
+[OpenMidRight][FastPrint][ToggleSmile]
+I fight with
+the Etrurian Army.[A]
+I didn't expect to
+see you here...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+I've traveled enough. I decided it
+was time to settle down.[A]
+I had hoped to train my sword without
+distractions in this quiet village...[A]
+[OpenMidRight][ToggleSmile]...I have something I must
+apologize for...[A]
+[OpenMidLeft][NormalPrint]...Are you talking about Karla?[A]
+[OpenMidRight][CloseSpeechFast]Yes...
+I did all I could, but...[A]
+[OpenMidLeft][FastPrint]She succumbed to her illness...?[A]
+[OpenMidRight]Forgive me!
+I was too weak to save her...[A]
+[OpenMidLeft][CloseSpeechFast]It is not your fault.
+It is I who should apologize to you.[A]
+I wasn't at her side when she
+needed me the most...[A]
+[OpenMidRight][NormalPrint]...I wish to ask you a favor.[A]
+[OpenMidLeft]What is it?[A]
+[OpenMidRight]I want this battle to end.[A]
+I know how you despise warfare...
+but will you lend us your skills...?[A]
+[OpenMidLeft][ToggleSmile]...So that's it.[A]
+Very well.
+You have my sword.[A]
+[OpenMidRight]Thank you, my brother![A]
+With your skills,
+victory is as good as ours![A]
+[01F2]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadKarel]
+[ToggleSmile]This village has none who
+wish to join your fight.[A]
+Please leave us in peace.[A]
+[01F3]
+[LoadBrunnya][ToggleSmile]Bern will never die![A]
+Even if I fall, Bern will
+rise once more![A]
+[01F4]
+[LoadBrunnya][ToggleSmile]Your...Majesty...[A]
+Let me be...by your side
+again...like before...[A]
+[01F5]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]This is the Dragon Sanctuary...
+The Dark Priestess is in here?[A]
+[OpenMidLeft]Almost assuredly.
+But...something is bothering me...[A]
+[OpenMidRight][NormalPrint]What's that?[A]
+[OpenMidLeft][FastPrint]
+Legends of the Scouring say the Dragon
+Sanctuary has the power of the dragons.[A]
+[OpenMidRight]What does that mean?[A]
+[OpenMidLeft]The sanctuary's power is said to
+protect the dragons themselves.[A]
+[OpenMidRight]What...?
+I don't understand.[A]
+[OpenMidLeft]
+I believe the dragons in the sanctuary
+may be more powerful than those outside.[A]
+[OpenMidRight]
+Do you think we still have
+a chance against them?[A]
+[OpenMidLeft]Probably, but only with the
+legendary weapons.[A]
+[OpenMidRight]
+...It is better to be safe than sorry.[A]
+I'll take those of us who can wield
+legendary weapons into the sanctuary.[A]
+[OpenMidLeft]Choose wisely.[A]
+Once inside, we may be
+unable to leave freely...[A]

@@ -1,0 +1,218 @@
+[0993]
+[OpenMidLeft][LoadRoartz][MoveMidLeft][ToggleSmile]
+They're here...!
+And so soon...[A]
+If only we had more time
+to prepare our defenses![A]
+[OpenMidRight][LoadKel]
+We will try to stop the enemy
+from progressing any further.[A]
+Please retreat to the mansion
+and fortify your defenses there.[A]
+[OpenMidLeft]...Do you think you can
+succeed in stopping them?[A]
+[OpenMidRight]I cannot say,
+but we will try.[A]
+[OpenMidLeft][MoveMidLeft]
+If you aren't confident you'll
+be victorious, then I'll--[A]
+[OpenMidRight]You'll what? Flee?[A]
+Tell me, just where do
+you think you can hide?[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]
+General Brunnya has ordered
+me to protect you.[A]
+And so I shall, to the
+very limits of my ability.[A]
+But there may come a time when
+you must take up arms as well.[A]
+[OpenMidLeft]...V-very well...[A]
+Then I shall fortify the inside.
+I leave the outside to you.[A][ClearFace][......]
+[OpenMidLeft][LoadSoldier2]
+...That coward is the high
+chancellor of Etruria?[A]
+Why does he deserve our
+protection?[A]
+[OpenMidRight]It's not as if General Brunnya
+cares for the man.[A]
+She is obligated to protect him
+because he turned to our side.[A]
+Wretched though he may be, we
+have a duty to fulfill.[A]
+[OpenMidLeft][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]
+By the way, I understand the Silver
+Wolf has been lurking around here.[A]
+Keep on guard at all times and be
+ready for anything.[A]
+[OpenMidLeft]Yes, sir.[A]
+[0994]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy][ToggleSmile]Princess Guinivere.[A]
+[OpenMidLeft]...We fight again today.[A]
+[OpenMidRight]Yes, we must.[A]
+I am sorry I've had no time
+to speak with you at length.[A]
+[OpenMidLeft]It is not your fault.[A]
+...If the blame lies with
+anyone, it is my brother.[A]
+[OpenMidRight]Princess...[A]
+[OpenMidLeft]...Yes?[A]
+[OpenMidRight]May I ask why your father tried
+to murder King Zephiel?[A]
+[OpenMidLeft]...Zephiel and I have different mothers.
+In actuality, I am his half sister.[A]
+[OpenMidRight]I heard that Zephiel's mother
+was an Etrurian noblewoman.[A]
+[OpenMidLeft]That's correct.[A]
+They were arranged to be wed for
+political reasons.[A]
+However, our father was already
+in love with another woman.[A]
+That was my mother.[A]
+[OpenMidRight][ToggleMouthMove]......[A]
+[OpenMidLeft][ToggleMouthMove]
+The marriage between the king and
+Zephiel's mother was forced.[A]
+Our father didn't love Zephiel's
+mother and always resented their son.[A]
+[OpenMidRight]
+Was that the cause of all
+the troubles that happened?[A]
+[OpenMidLeft]No...[A]
+I remember Zephiel working hard,
+vying for our father's affection.[A]
+He was a brilliant scholar and a
+prodigy in combat.[A]
+He grew to become a fine heir
+to Bern's throne.[A]
+[OpenMidRight][MoveRight]Then why did the
+king try to--[A]
+[OpenFarRight]Lord Roy!
+We are ready for the attack![A]
+[OpenRight]Understood.
+I only need a moment![A][Clear]
+Princess Guinivere,
+I am sorry, but I...[A]
+[OpenMidLeft]No, I understand. Go.
+Please be careful.[A]
+[0995]
+[OpenRight][LoadNiime][ToggleSmile]
+Well, well...
+It begins.[A]
+[OpenFarRight][LoadDayan]So it seems.[A]
+[OpenMidLeft][LoadVillager32]
+Bern's invasion finally ends, and now
+here comes Etruria. Will it never end?[A]
+[OpenFarRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenRight]Small wonder.
+This is a large trading city.[A]
+Any army would want control of it.[A]
+If you'll excuse me...[A]
+[OpenMidLeft]H-hey, wait,
+where are you going?[A]
+[OpenRight]I'm going to observe the fight.
+Let us see how good this Roy is.[A]
+[OpenMidLeft]You mean now?
+But...[A]
+[OpenRight]Don't you worry about me.
+I'll be fine.[A][ClearFace]
+[OpenFarRight][ClearFace][OpenMidLeft]What? Stop!
+Don't leave me alone![A]
+[0996]
+[OpenMidLeft][LoadKel]The reinforcements should be
+arriving soon...[A]
+[OpenMidRight][LoadSoldier2][OpenMidLeft]
+Open the front gate to let the
+reinforcements in when they arrive.[A]
+[OpenMidRight]Yes, sir.[A]
+[0997]
+[OpenMidLeft][LoadKel][OpenMidRight][LoadSoldier2]
+[OpenMidLeft]Have the guerrilla forces hiding in
+the houses commence their attack.[A]
+[OpenMidRight]Yes, sir.[A]
+[0998]
+[OpenMidLeft][LoadSoldier2]They'll be here any moment now...
+Open the gate![A]
+[0999]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager32]
+I was selling weapons to Bern
+before the war...[A]
+But now that they've taken
+over the city, they won't pay![A]
+Here, take this wyrmslayer.
+Just do something about them.[A][Clear]
+I've been hiding it from them...
+I think you can guess why...[A]
+[099A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager30]
+Would you like a special ring
+from Etruria?[A]
+I used to sell them, but I had to
+close my shop because of the war.[A]
+Here, take it. No charge...
+No one will buy it anyway.[A]
+[099B]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager34]
+This goddess icon
+brings good luck.[A]
+...I used to con people
+by saying that.[A]
+I can't do business
+with this war, though.[A]
+Here, take one.[A]
+It won't really bring
+you any luck, though.[A]
+[099C]
+[OpenMidRight][LoadVillager36]
+Wow... Lucky me!
+Finders keepers.[A]
+I bet I can sell
+this thing...[A]
+[OpenMidLeft][LoadCurrentCharacter]
+[OpenMidRight]Whoa!
+A-are you from Bern?[A]
+No, I didn't steal
+this![A]
+See ya![A]
+[099D]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager35]
+This is a longbow, a favorite
+of the Sacaen nomads.[A]
+Here, take one.[A]
+Use it to drive Bern's
+soldiers out of here![A]
+[099E]
+[LoadKel]I am Kel.[A][Clear]
+Behold my blade...as I swing
+it for the last time.[A]
+[099F]
+[LoadKel]
+This is the fate...
+of all swordsmen...[A]
+[09A0]
+[OpenLeft][LoadNiime][OpenMidRight][LoadRoy]
+[OpenLeft]I must say, you're not
+half bad at all.[A]
+[OpenMidRight][ToggleSmile]Wh-who are you!?[A][SendToBack]
+[OpenFarLeft][LoadSoldier1]I told you to stop![A]
+You may not enter.
+Lord Roy is not accepting visitors.[A]
+[OpenMidRight]What's going on?[A]
+[OpenFarLeft]
+She was very insistent about
+seeing you.[A]
+But you have more important
+matters to attend to.[A][SendToBack]
+[OpenLeft][ToggleSmile]Just hear me out first.[A]
+I think I have some information
+you might want to hear.[A]
+[OpenMidRight][ToggleSmile]...And what would that be?[A]
+[OpenLeft][ToggleSmile]
+It is about the dragons
+who are in human form.[A]
+[OpenMidRight][......][ToggleSmile]...I wish to speak
+with her in private.[A]
+Will you leave us, please?[A]
+[SendToBack][OpenFarLeft]Yes, milord.[A][ClearFace]

@@ -1,0 +1,518 @@
+
+[01A0]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadRoartz][FastPrint]
+Well?
+How does it look?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+Actually, milord...we've requested aid
+from Ilia's knights,[A]
+but all but those directly under
+Sir Murdock seem reluctant to help.[A]
+[OpenMidRight][MoveMidRight]
+Curses! Things couldn't
+possibly get any worse...[A][Clear]
+Ah, but we did capture
+Zelot's wife.[A]
+What is the word on Zelot's
+troop? Have they responded?[A]
+[OpenMidLeft]No, milord...[A]
+They are traveling mercenary knights,
+so we do not know their location.[A]
+[OpenMidRight][NormalPrint]Blast it...[A]
+[OpenMidLeft][CloseSpeechFast]
+Ever since Sigune's defeat,[A]
+Ilia's militia has been hesitant
+to attack the Etrurian Army.[A]
+[OpenMidRight][MoveRight]
+Cowards! Every last one of them![A]
+The great High Chancellor Roartz will
+not die in this miserable wasteland![A]
+[01A1]
+[OpenMidLeft][LoadVillager57][NormalPrint][ToggleSmile]Cough...cough...[A]
+[OpenMidRight][LoadJuno][CloseSpeechFast]Are you all right?
+Here, take my shawl.[A]
+[OpenMidLeft][FastPrint]I couldn't.
+You'll freeze...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]I can handle it.
+I'm used to these temperatures.[A]
+This is nothing compared to
+flying through a blizzard.[A]
+[OpenMidLeft][FastPrint]...Thank you.
+Cough...cough...[A][ClearFace][.....]
+[OpenMidLeft][LoadVillager54][ToggleSmile]Lady Juno...
+What's going to happen?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]...I don't know.
+But we must stay hopeful.[A]
+The enemy may retreat, or
+perhaps Zelot might return.[A]
+This isn't the end.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]...Where is Sir Zelot now?[A]
+[OpenMidRight][CloseSpeechFast]
+His last letter said he planned to join
+the Lycian Army, but after that...[A]
+[ToggleSmile]Well, he may be closer than
+we realize.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]I hope you're right.[A]
+[01A2]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]...We fight again today.[A]
+[OpenMidRight]Yes, we must.[A]
+Once we take this castle,[A]
+it will be our new base
+before we enter Bern.[A]
+[OpenMidLeft]...I see.[A]
+[OpenMidRight]Princess...[A]
+May I ask why your father tried
+to murder King Zephiel?[A]
+[OpenMidLeft]...Zephiel and I have different mothers.
+In actuality, I am his half sister.[A]
+[OpenMidRight]I heard that Zephiel's mother
+was an Etrurian noblewoman.[A]
+[OpenMidLeft]That's correct.[A]
+They were arranged to be wed for
+political reasons.[A]
+However, our father was already
+in love with another woman.[A]
+That was my mother.[A]
+[OpenMidRight][ToggleMouthMove]......[A]
+[OpenMidLeft][ToggleMouthMove]
+The marriage between the king and
+Zephiel's mother was forced.[A]
+Our father didn't love Zephiel's
+mother and always resented their son.[A]
+[OpenMidRight]
+Was that the cause of all
+the troubles that happened?[A]
+[OpenMidLeft]No...[A]
+I remember Zephiel working hard,
+vying for our father's affection.[A]
+He was a brilliant scholar and a
+prodigy in combat.[A]
+He grew to become a fine heir
+to Bern's throne.[A]
+[OpenMidRight][MoveRight]Then why did the
+king try to--[A]
+[OpenFarRight]Lord Roy!
+We are ready for the attack![A]
+[OpenRight]Understood.
+I only need a moment![A]
+[Clear]Princess Guinivere,
+I am sorry, but I...[A]
+[OpenMidLeft]No, I understand. Go.
+Please be careful.[A]
+[01A3]
+[OpenMidRight][LoadCath][ToggleSmile]Brrrr![A]
+I knew Ilia was cold, but I
+didn't think it was THIS cold![A]
+And there's just snow
+everywhere you look![A]
+[ToggleSmile]The pure white...
+It's beautiful in a way...[A]
+Whoops, no time to admire
+the scenery.[A]
+I'm here for the moolah...[A]
+[01A4]
+[OpenLeft][LoadRoy][ToggleSmile]The blizzard is picking up...[A]
+This might take longer than
+we expected.[A]
+We should head for Bern as soon
+as we take the castle.[A]
+[01A5]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadShanna]
+[OpenMidRight][FastPrint]Sister! Juno![A]
+[OpenMidLeft]Shanna? What are
+you doing here?[A]
+[OpenMidRight][CloseSpeechFast]I'm with the Etrurian Army.[A]
+I was surprised when I heard
+Edessa was taken by Bern,[A]
+but I knew you'd be OK.[A]
+[OpenMidLeft][NormalPrint]Oh? Why do you say that?[A]
+[OpenMidRight][CloseSpeechFast]You were a captain of the
+pegasus knights![A]
+There's no way Bern could
+defeat you.[A]
+[OpenMidLeft]Well, you'll be sorry to hear
+that I was captured.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]That's...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+But I don't intend to surrender
+to Bern.[A]
+All I could do on my own was try to
+keep the people in the castle safe,[A]
+but if I join you, I actually stand
+a fighting chance against Bern.[A]
+[OpenMidRight]Then are you going to
+fight with us?[A]
+[OpenMidLeft][NormalPrint]Of course.[A]
+[OpenMidRight][FastPrint]Really? Hurray![A]
+[OpenMidLeft]What's so exciting
+about that?[A]
+[OpenMidRight][CloseSpeechFast]
+I became a pegasus knight because
+I wanted to be just like you.[A]
+Fighting alongside you is like
+a dream come true.[A]
+[OpenMidLeft]Really? I'm honored...[A]
+You always have tended to
+go overboard with things...[A]
+[01A6]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadThea]
+[OpenMidRight][NormalPrint][ToggleSmile]Juno![A]
+[OpenMidLeft][FastPrint]Thea...
+What are you doing here?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]It's a long story...
+But I'm with the Etrurian Army now.[A]
+I'd heard that Edessa had fallen
+to Bern so I was worried, but...[A]
+I'm glad to see that you're
+all right.[A]
+[OpenMidLeft][ToggleSmile]...I'd heard that you were
+fighting against this army.[A][Clear]
+You didn't betray...?[A]
+[OpenMidRight]No! Never![A]
+I never betrayed the code.[A]
+I did everything I was
+supposed to.[A]
+I just eventually ended
+up in the Etrurian Army.[A]
+[OpenMidLeft][ToggleSmile]Of course...[A]
+You're a good and diligent soldier.
+I should have known better.[A]
+I'm sorry.[A]
+[OpenMidRight]No, it's all right...[A]
+But, um...
+What are you wearing?[A]
+[OpenMidLeft]This?[A]
+Why, this is my combat uniform.
+Don't you remember it?[A]
+What do you think?[A]
+Think I can still make a
+decent captain?[A]
+[OpenMidRight][FastPrint][ToggleSmile]Of course, but I
+thought you retired.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]With such dire stakes I had no
+choice but to come out of retirement.[A]
+On my own all I could do was
+defend the people in the castle,[A]
+but if I join you, I can actually
+strike back against Bern.[A]
+[OpenMidRight][ToggleSmile]Then you're going to
+fight alongside us?[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]Yes, that's what
+I'm getting at.[A]
+[OpenMidRight][CloseSpeechFast]That makes me so happy![A]
+I never thought I'd be able to
+fight alongside you again.[A]
+[OpenMidLeft]Don't get ahead of yourself.[A]
+You still have a long way
+to catch up to me![A]
+[01A7]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadZelot]
+[OpenMidRight][NormalPrint][ToggleSmile]Juno![A]
+[OpenMidLeft][ToggleSmile]Zelot![A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Are you all right?
+You're not hurt?[A]
+If any of them laid a
+finger on you, I'll--[A]
+[OpenMidLeft][ToggleSmile]Oh, Zelot, I'm not a child.
+I used to be a captain, you know.[A]
+[OpenMidRight][FastPrint][ToggleSmile]I know,
+but...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I'm fine.
+They didn't do anything to me.[A]
+[OpenMidRight][FastPrint]Good...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Why are you in the
+Etrurian Army?[A]
+I thought you were
+with Lycia.[A]
+[OpenMidRight]Well, it's a long story...[A]
+What it comes down to is that this
+is the Etrurian Army only in name.[A]
+It's actually made up primarily of
+soldiers from the Lycian Army.[A]
+[OpenMidLeft][FastPrint]Oh... Interesting.[A]
+[OpenMidRight]I'm sorry I wasn't here
+when you needed me most...[A]
+[OpenMidLeft]There is no use for
+regret at this point.[A]
+[OpenMidRight][FastPrint]But you were forced
+to fight...[A]
+[OpenMidLeft][CloseSpeechFast]Oh? I thought you liked
+my combat uniform.[A]
+[OpenMidRight][FastPrint]I do!
+But...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Then what's the problem?[A]
+You'll be seeing a lot
+more of it from now on...[A]
+[OpenMidRight][FastPrint][ToggleSmile]What?!
+Do you mean...[A]
+[OpenMidLeft][ToggleSmile]I do.[A]
+I will fight
+alongside you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]No! I can't accept that.
+You retired years ago.[A]
+Leave the fighting
+to us...[A]
+[OpenMidLeft]I may have retired, but I still had to
+take up arms to defend the castle.[A]
+Zelot, this world isn't safe anymore.[A]
+[OpenMidRight][FastPrint]Well...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I will fight.[A]
+I want to bring peace back
+to this land.[A]
+[01A8]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadShanna]
+[OpenMidRight][FastPrint]Sister! Juno![A]
+[OpenMidLeft]Shanna? What are
+you doing here?[A]
+[OpenMidRight][CloseSpeechFast]I'm with the Etrurian Army.[A]
+I was surprised when I heard
+Edessa was taken by Bern,[A]
+but I knew you'd be OK.[A]
+[OpenMidLeft][NormalPrint]Oh? Why do you say that?[A]
+[OpenMidRight][CloseSpeechFast]You were a captain of the
+pegasus knights![A]
+There's no way Bern could
+defeat you.[A]
+[OpenMidLeft]Well, you'll be sorry to hear
+that I was captured.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]That's...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+But I don't intend to surrender
+to Bern.[A]
+All I could do on my own was try to
+keep the people in the castle safe,[A]
+but now that I've joined you, I stand
+a fighting chance against Bern.[A]
+[OpenMidRight][FastPrint]You've joined us? Hurray![A]
+[OpenMidLeft]What's so exciting
+about that?[A]
+[OpenMidRight][CloseSpeechFast]
+I became a pegasus knight because
+I wanted to be just like you.[A]
+Fighting alongside you is like
+a dream come true.[A]
+[OpenMidLeft]Really? I'm honored...[A]
+You always have tended to
+go overboard with things...[A]
+[01A9]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadThea]
+[OpenMidRight][NormalPrint][ToggleSmile]Juno![A]
+[OpenMidLeft][FastPrint]Thea...
+What are you doing here?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]It's a long story...
+But I'm with the Etrurian Army now.[A]
+I'd heard that Edessa had fallen
+to Bern so I was worried, but...[A]
+I'm glad to see that you're
+all right.[A]
+[OpenMidLeft][ToggleSmile]...I'd heard that you were
+fighting against this army.[A][Clear]
+You didn't betray...?[A]
+[OpenMidRight]No! Never![A]
+I never betrayed the code.[A]
+I did everything I was
+supposed to.[A]
+I just eventually ended
+up in the Etrurian Army.[A]
+[OpenMidLeft][ToggleSmile]Of course...[A]
+You're a good and diligent soldier.
+I should have known better.[A]
+I'm sorry.[A]
+[OpenMidRight]No, it's all right...[A]
+But, um...
+What are you wearing?[A]
+[OpenMidLeft]This?[A]
+Why, this is my combat uniform.
+Don't you remember it?[A]
+What do you think?[A]
+Think I can still make a
+decent captain?[A]
+[OpenMidRight][FastPrint][ToggleSmile]Of course, but I
+thought you retired.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]With such dire stakes I had no
+choice but to come out of retirement.[A]
+On my own all I could do was
+defend the people in the castle,[A]
+but now that I've joined you, I can
+actually strike back against Bern.[A]
+[OpenMidRight][ToggleSmile]You're fighting alongside us?[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]Yes, to put
+it simply.[A]
+[OpenMidRight][CloseSpeechFast]That makes me so happy![A]
+I never thought I'd be able to
+fight alongside you again.[A]
+[OpenMidLeft]Don't get ahead of yourself.[A]
+You still have a long way
+to catch up to me![A]
+[01AA]
+[OpenMidLeft][LoadJuno][OpenMidRight][LoadZelot]
+[OpenMidRight][NormalPrint][ToggleSmile]Juno![A]
+[OpenMidLeft][ToggleSmile]Zelot![A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Are you all right?
+You're not hurt?[A]
+If any of them laid a
+finger on you, I'll--[A]
+[OpenMidLeft][ToggleSmile]Oh, Zelot, I'm not a child.
+I used to be a captain, you know.[A]
+[OpenMidRight][FastPrint][ToggleSmile]I know,
+but...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I'm fine.
+They didn't do anything to me.[A]
+[OpenMidRight][FastPrint]Good...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Why are you in the
+Etrurian Army?[A]
+I thought you were
+with Lycia.[A]
+[OpenMidRight]Well, it's a long story...[A]
+What it comes down to is that this
+is the Etrurian Army only in name.[A]
+It's actually made up primarily of
+soldiers from the Lycian Army.[A]
+[OpenMidLeft][FastPrint]Oh... Interesting.[A]
+[OpenMidRight]I'm sorry I wasn't here
+when you needed me most...[A]
+[OpenMidLeft]There is no use for
+regret at this point.[A]
+[OpenMidRight][FastPrint]But you were forced
+to fight...[A]
+[OpenMidLeft][CloseSpeechFast]Oh? I thought you liked
+my combat uniform.[A]
+[OpenMidRight][FastPrint]I do!
+But...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Then what's the problem?[A]
+You'll be seeing a lot
+more of it from now on...[A]
+[OpenMidRight][FastPrint][ToggleSmile]What?!
+Do you mean...[A]
+[OpenMidLeft][ToggleSmile]I do.[A]
+I will fight
+alongside you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]No! I can't accept that.
+You retired years ago.[A]
+Leave the fighting
+to us...[A]
+[OpenMidLeft]I may have retired, but I still had to
+take up arms to defend the castle.[A]
+Zelot, this world isn't safe anymore.[A]
+[OpenMidRight][FastPrint]Well...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I will fight.[A]
+I want to bring peace back
+to this land.[A]
+[01AB]
+[LoadRoartz][ToggleSmile]S-someone!
+Come to my aid![A][Clear]
+All is lost if I fall![A]
+[01AC]
+[LoadRoartz][ToggleSmile]W-wait... Serve me!
+It is not too late...[A]
+I shall...absolve you
+of your crimes...[A][Clear]
+Guh...![A]
+[01AD]
+[OpenMidRight][LoadRoy][FastPrint][ToggleSmile]Next is Bern...[A]
+[OpenMidLeft][LoadMerlinus][CloseSpeechFast]Lord Roy![A]
+Many of Bern's troops have been
+spotted in the ruins outside Edessa![A]
+[OpenMidRight][NormalPrint]Ruins?[A]
+[OpenMidLeft][CloseSpeechFast]
+Reports say the ruins are home to a
+lance that was used in the Scouring.[A]
+[OpenMidRight][MoveRight][OpenRight][FastPrint]That lance...
+Is it...?[A]
+[OpenMidLeft]It is most probably a
+legendary weapon.[A]
+[OpenRight]Then we must hurry
+to the ruins![A]
+[01AE]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Princess Guinivere, the attack
+on Bern will commence soon.[A]
+So may I ask...?[A]
+[OpenMidLeft]...The rest of the story.[A]
+[OpenMidRight]
+You said King Zephiel was an outstanding
+pupil in everything he did...[A]
+It sounds like he would have been an
+ideal heir to the throne.[A]
+[OpenMidLeft]Yes, I have no doubt.[A]
+[OpenMidRight][CloseSpeechFast]
+But still your father never
+looked kindly at him.[A]
+[OpenMidLeft]In truth...our father began to despise
+Zephiel precisely because of his talent.[A]
+[OpenMidRight][NormalPrint]Why...would a father resent
+his own son's talent...?[A]
+[OpenMidLeft][CloseSpeechFast]
+Our father was a man of
+unextraordinary skill and intellect.[A]
+Zephiel's outstanding talents made
+our father colder towards him.[A]
+[OpenMidRight][NormalPrint]He was envious...?[A]
+[OpenMidLeft][CloseSpeechFast]
+He went as far as to tell Zephiel
+that he would never inherit Bern.[A]
+He said that instead, the throne
+would go to my future husband.[A]
+[OpenMidRight][FastPrint]His own father told him that?!
+What a heartless man![A]
+[OpenMidLeft][CloseSpeechFast]But Zephiel held strong.[A]
+He always said he never cared about
+inheriting the throne.[A]
+But the people of Bern knew of
+Zephiel's genius and wanted him king.[A]
+Pressured by the public, our father
+lost his patience at last...[A]
+[OpenMidRight][FastPrint]That's when he decided
+to kill Zephiel...?[A]
+[OpenMidLeft][CloseSpeechFast]Our father gave Zephiel a goblet full
+of a poisoned drink at a banquet.[A]
+That was the first and last time Zephiel
+ever accepted a drink from our father.[A]
+After returning to his room, Zephiel
+began to fall dreadfully ill.[A]
+For ten days and nights, Zephiel
+lingered between life and death.[A]
+But Murdock, Zephiel's teacher and
+loyal general, saved his life.[A]
+[OpenMidRight]...The old king made no further
+attempts on his life?[A]
+[OpenMidLeft]No. At least, not to completion...[A]
+I have heard that he schemed to have
+Murdock and Zephiel's mother killed.[A]
+He was scheming to murder everyone
+connected to Zephiel.[A]
+Upon learning of our father's intentions,
+Zephiel feigned death.[A]
+At his funeral service, our father leaned
+over the coffin to view Zephiel's body.[A]
+It was at that moment that Zephiel sprung
+from the coffin and...sword in hand...[A]
+[01AF]
+[LoadJuno]Thea, Shanna,[.....]
+are you ready?[A][Clear]
+[ToggleSmile]Triangle Attack!![A]
+[01B0]
+[LoadThea]Juno, Shanna,[.....]
+get ready![A][Clear]
+[ToggleSmile]Triangle Attack!![A]
+[01B1]
+[LoadShanna]Juno, Thea![.....]
+Let's go![A][Clear]
+[ToggleSmile]Triangle Attack![A]
+[01B2]
+[OpenFarLeft][LoadVillager57][OpenLeft][LoadVillager54][OpenMidRight][LoadGuinivere]
+[OpenLeft][ToggleSmile]Excuse me...[A]
+[OpenMidRight]Yes...?[A]
+[OpenLeft]Are you the one who saved us?[A]
+[OpenMidRight]Er, well, I...[A]
+[OpenLeft][ToggleSmile]Thank you![A]
+It's only thanks to you that
+we're alive and have our freedom.[A]
+Please accept this token of our
+gratitude.[A][SendToBack]
+[OpenFarLeft][ToggleSmile]Thank you again![A]
+[OpenFarLeft][ClearFace][OpenLeft][ClearFace][SendToBack]
+[OpenMidRight][......][ToggleMouthMove]......[A][ToggleMouthMove][Clear]
+I'll give this to Roy...[A]
+

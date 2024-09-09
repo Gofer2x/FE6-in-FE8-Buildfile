@@ -72,8 +72,9 @@ CharacterBasedEvents:
 //zelot talk to noah, flag B
 //zelot talk to treck, flag C
 //roy talk to treck, flag C
+//flag D starts as ON and is only turned OFF if someone other than roy recruit zelot
 //roy talks to zelot, flag D
-//zelot talks to roy (sure lol), flag D
+//zelot talks to roy, flag D
 END_MAIN
 
 LocationBasedEvents:
@@ -202,6 +203,8 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_DeerOfThePlains
+ENUT Ch7_ConvoFlagD
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

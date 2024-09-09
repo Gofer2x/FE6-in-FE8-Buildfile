@@ -1,0 +1,103 @@
+[0BD3]
+[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadHenning][OpenMidLeft][ToggleSmile]B-Boss!
+An army's in the cave![A]
+[OpenMidRight]What?![A]
+How many of them are there?[A]
+[OpenMidLeft]Dunno, Boss.
+Not too many, I hope...[A]
+[OpenMidRight]It's strange, though...[A]
+The lords of Lycia have bigger fish
+to fry than bandits like us.[A]
+[OpenMidLeft]Well?
+What do we do?[A]
+[OpenMidRight]I don't expect they know
+much about this cave.[A]
+Just lure them onto the lava
+geysers and get rid of 'em.[A]
+[0BD4]
+[OpenMidLeft][LoadLilina][OpenMidLeft][ToggleSmile]Roy, this way![A]
+The legendary weapon is on the other
+side of this flaming crevice.[A]
+[OpenMidRight][LoadRoy]Lilina, are you all right? Have you
+already come to terms with everything?[A]
+[OpenMidLeft][ToggleSmile]Well...[ToggleSmile]maybe not just yet.
+But I can't afford to be in sorrow.[A]
+Ostia needs me to protect it, just
+as it needed my father before me.[A]
+[OpenMidRight][ToggleSmile]I'm just glad you're
+all right, Lilina.[A][OpenMidRight][ClearFace]
+[OpenMidLeft]Only because you're
+with me, Roy...[A]
+[OpenMidRight][LoadRoy][ToggleSmile]What?[A]
+Did you just say something?[A]
+[OpenMidLeft][ToggleSmile]No, nothing.[A]
+Let me tell you what I know
+about the weapon.[A]
+The sword here was used by Roland
+himself, one of the Eight Legends.[A]
+[OpenMidRight][ToggleSmile]Roland...
+The first marquess of Ostia?[A]
+[OpenMidLeft][ToggleSmile]Exactly. He's my ancestor.[A]
+This sword is called Durandal,
+the Blazing Blade.[A]
+[OpenMidRight][ToggleSmile]Durandal... The name has a
+strange echo to it.[A]
+So Roland used Durandal to fight
+the dragons during the Scouring?[A]
+[OpenMidLeft][ToggleSmile]That's how the legend goes.[A]
+They also say that after the war ended,
+Roland returned to his home of Ostia.[A]
+He raised Durandal high above his head,[A]
+and the earth scorched by the flames of
+war suddenly blossomed with life again.[A]
+[OpenMidRight][ToggleSmile]Wow... That sword has
+quite the story to it.[A]
+[OpenMidLeft][ToggleSmile]It's a weapon that can defeat dragons,
+so it must have some exceptional powers.[A]
+[OpenMidRight][ToggleSmile]...Oh, yes. I heard that a group
+of bandits has made its base here.[A]
+Will the sword be all right? Might the
+bandits have taken Durandal?[A]
+[OpenMidLeft][ToggleSmile]Oh, no, don't worry
+yourself about that.[A]
+Only descendants of Roland know how to
+remove Durandal from its sheath.[A]
+[OpenMidRight]That's reassuring.[A]
+[ToggleSmile]All that's left then is to rid this cave
+of the bandits and take Durandal.[A]
+[0BD5]
+[LoadHenning][ToggleSmile]Sigh.[A]
+How did you find
+yourselves in here?[A]
+I'm afraid I can't
+let you go.[A]
+[0BD6]
+[LoadHenning][ToggleSmile]Ah, blast...[A]
+I knew this would happen...[A]
+[0BD7]
+[OpenMidLeft][LoadLilina][ToggleSmile]Roy!
+Here it is![A]
+[OpenMidRight][LoadRoy][ToggleSmile]So this is Durandal...
+It's enormous.[A]
+I don't think many of us will
+be able to swing it.[A]
+[OpenMidLeft]History has it that Roland
+was a small man.[A]
+Any fighter skilled enough should be
+able to wield the sword.[A]
+[OpenMidRight]Then if I become better with the
+sword, I could use it as well?[A]
+[OpenMidLeft]Well... I don't
+know about that.[A]
+[OpenMidRight]Oh, come now.[A]
+Have SOME confidence
+in me, at least![A]
+[OpenMidLeft]Hee hee![A]
+[0BD8]
+[OpenMidLeft][LoadMerlinus][ToggleSmile]Lord Roy, we have it!
+It was under the altar.[A]
+It was no simple task to get it out,
+but it's in our possession now.[A]
+[OpenMidRight][LoadRoy]This is Durandal...[A]
+But was it worth
+Lilina's life...?[A]

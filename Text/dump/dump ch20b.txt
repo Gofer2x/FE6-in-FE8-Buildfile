@@ -1,0 +1,281 @@
+[09A1]
+[OpenMidRight][LoadRoartz][ToggleSmile]
+The worthless fools outside failed!
+The enemy is in the mansion![A]
+[MoveMidRight]Blast it![A]
+If I die I'm taking
+that Roy down with me![A]
+[OpenMidLeft][LoadSoldier2]Lord Roartz![A]
+The remnants of the Djute say they'll come
+to our aid after they hide Mulagir.[A]
+[OpenMidRight]Mulagir?[.....]
+Ah, one of the legendary weapons.[A]
+Good. Then we must
+simply hold out until then![A]
+[09A2]
+[OpenMidLeft][LoadNiime][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]This is Roartz's manor...[A]
+[OpenMidLeft]
+This mansion's framework is big enough
+to hide troops and ballistae.[A]
+You won't be safe with your back up
+against the wall.[A]
+[OpenMidRight]Do you know much
+about this place?[A]
+[OpenMidLeft]
+Probably more than most, anyway.
+That's what I'm known for.[A]
+I picked up that bit of
+information back in the city.[A]
+[OpenMidRight]...Do you know what the
+demon dragon looks like?[A]
+[OpenMidLeft]I can't say that I do.[A]
+Still, I would relish the opportunity
+to see it with my own eyes.[A]
+[OpenMidRight]I've been wondering...[A]
+Do you think the demon dragon
+is in human form as well?[A]
+[LoadOverworldFaces][OpenMidLeft]It seems probable.[A]
+It could be that all dragons in
+this realm are in human form.[A]
+I've even heard stories of dragons
+in human form living with people.[A]
+[OpenMidRight][FastPrint]Arcadia...[A]
+[OpenMidLeft]Hm?
+What did you say?[A]
+[OpenMidRight]Er, nothing.[A]
+[OpenMidLeft]I've read that dragons only began to take
+human form after the Ending Winter.[A]
+[OpenMidRight]The Ending Winter...[A]
+[OpenMidLeft]I expect you've heard of it.[A]
+[OpenMidRight]Yes, but only in legend.[A]
+I learned that in the Ending Winter,
+the laws of nature were all warped.[A]
+Day became night, and summer
+became winter.[A]
+[OpenMidLeft]That's it.[A]
+The scrolls I read on the topic are so timeworn
+that I couldn't decipher all of them.[A]
+But one thing is clear.[A]
+The Ending Winter was a disaster powerful
+enough to bend and twist the whole planet.[A]
+[OpenMidRight]What caused it?[A]
+[OpenMidLeft]Nobody knows for certain...[A]
+Legend says the dragons caused it by
+releasing vast amounts of magical power,[A]
+but even this theory lacks evidence.[A]
+In any case, it is certain that dragons began
+to take human form after the Ending Winter.[A]
+I don't believe these two occurrences
+are coincidence.[A]
+[OpenMidRight]I agree.[A]
+[OpenMidLeft][ToggleSmile]Ultimately,
+the truth lies in Bern.[A]
+[09A3]
+[OpenMidLeft][LoadSacaeGaidenBosses]Pigs from Etruria...![A]
+I will avenge the Djute
+right here, right now![A]
+[09A4]
+[OpenMidLeft][LoadDayan]
+The manor is in chaos.
+Now is my chance.[A]
+I will take down Bern's
+troops on my own![A]
+[09A5]
+[OpenMidRight][LoadCath][ToggleSmile]
+Soooo...[A]
+Bulgar, huh? The biggest
+city in Sacae.[A]
+I heard it was sacked by Bern.
+Look at all the soldiers...[A]
+[ToggleSmile]I'm sure there are plenty of
+goodies just waiting to be swiped.[A]
+[09A6]
+[OpenMidLeft][LoadDayan][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Are you the general of
+the Etrurian Army?[A]
+[OpenMidRight]I am. And you are?[A]
+[OpenMidLeft]I am Dayan.[A]
+[OpenMidRight]Dayan...?
+I feel I've heard the name...[A]
+[OpenMidLeft]First, allow me to thank you.[A]
+My clan has been fighting against
+Bern and their followers.[A]
+We haven't a chance against them
+head on,[A]
+so we've resorted to guerrilla
+tactics.[A]
+Since your arrival, however, the
+odds are tipping in our favor.[A]
+[OpenMidRight]I am glad that I could help.[A]
+[OpenMidLeft]That said, I wish to ask
+you one thing.[A]
+Once this battle is over,
+I request that you withdraw.[A]
+[OpenMidRight]After this battle?[A]
+[OpenMidLeft]Sacae belongs to the Sacaens.[A]
+If Bern's iron-fisted rule is only
+to be replaced by Etruria's,[A]
+then you will leave us no choice
+but to fight against you.[A]
+[OpenMidRight]
+I'm sorry... I cannot comply with
+that request.[A]
+We must base ourselves in Sacae to
+launch our direct attack on Bern.[A]
+[OpenMidLeft]
+You...plan to attack Bern directly?[A]
+[OpenMidRight]
+Even if we push Bern back now, it's only
+a matter of time until they strike back.[A]
+We must bring the fight to their heartland
+to stop this war. Do you not agree?[A]
+[OpenMidLeft]Yes, I do.[A]
+I see...[A]
+In that case, I
+shall join you.[A]
+[OpenMidRight]That would help tremendously.[A]
+[OpenMidLeft]But once Bern is defeated, you must
+withdraw your troops from Sacae.[A]
+Do I have your word?[A]
+[OpenMidRight][ToggleSmile]Of course.
+I swear it.[A]
+[09A7]
+[OpenMidLeft][LoadDayan][OpenMidRight][LoadSue]
+[OpenMidRight][ToggleSmile]Grandfather...[A]
+[OpenMidLeft][ToggleSmile]Sue?!
+You are unharmed?[A]
+[OpenMidRight][ToggleSmile]Thanks to this army, yes.[A]
+But I was the only one of
+our clansmen to survive...[A]
+[OpenMidLeft]I see... You've been
+through much.[A]
+[OpenMidRight]Grandfather, come with us.
+This army will not invade Sacae.[A]
+[OpenMidLeft]...Are you certain?[A]
+[OpenMidRight]As certain as the Sky is blue
+and the Earth is green.[A]
+[OpenMidLeft]Very well.
+I trust your word.[A]
+[09A8]
+[OpenMidLeft][LoadDayan][OpenMidRight][LoadSin]Chieftain![A]
+[OpenMidLeft]Sin, you've returned!
+Now you can join our fight...[A]
+[OpenMidRight][ToggleSmile]But Chieftain...[A]
+I am currently in service
+to this army.[A]
+[OpenMidLeft]...Do you mean the
+Etrurian Army?[A]
+[OpenMidRight]Yes.[A]
+[OpenMidLeft][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]
+This army will not invade Sacae.
+Will you lend us your skills?[A]
+[OpenMidLeft]Very well.
+I trust your word.[A]
+I will fight with you.[A]
+[09A9]
+[OpenMidLeft][LoadDayan][OpenMidRight][LoadSue]
+[OpenMidRight][ToggleSmile]Grandfather...[A]
+[OpenMidLeft][ToggleSmile]Sue?!
+You are unharmed?[A]
+[OpenMidRight][ToggleSmile]Thanks to this army, yes.[A]
+But I was the only one of our
+clansmen to survive...[A]
+[OpenMidLeft]I see... You've been
+through much.[A]
+[OpenMidRight]Grandfather, do you
+fight with us?[A]
+[OpenMidLeft]Yes, I have joined this group.[A]
+I don't believe that this army
+will try to take Sacae from us.[A]
+[OpenMidRight]I agree...[A]
+[09AA]
+[OpenMidLeft][LoadDayan][OpenMidRight][LoadSin]Chieftain![A]
+[OpenMidLeft]Sin, you've returned!
+We fight together again...[A]
+[OpenMidRight][ToggleSmile]Chieftain...[A]
+Have you joined
+this army?[A]
+[OpenMidLeft]I have indeed.[A]
+I don't believe they intend
+to take Sacae from us.[A]
+What do you think of them?[A]
+[OpenMidRight]I agree.
+They mean well.[A]
+[OpenMidLeft]Good.
+Then we fight together.[A]
+[OpenMidRight]Yes, Chieftain.[A]
+[09AB]
+[LoadRoartz][ToggleSmile]S-someone!
+Come to my aid![A][Clear]
+All is lost if I fall![A]
+[09AC]
+[LoadRoartz][ToggleSmile]W-wait... Serve me!
+It is not too late...[A]
+I shall...absolve you
+of your crimes...[A][Clear]
+Guh...![A]
+[09AD]
+[OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Next is Bern...[A]
+[OpenMidLeft][LoadMerlinus]Lord Roy![A]
+We have reports that remnants of the
+Djute are hiding in some nearby ruins.[A]
+[OpenMidRight]Ruins?[A]
+[OpenMidLeft]Yes, and a captive tells us there's a bow
+there that was used in the Scouring.[A]
+[OpenMidRight]What?
+Then...[A]
+[OpenMidLeft]
+It's likely that it's
+a legendary weapon.[A]
+[OpenMidRight]We must get to those ruins!
+Let's go![A]
+[09AE]
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadMerlinus]
+[OpenMidRight][ToggleSmile]Merlinus, I need you to send this
+letter to Father Yoder in Etruria.[A]
+[OpenMidLeft]A letter?
+May I ask what it says?[A]
+[OpenMidRight]It has the information I learned
+from Niime about the dragons.[A]
+[OpenMidLeft]Oh?[A]
+What did you learn?[A]
+[OpenMidRight]
+It would take too long to tell you.[A]
+I haven't sealed the letter yet, so
+you can look through it if you like.[A]
+[OpenMidLeft][MoveFarLeft][OpenFarLeft][FastPrint]Very well.
+I think I will...[A][ClearFace]
+[OpenFarLeft][LoadGuinivere]...Roy.[A]
+[OpenMidRight]Princess?[A]
+[OpenFarLeft]...We will enter Bern now.[A]
+[OpenMidRight]Yes, the attack on Bern
+will commence soon.[A]
+May I...ask the rest of
+the story now?[A]
+[OpenFarLeft][MoveMidLeft]...That is why I came to you.[A]
+[OpenMidRight]You said King Zephiel was an outstanding
+pupil in everything he did...[A]
+It sounds like he would have been an
+ideal heir to the throne.[A]
+[OpenMidLeft]Yes, I have no doubt.[A]
+[OpenMidRight][CloseSpeechFast]
+But still your father never
+looked kindly at him.[A]
+[OpenMidLeft]In truth...our father began to despise
+Zephiel precisely because of his talent.[A]
+[OpenMidRight][NormalPrint]Why...would a father resent
+his own son's talent...?[A]
+[OpenMidLeft][CloseSpeechFast]
+Our father was a man of
+unextraordinary skill and intellect.[A]
+Zephiel's outstanding talents made
+our father colder towards him.[A]
+[OpenMidRight][NormalPrint]He was envious...?[A]
+[OpenMidLeft][CloseSpeechFast]
+He went as far as to tell Zephiel
+that he would never inherit Bern.[A]
+He said that instead, the throne
+would go to my future husband.[A]

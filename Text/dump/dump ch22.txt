@@ -1,0 +1,333 @@
+[01C3]
+[OpenMidLeft][LoadBrunnya][OpenMidRight][LoadZephiel]
+[OpenMidRight][ToggleSmile]What you're saying, then...
+is that Murdock is dead...[A]
+[OpenMidLeft][NormalPrint]...I am sorry,
+Your Majesty.[A]
+[OpenMidRight][CloseSpeechFast]What is the Etrurian
+Army's next move?[A]
+[OpenMidLeft]They have captured the Shrine of Seals.
+They march this way.[A]
+[OpenMidRight]Very well...[A]
+Then we face them
+in the castle.[A]
+[OpenMidLeft][FastPrint]Yes, my king.
+My life is yours.[A]
+[OpenMidRight][CloseSpeechFast]
+No. You cannot die here,
+Brunnya.[A]
+I have a task of grave
+importance for you.[A][OpenMidLeft][NormalPrint][ToggleMouthMove]...?[A][ToggleMouthMove]
+[OpenMidRight][CloseSpeechFast]Idunn!
+Where are you, Idunn?[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadIdunnHood][NormalPrint]...Here, Your Highness.[A]
+[OpenMidRight][CloseSpeechFast]
+I will remain here and defend the
+castle against the Etrurian Army.[A]
+You must escape to safety and stay
+hidden until the battle is over.[A]
+[OpenFarLeft][FastPrint]As Your Highness wills.[A][ClearFace][OpenMidLeft][LoadBrunnya]
+[OpenMidRight][CloseSpeechFast]
+Brunnya, you will
+guard Idunn.[A]
+Protect her as you
+would protect me.[A]
+[OpenMidLeft][MoveLeft]
+No, Your Majesty!
+Please![A]
+Allow me to fight
+by your side![A]
+[OpenMidRight]That is something I
+cannot do.[A]
+...This will be a harsh battle,
+and Idunn must survive.[A]
+If she is lost...this entire
+struggle has been for nothing.[A]
+[OpenLeft][FastPrint]I must object, Your Majesty!
+I serve you and you alone...[A]
+[OpenMidRight][CloseSpeechFast]Enough, Brunnya!
+Your king orders you.[A]
+The punishment for
+defiance is execution.[A]
+[OpenLeft][MoveMidLeft][OpenMidLeft][FastPrint]Yes...Your Majesty...[A][ClearFace][OpenFarLeft][LoadIdunnHood]
+[OpenMidRight][CloseSpeechFast]
+Idunn, if I fall...[A]
+The plan continues.[A]
+[OpenFarLeft]As you will...[A]
+The world will be liberated
+as per Your Highness's command.[A]
+[OpenMidRight]Good. Then my dream
+will be fulfilled.[A]
+[OpenFarLeft][NormalPrint]Of course, Your Highness.[A]
+[01C4]
+[OpenMidLeft][LoadSoldier2][ToggleSmile]The Etrurian Army...[A]
+I will not let you into
+the throne room![A]
+[01C5]
+[OpenMidRight][LoadSoldier2][ToggleSmile]I shall protect this
+switch with my life![A]
+[01C6]
+[OpenMidRight][LoadRoy]
+[ToggleSmile][FastPrint]This is the king's castle...[A]
+[OpenMidLeft][LoadMerlinus][CloseSpeechFast]
+Lord Roy, Zephiel is in the throne
+room in the center of the castle.[A]
+However, the entryway to the throne
+is blocked off by automatic defenses.[A]
+[OpenMidRight][NormalPrint]What can be done?[A]
+[OpenMidLeft][CloseSpeechFast]
+One of the captives said that
+at either end of the castle,[A]
+there are some switches that can
+be manipulated to open the way.[A]
+[OpenMidRight]That will be a long detour...[A]
+[OpenMidLeft]There is more.[A]
+After hitting the switches,[A]
+one must hold the Fire Emblem in front
+of the throne room to make it open.[A]
+[OpenMidRight]I have the Fire Emblem with me.[A][Clear]
+It sounds like I should go to the throne
+room while others handle the switches...[A]
+[OpenMidLeft]That would be the quickest way.[A]
+[OpenMidRight]
+...But would a captive leak that
+kind of information so easily?[A]
+Perhaps it's a trap...[A]
+[OpenMidLeft]I don't believe so.[A]
+The captive said the switches are
+protected by Bern's ablest warriors.[A]
+Even with this information, it will
+be no easy feat.[A]
+[OpenMidRight]The enemy may be powerful, but we're
+not exactly slouches, either.[A]
+I know we're up for the challenge!
+Victory will be ours![A]
+[01C7]
+[OpenMidRight][LoadCath]
+Castle Bern... A worthy target
+for the Master Thief.[A]
+I'm sure there's mountains of
+gold hidden in here somewhere![A]
+[01C8]
+[OpenMidRight][LoadCurrentCharacter]
+[ToggleSmile]Is this the switch?
+Nothing's happening...[A]
+[01C9]
+[OpenMidRight][LoadCurrentCharacter]
+[ToggleSmile]Is this the switch?
+Nothing's happening...[A]
+[01CA]
+[OpenMidLeft][LoadZephiel][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]You've come.[A]
+Hmph... It's laughable, really.
+A mere child making it so far.[A]
+[OpenMidRight]Zephiel...
+King of Bern...[A]
+[MoveRight][OpenRight]
+Why did you start this war?[A]
+[OpenMidLeft]...I wish to end the
+Age of Man.[A]
+[OpenRight][MoveMidRight][NormalPrint]...I don't understand.[A]
+[OpenMidLeft][CloseSpeechFast]
+Humans...are filthy and despicable
+creatures.[A]
+They flock to the promise of power
+like hideous, hairless sheep,[A]
+and they stab trusted allies
+while their backs are turned.[A]
+I'm certain you have witnessed as much
+even from many who claim to serve me.[A]
+[OpenMidRight][ToggleMouthMove][NormalPrint]......[A][ToggleMouthMove]
+[OpenMidLeft]Jealousy. Hatred. Greed.[A]
+Friends and family are driven to murder
+one another by these petty emotions.[A]
+Such emotions spawn fathers who would
+even kill their own brood.[A]
+As long as humans control,
+as long as humans exist,[A]
+this madness will never end.[A]
+[OpenMidRight][MoveRight][OpenRight]
+But consider what you've done![A]
+You've become exactly that
+which you despise![A]
+[OpenMidLeft]...Do you know how
+the Scouring ended?[A]
+[OpenRight]The demon dragon was
+defeated by Hartmut...[A]
+[OpenMidLeft]Yes. It was history's greatest mistake.
+Mankind should not have won.[A]
+Humans perverted this world into an
+ordurous cesspool of madness and evil.[A]
+All through their illogical and
+contemptible emotions![A]
+[OpenRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidLeft][ToggleMouthMove][CloseSpeechFast]
+Mistakes cannot be left uncorrected.[A]
+I will liberate the world from the grasp
+of man and return it to the dragons.[A]
+The slate will be wiped clean.
+History will be rewritten.[A]
+It is the only way to free the
+world from everlasting agony![A]
+[OpenRight]Is it true that you
+resurrected the demon dragon?[A]
+[OpenMidLeft][FastPrint]There is no need to answer that. You
+will know for yourself before long.[A]
+[OpenRight][CloseSpeechFast]You said you intend to give the
+world to the dragons.[A]
+How would rule by dragons be
+any different?[A]
+[OpenMidLeft]The dragons you have seen are
+weapons for battle.[A]
+They have no self.[A]
+They lack reprehensible emotions
+to drive them, unlike humans.[A]
+The dragons' rule will be
+just and peaceful.[A]
+[OpenRight]Such a world can't be
+a better alternative![A]
+Some humans may commit
+terrible atrocities,[A]
+but it has always been other
+humans who have stopped them![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Your naivety amuses me.[A]
+[OpenRight][MoveMidRight][CloseSpeechFast][ToggleSmile][OpenMidRight]
+You have lost faith in humanity
+and in yourself.[A]
+I believe in mankind, and I know
+that your lunacy must be stopped![A]
+[01CB]
+[LoadZephiel][ToggleSmile]You shall not bar my path![A]
+[01CC]
+[LoadZephiel][ToggleSmile]...I am defeated...[A][Clear]
+But remember this...[A]
+My will shall never die...[A]
+As long as humans retain
+control, madness will reign...[A]
+[01CD]
+[OpenRight][LoadRoy][ToggleSmile]Zephiel has fallen...[A][SendToBack]
+[OpenFarRight][LoadMerlinus]We've done it,
+Lord Roy.[A][SendToBack]
+[OpenMidLeft][LoadElffin]...Or have we?[A][SendToBack]
+[OpenFarRight]What?[A][SendToBack]
+[OpenRight]What do you mean?[A]
+[OpenMidLeft]The Dark Priestess is
+nowhere to be found...[A][SendToBack]
+[OpenFarRight]...She must have
+escaped.[A][SendToBack]
+[OpenRight]...So it seems.[A]
+[01CE]
+
+[01CF]
+[SendToBack][OpenFarRight][ToggleSmile]What...?[.....]
+What was that?[A][SendToBack]
+[OpenRight]Zephiel's sword...
+it's glowing![A]
+It's...[A]
+[OpenMidLeft]Eckesachs...[A]
+A sword that only the
+king of Bern can use...[A]
+[SendToBack][OpenFarRight]Lord Roy, legend says that when all
+the legendary weapons come together,[A]
+the Dragon Sanctuary will rise from
+the ground![A][SendToBack]
+[OpenRight]The Dragon Sanctuary...[A]
+[OpenFarRight]It was the headquarters
+and lair of the dragons...[A]
+That's what the legends
+say, anyway.[A]
+[OpenMidLeft]Yes...
+I've heard that, too.[A]
+[OpenRight]Does that mean Eckesachs is
+the final legendary weapon?[A]
+I thought it was the
+Binding Blade.[A]
+[OpenMidLeft]...The Binding Blade may be on an even
+higher level than the legendary weapons...[A]
+It may be its own entity, beyond compare
+to even the legendary weapons...[A]
+[OpenRight]More powerful than the legendary weapons...?
+What power lies in this sword?[A]
+[01D0]
+[SendToBack][OpenFarRight][ToggleSmile]The sword is glowing again![A]
+The light is pointing
+to the south![A][SendToBack]
+[LoadOverworldFaces]
+[OpenRight]
+Will the light lead us
+to the Dragon Sanctuary?[A]
+[SendToBack][OpenFarRight]
+That is how the
+stories go.[A][SendToBack]
+[OpenMidLeft]
+...If the Dark Priestess is the
+demon dragon as we suspect...[A]
+then she is most likely at
+the sanctuary...[A]
+[OpenRight]Very well.
+We follow the light![A]
+[01D1]
+[OpenMidLeft][ClearFace][OpenRight][ClearFace][OpenFarRight][ClearFace]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Zephiel...[A]
+[OpenMidRight]...Princess Guinivere.[A]
+[OpenMidLeft]I'm sorry...
+I need some time alone.[A][ClearFace]
+[OpenMidRight][MoveRight]Princess...![A]
+[SendToBack][OpenFarRight][LoadMerlinus]Lord Roy...
+You should leave her be.[A][SendToBack]
+[OpenMidLeft][LoadElffin]...An admirable job.[A]
+[OpenRight]Elffin![A]
+[ToggleSmile]...Thank you.[A]
+Your homeland is in turmoil...
+yet you chose to help us.[A]
+You've been an asset
+to us all...[A]
+[OpenMidLeft]...I'm afraid I don't know what you
+mean by my "homeland"...[A]
+But it was my greatest pleasure to
+assist you.[A]
+[OpenRight]I'll never be able
+to repay this.[A][OpenMidLeft][ClearFace][Clear][.....]
+[OpenRight][FastPrint][ToggleSmile]...Control by humans...[A]
+[OpenFarRight][ClearFace][OpenMidLeft][LoadMerlinus]Are you thinking of
+Zephiel's final words?[A]
+He may have been right...
+in a way.[A]
+[OpenRight]...Has the Dark Priestess
+been found?[A]
+[OpenMidLeft][CloseSpeechFast]Unfortunately not...[A]
+She apparently disappeared
+before the battle.[A]
+[OpenRight][MoveMidRight]Is that so...[A]
+Do you really think she could
+be the demon dragon?[A]
+[OpenMidLeft]
+It is difficult to say
+without even seeing her.[A]
+It will be near impossible
+to locate her now.[A]
+She is always clad in a black robe
+and none have seen her up close.[A]
+[OpenMidRight]That's unfortunate... But so be it.[A]
+The battle is over.
+That's cause enough for celebration.[A]
+[OpenMidLeft]I think not, milord!
+The hardest part has yet to come.[A]
+The land must be nursed back to
+health now that the war is over.[A]
+There are countless people in
+need of our assistance.[A]
+[OpenMidRight]You're right!
+We have work to do.[A]
+The real battle is
+only just beginning.[A]
+We must look to the future.[A][ToggleSmile]
+No matter what hardships we may face,
+we must never give up.[A]
+We must prove that a land of beauty
+and peace from human hands is possible![A]
+[OpenMidLeft][FastPrint]
+I live to serve you, Lord Roy![A][Clear]
+Now, let us make our way home.[A]
+We must spread the word of
+our victory![A]

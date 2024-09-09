@@ -1,0 +1,252 @@
+[0173]
+[OpenMidLeft][LoadGalle][OpenMidRight][LoadMurdock]
+[OpenMidRight][FastPrint][ToggleSmile]
+Narcian has fallen then.[A]
+[OpenMidLeft][CloseSpeechFast]So it seems.[A]
+General Murdock, I still feel uncomfortable
+that we didn't go to his aid.[A]
+[OpenMidRight]
+The king's orders explicitly
+said to leave him on his own.[A]
+Bern's army has no use for a man
+who cannot manage his own messes.[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadArcardo][OpenLeft][LoadRoartz]Sir Murdock...
+What will you have us do?[A]
+[OpenMidRight]
+Arcardo, I leave Castle Remi
+to you.[A]
+Roartz, you will take
+Castle Edessa.[A]
+Make preparations to defend
+against the enemy.[A]
+[OpenFarLeft]
+What?!
+Remi is right on the border![A]
+The enemy will be here
+in short time![A]
+[OpenMidRight]That much is true.[A]
+But this position gives us an invaluable
+strategic advantage against Etruria.[A]
+You must ensure that this castle does
+not fall into enemy hands.[A]
+[OpenLeft]Edessa lies all the way in
+the outer tundra of Ilia...[A]
+[OpenMidRight]
+Yes, so you will have ample time
+to prepare your defenses.[A]
+[OpenFarLeft]
+...You...intend only to
+take the defensive?[A]
+You don't mean to
+take back Etruria?[A]
+[OpenMidRight]
+We play the waiting game for now.
+We will take Etruria some day.[A]
+And once we do, it will
+be under Bern's jurisdiction.[A]
+[OpenLeft][FastPrint]
+What about us?! That's not
+what we agreed upon![A]
+[OpenMidRight]
+Then perhaps you should find
+a way to make yourself useful.[A]
+You have done nothing to
+deserve such renumeration.[A][Clear]
+If you'll excuse us.[A]
+[ClearFace][SendToBack]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+[0174]
+[OpenMidLeft][LoadGalle][OpenMidRight][LoadMurdock]
+[OpenMidLeft][ToggleSmile]
+Those two will surely be killed.
+Should we really leave them?[A]
+[OpenMidRight]
+If they fall, it is because of their own
+incompetence.[A]
+Our army's code states that every officer
+must be capable and self-sufficient.[A]
+Perhaps they should have considered that
+before joining us...[A][Clear]
+The enemy leader... Roy, was it?[A]
+[OpenMidLeft][NormalPrint]Yes, Roy of Pherae.[A]
+[OpenMidRight][CloseSpeechFast]
+I admit he has rebuilt the
+Lycian Army magnificently.[A]
+[ToggleSmile]I thought it finished after
+we crushed it the first time...[A]
+I hope to cross blades with him
+before the war is over.[A]
+[0175]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadRoy]
+[OpenMidLeft][FastPrint][ToggleSmile]We will soon approach
+the Etrurian border.[A]
+[OpenMidRight][CloseSpeechFast]Thank you for everything,
+Father Yoder.[A]
+We've only made it this far thanks
+to the assistance of the church.[A]
+[OpenMidLeft]I am only repaying your favor.[A]
+Had you not captured Aquileia, we would
+suffer great persecution from Bern.[A]
+This is nothing compared to what you
+did for us.[A]
+[OpenMidRight][FastPrint][ToggleSmile]It was my pleasure to
+help the church.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]
+If I may be so bold...
+Can I ask one more favor?[A]
+[OpenMidRight]Of course,
+if I am capable.[A]
+[OpenMidLeft]If you discover anything
+else about the dragons...[A]
+[OpenMidRight]Say no more.[A]
+If I find anything new, I will
+report to you immediately.[A]
+[OpenMidLeft][ToggleSmile]You have my eternal thanks.[A][ToggleSmile]
+...Oh yes, I have some information
+that may be of use.[A]
+[OpenMidLeft][CloseSpeechFast]At a certain time of day, the sea level drops,
+exposing a crossable sandbar.[A]
+[OpenMidRight][MoveRight][NormalPrint]A sandbar?[A]
+[OpenMidLeft]
+It would take much time to make your
+way around the bay to the castle.[A]
+However, crossing the sandbar would
+be a direct journey.[A]
+[OpenRight][FastPrint]I'll bear it in mind.[A]
+[OpenMidLeft]However you choose to proceed,
+please be careful.[A]
+Rushing forward has its
+dangers as well.[A]
+[OpenRight]Thank you for your advice.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Not at all.[A]
+May the Etrurian Army go with
+Saint Elimine's blessing.[A]
+[0176]
+
+[0177]
+
+[0178]
+
+[0179]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadArcardo]
+[OpenMidLeft][FastPrint][ToggleSmile]Lord Arcardo!
+A path has appeared in the sea![A]
+[OpenMidRight]What?![A]
+[OpenMidLeft][CloseSpeechFast]
+According to the locals, the tide
+pulls out this time of day...[A]
+[OpenMidRight][MoveRight][OpenRight]And you didn't know
+about this sooner?![A]
+[OpenMidLeft][MoveFarLeft][OpenFarLeft]Milord, we are foreigners here!
+We do not know this land![A]
+[OpenRight][MoveRight][FastPrint]Curses![A]
+Charge! Don't allow the
+enemy to cross that path![A]
+[017A]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft][FastPrint][ToggleSmile]Lord Roy,
+we have a report.[A]
+[OpenMidRight][NormalPrint]Did the sandbar appear?[A]
+[OpenMidLeft][FastPrint]Yes, Father Yoder
+was right.[A]
+[OpenMidRight]Did the enemy
+know about it?[A]
+[OpenMidLeft][CloseSpeechFast]
+Actually, no. They seem to
+be in a panicked state.[A]
+[OpenMidRight][MoveRight][FastPrint]
+All right, then let's not
+waste this opportunity![A]
+Move forward![A]
+[017B]
+
+[017C]
+
+[017D]
+
+[017E]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+Ah, are you fighting against Bern?
+Then please take this staff.[A]
+It was once used by the noble
+Lady Tina...[A]
+[017F]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+Did you know that at a
+certain time of day,[A]
+a sandbar appears
+in the bay?[A]
+It's a path right
+through the ocean.[A]
+Good luck![A]
+[0180]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager56]
+The tide is very dramatic
+around here.[A]
+I remember once I was getting
+ready to go fishing,[A]
+but by the time I had my boat ready,
+the tide had already gone out.[A]
+[0181]
+[LoadArcardo][ToggleSmile]
+W-why?![A]
+What have I done to
+deserve such a fate?![A]
+[0182]
+[LoadArcardo][ToggleSmile]
+I...am a noble...
+of Etruria...![A][Clear]
+I cannot...die...in a place
+such as this...[.....] Gah![A]
+[0183]
+[OpenFarRight][LoadMerlinus][OpenRight][LoadRoy]
+[OpenFarRight][SendToBack][ToggleSmile]Lord Arcardo...[A]
+What a pathetic ending for
+one of his stature.[A]
+[OpenRight][SendToBack]
+A year ago I myself never imagined
+I would be leading an army.[A]
+Fate can be unpredictable...[A]
+Perhaps we'll even be able to
+turn the tides against Bern.[A]
+[OpenFarRight][ClearFace][OpenMidLeft][LoadMerlinus][ToggleMouthMove]...?[A][ToggleMouthMove]
+Lord Roy, what is that
+in your hand?[A]
+[OpenRight]Oh, this?
+It's the Fire Emblem.[A]
+[OpenMidLeft]That tiny gemstone...?[A]
+[OpenRight]
+Princess Guinivere wanted me
+to keep it.[A]
+It seemed...difficult for her
+to give it to me...[A]
+I think she still hoped to end
+the war with diplomacy...[A]
+[OpenMidLeft]
+Hm... Perhaps she had faith in her brother,
+even if that seems unlikely.[A]
+[OpenRight][NormalPrint]Why do you say that?[A]
+[OpenMidLeft][CloseSpeechFast]
+Because Zephiel is the
+treacherous king of Bern![A]
+It is said that he murdered
+his own father.[A]
+I don't expect he would be
+moved by family trust...[A]
+[OpenRight][MoveMidRight][FastPrint]
+He killed his own father?![A]
+[OpenMidLeft][CloseSpeechFast]Haven't you heard the rumors, Lord Roy?[A]
+Zephiel took the throne because
+his father, King Desmond, passed on.[A]
+But King Desmond's death was
+very sudden.[A]
+[OpenMidRight][FastPrint]So there are rumors...?[A]
+[OpenMidLeft][CloseSpeechFast]...Yes, that Zephiel assassinated him.[A]
+[OpenMidRight]...Does Princess Guinivere
+know about this?[A]
+[OpenMidLeft]
+I'm sure she is at least
+aware of the rumors.[A]
+She may even know the
+whole story.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]

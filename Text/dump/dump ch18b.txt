@@ -1,0 +1,331 @@
+[0986]
+[OpenMidRight][LoadMonke][OpenMidLeft][LoadSoldier2][ToggleSmile]
+The Etrurian Army
+marches toward us.[A]
+[OpenMidRight]All according to plan.[A]
+Draw them closer. They will rue
+the day they crossed our path.[A]
+Have the other clans been
+notified?[A]
+[OpenMidLeft]They have indeed.[A]
+[OpenMidRight]Good.[A]
+...The Etrurian Army will be an
+easier foe than the Silver Wolf.[A]
+They don't know this land.
+They're unfamiliar with our ways.[A]
+[OpenMidLeft]The clans unite to fight against
+foreign invaders.[A]
+[OpenMidRight]
+Yes, such is the law of Sacae.[A]
+None aided us against the Silver Wolf
+because it was a clan dispute.[A]
+But this is a foreign invasion.[A]
+[OpenMidLeft]
+The help from the other clans will
+be valuable in this fight.[A]
+With such a powerful ally as Bern,
+however, they are expendable.[A]
+[OpenMidRight]Exactly.[A]
+There are some, though, who dislike the idea
+of involving Bern in Sacaen matters.[A]
+[OpenMidLeft]
+I hear some clans have even joined
+the Silver Wolf's guerrilla force.[A]
+[OpenMidRight]He is a stubborn halfwit.[A]
+His clan was defeated. He should
+know better than to oppose us.[A]
+He knows what becomes of those
+who try to fight against Bern.[A]
+[OpenMidLeft]
+Bern has subdued even powerful
+cities like Bulgar with ease.[A]
+[OpenMidRight]
+Yes, and if they cannot be beaten,
+we have no choice but to join them.[A]
+This is our only path, and the
+law of Sacae is unbreakable.[A]
+[0987]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]Princess Guinivere...[A]
+We are approaching
+Bern's army.[A]
+[OpenMidLeft]...Yes, I know.[A]
+[OpenMidRight]
+As we get closer, we will clash with
+soldiers of Bern more and more.[A]
+It will not be long before we
+are in full combat with Bern.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]
+I want to ask you something
+before that happens.[A]
+[OpenMidLeft]Go ahead.[A]
+[OpenMidRight]
+I have heard rumors about
+King Zephiel...[A]
+I heard that he killed his father,
+the previous king.[A]
+[OpenMidLeft][MoveFarLeft][ToggleMouthMove]![A]
+[OpenMidRight][ToggleMouthMove]
+I could scarcely believe it
+myself.[A]
+You believe in him so strongly that
+you cast away your own country.[A]
+If King Zephiel is truly as mad as
+the rumors say,[A]
+I'm sure you would not have done
+all that you have.[A]
+[OpenFarLeft][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]Princess Guinivere,[A]
+I accepted the Fire Emblem
+not to use it in battle,[A]
+but to find a way to end
+this war peacefully.[A]
+[OpenFarLeft]Roy...[A]
+[OpenMidRight]I think I have a right to know
+the truth about the rumors...[A]
+[OpenFarLeft]I...I'm sorry.
+Please...give me some time.[A][ClearFace]
+[0988]
+
+[0989]
+
+[098A]
+[LoadOverworldFaces][OpenMidRight][FastPrint][ToggleSmile]His own father told him that?!
+What a heartless man![A]
+[OpenMidLeft][CloseSpeechFast]But Zephiel held strong.[A]
+He always said he never cared about
+inheriting the throne.[A]
+But the people of Bern knew of
+Zephiel's genius and wanted him king.[A]
+Pressured by the public, our father
+lost his patience at last...[A]
+[OpenMidRight][FastPrint]That's when he decided
+to kill Zephiel...?[A]
+[OpenMidLeft][CloseSpeechFast]
+Our father gave Zephiel a goblet full
+of a poisoned drink at a banquet.[A]
+That was the first and last time Zephiel
+ever accepted a drink from our father.[A]
+After returning to his room, Zephiel
+began to fall dreadfully ill.[A]
+For ten days and nights, Zephiel
+lingered between life and death.[A]
+But Murdock, Zephiel's teacher and
+loyal general, saved his life.[A]
+[OpenMidRight]...The old king made no further
+attempts on his life?[A]
+[OpenMidLeft]No. At least, not to completion...[A]
+I have heard that he schemed to have
+Murdock and Zephiel's mother killed.[A]
+He was scheming to murder everyone
+connected to Zephiel.[A]
+Upon learning of our father's intentions,
+Zephiel feigned death.[A]
+At his funeral service, our father leaned
+over the coffin to view Zephiel's body.[A]
+It was at that moment that Zephiel sprung
+from the coffin and...sword in hand...[A]
+[OpenMidRight][ToggleMouthMove]......[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]
+I was but a child then, so naturally
+I could not understand what was going on.[A]
+All I knew at the time is that our father
+died, and Zephiel never smiled again.[A]
+Before then, he was stern at times,
+but always a kind and loving brother.[A]
+But after everything that happened...[A]
+[OpenMidRight][NormalPrint]Princess...[A]
+[OpenMidLeft][CloseSpeechFast]
+I knew that someday I may
+have to act against him.[A]
+[OpenMidRight][FastPrint]I...see...[A][LoadOverworldFaces]
+[OpenMidLeft][CloseSpeechFast]
+...Zephiel is so far-gone now.
+He will never listen to anything I say.[A]
+Roy, please...
+You must stop him.[A]
+Stop him from destroying Bern and
+from destroying Elibe.[A]
+[OpenMidRight]
+Such a feat will likely
+require my blade.[A]
+Can you still ask such
+a thing of me?[A]
+[OpenMidLeft]
+...I trust your judgment.
+Do what you must.[A]
+[OpenMidRight]
+You have my word,
+Princess Guinivere.[A]
+I swear by the Fire Emblem
+that I will stop King Zephiel![A]
+[098B]
+[LoadOverworldFaces][OpenLeft][MoveMidLeft]Well, that sure got your
+attention, didn't it?[A]
+[OpenMidRight][ToggleSmile]The dragons you speak of...[A]
+They're not like the wyverns
+that Bern's soldiers ride upon.[A]
+They're strange troops that fight
+alongside Bern's soldiers...[A]
+[OpenMidLeft]I know that well.[A]
+They're the same dragons that
+were defeated in the Scouring.[A]
+[OpenMidRight]...Who are you, exactly?[A]
+[OpenMidLeft]I am Niime.[A]
+I live in the mountains where I study
+arcane magic.[A]
+Some call me Niime the Hermit.[A][Clear]
+At first I thought this was only
+a simple act of aggression by Bern.[A]
+But then I began to sense a strange
+and...evil force among their troops.[A]
+I decided to investigate.[A]
+[OpenMidRight]Did you learn anything?[A]
+[OpenMidLeft]The dragons are very much shrouded
+in mystery.[A]
+I looked through many ancient books
+and scrolls.[A]
+I could only decipher so many of them.
+But...[A]
+[OpenMidRight]But...?[A]
+[OpenMidLeft]I have come to the conclusion that Bern
+has resurrected the demon dragon.[A]
+[OpenMidRight]The demon dragon...[A]
+The leader of the dragons
+that Hartmut defeated.[A]
+[OpenMidLeft]The very same.[A]
+Dragons are a much more advanced
+species than us humans.[A]
+Their vitality and intellect
+puts that of humans to shame.[A]
+There is one thing, however, the
+dragons lack in.[A]
+They multiply at a fraction of
+the rate humans do.[A]
+But the demon dragon...[A]
+It had the power to create
+more dragons.[A]
+That is what I learned from
+my research.[A]
+[OpenMidRight]It can make dragons...?[A]
+[OpenMidLeft]The demon dragon can create more
+of its kind.[A]
+That would explain where Bern is
+getting all of its dragons.[A]
+[OpenMidRight]That seems likely.[A]
+[OpenMidLeft][ToggleSmile]Now, that being said...[A]
+I wish to learn more about
+the dragons.[A]
+I wield dark magic...
+Let me join your army.[A]
+I'm sure I can be of some
+assistance.[A]
+[OpenMidRight][ToggleSmile]Of course.[A]
+We want to learn about
+the dragons as well.[A]
+It will be a perilous journey,[A]
+but if that's acceptable to you,
+you're welcome to join us.[A]
+[098C]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+The clans shall unite
+to repel invaders...[A]
+Such is the law
+of Sacae.[A]
+[098D]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+Pray to the sky
+and the earth...[A]
+Such is the law
+of Sacae.[A]
+[098E]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
+The clans will defend
+against all invaders.[A]
+Such is the law
+of Sacae.[A]
+[098F]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
+Enemies will face the wrath
+of the united clans...[A]
+Such is the law
+of Sacae.[A]
+[0990]
+[LoadMonke]Yes... That's it!
+Closer... Closer...[A][Clear]
+Right into our trap![A]
+[0991]
+[LoadMonke][ToggleSmile]Urkh...!
+How could you defeat us...?[A][Clear]
+My trap...was...perfect...[A]
+[0992]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]That was no easy feat.[A]
+[OpenMidRight]
+But now we've hit our
+enemy in Sacae hard.[A]
+I'm sure that's not the
+last of them, though.[A]
+[OpenMidLeft]I'm sure they will
+retaliate.[A]
+[OpenMidRight]Do you have any idea
+where they might be?[A]
+[OpenMidLeft]
+Actually, the spy I sent out
+earlier should be back by now.[A]
+I will see if he's learned
+anything.[A][ClearFace][.......][LoadOverworldFaces]
+[OpenFarLeft][LoadGuinivere][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Is something wrong,
+Princess Guinivere?[A]
+[OpenFarLeft][MoveMidLeft]...I wish to tell you
+about my brother.[A]
+[OpenMidRight]
+...You don't mind?[A]
+[OpenMidLeft]No...[A]
+I want you to know before
+we enter Bern...[A]
+I want you to know the
+tragedies that have occurred.[A]
+You asked before if my
+brother murdered our father.[A]
+[OpenMidRight]Yes...?[A]
+[OpenMidLeft]To be frank...[.....]
+he did.[A]
+[OpenMidRight]
+King Zephiel killed his own
+father to seize the throne...[A]
+[OpenMidLeft][MoveLeft]No![A]
+[OpenMidRight]No?[A]
+[OpenLeft]
+Our father tried to kill
+Zephiel first.[A]
+[OpenMidRight]What?!
+Then King Zephiel...[A]
+[OpenLeft]He couldn't bear the abuse
+he took from our father.[A]
+So he...[A]
+[OpenMidRight]What...?
+Why did--[A][LoadOverworldFaces]
+[OpenFarLeft][LoadMerlinus]...Lord Roy![A]
+We've located the enemy! They're
+still planning their attack![A][Clear]
+Hm? ...What is the matter?[A][SendToBack]
+[OpenLeft]It is nothing...
+Perhaps later...[A][ClearFace][SendToBack]
+[OpenFarLeft]...Did I appear at
+a bad time?[A]
+[OpenMidRight]No, it's fine.
+Where are they planning?[A]
+[OpenFarLeft][MoveMidLeft]In the city of Bulgar.[A]
+[OpenMidRight]Bulgar...
+I've heard of it.[A]
+[OpenMidLeft]
+It's the largest city in Sacae, but
+it's under Bern's control now.[A]
+[OpenMidRight]
+I understand. We'll move
+as soon as we can.[A][OpenMidLeft][ClearFace]
+[OpenMidRight]...Why did the old king try
+to murder his own son...?[A]

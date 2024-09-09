@@ -2,15 +2,11 @@ on the gay agenda, from highest to lowest priority (aka how much i feel like it)
 
 there are more battle quotes. find and add them
 
-is there a patch to change eclipse behavior to fe6? if yes, install. if not, change desc.
-
 item stealing priority table
 
 supports
 
 actually implementing supports
-
-optimize mugs by reusing data for palette swaps
 
 character palettes
 
@@ -30,3 +26,4 @@ note on differences from fe6:
 the double hard mode bonuses in the first few chapters are not implemented. not sure how to do that, idk how that hm bonuses event patch works exactly.
 brigand and pirate berserker promo have different stat bonuses in fe6, but i had to combine them here.
 all the enemies iwth the wacky "ghost of bern" ai have mroe standard ai instead.
+ditto with galle and squad ai

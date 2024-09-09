@@ -1,0 +1,196 @@
+[097C]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadBrunnya]
+[OpenMidRight][ToggleSmile]
+...Then Narcian fell at Aquileia.[A]
+[OpenMidLeft]Yes, milady.
+We've received confirmation.[A]
+[OpenMidRight]I see...[A][OpenMidLeft][ClearFace]
+[OpenFarLeft][LoadArcardo][OpenLeft][LoadRoartz]Lady Brunnya...
+What will you have us do?[A]
+[OpenMidRight]You have our protection,
+Lord Roartz.[A]
+You have helped us so much already.
+We shall not neglect you.[A]
+[SendToBack][OpenFarLeft][ToggleSmile]I thank you...[A][SendToBack]
+[OpenMidRight][ToggleSmile]
+Lord Arcardo, I assign you to
+defend this land of Talas.[A]
+Lord Roartz, your post will be
+the city of Bulgar.[A]
+[OpenFarLeft]Talas?! Here?![A]
+But this is so close to Aquileia.
+The enemy draws near![A]
+[OpenMidRight][ToggleSmile]
+Then stop them in their tracks.[A]
+This region's proximity to Aquileia
+makes it strategically invaluable.[A]
+It would be an ideal base of operations
+if the enemy can be repelled.[A]
+[OpenFarLeft][ToggleSmile]That much is true...[A]
+[OpenLeft]Bulgar...lies deep within Sacae.[A]
+I hear there is great unrest
+among the nomads...[A]
+[OpenMidRight][ToggleSmile]Force them into submission.
+That is your specialty, is it not?[A]
+[OpenLeft][ToggleSmile]I suppose, but...[A]
+[OpenMidRight][ToggleSmile]Rumor says that Roy, commander of
+the attacking army, is but a boy.[A]
+Even so, he has led his army to victory
+through countless skirmishes and traps.[A]
+Under his guidance, the Lycian Army
+has been rebuilt stronger than ever.[A]
+He has gone through greater hardships
+than you, yet you complain?[A]
+Do you intend to lose to a child?[A][SendToBack]
+[OpenFarLeft][ToggleSmile][ToggleMouthMove]......[A][ToggleMouthMove][SendToBack]
+[OpenMidRight]I must be off.
+I pray for your success.[A][ClearFace]
+[OpenMidLeft][ToggleMouthMove]......[A]
+[097D]
+[OpenFarLeft][LoadSoldier2][OpenMidRight][LoadBrunnya]
+[OpenFarLeft][ToggleSmile]...Are you certain we should leave them?
+They will surely fall.[A]
+[OpenMidRight]
+They are disgraceful cowards who cast
+away their homeland to save their necks.[A]
+We owe them nothing. They should be grateful
+to receive the few troops they have.[A]
+[OpenFarLeft][ToggleMouthMove]......[A]
+[097E]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadRoy]
+[OpenMidLeft][FastPrint][ToggleSmile]We will soon approach
+the Etrurian border.[A]
+[OpenMidRight][CloseSpeechFast]Thank you for everything,
+Father Yoder.[A]
+We've only made it this far thanks
+to the assistance of the church.[A]
+[OpenMidLeft]I am only repaying your favor.[A]
+Had you not captured Aquileia, we would
+suffer great persecution from Bern.[A]
+This is nothing compared to what you
+did for us.[A]
+[OpenMidRight][FastPrint][ToggleSmile]It was my pleasure to
+help the church.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]If I may be so bold...
+Can I ask one more favor?[A]
+[OpenMidRight]Of course,
+if I am capable.[A]
+[OpenMidLeft]If you discover anything
+else about the dragons...[A]
+[OpenMidRight]Say no more.[A]
+If I find anything new, I will
+report to you immediately.[A]
+[OpenMidLeft][ToggleSmile]You have my eternal thanks.[A][ToggleSmile]
+...Oh yes, one word of
+caution before you go.[A]
+The lands around here...[A]
+They are surrounded by
+high mountains and hills.[A]
+It is also difficult to see
+in the dark of the night...[A]
+[OpenMidRight]These are ideal conditions
+for an ambush...[A]
+[OpenMidLeft]Exactly.[A]
+Castle Talas up ahead
+is under Bern's control.[A]
+[OpenMidRight]I'll bear that in mind.
+Thank you for the advice.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Not at all.[A]
+May the Etrurian Army go with
+Saint Elimine's blessing.[A]
+[097F]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadSacaeanVillager]
+Ah, are you fighting against Bern?
+Then please take this staff.[A]
+It was once used by the noble
+Lady Tina...[A]
+[0980]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+We don't get many visitors
+up here...[A][Clear]
+What?[A]
+The enemy is planning to
+attack our village?[A]
+I'll make sure everyone
+knows...[A]
+I must thank you for
+telling us.[A]
+Please take this.[A]
+[0981]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager34]
+I hear there's a village
+far to the northeast.[A]
+I've never met anyone
+who's been that far.[A]
+I wonder if anyone still
+lives there.[A]
+[0982]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager28]
+I saw some shady-looking
+people in Bern's ranks.[A]
+Probably thieves.[A]
+You should tell the villagers
+before they get ransacked.[A]
+[0983]
+[LoadArcardo][ToggleSmile]
+W-why?![A]
+What have I done to
+deserve such a fate?![A]
+[0984]
+[LoadArcardo][ToggleSmile]
+I...am a noble...
+of Etruria...![A][Clear]
+I cannot...die...in a place
+such as this...[.....] Gah![A]
+[0985]
+[OpenFarRight][LoadMerlinus][OpenRight][LoadRoy]
+[OpenFarRight][SendToBack][ToggleSmile]Lord Arcardo...[A]
+What a pathetic ending for
+one of his stature.[A]
+[OpenRight][SendToBack]
+A year ago I myself never imagined
+I would be leading an army.[A]
+Fate can be unpredictable...[A]
+Perhaps we'll even be able to
+turn the tides against Bern.[A]
+[OpenFarRight][ClearFace][OpenMidLeft][LoadMerlinus][ToggleMouthMove]...?[A][ToggleMouthMove]
+Lord Roy, what is that
+in your hand?[A]
+[OpenRight]Oh, this?
+It's the Fire Emblem.[A]
+[OpenMidLeft]That tiny gemstone...?[A]
+[OpenRight]
+Princess Guinivere wanted me
+to keep it.[A]
+It seemed...difficult for her
+to give it to me...[A]
+I think she still hoped to end
+the war with diplomacy...[A]
+[OpenMidLeft]
+Hm... Perhaps she had faith in her brother,
+even if that seems unlikely.[A]
+[OpenRight][NormalPrint]Why do you say that?[A]
+[OpenMidLeft][CloseSpeechFast]
+Because Zephiel is the
+treacherous king of Bern![A]
+It is said that he murdered
+his own father.[A]
+I don't expect he would be
+moved by family trust...[A]
+[OpenRight][MoveMidRight][FastPrint]
+He killed his own father?![A]
+[OpenMidLeft][CloseSpeechFast]Haven't you heard the rumors, Lord Roy?[A]
+Zephiel took the throne because
+his father, King Desmond, passed on.[A]
+But King Desmond's death was
+very sudden.[A]
+[OpenMidRight][FastPrint]So there are rumors...?[A]
+[OpenMidLeft][CloseSpeechFast]...Yes, that Zephiel assassinated him.[A]
+[OpenMidRight]...Does Princess Guinivere
+know about this?[A]
+[OpenMidLeft]
+I'm sure she is at least
+aware of the rumors.[A]
+She may even know the
+whole story.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]

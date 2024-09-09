@@ -1,0 +1,117 @@
+[0BF6]
+[OpenMidLeft][LoadSoldier2]The Etrurian Army has arrived![A]
+[OpenMidRight][LoadSacaeGaidenBosses]
+They wish to take this place
+as well, do they?[A]
+We will not let them have it.[A]
+[ToggleSmile]Tell our brothers that we defend
+to the death.[A]
+We will avenge our dead comrades![A]
+[OpenMidLeft]Yes, sir![A]
+[0BF7]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon
+lies here...[A]
+[OpenMidLeft][LoadSin][OpenMidRight]
+Sin, what do you know
+about this place?[A]
+[OpenMidLeft]
+Just that the legendary Hanon's weapon,
+Mulagir the Tempest Bow, is here.[A]
+[OpenMidRight]Hanon...[A]
+She and Saint Elimine were the only
+two women among the Eight Legends.[A]
+[OpenMidLeft]So it is said.[A]
+[OpenMidLeft]...Be on your guard.[A]
+The Djute are out for blood.
+They want vengeance.[A]
+[OpenMidRight]Yes, we have to be careful.
+Let's move![A]
+[0BF8]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon
+lies here...[A]
+[OpenMidLeft][LoadDayan][OpenMidRight]
+Dayan, what do you know
+about this place?[A]
+[OpenMidLeft]
+Just that the legendary Hanon's weapon,
+Mulagir the Tempest Bow, is here.[A]
+[OpenMidRight]Hanon...[A]
+She and Saint Elimine were the only
+two women among the Eight Legends.[A]
+[OpenMidLeft]So it is said.[A]
+[OpenMidLeft]...Be on your guard.[A]
+The Djute are out for blood.
+They want vengeance.[A]
+[OpenMidRight]Yes, we have to be careful.
+Let's move![A]
+[0BF9]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon
+lies here...[A]
+[OpenMidLeft][LoadSue][OpenMidRight]
+Sue, what do you know
+about this place?[A]
+[OpenMidLeft]
+Just that the legendary Hanon's weapon,
+Mulagir the Tempest Bow, is here.[A]
+[OpenMidRight]Hanon...[A]
+She and Saint Elimine were the only
+two women among the Eight Legends.[A]
+[OpenMidLeft]So it is said.[A]
+[OpenMidLeft]...Be on your guard.[A]
+The Djute are out for blood.
+They want vengeance.[A]
+[OpenMidRight]Yes, we have to be careful.
+Let's move![A]
+[0BFA]
+[OpenMidRight][LoadRoy][ToggleSmile]The legendary weapon
+lies here...[A]
+[OpenMidLeft][LoadElffin][OpenMidRight]
+Elffin, what do you know
+about this place?[A]
+[OpenMidLeft]
+Just that the legendary Hanon's weapon,
+Mulagir the Tempest Bow, is here.[A]
+[OpenMidRight]Hanon...[A]
+She and Saint Elimine were the only
+two women among the Eight Legends.[A]
+[OpenMidLeft]So it is said.[A]
+[OpenMidLeft]...Be on your guard.[A]
+The Djute are out for blood.
+They want vengeance.[A]
+[OpenMidRight]Yes, we have to be careful.
+Let's move![A]
+[0BFB]
+
+[0BFC]
+[OpenMidRight][LoadSacaeGaidenBosses]They've sprung the trap!
+Attack now![A]
+[0BFD]
+[LoadSacaeGaidenBosses]Live in fear of
+the Djute![A]
+[0BFE]
+[LoadSacaeGaidenBosses]My brothers will
+avenge my death...[A]
+[0BFF]
+[OpenMidLeft][LoadSoldier1][ToggleSmile]We've found it!
+The bow is hidden inside the altar![A]
+[ClearFace]
+[OpenMidRight][LoadRoy][ToggleMouthMove]......[A][Clear]
+[ToggleMouthMove]This is Mulagir...[A]
+It looks unremarkable, but I'm
+sure it hides an incredible power.[A]
+[OpenMidLeft][LoadMerlinus]
+Lord Roy,
+Bern's troops are fleeing.[A]
+[OpenMidRight]Good.
+Let them go.[A]
+[OpenMidLeft]Let them go?
+We must attack.[A]
+[OpenMidRight]No, don't.
+We've already won.[A]
+They don't want to
+fight us.[A]
+[OpenMidLeft]But...[A]
+[OpenMidRight]They all have lives
+and families.[A]
+There's no need to take
+that away from them.[A]

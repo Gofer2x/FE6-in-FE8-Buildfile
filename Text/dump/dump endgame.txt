@@ -1,0 +1,600 @@
+[0200]
+[OpenMidRight][LoadRoy][ToggleSmile]The demon dragon is here...
+Exercise caution, everyone.[A]
+This is our last battle![A]
+[0201]
+[OpenMidLeft][LoadIdunnHood][OpenMidRight][LoadRoy]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidRight][FastPrint][ToggleMouthMove][ToggleSmile]You're the Dark Priestess...
+The demon dragon.[A]
+[OpenMidLeft][CloseSpeechFast]...Why do you block my path?[A]
+[OpenMidRight][NormalPrint]What...?[A]
+[OpenMidLeft][CloseSpeechFast]
+I have been instructed
+to lead this world.[A]
+I will bring peace.
+Why do you bar my path?[A]
+[OpenMidRight]...You're wrong.[A]
+Peace at the cost of humanity is
+hardly any kind of peace at all.[A]
+The man who ordered you is gone.
+You can stop![A]
+You have no reason to fight![A]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidRight][ToggleMouthMove]
+None of us have reason
+to fight.[A]
+[OpenMidLeft][CloseSpeechFast]...I feel that eons ago...[A]
+I heard those same words.[A]
+Soft words, like a warm breeze...[A][Clear]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove][Clear]
+But that was long ago...[A]
+I have slumbered for far
+too long.[A]
+In the darkness, I dreamed...
+An empty dream. Black. Colorless...[A]
+But I am awoken now.
+His Highness willed it so.[A]
+[OpenMidRight][CloseSpeechFast]His Highness...
+You mean Zephiel![A]
+[OpenMidLeft][CloseSpeechFast]
+I am awoken. I have left
+the darkness of my dreams.[A]
+My path is now lit.
+I know what I must do.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A][.....]
+[OpenMidLeft][ClearFace][OpenMidLeft][LoadIdunnHuman][CloseSpeechFast][ToggleMouthMove]I will lead this world...[A]
+No matter how much time must
+pass, that is my duty...[A]
+[OpenMidRight][FastPrint]You insist on fighting us?[A]
+[OpenMidLeft][CloseSpeechFast]
+As long as you
+stand in my way.[A]
+[OpenMidRight][FastPrint]Your will...seems unbreakable...[A]
+[OpenMidLeft][CloseSpeechFast]My will is His Highness's.[A]
+I awoke for the purpose of
+fulfilling his desires.[A]
+
+
+[0236]
+[OpenMidRight][LoadRoy][ToggleSmile]Now is the time of truth![A]
+I have the blade of Hartmut, who took
+pity on you and spared your life![A]
+Everyone, leave the final blow to me!![A]
+[0237]
+[OpenMidRight][LoadRoy][ToggleSmile]I don't want to fight you...
+But I can't leave things as they are![A]
+The history of man may be tainted...
+but we can do great things as well![A]
+I will fight and prove that to you![A]
+[0238]
+[LoadIdunnHuman][ToggleSmile]I...[....]I...[....]
+Gah...[.....]I...[A]
+I am alone...[.....]
+in the dark...[A]
+I am alone...[.....]in...[.....]
+darkness...[A]
+[0239]
+[OpenMidLeft][LoadFae][OpenMidRight][LoadRoy][OpenMidLeft][NormalPrint][ToggleSmile]Ah![A]
+[OpenMidRight][FastPrint]Oh no...
+The sanctuary is collapsing![A]
+Everyone! Hurry outside![A]
+[OpenMidLeft]Roy...[A]
+[OpenMidRight]I'll be fine.[A]
+Now go!![A]
+[023A]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft]Lord Roy!
+You are unharmed![A]
+[OpenMidRight][ToggleSmile]
+Yes...but the sanctuary
+is gone.[A]
+[OpenMidLeft]
+It was over a thousand years old.[A]
+A great deal of energy was
+released in the battle we fought.[A]
+The foundations probably couldn't
+withstand the pressure.[A]
+[OpenMidRight]Yes...[A]
+[OpenMidLeft]
+Today marks the beginning
+of a new era.[A][Clear]
+...Who is that you are
+carrying on your back?[A]
+[SendToBack][OpenFarRight][LoadIdunnHood][SendToBack][OpenMidRight][ToggleSmile]
+Oh, yes.[A]
+Merlinus, I need to ask
+a favor of you...[A]
+[023B]
+And thus this conflict, called 
+[023C]
+"The Great Movement of Bern," ended. 
+[023D]
+Bern finally surrendered. 
+[023E]
+Etruria took watch over Bern for a while, 
+[023F]
+but never directly interfered 
+[0240]
+in their state affairs. 
+[0241]
+With the help of Roy, 
+[0242]
+who played the biggest role in the war, 
+[0243]
+Bern was rebuilt, 
+[0244]
+with Guinivere as its queen. 
+[0245]
+And on the day of her crowning... 
+[0246]
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy]
+[OpenMidLeft]
+Today is Princess Guinivere's
+crowning ceremony.[A]
+[OpenMidRight]
+I haven't seen her in her
+royal garments yet,[A]
+but I'm sure she is beautiful
+beyond description.[A]
+Even at our first meeting,[A]
+I had no words to describe
+her sheer beauty.[A]
+[OpenMidLeft]Truly.[A]
+[OpenMidRight][ToggleSmile]
+But she has many
+struggles still to come.[A]
+[OpenMidLeft]What do you mean?[A]
+[OpenMidRight]
+After she is crowned queen of Bern,
+even with Etruria's support,[A]
+I'm certain there will be great
+unrest and plots to overthrow her.[A]
+[OpenMidLeft]Do you think so?[A]
+[OpenMidRight]
+Some may claim that she only joined
+Etruria to seize the throne.[A]
+It's an unfortunate reality, but to the
+ignorant, that is how it will appear.[A]
+[OpenMidLeft]
+...But I'm sure she will be fine.[A]
+Under her rule, Bern will prosper
+like never before...[A]
+[ToggleSmile]She's too brilliant and strong
+to succumb to petty unrest...[A]
+[OpenMidRight]Yes...
+I agree.[A]
+[OpenMidLeft][ToggleSmile]
+...What about you?
+What will you do now?[A]
+[OpenMidRight][ToggleSmile]Me?
+I will return to Pherae.[A]
+I'm concerned about my
+father's illness,[A]
+and there is much
+reconstruction to be done.[A]
+[OpenMidLeft][ToggleSmile]
+Um...I...
+What if we...[A]
+[OpenMidRight]What?[A]
+[OpenMidLeft][ToggleSmile]Uh... Never mind.[A]
+[ToggleSmile]But you're returning to Pherae...
+That's good.[A]
+[OpenMidRight][ToggleSmile]What about you?[A]
+Will you go back to Ostia?[A]
+[OpenMidLeft]...Yes. I must take my
+father's place.[A]
+[OpenMidRight]
+I'm glad you're staying
+in Ostia.[A]
+[OpenMidLeft][ToggleSmile]...Why do you say that?[A]
+[OpenMidRight][ToggleSmile]
+Because if you're in Ostia, then
+we can see one another any time.[A]
+[OpenMidLeft][ToggleSmile]What...?[A]
+[OpenMidRight][ToggleSmile]Lilina...[A]
+I don't know when,
+but some day...[A]
+I'll come for you.[A]
+[OpenMidLeft][ToggleSmile]
+...I...I have to
+prepare, too...[A][Clear]
+But...Roy...
+I've always...[A]
+[OpenMidRight]Oh![A][ToggleSmile]
+The ceremony's starting.
+Come, Lilina![A]
+Let's see Princess...
+No, Queen Guinivere![A]
+This is the start of her
+reign as queen![A][ClearFace]
+[OpenMidLeft][ToggleSmile]
+What I'm trying to say is...
+I've always... Wait, what?![A]
+R-Roy, wait for me![A][ClearFace]
+[0247]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy][OpenMidRight]
+Princess Guinivere, you have my
+congratulations on your ascension.[A]
+[OpenMidLeft]I thank you...[A]
+But my battle is
+just beginning.[A]
+[OpenMidRight][ToggleSmile]I'm sorry...[A]
+I wish we didn't have to
+rely on Etruria.[A]
+[OpenMidLeft][ToggleSmile]
+Not at all. I am grateful for
+their support.[A][ToggleSmile]
+There will be those, however,[A]
+who think I only joined
+Etruria to seize the throne.[A]
+[OpenMidRight]Princess...[A]
+[OpenMidLeft]But the most important task at
+hand is Bern's reconstruction.[A]
+I must regain the people's trust
+through my efforts.[A]
+No matter how long it takes...[A]
+[OpenMidRight]
+If there is anything I can do to
+help, please don't hesitate to ask.[A]
+[OpenMidLeft][ToggleSmile]Thank you again.
+Perhaps I will someday.[A]
+Roy, are you...[A]
+[OpenMidRight][ToggleSmile]Yes?[A]
+[OpenMidLeft][ToggleSmile]
+What will you do?[A]
+Will you stay in
+the Etrurian Army?[A]
+[OpenMidRight]
+No, I must return to Pherae.[A]
+I am concerned about my
+father's illness,[A]
+and we must begin the
+reconstruction effort.[A]
+[OpenMidLeft]
+You are returning home?
+I am sure that's for the best.[A]
+Still...[A]
+Someone of your ability could easily
+take a place in the Etrurian court.[A]
+[OpenMidRight][ToggleSmile]M-me?![A]
+I don't think I deserve
+such a position![A]
+[OpenMidLeft][ToggleSmile]Pherae is blessed to have
+such a gifted heir as you.[A]
+[0248]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadSoldier1][ToggleSmile]Your Highness...[A]
+[OpenMidLeft][ToggleSmile]Please call me Guinivere.
+What is the matter?[A]
+[OpenMidRight][ToggleSmile]Yes, Lady Guinivere.
+The ceremony is about to begin![A]
+[OpenMidLeft][ToggleSmile]Thank you.
+I will be there shortly...[A]
+[0249]
+[OpenFarLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenFarLeft][ToggleSmile]Roy, will you
+come with me?[A]
+[OpenMidRight]Me?[A]
+[OpenFarLeft]
+You have helped me so much ever since I
+left Bern with the Fire Emblem in hand.[A]
+I want you to see the path Bern will
+take under my leadership.[A]
+[OpenMidRight]Of course.[A]
+If you will have me, then it is
+my pleasure to accompany you.[A]
+[OpenFarLeft][ToggleSmile]Then come...
+This way.[A]
+[OpenMidRight]Let us see a new Bern...[.....]
+And the beginning of a new era.[A]
+[024A]
+Later, in Arcadia...
+[024B]
+[OpenMidLeft][LoadVillager19][OpenMidRight][LoadRoy]
+[OpenMidLeft]Ah, Lord Roy.
+It has been far too long.[A]
+[OpenMidRight]
+Yes, it is good
+to see you.[A]
+[OpenMidLeft]Fae will be glad
+to see you as well.[A]
+[OpenMidRight]
+I saw her earlier.[A]
+She is even more energetic
+than I remember.[A]
+[OpenMidLeft]
+We have allowed her outside
+more since her return.[A]
+Perhaps that is why.[A]
+[OpenMidRight][ToggleSmile]How is Idunn doing?[A]
+[OpenMidLeft]We succeeded in restoring
+her soul, and yet...[A]
+[OpenMidRight]
+...She's not back
+to normal?[A]
+[OpenMidLeft]
+Fae sometimes takes her outside,[A]
+but she will do nothing without
+first being told to.[A]
+[OpenMidRight]I see...[A]
+[OpenMidLeft]Lord Roy...[A]
+We had known for long that
+she had been captured.[A]
+I feared the consequences of
+leaving the village, however,[A]
+so I forbade any effort to
+rescue her.[A]
+Now, though, I wonder whether
+my judgment was correct...[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]
+Perhaps the humans are changing
+the way I think.[A]
+I will do my best to restore
+Idunn's heart and soul.[A]
+[OpenMidRight]...You have my
+gratitude.[A]
+[OpenMidLeft]
+An expression of emotion would
+be a promising first step...[A]
+A laugh, for example...[A][OpenMidLeft]
+[024C]
+[OpenMidRight][LoadIdunnHuman][OpenMidLeft][LoadFae]
+And that is called
+a tree![.......][.....]
+[OpenMidRight][ToggleSmile]Tree...[.......][.....]
+[OpenMidLeft][MoveMidLeft][ToggleSmile]Right![.....][......]
+And this tree has
+tasty fruit![.......][......]
+[OpenMidRight][ToggleSmile]Fruit?[.......][.....]
+[OpenMidLeft][ToggleSmile]Yeah. [......]Can you see it?[......]
+It's up at the top.[.......][......]
+And if you [......]shake the tree[......]
+like this...[.....][MoveMidLeft][LoadOverworldFaces]
+[MoveMidLeft][LoadOverworldFaces]
+[OpenMidLeft][ToggleSmile]Oww![MoveMidLeft][LoadOverworldFaces]
+[......][.....]
+[OpenMidLeft][ToggleSmile]It fell on
+my head...[.......][......]
+[OpenMidRight][ToggleSmile]Heh...[......]
+[OpenMidLeft]Idunn...?[......]
+Did you just laugh?[.......][.....]
+[OpenMidRight][ToggleSmile]Laugh...?[......]
+This is a laugh?[......][......]
+[OpenMidLeft][ToggleSmile]Where's Roy?[......][......]
+[MoveMidLeft][MoveMidLeft]I have to tell Roy
+that you laughed![......][......]
+[024D]
+
+[024E]
+
+[024F]
+
+[0250]
+[OpenMidRight][LoadIdunnHuman]A warm...breeze...[.....][......][......]
+[0251]
+[OpenMidRight][LoadRoy][ToggleSmile]Oh no...
+The sanctuary is collapsing![A]
+Everyone! Hurry outside![A]
+[0252]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft]Lord Roy!
+You are unharmed![A]
+[OpenMidRight][ToggleSmile]Yes...but the
+sanctuary is gone.[A]
+[OpenMidLeft]It was over a thousand years old.[A]
+A great deal of energy was
+released in the battle we fought.[A]
+The foundations probably couldn't
+withstand the pressure.[A]
+[OpenMidRight]Yes...[A]
+[OpenMidLeft]
+Well, Lord Roy, our
+struggle is over.[A]
+[OpenMidRight][ToggleSmile]
+No. It hasn't even started yet.[A]
+We must help rebuild the land
+from the damage caused by the war.[A]
+There is much to be done.[A]
+The real work is only just
+beginning![A]
+[0253]
+And thus this conflict, called 
+[0254]
+"The Great Movement of Bern," ended. 
+[0255]
+Bern finally surrendered. 
+[0256]
+Etruria took watch over Bern for a while, 
+[0257]
+but never directly interfered 
+[0258]
+in their state affairs. 
+[0259]
+With the help of Roy, 
+[025A]
+who played the biggest role in the war, 
+[025B]
+Bern was rebuilt, 
+[025C]
+with Guinivere as its queen. 
+[025D]
+And on the day of her crowning... 
+[025E]
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy]
+[OpenMidLeft]
+Today is Princess Guinivere's
+crowning ceremony.[A]
+[OpenMidRight]
+I haven't seen her in her
+royal garments yet,[A]
+but I'm sure she is beautiful
+beyond description.[A]
+Even at our first meeting,[A]
+I had no words to describe
+her sheer beauty.[A]
+[OpenMidLeft]Truly.[A]
+[OpenMidRight][ToggleSmile]
+But she has many
+struggles still to come.[A]
+[OpenMidLeft]What do you mean?[A]
+[OpenMidRight]
+After she is crowned queen of Bern,
+even with Etruria's support,[A]
+I'm certain there will be great
+unrest and plots to overthrow her.[A]
+[OpenMidLeft]Do you think so?[A]
+[OpenMidRight]
+Some may claim that she only joined
+Etruria to seize the throne.[A]
+It's an unfortunate reality, but to the
+ignorant, that is how it will appear.[A]
+[OpenMidLeft]
+...But I'm sure she will be fine.[A]
+Under her rule, Bern will prosper
+like never before...[A]
+[ToggleSmile]She's too brilliant and strong
+to succumb to petty unrest...[A]
+[OpenMidRight]Yes...
+I agree.[A]
+[OpenMidLeft][ToggleSmile]
+...What about you?
+What will you do now?[A]
+[OpenMidRight][ToggleSmile]Me?
+I will return to Pherae.[A]
+I'm concerned about my
+father's illness,[A]
+and there is much
+reconstruction to be done.[A]
+[OpenMidLeft][ToggleSmile]
+Um...I...
+What if we...[A]
+[OpenMidRight]What?[A]
+[OpenMidLeft][ToggleSmile]Uh... Never mind.[A]
+[ToggleSmile]But you're returning to Pherae...
+That's good.[A]
+[OpenMidRight][ToggleSmile]What about you?[A]
+Will you go back to Ostia?[A]
+[OpenMidLeft]...Yes. I must take my
+father's place.[A]
+[OpenMidRight]
+I'm glad you're staying
+in Ostia.[A]
+[OpenMidLeft][ToggleSmile]...Why do you say that?[A]
+[OpenMidRight][ToggleSmile]
+Because if you're in Ostia, then
+we can see one another any time.[A]
+[OpenMidLeft][ToggleSmile]What...?[A]
+[OpenMidRight][ToggleSmile]Lilina...[A]
+I don't know when,
+but some day...[A]
+I'll come for you.[A]
+[OpenMidLeft][ToggleSmile]
+...I...I have to
+prepare, too...[A][Clear]
+But...Roy...
+I've always...[A]
+[OpenMidRight]Oh![A][ToggleSmile]
+The ceremony's starting.
+Come, Lilina![A]
+Let's see Princess...
+No, Queen Guinivere![A]
+This is the start of her
+reign as queen![A][ClearFace]
+[OpenMidLeft][ToggleSmile]
+What I'm trying to say is...
+I've always... Wait, what?![A]
+R-Roy, wait for me![A][ClearFace]
+[025F]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy][OpenMidRight]
+Princess Guinivere, you have my
+congratulations on your ascension.[A]
+[OpenMidLeft]I thank you...[A]
+But my battle is
+just beginning.[A]
+[OpenMidRight][ToggleSmile]I'm sorry...[A]
+I wish we didn't have to
+rely on Etruria.[A]
+[OpenMidLeft][ToggleSmile]
+Not at all. I am grateful for
+their support.[A][ToggleSmile]
+There will be those, however,[A]
+who think I only joined
+Etruria to seize the throne.[A]
+[OpenMidRight]Princess...[A]
+[OpenMidLeft]But the most important task at
+hand is Bern's reconstruction.[A]
+I must regain the people's trust
+through my efforts.[A]
+No matter how long it takes...[A]
+[OpenMidRight]
+If there is anything I can do to
+help, please don't hesitate to ask.[A]
+[OpenMidLeft][ToggleSmile]Thank you again.
+Perhaps I will someday.[A]
+Roy, are you...[A]
+[OpenMidRight][ToggleSmile]Yes?[A]
+[OpenMidLeft][ToggleSmile]
+What will you do?[A]
+Will you stay in
+the Etrurian Army?[A]
+[OpenMidRight]
+No, I must return to Pherae.[A]
+I am concerned about my
+father's illness,[A]
+and we must begin the
+reconstruction effort.[A]
+[OpenMidLeft]
+You are returning home?
+I am sure that's for the best.[A]
+Still...[A]
+Someone of your ability could easily
+take a place in the Etrurian court.[A]
+[OpenMidRight][ToggleSmile]M-me?![A]
+I don't think I deserve
+such a position![A]
+[OpenMidLeft][ToggleSmile]Pherae is blessed to have
+such a gifted heir as you.[A]
+[0260]
+[OpenMidLeft][LoadGuinivere][OpenMidRight][LoadSoldier1][ToggleSmile]Your Highness...[A]
+[OpenMidLeft][ToggleSmile]Please call me Guinivere.
+What is the matter?[A]
+[OpenMidRight][ToggleSmile]Yes, Lady Guinivere.
+The ceremony is about to begin![A]
+[OpenMidLeft][ToggleSmile]Thank you.
+I will be there shortly...[A]
+[0261]
+[OpenFarLeft][LoadGuinivere][OpenMidRight][LoadRoy]
+[OpenFarLeft][ToggleSmile]Roy, will you
+come with me?[A]
+[OpenMidRight]Me?[A]
+[OpenFarLeft]
+You have helped me so much ever since I
+left Bern with the Fire Emblem in hand.[A]
+I want you to see the path Bern will
+take under my leadership.[A]
+[OpenMidRight]Of course.[A]
+If you will have me, then it is
+my pleasure to accompany you.[A]
+[OpenFarLeft][ToggleSmile]Then come...
+This way.[A]
+[OpenMidRight]Let us see a new Bern...[.....]
+And the beginning of a new era.[A]
+[0262]
+Peace returned to the world, 
+[0263]
+and the people slowly began to recover. 
+[0264]
+As stability returned, 
+[0265]
+Elibe faced a new age of prosperity. 
+[0266]
+And thus, 
+[0267]
+the story of the many people 
+[0268]
+who mourned, wept, and laughed 
+[0269]
+during this great conflict 
+[026A]
+came to a close...

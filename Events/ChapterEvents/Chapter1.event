@@ -115,8 +115,8 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-CMOF
 MUSC MUS_AnUnexpectedCaller
+CMOF
 LOAD1 0x1 Enemies1
 ENUN
 FlashCursor(Damas, 60)

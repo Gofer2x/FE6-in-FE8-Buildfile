@@ -1,0 +1,498 @@
+[0116]
+
+[OpenMidLeft][LoadFlaer][OpenMidRight][LoadNarcian]
+[OpenMidRight][FastPrint][ToggleSmile]You haven't taken
+the castle yet?![A]
+[OpenMidLeft][CloseSpeechFast]The loyalists led by General
+Cecilia fight harder than anticipated...[A][ClearFace]
+[OpenMidRight]Cecilia...!
+That woman![A]
+She interferes in my
+work yet again![A]
+
+[0117]
+
+[OpenMidRight][LoadNarcian][OpenLeft][LoadZephiel]
+[OpenLeft][ToggleSmile]You seem to be having trouble,
+Narcian.[A]
+[OpenFarLeft][SendToBack][LoadIdunnHood][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenFarLeft][ClearFace]
+[OpenMidRight]Y-Your Majesty?!
+When...did you arrive?[A]
+[OpenLeft][CloseSpeechFast]Just this moment.[A]
+The general from Etruria
+fights well, I see.[A]
+[OpenMidRight][FastPrint]Yes, Your Majesty...[A]
+But everything will soon
+be under our control.[A]
+[OpenLeft][CloseSpeechFast]Allow me.
+I will squash her myself.[A]
+[OpenMidRight][ClearFace][OpenFarLeft][LoadIdunnHood][FastPrint]Your Highness, there
+is no need...[A][SendToBack]
+[OpenLeft][CloseSpeechFast]These arms could use some exercise.
+It's no bother.[A]
+[OpenFarLeft][ClearFace][SendToBack][OpenMidRight][LoadNarcian]
+[OpenLeft][CloseSpeechFast]Bring me to her,
+Narcian.[A]
+[0118]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidRight][NormalPrint][ToggleSmile]What's the latest?[A]
+[OpenMidLeft][CloseSpeechFast]The castle has yet
+to fall, Lord Roy.[A]
+[OpenMidRight][FastPrint]Good!
+We still have time.[A]
+[0119]
+[OpenMidRight][LoadCecilia][OpenLeft][LoadZephiel]
+[OpenLeft][ToggleSmile]So you are Cecilia,
+Mage General of Etruria.[A]
+[OpenMidRight][NormalPrint]...King Zephiel...[A]
+[OpenLeft][CloseSpeechFast]You fight well. I reward you
+with the honor of dueling me.[A]
+[OpenMidRight][FastPrint][ToggleMouthMove]......[A]
+[011A]
+[LoadCecilia][ToggleSmile]You're too...
+powerful...[......][A]
+[011B]
+[OpenLeft][LoadZephiel][ToggleSmile]She lost consciousness...
+How disappointing. I expected more.[A]
+[OpenFarLeft][LoadNarcian][FastPrint][ToggleSmile]Your Majesty!
+Untouchable as always![A][SendToBack]
+[OpenLeft][CloseSpeechFast][ToggleSmile]I suppose it was foolish to expect
+a challenge from an Etrurian.[A]
+[OpenFarLeft][ClearFace][OpenMidRight][LoadNarcian][ToggleSmile]If you would allow it, Your Majesty,
+will you leave her to me?[A]
+[OpenLeft][NormalPrint][ToggleSmile]Why?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]She has caused me...
+certain difficulties.[A]
+I want to see that she
+suffers for them.[A]
+[OpenLeft][FastPrint][ToggleSmile]Hmph. Very well.
+Do as you wish.[A][ClearFace]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Thank you, Your Majesty.[A][Clear]
+You! Ready a cell in the dungeon![A]
+[OpenFarLeft][LoadSoldier2]Yes, General Narcian.[A]
+[011C]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadPerceval][ToggleSmile]Bern has attacked
+the castle?[A]
+[OpenMidLeft]Yes, sir.[A]
+[OpenMidRight]...This wasn't in the agreement.[A]
+They promised to leave Etrurian
+matters to us of Etruria.[A]
+[OpenMidLeft]What shall we do?[A]
+[OpenMidRight]Was it General Narcian who made
+the order to attack the castle?[A]
+[OpenMidLeft]No, sir.
+It was King Zephiel himself.[A]
+[OpenMidRight]Really![....]
+The king himself...[A]
+[OpenMidLeft][ClearFace][OpenMidRight]Then Bern never saw us as
+partners to begin with.[A]
+[OpenMidLeft][LoadSoldier2][OpenMidRight]We will observe for now
+and fall back in time.[A]
+[OpenMidLeft]Yes, sir![A][ClearFace]
+[OpenMidRight][ToggleMouthMove]......[A]
+[011D]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidRight][FastPrint][ToggleSmile]The castle has fallen?[A]
+[OpenMidLeft]Yes...
+We were too late.[A]
+[OpenMidRight]Is General Cecilia
+all right?[A]
+[OpenMidLeft][CloseSpeechFast]There's no report of her
+death, but it looks grim...[A]
+[OpenMidRight]There's still a possibility
+that she's alive.[A]
+We can't give up on her.
+We must hurry![A]
+[011E]
+[OpenRight][LoadZephiel][OpenFarLeft][LoadNarcian]
+[OpenFarLeft][ToggleSmile]Your Majesty!
+We have found Princess Guinivere.[A]
+[OpenRight][FastPrint]Bring her before me.[A]
+[011F]
+[OpenRight][LoadZephiel][OpenMidLeft][LoadGuinivere][ToggleSmile]My brother...[A]
+[OpenRight][FastPrint]Guinivere.
+So good to see you.[A][LoadOverworldFaces]
+[OpenMidLeft][CloseSpeechFast]Zephiel, why?[A]
+Why do you continue this war?
+So many innocent people have died...[A]
+[OpenRight]Innocent, you say?[A]
+Pah. Jealousy, vanity, greed...[A]
+Men kill because of these petty
+emotions all across the realm.[A]
+How can you say they
+are innocent?[A]
+[OpenMidLeft][NormalPrint]I...[A]
+[OpenRight][CloseSpeechFast]The world must be liberated from
+these trivial creations of man.[A]
+That is the purpose of this war.[A]
+[OpenMidLeft]But...so many people are being
+killed in the process.[A]
+[OpenRight]A few worthless lives are a fair
+trade for the change I desire.[A]
+[OpenMidLeft][MoveFarLeft][NormalPrint]Zephiel...![A]
+[OpenRight][CloseSpeechFast]Guinivere, you are my only sister.
+My only surviving blood relative.[A]
+As such, I forgive you this time,
+but I shan't the next.[A]
+You would do well to
+remember that.[A]
+[OpenFarLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][A][LoadOverworldFaces]
+[OpenRight][CloseSpeechFast]Narcian![A]
+Is the head of Guinivere's
+guard present?[A]
+[OpenLeft][LoadNarcian]Yes, Your Majesty.
+Melady is here.[A]
+[OpenRight]Good.[A]
+Have her take Guinivere back to Bern.[A]
+Also have her ensure the Fire Emblem
+is returned to the Shrine of Seals.[A]
+[OpenLeft][NormalPrint]Of course, Your Majesty.[A][ClearFace]
+[OpenFarLeft]Zephiel...[A]
+[0120]
+[OpenMidRight][LoadGuinivere][OpenMidLeft][LoadMelady]
+[OpenMidRight][NormalPrint][ToggleSmile]Melady...[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Your Highness, I am pleased
+to see you safe. [A]
+[OpenMidLeft][MoveLeft][FastPrint]Now, let us return
+to Bern...[A]
+[NormalPrint][ToggleSmile]Your Highness?[A]
+[OpenMidRight][MoveFarRight]Melady![A]
+[OpenLeft][CloseSpeechFast]W-what are you doing?![A]
+Put that sword down before
+you hurt yourself![A]
+[OpenFarRight][FastPrint]Let me free,
+Melady![A]
+[OpenLeft][NormalPrint]What?![A]
+[CloseSpeechFast]...And what will Your Highness
+do if she is freed?[A]
+[OpenFarRight][CloseSpeechFast]...I understand that Roy and the
+Lycian Army are nearby...[A]
+[OpenLeft][FastPrint]You would join the enemy?![A]
+[OpenFarRight][CloseSpeechFast]I cannot sit idly by and watch as the
+world is overrun by Bern's forces...[A]
+No matter the reason, it is
+senselessly violent conquest.[A]
+What kind of future will this war
+lead us to...?[A]
+[OpenLeft][NormalPrint][ToggleMouthMove]......[A]
+[OpenFarRight][CloseSpeechFast][ToggleMouthMove]Melady,
+I ask you to let me go.[A]
+[OpenLeft][NormalPrint]...There is just...[A]
+[OpenFarRight]Yes?[A]
+[OpenLeft][CloseSpeechFast]There is just one thing I
+wish to ask, Your Highness.[A]
+When you left Bern, why did you
+not ask my opinion...?[A]
+[OpenFarRight][MoveMidRight][FastPrint]I thought involving you would
+damage your reputation.[A]
+I didn't want you to be branded
+a traitor like me.[A]
+[OpenLeft][CloseSpeechFast]
+Does Your Highness honestly think
+I would ever pay any heed to that?[A]
+I serve Your Highness before I
+serve Bern.[A]
+It has been so since I was
+knighted.[A]
+[OpenMidRight][NormalPrint]Melady...[A]
+[OpenLeft][CloseSpeechFast][ToggleSmile]
+If you tell me to let you go,
+then with pleasure, I will.[A]
+I ask only one favor of you.[A]
+Allow me to accompany you.[A]
+[OpenMidRight][MoveRight][FastPrint]Melady...
+Thank you...[A]
+[0121]
+[OpenRight][LoadRoy]
+[OpenFarLeft][LoadMelady][FastPrint][ToggleSmile]Please lower your weapons!
+I am not an enemy![A]
+[OpenRight]What?
+Soldiers, let her through![A]
+[OpenFarLeft][ClearFace][SendToBack][OpenFarRight][LoadMerlinus]Lord Roy,
+it may be a trick...[A][SendToBack]
+[OpenRight][CloseSpeechFast]She may be a messenger.[A]
+[SendToBack][OpenFarRight][ToggleMouthMove][NormalPrint]......[A][ClearFace][SendToBack]
+[OpenFarLeft][LoadMelady][ToggleMouthMove][FastPrint]Are you General Roy?[A]
+[OpenRight]...Yes.
+And you are?[A]
+[OpenFarLeft][ClearFace][OpenMidLeft][LoadGuinivere][NormalPrint]Roy![A]
+[OpenRight][FastPrint]Princess Guinivere?![A]
+[ToggleSmile]You're unharmed![A]
+[OpenMidLeft]Yes... I escaped
+with her assistance.[A][ClearFace]
+[OpenFarLeft][LoadMelady]My name is Melady.
+It is a pleasure to meet you.[A]
+[ClearFace]
+[OpenMidLeft][LoadGuinivere][CloseSpeechFast]Roy,
+General Cecilia is alive.[A]
+[OpenRight][FastPrint]R-really?[A]
+[OpenMidLeft]Yes, truly.[A]
+She is gravely wounded,
+but she is alive.[A]
+She is locked in a cell
+in the castle.[A]
+[OpenRight][CloseSpeechFast][ToggleSmile]Thank you!
+We have to rescue her![A]
+[0122]
+[OpenFarLeft][LoadIdunnHood][OpenRight][LoadZephiel]
+[OpenRight][FastPrint][ToggleSmile]Are they ready?[A]
+[OpenFarLeft]Yes, the dragons are prepared
+to fight at your command.[A][ClearFace]
+[OpenRight][CloseSpeechFast]Narcian.[A][OpenMidLeft][LoadNarcian]
+[OpenRight]I will give you some dragons
+to fortify your legion.[A]
+I want you to go with your troops
+to Nabata after cleaning up here.[A]
+[OpenMidLeft]Nabata?[A]
+The desert lands to
+the east of here?[A]
+[OpenRight]Correct. There is tell of a
+hidden village in the desert.[A]
+Dragons have supposedly been
+living there since the Scouring.[A]
+[OpenMidLeft]Ah, now I understand... A legendary
+weapon is likely hidden there.[A]
+[OpenRight]Precisely.
+It must not fall into enemy hands.[A]
+I sent some men in already,
+but they seem to be outnumbered.[A]
+[OpenMidLeft][ToggleSmile]Leave it to me, Your Majesty.
+The village shall be ours.[A]
+[OpenRight][ToggleSmile]...I trust that it will.
+Do not disappoint me.[A]
+[OpenMidLeft][NormalPrint]You can rest easy,
+Your Majesty![A]
+By my honor as Wyvern General,
+I will not fail you![A]
+[0123]
+[OpenFarRight][LoadCecilia]
+[FastPrint][ToggleSmile]...Oh...
+Where am I...?[MoveFarRight][A]
+[OpenFarLeft][LoadSophia]You're not well yet...
+You mustn't move...[A]
+[OpenFarRight]Did you treat my wounds?[A]
+[OpenFarLeft][CloseSpeechFast]Yes... I'm not an
+expert, however...[A]
+My work may leave something
+to be desired...[A]
+[OpenFarRight]No, it's fine.
+Thank you.[A]
+We must find a way
+out of here...[A]
+...Ow...![A]
+[OpenFarLeft][MoveMidLeft]Don't move...
+Your wound will open...[A]
+[OpenFarRight][FastPrint]But I must do something...[A]
+[OpenMidLeft][CloseSpeechFast]Everything will
+be fine...[A]
+I see a light...
+It will arrive shortly...[A]
+[OpenFarRight][NormalPrint]A light?[A]
+[OpenMidLeft][CloseSpeechFast]Yes...
+A light that will aid us...[A]
+We must wait patiently...[A]
+[OpenFarRight][FastPrint]Who are you...?[A]
+[OpenMidLeft][CloseSpeechFast]I am Sophia...
+A shaman of Arcadia...[A]
+[OpenFarRight][NormalPrint]What is Arcadia?[A]
+[OpenMidLeft][CloseSpeechFast]I will tell you more later...
+For now, please just trust me...[A]
+[0124]
+[OpenMidLeft][LoadFlaer][OpenMidRight][LoadNarcian]
+[OpenMidLeft][ToggleSmile]General Narcian!
+It's them![A]
+The Lycian Army![A]
+[OpenMidRight]What?!
+Flaer, you cad![A]
+I thought you took care
+of them at Juteaux![A]
+[OpenMidLeft]I did![A]
+Well...I left a dragon to
+deal with them...[A]
+I never thought they
+would survive![A]
+[OpenMidRight]Disregarding your failure,
+my reputation is at stake![A]
+They defeated a dragon, so they
+must be more hardy than I expected.[A]
+Yet if I can't defeat them here,
+people will doubt my ability...[A]
+[OpenMidLeft]General Narcian...
+What should we do...?[A]
+[OpenMidRight]There is only one thing we CAN do...
+Flaer.[A]
+I will return to Aquileia and
+prepare to face the Lycian Army.[A]
+You stay here.[A]
+[OpenMidLeft][MoveFarLeft][FastPrint]What?![A]
+M-me...?
+Stay here?[A]
+[OpenMidRight]Don't worry.
+I don't expect you to defeat them.[A]
+All I want is for you to hit them as
+hard as you can and soften them up a bit.[A]
+[OpenFarLeft]General Narcian!
+You intend to use me as fodder?![A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Flaer...[A]
+In truth, your failure in the Western Isles
+is grounds for execution.[A]
+I am giving you one last chance to prove
+that you aren't a complete failure.[A]
+You should be thanking me, if anything.[A][ToggleMouthMove]
+Hm[.....] hm[.....] hm...[A][ToggleMouthMove]
+[OpenFarLeft][NormalPrint][ToggleSmile]But...![A]
+[OpenMidRight][MoveRight]I can personally execute
+you now if you prefer.[A]
+[OpenFarLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+Yes...sir...
+I understand.[A]
+[OpenRight][ToggleSmile]Good.
+Then I bid you adieu.[A][ClearFace]
+[0125]
+[OpenMidLeft][LoadPerceval][OpenMidRight][LoadSoldier2][ToggleSmile]Yes,
+General Perceval?[A]
+[OpenMidLeft]We're leaving.[A]
+[OpenMidRight]What?
+Are you sure?[A]
+[OpenMidLeft]Bern's actions are an
+insult to Etruria.[A]
+I cannot aid Bern any further.
+We must return to Aquileia.[A]
+I will inform General Douglas of this
+and plan a new course of action.[A]
+Fall back at once![A]
+[OpenMidRight]Yes, sir![A]
+[0126]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
+Here, take this ring.[A]
+It will build up your
+muscles when you use it.[A]
+...It might make the ladies a
+little less attractive, though.[A]
+[0127]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
+I thought I'd try to defend
+myself with this sword,[A]
+but I don't know how to use it.[A]
+It's a nice sword though,
+isn't it?[A]
+The last one to use it was a kid
+named Al.[A]
+He was a courageous one, and he
+stood up to Bern, just like you.[A]
+Here. I'll give it to you.
+Use it to end this war![A]
+[0128]
+
+[0129]
+
+[012A]
+
+[012B]
+
+[012C]
+
+[012D]
+
+[012E]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager13]
+Cecilia, Perceval, and Douglas!
+They're the three Etrurian Generals.[A]
+Even the three Wyvern Generals
+of Bern are no match for them.[A]
+...That's what I'd like
+to think, anyway.[A]
+[012F]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
+[ToggleSmile]General Cecilia...
+She was defeated in one blow...[A]
+King Zephiel is more powerful than
+any of us could have imagined...[A]
+[0130]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+General Perceval still swears loyalty to
+Prince Myrddin even after his passing.[A]
+Loyal and hard-working to the end.
+That's what I call a real man...[A]
+[0131]
+[LoadFlaer]You've made it...[A][Clear]
+But I am a knight of Bern!
+I will not surrender![A]
+[0132]
+[LoadFlaer]I may fall, but Bern
+cannot be stopped...[A]
+Your defeat is
+inevitable...[A]
+Be sure of it...[A]
+[0133]
+[OpenMidLeft][LoadCecilia][OpenMidRight][LoadRoy]
+[OpenMidRight][FastPrint][ToggleSmile]General Cecilia![A]
+[OpenMidLeft]Roy... I failed.
+I'm so ashamed.[A]
+[OpenMidRight]The important thing is
+that you are alive...[A]
+But how are your wounds?
+Are you all right?[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadSophia][OpenLeft][LoadCecilia]
+[OpenLeft][CloseSpeechFast][ToggleSmile]Yes, I'm fine.
+This girl treated them for me.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]Who is she?[A][SendToBack]
+[OpenFarLeft][FastPrint]I am Sophia...
+A shaman of Arcadia...[A][SendToBack]
+[OpenLeft][ToggleSmile]She foresaw your coming.[A]
+She also said she would explain
+her story once we had time.[A]
+[ClearFace][LoadOverworldFaces]
+[OpenFarLeft][CloseSpeechFast][ToggleSmile]Yes, now is fine...[A]
+Arcadia, my home, lies to the east
+in the Nabata desert...[A]
+We have always kept hidden...but Bern
+discovered our existence...and...[A]
+[OpenMidRight][FastPrint]They attacked?[A]
+[OpenFarLeft][CloseSpeechFast]Yes...[A]
+I...was too slow to act,
+so I was captured...[A]
+[OpenMidRight]Why would Bern attack a
+small village like yours?[A]
+[OpenFarLeft]I do not know...[A]
+Perhaps they learned of the
+dragons that live in Arcadia...[A]
+[OpenMidRight][MoveRight]Dragons?![A]
+[OpenFarLeft]That's right...[A]
+Arcadia was founded by both
+dragon and man ages ago...[A]
+[OpenRight][FastPrint]...I never knew such a
+place existed...[A]
+[OpenFarLeft]Lord Roy...
+Please, save our village...[A]
+[OpenFarRight][LoadMerlinus][CloseSpeechFast]Her story seems too
+fantastic to be true.[A]
+[OpenFarLeft][ToggleMouthMove][NormalPrint]......[A]
+[OpenFarRight][ClearFace][OpenRight][ToggleMouthMove][CloseSpeechFast]
+Dragons or no, I believe her when she
+says Bern attacked her village.[A]
+Sophia, we are in your debt for
+saving General Cecilia.[A]
+We owe it to you to do what we
+can to save your village.[A]
+[OpenFarLeft]...Thank you...[A]
+[OpenRight]Can you tell me more
+about this Arcadia?[A]
+And the dragons?[A]
+[OpenFarLeft]...Yes... I will gladly tell
+you all that I know...[A]
+[0134]
+[OpenMidLeft][LoadSoldier7][OpenMidRight][LoadPerceval]
+[OpenMidLeft][ToggleSmile]General Perceval, we will station
+ourselves at this castle.[A]
+We shall prepare for further attacks
+from the revolutionaries.[A]
+[OpenMidRight]Yes, please do.[A]
+[OpenMidLeft]We found this in the castle.
+Please take it.[A][Clear]
+General Perceval, please...
+Save Etruria.[A]
+[OpenMidRight]I will.
+Count on it.[A]
+[OpenMidLeft]Yes, sir![A]

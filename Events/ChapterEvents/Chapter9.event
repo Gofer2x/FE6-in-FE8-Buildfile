@@ -30,13 +30,28 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+//12-20 pirates from forts
+//2 fir sin appear
+//5 sin turns aggressive
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+//noah talk to fir
+//sue talk to sin
 END_MAIN
 
 LocationBasedEvents:
+//x2 y3 seize
+//x18 y2 longbow village, sets echidna route
+//x21 y2 barrier village, sets bartre route
+//x2 y24 silver sword village
+//x23 y4 armory SlimSword IronSword SteelSword IronBlade SteelBlade IronAxe SteelAxe HandAxe Hammer
+//x21 y6 vendor Fire Heal Mend Vulnerary Antitoxin Torch DoorKey
+//x1 y20 mist house
+//x19 y22 resistance house
+//x18 y13 sin house
+//x16 y1 mainland house
 END_MAIN
 
 MiscBasedEvents:
@@ -103,8 +118,8 @@ UNIT GenericBanditWestIsles Archer Scott Level(11,Enemy,1) [20,5] 0x0 0x0 0x0 0x
 UNIT
 
 FirSin:
-UNIT Fir MyrmidonF Scott Level(1,Enemy,0) [0,10] 0x0 0x0 0x1 REDA_1_10 [WoDao, Vulnerary] DummyAI
-UNIT Sin Nomad Scott Level(5,Enemy,0) [0,5] 0x0 0x0 0x1 REDA_0_7 [ShortBow] DummyAI
+UNIT Fir MyrmidonF Scott Level(1,Enemy,0) [0,10] 0x0 0x0 0x1 REDA_1_10 [WoDao, Vulnerary] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_DmgAcc, AI4_Retreat]
+UNIT Sin Nomad Scott Level(5,Enemy,0) [0,5] 0x0 0x0 0x1 REDA_0_7 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_DmgAcc, AI4_Retreat]
 UNIT
 
 FortPiratesReinforcements:
@@ -121,6 +136,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_MessengerFromTheDarkness
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

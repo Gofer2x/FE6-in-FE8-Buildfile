@@ -1,0 +1,372 @@
+[01B3]
+[OpenFarLeft][LoadSoldier2][OpenMidRight][LoadMurdock]
+[OpenFarLeft][ToggleSmile][FastPrint]
+General Murdock. All troops are
+at their posts and ready for battle.[A]
+[OpenMidRight]Good. Thank you.[A][OpenFarLeft][ClearFace][Clear][OpenMidLeft][LoadGalle]
+[OpenMidRight]Galle.
+It will begin soon.[A]
+[OpenMidLeft][CloseSpeechFast]My men are ready.[A]
+[OpenMidRight]
+Your squad will be the key to
+victory in this battle.[A]
+Do you understand?[A]
+[OpenMidLeft][FastPrint]Of course, Sir Murdock.
+I won't disappoint you.[A]
+[OpenMidRight][CloseSpeechFast]I expect not.[A]
+[ToggleSmile]The enemy are but insects next
+to the might of Bern's army.[A]
+Even so...that Lycian general
+has made it far.[A]
+[OpenMidLeft][FastPrint]General Roy?[A]
+[OpenMidRight][CloseSpeechFast]Yes. Roy.[A]
+I hope to be able to duel him in
+a fair fight, one on one.[A]
+[01B4]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadRoy][OpenMidLeft][FastPrint][ToggleSmile]Ah, General Roy!
+I have found you at last.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Father Yoder![A]
+What brings you all
+the way from Etruria?[A]
+Is something amiss?[A]
+[OpenMidLeft][ToggleSmile][LoadOverworldFaces]
+I did some additional research
+after reading your letter.[A]
+I reached the same conclusion. Bern
+has resurrected the demon dragon.[A]
+[OpenMidRight][FastPrint]You think so, too?[A]
+...Hartmut defeated the
+demon dragon in the Scouring.[A]
+How could Bern have brought
+it back to life?[A]
+[OpenMidLeft][CloseSpeechFast]
+Apparently after defeating it,
+Hartmut chose to spare its life.[A]
+[OpenMidRight][NormalPrint]What?![A]
+[OpenMidLeft][CloseSpeechFast]
+Instead of killing it, he sealed
+it away in the mountains of Bern.[A]
+The sword he used to seal it was...[A]
+[OpenMidRight][FastPrint]The Binding Blade?[A]
+[OpenMidLeft][CloseSpeechFast]Oh, you know of it?[A]
+[OpenMidRight][FastPrint]I learned a little bit
+of it in my studies...[A]
+[OpenMidLeft][CloseSpeechFast]
+The demon dragon's seal may have been
+broken, but with the Binding Blade,[A]
+we may be able to seal it away once
+more or kill it for good.[A]
+[OpenMidRight]
+Do you know where the
+demon dragon might be?[A]
+[OpenMidLeft]
+Yes, I believe so.[A]
+We know dragons change into
+human form,[A]
+and the demon dragon is most
+likely in such a form as well.[A]
+I have a suspect already.[A]
+The "Dark Priestess" that is
+always at King Zephiel's side.[A]
+[OpenMidRight][FastPrint]The Dark Priestess...[A]
+[OpenMidLeft][CloseSpeechFast]
+There is no solid evidence that
+she is the demon dragon,[A]
+but she appeared shortly before
+the other dragons did.[A]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove]
+The dragons seal away their power
+in gems called dragonstones.[A]
+Remaining in their dragon form
+uses too much energy otherwise.[A]
+The same is likely true for
+the demon dragon as well.[A]
+[OpenMidRight]
+We must see her in person
+and find the truth.[A]
+[OpenMidLeft]Allow me to go with you.[A]
+[OpenMidRight][FastPrint][ToggleSmile]
+You will fight alongside us?
+By all means![A]
+[OpenMidLeft][CloseSpeechFast]
+I have also been instructed
+to give you these.[A]
+They are legendary weapons
+that the church located.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]Legendary weapons?!
+These will be invaluable![A]
+[OpenMidLeft][CloseSpeechFast]
+If the demon dragon has been released,[A]
+then this is the greatest crisis
+mankind has faced since the Scouring.[A]
+[OpenMidRight]We must rise like the Eight Legends
+of yore to save humanity once again.[A]
+[01B5]
+[OpenMidRight][LoadGalle]
+[ToggleSmile]
+Knights of Bern!
+We strike now![A]
+Leave none alive![A]
+Don't even leave them
+time to scream in fear![A]
+[01B6]
+[OpenMidRight][LoadPeres][OpenMidLeft][LoadSoldier2][OpenMidRight][ToggleSmile]
+Have you dealt with the
+legendary weapon?[A]
+[OpenMidLeft]Yes sir, it has
+been disposed of.[A]
+[OpenMidRight]Good.[A]
+Now we go to General
+Murdock's aid![A]
+[01B7]
+[OpenMidLeft][LoadGalle][OpenMidRight][LoadMelady][ToggleSmile]Galle...[A]
+[OpenMidLeft]Melady...[A]
+[OpenMidRight]Galle...
+I...[A]
+[OpenMidLeft]Do not speak...[A]
+You and I are both
+loyal knights.[A]
+We both fight in our
+masters' names.[A]
+That is all there is
+to know.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]Melady...[A]
+This is probably the end,
+so let me say this.[A]
+I am truly grateful I was
+fortunate enough to meet you.[A]
+We trained together, and we
+fought alongside each other.[A]
+Melady...
+The days I spent with you...[A]
+They were the happiest days
+of my life.[A]
+[OpenMidRight]
+M...mine, too...[A]
+[OpenMidLeft]...Good-bye, Melady.[A]
+My only regret is that we didn't
+meet in a more peaceful time.[A]
+[OpenMidRight]Galle...[A][OpenMidLeft][ClearFace][......]
+[OpenMidRight][MoveRight]Wait![A]
+Galle![A]
+Don't go![A]
+Gaaalle!![A]
+[01B8]
+[OpenMidLeft][LoadGalle][OpenMidRight][LoadZeiss]
+[OpenMidRight][ToggleSmile]Sir Galle...[A]
+[OpenMidLeft]Zeiss.
+You seem to be well.[A]
+[OpenMidRight]Sir Galle...
+Must we truly fight?[A]
+[OpenMidLeft]Yes.
+We must.[A]
+[OpenMidRight]
+I...I don't want to
+fight you![A]
+You're the last
+person I ever...[A]
+[OpenMidLeft]Zeiss!
+Are you a child?![A]
+[OpenMidRight]What...?![A]
+[OpenMidLeft]
+Did you have this little faith in
+your choice when you left Bern?[A]
+Do you regret your decision to
+fight against Bern?[A]
+[OpenMidRight]
+No! My mind is...set...[A]
+It still hurts to point my blade
+towards Bern, my homeland...[A]
+But the path I chose was not
+a mistake...![A]
+[OpenMidLeft]
+Then cast away your hesitation![A]
+Focus on defeating those who block
+the path that you have chosen.[A][Clear]
+...No matter who that may be.[A]
+[OpenMidRight]Sir Galle...[A]
+[OpenMidLeft]Zeiss...
+Are you a knight of Bern?[A]
+[OpenMidRight]...Of course![A]
+[OpenMidLeft]Good![A]
+Then when next we meet,
+there will be no words.[A]
+Our blades will cross, and
+one will be left standing![A]
+[01B9]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadSaul]
+[OpenMidRight]Ah, Father Yoder.[A]
+[OpenMidLeft]
+Saul, it is good to see
+you well.[A]
+And thank you.[A]
+You and Dorothy have done a
+great service to the church.[A]
+[OpenMidRight]
+...There is no greater pleasure
+than to know I have been of use.[A]
+[OpenMidLeft]
+Oh? I've never known you
+to be so serious...[A]
+[OpenMidRight]Father Yoder, despite all
+appearances, I am a priest.[A]
+The common good is my
+greatest concern.[A]
+[OpenMidLeft]
+I am sorry I doubted you.[A]
+From this point, we
+fight together.[A]
+[01BA]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadDorothy]
+[OpenMidLeft]Dorothy,
+have you been well?[A]
+[OpenMidRight]Very much so.[A]
+It is good to see
+you, Father Yoder.[A]
+[OpenMidLeft]
+You are always so cheery and
+full of energy.[A]
+I'm sure Saint Elimine
+adores that about you.[A]
+[OpenMidRight]Do you think so...?[A]
+[OpenMidLeft]
+Just being around you cleanses the
+heart and makes one feel pure.[A]
+I'm sure that's true even for Saul.
+You have much to be proud of.[A]
+[OpenMidRight]Thank you,
+Father Yoder![A]
+[01BB]
+[OpenMidRight][NormalPrint][ToggleMouthMove]......[A]
+[OpenMidLeft][CloseSpeechFast][ToggleMouthMove][ToggleSmile]I was but a child then, so naturally
+I could not understand what was going on.[A]
+All I knew at the time is that our father
+died, and Zephiel never smiled again.[A]
+Before then, he was stern at times,
+but always a kind and loving brother.[A]
+But after everything that happened...[A]
+[OpenMidRight][NormalPrint]Princess...[A]
+[OpenMidLeft][CloseSpeechFast]I knew that someday I may
+have to act against him.[A]
+[OpenMidRight][FastPrint]I...see...[A][LoadOverworldFaces]
+[OpenMidLeft][CloseSpeechFast]...Zephiel is so far-gone now.
+He will never listen to anything I say.[A]
+Roy, please...
+You must stop him.[A]
+Stop him from destroying Bern and
+from destroying Elibe.[A]
+[OpenMidRight]Such a feat will likely
+require my blade.[A]
+Can you still ask such
+a thing of me?[A]
+[OpenMidLeft]...I trust your judgment.
+Do what you must.[A]
+[OpenMidRight]
+You have my word,
+Princess Guinivere.[A]
+I swear by the Fire Emblem
+that I will stop King Zephiel![A]
+[01BC]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]
+You're the Etrurian Army,
+aren't you?[A]
+There are no soldiers
+here.[A]
+Take this. Just leave
+us in peace![A]
+[01BD]
+[LoadMurdock]
+Hm...
+You have made it far.[A][Clear]
+I congratulate you.
+But can you defeat me?[A]
+[01BE]
+[LoadMurdock]
+Hngh...!
+You...are strong...[A][Clear]
+[ToggleSmile]Zephiel... My king...[A]
+I cannot protect you...
+any further...[A]
+Forgive me...![A]
+[01BF]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]
+Lord Roy... There is a path
+leading underground here.[A]
+[OpenMidRight]
+Is the Binding Blade
+down that way?[A]
+[OpenMidLeft]I cannot say...[A]
+But a captive tells us that there
+are two weapons in this shrine.[A]
+[OpenMidRight]Wait, is that right?[A]
+Does that mean that there
+is another legendary weapon?[A]
+[OpenMidLeft]Possibly...[A]
+Perhaps we should ask those in
+our army who hail from Bern.[A]
+[OpenMidRight][FastPrint]
+Yes, I'll see if
+they know anything.[A]
+[01C0]
+[OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy.
+This sword in the altar...[A]
+[OpenMidRight][FastPrint]This must be the Binding Blade.[A]
+[OpenMidLeft][ClearFace][OpenLeft][LoadMerlinus][CloseSpeechFast]
+...I can't seem to draw it from the stone.[A]
+[OpenMidRight][MoveRight][OpenRight]It's sealed in the altar.
+We must use the Fire Emblem.[A]
+[OpenLeft]Use it? How?[A]
+[OpenRight]
+Princess Guinivere said that it goes
+in the socket on the hilt...[A][LoadOverworldFaces]
+[OpenRight][ClearFace][OpenRight][LoadRoy][NormalPrint]Whoa!
+What's happening...?[A]
+[OpenLeft][MoveMidLeft]The blade is glowing![A]
+[OpenRight]Now I should be able
+to draw it...![A]
+[Clear][ToggleMouthMove]......!...[ToggleSmile][A][ToggleMouthMove]
+[01C1]
+[OpenRight][LoadRoy]
+[......][ToggleSmile]...What...
+are these images...?[A][......]
+Are they the
+Binding Blade's...[A][......][Clear]
+No, Hartmut's
+memories...?[A]
+[OpenMidLeft][LoadIdunnHuman][......][ClearFace][OpenRight][Clear][ToggleMouthMove]![A]
+[ToggleMouthMove][Clear]Who was that?[A][......][Clear]
+I don't understand what
+I'm feeling. It's very...[ToggleSmile][A]
+[01C2]
+[OpenMidLeft][LoadMerlinus][OpenRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy?
+Are you all right?[A]
+[OpenRight]Yes...
+I'm fine.[A][Clear]
+So this is Hartmut's sword,
+the Binding Blade...[A]
+Am I really worthy to
+wield it...?[A]
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadElffin][CloseSpeechFast]
+It is said that truly magnificent
+swords choose their owners.[A]
+The sword is in your hands now.
+It has chosen you.[A]
+[OpenRight][FastPrint]
+But anyone with the Fire Emblem
+could have taken it...[A]
+[OpenFarLeft][CloseSpeechFast]
+In theory, perhaps so...[A]
+But it was you who reached it.
+This is fate.[A]
+[OpenRight][ToggleMouthMove]......[A][ToggleMouthMove][SendToBack]
+[OpenLeft][LoadMerlinus]
+Now that we have the Binding Blade,
+all that's left is the king of Bern.[A]
+We mustn't tarry![A][SendToBack]
+[OpenRight]...You're right!
+Zephiel must be stopped![A]

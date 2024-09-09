@@ -1,0 +1,102 @@
+[0BE6]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadWindham][ToggleSmile]Lord Roartz fled?![A]
+What of me?! I betrayed the church and
+took control of this tower on his order![A]
+[OpenMidLeft]Lord Roartz's message said he leaves
+us to fend for ourselves.[A]
+Because we were unable to bend the church
+to his side, he has no more use for us.[A]
+[OpenMidRight]
+This is all Yoder's fault. If he hadn't
+meddled in my affairs...[A]
+[OpenMidLeft]
+I agree...but that's the least
+of our worries right now...[A]
+[OpenMidRight]...Very well...
+Then this is our last stand.[A]
+If we are to die, then the Lycian
+Army shall fall along with us![A]
+Prepare the Heavenly Arrows![A]
+[OpenMidLeft]But sir, we'll be unable to avoid
+hitting our own men as well![A]
+[OpenMidRight][MoveRight]You know the consequences for dissent.
+You shall do as I say![OpenMidLeft][MoveFarLeft][A][OpenFarLeft][ClearFace]
+[OpenRight]...They'll regret crossing me...
+Heh heh heh...![A]
+[0BE7]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]This is the Saint's Tower.[A]
+Saint Elimine's legendary weapon, the
+Aureola spell tome, lies within.[A]
+[OpenMidRight]Thank you, Sir Douglas.
+I appreciate your help.[A]
+Especially because we were fighting
+on opposite sides earlier...[A]
+[OpenMidLeft]You need not thank me.[A]
+I do as my king commands.
+There is nothing more to it.[A]
+[OpenMidRight][ToggleMouthMove]......[A]
+[OpenMidLeft][ToggleMouthMove]
+That said, you saved Etruria. I am
+honored to fight alongside you.[A]
+[OpenMidRight]Sir Douglas...[A]
+[0BE8]
+
+[0BE9]
+[LoadWindham]Perish!
+Every last one of you![A][Clear]
+Everything to ash![A]
+[0BEA]
+[LoadWindham]Hahaha!
+Haha...ha...[A]
+[0BEB]
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy,
+I think we've found the tome.[A][ClearFace]
+[OpenMidRight]Sir Douglas,
+is this it...?[A]
+[OpenMidLeft][LoadDouglas]Yes, it is.[A]
+This is the Glorious Ascension,
+Aureola, Saint Elimine's weapon.[A]
+[OpenMidRight]May we make
+use of it?[A]
+[OpenMidLeft]The king said to take anything in
+the tower that may be of use.[A]
+The St. Elimine Church
+backs us as well.[A]
+If any oppose our use of it,
+then I will negotiate.[A]
+[OpenMidRight]Thank you,
+Sir Douglas.[A]
+[0BEC]
+[OpenMidLeft][LoadSoldier1][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]Lord Roy,
+I think we've found the tome.[A][ClearFace]
+[OpenMidRight]...This must be Aureola,
+the Glorious Ascension.[A]
+Merlinus,[A][OpenMidLeft][LoadMerlinus]
+[OpenMidRight]I want you to give this back
+to the St. Elimine Church.[A]
+[OpenMidLeft][ToggleSmile]Why?[A]
+The king said we could take anything
+we found in the tower.[A]
+[OpenMidRight][ToggleSmile]This is a holy relic of
+their order.[A]
+It would be sacrilegious to use it
+without their permission.[A]
+[OpenMidLeft]I understand...[A]
+[0BED]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy.[A]
+[OpenMidRight]Father Yoder?
+What is wrong?[A]
+[OpenMidLeft]I understand you found
+the Aureola tome...[A]
+[OpenMidRight]Ah, yes.[A]
+I will return it to the
+church immediately.[A]
+[OpenMidLeft]There is no need.
+We want you to take it.[A]
+[OpenMidRight][ToggleSmile]...Are you certain?[A]
+[OpenMidLeft][ToggleSmile]What Saint Elimine wished
+for was peace.[A]
+Use it well and bring an
+end to this war.[A]
+[OpenMidRight]If you insist.[A]

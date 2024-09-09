@@ -23,3 +23,4 @@ Erm, what the sigma?[X]
 #include "RoyCathConvos.txt"
 #include "ChapterEvents/Chapter6.txt"
 #include "ChapterEvents/Chapter7.txt"
+#include "ChapterEvents/Chapter8.txt"

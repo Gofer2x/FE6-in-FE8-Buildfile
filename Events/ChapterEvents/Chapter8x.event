@@ -52,6 +52,32 @@ END_MAIN
 
 TrapData:
 //fire tiles lol
+//x10 y22
+//x14 y21
+//x14 y23
+//x17 y22
+//x19 y21
+//x23 y18
+//x25 y18
+//x23 y16
+//x24 y9
+//x23 y8
+//x25 y8
+//x20 y1
+//x19 y3
+//x14 y8
+//x13 y9
+//x15 y9
+//x14 y10
+//x12 y12
+//x11 y11
+//x11 y13
+//x9 y11
+//x9 y13
+//x8 y12
+//x7 y11
+//x7 y13
+//x3 y10
 ENDTRAP
 
 ALIGN 4
@@ -106,6 +132,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_LegendaryInheritance
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

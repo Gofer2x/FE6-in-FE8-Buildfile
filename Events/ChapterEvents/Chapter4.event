@@ -151,6 +151,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+MUSC MUS_Suspicious
 LOAD 0x1 CutsceneNarcian
 STAL 16
 CAM1 [3,8]

@@ -1,0 +1,947 @@
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadZinque]
+[OpenMidRight][FastPrint][ToggleSmile]Have you found that
+resistance bard yet?[A]
+[OpenMidLeft][CloseSpeechFast]We have a good
+lead, milord.[A]
+[OpenMidRight][FastPrint]Out with it then.
+Where is he?[A]
+[OpenMidLeft][CloseSpeechFast]He's apparently in hiding
+in the nearby village.[A]
+[OpenMidRight][CloseSpeechFast]Removing Elffin the Bard will sever the
+head guiding the resistance force.[A]
+Find him. Burn the village to the
+ground if you have to![A]
+[OpenMidLeft][NormalPrint]Yes, milord.[A][ClearFace]
+[OpenMidLeft][LoadMelady][OpenMidRight][CloseSpeechFast][ToggleSmile]I apologize for the
+wait, Madam Melady.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]You seem to have...
+a full plate.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Oh, worry not, our obligations
+to Bern take priority over all.[A]
+If you need anything, please
+don't hesitate to ask.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Then let's get to the matter
+we discussed earlier...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Ah, the whereabouts
+of Princess Guinivere.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Have you found anything,
+Lord Zinque?[A]
+[OpenMidRight][CloseSpeechFast]I regret to say
+that I have not.[A]
+Have you been to Juteaux?[A]
+[OpenMidLeft][NormalPrint]I have.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Then I suggest you pay
+a visit to Father Orlo.[A]
+He resides in the castle at
+Eburacum to the north.[A]
+He knows the region better than any
+of us, so he may have some idea.[A]
+However, if even he does not know
+where Princess Guinivere might be,[A]
+then she is most likely not in
+the Isles.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Thank you.[A]
+I will speak with
+Father Orlo then.[A]
+Farewell.[A]
+[ClearFace]
+[0949]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleSmile]The resistance is supposedly
+very active in this area.[A]
+[OpenMidLeft]Yes, that's what our
+sources say.[A]
+But I also hear that Etruria's military is
+hunting down members of the resistance.[A]
+Their numbers have apparently dwindled.[A]
+[OpenMidRight]...Etruria does nothing about bandits but
+oppresses the resistance?[A]
+Something is very wrong with
+this picture...[A]
+[OpenMidLeft]Indeed it is.[A]
+[OpenMidRight]Can we do anything to
+help the resistance?[A]
+[OpenMidLeft]Our hands are tied...[A]
+To do so would directly oppose
+Etruria's nobility.[A]
+We are here under Etruria's
+orders, remember.[A]
+[OpenMidRight]I'll send a letter to General Cecilia
+and see what she has to say.[A]
+Let's not do anything too
+rash just yet.[A][OpenMidLeft][ClearFace]
+[OpenFarLeft][LoadSoldier1][CloseSpeechFast]Lord Roy![A]
+Etrurian troops are attacking the village
+to find a member of the resistance force![A]
+They're under orders from Lord Zinque,
+the noble who controls this area.[A][ClearFace]
+[OpenMidLeft][LoadMerlinus][FastPrint]Oh no![A]
+...But should we intervene?[A]
+[OpenMidRight][CloseSpeechFast]We haven't the time to
+await General Cecilia's reply...[A]
+But I want to help the people.[A]
+...Even if it means opposing
+an Etrurian noble.[A]
+[OpenMidLeft]Lord Roy...[A]
+[OpenMidRight]We fight![A]
+Our purpose is just!
+Make Lycia proud![A]
+[094A]
+[OpenMidLeft][LoadGalle][OpenMidRight][LoadMelady]
+[OpenMidLeft][ToggleSmile]Were you able to ascertain
+Princess Guinivere's whereabouts?[A]
+[OpenMidRight]Unfortunately, no.[A]
+But a bishop named Orlo in charge of
+the mines in the north may know.[A]
+[OpenMidLeft][FastPrint]Very well.
+Then we head north.[A]
+[OpenMidRight][CloseSpeechFast]Galle...
+I'm sorry.[A]
+King Zephiel wanted to keep the matter
+of Princess Guinivere a secret,[A]
+so only I was assigned to search
+for her.[A]
+I'm sorry to get you mixed
+up in this...[A]
+[OpenMidLeft]Don't worry yourself.[A]
+[OpenMidRight]But you work directly under General
+Murdock. Surely you have other duties.[A]
+[OpenMidLeft]General Murdock agreed to allow
+me to assist you.[A]
+He thinks it's vital we find the
+princess and the Fire Emblem.[A]
+[OpenMidRight]...Do you think Princess
+Guinivere has the Fire Emblem?[A]
+[OpenMidLeft]That's what His Majesty
+the king thinks.[A]
+And I think he's correct,
+all things considered.[A]
+[OpenMidRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidLeft][ToggleMouthMove][CloseSpeechFast]Come now,
+don't be like that...[A]
+I'm sure Princess Guinivere
+went with good intentions.[A]
+Let's hurry now.[A]
+[OpenMidRight][NormalPrint]You're right...[A]
+[094B]
+[OpenMidRight][LoadElffin][OpenMidRight][NormalPrint][ToggleSmile]...Where...am I...?[A]
+[OpenMidLeft][LoadVillager1][FastPrint][ToggleSmile]Are you awake?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]...What...happened...?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]We found you lying at the entrance to
+the village, covered in wounds.[A]
+We took you home and have been
+taking care of you.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]Thank you...
+But you are...?[A]
+[OpenMidLeft][FastPrint][ToggleSmile]My name is Mary.
+I live in this village.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]...You live here...[......] Oh no![A]
+My very presence endangers
+this village...[A]
+...It may even be
+too late...[A]
+[OpenMidLeft][NormalPrint]I'm sorry?[A]
+[OpenMidRight][CloseSpeechFast]I am Elffin...
+One of the resistance force.[A]
+The lord here is sure to send
+troops in to capture me.[A]
+[OpenMidLeft]The resistance force...[A]
+[OpenMidRight]Lady Mary,
+you should leave here.[A]
+The village is in danger.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]...No,
+I will stay.[A]
+[OpenMidRight][NormalPrint][ToggleSmile]...Why?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I have a younger brother, but he left
+with his friend next door to find work.[A]
+I'm taking care of his friend's
+sister. I can't abandon her.[A]
+[OpenMidRight][FastPrint][ToggleSmile]I understand...[A]
+The most I can do to protect
+this village is leave.[A]
+I thank you again for
+tending to my wounds.[A]
+Please take care.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Yes, you too.[A]
+[094C]
+[OpenMidRight][LoadZinque][OpenMidLeft][LoadSoldier2]
+[OpenMidRight][ToggleSmile]What is going on out there?[A]
+Why is it taking so long to find a
+single member of the resistance?![A]
+[OpenMidLeft]It's the Lycian Army![A]
+They've joined the battle on
+behalf of the villagers...[A]
+[OpenMidRight]The Lycian Army?
+They would betray Etruria?![A]
+[OpenMidLeft]Also, milord, we have received
+a missive from Juteaux.[A]
+The Lycian Army is suspected
+of working with the bandits.[A]
+Lord Arcardo has given us orders
+to take them dead or alive.[A]
+[OpenMidRight][ToggleSmile]The Lycian Army has ties with bandits?
+Hah! The irony![A]
+That fool only wants to save face...[A]
+[OpenMidLeft][ToggleSmile]Excuse me, milord?[A]
+[OpenMidRight]This is not the mainland.
+The Isles are ruled by might.[A]
+[OpenMidLeft]I'm not quite sure
+I understand...[A]
+[OpenMidRight]Pay it no mind.[A]
+Was that all the message
+from Juteaux said?[A]
+[OpenMidLeft]There's more.[A]
+Lord Arcardo has provided
+us with reinforcements.[A]
+[OpenMidRight]What?![A]
+[OpenMidLeft]They should arrive soon.[A]
+[OpenMidRight]Confound it![A]
+We won't get credit for defeating Lycia
+if we're aided by reinforcements![A]
+We must wrap this up before they
+can join the fight...[A]
+Ah, I've an idea!
+Get me Scollan![A]
+[OpenMidLeft]Yes, milord.[A][ClearFace][......]
+[OpenLeft][LoadScollan]You called,
+Lord Zinque?[A]
+[OpenMidRight][CloseSpeechFast]Burn down the village.
+Kill any who resist.[A]
+[OpenLeft]...Can we take
+the loot?[A]
+[OpenMidRight][FastPrint]Do as you wish.
+Just do it quickly.[A]
+[OpenLeft][ToggleSmile]You can count on us, Lord Zinque.
+Heh heh heh...[A]
+[094D]
+[OpenMidRight][LoadScollan][FastPrint][ToggleSmile]Gonzalez!
+Where are you, Gonzalez?![A]
+[OpenMidLeft][LoadGonzalez]Here...
+I here...[A]
+[OpenMidRight]There's a village to the south.
+With me so far?[A]
+[OpenMidLeft][NormalPrint]With you so far.[A]
+[OpenMidRight][CloseSpeechFast]Good. It might be a base
+for the resistance.[A]
+Zinque says to burn it to the
+ground, village and all.[A]
+[OpenMidLeft][NormalPrint]Village and all...[A]
+[OpenMidRight][CloseSpeechFast]Good, you understand.
+Now get goin'![A]
+Don't screw this one up,
+you dimwit.[A]
+[OpenMidLeft][FastPrint]I...I...[A]
+[OpenMidRight]You got a problem? Does your head
+hurt from thinking too much?[A]
+[OpenMidLeft]N-no...[A][ClearFace][......]
+[OpenMidRight][CloseSpeechFast]Heh, he's ugly as sin,
+but he's got a heart of gold.[A]
+There's nothin' wrong with
+tearin' down a few houses.[A][Clear]
+Are we clear, wretches?
+No questions?[A]
+[OpenMidLeft][LoadBanditKid][NormalPrint]We got it, Boss![A]
+[094E]
+[OpenMidRight][LoadKlein][ToggleSmile]That's the
+Lycian Army...[A]
+[OpenMidLeft][LoadThea]They were assigned to fight
+against the bandits...[A]
+[OpenMidRight]I know.[A]
+But Lord Arcardo says they're
+allied with the bandits now.[A]
+Why they're doing exactly the opposite
+of their assignment is beyond me...[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Thea, take your soldiers and
+attack from the north.[A]
+I'll commence the attack
+from here.[A]
+[OpenMidLeft]Yes, sir.[A][ClearFace]
+[OpenMidRight]Thea!
+Hold on.[A]
+[OpenMidLeft][LoadThea]Yes, sir?[A]
+[OpenMidRight][ToggleSmile]I hear that you have
+siblings.[A]
+[OpenMidLeft]Yes, sir, I have two sisters.
+One older, one younger.[A]
+[OpenMidRight]Are they pegasus
+knights like you?[A]
+[OpenMidLeft]They are, actually.
+Why do you ask?[A]
+[OpenMidRight]I have a younger
+sister myself...[A]
+[OpenMidLeft]Any sister of yours
+must be enchanting.[A]
+[OpenMidRight][ToggleSmile]Yes, she is a sight.[A]
+I heard, however, she got tangled up
+in some mess and now she's missing...[A]
+[OpenMidLeft]What?
+Oh my...[A]
+[OpenMidRight]I have some people looking into it,
+but they've yet to find anything.[A]
+If I didn't have this mission,
+I would search for her myself...[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]Thea, be careful out there.
+For your family's sake.[A]
+[OpenMidLeft]Yes, sir.
+Thank you.[A]
+[094F]
+[OpenMidRight][LoadKlein][OpenMidLeft][LoadSoldier2]
+[OpenMidRight][ToggleSmile]Ready then? Let's move.[A]
+[OpenMidLeft]Sir, are you sure?[A]
+[OpenMidRight]Of what?[A]
+[OpenMidLeft]Lord Arcardo said Ilia's pegasus
+knights are expendable.[A]
+They should be fighting on the
+front line, not us.[A]
+Surely the lives of us Etrurian
+soldiers are more valuable.[A]
+[OpenMidRight]Don't be ridiculous.
+They are reliable companions.[A]
+We will attack at the same time...
+or before them, if need be.[A]
+Understood?[A]
+[OpenMidLeft]Yes, sir.[A][ClearFace]
+[OpenMidRight]...Lord Arcardo's story
+is curious, though...[A]
+The army from Lycia only
+arrived very recently.[A]
+How could they create ties with
+the bandits so quickly...?[A]
+[0950]
+[OpenMidLeft][LoadThea][OpenMidRight][LoadGenericPegasusKnight]
+[OpenMidLeft][ToggleSmile]Are you ready?
+We move southward![A]
+[OpenMidRight]Captain...
+Are you sure we'll be all right?[A]
+[OpenMidLeft]Is something wrong?[A]
+[OpenMidRight]The Etrurian army considers us disposable.
+They may send us to our doom...[A]
+[OpenMidLeft]Where did you hear that?[A]
+[OpenMidRight]One of the other riders was told so
+by someone in the Etrurian army.[A]
+[OpenMidLeft]Pay no mind to
+mere rumors.[A]
+[OpenMidRight]But...[A]
+[OpenMidLeft]I'm certain Commander Klein
+would never approve of that.[A]
+[OpenMidRight]Do you really think so?[A]
+[OpenMidLeft]Commander Klein's not like that.
+I trust him with my life.[A]
+[OpenMidRight]...Very well.[A]
+Then we'll trust him as well,
+for we trust you, Captain.[A]
+[OpenMidLeft]Good.
+Let's go![A]
+[0951]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadZinque][OpenMidLeft][ToggleSmile]Lord Zinque, reinforcements from
+Juteaux should arrive shortly.[A]
+[OpenMidRight]Blast![A]
+We have enough problems
+as it is...[A]
+The last thing I need is
+reinforcements stealing the credit![A]
+[0952]
+[OpenMidLeft][LoadSoldier2][OpenMidRight][LoadZinque][OpenMidLeft][ToggleSmile]Additional reinforcements
+will be arriving shortly![A]
+[OpenMidRight]I only hope they
+will suffice...[A]
+[0953]
+[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadLilina]
+[OpenMidRight][NormalPrint][ToggleSmile]Excuse me![A]
+[OpenMidLeft][FastPrint]W-what you doing?!
+I am enemy![A]
+[OpenMidRight][CloseSpeechFast]I know...[A]
+But there's such a look of
+sorrow in your eyes.[A]
+[OpenMidLeft]...There is village near
+mountain. You know?[A]
+[OpenMidRight][FastPrint]Yes, I know it.[A]
+[OpenMidLeft]Tell people escape.
+I have order. Destroy village.[A]
+I...[A]
+[OpenMidRight][CloseSpeechFast]What? Don't![A]
+The villagers
+are innocent...[A]
+[OpenMidLeft][FastPrint]No.
+It order. I must.[A]
+[OpenMidRight][CloseSpeechFast]It sounds to me like you should leave
+the person who gave you that order.[A]
+[OpenMidLeft]Leave?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Yes!
+You can fight with us.[A]
+We're protecting the villagers.[A]
+[OpenMidLeft][ToggleSmile]...No...
+I monster...[A]
+People mean to me...
+People throw stones...[A]
+People say, "Go away!"...
+"You a monster!"...[A]
+Not human...[A]
+[OpenMidRight]That's horrible!
+Of course you're human![A]
+You're a very kind-hearted man.
+I can tell.[A]
+Please, come with us.
+Don't be afraid.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Me afraid? I never afraid! Everyone
+afraid of ME! I not afraid![A]
+[OpenMidRight]No. You ARE afraid.[A]
+You're afraid that people will throw
+stones and call you a monster.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight]But you don't have to
+be afraid of us.[A]
+Everyone in our army is nice. They
+won't do that to you.[A]
+Be brave... Take that first step, and
+you'll never have to be afraid again.[A]
+[OpenMidLeft][ToggleMouthMove]......[A][ToggleMouthMove]
+[0954]
+[OpenMidLeft][LoadThea][OpenMidRight][LoadShanna][FastPrint][ToggleSmile]Th-Thea!
+Sister![A]
+[OpenMidLeft]Shanna...?[A]
+[OpenMidRight][CloseSpeechFast]What are you doing here?[A]
+[OpenMidLeft]...I have a contract with
+Commander Klein of Etruria.[A]
+Shanna...
+Are you with the Lycian Army?[A]
+[OpenMidRight][NormalPrint]Yes.[A]
+[OpenMidLeft][FastPrint]I see...
+Then this was inevitable.[A]
+Draw your lance![A]
+[OpenMidRight][MoveFarRight][CloseSpeechFast]No...
+I don't want to fight you![A]
+[OpenMidLeft]...Shanna, you know the code
+of the Ilian mercenaries.[A]
+[OpenFarRight]...Never betray your employer...[A]
+[OpenMidLeft]Precisely.[A]
+And we must follow that code, even if
+it means we must fight our own kin.[A]
+[OpenFarRight][MoveMidRight]But...one of us
+could be killed![A]
+[OpenMidLeft][MoveLeft]I know that!
+But we must fight![A]
+Failing to do so would damage the
+reputation of the Ilian mercenaries.[A]
+Our nation can't afford to lose
+its mercenary contracts![A]
+[OpenMidRight][FastPrint]Thea...[A]
+[OpenLeft][CloseSpeechFast]Now, draw
+your lance, Shanna![A][OpenMidRight][ClearFace][Clear][.......]
+[OpenLeft]...Why...[A]
+Why does it have to be
+like this...?[A]
+[0955]
+[OpenMidLeft][LoadThea][OpenMidRight][LoadShanna]
+[OpenMidRight][NormalPrint]Thea![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Shanna...
+Are you prepared to fight?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]No!
+We don't have to fight![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Of course we do.
+Must I repeat myself--[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Commander Klein said he
+would join us![A]
+We don't have to fight![A]
+[OpenMidLeft][NormalPrint][ToggleSmile]What?
+Really...?[A]
+You're...telling
+the truth?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Yes![A]
+To fight me would be
+breaking the code![A]
+[OpenMidLeft][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidRight][ToggleMouthMove][FastPrint][ToggleSmile]...Thea?[A]
+[OpenMidLeft][ToggleSmile]...I'm so relieved...[A]
+[OpenMidRight][ToggleSmile]Thea...[A]
+[OpenMidLeft][ToggleSmile]Thank goodness...
+I was so scared...[A]
+[OpenMidRight]We'll always be together,
+Sister...[A]
+[0956]
+[OpenMidLeft][LoadThea][OpenMidRight][LoadShanna][OpenMidRight][NormalPrint][ToggleSmile]Th-Thea!
+Sister![A]
+[OpenMidLeft][FastPrint]Shanna...?[A]
+[OpenMidRight]What are you doing here?[A]
+[OpenMidLeft]...I have a contract with
+Commander Klein of Etruria.[A]
+Shanna...
+Are you with the Lycian Army?[A]
+[OpenMidRight][NormalPrint]Yes.[A]
+[OpenMidLeft][FastPrint]I see...
+Then this was inevitable.[A]
+Draw your lance![A]
+[OpenMidRight][CloseSpeechFast]No, Commander Klein said
+[ToggleSmile]he would join us![A]
+[OpenMidRight][CloseSpeechFast]We don't have to fight![A]
+[OpenMidLeft][NormalPrint][ToggleSmile]What? Really?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Yes![A]
+[OpenMidLeft]...That's a relief.
+Then I will join you as well.[A]
+[OpenMidRight]Thanks, Sister![A]
+[0957]
+[OpenMidLeft][LoadRoy][OpenMidRight][LoadKlein]
+[OpenMidLeft][ToggleSmile]Wait![A]
+Aren't you an Etrurian commander?
+Why are you attacking us?![A]
+[OpenMidRight]I have specific orders from
+Lord Arcardo to take you down.[A]
+[OpenMidLeft]Can't you see what's happening here?[A]
+The people are suffering from
+the lords' abusive treatment![A]
+And you're helping them.
+You should be ashamed![A]
+[OpenMidRight]...Wait.[A]
+Are you saying that you're
+helping the villagers?[A]
+[OpenMidLeft]Yes.[A]
+The lord here is ransacking the
+village in search of the resistance.[A]
+We're fighting to stop him.[A]
+And you're apparently
+on his side.[A]
+[OpenMidRight]I had no such intention.[A]
+My orders stated that you were the
+ones working with the bandits.[A]
+[OpenMidLeft]What?![A]
+Why would we be working
+with bandits?[A]
+We just want to clean things up
+here and get home to Lycia![A]
+[OpenMidRight]...Such nerve.[A]
+[OpenMidLeft]What?![A]
+[OpenMidRight]Lord Arcardo has made a fool of me.[A]
+I have been so blind not to see
+through his thin veil of deceit.[A]
+[OpenMidLeft][ToggleSmile]...Do you see what
+we see now?[A]
+[OpenMidRight]I am Klein of House Reglay
+of Etruria.[A]
+Forgive me for my misguided
+attack against you.[A]
+[OpenMidLeft]I am General Roy of
+the Lycian Army.[A]
+[OpenMidRight]General Roy, I would advise you
+to be cautious.[A]
+You are against Lord Arcardo.[A]
+He will have every pawn at his disposal
+after your head.[A]
+[OpenMidLeft]Thank you for
+the advice...[A]
+[OpenMidRight]If you would allow it,
+I will join you.[A]
+[OpenMidLeft]You will?[A]
+[OpenMidRight]Yes. I wish to monitor you
+as an Etrurian commander.[A]
+I should prove useful as
+both a fighter and a diplomat.[A]
+[OpenMidLeft]Thank you.[A]
+[0958]
+[OpenMidLeft][LoadClarine][OpenMidRight][LoadKlein]
+[OpenMidLeft]Klein![A]
+[OpenMidRight]Clarine?
+You are safe![A]
+[OpenMidLeft]I'm sorry I left
+like I did.[A]
+But I wanted so badly
+to see you![A]
+[OpenMidRight][ToggleSmile]Oh, the trouble
+you get into...[A]
+Well, you're safe, and that's
+what matters.[A]
+[ToggleSmile]...What brings you out here?[A]
+Did you find a trustworthy
+mercenary for hire?[A]
+[OpenMidLeft][ToggleSmile]No, I joined the Lycian Army.[A]
+[OpenMidRight][ToggleSmile]The Lycian Army?![A]
+[OpenMidLeft][ToggleSmile]Yes![A]
+My healing staves
+have been most useful![A]
+[OpenMidRight]...I see.[A]
+I thought your eyes looked...
+sharper.[A]
+[OpenMidLeft]I'm a lady now, I am.[A]
+[OpenMidRight][ToggleSmile]...Let me ask you this.[A]
+What kind of individual
+is General Roy?[A]
+[OpenMidLeft][ToggleSmile]Hmm... He's a tad rough around
+the edges for a noble...[A]
+His hair especially is an
+absolute mess...[A]
+[OpenMidRight]...Let me rephrase that.[A]
+[ToggleSmile]Is General Roy working
+with the bandits?[A]
+[OpenMidLeft][MoveMidLeft]No, of course not! We've been
+sent here to vanquish the bandits![A]
+[OpenMidRight]So I heard...[A]
+[OpenMidLeft]The Etrurians here are
+malicious people...[A]
+It is so embarrassing.[A]
+Klein...
+Are you working for them?[A]
+[OpenMidRight]No. Not anymore.[A]
+[OpenMidLeft]What?[A]
+[OpenMidRight]I was sent here to protect
+the villagers.[A]
+I hereby join the Lycian Army to
+fulfill my mission.[A]
+[OpenMidLeft][ToggleSmile]Thank you, Klein![A]
+[OpenMidRight]Shall we, then?
+Will you introduce me to General Roy?[A]
+[OpenMidLeft][MoveLeft]Naturally!
+I love you, Klein.[A]
+[0959]
+[OpenMidLeft][LoadKlein][OpenMidRight][LoadThea]
+[OpenMidLeft]Thea![A]
+[OpenMidRight][ToggleSmile]Commander Klein!
+What is the matter?[A]
+[OpenMidLeft]There's been a change of plans.[A]
+We are going to fight under
+General Roy of the Lycian Army.[A]
+[OpenMidRight]Understood, sir. We shall
+follow you without question.[A]
+[OpenMidLeft]I don't mind a question here
+or there, to be frank.[A]
+[OpenMidRight]We are Ilian
+mercenaries, sir.[A]
+We follow our employer's
+every order.[A]
+And besides...[A]
+[OpenMidLeft]Yes?[A]
+[OpenMidRight][ToggleSmile]I trust you to make
+proper judgments.[A]
+[OpenMidLeft]Thank you, Thea.[A]
+[095A]
+[OpenMidLeft][LoadClarine][OpenMidRight][LoadKlein]
+[OpenMidLeft]Klein![A]
+[OpenMidRight]Clarine?[A]
+You are safe![A]
+[OpenMidLeft]I'm sorry I left
+like I did.[A]
+But I wanted so badly
+to see you!.[A]
+[OpenMidRight][ToggleSmile]Oh, the trouble you get into...[A]
+Well, you're safe, and that's
+what matters.[A]
+[ToggleSmile]...What brings you out here?[A]
+Did you find a trustworthy
+mercenary for hire?[A]
+[OpenMidLeft][ToggleSmile]No, I joined the Lycian Army.[A]
+[OpenMidRight][ToggleSmile]The Lycian Army?![A]
+[OpenMidLeft][ToggleSmile]Yes![A]
+[OpenMidRight][ToggleSmile]Well...I'm sure you've been
+through much with them.[A]
+[OpenMidLeft][ToggleSmile]I'm a lady now,
+I am.[A]
+[095B]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
+[ToggleSmile]...The resistance suffered a
+crippling defeat here.[A]
+Here, take this. I'm going to
+look for other survivors.[A]
+There is still hope if we
+can find our leader.[A]
+[095C]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
+[ToggleSmile]I hate the resistance![A]
+We civilians have to deal with the
+consequences of their actions.[A]
+You know we stand no chance if
+we try to stand up to our lord.[A]
+We just want to lead a normal life.[A][Clear]
+[OpenMidRight]Oh...I'm sorry.
+I'm just frustrated.[A]
+I have no useful skills so I can't
+help you...but take this...[A]
+[095D]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
+[ToggleSmile]I wonder how Mary's doing...[A]
+Her brother and his friend are both
+traveling, trying to make money.[A]
+It's too dangerous to go outside now...
+Can you go check on her?[A]
+Here, I'll give you this for
+your trouble...[A]
+[095E]
+[OpenMidLeft][LoadWard][OpenMidRight][LoadVillager1]
+[OpenMidRight][NormalPrint]Ward![A]
+[OpenMidLeft][FastPrint]Sis!
+It's good to see you.[A]
+[OpenMidRight]You've returned?[A]
+[OpenMidLeft][ToggleSmile]Well, not exactly...
+We're here on a mission...[A]
+[OpenMidRight]...You're never coming
+back, are you?[A]
+[OpenMidLeft][CloseSpeechFast]No! Of course I will!
+...Just not yet.[A]
+Just you wait. When I come back I'll
+have more money than I can carry.[A]
+Then all our problems will be a
+thing of the past.[A]
+[OpenMidRight][ToggleSmile]I don't care about that...
+I just want you safe.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]Sis...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]I know how brash and hotheaded you
+can be, but always remember...[A]
+There are people who care
+about you.[A]
+[OpenMidLeft][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidRight][ToggleMouthMove][FastPrint]Here, take this.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]What is it?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]It's a special weapon.[A]
+I nursed a traveler back to health,
+and he left it in return.[A]
+You can use it, can't you?[A]
+[OpenMidLeft]Thanks, Sis!
+I've gotta go now.[A]
+[OpenMidRight][FastPrint]Just be careful...[A]
+[095F]
+[OpenMidLeft][LoadLot][OpenMidRight][LoadVillager1]
+[OpenMidLeft][NormalPrint][ToggleSmile]Mary...[A]
+[OpenMidRight][FastPrint][ToggleSmile]Lot!
+You've returned?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]No...
+We just happened to be nearby.[A]
+[OpenMidRight][FastPrint]Oh... Mieu won't
+be happy about that.[A]
+[OpenMidLeft][CloseSpeechFast]I've made you take care of Mieu
+ever since our mother died.[A]
+I'm sorry to force
+that burden on you.[A]
+[OpenMidRight][FastPrint]It's not your fault...[A]
+[OpenMidLeft][NormalPrint]Someday...I swear...
+I swear I'll return.[A]
+...Can I leave Mieu to
+you until then?[A]
+[OpenMidRight]...You swear it?[A]
+[OpenMidLeft]...Yes.[A]
+[OpenMidRight][CloseSpeechFast]Don't lie like that... This is war.
+You don't know if you'll come back.[A]
+[OpenMidLeft][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidRight][ToggleMouthMove][FastPrint][ToggleSmile]But I'll be waiting...
+Until eternity.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]I'm sorry.[A]
+[OpenMidRight][FastPrint][ToggleSmile]Oh, you should
+take this.[A]
+[OpenMidLeft][NormalPrint][ToggleSmile]What is it?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]It's a special weapon.[A]
+It will help you
+keep your promise.[A]
+[OpenMidLeft][FastPrint]I appreciate it.
+Now...I must be off again.[A]
+[OpenMidRight][ToggleSmile]Be careful...[A]
+[0960]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1][ToggleSmile]Have you seen my brother?[A]
+His name is Ward,
+and he's a mercenary...[A]
+Have you at least
+heard of him?[A]
+Well, take this for
+your trouble.[A]
+[0961]
+[OpenMidLeft][LoadWard][OpenMidRight][LoadVillager2]
+[OpenMidRight][FastPrint]It's Ward![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Hey, Mieu![A]
+...Come on, can't you call me
+UNCLE Ward?[A]
+[OpenMidRight][ToggleSmile]But...you're just Ward.[A]
+[OpenMidLeft][FastPrint]Ah, never mind.[A]
+You look like you've
+gotten bigger.[A]
+[OpenMidRight]Yeah![A]
+[OpenMidLeft][ToggleSmile]...It's dangerous here.
+Go hide in the hills.[A]
+[OpenMidRight]...Alone?[A]
+[OpenMidLeft]My sister's still here, right?
+She'll take you.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Yeah, Auntie Mary's here.[A]
+[OpenMidLeft][ToggleSmile]So she's Auntie Mary but
+I'm just Ward, huh?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]Oh.
+Here you go.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]What's this?
+A wing?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]It'll make you
+like a bird![A]
+[OpenMidLeft][FastPrint][ToggleSmile]Like a bird?
+What's that mean?[A]
+[OpenMidRight][ToggleSmile]Like a bird. You know.[A]
+[OpenMidLeft][CloseSpeechFast]No, I don't know.[ToggleSmile][A]
+But, uh, anyway,
+this is for me?[A]
+[OpenMidRight][ToggleSmile]No, it's for
+Big Brother Lot.[A]
+[OpenMidLeft][FastPrint][ToggleSmile]And Lot is Big Brother Lot...
+Have you got it out for me?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Ha ha ha! I'll go see Mary.
+Here's the wing.[A]
+Give it to Lot, OK,
+Uncle Ward?[A][ClearFace]
+[OpenMidLeft]And NOW she calls
+me Uncle...[A][Clear]
+[ToggleSmile]Whoa, are you OK?!
+Don't trip...[A]
+[0962]
+[OpenMidLeft][LoadLot][OpenMidRight][LoadVillager2]
+[OpenMidRight]Brother! You're home![A]
+[OpenMidLeft][FastPrint]Mieu!
+Have you been a good girl?[A]
+[OpenMidRight]Yes, I was good!
+I didn't even wet my bed![A]
+[OpenMidLeft]That's my girl.[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Lot...
+While you were away, Mother...[A]
+[OpenMidLeft]Yeah, I know...
+She went to sleep...[A]
+[OpenMidRight]Here...
+Mother left this for you.[A]
+She said you might
+find a use for it.[A]
+[OpenMidLeft][NormalPrint][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidRight][CloseSpeechFast]Brother...[A]
+You won't leave me,
+will you?[A]
+You won't go to sleep
+like Mother...?[A]
+[OpenMidLeft][ToggleSmile]Of course not![A]
+In fact, next time you see me I'll
+have a whole wagon of presents.[A]
+Just listen to Mary and
+stay good, all right?[A]
+[OpenMidRight][NormalPrint]OK![A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]Go hide in the hills with Mary.
+It's dangerous here.[A]
+[OpenMidRight][FastPrint]I will...
+[ToggleSmile]And Lot?[A]
+[OpenMidLeft][NormalPrint]Yeah?[A]
+[OpenMidRight][FastPrint]You promised![A]
+Don't leave me![A]
+[OpenMidLeft]I won't...[A][Clear][OpenMidRight][ClearFace][.....]
+[OpenMidLeft]At least, I hope
+I won't...[A]
+[0963]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2]Lot?[A]
+[ToggleSmile]...Oh.
+I'm sorry...[A]
+Take this.[A]
+[0964]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]Ah, our heroes![A]
+I thank you on behalf
+of the village.[A]
+This is made from the
+scale of a dragon.[A]
+It's said it will protect the
+one who uses it from harm.[A]
+Please, take it.[A]
+[0965]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]A few months ago, my
+granddaughter went missing.[A]
+We all searched in the
+mountains and found her.[A]
+She was with a hulking monster of a man, so
+we threw stones at him to drive him off...[A]
+Afterwards my granddaughter told me that
+he was the one who led her to the village.[A]
+...If you ever find that man,
+would you give him this?[A]
+It's a special axe that's effective
+against swords.[A]
+And...[......]tell him I'm sorry.[A]
+[0966]
+[LoadZinque]The people are suffering...?[.....]
+What concern is that to me?[A]
+They live to serve me.
+Their wails are meaningless.[A]
+[0967]
+[LoadZinque]
+[ToggleSmile]This is my land...
+Mine alone...[A][Clear]
+None...shall...[A]
+[0968]
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
+[OpenMidLeft][ToggleSmile]Lord Roy, there is a young man claiming
+to be with the resistance here.[A]
+[OpenMidRight][ToggleSmile]I'll see him.
+Let him pass.[A][OpenMidLeft][ClearFace]
+[OpenFarLeft][LoadElffin]I am pleased to meet you.
+My name is Elffin.[A]
+I am a member of the
+resistance force.[A]
+[OpenMidRight]I am Roy of the
+Lycian Army.[A]
+[OpenFarLeft]You have my thanks for
+saving the village here.[A]
+[OpenMidRight]We simply did what
+we believe is right.[A]
+[OpenFarLeft][ToggleSmile]But now you stand
+against Etruria.[A]
+[OpenMidRight]Even so, I have
+no regrets.[A]
+We may have opposed Etruria's
+immediate interests,[A]
+but once the truth about the Isles is
+out, I'm certain they will understand.[A]
+I sent a letter to a trustworthy
+Etrurian noble.[A]
+If she takes appropriate measures,
+they will send us aid.[A]
+[OpenFarLeft]I would not
+be so sure...[A]
+[OpenMidRight]Why is that?[A]
+[OpenFarLeft]Don't you find it odd that Etruria
+requested your help here at all?[A]
+[OpenMidRight]Actually...yes, I do.[A]
+[OpenFarLeft]If I may be so bold as to guess...[A]
+Was it High Chancellor Roartz and
+Lord Arcardo who requested your help?[A]
+[OpenMidRight]...It was.[A]
+[OpenFarLeft]There may have been ulterior motives for
+sending your army away.[A]
+Perhaps your presence in Lycia was
+undesirable to them.[A]
+[OpenMidRight]I never even
+considered that...[A]
+[OpenFarLeft]There are rumors...that Roartz and
+Arcardo are working with Bern.[A]
+[0969]
+[OpenMidLeft][LoadVillager1][OpenMidRight][LoadRoy]
+[OpenMidLeft][CloseSpeechFast]Are you the leader
+of this army?[A]
+[OpenMidRight][FastPrint][ToggleSmile]Yes, I am.[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I wish to thank you for
+protecting our village.[A]
+[OpenMidRight]There is no thanks necessary...
+We did what we believe is right.[A]
+[OpenMidLeft]Regardless, I want you to have this
+as a token of our gratitude.[A]
+[096A]
+[OpenMidLeft][LoadSoldier7][OpenMidRight][LoadKlein]
+[OpenMidLeft]Commander Klein, we will stay and help
+with reconstruction as directed.[A]
+[OpenMidRight]Good. These people
+need you.[A]
+[OpenMidLeft]Would that we could
+fight at your side.[A]
+Here is the bolt we
+were holding for you.[A]
+You may need it more
+than we do.[A]
+Farewell and good luck,
+Commander Klein.[A]
+[OpenMidRight]Thank you.
+Good luck to you as well.[A]
+[096B]
+[OpenMidRight][LoadThea][OpenMidLeft][LoadGenericPegasusKnight]
+Captain![A]
+We will return to Ilia
+to make our report.[A]
+[OpenMidRight]Very good.
+Thank you for your service.[A]
+[OpenMidLeft]Oh, and take this...[A]
+Your sister gave it to me
+before we left.[A]
+Please be careful...[A]
+[OpenMidRight]Thank you.
+You too.[A]

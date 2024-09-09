@@ -1,0 +1,713 @@
+[0156]
+[OpenMidLeft][LoadNarcian][ToggleSmile]
+Curses! A thousand curses...!
+The Lycian Army still stands![A]
+How have they come so far?![A]
+[OpenRight][LoadSoldier2]G-General Narcian...[A]
+Head Wyvern General Murdock
+is here![A]
+[OpenMidLeft]He is?![A]
+Th-then posthaste!
+Send an escort![A]
+Ensure he receives
+every hospitality...[A]
+[OpenRight]He is already here...[A]
+[OpenFarRight][LoadMurdock]Yes. Enough.
+Step aside.[OpenRight][ClearFace][A]
+[OpenMidLeft][ToggleSmile]S-Sir Murdock...
+What a pleasant surprise![A]
+What brings you all the
+way from Ilia?[A]
+[OpenFarRight][MoveMidRight][ToggleSmile]
+Enough of your squirrelly
+pleasantries, Narcian.[A]
+I want an explanation for
+this embarrassment.[A]
+[OpenMidLeft][MoveFarLeft][NormalPrint][ToggleSmile]I-I'm sorry, Sir Murdock...[A]
+I don't believe I understand...[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]
+Then allow me to explain.
+Princess Guinivere has escaped yet again.[A]
+Flaer, your lieutenant, has failed
+in the Western Isles and is dead.[A]
+And finally, perhaps most
+egregious of all,[A]
+you have neglected your mission to
+capture the village in Nabata,[A]
+despite specific orders directly
+from King Zephiel's mouth![A][Clear]
+This is inexcusable, Narcian!
+Explain yourself![A]
+[OpenFarLeft][FastPrint]Oh, th-that...[A]
+Well, you see, there have been many
+complications, so I took it upon myself to--[A]
+[OpenMidRight]Hold your tongue.
+That's enough.[A]
+I've orders from the king.[A]
+I am to revoke your title
+of Wyvern General.[A]
+[OpenFarLeft]What?![A]
+[OpenMidRight]You are to be
+replaced by Galle.[A]
+[OpenFarLeft][MoveMidLeft]Sir Murdock!
+Please wait![A]
+Allow me one more chance!![A]
+[OpenMidRight]...The Lycian Army
+approaches fast.[A]
+Show your worth and
+stop them in their tracks.[A]
+If you succeed, perhaps the
+king will reconsider.[A]
+[OpenMidLeft]Sir Murdock...[A]
+[OpenMidRight][FastPrint]Narcian...[A]
+Don't fail the king,[....]
+or me,[....] again.[A]
+[0157]
+[OpenFarRight][LoadNarcian][ToggleSmile]Balderdash!
+A demotion?![A]
+And I'm to be replaced by Galle
+of all people...![A]
+Never!
+I will not allow it![A]
+B-but what is left for
+me to do...? No...![A]
+My status and reputation...
+Everything is crumbling down![A]
+[OpenFarLeft][LoadSoldier2][FastPrint]General Narcian,
+the enemy draws near...[A]
+[OpenFarRight][MoveMidRight][FastPrint]Silence!
+I know that already.[A]
+[CloseSpeechFast][ToggleSmile]...Wait.[A]
+Melady's younger brother is
+stationed in this castle...[A]
+And Melady's the one who
+helped the princess escape![A]
+Ah-ha![A]
+I can say he was leaking information
+to the enemy! What a flawless plan![A]
+[ToggleMouthMove]Hm hm hm hm...[ToggleMouthMove][A]
+[OpenFarLeft][FastPrint][ToggleSmile]I'm sorry, General Narcian...
+What was that?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]Hm?[A]
+Oh. You know Melady's
+younger brother, don't you?[A]
+[OpenFarLeft][FastPrint][ToggleSmile]You mean Sir Zeiss?[A]
+[OpenMidRight][CloseSpeechFast][ToggleSmile]That's him. Zeiss.[A]
+[ToggleSmile]I have reason to suspect he's leaking
+information to the Lycian Army.[A]
+Bring him here.[A]
+[OpenFarLeft][FastPrint]What?![A]
+I can't believe that Sir Zeiss
+would ever do such a thing...[A]
+[OpenMidRight][MoveRight][CloseSpeechFast]Yes, yes, it's shocking! I know!
+Now shut your trap![A]
+Do as you're told and
+bring him before me![A]
+[0158]
+[OpenMidLeft][LoadYoder][OpenMidRight][LoadRoy][OpenMidLeft][ToggleSmile]This is Castle Aquileia, Lord Roy.[A]
+Our information says that the
+revolutionaries are stationed inside.[A]
+[OpenMidRight]I thank you for your help,
+Father Yoder.[A]
+Thanks to the church, we were able
+to avoid a battle in the city.[A]
+[OpenMidLeft]No, it is I who must
+thank you.[A]
+The church has been persecuted
+by the revolutionaries.[A]
+Were it not for you, we would have
+been forced out already.[A]
+[OpenMidRight]Persecuted?
+Why?[A]
+[OpenMidLeft]I can only presume it is because of our
+investigation into Bern's dragons.[A]
+Before she ascended to heaven, our founder,
+Saint Elimine, said these words:[A]
+"Allow not dragons to return to this realm,
+for that would bring suffering to many."[A]
+That's why we must do everything we can
+to send the dragons back to their world.[A]
+[OpenMidRight]...The revolutionaries are with Bern, so that
+explains the persecution of the church.[A]
+[OpenMidLeft]Indeed.[A]
+[CloseSpeechFast]We have discovered something
+interesting as well.[A]
+The return of the dragons is tied to the
+Fire Emblem, Bern's greatest treasure.[A]
+We don't yet know how, so that's why I
+sent Saul and Dorothy to investigate.[A]
+[OpenMidRight]Hmm.[A]
+[OpenMidLeft]Lord Roy, you must stop
+the revolutionaries.[A]
+If you would allow me to give
+you one more piece of advice,[A][SendToBack]
+try talking to some of the troops.[A]
+I'm certain many of them were forced
+into the army against their will.[A]
+[OpenMidRight]Of course.
+Thank you again.[A]
+[OpenMidLeft]Saint Elimine's blessings upon you,
+Lord Roy.[A]
+[0159]
+[OpenRight][LoadArcardo][MoveRight][ToggleSmile]Th-the enemy is
+at our doorstep![A]
+[OpenLeft][LoadRoartz]Oh... What can we do?[A]
+If we're captured, we will
+be tried as traitors![A]
+[OpenRight][ClearFace][OpenLeft][ClearFace]
+[OpenFarRight][LoadDouglas][ToggleMouthMove][NormalPrint]......[A][ClearFace]
+[OpenLeft][LoadRoartz][OpenRight][LoadArcardo]
+[OpenLeft][MoveLeft][ToggleMouthMove][CloseSpeechFast]...Arcardo! This is all your fault![A]
+If you had eliminated the Lycian Army at
+the Isles as you were supposed to...[A]
+[OpenRight][MoveRight]B-but Lord Roartz...!
+...No![A]
+This is neither the time nor
+place to argue, my lord![A]
+We must make our
+escape quickly![A]
+[OpenLeft][FastPrint]But escape to where...?[A]
+[OpenRight][MoveRight]...Let us turn to Bern![A]
+This plot originated from
+them to begin with...[A]
+[OpenLeft][CloseSpeechFast]Yes, of course![A]
+We have proven
+ourselves useful.[A]
+They're sure to offer us
+suitable positions.[A]
+[OpenRight][ClearFace][OpenFarRight][LoadDouglas][FastPrint]...And what do you intend
+to do with the king?[A]
+[OpenLeft][CloseSpeechFast]Er... Well, Bern will probably see
+that no harm comes to him.[A]
+King Zephiel's mother was
+Etrurian, after all.[A]
+Douglas, I suggest
+you flee as well...[A]
+[OpenFarRight]And I suggest you shut your mouth.[A]
+I only fought alongside you because
+King Mordred's life was at stake.[A]
+I do not intend to go along with
+your scheme to the end.[A]
+[OpenLeft][MoveLeft][FastPrint]Hmph! Unbending as always.
+Suit yourself.[A]
+Arcardo, we escape now![A]
+[ClearFace]
+[OpenRight][LoadArcardo]Lord Roartz!
+Wait for me...[A][ClearFace][......]
+[015A]
+[OpenFarRight][LoadDouglas][ToggleSmile]...Dirty traitors![A]
+[ToggleSmile]Fleeing with their tails
+between their legs...[A]
+[ToggleSmile]I can't imagine it took much for
+Bern to seduce them.[A]
+They'll meet their end at the hands
+of the Lycian Army before long...[A][Clear]
+When Prince Myrddin returns...
+Etruria will be whole again.[A]
+But until then...I shall continue
+to fight for the king.[A]
+My loyalty and honor as Great General
+depend upon it![A]
+[015B]
+
+[015C]
+[OpenMidRight][LoadGalle][ToggleSmile]Zeiss.
+Where are you?[A]
+[015D]
+[OpenMidRight][LoadGalle][OpenMidLeft][LoadZeiss][CloseSpeechFast]I'm here, Sir Galle.
+Is something wrong?[A]
+Why did you summon me?[A]
+[OpenMidRight][ToggleSmile]Zeiss, you must hide.[A]
+[OpenMidLeft]...What do you mean?
+The enemy is before us![A]
+[OpenMidRight]Listen to me.[A]
+General Narcian has given the order
+for you to be taken prisoner.[A]
+[OpenMidLeft][FastPrint]What?![A]
+Does he think that
+I have betrayed Bern?![A]
+[OpenMidRight][CloseSpeechFast]He needs a scapegoat for
+his failures.[A]
+He says that you worked with Melady
+to leak information to the enemy.[A]
+[OpenMidLeft]With my sister?
+I don't even know where she is.[A]
+[OpenMidRight][FastPrint]Melady has apparently joined the
+Lycian Army alongside the princess.[A]
+[OpenMidLeft][CloseSpeechFast]Melady turned to the enemy?!
+I don't believe it for a second...[A]
+[OpenMidRight]Ask her yourself.
+She is apparently here.[A]
+Would that I could go with you,[A]
+but General Murdock ordered me to
+observe the outcome of the battle.[A]
+Zeiss, get out while you still can.
+Talk to Melady.[A]
+[OpenMidLeft][FastPrint]Sir Galle!
+I...[A]
+[OpenMidRight][CloseSpeechFast]I will not make a move until
+I hear Melady's story.[A][ClearFace]
+[015E]
+[OpenMidLeft][LoadZeiss][ToggleMouthMove][NormalPrint]......[A]
+[015F]
+[OpenMidRight][LoadHugh][ToggleSmile]The Etrurian nobles have fled?
+Are you kidding me?[A]
+What about my money?
+I haven't been paid yet![A]
+[0160]
+[OpenMidRight][LoadCath]
+I can hear the riches calling
+to me! "Cath! Take us!"[A]
+This is the most extravagant
+palace in Elibe...[A]
+I bet the treasure's nothing to
+sneeze at, either.[A]
+It was all taken from people like me
+anyway, so I'm just reclaiming it![A]
+[0161]
+[OpenMidLeft][LoadHugh][OpenMidRight][LoadRoy]
+[OpenMidLeft]Hey, fella![A]
+You lead the army that's
+attacking the castle, right?[A]
+Do you have any need of
+an extra mage?[A]
+[OpenMidRight][ToggleSmile]Huh? Well, I guess we could
+always use more...[A]
+[OpenMidLeft][ToggleSmile]You don't say!
+Then today is your lucky day.[A]
+Here's a mage for hire.
+How about it?[A]
+[OpenMidRight][NormalPrint][ToggleSmile]You know a mage?
+Where is he?[A]
+[OpenMidLeft][MoveLeft][FastPrint][ToggleSmile]Er, I was talking
+about myself, buddy![A]
+[OpenMidRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenLeft][ToggleMouthMove][FastPrint]Hey, don't look at
+me like that![A]
+I'm no slouch with
+a spell tome.[A]
+I'm all yours for
+10,000 gold![A]
+[OpenMidRight][ToggleSmile]10,000?!
+That seems pretty steep...[A]
+[OpenLeft][ToggleSmile]Come on, you're breakin'
+my heart here![A]
+I need the money for
+my nana...[A]
+[OpenMidRight][ToggleSmile]What?[A]
+Is your grandmother sick
+or something?[A]
+[OpenLeft][MoveMidLeft][CloseSpeechFast][ToggleSmile]Er... Y-yeah! That's it.
+Sick is a good way to describe her...[A]
+Anyway, I need the cash.
+Come on, pal![A]
+[0162]
+[OpenMidLeft][LoadHugh][OpenMidRight][LoadRoy]
+[FastPrint][ToggleSmile]If your grandmother's sick, then I suppose
+it's a worthy cause for the money...[A]
+[0163]
+[OpenMidLeft][LoadHugh][OpenMidRight][LoadRoy]
+[ToggleSmile]Well...
+[Yes]
+[0164]
+[OpenMidLeft][LoadHugh][OpenMidRight][LoadRoy]
+[OpenMidRight][MoveRight][ToggleSmile]If your grandmother's sick, then I suppose
+it's a worthy cause for the money...[A]
+[OpenMidLeft]You betcha! She's so sick
+you don't even know.[A]
+She always gets these headaches
+on her back...[A]
+[OpenRight][FastPrint]Huh?
+Headaches on her back?[A]
+[OpenMidLeft][MoveFarLeft][ToggleSmile]Uh, y-you know what I mean.[A]
+That's just one of her many symptoms,
+each worse than the last...[A][Clear]
+...OK, all the money seems
+to be here.[A]
+You won't regret this.
+I know what I'm doing![A]
+[ClearFace][OpenRight][ToggleMouthMove][NormalPrint]......[A]
+[0165]
+[OpenMidLeft][LoadHugh][OpenMidRight][LoadRoy]
+[ToggleSmile]I'm sorry, but I can't justify paying
+10,000 gold for a single mage.[A]
+[OpenMidLeft][FastPrint]What?![A]
+[OpenMidLeft][MoveLeft][CloseSpeechFast]...W-well, I guess I can take
+it down to 8,000...[A]
+[OpenMidRight][NormalPrint]Hm...[A]
+[OpenLeft][MoveLeft][FastPrint][ToggleSmile]Come on, please?[A]
+[0166]
+[OpenLeft][LoadHugh][OpenMidRight][LoadRoy][OpenMidRight][FastPrint][ToggleSmile]I'm sorry, but...[A]
+[OpenLeft][CloseSpeechFast]S-still no good?[A]
+Uh... Well, I guess
+6,000 will do...[A]
+[OpenMidRight][NormalPrint]Er...[A]
+[OpenLeft][MoveLeft][FastPrint]Please. I really
+need the money...[A]
+[0167]
+[OpenLeft][LoadHugh][OpenMidRight][LoadRoy]
+[OpenMidRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenLeft][CloseSpeechFast][ToggleSmile]......[A]
+[ToggleMouthMove][MoveLeft]All right, all right!
+Now I'm desperate...[A]
+5,000! That's my final offer![A]
+[OpenMidRight][ToggleMouthMove][NormalPrint].........[A]
+[OpenLeft][MoveLeft][ToggleMouthMove][FastPrint]Come on, I'm begging you!
+Please hire me![A]
+[0168]
+[OpenLeft][LoadHugh][OpenMidRight][LoadRoy]
+[OpenMidRight][MoveFarRight][ToggleSmile]I'm sorry.[A]
+[OpenLeft][FastPrint]
+...Please... I swear
+I'll be useful...[A]
+[OpenFarRight][CloseSpeechFast]The money isn't mine to spend.[A]
+I can't use so much of
+it in one place.[A]
+[OpenLeft]Argh! I give up! Fine!
+Have it your way.[A]
+[OpenLeft][MoveMidLeft]I don't want to work for
+you anyway... Ha![A]
+You're a nobody! You don't even
+know a steal when you see one![A][ClearFace]
+[OpenFarRight][ToggleMouthMove][NormalPrint]......[A]
+[0169]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadCecilia]
+[OpenMidLeft][NormalPrint][ToggleSmile]Cecilia.[A]
+[OpenMidRight][CloseSpeechFast]Sir Douglas...[A]
+Why is someone of your stature
+fighting for the revolutionaries...?[A]
+[OpenMidLeft][FastPrint]The king's safety takes
+priority over all.[A]
+There is nothing more to
+it than that.[A]
+[OpenMidRight][CloseSpeechFast]If this continues, Etruria will
+become a mere puppet of Bern![A]
+The king must have dominion over
+this nation for us to serve him.[A]
+The path you are on will only
+lead to Etruria's destruction![A]
+[OpenMidLeft]If the nation is doomed to
+collapse, then so be it.[A]
+But I will ensure the
+king's safety![A]
+[OpenMidRight]What...?![A]
+Our loyalty is to our people,
+to our nation![A]
+The Etrurian Army exists for
+the people.[A]
+The soldiers are not the king's
+personal bodyguards![A]
+[OpenMidLeft][ToggleMouthMove]......[A]
+[ToggleMouthMove]Perhaps you are right,
+but I will not waver.[A]
+Cecilia, you must follow your
+beliefs, as I must follow mine.[A]
+[016A]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadKlein]
+[OpenMidRight][FastPrint][ToggleSmile]General Douglas...[A]
+[OpenMidLeft]Klein. I have known you
+since you were but a child.[A]
+I never expected to fight
+you like this.[A]
+[OpenMidRight][CloseSpeechFast]General Douglas,
+please reconsider![A]
+You are the Great General, the
+highest rank in the Etrurian Army![A]
+How can you align yourself with
+these traitors...?![A]
+[OpenMidLeft]...Klein.
+I am a soldier.[A]
+[OpenMidRight][NormalPrint]What...?[A]
+[OpenMidLeft][CloseSpeechFast]Our king's life is at Bern's mercy.[A]
+I cannot cast away my loyalty
+and turn to the enemy.[A]
+[OpenMidRight][NormalPrint]But...[A]
+[OpenMidLeft][CloseSpeechFast]...There are those who toss away
+their honor for riches and power.[A]
+I will not do the same. My loyalty
+to the king will never falter.[A]
+[OpenMidRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidLeft][ToggleMouthMove][CloseSpeechFast]I am an old man, and
+my time has come.[A]
+The Etrurian Army belongs to
+your generation now.[A]
+I only ask that you lead it
+in a way I would be proud.[A]
+[OpenMidRight][FastPrint]General Douglas...[A]
+[OpenMidLeft][CloseSpeechFast]...Go.[A]
+[016B]
+[OpenMidLeft][LoadZeiss][OpenMidRight][LoadMelady]
+[OpenMidLeft][NormalPrint][ToggleSmile]Melady!![A]
+[OpenMidRight][FastPrint]Zeiss?!
+What are you doing here?[A]
+[OpenMidLeft][CloseSpeechFast]...I've been accused of
+betraying Bern.[A]
+[OpenMidRight][FastPrint]Oh no...![A]
+I feel...I am at
+fault for this...[A]
+[OpenMidLeft][CloseSpeechFast]Sir Galle said that you
+had joined the enemy.[A]
+I couldn't believe it, but now
+I see it with my own eyes![A]
+Why?!
+Why did you betray Bern?[A]
+[OpenMidRight]I never betrayed Bern.
+I have always served Princess Guinivere.[A]
+[OpenMidLeft]You threw away everything...
+Your homeland, your family...[A]
+Even your beloved Galle...
+for the princess.[A]
+For that...obstinate princess
+who betrayed her own brother![A]
+[OpenMidRight]Enough, Zeiss![A]
+I will not tolerate you
+insulting Princess Guinivere![A]
+[OpenMidLeft][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidRight][ToggleMouthMove][CloseSpeechFast]It is the princess, not the king,
+who works for the good of Bern.[A]
+At first I was angry and confused
+that she did not tell me more.[A]
+But now that I am again at
+her side, I understand...[A]
+She is not mistaken.[A]
+[OpenMidLeft][FastPrint]...Sir Galle was right.[A]
+[OpenMidRight][NormalPrint]What? Galle?[A]
+[OpenMidLeft][CloseSpeechFast]He said that he wouldn't move
+until he heard your side.[A]
+[OpenMidRight][FastPrint]He did...?[A]
+[OpenMidLeft][CloseSpeechFast][ToggleSmile]I'm not sure yet if I agree with you...
+but I know I can trust you.[A]
+[OpenMidRight][FastPrint]Zeiss!
+Does that mean...?[A]
+[OpenMidLeft][CloseSpeechFast]If the leader of the Lycian Army
+will allow it, I want to go with you.[A]
+I want to see the princess that
+moved you so.[A]
+[016C]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadLarum]
+[OpenMidRight]Father![A]
+[OpenMidLeft][ToggleSmile]Larum!
+What are you doing here?[A]
+[OpenMidRight][ToggleSmile]I joined the Lycian Army
+along with Prince Myrddin...[A]
+[OpenMidLeft]The prince has returned!
+There is hope for Etruria once more...[A]
+[OpenMidRight]Father...[A]
+[OpenMidLeft][ToggleSmile]Larum... I'm sorry I put
+you through so much.[A]
+I had no choice but to send you
+away to protect the prince.[A]
+[OpenMidRight]No, I wanted to.
+It's OK.[A]
+[OpenMidLeft]...I sent you right back into the
+harsh world I saved you from.[A]
+I just wish there had been
+another way.[A]
+[OpenMidRight]...You saved me from a terrible life
+of poverty...and starvation...[A]
+You raised me as one of your
+own blood...[A]
+I owe you my life. I'm just glad
+I could repay your favor.[A]
+[OpenMidLeft]Larum...[A]
+[OpenMidRight][ToggleSmile]So really...
+I was happy to do it.[A]
+[OpenMidLeft]Thank you, Larum.[A]
+...I trust the prince will be safe
+in your care in the future as well.[A]
+[OpenMidRight][ToggleSmile]What are you talking about?
+You're not coming with us?[A]
+[OpenMidLeft]King Mordred is still in the
+hands of Bern.[A]
+Were I to turn to the Lycian Army now,
+they would surely take his head.[A]
+[OpenMidRight]...But...[A]
+[OpenMidLeft]Now that the prince is back,
+I have no regrets.[A]
+If the Lycian Army strikes me
+down, I will die in peace.[A]
+[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenMidLeft]Now go.[A]
+If anyone sees us talking like this,
+you may be suspected of betrayal.[A]
+[ToggleSmile]No matter what happens, remember
+that you are my daughter.[A]
+In this world, and the next...[A]
+[OpenMidRight][ToggleSmile]Father...[A]
+[OpenMidLeft][ToggleSmile]My only hope is that you
+find happiness in life...[A]
+[016D]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadElffin]
+[OpenMidRight][ToggleSmile]Douglas![A]
+[OpenMidLeft][ToggleSmile]Prince Myrddin!
+You have returned![A]
+You appear to be in good health...
+I'm so glad you yet live.[A]
+[OpenMidRight][ToggleSmile]I have you to thank for that.
+I'm sorry to have put you through so much.[A]
+[OpenMidLeft][ToggleSmile]You have returned safely...
+Nothing else matters more to me.[A]
+[OpenMidRight][ToggleSmile]Douglas, I am working with
+the Lycian Army now.[A]
+[OpenMidLeft][ToggleSmile]Very good![A]
+Then all that remains is to drive
+Bern's troops from the palace.[A]
+[OpenMidRight][ToggleSmile]What will you do?[A]
+[OpenMidLeft]The king is still in Bern's hands...[A]
+Were I to turn to the Lycian Army now,
+they would surely take his head.[A]
+[OpenMidRight][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenMidLeft]But now that you have returned,
+I have no regrets.[A]
+If the Lycian Army strikes me down,
+I will die in peace.[A]
+[OpenMidRight]Douglas...
+I apologize.[A]
+You intend to sacrifice your
+life for my father...[A]
+[OpenMidLeft][ToggleSmile]My prince, if my death can serve Etruria,
+then I give it freely.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]I am just glad that I could see
+you again before I pass.[A]
+[OpenMidRight][ToggleSmile]You risked your life to protect me
+and send me away to safety.[A]
+I will never forget that. Never.[A]
+[OpenMidLeft]...I still have one futile hope.
+I wish to take you to see the king...[A]
+[OpenMidRight]...Don't lose that
+hope just yet.[A]
+Roy...has a knack for
+overcoming the impossible...[A]
+[016E]
+[OpenMidLeft][LoadDouglas][OpenMidRight][LoadPerceval]
+[OpenMidRight][ToggleSmile]Sir Douglas![A]
+[OpenMidLeft]Perceval...[A]
+I see in your eyes that you 
+have no more hesitation.[A]
+[OpenMidRight]Yes, Sir Douglas. That is thanks to you.[A]
+Once I learned that you saved Prince Myrddin,
+I regained the will to fight.[A]
+[OpenMidLeft]Then you fight with the prince.
+I'm glad to hear it.[A]
+[OpenMidRight]What are you going
+to do, Sir Douglas?[A]
+[OpenMidLeft]The king is still in
+the hands of Bern.[A]
+If I turn to the Lycian Army now,
+they will take his life.[A]
+[OpenMidRight][ToggleMouthMove]......[A][ToggleMouthMove]
+[OpenMidLeft]If you indeed fight with the prince,
+then that means he has returned.[A]
+I have no more regrets. If the Lycian
+Army kills me here, so be it.[A]
+[OpenMidRight]Just the answer I expected,
+Sir Douglas.[A]
+[OpenMidLeft]You will walk the same
+path as I, Perceval.[A]
+Please watch over the prince...
+and over all of Etruria.[A]
+[OpenMidRight]Of course.
+That is what I live for.[A]
+[016F]
+[LoadNarcian][ToggleSmile]I am strong. I am wise.
+I am beautiful.[A]
+And most importantly,
+I am right! Always![A][Clear]
+...Me! No one else![A]
+[0170]
+[LoadNarcian][ToggleSmile]No... No...!![A][Clear]
+I will not be defeated...!
+Not by you...miserable...[A][Clear]
+Gaahh!![A]
+[0171]
+[OpenFarLeft][LoadMordred][OpenRight][LoadRoy]
+[OpenFarLeft]So it is you...
+who rescued us.[A]
+[OpenRight][FastPrint][ToggleSmile]My name is Roy. I am leader of
+the Lycian Army.[A]
+[OpenFarLeft]My name is Mordred.[A]
+Hm...[A]
+[OpenRight][ToggleMouthMove]......[ToggleMouthMove][A]
+[OpenFarLeft][CloseSpeechFast]...I must ask another favor of you.[A]
+Bern's soldiers have moved to
+the Saint's Tower.[A]
+[OpenRight]The Saint's Tower...[A]
+That is where Saint Elimine's
+altar lies...[A]
+[OpenFarLeft]Yes...
+It is a national symbol of Etruria.[A]
+Please, recapture the tower.[A]
+[OpenRight]I will do what I can.[A]
+[OpenFarLeft][FastPrint]I thank you.[A]
+Please take anything in the tower
+that you may find useful.[A]
+[ClearFace][......]
+[SendToBack][OpenFarRight][LoadMerlinus]
+[SendToBack][OpenRight]The king...
+He still mourns the prince.[A]
+[SendToBack][OpenFarRight][CloseSpeechFast]He must have been an
+easy target for Bern.[A]
+[SendToBack][OpenRight][CloseSpeechFast]I wish I could help him...but I
+wouldn't know where to begin.[A][OpenFarRight][ClearFace][OpenRight][ClearFace][.....]
+[OpenMidRight][LoadElffin]Father...
+I am truly sorry...[A]
+When the time comes,
+I will make my return.[A]
+[0172]
+[OpenMidRight][LoadRoy][OpenMidLeft][LoadGuinivere]
+[OpenMidRight][FastPrint][ToggleSmile]Princess Guinivere,
+I must speak with you.[A]
+[OpenMidLeft]
+...The attack on Bern will begin
+after we finish in Etruria.[A]
+[OpenMidRight]Did someone tell
+you already?[A]
+[OpenMidLeft][CloseSpeechFast]No... I simply knew that it would
+come to this eventually.[A]
+[OpenMidRight]...We cannot leave Bern
+unopposed any longer.[A]
+I know it will be painful to see
+your homeland invaded, but...[A]
+[OpenMidLeft][MoveLeft][FastPrint]...Roy, I want you
+to have this.[A]
+[OpenMidRight][MoveRight][NormalPrint]What is it?[A]
+[OpenLeft][FastPrint]Bern's greatest treasure...
+the Fire Emblem.[A]
+[OpenRight][NormalPrint]What?![A]
+[OpenLeft][MoveMidLeft][CloseSpeechFast]In southern Bern lies a temple
+called the Shrine of Seals.[A]
+Within it lies the sword of Hartmut,
+founder of Bern.[A]
+[OpenRight][FastPrint]Is it...
+a legendary weapon?[A]
+[OpenMidLeft][CloseSpeechFast]
+Yes. The most powerful of
+them all, in fact.[A]
+It was made to slay the leader of
+the dragons in the Scouring.[A]
+Its power was so immense that it had
+to be sealed away after the war.[A]
+The Fire Emblem is the key to
+accessing it once more.[A]
+[OpenRight][FastPrint]The key...[A]
+[OpenMidLeft][CloseSpeechFast]My brother...is forcing the world
+into submission with military might.[A]
+I cannot forgive him, no matter
+his reasons.[A]
+[OpenRight][ToggleMouthMove][NormalPrint]......[A]
+[OpenMidLeft][ToggleMouthMove][FastPrint]All we must do to stop him is
+defeat the dragons he commands.[A]
+[OpenRight]Princess Guinivere...[A]
+[OpenMidLeft][MoveFarLeft]...I will be remembered in infamy,
+as a traitor to my nation.[A]
+[OpenRight][NormalPrint]No...[A]
+[OpenFarLeft][CloseSpeechFast]The people will resent me
+for the rest of my days.[A]
+Roy, promise me this
+one thing.[A]
+When we invade Bern, do
+not harm any civilians...[A]
+[OpenRight]I will not.
+I promise you.[A]
+[OpenFarLeft][FastPrint][ToggleSmile]...Thank you.[A]

@@ -1,3 +1,5 @@
+#this file is an abomination lol
+
 def Funny(i):
     j = hex(i)
     j = j.upper()
@@ -210,6 +212,85 @@ paletteSwaps = [
 
 ]
 
+noMinis =[
+    "BanditKid",
+    "HectorBlood",
+    "Mordred",
+    "GenericPegasusKnight",
+    "Priest",
+    "SacaeanVillager",
+    "Soldier1",
+    "Soldier2",
+    "Soldier3",
+    "Soldier4",
+    "Soldier5",
+    "Soldier6",
+    "Soldier7",
+    "Mary",
+    "Mieu",
+    "Villager1",
+    "Villager2",
+    "Villager3",
+    "Villager4",
+    "Villager5",
+    "Villager6",
+    "Villager7",
+    "Villager8",
+    "Villager9",
+    "Villager10",
+    "Villager11",
+    "Villager12",
+    "Villager13",
+    "Villager14",
+    "Villager15",
+    "Villager16",
+    "Villager17",
+    "Villager18",
+    "Villager19",
+    "Villager20",
+    "Villager21",
+    "Villager22",
+    "Villager23",
+    "Villager24",
+    "Villager25",
+    "Villager26",
+    "Villager27",
+    "Villager28",
+    "Villager29",
+    "Villager30",
+    "Villager31",
+    "Villager32",
+    "Villager33",
+    "Villager34",
+    "Villager35",
+    "Villager36",
+    "Villager37",
+    "Villager38",
+    "Villager39",
+    "Villager40",
+    "Villager41",
+    "Villager42",
+    "Villager43",
+    "Villager44",
+    "Villager45",
+    "Villager46",
+    "Villager47",
+    "Villager48",
+    "Villager49",
+    "Villager50",
+    "Villager51",
+    "Villager52",
+    "Villager53",
+    "Villager54",
+    "Villager55",
+    "Villager56",
+    "Villager57",
+    "Villager58",
+    "Villager59",
+    "Villager60"
+    
+]
+
 output = []
 
 names = list(mugsData.keys())
@@ -227,38 +308,77 @@ for name in names:
         if name in swap:
             isSwap = True
             if name == swap[0]:
-                templateString = [
-                    #"ALIGN 4\n",
-                    (name+"MugData:\n"),
-                    ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
-                    (name+"MugFramesData:\n"),
-                    ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
-                    (name+"MugPaletteData:\n"),
-                    ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
-                    (name+"MugMiniData:\n"),
-                    ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
-                    ("setMugEntryManual("+name+"Mug, "+name+"MugData, "+name+"MugMiniData, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
-                ]
+                if name not in noMinis:
+                    templateString = [
+                        #"ALIGN 4\n",
+                        (name+"MugData:\n"),
+                        ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+                        (name+"MugFramesData:\n"),
+                        ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+                        (name+"MugPaletteData:\n"),
+                        ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                        (name+"MugMiniData:\n"),
+                        ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+                        ("setMugEntryManual("+name+"Mug, "+name+"MugData, "+name+"MugMiniData, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+                    ]
+                else:
+                    templateString = [
+                        #"ALIGN 4\n",
+                        (name+"MugData:\n"),
+                        ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+                        (name+"MugFramesData:\n"),
+                        ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+                        (name+"MugPaletteData:\n"),
+                        ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                        (name+"MugMiniData:\n"),
+                        ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+                        ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+                    ]
             else:
                 ogName = swap[0]
-                templateString = [
-                    #"ALIGN 4\n",
-                    (name+"MugPaletteData:\n"),
-                    ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
-                    ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, "+ogName+"MugMiniData, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
-                ]
+                if name not in noMinis:
+                    templateString = [
+                        #"ALIGN 4\n",
+                        (name+"MugPaletteData:\n"),
+                        ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                        ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, "+ogName+"MugMiniData, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+                    ]
+                else:
+                    templateString = [
+                        #"ALIGN 4\n",
+                        (name+"MugPaletteData:\n"),
+                        ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                        ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, 0x0, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+                    ]
             break
 
     if not isSwap:
-        templateString = [
-            #"ALIGN 4\n",
-            (name+"WholeMugData:\n"),
-            ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
-            ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
-            ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
-            ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
-            ("setMugEntry("+name+"Mug, "+name+"WholeMugData," +a+","+b+","+c+","+d+")\n")
-        ]
+        if name not in noMinis:
+            templateString = [
+                #"ALIGN 4\n",
+                (name+"MugData:\n"),
+                ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+                (name+"MugFramesData:\n"),
+                ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+                (name+"MugPaletteData:\n"),
+                ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                (name+"MugMiniData:\n"),
+                ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+                ("setMugEntryManual("+name+"Mug, "+name+"MugData, "+name+"MugMiniData, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+            ]
+        else:
+            templateString = [
+                #"ALIGN 4\n",
+                (name+"MugData:\n"),
+                ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+                (name+"MugFramesData:\n"),
+                ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+                (name+"MugPaletteData:\n"),
+                ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                (name+"MugMiniData:\n"),
+                ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+                ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
+            ]
     for line in templateString:
         output.append(line)
     output.append("\n")

@@ -1,500 +1,684 @@
-ALIGN 4
-
 #define RoyMug 0x1
-RoyWholeMugData:
+RoyMugData:
 #incbin "Dmp/Roy_mug.dmp"
+RoyMugFramesData:
 #incbin "Dmp/Roy_frames.dmp"
+RoyMugPaletteData:
 #incbin "Dmp/Roy_palette.dmp"
+RoyMugMiniData:
 #incbin "Dmp/Roy_minimug.dmp"
-setMugEntry(RoyMug, RoyWholeMugData,2,6,3,4)
+setMugEntryManual(RoyMug, RoyMugData, RoyMugMiniData, RoyMugPaletteData, RoyMugFramesData, 2,6,3,4)
 
 #define MarcusMug 0x2
-MarcusWholeMugData:
+MarcusMugData:
 #incbin "Dmp/Marcus_mug.dmp"
+MarcusMugFramesData:
 #incbin "Dmp/Marcus_frames.dmp"
+MarcusMugPaletteData:
 #incbin "Dmp/Marcus_palette.dmp"
+MarcusMugMiniData:
 #incbin "Dmp/Marcus_minimug.dmp"
-setMugEntry(MarcusMug, MarcusWholeMugData,2,5,2,3)
+setMugEntryManual(MarcusMug, MarcusMugData, MarcusMugMiniData, MarcusMugPaletteData, MarcusMugFramesData, 2,5,2,3)
 
 #define AlenMug 0x3
-AlenWholeMugData:
+AlenMugData:
 #incbin "Dmp/Alen_mug.dmp"
+AlenMugFramesData:
 #incbin "Dmp/Alen_frames.dmp"
+AlenMugPaletteData:
 #incbin "Dmp/Alen_palette.dmp"
+AlenMugMiniData:
 #incbin "Dmp/Alen_minimug.dmp"
-setMugEntry(AlenMug, AlenWholeMugData,2,5,3,3)
+setMugEntryManual(AlenMug, AlenMugData, AlenMugMiniData, AlenMugPaletteData, AlenMugFramesData, 2,5,3,3)
 
 #define LanceMug 0x4
-LanceWholeMugData:
+LanceMugData:
 #incbin "Dmp/Lance_mug.dmp"
+LanceMugFramesData:
 #incbin "Dmp/Lance_frames.dmp"
+LanceMugPaletteData:
 #incbin "Dmp/Lance_palette.dmp"
+LanceMugMiniData:
 #incbin "Dmp/Lance_minimug.dmp"
-setMugEntry(LanceMug, LanceWholeMugData,2,5,3,3)
+setMugEntryManual(LanceMug, LanceMugData, LanceMugMiniData, LanceMugPaletteData, LanceMugFramesData, 2,5,3,3)
 
 #define WoltMug 0x5
-WoltWholeMugData:
+WoltMugData:
 #incbin "Dmp/Wolt_mug.dmp"
+WoltMugFramesData:
 #incbin "Dmp/Wolt_frames.dmp"
+WoltMugPaletteData:
 #incbin "Dmp/Wolt_palette.dmp"
+WoltMugMiniData:
 #incbin "Dmp/Wolt_minimug.dmp"
-setMugEntry(WoltMug, WoltWholeMugData,2,6,3,4)
+setMugEntryManual(WoltMug, WoltMugData, WoltMugMiniData, WoltMugPaletteData, WoltMugFramesData, 2,6,3,4)
 
 #define BorsMug 0x6
-BorsWholeMugData:
+BorsMugData:
 #incbin "Dmp/Bors_mug.dmp"
+BorsMugFramesData:
 #incbin "Dmp/Bors_frames.dmp"
+BorsMugPaletteData:
 #incbin "Dmp/Bors_palette.dmp"
+BorsMugMiniData:
 #incbin "Dmp/Bors_minimug.dmp"
-setMugEntry(BorsMug, BorsWholeMugData,2,4,3,2)
+setMugEntryManual(BorsMug, BorsMugData, BorsMugMiniData, BorsMugPaletteData, BorsMugFramesData, 2,4,3,2)
 
 #define MerlinusMug 0x7
-MerlinusWholeMugData:
+MerlinusMugData:
 #incbin "Dmp/Merlinus_mug.dmp"
+MerlinusMugFramesData:
 #incbin "Dmp/Merlinus_frames.dmp"
+MerlinusMugPaletteData:
 #incbin "Dmp/Merlinus_palette.dmp"
+MerlinusMugMiniData:
 #incbin "Dmp/Merlinus_minimug.dmp"
-setMugEntry(MerlinusMug, MerlinusWholeMugData,2,5,2,3)
+setMugEntryManual(MerlinusMug, MerlinusMugData, MerlinusMugMiniData, MerlinusMugPaletteData, MerlinusMugFramesData, 2,5,2,3)
 
 #define ElenMug 0x8
-ElenWholeMugData:
+ElenMugData:
 #incbin "Dmp/Elen_mug.dmp"
+ElenMugFramesData:
 #incbin "Dmp/Elen_frames.dmp"
+ElenMugPaletteData:
 #incbin "Dmp/Elen_palette.dmp"
+ElenMugMiniData:
 #incbin "Dmp/Elen_minimug.dmp"
-setMugEntry(ElenMug, ElenWholeMugData,2,6,3,4)
+setMugEntryManual(ElenMug, ElenMugData, ElenMugMiniData, ElenMugPaletteData, ElenMugFramesData, 2,6,3,4)
 
 #define DieckMug 0x9
-DieckWholeMugData:
+DieckMugData:
 #incbin "Dmp/Dieck_mug.dmp"
+DieckMugFramesData:
 #incbin "Dmp/Dieck_frames.dmp"
+DieckMugPaletteData:
 #incbin "Dmp/Dieck_palette.dmp"
+DieckMugMiniData:
 #incbin "Dmp/Dieck_minimug.dmp"
-setMugEntry(DieckMug, DieckWholeMugData,2,5,2,3)
+setMugEntryManual(DieckMug, DieckMugData, DieckMugMiniData, DieckMugPaletteData, DieckMugFramesData, 2,5,2,3)
 
 #define WardMug 0xA
-WardWholeMugData:
+WardMugData:
 #incbin "Dmp/Ward_mug.dmp"
+WardMugFramesData:
 #incbin "Dmp/Ward_frames.dmp"
+WardMugPaletteData:
 #incbin "Dmp/Ward_palette.dmp"
+WardMugMiniData:
 #incbin "Dmp/Ward_minimug.dmp"
-setMugEntry(WardMug, WardWholeMugData,2,5,2,3)
+setMugEntryManual(WardMug, WardMugData, WardMugMiniData, WardMugPaletteData, WardMugFramesData, 2,5,2,3)
 
 #define LotMug 0xB
-LotWholeMugData:
+LotMugData:
 #incbin "Dmp/Lot_mug.dmp"
+LotMugFramesData:
 #incbin "Dmp/Lot_frames.dmp"
+LotMugPaletteData:
 #incbin "Dmp/Lot_palette.dmp"
+LotMugMiniData:
 #incbin "Dmp/Lot_minimug.dmp"
-setMugEntry(LotMug, LotWholeMugData,2,5,3,3)
+setMugEntryManual(LotMug, LotMugData, LotMugMiniData, LotMugPaletteData, LotMugFramesData, 2,5,3,3)
 
 #define ShannaMug 0xC
-ShannaWholeMugData:
+ShannaMugData:
 #incbin "Dmp/Shanna_mug.dmp"
+ShannaMugFramesData:
 #incbin "Dmp/Shanna_frames.dmp"
+ShannaMugPaletteData:
 #incbin "Dmp/Shanna_palette.dmp"
+ShannaMugMiniData:
 #incbin "Dmp/Shanna_minimug.dmp"
-setMugEntry(ShannaMug, ShannaWholeMugData,2,6,3,4)
+setMugEntryManual(ShannaMug, ShannaMugData, ShannaMugMiniData, ShannaMugPaletteData, ShannaMugFramesData, 2,6,3,4)
 
 #define ChadMug 0xD
-ChadWholeMugData:
+ChadMugData:
 #incbin "Dmp/Chad_mug.dmp"
+ChadMugFramesData:
 #incbin "Dmp/Chad_frames.dmp"
+ChadMugPaletteData:
 #incbin "Dmp/Chad_palette.dmp"
+ChadMugMiniData:
 #incbin "Dmp/Chad_minimug.dmp"
-setMugEntry(ChadMug, ChadWholeMugData,2,6,3,4)
+setMugEntryManual(ChadMug, ChadMugData, ChadMugMiniData, ChadMugPaletteData, ChadMugFramesData, 2,6,3,4)
 
 #define LughMug 0xE
-LughWholeMugData:
+LughMugData:
 #incbin "Dmp/Lugh_mug.dmp"
+LughMugFramesData:
 #incbin "Dmp/Lugh_frames.dmp"
+LughMugPaletteData:
 #incbin "Dmp/Lugh_palette.dmp"
+LughMugMiniData:
 #incbin "Dmp/Lugh_minimug.dmp"
-setMugEntry(LughMug, LughWholeMugData,2,6,3,4)
+setMugEntryManual(LughMug, LughMugData, LughMugMiniData, LughMugPaletteData, LughMugFramesData, 2,6,3,4)
 
 #define ClarineMug 0xF
-ClarineWholeMugData:
+ClarineMugData:
 #incbin "Dmp/Clarine_mug.dmp"
+ClarineMugFramesData:
 #incbin "Dmp/Clarine_frames.dmp"
+ClarineMugPaletteData:
 #incbin "Dmp/Clarine_palette.dmp"
+ClarineMugMiniData:
 #incbin "Dmp/Clarine_minimug.dmp"
-setMugEntry(ClarineMug, ClarineWholeMugData,2,6,3,4)
+setMugEntryManual(ClarineMug, ClarineMugData, ClarineMugMiniData, ClarineMugPaletteData, ClarineMugFramesData, 2,6,3,4)
 
 #define RutgerMug 0x10
-RutgerWholeMugData:
+RutgerMugData:
 #incbin "Dmp/Rutger_mug.dmp"
+RutgerMugFramesData:
 #incbin "Dmp/Rutger_frames.dmp"
+RutgerMugPaletteData:
 #incbin "Dmp/Rutger_palette.dmp"
+RutgerMugMiniData:
 #incbin "Dmp/Rutger_minimug.dmp"
-setMugEntry(RutgerMug, RutgerWholeMugData,2,5,2,3)
+setMugEntryManual(RutgerMug, RutgerMugData, RutgerMugMiniData, RutgerMugPaletteData, RutgerMugFramesData, 2,5,2,3)
 
 #define SaulMug 0x11
-SaulWholeMugData:
+SaulMugData:
 #incbin "Dmp/Saul_mug.dmp"
+SaulMugFramesData:
 #incbin "Dmp/Saul_frames.dmp"
+SaulMugPaletteData:
 #incbin "Dmp/Saul_palette.dmp"
+SaulMugMiniData:
 #incbin "Dmp/Saul_minimug.dmp"
-setMugEntry(SaulMug, SaulWholeMugData,2,5,3,3)
+setMugEntryManual(SaulMug, SaulMugData, SaulMugMiniData, SaulMugPaletteData, SaulMugFramesData, 2,5,3,3)
 
 #define DorothyMug 0x12
-DorothyWholeMugData:
+DorothyMugData:
 #incbin "Dmp/Dorothy_mug.dmp"
+DorothyMugFramesData:
 #incbin "Dmp/Dorothy_frames.dmp"
+DorothyMugPaletteData:
 #incbin "Dmp/Dorothy_palette.dmp"
+DorothyMugMiniData:
 #incbin "Dmp/Dorothy_minimug.dmp"
-setMugEntry(DorothyMug, DorothyWholeMugData,2,5,3,3)
+setMugEntryManual(DorothyMug, DorothyMugData, DorothyMugMiniData, DorothyMugPaletteData, DorothyMugFramesData, 2,5,3,3)
 
 #define SueMug 0x13
-SueWholeMugData:
+SueMugData:
 #incbin "Dmp/Sue_mug.dmp"
+SueMugFramesData:
 #incbin "Dmp/Sue_frames.dmp"
+SueMugPaletteData:
 #incbin "Dmp/Sue_palette.dmp"
+SueMugMiniData:
 #incbin "Dmp/Sue_minimug.dmp"
-setMugEntry(SueMug, SueWholeMugData,2,5,3,3)
+setMugEntryManual(SueMug, SueMugData, SueMugMiniData, SueMugPaletteData, SueMugFramesData, 2,5,3,3)
 
 #define ZelotMug 0x14
-ZelotWholeMugData:
+ZelotMugData:
 #incbin "Dmp/Zelot_mug.dmp"
+ZelotMugFramesData:
 #incbin "Dmp/Zelot_frames.dmp"
+ZelotMugPaletteData:
 #incbin "Dmp/Zelot_palette.dmp"
+ZelotMugMiniData:
 #incbin "Dmp/Zelot_minimug.dmp"
-setMugEntry(ZelotMug, ZelotWholeMugData,2,5,3,3)
+setMugEntryManual(ZelotMug, ZelotMugData, ZelotMugMiniData, ZelotMugPaletteData, ZelotMugFramesData, 2,5,3,3)
 
 #define TrecMug 0x15
-TrecWholeMugData:
+TrecMugData:
 #incbin "Dmp/Trec_mug.dmp"
+TrecMugFramesData:
 #incbin "Dmp/Trec_frames.dmp"
+TrecMugPaletteData:
 #incbin "Dmp/Trec_palette.dmp"
+TrecMugMiniData:
 #incbin "Dmp/Trec_minimug.dmp"
-setMugEntry(TrecMug, TrecWholeMugData,2,5,3,3)
+setMugEntryManual(TrecMug, TrecMugData, TrecMugMiniData, TrecMugPaletteData, TrecMugFramesData, 2,5,3,3)
 
 #define NoahMug 0x16
-NoahWholeMugData:
+NoahMugData:
 #incbin "Dmp/Noah_mug.dmp"
+NoahMugFramesData:
 #incbin "Dmp/Noah_frames.dmp"
+NoahMugPaletteData:
 #incbin "Dmp/Noah_palette.dmp"
+NoahMugMiniData:
 #incbin "Dmp/Noah_minimug.dmp"
-setMugEntry(NoahMug, NoahWholeMugData,2,5,3,3)
+setMugEntryManual(NoahMug, NoahMugData, NoahMugMiniData, NoahMugPaletteData, NoahMugFramesData, 2,5,3,3)
 
 #define AstolfoMug 0x17
-AstolfoWholeMugData:
+AstolfoMugData:
 #incbin "Dmp/Astolfo_mug.dmp"
+AstolfoMugFramesData:
 #incbin "Dmp/Astolfo_frames.dmp"
+AstolfoMugPaletteData:
 #incbin "Dmp/Astolfo_palette.dmp"
+AstolfoMugMiniData:
 #incbin "Dmp/Astolfo_minimug.dmp"
-setMugEntry(AstolfoMug, AstolfoWholeMugData,2,5,2,3)
+setMugEntryManual(AstolfoMug, AstolfoMugData, AstolfoMugMiniData, AstolfoMugPaletteData, AstolfoMugFramesData, 2,5,2,3)
 
 #define LilinaMug 0x18
-LilinaWholeMugData:
+LilinaMugData:
 #incbin "Dmp/Lilina_mug.dmp"
+LilinaMugFramesData:
 #incbin "Dmp/Lilina_frames.dmp"
+LilinaMugPaletteData:
 #incbin "Dmp/Lilina_palette.dmp"
+LilinaMugMiniData:
 #incbin "Dmp/Lilina_minimug.dmp"
-setMugEntry(LilinaMug, LilinaWholeMugData,2,6,3,4)
+setMugEntryManual(LilinaMug, LilinaMugData, LilinaMugMiniData, LilinaMugPaletteData, LilinaMugFramesData, 2,6,3,4)
 
 #define BartheMug 0x19
-BartheWholeMugData:
+BartheMugData:
 #incbin "Dmp/Barthe_mug.dmp"
+BartheMugFramesData:
 #incbin "Dmp/Barthe_frames.dmp"
+BartheMugPaletteData:
 #incbin "Dmp/Barthe_palette.dmp"
+BartheMugMiniData:
 #incbin "Dmp/Barthe_minimug.dmp"
-setMugEntry(BartheMug, BartheWholeMugData,2,4,2,2)
+setMugEntryManual(BartheMug, BartheMugData, BartheMugMiniData, BartheMugPaletteData, BartheMugFramesData, 2,4,2,2)
 
 #define OgierMug 0x1A
-OgierWholeMugData:
+OgierMugData:
 #incbin "Dmp/Ogier_mug.dmp"
+OgierMugFramesData:
 #incbin "Dmp/Ogier_frames.dmp"
+OgierMugPaletteData:
 #incbin "Dmp/Ogier_palette.dmp"
+OgierMugMiniData:
 #incbin "Dmp/Ogier_minimug.dmp"
-setMugEntry(OgierMug, OgierWholeMugData,2,6,3,4)
+setMugEntryManual(OgierMug, OgierMugData, OgierMugMiniData, OgierMugPaletteData, OgierMugFramesData, 2,6,3,4)
 
 #define GwendolynMug 0x1B
-GwendolynWholeMugData:
+GwendolynMugData:
 #incbin "Dmp/Gwendolyn_mug.dmp"
+GwendolynMugFramesData:
 #incbin "Dmp/Gwendolyn_frames.dmp"
+GwendolynMugPaletteData:
 #incbin "Dmp/Gwendolyn_palette.dmp"
+GwendolynMugMiniData:
 #incbin "Dmp/Gwendolyn_minimug.dmp"
-setMugEntry(GwendolynMug, GwendolynWholeMugData,2,6,3,4)
+setMugEntryManual(GwendolynMug, GwendolynMugData, GwendolynMugMiniData, GwendolynMugPaletteData, GwendolynMugFramesData, 2,6,3,4)
 
 #define FirMug 0x1C
-FirWholeMugData:
+FirMugData:
 #incbin "Dmp/Fir_mug.dmp"
+FirMugFramesData:
 #incbin "Dmp/Fir_frames.dmp"
+FirMugPaletteData:
 #incbin "Dmp/Fir_palette.dmp"
+FirMugMiniData:
 #incbin "Dmp/Fir_minimug.dmp"
-setMugEntry(FirMug, FirWholeMugData,2,6,3,4)
+setMugEntryManual(FirMug, FirMugData, FirMugMiniData, FirMugPaletteData, FirMugFramesData, 2,6,3,4)
 
 #define SinMug 0x1D
-SinWholeMugData:
+SinMugData:
 #incbin "Dmp/Sin_mug.dmp"
+SinMugFramesData:
 #incbin "Dmp/Sin_frames.dmp"
+SinMugPaletteData:
 #incbin "Dmp/Sin_palette.dmp"
+SinMugMiniData:
 #incbin "Dmp/Sin_minimug.dmp"
-setMugEntry(SinMug, SinWholeMugData,2,5,3,3)
+setMugEntryManual(SinMug, SinMugData, SinMugMiniData, SinMugPaletteData, SinMugFramesData, 2,5,3,3)
 
 #define GeeseMug 0x1E
-GeeseWholeMugData:
+GeeseMugData:
 #incbin "Dmp/Geese_mug.dmp"
+GeeseMugFramesData:
 #incbin "Dmp/Geese_frames.dmp"
+GeeseMugPaletteData:
 #incbin "Dmp/Geese_palette.dmp"
+GeeseMugMiniData:
 #incbin "Dmp/Geese_minimug.dmp"
-setMugEntry(GeeseMug, GeeseWholeMugData,2,5,3,3)
+setMugEntryManual(GeeseMug, GeeseMugData, GeeseMugMiniData, GeeseMugPaletteData, GeeseMugFramesData, 2,5,3,3)
 
 #define GonzalezMug 0x1F
-GonzalezWholeMugData:
+GonzalezMugData:
 #incbin "Dmp/Gonzalez_mug.dmp"
+GonzalezMugFramesData:
 #incbin "Dmp/Gonzalez_frames.dmp"
+GonzalezMugPaletteData:
 #incbin "Dmp/Gonzalez_palette.dmp"
+GonzalezMugMiniData:
 #incbin "Dmp/Gonzalez_minimug.dmp"
-setMugEntry(GonzalezMug, GonzalezWholeMugData,2,5,2,3)
+setMugEntryManual(GonzalezMug, GonzalezMugData, GonzalezMugMiniData, GonzalezMugPaletteData, GonzalezMugFramesData, 2,5,2,3)
 
 #define KleinMug 0x20
-KleinWholeMugData:
+KleinMugData:
 #incbin "Dmp/Klein_mug.dmp"
+KleinMugFramesData:
 #incbin "Dmp/Klein_frames.dmp"
+KleinMugPaletteData:
 #incbin "Dmp/Klein_palette.dmp"
+KleinMugMiniData:
 #incbin "Dmp/Klein_minimug.dmp"
-setMugEntry(KleinMug, KleinWholeMugData,2,5,3,3)
+setMugEntryManual(KleinMug, KleinMugData, KleinMugMiniData, KleinMugPaletteData, KleinMugFramesData, 2,5,3,3)
 
 #define TheaMug 0x21
-TheaWholeMugData:
+TheaMugData:
 #incbin "Dmp/Thea_mug.dmp"
+TheaMugFramesData:
 #incbin "Dmp/Thea_frames.dmp"
+TheaMugPaletteData:
 #incbin "Dmp/Thea_palette.dmp"
+TheaMugMiniData:
 #incbin "Dmp/Thea_minimug.dmp"
-setMugEntry(TheaMug, TheaWholeMugData,2,5,3,4)
+setMugEntryManual(TheaMug, TheaMugData, TheaMugMiniData, TheaMugPaletteData, TheaMugFramesData, 2,5,3,4)
 
 #define LarumMug 0x22
-LarumWholeMugData:
+LarumMugData:
 #incbin "Dmp/Larum_mug.dmp"
+LarumMugFramesData:
 #incbin "Dmp/Larum_frames.dmp"
+LarumMugPaletteData:
 #incbin "Dmp/Larum_palette.dmp"
+LarumMugMiniData:
 #incbin "Dmp/Larum_minimug.dmp"
-setMugEntry(LarumMug, LarumWholeMugData,2,6,3,4)
+setMugEntryManual(LarumMug, LarumMugData, LarumMugMiniData, LarumMugPaletteData, LarumMugFramesData, 2,6,3,4)
 
 #define ElffinMug 0x23
-ElffinWholeMugData:
+ElffinMugData:
 #incbin "Dmp/Elffin_mug.dmp"
+ElffinMugFramesData:
 #incbin "Dmp/Elffin_frames.dmp"
+ElffinMugPaletteData:
 #incbin "Dmp/Elffin_palette.dmp"
+ElffinMugMiniData:
 #incbin "Dmp/Elffin_minimug.dmp"
-setMugEntry(ElffinMug, ElffinWholeMugData,2,5,2,3)
+setMugEntryManual(ElffinMug, ElffinMugData, ElffinMugMiniData, ElffinMugPaletteData, ElffinMugFramesData, 2,5,2,3)
 
 #define EchidnaMug 0x24
-EchidnaWholeMugData:
+EchidnaMugData:
 #incbin "Dmp/Echidna_mug.dmp"
+EchidnaMugFramesData:
 #incbin "Dmp/Echidna_frames.dmp"
+EchidnaMugPaletteData:
 #incbin "Dmp/Echidna_palette.dmp"
+EchidnaMugMiniData:
 #incbin "Dmp/Echidna_minimug.dmp"
-setMugEntry(EchidnaMug, EchidnaWholeMugData,2,5,3,3)
+setMugEntryManual(EchidnaMug, EchidnaMugData, EchidnaMugMiniData, EchidnaMugPaletteData, EchidnaMugFramesData, 2,5,3,3)
 
 #define BartreMug 0x25
-BartreWholeMugData:
+BartreMugData:
 #incbin "Dmp/Bartre_mug.dmp"
+BartreMugFramesData:
 #incbin "Dmp/Bartre_frames.dmp"
+BartreMugPaletteData:
 #incbin "Dmp/Bartre_palette.dmp"
+BartreMugMiniData:
 #incbin "Dmp/Bartre_minimug.dmp"
-setMugEntry(BartreMug, BartreWholeMugData,2,5,2,2)
+setMugEntryManual(BartreMug, BartreMugData, BartreMugMiniData, BartreMugPaletteData, BartreMugFramesData, 2,5,2,2)
 
 #define RaighMug 0x26
-RaighWholeMugData:
+RaighMugData:
 #incbin "Dmp/Raigh_mug.dmp"
+RaighMugFramesData:
 #incbin "Dmp/Raigh_frames.dmp"
+RaighMugPaletteData:
 #incbin "Dmp/Raigh_palette.dmp"
+RaighMugMiniData:
 #incbin "Dmp/Raigh_minimug.dmp"
-setMugEntry(RaighMug, RaighWholeMugData,2,6,3,4)
+setMugEntryManual(RaighMug, RaighMugData, RaighMugMiniData, RaighMugPaletteData, RaighMugFramesData, 2,6,3,4)
 
 #define CathMug 0x27
-CathWholeMugData:
+CathMugData:
 #incbin "Dmp/Cath_mug.dmp"
+CathMugFramesData:
 #incbin "Dmp/Cath_frames.dmp"
+CathMugPaletteData:
 #incbin "Dmp/Cath_palette.dmp"
+CathMugMiniData:
 #incbin "Dmp/Cath_minimug.dmp"
-setMugEntry(CathMug, CathWholeMugData,2,6,3,4)
+setMugEntryManual(CathMug, CathMugData, CathMugMiniData, CathMugPaletteData, CathMugFramesData, 2,6,3,4)
 
 #define MeladyMug 0x28
-MeladyWholeMugData:
+MeladyMugData:
 #incbin "Dmp/Melady_mug.dmp"
+MeladyMugFramesData:
 #incbin "Dmp/Melady_frames.dmp"
+MeladyMugPaletteData:
 #incbin "Dmp/Melady_palette.dmp"
+MeladyMugMiniData:
 #incbin "Dmp/Melady_minimug.dmp"
-setMugEntry(MeladyMug, MeladyWholeMugData,2,5,4,3)
+setMugEntryManual(MeladyMug, MeladyMugData, MeladyMugMiniData, MeladyMugPaletteData, MeladyMugFramesData, 2,5,4,3)
 
 #define PercevalMug 0x29
-PercevalWholeMugData:
+PercevalMugData:
 #incbin "Dmp/Perceval_mug.dmp"
+PercevalMugFramesData:
 #incbin "Dmp/Perceval_frames.dmp"
+PercevalMugPaletteData:
 #incbin "Dmp/Perceval_palette.dmp"
+PercevalMugMiniData:
 #incbin "Dmp/Perceval_minimug.dmp"
-setMugEntry(PercevalMug, PercevalWholeMugData,2,5,2,3)
+setMugEntryManual(PercevalMug, PercevalMugData, PercevalMugMiniData, PercevalMugPaletteData, PercevalMugFramesData, 2,5,2,3)
 
 #define CeciliaMug 0x2A
-CeciliaWholeMugData:
+CeciliaMugData:
 #incbin "Dmp/Cecilia_mug.dmp"
+CeciliaMugFramesData:
 #incbin "Dmp/Cecilia_frames.dmp"
+CeciliaMugPaletteData:
 #incbin "Dmp/Cecilia_palette.dmp"
+CeciliaMugMiniData:
 #incbin "Dmp/Cecilia_minimug.dmp"
-setMugEntry(CeciliaMug, CeciliaWholeMugData,2,5,3,3)
+setMugEntryManual(CeciliaMug, CeciliaMugData, CeciliaMugMiniData, CeciliaMugPaletteData, CeciliaMugFramesData, 2,5,3,3)
 
 #define SophiaMug 0x2B
-SophiaWholeMugData:
+SophiaMugData:
 #incbin "Dmp/Sophia_mug.dmp"
+SophiaMugFramesData:
 #incbin "Dmp/Sophia_frames.dmp"
+SophiaMugPaletteData:
 #incbin "Dmp/Sophia_palette.dmp"
+SophiaMugMiniData:
 #incbin "Dmp/Sophia_minimug.dmp"
-setMugEntry(SophiaMug, SophiaWholeMugData,2,6,3,4)
+setMugEntryManual(SophiaMug, SophiaMugData, SophiaMugMiniData, SophiaMugPaletteData, SophiaMugFramesData, 2,6,3,4)
 
 #define IgreneMug 0x2C
-IgreneWholeMugData:
+IgreneMugData:
 #incbin "Dmp/Igrene_mug.dmp"
+IgreneMugFramesData:
 #incbin "Dmp/Igrene_frames.dmp"
+IgreneMugPaletteData:
 #incbin "Dmp/Igrene_palette.dmp"
+IgreneMugMiniData:
 #incbin "Dmp/Igrene_minimug.dmp"
-setMugEntry(IgreneMug, IgreneWholeMugData,2,5,3,3)
+setMugEntryManual(IgreneMug, IgreneMugData, IgreneMugMiniData, IgreneMugPaletteData, IgreneMugFramesData, 2,5,3,3)
 
 #define GarretMug 0x2D
-GarretWholeMugData:
+GarretMugData:
 #incbin "Dmp/Garret_mug.dmp"
+GarretMugFramesData:
 #incbin "Dmp/Garret_frames.dmp"
+GarretMugPaletteData:
 #incbin "Dmp/Garret_palette.dmp"
+GarretMugMiniData:
 #incbin "Dmp/Garret_minimug.dmp"
-setMugEntry(GarretMug, GarretWholeMugData,2,4,3,2)
+setMugEntryManual(GarretMug, GarretMugData, GarretMugMiniData, GarretMugPaletteData, GarretMugFramesData, 2,4,3,2)
 
 #define FaeMug 0x2E
-FaeWholeMugData:
+FaeMugData:
 #incbin "Dmp/Fae_mug.dmp"
+FaeMugFramesData:
 #incbin "Dmp/Fae_frames.dmp"
+FaeMugPaletteData:
 #incbin "Dmp/Fae_palette.dmp"
+FaeMugMiniData:
 #incbin "Dmp/Fae_minimug.dmp"
-setMugEntry(FaeMug, FaeWholeMugData,3,7,3,5)
+setMugEntryManual(FaeMug, FaeMugData, FaeMugMiniData, FaeMugPaletteData, FaeMugFramesData, 3,7,3,5)
 
 #define HughMug 0x2F
-HughWholeMugData:
+HughMugData:
 #incbin "Dmp/Hugh_mug.dmp"
+HughMugFramesData:
 #incbin "Dmp/Hugh_frames.dmp"
+HughMugPaletteData:
 #incbin "Dmp/Hugh_palette.dmp"
+HughMugMiniData:
 #incbin "Dmp/Hugh_minimug.dmp"
-setMugEntry(HughMug, HughWholeMugData,2,5,3,3)
+setMugEntryManual(HughMug, HughMugData, HughMugMiniData, HughMugPaletteData, HughMugFramesData, 2,5,3,3)
 
 #define ZeissMug 0x30
-ZeissWholeMugData:
+ZeissMugData:
 #incbin "Dmp/Zeiss_mug.dmp"
+ZeissMugFramesData:
 #incbin "Dmp/Zeiss_frames.dmp"
+ZeissMugPaletteData:
 #incbin "Dmp/Zeiss_palette.dmp"
+ZeissMugMiniData:
 #incbin "Dmp/Zeiss_minimug.dmp"
-setMugEntry(ZeissMug, ZeissWholeMugData,2,5,2,3)
+setMugEntryManual(ZeissMug, ZeissMugData, ZeissMugMiniData, ZeissMugPaletteData, ZeissMugFramesData, 2,5,2,3)
 
 #define DouglasMug 0x31
-DouglasWholeMugData:
+DouglasMugData:
 #incbin "Dmp/Douglas_mug.dmp"
+DouglasMugFramesData:
 #incbin "Dmp/Douglas_frames.dmp"
+DouglasMugPaletteData:
 #incbin "Dmp/Douglas_palette.dmp"
+DouglasMugMiniData:
 #incbin "Dmp/Douglas_minimug.dmp"
-setMugEntry(DouglasMug, DouglasWholeMugData,2,5,3,3)
+setMugEntryManual(DouglasMug, DouglasMugData, DouglasMugMiniData, DouglasMugPaletteData, DouglasMugFramesData, 2,5,3,3)
 
 #define NiimeMug 0x32
-NiimeWholeMugData:
+NiimeMugData:
 #incbin "Dmp/Niime_mug.dmp"
+NiimeMugFramesData:
 #incbin "Dmp/Niime_frames.dmp"
+NiimeMugPaletteData:
 #incbin "Dmp/Niime_palette.dmp"
+NiimeMugMiniData:
 #incbin "Dmp/Niime_minimug.dmp"
-setMugEntry(NiimeMug, NiimeWholeMugData,2,6,2,4)
+setMugEntryManual(NiimeMug, NiimeMugData, NiimeMugMiniData, NiimeMugPaletteData, NiimeMugFramesData, 2,6,2,4)
 
 #define JunoMug 0x33
-JunoWholeMugData:
+JunoMugData:
 #incbin "Dmp/Juno_mug.dmp"
+JunoMugFramesData:
 #incbin "Dmp/Juno_frames.dmp"
+JunoMugPaletteData:
 #incbin "Dmp/Juno_palette.dmp"
+JunoMugMiniData:
 #incbin "Dmp/Juno_minimug.dmp"
-setMugEntry(JunoMug, JunoWholeMugData,2,5,3,3)
+setMugEntryManual(JunoMug, JunoMugData, JunoMugMiniData, JunoMugPaletteData, JunoMugFramesData, 2,5,3,3)
 
 #define DayanMug 0x34
-DayanWholeMugData:
+DayanMugData:
 #incbin "Dmp/Dayan_mug.dmp"
+DayanMugFramesData:
 #incbin "Dmp/Dayan_frames.dmp"
+DayanMugPaletteData:
 #incbin "Dmp/Dayan_palette.dmp"
+DayanMugMiniData:
 #incbin "Dmp/Dayan_minimug.dmp"
-setMugEntry(DayanMug, DayanWholeMugData,2,5,3,3)
+setMugEntryManual(DayanMug, DayanMugData, DayanMugMiniData, DayanMugPaletteData, DayanMugFramesData, 2,5,3,3)
 
 #define YoderMug 0x35
-YoderWholeMugData:
+YoderMugData:
 #incbin "Dmp/Yoder_mug.dmp"
+YoderMugFramesData:
 #incbin "Dmp/Yoder_frames.dmp"
+YoderMugPaletteData:
 #incbin "Dmp/Yoder_palette.dmp"
+YoderMugMiniData:
 #incbin "Dmp/Yoder_minimug.dmp"
-setMugEntry(YoderMug, YoderWholeMugData,2,5,3,3)
+setMugEntryManual(YoderMug, YoderMugData, YoderMugMiniData, YoderMugPaletteData, YoderMugFramesData, 2,5,3,3)
 
 #define KarelMug 0x36
-KarelWholeMugData:
+KarelMugData:
 #incbin "Dmp/Karel_mug.dmp"
+KarelMugFramesData:
 #incbin "Dmp/Karel_frames.dmp"
+KarelMugPaletteData:
 #incbin "Dmp/Karel_palette.dmp"
+KarelMugMiniData:
 #incbin "Dmp/Karel_minimug.dmp"
-setMugEntry(KarelMug, KarelWholeMugData,2,5,3,3)
+setMugEntryManual(KarelMug, KarelMugData, KarelMugMiniData, KarelMugPaletteData, KarelMugFramesData, 2,5,3,3)
 
 #define HectorMug 0x37
-HectorWholeMugData:
+HectorMugData:
 #incbin "Dmp/Hector_mug.dmp"
+HectorMugFramesData:
 #incbin "Dmp/Hector_frames.dmp"
+HectorMugPaletteData:
 #incbin "Dmp/Hector_palette.dmp"
+HectorMugMiniData:
 #incbin "Dmp/Hector_minimug.dmp"
-setMugEntry(HectorMug, HectorWholeMugData,2,5,3,2)
+setMugEntryManual(HectorMug, HectorMugData, HectorMugMiniData, HectorMugPaletteData, HectorMugFramesData, 2,5,3,2)
 
 #define EliwoodMug 0x38
-EliwoodWholeMugData:
+EliwoodMugData:
 #incbin "Dmp/Eliwood_mug.dmp"
+EliwoodMugFramesData:
 #incbin "Dmp/Eliwood_frames.dmp"
+EliwoodMugPaletteData:
 #incbin "Dmp/Eliwood_palette.dmp"
+EliwoodMugMiniData:
 #incbin "Dmp/Eliwood_minimug.dmp"
-setMugEntry(EliwoodMug, EliwoodWholeMugData,2,5,3,3)
+setMugEntryManual(EliwoodMug, EliwoodMugData, EliwoodMugMiniData, EliwoodMugPaletteData, EliwoodMugFramesData, 2,5,3,3)
 
 #define GuinivereMug 0x39
-GuinivereWholeMugData:
+GuinivereMugData:
 #incbin "Dmp/Guinivere_mug.dmp"
+GuinivereMugFramesData:
 #incbin "Dmp/Guinivere_frames.dmp"
+GuinivereMugPaletteData:
 #incbin "Dmp/Guinivere_palette.dmp"
+GuinivereMugMiniData:
 #incbin "Dmp/Guinivere_minimug.dmp"
-setMugEntry(GuinivereMug, GuinivereWholeMugData,3,6,3,4)
+setMugEntryManual(GuinivereMug, GuinivereMugData, GuinivereMugMiniData, GuinivereMugPaletteData, GuinivereMugFramesData, 3,6,3,4)
 
 #define DamasMug 0x3A
-DamasWholeMugData:
+DamasMugData:
 #incbin "Dmp/Damas_mug.dmp"
+DamasMugFramesData:
 #incbin "Dmp/Damas_frames.dmp"
+DamasMugPaletteData:
 #incbin "Dmp/Damas_palette.dmp"
+DamasMugMiniData:
 #incbin "Dmp/Damas_minimug.dmp"
-setMugEntry(DamasMug, DamasWholeMugData,2,5,2,3)
+setMugEntryManual(DamasMug, DamasMugData, DamasMugMiniData, DamasMugPaletteData, DamasMugFramesData, 2,5,2,3)
 
 #define RuudMug 0x3B
-RuudWholeMugData:
+RuudMugData:
 #incbin "Dmp/Ruud_mug.dmp"
+RuudMugFramesData:
 #incbin "Dmp/Ruud_frames.dmp"
+RuudMugPaletteData:
 #incbin "Dmp/Ruud_palette.dmp"
+RuudMugMiniData:
 #incbin "Dmp/Ruud_minimug.dmp"
-setMugEntry(RuudMug, RuudWholeMugData,3,5,4,3)
+setMugEntryManual(RuudMug, RuudMugData, RuudMugMiniData, RuudMugPaletteData, RuudMugFramesData, 3,5,4,3)
 
 #define SlaterMug 0x3C
-SlaterWholeMugData:
+SlaterMugData:
 #incbin "Dmp/Slater_mug.dmp"
+SlaterMugFramesData:
 #incbin "Dmp/Slater_frames.dmp"
+SlaterMugPaletteData:
 #incbin "Dmp/Slater_palette.dmp"
+SlaterMugMiniData:
 #incbin "Dmp/Slater_minimug.dmp"
-setMugEntry(SlaterMug, SlaterWholeMugData,3,5,3,3)
+setMugEntryManual(SlaterMug, SlaterMugData, SlaterMugMiniData, SlaterMugPaletteData, SlaterMugFramesData, 3,5,3,3)
 
 #define ErikMug 0x3D
-ErikWholeMugData:
+ErikMugData:
 #incbin "Dmp/Erik_mug.dmp"
+ErikMugFramesData:
 #incbin "Dmp/Erik_frames.dmp"
+ErikMugPaletteData:
 #incbin "Dmp/Erik_palette.dmp"
+ErikMugMiniData:
 #incbin "Dmp/Erik_minimug.dmp"
-setMugEntry(ErikMug, ErikWholeMugData,2,5,3,3)
+setMugEntryManual(ErikMug, ErikMugData, ErikMugMiniData, ErikMugPaletteData, ErikMugFramesData, 2,5,3,3)
 
 #define DoryMug 0x3E
-DoryWholeMugData:
+DoryMugData:
 #incbin "Dmp/Dory_mug.dmp"
+DoryMugFramesData:
 #incbin "Dmp/Dory_frames.dmp"
+DoryMugPaletteData:
 #incbin "Dmp/Dory_palette.dmp"
+DoryMugMiniData:
 #incbin "Dmp/Dory_minimug.dmp"
-setMugEntry(DoryMug, DoryWholeMugData,2,5,3,3)
+setMugEntryManual(DoryMug, DoryMugData, DoryMugMiniData, DoryMugPaletteData, DoryMugFramesData, 2,5,3,3)
 
 #define WagnerMug 0x3F
 WagnerMugData:
@@ -508,12 +692,15 @@ WagnerMugMiniData:
 setMugEntryManual(WagnerMug, WagnerMugData, WagnerMugMiniData, WagnerMugPaletteData, WagnerMugFramesData, 2,6,3,4)
 
 #define DebiasMug 0x40
-DebiasWholeMugData:
+DebiasMugData:
 #incbin "Dmp/Debias_mug.dmp"
+DebiasMugFramesData:
 #incbin "Dmp/Debias_frames.dmp"
+DebiasMugPaletteData:
 #incbin "Dmp/Debias_palette.dmp"
+DebiasMugMiniData:
 #incbin "Dmp/Debias_minimug.dmp"
-setMugEntry(DebiasMug, DebiasWholeMugData,2,5,2,3)
+setMugEntryManual(DebiasMug, DebiasMugData, DebiasMugMiniData, DebiasMugPaletteData, DebiasMugFramesData, 2,5,2,3)
 
 #define LeganceMug 0x41
 LeganceMugData:
@@ -565,28 +752,37 @@ OrloMugMiniData:
 setMugEntryManual(OrloMug, OrloMugData, OrloMugMiniData, OrloMugPaletteData, OrloMugFramesData, 3,5,3,3)
 
 #define RobertsMug 0x46
-RobertsWholeMugData:
+RobertsMugData:
 #incbin "Dmp/Roberts_mug.dmp"
+RobertsMugFramesData:
 #incbin "Dmp/Roberts_frames.dmp"
+RobertsMugPaletteData:
 #incbin "Dmp/Roberts_palette.dmp"
+RobertsMugMiniData:
 #incbin "Dmp/Roberts_minimug.dmp"
-setMugEntry(RobertsMug, RobertsWholeMugData,2,5,3,3)
+setMugEntryManual(RobertsMug, RobertsMugData, RobertsMugMiniData, RobertsMugPaletteData, RobertsMugFramesData, 2,5,3,3)
 
 #define ZinqueMug 0x47
-ZinqueWholeMugData:
+ZinqueMugData:
 #incbin "Dmp/Zinque_mug.dmp"
+ZinqueMugFramesData:
 #incbin "Dmp/Zinque_frames.dmp"
+ZinqueMugPaletteData:
 #incbin "Dmp/Zinque_palette.dmp"
+ZinqueMugMiniData:
 #incbin "Dmp/Zinque_minimug.dmp"
-setMugEntry(ZinqueMug, ZinqueWholeMugData,2,5,3,3)
+setMugEntryManual(ZinqueMug, ZinqueMugData, ZinqueMugMiniData, ZinqueMugPaletteData, ZinqueMugFramesData, 2,5,3,3)
 
 #define ScollanMug 0x48
-ScollanWholeMugData:
+ScollanMugData:
 #incbin "Dmp/Scollan_mug.dmp"
+ScollanMugFramesData:
 #incbin "Dmp/Scollan_frames.dmp"
+ScollanMugPaletteData:
 #incbin "Dmp/Scollan_palette.dmp"
+ScollanMugMiniData:
 #incbin "Dmp/Scollan_minimug.dmp"
-setMugEntry(ScollanMug, ScollanWholeMugData,2,5,2,3)
+setMugEntryManual(ScollanMug, ScollanMugData, ScollanMugMiniData, ScollanMugPaletteData, ScollanMugFramesData, 2,5,2,3)
 
 #define MorganMug 0x49
 MorganMugPaletteData:
@@ -594,28 +790,37 @@ MorganMugPaletteData:
 setMugEntryManual(MorganMug, LeganceMugData, LeganceMugMiniData, MorganMugPaletteData, LeganceMugFramesData, 2,5,2,3)
 
 #define EinMug 0x4A
-EinWholeMugData:
+EinMugData:
 #incbin "Dmp/Ein_mug.dmp"
+EinMugFramesData:
 #incbin "Dmp/Ein_frames.dmp"
+EinMugPaletteData:
 #incbin "Dmp/Ein_palette.dmp"
+EinMugMiniData:
 #incbin "Dmp/Ein_minimug.dmp"
-setMugEntry(EinMug, EinWholeMugData,2,5,3,3)
+setMugEntryManual(EinMug, EinMugData, EinMugMiniData, EinMugPaletteData, EinMugFramesData, 2,5,3,3)
 
 #define GuerreroMug 0x4B
-GuerreroWholeMugData:
+GuerreroMugData:
 #incbin "Dmp/Guerrero_mug.dmp"
+GuerreroMugFramesData:
 #incbin "Dmp/Guerrero_frames.dmp"
+GuerreroMugPaletteData:
 #incbin "Dmp/Guerrero_palette.dmp"
+GuerreroMugMiniData:
 #incbin "Dmp/Guerrero_minimug.dmp"
-setMugEntry(GuerreroMug, GuerreroWholeMugData,2,5,3,3)
+setMugEntryManual(GuerreroMug, GuerreroMugData, GuerreroMugMiniData, GuerreroMugPaletteData, GuerreroMugFramesData, 2,5,3,3)
 
 #define FlaerMug 0x4C
-FlaerWholeMugData:
+FlaerMugData:
 #incbin "Dmp/Flaer_mug.dmp"
+FlaerMugFramesData:
 #incbin "Dmp/Flaer_frames.dmp"
+FlaerMugPaletteData:
 #incbin "Dmp/Flaer_palette.dmp"
+FlaerMugMiniData:
 #incbin "Dmp/Flaer_minimug.dmp"
-setMugEntry(FlaerMug, FlaerWholeMugData,2,5,3,3)
+setMugEntryManual(FlaerMug, FlaerMugData, FlaerMugMiniData, FlaerMugPaletteData, FlaerMugFramesData, 2,5,3,3)
 
 #define RandyMug 0x4D
 RandyMugPaletteData:
@@ -649,12 +854,15 @@ RaithMugMiniData:
 setMugEntryManual(RaithMug, RaithMugData, RaithMugMiniData, RaithMugPaletteData, RaithMugFramesData, 2,5,3,3)
 
 #define NarcianMug 0x52
-NarcianWholeMugData:
+NarcianMugData:
 #incbin "Dmp/Narcian_mug.dmp"
+NarcianMugFramesData:
 #incbin "Dmp/Narcian_frames.dmp"
+NarcianMugPaletteData:
 #incbin "Dmp/Narcian_palette.dmp"
+NarcianMugMiniData:
 #incbin "Dmp/Narcian_minimug.dmp"
-setMugEntry(NarcianMug, NarcianWholeMugData,2,5,3,3)
+setMugEntryManual(NarcianMug, NarcianMugData, NarcianMugMiniData, NarcianMugPaletteData, NarcianMugFramesData, 2,5,3,3)
 
 #define WindhamMug 0x53
 WindhamMugPaletteData:
@@ -662,12 +870,15 @@ WindhamMugPaletteData:
 setMugEntryManual(WindhamMug, OrloMugData, OrloMugMiniData, WindhamMugPaletteData, OrloMugFramesData, 3,5,3,3)
 
 #define ArcardoMug 0x54
-ArcardoWholeMugData:
+ArcardoMugData:
 #incbin "Dmp/Arcardo_mug.dmp"
+ArcardoMugFramesData:
 #incbin "Dmp/Arcardo_frames.dmp"
+ArcardoMugPaletteData:
 #incbin "Dmp/Arcardo_palette.dmp"
+ArcardoMugMiniData:
 #incbin "Dmp/Arcardo_minimug.dmp"
-setMugEntry(ArcardoMug, ArcardoWholeMugData,2,5,3,3)
+setMugEntryManual(ArcardoMug, ArcardoMugData, ArcardoMugMiniData, ArcardoMugPaletteData, ArcardoMugFramesData, 2,5,3,3)
 
 #define MartelMug 0x55
 MartelMugPaletteData:
@@ -675,20 +886,26 @@ MartelMugPaletteData:
 setMugEntryManual(MartelMug, OrloMugData, OrloMugMiniData, MartelMugPaletteData, OrloMugFramesData, 3,5,3,3)
 
 #define SiguneMug 0x56
-SiguneWholeMugData:
+SiguneMugData:
 #incbin "Dmp/Sigune_mug.dmp"
+SiguneMugFramesData:
 #incbin "Dmp/Sigune_frames.dmp"
+SiguneMugPaletteData:
 #incbin "Dmp/Sigune_palette.dmp"
+SiguneMugMiniData:
 #incbin "Dmp/Sigune_minimug.dmp"
-setMugEntry(SiguneMug, SiguneWholeMugData,2,5,3,3)
+setMugEntryManual(SiguneMug, SiguneMugData, SiguneMugMiniData, SiguneMugPaletteData, SiguneMugFramesData, 2,5,3,3)
 
 #define RoartzMug 0x57
-RoartzWholeMugData:
+RoartzMugData:
 #incbin "Dmp/Roartz_mug.dmp"
+RoartzMugFramesData:
 #incbin "Dmp/Roartz_frames.dmp"
+RoartzMugPaletteData:
 #incbin "Dmp/Roartz_palette.dmp"
+RoartzMugMiniData:
 #incbin "Dmp/Roartz_minimug.dmp"
-setMugEntry(RoartzMug, RoartzWholeMugData,2,5,2,3)
+setMugEntryManual(RoartzMug, RoartzMugData, RoartzMugMiniData, RoartzMugPaletteData, RoartzMugFramesData, 2,5,2,3)
 
 #define TickMug 0x58
 TickMugPaletteData:
@@ -707,12 +924,15 @@ MonkeMugMiniData:
 setMugEntryManual(MonkeMug, MonkeMugData, MonkeMugMiniData, MonkeMugPaletteData, MonkeMugFramesData, 2,5,3,3)
 
 #define KelMug 0x5A
-KelWholeMugData:
+KelMugData:
 #incbin "Dmp/Kel_mug.dmp"
+KelMugFramesData:
 #incbin "Dmp/Kel_frames.dmp"
+KelMugPaletteData:
 #incbin "Dmp/Kel_palette.dmp"
+KelMugMiniData:
 #incbin "Dmp/Kel_minimug.dmp"
-setMugEntry(KelMug, KelWholeMugData,2,5,3,3)
+setMugEntryManual(KelMug, KelMugData, KelMugMiniData, KelMugPaletteData, KelMugFramesData, 2,5,3,3)
 
 #define SacaeGaidenBossesMug 0x5B
 SacaeGaidenBossesMugPaletteData:
@@ -720,20 +940,26 @@ SacaeGaidenBossesMugPaletteData:
 setMugEntryManual(SacaeGaidenBossesMug, MonkeMugData, MonkeMugMiniData, SacaeGaidenBossesMugPaletteData, MonkeMugFramesData, 2,5,3,3)
 
 #define GalleMug 0x5C
-GalleWholeMugData:
+GalleMugData:
 #incbin "Dmp/Galle_mug.dmp"
+GalleMugFramesData:
 #incbin "Dmp/Galle_frames.dmp"
+GalleMugPaletteData:
 #incbin "Dmp/Galle_palette.dmp"
+GalleMugMiniData:
 #incbin "Dmp/Galle_minimug.dmp"
-setMugEntry(GalleMug, GalleWholeMugData,2,5,3,3)
+setMugEntryManual(GalleMug, GalleMugData, GalleMugMiniData, GalleMugPaletteData, GalleMugFramesData, 2,5,3,3)
 
 #define MurdockMug 0x5D
-MurdockWholeMugData:
+MurdockMugData:
 #incbin "Dmp/Murdock_mug.dmp"
+MurdockMugFramesData:
 #incbin "Dmp/Murdock_frames.dmp"
+MurdockMugPaletteData:
 #incbin "Dmp/Murdock_palette.dmp"
+MurdockMugMiniData:
 #incbin "Dmp/Murdock_minimug.dmp"
-setMugEntry(MurdockMug, MurdockWholeMugData,2,4,3,2)
+setMugEntryManual(MurdockMug, MurdockMugData, MurdockMugMiniData, MurdockMugPaletteData, MurdockMugFramesData, 2,4,3,2)
 
 #define PeresMug 0x5E
 PeresMugData:
@@ -747,100 +973,136 @@ PeresMugMiniData:
 setMugEntryManual(PeresMug, PeresMugData, PeresMugMiniData, PeresMugPaletteData, PeresMugFramesData, 2,6,2,4)
 
 #define ZephielMug 0x5F
-ZephielWholeMugData:
+ZephielMugData:
 #incbin "Dmp/Zephiel_mug.dmp"
+ZephielMugFramesData:
 #incbin "Dmp/Zephiel_frames.dmp"
+ZephielMugPaletteData:
 #incbin "Dmp/Zephiel_palette.dmp"
+ZephielMugMiniData:
 #incbin "Dmp/Zephiel_minimug.dmp"
-setMugEntry(ZephielMug, ZephielWholeMugData,4,4,4,2)
+setMugEntryManual(ZephielMug, ZephielMugData, ZephielMugMiniData, ZephielMugPaletteData, ZephielMugFramesData, 4,4,4,2)
 
 #define BrunnyaMug 0x60
-BrunnyaWholeMugData:
+BrunnyaMugData:
 #incbin "Dmp/Brunnya_mug.dmp"
+BrunnyaMugFramesData:
 #incbin "Dmp/Brunnya_frames.dmp"
+BrunnyaMugPaletteData:
 #incbin "Dmp/Brunnya_palette.dmp"
+BrunnyaMugMiniData:
 #incbin "Dmp/Brunnya_minimug.dmp"
-setMugEntry(BrunnyaMug, BrunnyaWholeMugData,2,5,3,3)
+setMugEntryManual(BrunnyaMug, BrunnyaMugData, BrunnyaMugMiniData, BrunnyaMugPaletteData, BrunnyaMugFramesData, 2,5,3,3)
 
 #define JahnMug 0x61
-JahnWholeMugData:
+JahnMugData:
 #incbin "Dmp/Jahn_mug.dmp"
+JahnMugFramesData:
 #incbin "Dmp/Jahn_frames.dmp"
+JahnMugPaletteData:
 #incbin "Dmp/Jahn_palette.dmp"
+JahnMugMiniData:
 #incbin "Dmp/Jahn_minimug.dmp"
-setMugEntry(JahnMug, JahnWholeMugData,3,5,3,3)
+setMugEntryManual(JahnMug, JahnMugData, JahnMugMiniData, JahnMugPaletteData, JahnMugFramesData, 3,5,3,3)
 
 #define IdunnHumanMug 0x62
-IdunnHumanWholeMugData:
+IdunnHumanMugData:
 #incbin "Dmp/IdunnHuman_mug.dmp"
+IdunnHumanMugFramesData:
 #incbin "Dmp/IdunnHuman_frames.dmp"
+IdunnHumanMugPaletteData:
 #incbin "Dmp/IdunnHuman_palette.dmp"
+IdunnHumanMugMiniData:
 #incbin "Dmp/IdunnHuman_minimug.dmp"
-setMugEntry(IdunnHumanMug, IdunnHumanWholeMugData,2,6,3,4)
+setMugEntryManual(IdunnHumanMug, IdunnHumanMugData, IdunnHumanMugMiniData, IdunnHumanMugPaletteData, IdunnHumanMugFramesData, 2,6,3,4)
 
 #define IdunnDragonMug 0x63
-IdunnDragonWholeMugData:
+IdunnDragonMugData:
 #incbin "Dmp/IdunnDragon_mug.dmp"
+IdunnDragonMugFramesData:
 #incbin "Dmp/IdunnDragon_frames.dmp"
+IdunnDragonMugPaletteData:
 #incbin "Dmp/IdunnDragon_palette.dmp"
+IdunnDragonMugMiniData:
 #incbin "Dmp/IdunnDragon_minimug.dmp"
-setMugEntry(IdunnDragonMug, IdunnDragonWholeMugData,2,10,3,4)
+setMugEntryManual(IdunnDragonMug, IdunnDragonMugData, IdunnDragonMugMiniData, IdunnDragonMugPaletteData, IdunnDragonMugFramesData, 2,10,3,4)
 
 #define BanditKidMug 0x64
-BanditKidWholeMugData:
+BanditKidMugData:
 #incbin "Dmp/BanditKid_mug.dmp"
+BanditKidMugFramesData:
 #incbin "Dmp/BanditKid_frames.dmp"
+BanditKidMugPaletteData:
 #incbin "Dmp/BanditKid_palette.dmp"
+BanditKidMugMiniData:
 #incbin "Dmp/BanditKid_minimug.dmp"
-setMugEntry(BanditKidMug, BanditKidWholeMugData,2,6,2,4)
+setMugEntryManual(BanditKidMug, BanditKidMugData, 0x0, BanditKidMugPaletteData, BanditKidMugFramesData, 2,6,2,4)
 
 #define IdunnHoodMug 0x65
-IdunnHoodWholeMugData:
+IdunnHoodMugData:
 #incbin "Dmp/IdunnHood_mug.dmp"
+IdunnHoodMugFramesData:
 #incbin "Dmp/IdunnHood_frames.dmp"
+IdunnHoodMugPaletteData:
 #incbin "Dmp/IdunnHood_palette.dmp"
+IdunnHoodMugMiniData:
 #incbin "Dmp/IdunnHood_minimug.dmp"
-setMugEntry(IdunnHoodMug, IdunnHoodWholeMugData,2,6,3,4)
+setMugEntryManual(IdunnHoodMug, IdunnHoodMugData, IdunnHoodMugMiniData, IdunnHoodMugPaletteData, IdunnHoodMugFramesData, 2,6,3,4)
 
 #define HectorBloodMug 0x66
-HectorBloodWholeMugData:
+HectorBloodMugData:
 #incbin "Dmp/HectorBlood_mug.dmp"
+HectorBloodMugFramesData:
 #incbin "Dmp/HectorBlood_frames.dmp"
+HectorBloodMugPaletteData:
 #incbin "Dmp/HectorBlood_palette.dmp"
+HectorBloodMugMiniData:
 #incbin "Dmp/HectorBlood_minimug.dmp"
-setMugEntry(HectorBloodMug, HectorBloodWholeMugData,2,5,3,2)
+setMugEntryManual(HectorBloodMug, HectorBloodMugData, 0x0, HectorBloodMugPaletteData, HectorBloodMugFramesData, 2,5,3,2)
 
 #define MordredMug 0x67
-MordredWholeMugData:
+MordredMugData:
 #incbin "Dmp/Mordred_mug.dmp"
+MordredMugFramesData:
 #incbin "Dmp/Mordred_frames.dmp"
+MordredMugPaletteData:
 #incbin "Dmp/Mordred_palette.dmp"
+MordredMugMiniData:
 #incbin "Dmp/Mordred_minimug.dmp"
-setMugEntry(MordredMug, MordredWholeMugData,3,6,4,4)
+setMugEntryManual(MordredMug, MordredMugData, 0x0, MordredMugPaletteData, MordredMugFramesData, 3,6,4,4)
 
 #define GenericPegasusKnightMug 0x68
-GenericPegasusKnightWholeMugData:
+GenericPegasusKnightMugData:
 #incbin "Dmp/GenericPegasusKnight_mug.dmp"
+GenericPegasusKnightMugFramesData:
 #incbin "Dmp/GenericPegasusKnight_frames.dmp"
+GenericPegasusKnightMugPaletteData:
 #incbin "Dmp/GenericPegasusKnight_palette.dmp"
+GenericPegasusKnightMugMiniData:
 #incbin "Dmp/GenericPegasusKnight_minimug.dmp"
-setMugEntry(GenericPegasusKnightMug, GenericPegasusKnightWholeMugData,2,6,3,4)
+setMugEntryManual(GenericPegasusKnightMug, GenericPegasusKnightMugData, 0x0, GenericPegasusKnightMugPaletteData, GenericPegasusKnightMugFramesData, 2,6,3,4)
 
 #define PriestMug 0x69
-PriestWholeMugData:
+PriestMugData:
 #incbin "Dmp/Priest_mug.dmp"
+PriestMugFramesData:
 #incbin "Dmp/Priest_frames.dmp"
+PriestMugPaletteData:
 #incbin "Dmp/Priest_palette.dmp"
+PriestMugMiniData:
 #incbin "Dmp/Priest_minimug.dmp"
-setMugEntry(PriestMug, PriestWholeMugData,2,5,2,3)
+setMugEntryManual(PriestMug, PriestMugData, 0x0, PriestMugPaletteData, PriestMugFramesData, 2,5,2,3)
 
 #define SacaeanVillagerMug 0x6A
-SacaeanVillagerWholeMugData:
+SacaeanVillagerMugData:
 #incbin "Dmp/SacaeanVillager_mug.dmp"
+SacaeanVillagerMugFramesData:
 #incbin "Dmp/SacaeanVillager_frames.dmp"
+SacaeanVillagerMugPaletteData:
 #incbin "Dmp/SacaeanVillager_palette.dmp"
+SacaeanVillagerMugMiniData:
 #incbin "Dmp/SacaeanVillager_minimug.dmp"
-setMugEntry(SacaeanVillagerMug, SacaeanVillagerWholeMugData,2,6,3,4)
+setMugEntryManual(SacaeanVillagerMug, SacaeanVillagerMugData, 0x0, SacaeanVillagerMugPaletteData, SacaeanVillagerMugFramesData, 2,6,3,4)
 
 #define Soldier1Mug 0x6B
 Soldier1MugData:
@@ -851,53 +1113,59 @@ Soldier1MugPaletteData:
 #incbin "Dmp/Soldier1_palette.dmp"
 Soldier1MugMiniData:
 #incbin "Dmp/Soldier1_minimug.dmp"
-setMugEntryManual(Soldier1Mug, Soldier1MugData, Soldier1MugMiniData, Soldier1MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier1Mug, Soldier1MugData, 0x0, Soldier1MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier2Mug 0x6C
 Soldier2MugPaletteData:
 #incbin "Dmp/Soldier2_palette.dmp"
-setMugEntryManual(Soldier2Mug, Soldier1MugData, Soldier1MugMiniData, Soldier2MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier2Mug, Soldier1MugData, 0x0, Soldier2MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier3Mug 0x6D
 Soldier3MugPaletteData:
 #incbin "Dmp/Soldier3_palette.dmp"
-setMugEntryManual(Soldier3Mug, Soldier1MugData, Soldier1MugMiniData, Soldier3MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier3Mug, Soldier1MugData, 0x0, Soldier3MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier4Mug 0x6E
 Soldier4MugPaletteData:
 #incbin "Dmp/Soldier4_palette.dmp"
-setMugEntryManual(Soldier4Mug, Soldier1MugData, Soldier1MugMiniData, Soldier4MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier4Mug, Soldier1MugData, 0x0, Soldier4MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier5Mug 0x6F
 Soldier5MugPaletteData:
 #incbin "Dmp/Soldier5_palette.dmp"
-setMugEntryManual(Soldier5Mug, Soldier1MugData, Soldier1MugMiniData, Soldier5MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier5Mug, Soldier1MugData, 0x0, Soldier5MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier6Mug 0x70
 Soldier6MugPaletteData:
 #incbin "Dmp/Soldier6_palette.dmp"
-setMugEntryManual(Soldier6Mug, Soldier1MugData, Soldier1MugMiniData, Soldier6MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier6Mug, Soldier1MugData, 0x0, Soldier6MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define Soldier7Mug 0x71
 Soldier7MugPaletteData:
 #incbin "Dmp/Soldier7_palette.dmp"
-setMugEntryManual(Soldier7Mug, Soldier1MugData, Soldier1MugMiniData, Soldier7MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
+setMugEntryManual(Soldier7Mug, Soldier1MugData, 0x0, Soldier7MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
 #define MaryMug 0x72
-MaryWholeMugData:
+MaryMugData:
 #incbin "Dmp/Mary_mug.dmp"
+MaryMugFramesData:
 #incbin "Dmp/Mary_frames.dmp"
+MaryMugPaletteData:
 #incbin "Dmp/Mary_palette.dmp"
+MaryMugMiniData:
 #incbin "Dmp/Mary_minimug.dmp"
-setMugEntry(MaryMug, MaryWholeMugData,2,5,3,3)
+setMugEntryManual(MaryMug, MaryMugData, 0x0, MaryMugPaletteData, MaryMugFramesData, 2,5,3,3)
 
 #define MieuMug 0x73
-MieuWholeMugData:
+MieuMugData:
 #incbin "Dmp/Mieu_mug.dmp"
+MieuMugFramesData:
 #incbin "Dmp/Mieu_frames.dmp"
+MieuMugPaletteData:
 #incbin "Dmp/Mieu_palette.dmp"
+MieuMugMiniData:
 #incbin "Dmp/Mieu_minimug.dmp"
-setMugEntry(MieuMug, MieuWholeMugData,2,7,3,5)
+setMugEntryManual(MieuMug, MieuMugData, 0x0, MieuMugPaletteData, MieuMugFramesData, 2,7,3,5)
 
 #define Villager1Mug 0x74
 Villager1MugData:
@@ -908,7 +1176,7 @@ Villager1MugPaletteData:
 #incbin "Dmp/Villager1_palette.dmp"
 Villager1MugMiniData:
 #incbin "Dmp/Villager1_minimug.dmp"
-setMugEntryManual(Villager1Mug, Villager1MugData, Villager1MugMiniData, Villager1MugPaletteData, Villager1MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager1Mug, Villager1MugData, 0x0, Villager1MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
 #define Villager2Mug 0x75
 Villager2MugData:
@@ -919,7 +1187,7 @@ Villager2MugPaletteData:
 #incbin "Dmp/Villager2_palette.dmp"
 Villager2MugMiniData:
 #incbin "Dmp/Villager2_minimug.dmp"
-setMugEntryManual(Villager2Mug, Villager2MugData, Villager2MugMiniData, Villager2MugPaletteData, Villager2MugFramesData, 4,6,3,4)
+setMugEntryManual(Villager2Mug, Villager2MugData, 0x0, Villager2MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
 #define Villager3Mug 0x76
 Villager3MugData:
@@ -930,7 +1198,7 @@ Villager3MugPaletteData:
 #incbin "Dmp/Villager3_palette.dmp"
 Villager3MugMiniData:
 #incbin "Dmp/Villager3_minimug.dmp"
-setMugEntryManual(Villager3Mug, Villager3MugData, Villager3MugMiniData, Villager3MugPaletteData, Villager3MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager3Mug, Villager3MugData, 0x0, Villager3MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
 #define Villager4Mug 0x77
 Villager4MugData:
@@ -941,7 +1209,7 @@ Villager4MugPaletteData:
 #incbin "Dmp/Villager4_palette.dmp"
 Villager4MugMiniData:
 #incbin "Dmp/Villager4_minimug.dmp"
-setMugEntryManual(Villager4Mug, Villager4MugData, Villager4MugMiniData, Villager4MugPaletteData, Villager4MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager4Mug, Villager4MugData, 0x0, Villager4MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
 #define Villager5Mug 0x78
 Villager5MugData:
@@ -952,7 +1220,7 @@ Villager5MugPaletteData:
 #incbin "Dmp/Villager5_palette.dmp"
 Villager5MugMiniData:
 #incbin "Dmp/Villager5_minimug.dmp"
-setMugEntryManual(Villager5Mug, Villager5MugData, Villager5MugMiniData, Villager5MugPaletteData, Villager5MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager5Mug, Villager5MugData, 0x0, Villager5MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
 #define Villager6Mug 0x79
 Villager6MugData:
@@ -963,7 +1231,7 @@ Villager6MugPaletteData:
 #incbin "Dmp/Villager6_palette.dmp"
 Villager6MugMiniData:
 #incbin "Dmp/Villager6_minimug.dmp"
-setMugEntryManual(Villager6Mug, Villager6MugData, Villager6MugMiniData, Villager6MugPaletteData, Villager6MugFramesData, 2,7,2,4)
+setMugEntryManual(Villager6Mug, Villager6MugData, 0x0, Villager6MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
 #define Villager7Mug 0x7A
 Villager7MugData:
@@ -974,7 +1242,7 @@ Villager7MugPaletteData:
 #incbin "Dmp/Villager7_palette.dmp"
 Villager7MugMiniData:
 #incbin "Dmp/Villager7_minimug.dmp"
-setMugEntryManual(Villager7Mug, Villager7MugData, Villager7MugMiniData, Villager7MugPaletteData, Villager7MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager7Mug, Villager7MugData, 0x0, Villager7MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
 #define Villager8Mug 0x7B
 Villager8MugData:
@@ -985,7 +1253,7 @@ Villager8MugPaletteData:
 #incbin "Dmp/Villager8_palette.dmp"
 Villager8MugMiniData:
 #incbin "Dmp/Villager8_minimug.dmp"
-setMugEntryManual(Villager8Mug, Villager8MugData, Villager8MugMiniData, Villager8MugPaletteData, Villager8MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager8Mug, Villager8MugData, 0x0, Villager8MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
 #define Villager9Mug 0x7C
 Villager9MugData:
@@ -996,7 +1264,7 @@ Villager9MugPaletteData:
 #incbin "Dmp/Villager9_palette.dmp"
 Villager9MugMiniData:
 #incbin "Dmp/Villager9_minimug.dmp"
-setMugEntryManual(Villager9Mug, Villager9MugData, Villager9MugMiniData, Villager9MugPaletteData, Villager9MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager9Mug, Villager9MugData, 0x0, Villager9MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
 #define Villager10Mug 0x7D
 Villager10MugData:
@@ -1007,7 +1275,7 @@ Villager10MugPaletteData:
 #incbin "Dmp/Villager10_palette.dmp"
 Villager10MugMiniData:
 #incbin "Dmp/Villager10_minimug.dmp"
-setMugEntryManual(Villager10Mug, Villager10MugData, Villager10MugMiniData, Villager10MugPaletteData, Villager10MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager10Mug, Villager10MugData, 0x0, Villager10MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
 #define Villager11Mug 0x7E
 Villager11MugData:
@@ -1018,7 +1286,7 @@ Villager11MugPaletteData:
 #incbin "Dmp/Villager11_palette.dmp"
 Villager11MugMiniData:
 #incbin "Dmp/Villager11_minimug.dmp"
-setMugEntryManual(Villager11Mug, Villager11MugData, Villager11MugMiniData, Villager11MugPaletteData, Villager11MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager11Mug, Villager11MugData, 0x0, Villager11MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
 #define Villager12Mug 0x7F
 Villager12MugData:
@@ -1029,245 +1297,245 @@ Villager12MugPaletteData:
 #incbin "Dmp/Villager12_palette.dmp"
 Villager12MugMiniData:
 #incbin "Dmp/Villager12_minimug.dmp"
-setMugEntryManual(Villager12Mug, Villager12MugData, Villager12MugMiniData, Villager12MugPaletteData, Villager12MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager12Mug, Villager12MugData, 0x0, Villager12MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
 #define Villager13Mug 0x80
 Villager13MugPaletteData:
 #incbin "Dmp/Villager13_palette.dmp"
-setMugEntryManual(Villager13Mug, Villager1MugData, Villager1MugMiniData, Villager13MugPaletteData, Villager1MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager13Mug, Villager1MugData, 0x0, Villager13MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
 #define Villager14Mug 0x81
 Villager14MugPaletteData:
 #incbin "Dmp/Villager14_palette.dmp"
-setMugEntryManual(Villager14Mug, Villager2MugData, Villager2MugMiniData, Villager14MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager14Mug, Villager2MugData, 0x0, Villager14MugPaletteData, Villager2MugFramesData, 4,6,4,4)
 
 #define Villager15Mug 0x82
 Villager15MugPaletteData:
 #incbin "Dmp/Villager15_palette.dmp"
-setMugEntryManual(Villager15Mug, Villager3MugData, Villager3MugMiniData, Villager15MugPaletteData, Villager3MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager15Mug, Villager3MugData, 0x0, Villager15MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
 #define Villager16Mug 0x83
 Villager16MugPaletteData:
 #incbin "Dmp/Villager16_palette.dmp"
-setMugEntryManual(Villager16Mug, Villager4MugData, Villager4MugMiniData, Villager16MugPaletteData, Villager4MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager16Mug, Villager4MugData, 0x0, Villager16MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
 #define Villager17Mug 0x84
 Villager17MugPaletteData:
 #incbin "Dmp/Villager17_palette.dmp"
-setMugEntryManual(Villager17Mug, Villager5MugData, Villager5MugMiniData, Villager17MugPaletteData, Villager5MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager17Mug, Villager5MugData, 0x0, Villager17MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
 #define Villager18Mug 0x85
 Villager18MugPaletteData:
 #incbin "Dmp/Villager18_palette.dmp"
-setMugEntryManual(Villager18Mug, Villager6MugData, Villager6MugMiniData, Villager18MugPaletteData, Villager6MugFramesData, 2,7,2,4)
+setMugEntryManual(Villager18Mug, Villager6MugData, 0x0, Villager18MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
 #define Villager19Mug 0x86
 Villager19MugPaletteData:
 #incbin "Dmp/Villager19_palette.dmp"
-setMugEntryManual(Villager19Mug, Villager7MugData, Villager7MugMiniData, Villager19MugPaletteData, Villager7MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager19Mug, Villager7MugData, 0x0, Villager19MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
 #define Villager20Mug 0x87
 Villager20MugPaletteData:
 #incbin "Dmp/Villager20_palette.dmp"
-setMugEntryManual(Villager20Mug, Villager8MugData, Villager8MugMiniData, Villager20MugPaletteData, Villager8MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager20Mug, Villager8MugData, 0x0, Villager20MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
 #define Villager21Mug 0x88
 Villager21MugPaletteData:
 #incbin "Dmp/Villager21_palette.dmp"
-setMugEntryManual(Villager21Mug, Villager9MugData, Villager9MugMiniData, Villager21MugPaletteData, Villager9MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager21Mug, Villager9MugData, 0x0, Villager21MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
 #define Villager22Mug 0x89
 Villager22MugPaletteData:
 #incbin "Dmp/Villager22_palette.dmp"
-setMugEntryManual(Villager22Mug, Villager10MugData, Villager10MugMiniData, Villager22MugPaletteData, Villager10MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager22Mug, Villager10MugData, 0x0, Villager22MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
 #define Villager23Mug 0x8A
 Villager23MugPaletteData:
 #incbin "Dmp/Villager23_palette.dmp"
-setMugEntryManual(Villager23Mug, Villager11MugData, Villager11MugMiniData, Villager23MugPaletteData, Villager11MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager23Mug, Villager11MugData, 0x0, Villager23MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
 #define Villager24Mug 0x8B
 Villager24MugPaletteData:
 #incbin "Dmp/Villager24_palette.dmp"
-setMugEntryManual(Villager24Mug, Villager12MugData, Villager12MugMiniData, Villager24MugPaletteData, Villager12MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager24Mug, Villager12MugData, 0x0, Villager24MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
 #define Villager25Mug 0x8C
 Villager25MugPaletteData:
 #incbin "Dmp/Villager25_palette.dmp"
-setMugEntryManual(Villager25Mug, Villager1MugData, Villager1MugMiniData, Villager25MugPaletteData, Villager1MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager25Mug, Villager1MugData, 0x0, Villager25MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
 #define Villager26Mug 0x8D
 Villager26MugPaletteData:
 #incbin "Dmp/Villager26_palette.dmp"
-setMugEntryManual(Villager26Mug, Villager2MugData, Villager2MugMiniData, Villager26MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager26Mug, Villager2MugData, 0x0, Villager26MugPaletteData, Villager2MugFramesData, 4,6,4,4)
 
 #define Villager27Mug 0x8E
 Villager27MugPaletteData:
 #incbin "Dmp/Villager27_palette.dmp"
-setMugEntryManual(Villager27Mug, Villager3MugData, Villager3MugMiniData, Villager27MugPaletteData, Villager3MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager27Mug, Villager3MugData, 0x0, Villager27MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
 #define Villager28Mug 0x8F
 Villager28MugPaletteData:
 #incbin "Dmp/Villager28_palette.dmp"
-setMugEntryManual(Villager28Mug, Villager4MugData, Villager4MugMiniData, Villager28MugPaletteData, Villager4MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager28Mug, Villager4MugData, 0x0, Villager28MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
 #define Villager29Mug 0x90
 Villager29MugPaletteData:
 #incbin "Dmp/Villager29_palette.dmp"
-setMugEntryManual(Villager29Mug, Villager5MugData, Villager5MugMiniData, Villager29MugPaletteData, Villager5MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager29Mug, Villager5MugData, 0x0, Villager29MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
 #define Villager30Mug 0x91
 Villager30MugPaletteData:
 #incbin "Dmp/Villager30_palette.dmp"
-setMugEntryManual(Villager30Mug, Villager6MugData, Villager6MugMiniData, Villager30MugPaletteData, Villager6MugFramesData, 2,7,2,4)
+setMugEntryManual(Villager30Mug, Villager6MugData, 0x0, Villager30MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
 #define Villager31Mug 0x92
 Villager31MugPaletteData:
 #incbin "Dmp/Villager31_palette.dmp"
-setMugEntryManual(Villager31Mug, Villager7MugData, Villager7MugMiniData, Villager31MugPaletteData, Villager7MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager31Mug, Villager7MugData, 0x0, Villager31MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
 #define Villager32Mug 0x93
 Villager32MugPaletteData:
 #incbin "Dmp/Villager32_palette.dmp"
-setMugEntryManual(Villager32Mug, Villager8MugData, Villager8MugMiniData, Villager32MugPaletteData, Villager8MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager32Mug, Villager8MugData, 0x0, Villager32MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
 #define Villager33Mug 0x94
 Villager33MugPaletteData:
 #incbin "Dmp/Villager33_palette.dmp"
-setMugEntryManual(Villager33Mug, Villager9MugData, Villager9MugMiniData, Villager33MugPaletteData, Villager9MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager33Mug, Villager9MugData, 0x0, Villager33MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
 #define Villager34Mug 0x95
 Villager34MugPaletteData:
 #incbin "Dmp/Villager34_palette.dmp"
-setMugEntryManual(Villager34Mug, Villager10MugData, Villager10MugMiniData, Villager34MugPaletteData, Villager10MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager34Mug, Villager10MugData, 0x0, Villager34MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
 #define Villager35Mug 0x96
 Villager35MugPaletteData:
 #incbin "Dmp/Villager35_palette.dmp"
-setMugEntryManual(Villager35Mug, Villager11MugData, Villager11MugMiniData, Villager35MugPaletteData, Villager11MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager35Mug, Villager11MugData, 0x0, Villager35MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
 #define Villager36Mug 0x97
 Villager36MugPaletteData:
 #incbin "Dmp/Villager36_palette.dmp"
-setMugEntryManual(Villager36Mug, Villager12MugData, Villager12MugMiniData, Villager36MugPaletteData, Villager12MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager36Mug, Villager12MugData, 0x0, Villager36MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
 #define Villager37Mug 0x98
 Villager37MugPaletteData:
 #incbin "Dmp/Villager37_palette.dmp"
-setMugEntryManual(Villager37Mug, Villager1MugData, Villager1MugMiniData, Villager37MugPaletteData, Villager1MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager37Mug, Villager1MugData, 0x0, Villager37MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
 #define Villager38Mug 0x99
 Villager38MugPaletteData:
 #incbin "Dmp/Villager38_palette.dmp"
-setMugEntryManual(Villager38Mug, Villager2MugData, Villager2MugMiniData, Villager38MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager38Mug, Villager2MugData, 0x0, Villager38MugPaletteData, Villager2MugFramesData, 4,6,4,4)
 
 #define Villager39Mug 0x9A
 Villager39MugPaletteData:
 #incbin "Dmp/Villager39_palette.dmp"
-setMugEntryManual(Villager39Mug, Villager3MugData, Villager3MugMiniData, Villager39MugPaletteData, Villager3MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager39Mug, Villager3MugData, 0x0, Villager39MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
 #define Villager40Mug 0x9B
 Villager40MugPaletteData:
 #incbin "Dmp/Villager40_palette.dmp"
-setMugEntryManual(Villager40Mug, Villager4MugData, Villager4MugMiniData, Villager40MugPaletteData, Villager4MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager40Mug, Villager4MugData, 0x0, Villager40MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
 #define Villager41Mug 0x9C
 Villager41MugPaletteData:
 #incbin "Dmp/Villager41_palette.dmp"
-setMugEntryManual(Villager41Mug, Villager5MugData, Villager5MugMiniData, Villager41MugPaletteData, Villager5MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager41Mug, Villager5MugData, 0x0, Villager41MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
 #define Villager42Mug 0x9D
 Villager42MugPaletteData:
 #incbin "Dmp/Villager42_palette.dmp"
-setMugEntryManual(Villager42Mug, Villager6MugData, Villager6MugMiniData, Villager42MugPaletteData, Villager6MugFramesData, 2,7,2,4)
+setMugEntryManual(Villager42Mug, Villager6MugData, 0x0, Villager42MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
 #define Villager43Mug 0x9E
 Villager43MugPaletteData:
 #incbin "Dmp/Villager43_palette.dmp"
-setMugEntryManual(Villager43Mug, Villager7MugData, Villager7MugMiniData, Villager43MugPaletteData, Villager7MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager43Mug, Villager7MugData, 0x0, Villager43MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
 #define Villager44Mug 0x9F
 Villager44MugPaletteData:
 #incbin "Dmp/Villager44_palette.dmp"
-setMugEntryManual(Villager44Mug, Villager8MugData, Villager8MugMiniData, Villager44MugPaletteData, Villager8MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager44Mug, Villager8MugData, 0x0, Villager44MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
 #define Villager45Mug 0xA0
 Villager45MugPaletteData:
 #incbin "Dmp/Villager45_palette.dmp"
-setMugEntryManual(Villager45Mug, Villager9MugData, Villager9MugMiniData, Villager45MugPaletteData, Villager9MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager45Mug, Villager9MugData, 0x0, Villager45MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
 #define Villager46Mug 0xA1
 Villager46MugPaletteData:
 #incbin "Dmp/Villager46_palette.dmp"
-setMugEntryManual(Villager46Mug, Villager10MugData, Villager10MugMiniData, Villager46MugPaletteData, Villager10MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager46Mug, Villager10MugData, 0x0, Villager46MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
 #define Villager47Mug 0xA2
 Villager47MugPaletteData:
 #incbin "Dmp/Villager47_palette.dmp"
-setMugEntryManual(Villager47Mug, Villager11MugData, Villager11MugMiniData, Villager47MugPaletteData, Villager11MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager47Mug, Villager11MugData, 0x0, Villager47MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
 #define Villager48Mug 0xA3
 Villager48MugPaletteData:
 #incbin "Dmp/Villager48_palette.dmp"
-setMugEntryManual(Villager48Mug, Villager12MugData, Villager12MugMiniData, Villager48MugPaletteData, Villager12MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager48Mug, Villager12MugData, 0x0, Villager48MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
 #define Villager49Mug 0xA4
 Villager49MugPaletteData:
 #incbin "Dmp/Villager49_palette.dmp"
-setMugEntryManual(Villager49Mug, Villager1MugData, Villager1MugMiniData, Villager49MugPaletteData, Villager1MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager49Mug, Villager1MugData, 0x0, Villager49MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
 #define Villager50Mug 0xA5
 Villager50MugPaletteData:
 #incbin "Dmp/Villager50_palette.dmp"
-setMugEntryManual(Villager50Mug, Villager2MugData, Villager2MugMiniData, Villager50MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager50Mug, Villager2MugData, 0x0, Villager50MugPaletteData, Villager2MugFramesData, 4,6,4,4)
 
 #define Villager51Mug 0xA6
 Villager51MugPaletteData:
 #incbin "Dmp/Villager51_palette.dmp"
-setMugEntryManual(Villager51Mug, Villager3MugData, Villager3MugMiniData, Villager51MugPaletteData, Villager3MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager51Mug, Villager3MugData, 0x0, Villager51MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
 #define Villager52Mug 0xA7
 Villager52MugPaletteData:
 #incbin "Dmp/Villager52_palette.dmp"
-setMugEntryManual(Villager52Mug, Villager4MugData, Villager4MugMiniData, Villager52MugPaletteData, Villager4MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager52Mug, Villager4MugData, 0x0, Villager52MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
 #define Villager53Mug 0xA8
 Villager53MugPaletteData:
 #incbin "Dmp/Villager53_palette.dmp"
-setMugEntryManual(Villager53Mug, Villager5MugData, Villager5MugMiniData, Villager53MugPaletteData, Villager5MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager53Mug, Villager5MugData, 0x0, Villager53MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
 #define Villager54Mug 0xA9
 Villager54MugPaletteData:
 #incbin "Dmp/Villager54_palette.dmp"
-setMugEntryManual(Villager54Mug, Villager6MugData, Villager6MugMiniData, Villager54MugPaletteData, Villager6MugFramesData, 2,7,2,4)
+setMugEntryManual(Villager54Mug, Villager6MugData, 0x0, Villager54MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
 #define Villager55Mug 0xAA
 Villager55MugPaletteData:
 #incbin "Dmp/Villager55_palette.dmp"
-setMugEntryManual(Villager55Mug, Villager7MugData, Villager7MugMiniData, Villager55MugPaletteData, Villager7MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager55Mug, Villager7MugData, 0x0, Villager55MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
 #define Villager56Mug 0xAB
 Villager56MugPaletteData:
 #incbin "Dmp/Villager56_palette.dmp"
-setMugEntryManual(Villager56Mug, Villager8MugData, Villager8MugMiniData, Villager56MugPaletteData, Villager8MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager56Mug, Villager8MugData, 0x0, Villager56MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
 #define Villager57Mug 0xAC
 Villager57MugPaletteData:
 #incbin "Dmp/Villager57_palette.dmp"
-setMugEntryManual(Villager57Mug, Villager9MugData, Villager9MugMiniData, Villager57MugPaletteData, Villager9MugFramesData, 2,5,3,3)
+setMugEntryManual(Villager57Mug, Villager9MugData, 0x0, Villager57MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
 #define Villager58Mug 0xAD
 Villager58MugPaletteData:
 #incbin "Dmp/Villager58_palette.dmp"
-setMugEntryManual(Villager58Mug, Villager10MugData, Villager10MugMiniData, Villager58MugPaletteData, Villager10MugFramesData, 2,6,3,4)
+setMugEntryManual(Villager58Mug, Villager10MugData, 0x0, Villager58MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
 #define Villager59Mug 0xAE
 Villager59MugPaletteData:
 #incbin "Dmp/Villager59_palette.dmp"
-setMugEntryManual(Villager59Mug, Villager11MugData, Villager11MugMiniData, Villager59MugPaletteData, Villager11MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager59Mug, Villager11MugData, 0x0, Villager59MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
 #define Villager60Mug 0xAF
 Villager60MugPaletteData:
 #incbin "Dmp/Villager60_palette.dmp"
-setMugEntryManual(Villager60Mug, Villager12MugData, Villager12MugMiniData, Villager60MugPaletteData, Villager12MugFramesData, 3,7,3,5)
+setMugEntryManual(Villager60Mug, Villager12MugData, 0x0, Villager60MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 

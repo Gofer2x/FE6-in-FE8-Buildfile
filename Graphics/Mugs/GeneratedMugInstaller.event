@@ -840,7 +840,7 @@ setMugEntryManual(RoseMug, ScottMugData, ScottMugMiniData, RoseMugPaletteData, S
 #define OatesMug 0x50
 OatesMugPaletteData:
 #incbin "Dmp/Oates_palette.dmp"
-setMugEntryManual(OatesMug, PeresMugData, PeresMugMiniData, OatesMugPaletteData, PeresMugFramesData, 2,6,2,3)
+setMugEntryManual(OatesMug, PeresMugData, PeresMugMiniData, OatesMugPaletteData, PeresMugFramesData, 2,6,2,4)
 
 #define RaithMug 0x51
 RaithMugData:
@@ -1307,7 +1307,7 @@ setMugEntryManual(Villager13Mug, Villager1MugData, 0x0, Villager13MugPaletteData
 #define Villager14Mug 0x81
 Villager14MugPaletteData:
 #incbin "Dmp/Villager14_palette.dmp"
-setMugEntryManual(Villager14Mug, Villager2MugData, 0x0, Villager14MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager14Mug, Villager2MugData, 0x0, Villager14MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
 #define Villager15Mug 0x82
 Villager15MugPaletteData:
@@ -1367,7 +1367,7 @@ setMugEntryManual(Villager25Mug, Villager1MugData, 0x0, Villager25MugPaletteData
 #define Villager26Mug 0x8D
 Villager26MugPaletteData:
 #incbin "Dmp/Villager26_palette.dmp"
-setMugEntryManual(Villager26Mug, Villager2MugData, 0x0, Villager26MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager26Mug, Villager2MugData, 0x0, Villager26MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
 #define Villager27Mug 0x8E
 Villager27MugPaletteData:
@@ -1427,7 +1427,7 @@ setMugEntryManual(Villager37Mug, Villager1MugData, 0x0, Villager37MugPaletteData
 #define Villager38Mug 0x99
 Villager38MugPaletteData:
 #incbin "Dmp/Villager38_palette.dmp"
-setMugEntryManual(Villager38Mug, Villager2MugData, 0x0, Villager38MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager38Mug, Villager2MugData, 0x0, Villager38MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
 #define Villager39Mug 0x9A
 Villager39MugPaletteData:
@@ -1487,7 +1487,7 @@ setMugEntryManual(Villager49Mug, Villager1MugData, 0x0, Villager49MugPaletteData
 #define Villager50Mug 0xA5
 Villager50MugPaletteData:
 #incbin "Dmp/Villager50_palette.dmp"
-setMugEntryManual(Villager50Mug, Villager2MugData, 0x0, Villager50MugPaletteData, Villager2MugFramesData, 4,6,4,4)
+setMugEntryManual(Villager50Mug, Villager2MugData, 0x0, Villager50MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
 #define Villager51Mug 0xA6
 Villager51MugPaletteData:

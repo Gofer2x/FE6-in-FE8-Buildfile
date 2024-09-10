@@ -336,6 +336,11 @@ for name in names:
                     ]
             else:
                 ogName = swap[0]
+                a,b,c,d = mugsData[ogName]
+                a = str(a)
+                b = str(b)
+                c = str(c)
+                d = str(d)
                 if name not in noMinis:
                     templateString = [
                         #"ALIGN 4\n",

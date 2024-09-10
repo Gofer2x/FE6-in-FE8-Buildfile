@@ -236,7 +236,7 @@ Let's wrap things up.[AN][X]
 
 
 ## Ch2_ArmorslayerVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]Armored knights have nearly[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Armored knights have nearly[N]
 impenetrable defenses.[AN]
 But some weapons, like this sword,[N]
 can pierce their armor.[AN]
@@ -258,7 +258,7 @@ of a pegasus![AN][X]
 
 
 ## Ch2_FortsHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Forts are the key to a good defense.[AN]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]Forts are the key to a good defense.[AN]
 If you're in a fort, you can defend[N]
 and even dodge more easily.[AN]
 On top of that, your wounds[N]
@@ -267,7 +267,7 @@ will heal slowly over time.[AN][X]
 
 
 ## Ch2_WeaponTriangleHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]The weapon triangle...[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]The weapon triangle...[N]
 Swords, axes, and lances.[AN]
 Remember, swords best axes, axes best[N]
 lances, and lances best swords.[AN]

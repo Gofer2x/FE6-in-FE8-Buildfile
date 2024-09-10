@@ -190,7 +190,7 @@ me to get into the castle![AN][X]
 
 ## Ch1_SouthVillage
 [OpenMidLeft][LoadCurrentCharacter]
-[OpenMidRight][LoadVillager3][ToggleSmile]
+[OpenMidRight][LoadVillager1][ToggleSmile]
 Are you knights going[N]
 to the castle?[AN]
 I know this isn't much...[AN]
@@ -202,7 +202,7 @@ Use it well![AN][X]
 
 ## Ch1_DoomHouse
 [OpenMidLeft][LoadCurrentCharacter]
-[OpenMidRight][LoadVillager6]
+[OpenMidRight][LoadVillager4]
 We're all doomed...[AN]
 Soldiers from Bern have[N]
 crossed the border...[AN]
@@ -215,7 +215,7 @@ He can't even stand anymore...[AN][X]
 
 ## Ch1_TerrainHouse
 [OpenMidLeft][LoadCurrentCharacter]
-[OpenMidRight][LoadVillager11]
+[OpenMidRight][LoadVillager9]
 Listen![AN]
 If you wanna do well in battle[N]
 you'd better use terrain wisely.[AN]
@@ -228,7 +228,7 @@ they're dealing with.[AN][X]
 
 ## Ch1_MoneyHouse
 [OpenMidLeft][LoadCurrentCharacter]
-[OpenMidRight][LoadVillager4][ToggleSmile]
+[OpenMidRight][LoadVillager2][ToggleSmile]
 Money is vital for any army.[AN]
 If you don't have any, you won't be[N]
 able to replace your broken weapons.[AN]

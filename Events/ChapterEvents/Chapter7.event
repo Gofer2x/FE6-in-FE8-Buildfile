@@ -203,12 +203,33 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+LOAD1 0x1 Enemies
+LoadHardReinforcements(HardExtraEnemies)
+ENUN
 MUSC MUS_DeerOfThePlains
 ENUT Ch7_ConvoFlagD
-LOAD1 0x1 Units
+CMOF
+MOVE 60 Debias [4,2]
 ENUN
-LOAD1 0x1 Enemies
+STAL 16
+LOAD1 0x1 CutsceneLegance
 ENUN
+MOVE 60 Debias [5,2]
+ENUN
+Text(Ch7_Start1)
+MOVE 60 Debias [4,2]
+ENUN
+MOVE 60 Legance [8,65535]
+ENUN
+DISA Legance
+STAL 16
+MUSC MUS_WhenTheRushComes
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+STAL 32
+Text(BG_Outside,Ch7_Start2)
+GotoPrepScreen
 ENDA
 
 EndingScene:

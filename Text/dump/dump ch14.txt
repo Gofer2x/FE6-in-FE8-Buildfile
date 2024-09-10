@@ -139,7 +139,7 @@ Something...is glittering
 in the sand...[.....] Oh...[A][Clear]
 What a beautiful ring...[A]
 [013C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 Have you heard of the sky god, Delphi?[A]
 He is said to race through the skies
 and protect all living things.[A]

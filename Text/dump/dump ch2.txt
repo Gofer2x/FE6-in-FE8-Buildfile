@@ -210,14 +210,14 @@ Let's wrap things up.[A]
 
 [57]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]Flying units may be weak against bows, but
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]Flying units may be weak against bows, but
 you can use that against your enemies too.[A]
 If a pegasus or wyvern comes close, you
 can tear 'em apart with arrows![A]
 
 [58]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]Armored knights have nearly
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Armored knights have nearly
 impenetrable defenses.[A]
 But some weapons, like this sword,
 can pierce their armor.[A]
@@ -235,7 +235,7 @@ of a pegasus![A]
 
 [5A]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]The weapon triangle...
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]The weapon triangle...
 Swords, axes, and lances.[A]
 Remember, swords best axes, axes best
 lances, and lances best swords.[A]
@@ -244,7 +244,7 @@ will be much easier for you.[A]
 
 [5B]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Forts are the key to a good defense.[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]Forts are the key to a good defense.[A]
 If you're in a fort, you can defend
 and even dodge more easily.[A]
 On top of that, your wounds

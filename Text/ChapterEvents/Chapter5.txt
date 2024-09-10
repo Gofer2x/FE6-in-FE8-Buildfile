@@ -31,7 +31,7 @@ these losers, boys![AN][X]
 [OpenFarLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenFarLeft][ToggleSmile]A villager is here to see you,[N]
 Lord Roy.[AN]
 Hey, you, wait just a second...[AN][......]
-[OpenLeft][LoadVillager4][FastPrint]Are you Lord Roy of[N]
+[OpenLeft][LoadVillager2][FastPrint]Are you Lord Roy of[N]
 House Pherae?[AN]
 [OpenMidRight][NormalPrint]Yes.[N]
 How may I help you?[AN]
@@ -81,7 +81,7 @@ Brother Saul as well.[AN]
 [OpenMidRight][ToggleSmile]But where did Saul run off to now?[AN]
 How am I supposed to guard him[N]
 if he keeps disappearing?[AN]
-[OpenMidRight][ClearFace][OpenLeft][LoadVillager7][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate[N]
+[OpenMidRight][ClearFace][OpenLeft][LoadVillager5][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate[N]
 the offer, but not tonight...[AN]
 [OpenRight][CloseSpeechFast][ToggleSmile]Come now, don't be like that.[AN]
 We can sit by the fire in the dark of night[N]
@@ -130,7 +130,7 @@ Come now, hurry along.[AN]
 
 
 ## Ch5_GateOpens
-[OpenMidRight][LoadVillager11]Oh, I heard you were coming.[N]
+[OpenMidRight][LoadVillager9]Oh, I heard you were coming.[N]
 I'll open the gate now.[AN][X]
 
 
@@ -148,7 +148,7 @@ weaklings...[AN][X]
 
 
 ## Ch5_GantsLanceVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
 [OpenMidRight]Hold on. Before you go,[N]
 take this lance with you.[AN]
 It was once wielded by a[N]
@@ -161,7 +161,7 @@ a foe with this lance![AN][X]
 
 
 ## Ch5_FortsHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
 If you can, try to occupy forts![AN]
 That'll stop enemy reinforcements[N]
 from showing up![AN][X]
@@ -187,7 +187,7 @@ it was a dream...[AN][X]
 
 
 ## Ch5_BrigandsMountainsHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
 [OpenMidRight][ToggleSmile]This whole area is really perfect for[N]
 bandits. It's no wonder they appeared.[AN]
 They can cross mountains and a bandit on[N]

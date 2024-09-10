@@ -67,9 +67,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-//roy talks to cath
 CharacterEvent(Ch6_RoyCathTalkFlag,CathRecruitmentEvent,Roy,Cath)
-//roy talks to sue
 CharacterEvent(Ch6_RoySueTalkFlag,RoyRecruitsSue,Roy,Sue)
 END_MAIN
 
@@ -236,7 +234,7 @@ TEXTEND
 REMA
 MUSC MUS_AnUnexpectedCaller
 Text(BG_Castle3,Ch6_Start2)
-LOAD1 0x1 Units
+LOAD3 0x0 Units
 ENUN
 LOAD1 0x1 SaulDorothy
 ENUN
@@ -255,8 +253,7 @@ ENUN
 MOVE 60 Roy [12,20]
 ENUN
 CAM1 Roy
-ENDA
-ENDA
+GotoPrepScreen
 
 NorthmostWestRoomEvent:
 TILECHANGE 0x3
@@ -301,6 +298,13 @@ LoadHardThroneRoomReinforcements3:
 HardReinforcementEvent(ThroneRoomReinforcements3)
 
 EndingScene:
+MUSC MUS_IntoTheShadowOfTriumph
+CHECK_ALIVE Sue
+BEQ 1 s0 sC
+Text(BG_Castle3, Ch6_EndSue)
+LABEL 1
+Text(BG_Castle3, Ch6_End)
+STAL 64
 MoveToChapter(CHAPTER_Ch7)
 ENDA
 

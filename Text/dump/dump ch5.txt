@@ -29,7 +29,7 @@ these losers, boys![A]
 [OpenFarLeft][LoadMerlinus][OpenMidRight][LoadRoy][OpenFarLeft][ToggleSmile]A villager is here to see you,
 Lord Roy.[A]
 Hey, you, wait just a second...[A][......]
-[OpenLeft][LoadVillager4][FastPrint]Are you Lord Roy of
+[OpenLeft][LoadVillager2][FastPrint]Are you Lord Roy of
 House Pherae?[A]
 [OpenMidRight][NormalPrint]Yes.
 How may I help you?[A]
@@ -77,7 +77,7 @@ Brother Saul as well.[A]
 [OpenMidRight][ToggleSmile]But where did Saul run off to now?[A]
 How am I supposed to guard him
 if he keeps disappearing?[A]
-[OpenMidRight][ClearFace][OpenLeft][LoadVillager7][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate
+[OpenMidRight][ClearFace][OpenLeft][LoadVillager5][OpenRight][LoadSaul][OpenLeft][FastPrint]Er... Brother Saul, I appreciate
 the offer, but not tonight...[A]
 [OpenRight][CloseSpeechFast][ToggleSmile]Come now, don't be like that.[A]
 We can sit by the fire in the dark of night
@@ -123,7 +123,7 @@ Come now, hurry along.[A]
 
 [84]
 
-[OpenMidRight][LoadVillager11]Oh, I heard you were coming.
+[OpenMidRight][LoadVillager9]Oh, I heard you were coming.
 I'll open the gate now.[A]
 
 [85]
@@ -135,7 +135,7 @@ weaklings...[A]
 
 [86]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
 [OpenMidRight]Hold on. Before you go,
 take this lance with you.[A]
 It was once wielded by a
@@ -145,7 +145,7 @@ a foe with this lance![A]
 
 [87]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
 If you can, try to occupy forts![A]
 That'll stop enemy reinforcements
 from showing up![A]
@@ -164,7 +164,7 @@ it was a dream...[A]
 
 [89]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
 [OpenMidRight][ToggleSmile]This whole area is really perfect for
 bandits. It's no wonder they appeared.[A]
 They can cross mountains and a bandit on

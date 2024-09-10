@@ -351,7 +351,7 @@ We'll leave the Isles now.[A]
 
 [D3]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 There's so much mist here...[A]
 In these conditions, you can never
 know if someone's waiting to pounce![A]

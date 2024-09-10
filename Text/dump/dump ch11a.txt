@@ -396,7 +396,7 @@ I can tell you're different.[A]
 
 [FB]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 [OpenMidRight]I have staves for sale
 if you want any![A]
 Wait a second.

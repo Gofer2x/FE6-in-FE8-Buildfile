@@ -165,7 +165,7 @@ Here, take it.[A]
 Just looking at it
 is making me angry.[A]
 [018B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager61]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager60]
 I was playing outside and
 this ring fell from the sky![A][Clear]
 ...A gift from the gods?[A]

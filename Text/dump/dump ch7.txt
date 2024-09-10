@@ -399,7 +399,7 @@ on the enemy now![A]
 
 [A7]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Look at this great
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]Look at this great
 bow I made.[A]
 It fires arrows much farther
 than a normal bow![A]
@@ -410,7 +410,7 @@ I want it to go to good use.[A]
 
 [A8]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 [OpenMidRight]Oh, this? This is a torch staff.
 It creates light in foggy places.[A]
 If you're in fog, you can't
@@ -420,7 +420,7 @@ find yourself in that situation.[A]
 
 [A9]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 [OpenMidRight]Would you like to buy some elixir?
 It'll patch your wounds right up![A]
 The recipe is top secret...
@@ -432,7 +432,7 @@ You won't be disappointed.[A]
 
 [AA]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
 [ToggleSmile]Ostia is Lycia's greatest city!
 But now look at it...[A]
 What did you say? You're out
@@ -455,7 +455,7 @@ please heal her...[A]
 
 [AC]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
 [OpenMidRight][ToggleSmile]A while back, I saw a man
 dying in the street.[A]
 I helped him out, and he gave
@@ -478,7 +478,7 @@ and fight to save Ostia...[A]
 
 [AE]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
 Cavaliers, paladins...
 Mounted knights like those.[A]
 This lance is incredibly effective

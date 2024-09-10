@@ -292,7 +292,7 @@ You can have it.[AN][X]
 
 
 ## Ch4_SteelBladeVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]We're all on your side.[AN]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2][ToggleSmile]We're all on your side.[AN]
 [OpenMidRight]We're not about to abandon the[N]
 land in which we were born.[AN]
 [OpenMidRight]Please take this sword.[AN]
@@ -304,7 +304,7 @@ A gift from the marquess.[AN][X]
 
 
 ## Ch4_AngelicRobeVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2]
 [OpenMidRight][ToggleSmile]I can't believe this war is happening...[AN]
 We'll all suffer under Bern's[N]
 iron-fisted rule.[AN]
@@ -319,7 +319,7 @@ Think carefully before using it.[AN][X]
 
 
 ## Ch4_BanditWarningHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]Bandits and pirates will[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]Bandits and pirates will[N]
 attack nearby towns.[AN]
 Once they loot a town,[N]
 there's nothing left.[AN]
@@ -331,7 +331,7 @@ might just share something good![AN][X]
 
 
 ## Ch4_LausNomadsHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]There are mounted soldiers[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]There are mounted soldiers[N]
 with bows in Laus' army.[AN]
 They're from the nomad clans[N]
 of Sacae.[AN]
@@ -342,7 +342,7 @@ prowess these days...[AN][X]
 
 
 ## Ch4_ReaverHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 [OpenMidRight][ToggleSmile]You know the weapon triangle, but did you[N]
 know it doesn't apply to all weapons?[AN]
 Some weapons completely reverse[N]

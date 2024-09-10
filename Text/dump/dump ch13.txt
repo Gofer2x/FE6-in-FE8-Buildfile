@@ -371,7 +371,7 @@ muscles when you use it.[A]
 ...It might make the ladies a
 little less attractive, though.[A]
 [0127]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
 I thought I'd try to defend
 myself with this sword,[A]
 but I don't know how to use it.[A]
@@ -404,13 +404,13 @@ of Bern are no match for them.[A]
 ...That's what I'd like
 to think, anyway.[A]
 [012F]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]
 [ToggleSmile]General Cecilia...
 She was defeated in one blow...[A]
 King Zephiel is more powerful than
 any of us could have imagined...[A]
 [0130]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 General Perceval still swears loyalty to
 Prince Myrddin even after his passing.[A]
 Loyal and hard-working to the end.

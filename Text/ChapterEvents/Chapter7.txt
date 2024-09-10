@@ -353,7 +353,7 @@ with the Lycian League to you.[AN]
 
 
 ## Ch7_LongbowVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]Look at this great[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]Look at this great[A]
 bow I made.[AN]
 It fires arrows much farther[A]
 than a normal bow![AN]
@@ -363,7 +363,7 @@ You can have it.[A]
 I want it to go to good use.[AN][X]
 
 ## Ch7_TorchStaffVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 [OpenMidRight]Oh, this? This is a torch staff.[A]
 It creates light in foggy places.[AN]
 If you're in fog, you can't[A]
@@ -372,7 +372,7 @@ This should be helpful if you ever[A]
 find yourself in that situation.[AN][X]
 
 ## Ch7_ElixirVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 [OpenMidRight]Would you like to buy some elixir?[A]
 It'll patch your wounds right up![AN]
 The recipe is top secret...[A]
@@ -383,7 +383,7 @@ Here, I'll give you a free sample![A]
 You won't be disappointed.[AN][X]
 
 ## Ch7_RedGemVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
 [ToggleSmile]Ostia is Lycia's greatest city![A]
 But now look at it...[AN]
 What did you say? You're out[A]
@@ -404,7 +404,7 @@ If Lady Lilina's hurt,[A]
 please heal her...[AN][X]
 
 ## Ch7_KillingEdgeVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
 [OpenMidRight][ToggleSmile]A while back, I saw a man[A]
 dying in the street.[AN]
 I helped him out, and he gave[A]
@@ -425,7 +425,7 @@ Give this to an experienced hero,[A]
 and fight to save Ostia...[AN][X]
 
 ## Ch7_HorseslayerVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
 Cavaliers, paladins...[A]
 Mounted knights like those.[AN]
 This lance is incredibly effective[A]

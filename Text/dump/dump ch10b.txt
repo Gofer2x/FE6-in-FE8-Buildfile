@@ -125,7 +125,7 @@ Let's hurry now.[A]
 [OpenMidRight][NormalPrint]You're right...[A]
 [094B]
 [OpenMidRight][LoadElffin][OpenMidRight][NormalPrint][ToggleSmile]...Where...am I...?[A]
-[OpenMidLeft][LoadVillager1][FastPrint][ToggleSmile]Are you awake?[A]
+[OpenMidLeft][LoadMary][FastPrint][ToggleSmile]Are you awake?[A]
 [OpenMidRight][NormalPrint][ToggleSmile]...What...happened...?[A]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]We found you lying at the entrance to
 the village, covered in wounds.[A]
@@ -665,7 +665,7 @@ Can you go check on her?[A]
 Here, I'll give you this for
 your trouble...[A]
 [095E]
-[OpenMidLeft][LoadWard][OpenMidRight][LoadVillager1]
+[OpenMidLeft][LoadWard][OpenMidRight][LoadMary]
 [OpenMidRight][NormalPrint]Ward![A]
 [OpenMidLeft][FastPrint]Sis!
 It's good to see you.[A]
@@ -698,7 +698,7 @@ You can use it, can't you?[A]
 I've gotta go now.[A]
 [OpenMidRight][FastPrint]Just be careful...[A]
 [095F]
-[OpenMidLeft][LoadLot][OpenMidRight][LoadVillager1]
+[OpenMidLeft][LoadLot][OpenMidRight][LoadMary]
 [OpenMidLeft][NormalPrint][ToggleSmile]Mary...[A]
 [OpenMidRight][FastPrint][ToggleSmile]Lot!
 You've returned?[A]
@@ -733,7 +733,7 @@ keep your promise.[A]
 Now...I must be off again.[A]
 [OpenMidRight][ToggleSmile]Be careful...[A]
 [0960]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1][ToggleSmile]Have you seen my brother?[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadMary][ToggleSmile]Have you seen my brother?[A]
 His name is Ward,
 and he's a mercenary...[A]
 Have you at least
@@ -741,7 +741,7 @@ heard of him?[A]
 Well, take this for
 your trouble.[A]
 [0961]
-[OpenMidLeft][LoadWard][OpenMidRight][LoadVillager2]
+[OpenMidLeft][LoadWard][OpenMidRight][LoadMieu]
 [OpenMidRight][FastPrint]It's Ward![A]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]Hey, Mieu![A]
 ...Come on, can't you call me
@@ -784,7 +784,7 @@ me Uncle...[A][Clear]
 [ToggleSmile]Whoa, are you OK?!
 Don't trip...[A]
 [0962]
-[OpenMidLeft][LoadLot][OpenMidRight][LoadVillager2]
+[OpenMidLeft][LoadLot][OpenMidRight][LoadMieu]
 [OpenMidRight]Brother! You're home![A]
 [OpenMidLeft][FastPrint]Mieu!
 Have you been a good girl?[A]
@@ -822,7 +822,7 @@ Don't leave me![A]
 [OpenMidLeft]At least, I hope
 I won't...[A]
 [0963]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2]Lot?[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadMieu]Lot?[A]
 [ToggleSmile]...Oh.
 I'm sorry...[A]
 Take this.[A]
@@ -906,7 +906,7 @@ considered that...[A]
 [OpenFarLeft]There are rumors...that Roartz and
 Arcardo are working with Bern.[A]
 [0969]
-[OpenMidLeft][LoadVillager1][OpenMidRight][LoadRoy]
+[OpenMidLeft][LoadMary][OpenMidRight][LoadRoy]
 [OpenMidLeft][CloseSpeechFast]Are you the leader
 of this army?[A]
 [OpenMidRight][FastPrint][ToggleSmile]Yes, I am.[A]

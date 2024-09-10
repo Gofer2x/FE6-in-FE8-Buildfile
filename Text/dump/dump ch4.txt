@@ -265,7 +265,7 @@ You can have it.[A]
 
 [79]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]We're all on your side.[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2][ToggleSmile]We're all on your side.[A]
 [OpenMidRight]We're not about to abandon the
 land in which we were born.[A]
 [OpenMidRight]Please take this sword.[A]
@@ -274,7 +274,7 @@ A gift from the marquess.[A]
 
 [7A]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2]
 [OpenMidRight][ToggleSmile]I can't believe this war is happening...[A]
 We'll all suffer under Bern's
 iron-fisted rule.[A]
@@ -286,7 +286,7 @@ Think carefully before using it.[A]
 
 [7B]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]Bandits and pirates will
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]Bandits and pirates will
 attack nearby towns.[A]
 Once they loot a town,
 there's nothing left.[A]
@@ -295,7 +295,7 @@ might just share something good![A]
 
 [7C]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]There are mounted soldiers
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9]There are mounted soldiers
 with bows in Laus' army.[A]
 They're from the nomad clans
 of Sacae.[A]
@@ -304,7 +304,7 @@ prowess these days...[A]
 
 [7D]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 [OpenMidRight][ToggleSmile]You know the weapon triangle, but did you
 know it doesn't apply to all weapons?[A]
 Some weapons completely reverse

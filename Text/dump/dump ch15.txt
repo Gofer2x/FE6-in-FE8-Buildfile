@@ -342,7 +342,7 @@ have reason not to tell.[A]
 I shall tell you
 when the time comes.[A]
 [014D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4]
 [ToggleSmile]A little girl was taken
 to the castle...[A]
 Here, I'll give you this.
@@ -352,7 +352,7 @@ this tome with him.[A]
 ...He was taken to the castle,
 too, but he never returned.[A]
 [014E]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager7]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
 This is a Hammerne staff.[A]
 It can repair your weapons,
 spell tomes, and staves.[A]
@@ -361,7 +361,7 @@ can't repair is itself.[A]
 It'll wear down every time you
 use it, so wield it wisely.[A]
 [014F]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager5]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
 I've been hearing about
 bandits in this area.[A]
 I bet they're all
@@ -369,7 +369,7 @@ savage killers.[A]
 They probably have no
 conscience at all.[A]
 [0150]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager8]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6]
 The rumors say that the three Generals
 of Etruria have been divided...[A]
 But so have the hearts of

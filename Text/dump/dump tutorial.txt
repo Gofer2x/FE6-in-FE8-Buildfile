@@ -455,7 +455,7 @@ gone forever.[A]
 
 [49]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 Thank you for coming.[A]
 Please remember to inform the
 villagers in real battles as well.[A]

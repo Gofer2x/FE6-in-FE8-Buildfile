@@ -343,7 +343,7 @@ I'm sure I can help you![AN][X]
 
 
 ## Ch3_MendHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][OpenMidRight][ToggleSmile]You're what's left of the[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][OpenMidRight][ToggleSmile]You're what's left of the[N]
 Lycian Army, aren't you?[AN]
 Here, take this and go quickly.[AN]
 We may be occupied by Bern, but[N]

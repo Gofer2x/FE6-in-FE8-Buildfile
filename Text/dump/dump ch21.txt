@@ -269,7 +269,7 @@ Princess Guinivere.[A]
 I swear by the Fire Emblem
 that I will stop King Zephiel![A]
 [01BC]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2][ToggleSmile]
 You're the Etrurian Army,
 aren't you?[A]
 There are no soldiers

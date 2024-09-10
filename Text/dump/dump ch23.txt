@@ -142,7 +142,7 @@ assist your army.[A]
 Your skills are legendary.[A]
 We welcome you.[A]
 [01EF]
-[OpenMidLeft][LoadVillager8][OpenMidRight][LoadKarel]
+[OpenMidLeft][LoadVillager6][OpenMidRight][LoadKarel]
 [OpenMidLeft][FastPrint][ToggleSmile]
 S-Sir Karel![A]
 This place will be

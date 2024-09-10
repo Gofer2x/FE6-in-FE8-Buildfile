@@ -338,7 +338,7 @@ Please forget all of this.[A]
 We'll leave the Isles now.[A]
 
 ## Chapter9_MistHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1]
 There's so much mist here...[A]
 In these conditions, you can never
 know if someone's waiting to pounce![A]

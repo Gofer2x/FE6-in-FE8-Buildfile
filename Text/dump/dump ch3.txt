@@ -314,7 +314,7 @@ I'm sure I can help you![A]
 
 [6B]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][OpenMidRight][ToggleSmile]You're what's left of the
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][OpenMidRight][ToggleSmile]You're what's left of the
 Lycian Army, aren't you?[A]
 Here, take this and go quickly.[A]
 We may be occupied by Bern, but

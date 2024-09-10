@@ -636,7 +636,7 @@ through much with them.[A]
 [OpenMidLeft][ToggleSmile]I'm a lady now,
 I am.[A]
 [095B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
 [ToggleSmile]...The resistance suffered a
 crippling defeat here.[A]
 Here, take this. I'm going to
@@ -644,7 +644,7 @@ look for other survivors.[A]
 There is still hope if we
 can find our leader.[A]
 [095C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
 [ToggleSmile]I hate the resistance![A]
 We civilians have to deal with the
 consequences of their actions.[A]
@@ -656,7 +656,7 @@ I'm just frustrated.[A]
 I have no useful skills so I can't
 help you...but take this...[A]
 [095D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager40]
 [ToggleSmile]I wonder how Mary's doing...[A]
 Her brother and his friend are both
 traveling, trying to make money.[A]
@@ -827,7 +827,7 @@ I won't...[A]
 I'm sorry...[A]
 Take this.[A]
 [0964]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]Ah, our heroes![A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager38]Ah, our heroes![A]
 I thank you on behalf
 of the village.[A]
 This is made from the
@@ -836,7 +836,7 @@ It's said it will protect the
 one who uses it from harm.[A]
 Please, take it.[A]
 [0965]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]A few months ago, my
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]A few months ago, my
 granddaughter went missing.[A]
 We all searched in the
 mountains and found her.[A]

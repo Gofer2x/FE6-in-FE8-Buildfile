@@ -302,7 +302,7 @@ I am at your disposal.[A]
 
 [D0]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]
 [ToggleSmile]This whole area is basically
 pirate territory.[A]
 They take everything
@@ -316,7 +316,7 @@ like the resistance force.[A]
 
 [D1]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
 [Clear]You saved us![A]
 Are you with the resistance?[.....]
 No?[A]
@@ -332,7 +332,7 @@ They don't have to worry about us...[A]
 
 [D2]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
 [ToggleSmile]The only people here are
 women and children.[A]
 All the workers have been
@@ -360,7 +360,7 @@ you have an eagle-eyed thief with you.[A]
 
 [D4]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 The resistance is faring quite well.[A]
 In the north and in the west,
 they're always engaged in battle.[A]
@@ -368,7 +368,7 @@ Which way will you go?[A]
 
 [D5]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
 Among the pirates is a very
 skilled nomad...[A]
 You can't see him
@@ -378,7 +378,7 @@ with him...[A]
 
 [D6]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 The nearby villagers...[A]
 They're all deserting the
 Isles for the mainland.[A]

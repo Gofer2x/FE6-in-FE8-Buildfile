@@ -102,7 +102,7 @@ Please be careful.[A]
 Well, well...
 It begins.[A]
 [OpenFarRight][LoadDayan]So it seems.[A]
-[OpenMidLeft][LoadVillager32]
+[OpenMidLeft][LoadVillager31]
 Bern's invasion finally ends, and now
 here comes Etruria. Will it never end?[A]
 [OpenFarRight][ToggleMouthMove]......[A][ToggleMouthMove]
@@ -136,7 +136,7 @@ the houses commence their attack.[A]
 [OpenMidLeft][LoadSoldier2]They'll be here any moment now...
 Open the gate![A]
 [0999]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager32]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
 I was selling weapons to Bern
 before the war...[A]
 But now that they've taken
@@ -146,7 +146,7 @@ Just do something about them.[A][Clear]
 I've been hiding it from them...
 I think you can guess why...[A]
 [099A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager30]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager29]
 Would you like a special ring
 from Etruria?[A]
 I used to sell them, but I had to
@@ -154,7 +154,7 @@ close my shop because of the war.[A]
 Here, take it. No charge...
 No one will buy it anyway.[A]
 [099B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager34]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
 This goddess icon
 brings good luck.[A]
 ...I used to con people
@@ -165,7 +165,7 @@ Here, take one.[A]
 It won't really bring
 you any luck, though.[A]
 [099C]
-[OpenMidRight][LoadVillager36]
+[OpenMidRight][LoadVillager35]
 Wow... Lucky me!
 Finders keepers.[A]
 I bet I can sell
@@ -177,7 +177,7 @@ No, I didn't steal
 this![A]
 See ya![A]
 [099D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager35]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager34]
 This is a longbow, a favorite
 of the Sacaen nomads.[A]
 Here, take one.[A]

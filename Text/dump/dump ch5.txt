@@ -152,7 +152,7 @@ from showing up![A]
 
 [88]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
 [OpenMidRight]I was there when
 Araphen was taken...[A]
 The wyvern riders of Bern were

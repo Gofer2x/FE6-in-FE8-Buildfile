@@ -248,7 +248,7 @@ of it than us. Please, take it.[AN][X]
 
 
 ## Ch2_FliersHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]Pegasi are useful for flying to[N]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]Pegasi are useful for flying to[N]
 hard-to-reach places.[AN]
 But woe to any rider who finds[N]
 herself against an archer.[AN]

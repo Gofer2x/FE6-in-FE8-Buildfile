@@ -28,7 +28,7 @@ Cowards! Every last one of them![A]
 The great High Chancellor Roartz will
 not die in this miserable wasteland![A]
 [01A1]
-[OpenMidLeft][LoadVillager57][NormalPrint][ToggleSmile]Cough...cough...[A]
+[OpenMidLeft][LoadVillager56][NormalPrint][ToggleSmile]Cough...cough...[A]
 [OpenMidRight][LoadJuno][CloseSpeechFast]Are you all right?
 Here, take my shawl.[A]
 [OpenMidLeft][FastPrint]I couldn't.
@@ -39,7 +39,7 @@ This is nothing compared to
 flying through a blizzard.[A]
 [OpenMidLeft][FastPrint]...Thank you.
 Cough...cough...[A][ClearFace][.....]
-[OpenMidLeft][LoadVillager54][ToggleSmile]Lady Juno...
+[OpenMidLeft][LoadVillager53][ToggleSmile]Lady Juno...
 What's going to happen?[A]
 [OpenMidRight][CloseSpeechFast][ToggleSmile]...I don't know.
 But we must stay hopeful.[A]
@@ -501,7 +501,7 @@ get ready![A][Clear]
 Let's go![A][Clear]
 [ToggleSmile]Triangle Attack![A]
 [01B2]
-[OpenFarLeft][LoadVillager57][OpenLeft][LoadVillager54][OpenMidRight][LoadGuinivere]
+[OpenFarLeft][LoadVillager56][OpenLeft][LoadVillager53][OpenMidRight][LoadGuinivere]
 [OpenLeft][ToggleSmile]Excuse me...[A]
 [OpenMidRight]Yes...?[A]
 [OpenLeft]Are you the one who saved us?[A]

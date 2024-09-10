@@ -278,7 +278,7 @@ than fighting Bern! Come back![AN][X]
 
 
 ## Ch4_DoorKeyVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager13]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
 Without a thief, you can't open[N]
 doors and chests so easily.[AN]
 Only thieves can use lockpicks.[AN]

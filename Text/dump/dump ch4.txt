@@ -254,7 +254,7 @@ than fighting Bern! Come back![A]
 
 [78]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager13]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
 Without a thief, you can't open
 doors and chests so easily.[A]
 Only thieves can use lockpicks.[A]

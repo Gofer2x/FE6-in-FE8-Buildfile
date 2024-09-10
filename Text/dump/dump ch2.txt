@@ -226,7 +226,7 @@ of it than us. Please, take it.[A]
 
 [59]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]Pegasi are useful for flying to
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]Pegasi are useful for flying to
 hard-to-reach places.[A]
 But woe to any rider who finds
 herself against an archer.[A]

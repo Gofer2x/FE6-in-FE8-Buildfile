@@ -96,7 +96,7 @@ destroying a village firsthand![A]
 
 [E1]
 
-[OpenMidLeft][LoadGeese][OpenMidRight][LoadVillager41]
+[OpenMidLeft][LoadGeese][OpenMidRight][LoadVillager40]
 [OpenMidRight][ToggleSmile]Geese...
 You're really leaving?[A]
 [OpenMidLeft]The lord of that castle
@@ -243,7 +243,7 @@ with this Roy fellow for a while...[A]
 
 [E6]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager40]
 [ToggleSmile]I'm worried about Larum.
 I hope she's all right.[A]
 She smuggled us weapons
@@ -259,7 +259,7 @@ though, so please, take it...[A]
 
 [E7]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 [ToggleSmile]Brigands and pirates... They were all just as
 innocent as anyone when they were young.[A]
 Maybe if you spoke to some of them,

@@ -396,7 +396,7 @@ Just use the money[A]
 to help Ostia![AN][X]
 
 ## Ch7_PhysicVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager14]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
 [OpenMidRight][ToggleSmile]Are you going to help Lady Lilina?[AN]
 Here's a staff that can heal[A]
 injuries from a distance![AN]

@@ -290,7 +290,7 @@ And the beginning of a new era.[A]
 [024A]
 Later, in Arcadia...
 [024B]
-[OpenMidLeft][LoadVillager19][OpenMidRight][LoadRoy]
+[OpenMidLeft][LoadVillager18][OpenMidRight][LoadRoy]
 [OpenMidLeft]Ah, Lord Roy.
 It has been far too long.[A]
 [OpenMidRight]

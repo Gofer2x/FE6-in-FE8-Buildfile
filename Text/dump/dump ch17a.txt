@@ -165,13 +165,13 @@ Move forward![A]
 [017D]
 
 [017E]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager54]
 Ah, are you fighting against Bern?
 Then please take this staff.[A]
 It was once used by the noble
 Lady Tina...[A]
 [017F]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49]
 Did you know that at a
 certain time of day,[A]
 a sandbar appears
@@ -180,7 +180,7 @@ It's a path right
 through the ocean.[A]
 Good luck![A]
 [0180]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager56]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
 The tide is very dramatic
 around here.[A]
 I remember once I was getting

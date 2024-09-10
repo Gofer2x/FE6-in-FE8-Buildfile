@@ -240,13 +240,13 @@ and the earth...[A]
 Such is the law
 of Sacae.[A]
 [098E]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager32]
 The clans will defend
 against all invaders.[A]
 Such is the law
 of Sacae.[A]
 [098F]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager32]
 Enemies will face the wrath
 of the united clans...[A]
 Such is the law

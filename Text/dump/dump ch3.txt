@@ -134,7 +134,7 @@ I have some things to take care of.[A]
 [OpenMidLeft][FastPrint]Is that so...?
 Please be safe.[A]
 [OpenMidRight]Yes, you too.[A]
-[OpenMidLeft][ClearFace][OpenLeft][LoadVillager14][OpenFarLeft][LoadVillager13][OpenMidRight]Make sure you listen to what
+[OpenMidLeft][ClearFace][OpenLeft][LoadVillager12][OpenFarLeft][LoadVillager11][OpenMidRight]Make sure you listen to what
 the priest says, OK?[A]
 [OpenFarLeft][ToggleSmile]You're not coming
 with us, Lugh?[A]

@@ -364,7 +364,7 @@ and plan a new course of action.[A]
 Fall back at once![A]
 [OpenMidRight]Yes, sir![A]
 [0126]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
 Here, take this ring.[A]
 It will build up your
 muscles when you use it.[A]
@@ -396,7 +396,7 @@ Use it to end this war![A]
 [012D]
 
 [012E]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager13]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11]
 Cecilia, Perceval, and Douglas!
 They're the three Etrurian Generals.[A]
 Even the three Wyvern Generals

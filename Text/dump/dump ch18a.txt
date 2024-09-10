@@ -155,7 +155,7 @@ Well, good. We can advance
 more quickly now.[A]
 Charge the castle gate![A]
 [018A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager54]
 I was told that this goddess icon
 would bring me good luck...[A]
 But I pray to it everyday,
@@ -174,7 +174,7 @@ or wyvern probably dropped it.[A]
 Here, take it.
 I prefer my dolls anyway.[A]
 [018C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager57]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager56]
 Are you the Etrurian Army?[A]
 Sigh... Bern's army marched through
 here just the other day, too.[A]
@@ -182,12 +182,12 @@ When will we have peace again?[A]
 Here, take this.
 Use it to end the war.[A]
 [018D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager52]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
 That Martel who's guarding the castle...[A]
 He said he has some secret weapon.
 I'd be careful if I were you.[A]
 [018E]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager53]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager52]
 When it gets colder the rivers
 all freeze over,[A]
 and we can get to the village in
@@ -195,14 +195,14 @@ the east without much trouble.[A]
 But it's not quite the
 season, unfortunately.[A]
 [018F]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49]
 You look strong.[A]
 But I bet you couldn't
 beat the Sword Saint.[A]
 They say he's on a
 level all his own.[A]
 [0190]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager59]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager58]
 [ToggleSmile]Hey, are you the Etrurian Army
 that the old lady was talking about?[A]
 I heard she was originally

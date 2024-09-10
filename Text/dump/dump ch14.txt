@@ -147,7 +147,7 @@ They say that with his blessing,[A]
 wyvern riders and pegasus knights
 can fly freely without danger...[A]
 [013D]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager24]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager23]
 There are a lot of things
 buried in the sand.[A]
 If you're really lucky, you might
@@ -201,7 +201,7 @@ Then let's get it![A][Clear]
 We may still be able
 to stop Bern![A]
 [0143]
-[OpenLeft][LoadVillager19][FastPrint][ToggleSmile]Who trespasses in this place?
+[OpenLeft][LoadVillager18][FastPrint][ToggleSmile]Who trespasses in this place?
 What is your business here?[A]
 [OpenMidRight][LoadRoy][CloseSpeechFast]My name is Roy.[A]
 Sophia brought me here. I came

@@ -171,7 +171,7 @@ from showing up![AN][X]
 
 
 ## Ch5_AraphenDragonHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager10]
 [OpenMidRight]I was there when[N]
 Araphen was taken...[AN]
 The wyvern riders of Bern were[N]

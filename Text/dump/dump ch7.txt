@@ -446,7 +446,7 @@ to help Ostia![A]
 
 [AB]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager14]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager12]
 [OpenMidRight][ToggleSmile]Are you going to help Lady Lilina?[A]
 Here's a staff that can heal
 injuries from a distance![A]

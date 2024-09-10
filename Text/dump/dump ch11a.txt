@@ -153,7 +153,7 @@ yourself immediately![A][......]
 [OpenMidRight][LoadEchidna][NormalPrint][ToggleSmile][ToggleMouthMove]......[A]
 [OpenMidLeft][LoadSoldier2][ToggleMouthMove]You are Echidna,
 leader of the resistance force?[A]
-[OpenMidLeft][ClearFace][OpenFarLeft][LoadVillager46][CloseSpeechFast]Echidna, I'm so sorry! They 
+[OpenMidLeft][ClearFace][OpenFarLeft][LoadVillager45][CloseSpeechFast]Echidna, I'm so sorry! They 
 threatened the lives of my family...[A]
 [OpenMidRight]I don't blame you.
 I'll handle this.[A]
@@ -359,7 +359,7 @@ We will defeat the true enemy![A]
 
 [F8]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager38]
 Oh! You're the resistance
 force, aren't you?[A]
 [OpenMidRight]What? No?[A][Clear]
@@ -371,7 +371,7 @@ We believe in you.[A]
 
 [F9]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
 [ToggleSmile]I'm supposed to give
 this staff to Orlo...[A]
 He buys things like this with
@@ -383,7 +383,7 @@ We're counting on you.[A]
 
 [FA]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
 My job is to take the village's
 tribute to the castle.[A]
 If we don't, the village
@@ -413,7 +413,7 @@ so buy one next time![A]
 
 [FC]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49][OpenMidRight]Take this!
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48][OpenMidRight]Take this!
 I want to help in any way I can.[A]
 It's a speedwing![A]
 [OpenMidRight]Use it and you'll
@@ -421,7 +421,7 @@ become a little faster![A]
 
 [FD]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 [OpenMidRight][ToggleSmile]It's so difficult
 under Orlo's rule...[A]
 He takes everything from us,
@@ -431,7 +431,7 @@ I hope it helps.[A]
 
 [FE]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager40]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager39]
 [OpenMidRight]Good luck to you!
 We can't even touch these guys.[A]
 [OpenMidRight]Some people in your army
@@ -442,7 +442,7 @@ but I want you to have it.[A]
 
 [FF]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
 [ToggleSmile]This dusty old lance?[A]
 I'll give it to you to use against
 the villains here.[A]
@@ -513,7 +513,7 @@ considered that...[A]
 
 [0103]
 
-[OpenMidLeft][LoadVillager39][OpenMidRight][LoadRoy]
+[OpenMidLeft][LoadVillager38][OpenMidRight][LoadRoy]
 [OpenMidLeft]Are you General Roy?[A]
 [OpenMidRight]Yes, I am.[A]
 [OpenMidLeft]You saved our village.

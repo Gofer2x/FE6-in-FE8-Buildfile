@@ -292,7 +292,7 @@ I am at your disposal.[A]
 [OpenMidLeft][ToggleSmile]Thank you.[A]
 
 ## Chapter9_SilverSwordVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]
 [ToggleSmile]This whole area is basically
 pirate territory.[A]
 They take everything
@@ -305,7 +305,7 @@ We can't fight against them
 like the resistance force.[A]
 
 ## Chapter9_BarrierVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager46]
 [Clear]You saved us![A]
 Are you with the resistance?[.....]
 No?[A]
@@ -320,7 +320,7 @@ Tell them we'll all move to the mainland.
 They don't have to worry about us...[A]
 
 ## Chapter9_KillerBowVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager41]
 [ToggleSmile]The only people here are
 women and children.[A]
 All the workers have been
@@ -346,14 +346,14 @@ Torches can be very useful, even if
 you have an eagle-eyed thief with you.[A]
 
 ## Chapter9_NorthOrWestHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 The resistance is faring quite well.[A]
 In the north and in the west,
 they're always engaged in battle.[A]
 Which way will you go?[A]
 
 ## Chapter9_SinWarningHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager43]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager42]
 Among the pirates is a very
 skilled nomad...[A]
 You can't see him
@@ -362,7 +362,7 @@ but he also has a girl
 with him...[A]
 
 ## Chapter9_FleeingToMainlandVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager45]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 The nearby villagers...[A]
 They're all deserting the
 Isles for the mainland.[A]

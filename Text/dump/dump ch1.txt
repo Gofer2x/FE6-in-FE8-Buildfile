@@ -129,7 +129,7 @@ me to get into the castle![A]
 
 [0A]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager3][FastPrint][ToggleSmile]Are you knights going
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager1][FastPrint][ToggleSmile]Are you knights going
 to the castle?[A]
 I know this isn't much...[A]
 But please accept this money
@@ -138,7 +138,7 @@ Use it well![A]
 
 [0B]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager6][CloseSpeechFast]We're all doomed...[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][CloseSpeechFast]We're all doomed...[A]
 Soldiers from Bern have
 crossed the border...[A]
 They laid an awful attack.[A]
@@ -148,7 +148,7 @@ He can't even stand anymore...[A]
 
 [0C]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager11][CloseSpeechFast]Listen![A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager9][CloseSpeechFast]Listen![A]
 If you wanna do well in battle
 you'd better use terrain wisely.[A]
 For example, if you're in a forest
@@ -158,7 +158,7 @@ they're dealing with.[A]
 
 [0D]
 
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager4][ToggleSmile]Money is vital for any army.[A]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2][ToggleSmile]Money is vital for any army.[A]
 If you don't have any, you won't be
 able to replace your broken weapons.[A]
 And you can't fight

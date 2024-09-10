@@ -117,7 +117,7 @@ I must thank you for
 telling us.[A]
 Please take this.[A]
 [0981]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager34]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager33]
 I hear there's a village
 far to the northeast.[A]
 I've never met anyone
@@ -125,7 +125,7 @@ who's been that far.[A]
 I wonder if anyone still
 lives there.[A]
 [0982]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager28]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager27]
 I saw some shady-looking
 people in Bern's ranks.[A]
 Probably thieves.[A]

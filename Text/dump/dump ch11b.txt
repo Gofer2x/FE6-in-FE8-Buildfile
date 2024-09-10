@@ -1,7 +1,7 @@
 [096C]
-[OpenMidRight][LoadVillager44][ToggleSmile]Hurry!
+[OpenMidRight][LoadVillager43][ToggleSmile]Hurry!
 This way![A]
-[OpenMidLeft][LoadVillager46]A-are you sure about this?
+[OpenMidLeft][LoadVillager45]A-are you sure about this?
 If we get caught we're--[A]
 [OpenMidRight]Don't be stupid![A]
 If we stay, we'll be
@@ -124,7 +124,7 @@ present location.[A]
 [OpenMidRight]Then we must rescue those people
 before sieging the castle.[A]
 [0970]
-[OpenMidLeft][LoadVillager46][OpenMidRight][LoadBartre]
+[OpenMidLeft][LoadVillager45][OpenMidRight][LoadBartre]
 [OpenMidRight][ToggleSmile]They're imprisoned in
 that castle, you say?[A]
 [OpenMidLeft]That's right.[A]
@@ -263,7 +263,7 @@ we have another member...[A]
 [0974]
 
 [0975]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager47]
 Are you the guys
 helping us out?[A]
 Then please, take this.[A]
@@ -335,7 +335,7 @@ the true enemy of the people![A]
 [097A]
 
 [097B]
-[OpenFarLeft][LoadVillager46][OpenLeft][LoadVillager44][OpenMidRight][LoadMerlinus]
+[OpenFarLeft][LoadVillager45][OpenLeft][LoadVillager43][OpenMidRight][LoadMerlinus]
 [OpenLeft]Hey, you with the mustache![A]
 [OpenMidRight]What?!
 Who are you?[A]

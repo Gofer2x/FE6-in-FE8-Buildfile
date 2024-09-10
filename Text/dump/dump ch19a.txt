@@ -106,7 +106,7 @@ suddenly attacked from all directions.[A]
 They won't see them coming in
 this snowstorm...[A]
 [0197]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager55]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager54]
 You would come to such an
 isolated place as this...?[A]
 The prophecies were
@@ -118,7 +118,7 @@ slice through the darkness,[A]
 allowing the light to
 shine again.[A]
 [0198]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
 I've pondered a lot about whether
 I should give in to Bern...[A]
 But I've made up my mind.
@@ -128,25 +128,25 @@ your inner strength.[A]
 ...Please bring peace
 back to this land.[A]
 [0199]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager50]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49]
 Bern's headquarters in Ilia?[A]
 Um, I think it was Edarza...
 Edetta... Edessa! That's it.[A]
 It's to the northeast.[A]
 [019A]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager52]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
 You know about the ballista
 to the east, right?[A]
 We're out of its range here,
 but the shop over there isn't...[A]
 [019B]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager58]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager57]
 [ToggleSmile]Pegasus knights and ballistae...
 Captain Sigune is after you.[A]
 She's hiding in the blizzard,
 waiting to strike...[A]
 [019C]
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager54]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager53]
 You go up against Ivory Devil
 Sigune. I wish you luck.[A]
 The Ilian pegasus knights

@@ -15,12 +15,20 @@ Erm, what the sigma?[X]
 #include "BattleQuotes.txt"
 #include "DeathQuotes.txt"
 
+#include "RoyCathConvos.txt"
+
 #include "ChapterEvents/Chapter1.txt"
 #include "ChapterEvents/Chapter2.txt"
 #include "ChapterEvents/Chapter3.txt"
 #include "ChapterEvents/Chapter4.txt"
 #include "ChapterEvents/Chapter5.txt"
-#include "RoyCathConvos.txt"
 #include "ChapterEvents/Chapter6.txt"
 #include "ChapterEvents/Chapter7.txt"
 #include "ChapterEvents/Chapter8.txt"
+#include "ChapterEvents/Chapter8x.txt"
+#include "ChapterEvents/Chapter9.txt"
+#include "ChapterEvents/Chapter10A.txt"
+#include "ChapterEvents/Chapter11A.txt"
+#include "ChapterEvents/Chapter10B.txt"
+
+#include "ChapterEvents/MultiChapterEvents.txt"

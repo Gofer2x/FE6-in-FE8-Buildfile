@@ -154,7 +154,7 @@ ENUN
 EndEvent
 
 DorothyAndSaulCutscene:
-MUSS MUS_GoingMyWay
+SwitchMusic(MUS_GoingMyWay)
 CAM1 [10,2]
 CMOF
 FlashCursor(10,2,60)
@@ -165,13 +165,13 @@ MOVE 0x0 Dorothy [20,6]
 ENUN
 DISA Saul
 DISA Dorothy
-MURE 0x5
+RestoreMusic
 EndEvent
 
 OpenGateEvent:
 //there is some weird asm here but idk so not doing it, just check if boss alive
 PlayerInRange
-MUSI
+QuieterMusic
 Text(Ch5_GateOpens)
 TILECHANGE 0x1
 CHECK_EVENTID BossDefeatFlag
@@ -181,7 +181,7 @@ CAM1 [2,14]
 Text(Ch5_BossAngryAtGate)
 LoadHardReinforcements(GateOpenEnemies)
 LABEL 1
-MUNO
+UnquieterMusic
 EndEvent
 
 GantsLanceVillageVisit:

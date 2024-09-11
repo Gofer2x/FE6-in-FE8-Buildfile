@@ -136,7 +136,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_MessengerFromTheDarkness
+PlayMusic(MUS_MessengerFromTheDarkness)
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

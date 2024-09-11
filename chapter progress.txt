@@ -5,4 +5,5 @@ ch2: done
 ch3: done
 ch4: almost done, clarine needs ai to talk to roy (as of now roy talks to her)
 ch5: done
-ch6: somewhat done, funky (non turn based) reinforcemetns  not in
+ch6: mostly done, funky (non turn based) reinforcemetns not in. oh and also the boss disappears lol
+ch7: done

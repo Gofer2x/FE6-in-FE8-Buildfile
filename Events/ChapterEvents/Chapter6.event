@@ -228,11 +228,11 @@ SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch6_Start1
 TEXTEND
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 TEXTCONT
 TEXTEND
 REMA
-MUSC MUS_AnUnexpectedCaller
+PlayMusic(MUS_AnUnexpectedCaller)
 Text(BG_Castle3,Ch6_Start2)
 LOAD3 0x0 Units
 ENUN
@@ -240,8 +240,8 @@ LOAD1 0x1 SaulDorothy
 ENUN
 CAM1 Roy
 CMOF
-MOVE 60 Wagner [13,10] //wagner disappears for some reason. look into this
-MOVE 60 Roy [13,18]
+MOVE 0x0 Wagner [13,10] //wagner disappears for some reason. look into this
+MOVE 0x0 Roy [13,18]
 ENUN
 MoveByCoords(60, 12, 9, 12, 16)
 MoveByCoords(60, 13, 9, 13, 16)
@@ -250,7 +250,7 @@ Text(Ch6_Start3)
 MoveByCoords(60, 12, 16, 12, 9)
 MoveByCoords(60, 13, 16, 13, 9)
 ENUN
-MOVE 60 Roy [12,20]
+MOVE 0x0 Roy [12,20]
 ENUN
 CAM1 Roy
 GotoPrepScreen
@@ -267,25 +267,25 @@ EndEvent
 
 SueComplains:
 CAM1 [2,8]
-MUSI
+QuieterMusic
 Text(BG_Dungeon,Ch6_SueNoise)
-MUNO
+UnquieterMusic
 EndEvent
 
 CathAppears:
 CAM1 [17,23]
-MUSS MUS_GoingMyWay
+SwitchMusic(MUS_GoingMyWay)
 LOAD1 0x1 JustCath
 ENUN
 Text(Ch6_CathAppears)
-MURE 0x5
+RestoreMusic
 EndEvent
 
 RoyRecruitsSue:
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 Text(Ch6_RoyRecruitsSue)
 BecomeAlly(Sue)
-MURE 0x5
+RestoreMusic
 EndEvent
 
 LoadHardThroneRoomReinforcements1:
@@ -298,7 +298,7 @@ LoadHardThroneRoomReinforcements3:
 HardReinforcementEvent(ThroneRoomReinforcements3)
 
 EndingScene:
-MUSC MUS_IntoTheShadowOfTriumph
+PlayMusic(MUS_IntoTheShadowOfTriumph)
 CHECK_ALIVE Sue
 BEQ 1 s0 sC
 Text(BG_Castle3, Ch6_EndSue)

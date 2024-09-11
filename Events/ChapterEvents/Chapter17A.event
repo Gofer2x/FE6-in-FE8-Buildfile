@@ -136,7 +136,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_Dignified
+PlayMusic(MUS_Dignified)
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

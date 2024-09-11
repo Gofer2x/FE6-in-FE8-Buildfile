@@ -132,7 +132,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_LegendaryInheritance
+PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies

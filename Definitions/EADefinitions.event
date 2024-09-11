@@ -25,6 +25,20 @@
 
 #define EndEvent "EVBIT_T 0x7 ; ENDA"
 
+#define FlagON(flag) "ENUT flag"
+#define FlagOFF(flag) "ENUF flag"
+
+#define PlayMusic(music) "MUSC music"
+
+#define SwitchMusic(music) "MUSS music"
+#define RestoreMusic "MURE 0x5"
+
+#define QuieterMusic "MUSI;"
+#define UnquieterMusic "MUNO;"
+
+#define FadeOutMusic "MUSCMID 0x7FFF"
+#define PlaySound(sound) "SOUN sound"
+
 //don't feel like dealign with world map events rn
 #define MoveToChapter(chapter) "MNC2 chapter"
 

@@ -901,7 +901,7 @@
 #define Ch6_End 0x10ca
 #define Ch7_Start1 0x10cb
 #define Ch7_Start2 0x10cc
-#define Ch7_ZelotAndTreckAppear 0x10cd
+#define Ch7_ZelotAndTrecAppear 0x10cd
 #define Ch7_NoahAppears 0x10ce
 #define Ch7_DebiasTalksAboutReinforcements 0x10cf
 #define Ch7_RoyRecruitsZelot 0x10d0

@@ -151,7 +151,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_Suspicious
+PlayMusic(MUS_Suspicious)
 LOAD 0x1 CutsceneNarcian
 STAL 16
 CAM1 [3,8]
@@ -182,31 +182,31 @@ EndEvent
 
 RutgerClarine1:
 CAM1 [4,8]
-MUSI
+QuieterMusic
 STAL 16
 Text(BG_Dungeon, Ch4_RutgerClarine1)
-MUNO
+UnquieterMusic
 EndEvent
 
 RutgerClarine2:
 CAM1 [4,8]
-MUSI
+QuieterMusic
 STAL 16
 Text(BG_Dungeon, Ch4_RutgerClarine2)
 LOAD1 0x1 JustClarine
 Text(Ch4_RutgerClarine3)
-MUNO
+UnquieterMusic
 ENUN
 EndEvent
 
 PiratesAppear:
 MUSC MUS_DeerOfThePlains
 STAL 16
-MUSI
+QuieterMusic
 LoadReinforcements(PirateReinforcements)
 ENUN
 Text(Ch4_PiratesAppear)
-MUNO
+UnquieterMusic
 EndEvent
 
 LoadPirateReinforcements:
@@ -242,17 +242,17 @@ LABEL 1
 EndEvent
 
 ClarineRecruitsHerself:
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 Text(BG_Outside, Ch4_ClarineRecruitsHerself)
 BecomeAlly(Clarine)
-MURE 0x5
+RestoreMusic
 EndEvent
 
 ClarineRecruitsRutger:
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 Text(BG_Outside, Ch4_ClarineRecruitsRutger)
 BecomeAlly(Rutger)
-MURE 0x5
+RestoreMusic
 EndEvent
 
 DoorKeyVillageVisit:
@@ -274,7 +274,7 @@ ReaverHouseVisit:
 HouseEvent(Ch4_ReaverHouse,BG_House)
 
 EndingScene:
-MUSC MUS_Triumph
+PlayMusic(MUS_Triumph)
 Text(BG_Castle1, Ch4_End)
 MUSC MUS_PrincessOfDestiny
 STAL 64

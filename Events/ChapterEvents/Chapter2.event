@@ -144,7 +144,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_TheKingdomOfBern
+PlayMusic(MUS_TheKingdomOfBern)
 CAM1 [18,0]
 CMOF
 LOAD1 0x1 JustRuud
@@ -162,7 +162,7 @@ MOVE 0x0 Ruud [16,4]
 ENUN
 STAL 16
 LOAD1 0x1 CastleSoldier
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 Text(Ch2_Start2)
 STAL 16
 MoveByCoords(0x0,16,3,17,11)
@@ -172,8 +172,8 @@ ENUN
 CMOF
 LOAD1 0x1 RightEnemies
 ENUN
-MUSCMID 0x7FFF
-MUSC MUS_WhenTheRushComes
+FadeOutMusic
+PlayMusic(MUS_WhenTheRushComes)
 LOAD3 0x0 Units
 ENUN
 LOAD1 0x1 JustMerlinus
@@ -193,7 +193,7 @@ ENUN
 MOVE 0x0 Elen [3,10]
 ENUN
 Text(Ch2_Start4)
-MUSC MUS_AnUnexpectedCaller
+PlayMusic(MUS_AnUnexpectedCaller)
 LOAD1 0x1 ElenChaserSoldier
 ENUN
 STAL 16
@@ -213,7 +213,7 @@ EndEvent
 
 MercsShowUp:
 STAL 32
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 STAL 32
 LOAD1 0x1 WardLot
 LOAD1 0x1 DieckShanna
@@ -233,7 +233,7 @@ MOVE 0x0 Ward [12,16]
 MOVE 0x0 Lot [12,18]
 MOVE 0x0 Shanna [14,17]
 ENUN
-MURE 0x5
+RestoreMusic
 EndEvent
 
 RoyDieckTalk:
@@ -254,7 +254,7 @@ HouseEvent(Ch2_WeaponTriangleHouse,BG_House)
 
 
 EndingScene:
-MUSC MUS_Triumph
+PlayMusic(MUS_Triumph)
 SetBackground(BG_Castle1)
 TextNoBGNoREMA(Ch2_End1)
 CHECK_ALIVE Elen

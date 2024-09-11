@@ -170,9 +170,9 @@ MUSC MUS_BeyondDistantSkies
 CAM1 [0,0]
 CMOF
 FlashCursor(3,3)
-MUSI
+QuieterMusic
 Text(BG_Outside, Ch3_LughBishopCutscene)
-MUNO
+UnquieterMusic
 LOAD1 0x1 CutsceneBishop
 ENUN
 LOAD1 0x1 CutsceneKids
@@ -186,7 +186,7 @@ STAL 64
 EndEvent
 
 NorthVillageVisit:
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 CHECK_ACTIVE
 SVAL s1 Chad
 BNE 0 s1 sC
@@ -197,13 +197,13 @@ LABEL 0
 Text(BG_Village, Ch3_LughVillage)
 LABEL 1
 REMA
-MURE 0x5
+RestoreMusic
 LOAD1 0x1 JustLugh
 ENUN
 EndEvent
 
 ThroneRoomEvent:
-MUSS MUS_TheKingdomOfBern
+SwitchMusic(MUS_TheKingdomOfBern)
 STAL 16
 CAM1 [21,3]
 STAL 16
@@ -245,7 +245,7 @@ ENUN
 STAL 16
 LoadReinforcements(CavReinforcements)
 ENUN
-MURE 0x5
+RestoreMusic
 EndEvent
 
 SouthVillageVisit:

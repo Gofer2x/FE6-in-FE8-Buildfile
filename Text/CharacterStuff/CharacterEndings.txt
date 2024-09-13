@@ -1,0 +1,576 @@
+## EndingTitleRoy
+Young Lion[X]
+
+## EndingTitleClarine
+Refined Noble[X]
+
+## EndingTitleFae
+Divine Dragon[X]
+
+## EndingTitleSin
+Falcon of Sacae[X]
+
+## EndingTitleSue
+Doe of the Plains[X]
+
+## EndingTitleDayan
+Silver Wolf[X]
+
+## EndingTitleBarthe
+Solid Knight[X]
+
+## EndingTitleBors
+Iron Knight[X]
+
+## EndingTitleGwendolyn
+Adorable Knight[X]
+
+## EndingTitleDouglas
+Mighty General[X]
+
+## EndingTitleWolt
+Dutiful Archer[X]
+
+## EndingTitleDorothy
+Pure Archer[X]
+
+## EndingTitleKlein
+Silver Nobleman[X]
+
+## EndingTitleSaul
+Amorous Priest[X]
+
+## EndingTitleElen
+Saint of Bern[X]
+
+## EndingTitleYoder
+Grand Preacher[X]
+
+## EndingTitleChad
+Lycian Wildcat[X]
+
+## EndingTitleKarel
+Sword Saint[X]
+
+## EndingTitleFir
+Sword Student[X]
+
+## EndingTitleOgier
+Little Hero[X]
+
+## EndingTitleRutger
+Lone Swordsman[X]
+
+## EndingTitleDieck
+Wounded Tiger[X]
+
+## EndingTitleGarret
+Retired Outlaw[X]
+
+## EndingTitleAlen
+Fiery Knight[X]
+
+## EndingTitleLance
+Serene Knight[X]
+
+## EndingTitlePerceval
+Knightly Ideal[X]
+
+## EndingTitleIgrene
+Nabata's Guardian[X]
+
+## EndingeTitleMarcus
+Loyal Paladin[X]
+
+## EndingTitleAstolfo
+Shadow of Ostia[X]
+
+## EndingTitleWard
+Sincere Axeman[X]
+
+## EndingTitleLot
+Quiet Axeman[X]
+
+## EndingTitleBartre
+Fearless Warrior[X]
+
+## EndingTitleLugh
+Anima Child[X]
+
+## EndingTitleLilina
+Delightful Noble[X]
+
+## EndingTitleHugh
+Worldly Mage[X]
+
+## EndingTitleNiime
+Mountain Hermit[X]
+
+## EndingTitleRaigh
+Dark Child[X]
+
+## EndingTitleLarum
+Sprightly Dancer[X]
+
+## EndingTitleJuno
+Winged Legend[X]
+
+## EndingTitleThea
+Stormy Flier[X]
+
+## EndingTitleShanna
+Sprightly Flier[X]
+
+## EndingTitleZeiss
+Ebony Lightning[X]
+
+## EndingTitleElffin
+Seer of Truth[X]
+
+## EndingTitleCath
+Master Thief[X]
+
+## EndingTitleSophia
+Nabata Prophet[X]
+
+## EndingTitleMelady
+Crimson Rider[X]
+
+## EndingTitleGonzalez
+Kindly Bandit[X]
+
+## EndingTitleNoah
+Free Knight[X]
+
+## EndingTitleTrec
+Sleepy Knight[X]
+
+## EndingTitleZelot
+Knight King[X]
+
+## EndingTitleEchidna
+Unyielding Idealist[X]
+
+## EndingTitleCecilia
+Etrurian General[X]
+
+## EndingTitleGeese
+Ocean King[X]
+
+
+
+## EndingDescRoy
+Roy returned home to rebuild
+the lands in Lycia that were
+ravaged by the war. He was always popular
+with the people and was well-remembered
+long after his tenure as Marquess Pherae.[X]
+
+## EndingDescClarine
+Clarine returned home to
+Aquileia and lived her life
+as she did before the war. Her personality never
+changed, but her charm earned her the admiration
+of her peers in the Etrurian nobility.[X]
+
+## EndingDescFae
+After returning to Nabata,
+Fae was never heard from
+again. Many historians are skeptical
+that she even existed...[X]
+
+## EndingDescSin
+After returning to Sacae,
+Sin joined his newly
+reunited clan. He was never a talkative one,
+but with his leadership and skill with the
+bow, he became known as the new Silver Wolf.[X]
+
+## EndingDescSue
+Sue returned to Sacae and
+resumed her nomadic life.
+She never accepted credit for her role in
+the war and many said that her ability
+rivaled that of the legendary Hanon.[X]
+
+## EndingDescDayan
+Dayan built a new clan
+with the surviving
+members of the Kutolah. His efforts were not
+without hardship, but his leadership took
+the clan to greatness.[X]
+
+## EndingDescBarthe
+After returning home, Barthe
+was put in charge of Ostia's
+military. Although scarred by Lord Hector's
+death, Barthe's strict leadership led the
+military of Ostia to glory once more.[X]
+
+## EndingDescBors
+Bors returned to Ostia to
+help rebuild his ravaged
+home. His kind-hearted nature allowed him
+to reunite the people once again and bring
+harmony and prosperity back to Ostia.[X]
+
+## EndingDescGwendolyn
+Gwendolyn continued her
+life as a knight. She was
+idolized by many and is remembered as the
+first female captain in the Ostian Army.[X]
+
+## EndingDescDouglas
+Try as he might to retire
+from the military, Douglas
+received unending requests from Etruria to
+come back. Unable to refuse, he returned to
+the palace to lead the Etrurian Army once more.[X]
+
+## EndingDescWolt
+Wolt returned to Lycia
+with Roy to assist him in
+rebuilding their homeland. Although many
+hardships stood before them, Wolt unwaveringly
+supported Roy and led Lycia to prosperity.[X]
+
+## EndingDescDorothy
+Dorothy returned to her
+hometown and led a
+peaceful life. She was never the flashiest
+of her comrades, but she always knew what
+was most important in her life.[X]
+
+## EndingDescKlein
+Klein put down his bow and
+became an ambassador for
+Etruria, using his charisma to settle many
+foreign disputes. While he was in office, he
+ensured all nations prospered as Etruria did.[X]
+
+## EndingDescSaul
+Although the church offered
+him the position of bishop,
+Saul turned it down and chose to serve
+the people in his own way. His behavior
+always led to difficult situations.[X]
+
+## EndingDescElen
+Elen returned to Bern
+with Guinivere to reunite
+a people devastated by defeat. Her undying
+efforts and kind-hearted nature earned
+her the title of the Saint of Bern.[X]
+
+## EndingDescYoder
+Yoder continued to spread
+the faith of the St. Elimine
+Church. He eventually rose to the position
+of archbishop, but he never let his power
+blind him from those in need.[X]
+
+## EndingDescChad
+Chad gave up thievery after
+the war. He traveled across
+the continent and dedicated his life to helping
+orphaned children. Not many would guess from
+his actions that he was once a cunning thief.[X]
+
+## EndingDescKarel
+Karel retired to a small
+village in the mountains of
+Bern and lived his life in peace. Although many
+swordsmen came to him for direction, he offered
+only small pieces of advice.[X]
+
+## EndingDescFir
+Fir set out again to
+travel around the world
+and train her sword. She became known
+throughout Elibe as the next Sword Saint
+and her legends were told for centuries.[X]
+
+## EndingDescRutger
+Rutger disappeared
+without a trace after
+the war. He was reportedly sighted in
+various places around the continent, but his
+name only appears in the records of the war.[X]
+
+## EndingDescDieck
+Dieck broke up his
+mercenary band and
+set out to travel on his own. Independent, he
+fought in various battles and left many tales
+in his wake.[X]
+
+## EndingDescGarrett
+Garrett quit banditry
+and led the life of a
+farmer. He worked and tended his crops like an
+ordinary citizen and lived in peace. After the
+war, he never picked up his axe again.[X]
+
+## EndingDescAlen
+Upon returning to Pherae
+with Roy, Alen assisted
+his lord in rebuilding the trampled land.
+His fiery passion and powerful will were
+inspiring to many.[X]
+
+## EndingDescLance
+After returning to
+Pherae with Roy,
+Lance helped his lord rebuild the ravaged
+land. Never losing his cool, he helped
+lead Pherae to prosperity again.[X]
+
+## EndingDescPerceval
+Perceval returned to Etruria
+and eventually became the
+next Great General. He led a glorious tenure
+and was remembered as the very model of an
+honorable knight of Etruria.[X]
+
+## EndingDescIgrene
+Igrene said she would
+return to Nabata, but
+no one ever heard from her again. None know
+for certain where or how she led the rest
+of her life.[X]
+
+## EndingDescMarcus
+Marcus finally retired
+upon returning to Pherae.
+Although he wanted to live quietly, he was never
+able to rid himself of the endless aspiring
+knights begging for his instruction.[X]
+
+## EndingDescAstolfo
+After the war, Astolfo's
+name disappeared from all
+records. It was said that he supported
+the reconstruction effort in Ostia, but
+no one knows what became of him.[X]
+
+## EndingDescWard
+After returning home, Ward
+worked to cultivate the
+land and construct homes in the Isles. His work
+continued through many generations and
+eventually became the greatest city in the Isles.[X]
+
+## EndingDescLot
+After returning home,
+Lot married his childhood
+friend and led a fulfilling if humble life.
+Although he played a major role in the war,
+he rarely talked about it openly.[X]
+
+## EndingDescBartre
+After returning home,
+Bartre opened a tavern.
+His jolly personality ensured success, but
+what really kept customers coming back were
+the vivid stories of his valor in battle.[X]
+
+## EndingDescLugh
+Lugh built a magic
+school where his
+orphanage once stood. He took in orphans
+and deprived children and taught them to
+use magic as a way of life.[X]
+
+## EndingDescLilina
+After returning home,
+Lilina became the
+marquess of Ostia and rebuilt her land. She
+later helped rebuild the Lycian League into
+the Kingdom of Lycia, a nonviolent nation.[X]
+
+## EndingDescHugh
+Numerous nations sought
+Hugh's service, but he
+declined them all and stayed independent.
+He always struggled financially, but his
+magic skills ensured his legacy.[X]
+
+## EndingDescNiime
+Niime returned to her
+secluded home in the
+mountains and continued her research. It was
+rumored she solved many of the world's mysteries,
+but she left no records so none can know for sure.[X]
+
+## EndingDescRaigh
+Raigh traveled the world,
+studying more about magic.
+Through Raigh's efforts, dark magic rose from
+obscurity and became widely studied. He was well-
+known for being hard on both himself and others.[X]
+
+## EndingDescLarum
+Larum continued to
+travel around the world
+as a dancer. Her energetic dancing touched
+the hearts of many and her unique style
+was passed on through many generations.[X]
+
+## EndingDescJuno
+After returning to Edessa,
+Juno worked to reunite the
+pegasus knights. She was later asked to lead
+the pegasus knights again, but she declined
+and lived the rest of her days with her family.[X]
+
+## EndingDescThea
+Thea returned to Ilia where
+she worked to reunite the
+divided pegasus knights. Her diligent work
+and leadership paid off, and the pegasus
+knights regained their former glory.[X]
+
+## EndingDescShanna
+After the war, Shanna was
+knighted and became a full-
+fledged pegasus knight. Throughout her career,
+she served in positions of leadership and
+was eventually promoted to Flightleader.[X]
+
+## EndingDescZeiss
+Zeiss aided Guinivere in
+rebuilding Bern. As he
+rose in rank he was criticized for allying
+with Etruria, but his firm loyalty to
+Guinivere earned him the respect of his peers.[X]
+
+## EndingDescElffin
+After the war, Elffin
+disappeared without a
+trace. Several months after his
+disappearance, it was announced that
+Prince Myrddin had returned to Etruria.[X]
+
+## EndingDescCath
+Cath set out to travel
+the world after the war.
+She continued to steal from the rich and
+greedy and give it all to the poor. She
+was remembered as the Master Thief.[X]
+
+## EndingDescSophia
+After returning to Nabata,
+Sophia was never heard
+from again. There are no records of Nabata
+after the war, so none know how Sophia led
+the rest of her life...[X]
+
+## EndingDescMelady
+Melady returned home with
+Guinivere to help rebuild
+Bern. Her unbending will and hard work
+earned Guinivere due respect, and Bern
+began to regain its former prosperity.[X]
+
+## EndingDescGonzalez
+When Gonzalez returned to
+his home in the Western
+Isles he was not greeted with the stones or
+harsh words he was used to but instead with
+cheers for the return of a great hero.[X]
+
+## EndingDescNoah
+Wanting to test his
+ability, Noah left
+Zelot's group and traveled the world as a lone
+mercenary. Several nations offered him positions
+in their armies, but he turned them all down.[X]
+
+## EndingDescTrec
+Trec remained a merce-
+nary in Zelot's troop.
+Despite being asleep half the time,
+he made short work of any and all
+who crossed his path in battle.[X]
+
+## EndingDescZelot
+Zelot returned to
+Ilia where he worked
+to rebuild the land. He eventually united
+Ilia into a kingdom and served as the
+nation's first king.[X]
+
+## EndingDescEchidna
+Echidna returned to
+her home in the Western
+Isles, and the people were overjoyed to
+welcome back their hero. Her hard work
+united the Isles into a new nation.[X]
+
+## EndingDescCecilia
+Cecilia returned home and
+helped rebuild Etruria.
+Her calm judgment and leadership directed
+Etruria to prosperity again and she came
+to be known as the Daughter of Etruria.[X]
+
+## EndingDescGeese
+Geese reopened his trade
+routes and began to make
+a profit. He donated nearly all of the money he
+made to the Western Isles, which helped develop
+the land, and he became known as the Ocean King.[X]
+
+## EndingDescOgier
+Ogier continued to travel
+as a mercenary and his
+renown spread across the continent. Even in
+his fame, he always held respect for his
+comrades in battle.[X]
+
+
+
+
+
+
+## EndingDescLilinaAndRoy
+After returning home, Lilina
+became the new marquess of
+Ostia, and shortly after, was wed to Roy.
+Together, Roy and Lilina united Lycia to create
+the prosperous and peaceful Kingdom of Lycia.[X]
+
+## EndingDescCeciliaAndRoy
+Cecilia accompanied
+Roy to Pherae where
+she helped rebuild the battered land. The
+two eventually wed, and she continued to
+offer him close support as his wife.[X]
+
+## EndingDescSueAndRoy
+Sue accompanied Roy to
+Lycia, where they wed.
+She could never cast away her love for
+nature, however, and other nobility found
+her behavior unusual.[X]
+
+## EndingDescLarumAndRoy
+Larum accompanied Roy
+to Pherae where they wed.
+Many voiced unease about a Lycian marquess
+marrying a woman of common descent, but in
+spite of the criticism, they were happy.[X]
+
+## EndingDescShannaAndRoy
+Shanna gave up her life
+as a pegasus knight and
+went to Pherae with Roy, where they wed.
+Rebuilding Lycia was never easy, but her
+energy always encouraged everyone around her.[X]
+
+## EndingDescSophiaAndRoy
+Sophia accompanied Roy
+to Pherae, where the two
+married. Despite her quiet nature, her
+informed decisions assisted greatly in the
+reconstruction of Lycia.[X]

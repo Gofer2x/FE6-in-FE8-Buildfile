@@ -12,7 +12,11 @@
 	#include "Misc/EditItemEffects.event"
 	
 	#include "Text/NewTextTableInstaller.event"
+	
+	#define TextSizeStart CURRENTOFFSET
 	#include "Text/Install Text Data.event"
+	#define TextSizeTotal (CURRENTOFFSET-TextSizeStart)
+	MESSAGE Text Size is TextSizeTotal Bytes
 	
 	#include "Graphics/Master Graphics Installer.event"
 	

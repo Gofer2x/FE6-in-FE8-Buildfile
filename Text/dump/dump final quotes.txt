@@ -1,0 +1,145 @@
+[0202]
+[LoadClarine][NormalPrint]This is the end! We've come
+too far to lose now![A][ClearFace]
+[0203]
+[LoadFae][NormalPrint][ToggleSmile]...Do we have to fight...?[.....]
+...Sniff...[A][ClearFace]
+[0204]
+[LoadSin][NormalPrint][ToggleSmile]...We've finally made it.[A][ClearFace]
+[0205]
+[LoadSue][NormalPrint][ToggleSmile]Is this the end?
+Or is it the beginning...?[A][ClearFace]
+[0206]
+[LoadDayan][NormalPrint][ToggleSmile]This is the demon dragon...?[A][ClearFace]
+[0207]
+[LoadBarthe][NormalPrint][ToggleSmile]We cannot afford mistakes.[A][ClearFace]
+[0208]
+[LoadBors][NormalPrint][ToggleSmile]I will fight honorably as
+a knight of Ostia![A][ClearFace]
+[0209]
+[LoadGwendolyn][NormalPrint][ToggleSmile]You can do this...
+Just trust in yourself.[A][ClearFace]
+[020A]
+[LoadDouglas][NormalPrint][ToggleSmile]This won't be easy.[A][ClearFace]
+[020B]
+[LoadWolt][NormalPrint][ToggleSmile]No matter what happens,
+I will protect Lord Roy...[A][ClearFace]
+[020C]
+[LoadDorothy][NormalPrint][ToggleSmile]Can we win...?[.....]
+Of course we can![A][ClearFace]
+[020D]
+[LoadKlein][NormalPrint][ToggleSmile]The long battle comes to
+an end.[A][ClearFace]
+[020E]
+[LoadSaul][NormalPrint]Fascinating...
+Now, shall we?[A][ClearFace]
+[020F]
+[LoadElen][NormalPrint][ToggleSmile]Saint Elimine...
+Give us strength![A][ClearFace]
+[0210]
+[LoadYoder][NormalPrint][ToggleSmile]Finally, an end to the battle
+of dragon and man...[A][ClearFace]
+[0211]
+[LoadChad][NormalPrint][ToggleSmile]I have friends I can trust.
+There's no way I can lose now!![A][ClearFace]
+[0212]
+[LoadKarel][NormalPrint][ToggleSmile]Let's see just how
+powerful this dragon is.[A][ClearFace]
+[0213]
+[LoadFir][NormalPrint][ToggleSmile]I will win.
+I will win![A][ClearFace]
+[0214]
+[LoadRutger][NormalPrint][ToggleSmile]...It begins.[A][ClearFace]
+[0215]
+[LoadDieck][NormalPrint]Whoa... There's something
+you don't see everyday![A][ClearFace]
+[0216]
+[LoadGarret][NormalPrint]A truly powerful enemy!
+Haven't met one in years![A][ClearFace]
+[0217]
+[LoadAlen][NormalPrint]I will protect Lord Roy with
+my life![A][ClearFace]
+[0218]
+[LoadLance][NormalPrint][ToggleSmile]Lord Roy, Lord Eliwood...
+Thank you for everything![A][ClearFace]
+[0219]
+[LoadPerceval][NormalPrint][ToggleSmile]If we take our time...
+we can win.[A][ClearFace]
+[021A]
+[LoadIgrene][NormalPrint][ToggleSmile]At last...peace shall
+come again...[A][ClearFace]
+[021B]
+[LoadMarcus][NormalPrint][ToggleSmile]Please be careful,
+Lord Roy.[A][ClearFace]
+[021C]
+[LoadAstolfo][NormalPrint][ToggleSmile]This looks dangerous...
+Not that that's anything new.[A][ClearFace]
+[021D]
+[LoadWard][NormalPrint]This is it! The great battle
+I've been waiting for![A][ClearFace]
+[021E]
+[LoadLot][NormalPrint][ToggleSmile]We must be wary...[A][ClearFace]
+[021F]
+[LoadBartre][NormalPrint][ToggleSmile]Whooooooooooa!
+I'm burning up![A][ClearFace]
+[0220]
+[LoadLugh][NormalPrint][ToggleSmile]...I won't lose.
+I will protect us all![A][ClearFace]
+[0221]
+[LoadLilina][NormalPrint][ToggleSmile]Father...
+Watch over us.[A][ClearFace]
+[0222]
+[LoadHugh][NormalPrint][ToggleSmile]Whoa!
+We gotta fight that thing?![A][ClearFace]
+[0223]
+[LoadNiime][NormalPrint]This is it! The power I've
+been searching for!![A][ClearFace]
+[0224]
+[LoadRaigh][NormalPrint][ToggleSmile]This is the demon dragon...!
+Such power...! Yes...![A][ClearFace]
+[0225]
+[LoadLarum][NormalPrint][ToggleSmile]It's...huge...[A]
+[ClearFace]
+[0226]
+[LoadJuno][NormalPrint][ToggleSmile]The time has come...[A][ClearFace]
+[0227]
+[LoadThea][NormalPrint][ToggleSmile]I...will not lose![A][ClearFace]
+[0228]
+[LoadShanna][NormalPrint][ToggleSmile]All right!
+Chaaaaarge![A][ClearFace]
+[0229]
+[LoadZeiss][NormalPrint][ToggleSmile]I'll focus all my strength
+into this one strike![A][ClearFace]
+[022A]
+[LoadElffin][NormalPrint][ToggleSmile]Let there be peace in
+your dying heart...[A][ClearFace]
+[022B]
+[LoadCath][NormalPrint]Let's go already.[A][ClearFace]
+[022C]
+[LoadSophia][NormalPrint][ToggleSmile]I can sense...
+a sad heart...[A][ClearFace]
+[022D]
+[LoadMelady][NormalPrint][ToggleSmile]For everyone back in Bern...
+and for Galle...[A][ClearFace]
+[022E]
+[LoadGonzalez][NormalPrint][ToggleSmile]I not afraid!
+This time, I not afraid!![A][ClearFace]
+[022F]
+[LoadNoah][NormalPrint]Yeah, we'll be fine.[A][ClearFace]
+[0230]
+[LoadTrec][NormalPrint][ToggleSmile]Sigh....
+Give me a break...[A][ClearFace]
+[0231]
+[LoadZelot][NormalPrint][ToggleSmile]Finally, Ilia will
+know peace again...[A][ClearFace]
+[0232]
+[LoadEchidna][NormalPrint][ToggleSmile]This is the end...
+Finally, the end...[A][ClearFace]
+[0233]
+[LoadCecilia][NormalPrint][ToggleSmile]Concentrate, Roy.[A][ClearFace]
+[0234]
+[LoadGeese][NormalPrint][ToggleSmile]I hope this'll
+be the last battle.[A][ClearFace]
+[0235]
+[LoadOgier][NormalPrint][ToggleSmile]I know I've become strong...
+Now's the time to show it!![A][ClearFace]

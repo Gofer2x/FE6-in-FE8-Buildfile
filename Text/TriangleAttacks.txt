@@ -1,0 +1,14 @@
+## JunoTriangleAttack
+[LoadJuno]Thea, Shanna,[.....]
+are you ready?[AN][Clear]
+[ToggleSmile]Triangle Attack!![AN][X]
+
+## TheaTriangleAttack
+[LoadThea]Juno, Shanna,[.....]
+get ready![AN][Clear]
+[ToggleSmile]Triangle Attack!![AN][X]
+
+## ShannaTriangleAttack
+[LoadShanna]Juno, Thea![.....]
+Let's go![AN][Clear]
+[ToggleSmile]Triangle Attack![AN][X]

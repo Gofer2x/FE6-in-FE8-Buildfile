@@ -73,3 +73,4 @@ Temporary Items
 *.csv#
 /Text/_textentries
 Text/Text Definitions.event
+Text/Install Text Data.event

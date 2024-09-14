@@ -214,7 +214,7 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Enemies
 CHECK_HARD
-BNE 1 s0 sC
+BEQ 1 s0 sC
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN

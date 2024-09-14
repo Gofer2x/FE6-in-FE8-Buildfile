@@ -24,7 +24,7 @@
 #define Hero_SMS_Size MapSprite16x16
 #define HeroF_SMS_Data 0x1B8AA0 //Pattern 2, Size 0
 #define HeroF_SMS_Size MapSprite16x16
-#define Myrmidon_SMS_Data 0x1B8BDC //Pattern 2, Size 0
+#define Myrmidon_SMS_Data 0x1B8CF0 //Pattern 2, Size 0
 #define Myrmidon_SMS_Size MapSprite16x16
 #define MyrmidonF_SMS_Data 0x1B8BDC //Pattern 2, Size 0
 #define MyrmidonF_SMS_Size MapSprite16x16

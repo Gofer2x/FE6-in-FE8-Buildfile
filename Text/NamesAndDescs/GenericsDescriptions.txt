@@ -21,7 +21,7 @@ mountains.[X]
 Soldiers of Thria who[N]
 betrayed the Lycian League.[X]
 
-## GenericDescRebelsLegance
+## GenericDescRebelLegance
 Soldiers serving Legance[N]
 and the rebellion.[X]
 

@@ -212,13 +212,18 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
-LoadHardReinforcements(HardExtraEnemies)
+CHECK_HARD
+BNE 1 s0 sC
+LOAD1 0x1 HardExtraEnemies
+LABEL 1
 ENUN
+FADU 60
+STAL 60
 FlagON(Ch7_ConvoFlagD)
 FlagON(Ch7_ThroneEnemiesFlag)
 CMOF
+PlayMusic(MUS_DeerOfThePlains)
 MOVE 0x0 Debias [4,2]
 ENUN
 STAL 16
@@ -229,7 +234,7 @@ ENUN
 Text(Ch7_Start1)
 MOVE 0x0 Debias [4,2]
 ENUN
-MOVE 0x0 Legance [8,65535]
+MOVE 0x0 Legance [8,0]
 ENUN
 DISA Legance
 MOVE 0x0 Debias [5,1]
@@ -301,7 +306,7 @@ EndEvent
 LoadThroneReinforcementsIfBossAlive:
 CHECK_EVENTID BossDefeatFlag
 BNE 1 s0 sC
-LOAD1 0x1 ThroneReinforcements
+LoadReinforcements(ThroneReinforcements)
 ENUN
 LABEL 1
 EndEvent

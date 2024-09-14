@@ -10,6 +10,7 @@
 
 #include "ItemIcons/Installer.event"
 
+#include "Palettes/BlankOutCharPalTable.event"
 #include "Palettes/Palette Setup.event"
 
 #include "Animation/Installer.event"

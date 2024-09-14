@@ -10,6 +10,7 @@
 	
 	#include "Misc/EditVanillaStatBoosts.event"
 	#include "Misc/EditItemEffects.event"
+	#include "Misc/NeutralizeForcedDeploys.event"
 	
 	#include "Text/NewTextTableInstaller.event"
 	

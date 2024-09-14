@@ -201,3 +201,96 @@ Raigh_Druid:
 Cath_ThiefF:
 	#incbin "./_palettes/Cath_ThiefF.lzpal" 
 
+Melady_WyvernRiderF:
+	#incbin "./_palettes/Melady_WyvernRiderF.lzpal" 
+
+Melady_WyvernLordF:
+	#incbin "./_palettes/Melady_WyvernLordF.lzpal" 
+
+Perceval_Paladin:
+	#incbin "./_palettes/Perceval_Paladin.lzpal" 
+
+Cecilia_Valkyrie:
+	#incbin "./_palettes/Cecilia_Valkyrie.lzpal" 
+
+Sophia_ShamanF:
+	#incbin "./_palettes/Sophia_ShamanF.lzpal" 
+
+Sophia_DruidF:
+	#incbin "./_palettes/Sophia_DruidF.lzpal" 
+
+Igrene_SniperF:
+	#incbin "./_palettes/Igrene_SniperF.lzpal" 
+
+Garret_Berserker:
+	#incbin "./_palettes/Garret_Berserker.lzpal" 
+
+Hugh_Mage:
+	#incbin "./_palettes/Hugh_Mage.lzpal" 
+
+Hugh_Sage:
+	#incbin "./_palettes/Hugh_Sage.lzpal" 
+
+Zeiss_WyvernLord:
+	#incbin "./_palettes/Zeiss_WyvernLord.lzpal" 
+
+Douglas_General:
+	#incbin "./_palettes/Douglas_General.lzpal" 
+
+Niime_DruidF:
+	#incbin "./_palettes/Niime_DruidF.lzpal" 
+
+Juno_Falcoknight:
+	#incbin "./_palettes/Juno_Falcoknight.lzpal" 
+
+Dayan_NomadTrooper:
+	#incbin "./_palettes/Dayan_NomadTrooper.lzpal" 
+
+Yoder_Bishop:
+	#incbin "./_palettes/Yoder_Bishop.lzpal" 
+
+Karel_Swordmaster:
+	#incbin "./_palettes/Karel_Swordmaster.lzpal" 
+
+Damas_Fighter:
+	#incbin "./_palettes/Damas_Fighter.lzpal" 
+
+Ruud_Knight:
+	#incbin "./_palettes/Ruud_Knight.lzpal" 
+
+Slater_Knight:
+	#incbin "./_palettes/Slater_Knight.lzpal" 
+
+Erik_Cavalier:
+	#incbin "./_palettes/Erik_Cavalier.lzpal" 
+
+Dory_Brigand:
+	#incbin "./_palettes/Dory_Brigand.lzpal" 
+
+Debias_Knight:
+	#incbin "./_palettes/Debias_Knight.lzpal" 
+
+Legance_General:
+	#incbin "./_palettes/Legance_General.lzpal" 
+
+Zinque_General:
+	#incbin "./_palettes/Zinque_General.lzpal" 
+
+Roartz_General:
+	#incbin "./_palettes/Roartz_General.lzpal" 
+
+Narcian_WyvernLord:
+	#incbin "./_palettes/Narcian_WyvernLord.lzpal" 
+
+Galle_WyvernLord:
+	#incbin "./_palettes/Galle_WyvernLord.lzpal" 
+
+Murdock_General:
+	#incbin "./_palettes/Murdock_General.lzpal" 
+
+Zephiel_King:
+	#incbin "./_palettes/Zephiel_King.lzpal" 
+
+Brunnya_SageF:
+	#incbin "./_palettes/Brunnya_SageF.lzpal" 
+

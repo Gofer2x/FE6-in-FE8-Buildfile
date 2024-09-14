@@ -16,8 +16,8 @@ Pirate[X]
 ## GenericThriaName
 Thria[X]
 
-## GenericRebelsName
-Rebels[X]
+## GenericRebelName
+Rebel[X]
 
 ## GenericThiefName
 Thief[X]

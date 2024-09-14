@@ -357,7 +357,7 @@
 #define GenericLausName 0xeaa
 #define GenericPirateName 0xeab
 #define GenericThriaName 0xeac
-#define GenericRebelsName 0xead
+#define GenericRebelName 0xead
 #define GenericThiefName 0xeae
 #define GenericWestIslesName 0xeaf
 #define GenericArmaghName 0xeb0
@@ -379,7 +379,7 @@
 #define GenericDescOutlawsRansack 0xec0
 #define GenericDescOutlawsMountains 0xec1
 #define GenericDescThriaTraitors 0xec2
-#define GenericDescRebelsLegance 0xec3
+#define GenericDescRebelLegance 0xec3
 #define GenericDescThiefHunting 0xec4
 #define GenericDescBrigandsCh8x 0xec5
 #define GenericDescBanditsRoamingWest 0xec6

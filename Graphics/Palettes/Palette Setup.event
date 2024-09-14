@@ -267,3 +267,127 @@
 // Cath_ThiefF
 	setPalette(66,Cath_ThiefF)
 	setCBSP(66,Cath, 1, ThiefF)
+
+// Melady_WyvernRiderF
+	setPalette(67,Melady_WyvernRiderF)
+	setCBSP(67,Melady, 1, WyvernRiderF)
+
+// Melady_WyvernLordF
+	setPalette(68,Melady_WyvernLordF)
+	setCBSP(68,Melady, 3, WyvernLordF)
+
+// Perceval_Paladin
+	setPalette(69,Perceval_Paladin)
+	setCBSP(69,Perceval, 3, Paladin)
+
+// Cecilia_Valkyrie
+	setPalette(70,Cecilia_Valkyrie)
+	setCBSP(70,Cecilia, 3, Valkyrie)
+
+// Sophia_ShamanF
+	setPalette(71,Sophia_ShamanF)
+	setCBSP(71,Sophia, 1, ShamanF)
+
+// Sophia_DruidF
+	setPalette(72,Sophia_DruidF)
+	setCBSP(72,Sophia, 3, DruidF)
+
+// Igrene_SniperF
+	setPalette(73,Igrene_SniperF)
+	setCBSP(73,Igrene, 3, SniperF)
+
+// Garret_Berserker
+	setPalette(74,Garret_Berserker)
+	setCBSP(74,Garret, 3, Berserker)
+
+// Hugh_Mage
+	setPalette(75,Hugh_Mage)
+	setCBSP(75,Hugh, 1, Mage)
+
+// Hugh_Sage
+	setPalette(76,Hugh_Sage)
+	setCBSP(76,Hugh, 3, Sage)
+
+// Zeiss_WyvernLord
+	setPalette(77,Zeiss_WyvernLord)
+	setCBSP(77,Zeiss, 3, WyvernLord)
+
+// Douglas_General
+	setPalette(78,Douglas_General)
+	setCBSP(78,Douglas, 3, General)
+
+// Niime_DruidF
+	setPalette(79,Niime_DruidF)
+	setCBSP(79,Niime, 3, DruidF)
+
+// Juno_Falcoknight
+	setPalette(80,Juno_Falcoknight)
+	setCBSP(80,Juno, 3, Falcoknight)
+
+// Dayan_NomadTrooper
+	setPalette(81,Dayan_NomadTrooper)
+	setCBSP(81,Dayan, 3, NomadTrooper)
+
+// Yoder_Bishop
+	setPalette(82,Yoder_Bishop)
+	setCBSP(82,Yoder, 3, Bishop)
+
+// Karel_Swordmaster
+	setPalette(83,Karel_Swordmaster)
+	setCBSP(83,Karel, 3, Swordmaster)
+
+// Damas_Fighter
+	setPalette(84,Damas_Fighter)
+	setCBSP(84,Damas, 1, Fighter)
+
+// Ruud_Knight
+	setPalette(85,Ruud_Knight)
+	setCBSP(85,Ruud, 1, Knight)
+
+// Slater_Knight
+	setPalette(86,Slater_Knight)
+	setCBSP(86,Slater, 1, Knight)
+
+// Erik_Cavalier
+	setPalette(87,Erik_Cavalier)
+	setCBSP(87,Erik, 1, Cavalier)
+
+// Dory_Brigand
+	setPalette(88,Dory_Brigand)
+	setCBSP(88,Dory, 1, Brigand)
+
+// Debias_Knight
+	setPalette(89,Debias_Knight)
+	setCBSP(89,Debias, 1, Knight)
+
+// Legance_General
+	setPalette(90,Legance_General)
+	setCBSP(90,Legance, 3, General)
+
+// Zinque_General
+	setPalette(91,Zinque_General)
+	setCBSP(91,Zinque, 3, General)
+
+// Roartz_General
+	setPalette(92,Roartz_General)
+	setCBSP(92,Roartz, 3, General)
+
+// Narcian_WyvernLord
+	setPalette(93,Narcian_WyvernLord)
+	setCBSP(93,Narcian, 3, WyvernLord)
+
+// Galle_WyvernLord
+	setPalette(94,Galle_WyvernLord)
+	setCBSP(94,Galle, 3, WyvernLord)
+
+// Murdock_General
+	setPalette(95,Murdock_General)
+	setCBSP(95,Murdock, 3, General)
+
+// Zephiel_King
+	setPalette(96,Zephiel_King)
+	setCBSP(96,Zephiel, 3, King)
+
+// Brunnya_SageF
+	setPalette(97,Brunnya_SageF)
+	setCBSP(97,Brunnya, 3, SageF)

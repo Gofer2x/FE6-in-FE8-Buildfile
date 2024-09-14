@@ -92,7 +92,7 @@
 #define MUS_ScarsOfTheScouring MUS_DistantRoads //player phase gaiden
 #define MUS_MarchToDeliverance MUS_DistantRoads //player phase trial
 #define MUS_ShadowApproaches MUS_DistantRoads //player phase fow
-#define MUS_BindingTies 0x2A //allied unit theme
+#define MUS_BindingTies MUS_BindingVow //allied unit theme
 #define MUS_WinningRoad MUS_GraspAtVictory //near victory theme
 #define MUS_PoemOfTheSoftWind 0x2A //elphin play track
 #define MUS_AtTheFinalDragon 0x2A //jahn theme

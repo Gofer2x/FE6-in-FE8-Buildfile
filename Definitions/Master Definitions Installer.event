@@ -17,7 +17,7 @@
 //#include "VanillaData/VanillaItemDescriptions.event"
 #include "VanillaData/VanillaItemIcons.event"
 #include "VanillaData/VanillaStatBoosts.event"
-#include "VanillaData/VanillaEffectivenessTables.event"
+//#include "VanillaData/VanillaEffectivenessTables.event"
 #include "VanillaData/VanillaSounds.event"
 
 #include "NewWeaponRanks.event"

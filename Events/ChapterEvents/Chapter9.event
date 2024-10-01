@@ -12,6 +12,10 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch9_NoahFirTalkFlag 0x7
+#define Ch9_SueSinTalkFlag 0x8
+#define Ch9_LeftVillageVisitedFlag 0x9
+#define Ch9_RightVillageVisitedFlag 0xA
 
 EventPointerTable(EVENTS_Ch9,ThisChapter)
 
@@ -30,28 +34,28 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//12-20 pirates from forts
-//2 fir sin appear
-//5 sin turns aggressive
+TurnEventEnemy(0x0,LoadFortReinforcements,12,9)
+TurnEventEnemy(0x0,FirAndSinAppear,2)
+TurnEventEnemy(0x0,SinTurnsAggressive,5)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-//noah talk to fir
-//sue talk to sin
+CharacterEvent(Ch9_NoahFirTalkFlag,NoahRecruitsFir,Noah,Fir)
+CharacterEvent(Ch9_SueSinTalkFlag,SueRecruitsSin,Sue,Sin)
 END_MAIN
 
 LocationBasedEvents:
-//x2 y3 seize
-//x18 y2 longbow village, sets echidna route
-//x21 y2 barrier village, sets bartre route
-//x2 y24 silver sword village
-//x23 y4 armory SlimSword IronSword SteelSword IronBlade SteelBlade IronAxe SteelAxe HandAxe Hammer
-//x21 y6 vendor Fire Heal Mend Vulnerary Antitoxin Torch DoorKey
-//x1 y20 mist house
-//x19 y22 resistance house
-//x18 y13 sin house
-//x16 y1 mainland house
+Seize(2,3)
+Village(Ch9_LeftVillageVisitedFlag,KillerBowEchidnaRouteVillage,18,2)
+Village(Ch9_RightVillageVisitedFlag,BarrierBartreRouteVillage,21,2)
+Village(0x0,SilverSwordVillageVisit,2,24)
+Armory(ArmoryList,23,4)
+Vendor(VendorList,21,6)
+House(0x0,MistHouseVisit,1,20)
+House(0x0,NorthOrWestHouseVisit,19,22)
+House(0x0,SinHouseVisit,18,13)
+House(0x0,MainlandHouseVisit,16,1)
 END_MAIN
 
 MiscBasedEvents:
@@ -136,15 +140,136 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-PlayMusic(MUS_MessengerFromTheDarkness)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+PlayMusic(MUS_MessengerFromTheDarkness)
+CAM1 [2,3]
+FlashCursor(2,3,60)
+CMOF
+Text(BG_Castle1,Ch9_Start1)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 CutsceneCeciliaGuinivere
+ENUN
+CMON
+MOVE 0x0 Roy [19,15]
+CMOF
+Text(Ch9_Start2)
+MOVE 0x0 Cecilia [18,22]
+MOVE 0x0 GuinivereTrial [18,21]
+ENUN
+DISA Cecilia
+DISA GuinivereTrial
+CMON
+MOVE 0x0 Roy [19,13]
+ENUN
+GotoPrepScreen
+
+FirAndSinAppear:
+CAM1 [2,3]
+FlashCursor(2,3,60)
+PlayMusic(MUS_MessengerFromTheDarkness)
+Text(BG_Castle1,Ch9_ScottSendsFir)
+LOAD1 0x1 FirSin
+ENUN
+FlashCursor(Sin,60)
+Text(BG_Outside,Ch9_FirAndSinHeadOut)
+CAM1 [2,3]
+FlashCursor(2,3,60)
+Text(BG_Castle1,Ch9_ScottFirWoDao)
+EndEvent
+
+SinTurnsAggressive:
+SetAI(Sin,AI1_InRange,AI2_Charge)
+EndEvent
+
+NoahRecruitsFir:
+SwitchMusic(MUS_JoinUs)
+Text(Ch9_NoahRecruitsFir)
+BecomeAlly(Fir)
+RestoreMusic
+EndEvent
+
+SueRecruitsSin:
+SwitchMusic(MUS_JoinUs)
+Text(Ch9_SueRecruitsSin)
+BecomeAlly(Sin)
+RestoreMusic
+EndEvent
+
+LoadFortReinforcements:
+ReinforcementEvent(FortPiratesReinforcements)
+
+SilverSwordVillageVisit:
+VillageEventItem(Ch9_SilverSwordVillage,BG_Village,SilverSword)
+
+KillerBowEchidnaRouteVillage:
+MUSI
+SMOV 0x2 BG_Village
+SMOV 0x3 Ch9_KillerBowVillage
+CALL $9EE310
+MUNO
+CALL $591F40
+SMOV 0x3 KillerBow
+GIVEITEMTO 0xFFFF
+TILECHANGE 5
+EndEvent
+
+BarrierBartreRouteVillage:
+MUSI
+SMOV 0x2 BG_Village
+SMOV 0x3 Ch9_BarrierVillage
+CALL $9EE310
+MUNO
+CALL $591F40
+SMOV 0x3 Barrier
+GIVEITEMTO 0xFFFF
+TILECHANGE 4
+EndEvent
+
+MistHouseVisit:
+HouseEvent(Ch9_MistHouse,BG_House)
+
+SinHouseVisit:
+HouseEvent(Ch9_SinWarningHouse,BG_House)
+
+NorthOrWestHouseVisit:
+HouseEvent(Ch9_NorthOrWestHouse,BG_House)
+
+MainlandHouseVisit:
+HouseEvent(Ch9_FleeingToMainlandHouse,BG_House)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch9_End1)
+
+CheckFlag(Ch9_LeftVillageVisitedFlag)
+BEQ 1 sC s0
+//left visited, go to echidna route
+Text(BG_Castle1,Ch9_EndNorth)
 MoveToChapter(CHAPTER_Ch10A)
+GOTO 9
+
+LABEL 1
+CheckFlag(Ch9_RightVillageVisitedFlag)
+BEQ 2 sC s0
+Text(BG_Castle1,Ch9_EndWest)
+MoveToChapter(CHAPTER_Ch10B)
+GOTO 9
+
+LABEL 2
+//neither visited, go echidna route
+Text(BG_Castle1,Ch9_EndNorthNoVillage)
+MoveToChapter(CHAPTER_Ch10A)
+GOTO 9
+
+LABEL 9
 ENDA
+
+VendorList:
+SHLI Fire Heal Mend Vulnerary Antitoxin DoorKey
+
+ArmoryList:
+SHLI SlimSword IronSword SteelSword IronBlade SteelBlade IronAxe SteelAxe HandAxe Hammer
 
 MESSAGE Events end at offset CURRENTOFFSET

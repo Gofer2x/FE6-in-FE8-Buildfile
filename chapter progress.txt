@@ -8,3 +8,5 @@ ch5: done
 ch6: mostly done, funky (non turn based) reinforcemetns not in. oh and also the boss disappears lol
 ch7: done
 ch8: mostly done, ending cutscene has missing roy movement. or something
+ch8x: mostly done, no fire traps
+ch9: baa

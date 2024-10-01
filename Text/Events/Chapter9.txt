@@ -56,9 +56,7 @@ of the goings-on in the palace.[AN]
 He keeps the three Etrurian Generals,[N]
 Perceval, Douglas, and myself,[AN]
 away from the king except in times[N]
-of great urgency.[AN][X]
-
-## Ch9_Start3
+of great urgency.[AN]
 [OpenMidRight][ToggleSmile]But what about when you came[N]
 to our aid in Ostia?[AN]
 [OpenMidLeft]That was an exception because[N]
@@ -359,7 +357,7 @@ through all this fog,[AN]
 but he also has a girl[N]
 with him...[AN][X]
 
-## Ch9_FleeingToMainlandVillage
+## Ch9_FleeingToMainlandHouse
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager44]
 The nearby villagers...[AN]
 They're all deserting the[N]
@@ -390,6 +388,7 @@ In the end I suppose all we can do is[N]
 take it one problem at a time.[AN][X]
 
 ## Ch9_EndNorth
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][FastPrint][ToggleSmile]Now...[N]
 Where do we go from here?[AN]
 [OpenMidRight][CloseSpeechFast]Let's move north[N]
@@ -409,6 +408,7 @@ somewhere.[AN]
 Let's head north.[AN][X]
 
 ## Ch9_EndWest
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][FastPrint][ToggleSmile]Now...[N]
 Where do we go from here?[AN]
 [OpenMidRight][CloseSpeechFast]Let's head west.[AN]
@@ -427,6 +427,7 @@ Lord Roy.[AN]
 Let's move west.[AN][X]
 
 ## Ch9_EndNorthNoVillage
+[OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]Now...[N]
 Where do we go from here?[AN]
 We must choose a direction.[AN]

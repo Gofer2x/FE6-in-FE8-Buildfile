@@ -28,6 +28,8 @@
 #define FlagON(flag) "ENUT flag"
 #define FlagOFF(flag) "ENUF flag"
 
+#define CheckFlag(flag) "CHECK_EVENTID flag"
+
 #define PlayMusic(music) "MUSC music"
 
 #define SwitchMusic(music) "MUSS music"
@@ -38,6 +40,13 @@
 
 #define FadeOutMusic "MUSCMID 0x7FFF"
 #define PlaySound(sound) "SOUN sound"
+
+#define FadeOut "FADU 60"
+#define FadeIn "FADI 60"
+
+#define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
+
+#define GotoPrepScreenNoENDA "CALL $591FD8"
 
 //don't feel like dealign with world map events rn
 #define MoveToChapter(chapter) "MNC2 chapter"

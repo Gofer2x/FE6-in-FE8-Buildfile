@@ -133,14 +133,30 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+Text(BG_LavaFort,Ch8x_Start1)
+PlayMusic(MUS_ScarsOfTheScouring)
+LOAD3 0x0 Units
+CAM1 Roy
+ENUN
+Text(BG_LavaFort,Ch8x_Start2)
+GotoPrepScreen
 
 EndingScene:
-MoveToChapter(CHAPTER_Ch9)
+PlayMusic(MUS_Triumph)
+CHECK_ALIVE Lilina
+BEQ 1 s0 sC
+Text(BG_LavaFort, Ch8x_EndLilinaAlive)
+GOTO 2
+LABEL 1
+Text(BG_LavaFort, Ch8x_EndLilinaDead)
+LABEL 2
+GiveItemToCharacter(Roy,Durandal)
+STAL 64
+Text(BG_LavaFort,Ch8_Ch8x_WyvernsAtOstia)
+FadeIn
+CALL OstiaNarcianCutscene
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

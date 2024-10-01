@@ -227,7 +227,7 @@ for this.[AN]
 soldiers respect the most, milady.[AN]
 [OpenMidLeft]Barthe...[AN][X]
 
-## Ch8_End1
+## Ch8_EndLilinaAlive
 [OpenMidLeft][LoadLilina][OpenMidRight][LoadRoy]
 [OpenMidRight]We've finally retaken[N]
 the castle, Lilina.[AN]

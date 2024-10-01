@@ -1073,7 +1073,7 @@
 #define Ch8_BorsGwendolynTalk 0x1176
 #define Ch8_BorsLilinaTalk 0x1177
 #define Ch8_BartheLilinaTalk 0x1178
-#define Ch8_End1 0x1179
+#define Ch8_EndLilinaAlive 0x1179
 #define Ch8x_Start1 0x117a
 #define Ch8x_Start2 0x117b
 #define Ch8x_EndLilinaAlive 0x117c

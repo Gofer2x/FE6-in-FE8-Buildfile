@@ -51,16 +51,33 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 //lilina in her cell, enemy phase
+TurnEventEnemy(0x0,LilinaComplains,1)
 //turn 6, scrub squad appears on player turn
+TurnEventPlayer(0x0,OstiaSquadAppears,6)
 //turn 10, cath and thief appear (if cath alive)
+TurnEventEnemy(0x0,CathAppearsIfAlive,10)
 //turn 15-16 hard mode reinforcements from scrub corner
+TurnEventEnemy(0x0,LoadNorthWestReinforcements1,15,2)
 //turn 16-17 reinforcements from stairs and throneroom
+TurnEventEnemy(0x0,LoadThroneRoomStairsEnemies1,16,2)
 //turn 17-18 hard mode different reinforcements from scrub corner
+TurnEventEnemy(0x0,LoadNorthWestReinforcements2,17,2)
 //turn 18-19 different reinforcements from stairs and throneroom
+TurnEventEnemy(0x0,LoadThroneRoomStairsEnemies1,18,2)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+//lilina-roy two way, lilina gets thunder tome
+CharacterEventBothWays(0x0,RoyLilinaTalk,Roy,Lilina)
+//wendy and bors two way
+CharacterEventBothWays(0x0,BorsGwendolynTalk,Bors,Gwendolyn)
+//lilina and bors two way
+CharacterEventBothWays(0x0,BorsLilinaTalk,Bors,Lilina)
+//lilina and barthe two way
+CharacterEventBothWays(0x0,BartheLilinaTalk,Barthe,Lilina)
+//roy and cath
+CharacterEvent(Ch8_RoyCathTalkFlag,CathRecruitmentEvent,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
@@ -176,15 +193,106 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-PlayMusic(MUS_DeerOfThePlains)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
+//weird asm
+PlayMusic(MUS_DeerOfThePlains)
+MoveByCoords(0, 6, 19, 6, 18)
 ENUN
+Text(Ch8_Start1)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustAstolfo
+ENUN
+LOAD1 0x1 JustLilina
+ENUN
+MoveByCoords(0, 6, 18, 6, 19)
+CAM1 Lilina
+ENUN
+Stal 32
+PlayMusic(MUS_AnUnexpectedCaller)
+CAM1 Roy
+ENUN
+STAL 16
+Text(BG_Castle2,Ch8_Start2)
+DISA Lilina
+GotoPrepScreenNoENDA
+LOAD 0x1 JustLilina
 ENDA
 
+LilinaComplains:
+QuieterMusic
+CAM1 Lilina
+Text(Ch8_LilinaNoise)
+UnquieterMusic
+EndEvent
+
+OstiaSquadAppears:
+SwitchMusic(MUS_JoinUs)
+LOAD1 0x1 GwendolynBartheOgier
+ENUN
+STAL 32
+Text(BG_Dungeon,Ch8_OstiaSquadAppears)
+RestoreMusic
+EndEvent
+
+CathAppearsIfAlive:
+CheckFlag(CathDeadOrRecruited)
+BNE 1 s0 sC
+SwitchMusic(MUS_GoingMyWay)
+LOAD1 0x1 CathThief
+ENUN
+CAM1 Cath
+Text(Ch8_CathAppears)
+RestoreMusic
+LABEL 1
+EndEvent
+
+LoadThroneRoomStairsEnemies1:
+ReinforcementEvent(StairsAndThroneReinforcements1)
+
+LoadThroneRoomStairsEnemies2:
+ReinforcementEvent(StairsAndThroneReinforcements2)
+
+LoadNorthWestReinforcements1:
+HardReinforcementEvent(NorthWestReinforcements1)
+
+LoadNorthWestReinforcements2:
+HardReinforcementEvent(NorthWestReinforcements2)
+
+RoyLilinaTalk:
+SwitchMusic(MUS_JoinUs)
+Text(Ch8_RoyLilinaTalk)
+GiveItemToCharacter(Lilina,Thunder)
+RestoreMusic
+EndEvent
+
+BorsGwendolynTalk:
+ConvoEvent(Ch8_BorsGwendolynTalk)
+
+BorsLilinaTalk:
+ConvoEvent(Ch8_BorsLilinaTalk)
+
+BartheLilinaTalk:
+ConvoEvent(Ch8_BartheLilinaTalk)
+
+
 EndingScene:
+CHECK_ALIVE Lilina
+BEQ 1 s0 sC
+// lilina alive, go to ch8x
+
+Text(BG_Castle2, Ch8_EndLilinaAlive)
+PlayMusic(MUS_FinalFarewell)
+STAL 64
 MoveToChapter(CHAPTER_Ch8x)
+GOTO 9
+
+LABEL 1 //lilina dead, go to ch9
+Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
+//some sort of roy movement here.. maybe later
+FadeIn
+CALL OstiaNarcianCutscene
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

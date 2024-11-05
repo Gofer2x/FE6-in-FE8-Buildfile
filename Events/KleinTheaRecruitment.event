@@ -24,7 +24,7 @@ BEQ 2 s0 s0
 SwitchMusic(MUS_BindingTies)
 Text(Ch10B_Ch11A_YesKleinShannaTheaFirstTalk)
 BecomeNPC(Thea)
-BecomeNPC(GenericPegKnightThea)
+BecomeNPC(GenericPegKnightThea) //TODO use script
 FlagOFF(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
 RestoreMusic
 GOTO 9
@@ -34,8 +34,8 @@ LABEL 2
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_YesKleinShannaTheaSecondTalk)
 BecomeAlly(Thea)
-BecomeNPC(GenericPegKnightThea)
-SetAI(GenericPegKnightThea,AI1_None,AI2_Escape)
+BecomeNPC(GenericPegKnightThea) //TODO use script
+SetAI(GenericPegKnightThea,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 GOTO 9
 
@@ -49,7 +49,7 @@ EVENT_KleinRecruitsThea:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_KleinTurnsTheaBlue)
 BecomeAlly(Thea)
-BecomeNPC(GenericPegKnightThea)
+BecomeNPC(GenericPegKnightThea) //TODO use script
 //SetAI(GenericPegKnightThea,AI1_None,AI2_Escape)
 RestoreMusic
 FlagON(Ch11A_Ch10B_ShannaTheaTalkFlag)
@@ -59,8 +59,8 @@ EVENT_RoyRecruitsKlein:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_RoyRecruitsKlein)
 BecomeAlly(Klein)
-BecomeNPC(GenericArcherKlein)
-SetAI(GenericArcherKlein,AI1_None,AI2_Escape)
+BecomeNPC(GenericArcherKlein) //TODO use script
+SetAI(GenericArcherKlein,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 FlagOFF(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)
@@ -70,8 +70,8 @@ EVENT_ClarineRecruitsKlein:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_ClarineRecruitsKlein)
 BecomeAlly(Klein)
-BecomeNPC(GenericArcherKlein)
-SetAI(GenericArcherKlein,AI1_None,AI2_Escape)
+BecomeNPC(GenericArcherKlein) //TODO use script
+SetAI(GenericArcherKlein,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)
 EndEvent

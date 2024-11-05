@@ -19,12 +19,12 @@ GOTO 9
 LABEL 1
 //check if shanna and thea talked while klein was still enemy
 CheckFlag(Ch11A_Ch10B_NoKleinShannaTheaTalkFlag)
-BEQ 2 s0 s0
+BNE 2 s0 sC
 //they have not, thea turns green
 SwitchMusic(MUS_BindingTies)
 Text(Ch10B_Ch11A_YesKleinShannaTheaFirstTalk)
 BecomeNPC(Thea)
-BecomeNPC(GenericPegKnightThea) //TODO use script
+AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
 FlagOFF(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
 RestoreMusic
 GOTO 9
@@ -34,8 +34,9 @@ LABEL 2
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_YesKleinShannaTheaSecondTalk)
 BecomeAlly(Thea)
-BecomeNPC(GenericPegKnightThea) //TODO use script
-SetAI(GenericPegKnightThea,AI1_None,AI2_Escape) //TODO use script
+AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericPegKnightThea,PegasusKnight)
+//SetAI(GenericPegKnightThea,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 GOTO 9
 
@@ -49,7 +50,8 @@ EVENT_KleinRecruitsThea:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_KleinTurnsTheaBlue)
 BecomeAlly(Thea)
-BecomeNPC(GenericPegKnightThea) //TODO use script
+AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericPegKnightThea,PegasusKnight)
 //SetAI(GenericPegKnightThea,AI1_None,AI2_Escape)
 RestoreMusic
 FlagON(Ch11A_Ch10B_ShannaTheaTalkFlag)
@@ -59,8 +61,10 @@ EVENT_RoyRecruitsKlein:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_RoyRecruitsKlein)
 BecomeAlly(Klein)
-BecomeNPC(GenericArcherKlein) //TODO use script
-SetAI(GenericArcherKlein,AI1_None,AI2_Escape) //TODO use script
+AllEnemiesToNPC(GenericArcherKlein,Archer)
+
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericArcherKlein,Archer)
+//SetAI(GenericArcherKlein,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 FlagOFF(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)
@@ -70,7 +74,7 @@ EVENT_ClarineRecruitsKlein:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10B_Ch11A_ClarineRecruitsKlein)
 BecomeAlly(Klein)
-BecomeNPC(GenericArcherKlein) //TODO use script
+AllEnemiesToNPC(GenericArcherKlein,Archer)
 SetAI(GenericArcherKlein,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)

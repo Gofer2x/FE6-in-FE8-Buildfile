@@ -204,7 +204,6 @@ MUSC MUS_DeerOfThePlains
 STAL 16
 QuieterMusic
 LoadReinforcements(PirateReinforcements)
-ENUN
 Text(Ch4_PiratesAppear)
 UnquieterMusic
 EndEvent

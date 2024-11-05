@@ -1,6 +1,6 @@
 ALIGN 4
 
-CathRecruitmentEvent:
+EVENT_CathRecruitment:
 CHECK_EVENTID RoyCathTalkFlag1
 BNE 1 s0 sC
 MUSS MUS_GoingMyWay

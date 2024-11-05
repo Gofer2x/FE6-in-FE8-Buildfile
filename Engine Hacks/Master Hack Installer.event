@@ -18,4 +18,7 @@
 #include "Chapternamesastext2.1/fe8_chnames.event"
 #include "Allow254genericminimugs/Allow 254 generic minimugs.event"
 #include "EVENTSCRIPT_AutoLevelUnits/Installer.event" //to simulate bugged hm bonuses
-#include "NarrowFont/Narrowfont installer.event" //to simulate bugged hm bonuses
+//#include "EVENTSCRIPT_change_allegiance_all... how do i install this?
+//#include "EVENTSCRIPT_change_ai_all... ditto.
+
+#include "NarrowFont/Narrowfont installer.event"

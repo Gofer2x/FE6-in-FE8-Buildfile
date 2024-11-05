@@ -1,0 +1,81 @@
+//oh boy
+//#define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
+//#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
+//#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
+//#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
+//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+
+EVENT_TheaRecruitment:
+//check if klein recruited
+CheckFlag(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag) 
+BNE 1 s0 sC
+//klein not recruited, thea remains red
+QuieterMusic
+Text(Ch10B_Ch11A_NoKleinShannaTheaTalk)
+FlagON(Ch11A_Ch10B_NoKleinShannaTheaTalkFlag)
+UnquieterMusic
+GOTO 9
+
+LABEL 1
+//check if shanna and thea talked while klein was still enemy
+CheckFlag(Ch11A_Ch10B_NoKleinShannaTheaTalkFlag)
+BEQ 2 s0 s0
+//they have not, thea turns green
+SwitchMusic(MUS_BindingTies)
+Text(Ch10B_Ch11A_YesKleinShannaTheaFirstTalk)
+BecomeNPC(Thea)
+BecomeNPC(GenericPegKnightThea)
+FlagOFF(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
+RestoreMusic
+GOTO 9
+
+LABEL 2
+//they have, thea turns blue and her generics get escape ai
+SwitchMusic(MUS_JoinUs)
+Text(Ch10B_Ch11A_YesKleinShannaTheaSecondTalk)
+BecomeAlly(Thea)
+BecomeNPC(GenericPegKnightThea)
+SetAI(GenericPegKnightThea,AI1_None,AI2_Escape)
+RestoreMusic
+GOTO 9
+
+LABEL 9 //end
+FlagON(Ch11A_Ch10B_ShannaTheaTalkFlag)
+EndEvent
+
+
+
+EVENT_KleinRecruitsThea:
+SwitchMusic(MUS_JoinUs)
+Text(Ch10B_Ch11A_KleinTurnsTheaBlue)
+BecomeAlly(Thea)
+BecomeNPC(GenericPegKnightThea)
+//SetAI(GenericPegKnightThea,AI1_None,AI2_Escape)
+RestoreMusic
+FlagON(Ch11A_Ch10B_ShannaTheaTalkFlag)
+EndEvent
+
+EVENT_RoyRecruitsKlein:
+SwitchMusic(MUS_JoinUs)
+Text(Ch10B_Ch11A_RoyRecruitsKlein)
+BecomeAlly(Klein)
+BecomeNPC(GenericArcherKlein)
+SetAI(GenericArcherKlein,AI1_None,AI2_Escape)
+RestoreMusic
+FlagOFF(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
+FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)
+EndEvent
+
+EVENT_ClarineRecruitsKlein:
+SwitchMusic(MUS_JoinUs)
+Text(Ch10B_Ch11A_ClarineRecruitsKlein)
+BecomeAlly(Klein)
+BecomeNPC(GenericArcherKlein)
+SetAI(GenericArcherKlein,AI1_None,AI2_Escape)
+RestoreMusic
+FlagOFF(Ch11A_Ch10B_ShannaTheaTalkFlag)
+EndEvent
+
+EVENT_ClarineKleinExtraTalk:
+Text(Ch10B_Ch11A_ClarineKleinTalkIfRoyRecruit)
+EndEvent

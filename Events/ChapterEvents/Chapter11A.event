@@ -13,6 +13,25 @@
 // 0x5
 //RoutFlag 0x6
 
+//#define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
+//#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
+//#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
+//#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
+//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+#define Ch11A_BanditsAppearCutscenePlayedFlag 0xC
+#define Ch11A_LarumEchidnaTalkFlag 0xD
+#define Ch11A_VillageFlag1 0xE
+#define Ch11A_VillageFlag2 0xF
+#define Ch11A_VillageFlag3 0x10
+#define Ch11A_VillageFlag4 0x11
+#define Ch11A_VillageFlag5 0x12
+#define Ch11A_VillageFlag6 0x13
+#define Ch11A_VillageFlag7 0x14
+#define Ch11A_VillageFlag8 0x15
+
+//#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
+//#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
+
 EventPointerTable(EVENTS_Ch11A,ThisChapter)
 
 ALIGN 4
@@ -30,13 +49,47 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,MeladyAndGalleLeave,1)
+TurnEventEnemy(0x0,OrloCallsBandits,5)
+TurnEventEnemy(0x0,KleinAppears,5)
+TurnEventEnemy(0x0,BanditsAppear,6)
+TurnEventPlayer(0x0,BanditsAppearRoyComments,7)
+TurnEventEnemy(0x0,TheaAppears,7)
+TurnEventEnemy(0x0,EchidnaAppears,8)
+TurnEventEnemy(0x0,OrloComplainsAndTalksAboutReinforcements,9)
+TurnEventEnemy(0x0,NorthCavsAppearIfBossAlive,10)
+TurnEventEnemy(0x0,MoreBanditsAppear,12,4)
+TurnEventEnemy(0x0,HardOrloMoreReinforcements,13)
+TurnEventEnemy(0x0,HardSouthCavsAppearIfBossAlive,14)
+
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch11A_LarumEchidnaTalkFlag,LarumRecruitsEchidna,Larum,Echidna)
+CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_RoyRecruitsKlein,Roy,Klein)
+CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_ClarineRecruitsKlein,Clarine,Klein)
+CharacterEventBothWays(Ch11A_Ch10B_ClarineKleinExtraTalkFlag,EVENT_ClarineKleinExtraTalk,Clarine,Klein)
+CharacterEvent(Ch11A_Ch10B_ShannaTheaTalkFlag,EVENT_TheaRecruitment,Shanna,Thea)
+CharacterEvent(Ch11A_Ch10B_ShannaTheaTalkFlag,EVENT_KleinRecruitsThea,Klein,Thea)
+CharacterEvent(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag,EVENT_KleinRecruitsThea,Klein,Thea)
+
+
 END_MAIN
 
 LocationBasedEvents:
+Seize(27,2)
+Village(Ch11A_VillageFlag1,DragonshieldVillageVisit,11,18)
+Village(Ch11A_VillageFlag2,SleepVillageVisit,24,18)
+Village(Ch11A_VillageFlag3,MoneyVillageVisit,18,14)
+Village(Ch11A_VillageFlag4,RestoreVillageVisit,5,18)
+Village(Ch11A_VillageFlag5,SpeedwingsVillageVisit,18,6)
+Village(Ch11A_VillageFlag6,AngelicRobeVillageVisit,24,6)
+Village(Ch11A_VillageFlag7,OrionsBoltVillageVisit,5,24)
+Village(Ch11A_VillageFlag8,AxereaverVillageVisit,11,24)
+Armory(ArmoryList,11,12)
+Vendor(VendorList,11,6)
 END_MAIN
 
 MiscBasedEvents:
@@ -108,24 +161,24 @@ UNIT
 
 KleinSquad1:
 UNIT Klein Sniper 0x0 Level(1,Enemy,0) [22,25] 0x0 0x0 0x1 REDA_22_24 [SilverBow, WhiteGem] [AI1_InRange80, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(14,Enemy,1) [21,24] 0x0 0x0 0x1 REDA_21_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(14,Enemy,1) [23,24] 0x0 0x0 0x1 REDA_23_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [21,24] 0x0 0x0 0x1 REDA_21_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [23,24] 0x0 0x0 0x1 REDA_23_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 KleinSquad2:
-UNIT 0xD8 Archer Klein Level(14,Enemy,1) [20,25] 0x0 0x0 0x1 REDA_21_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(15,Enemy,1) [24,25] 0x0 0x0 0x1 REDA_23_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [20,25] 0x0 0x0 0x1 REDA_21_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(15,Enemy,1) [24,25] 0x0 0x0 0x1 REDA_23_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 TheaSquad1:
 UNIT Thea PegasusKnight 0x0 Level(8,Enemy,0) [2,0] 0x0 0x0 0x1 REDA_2_1 [SlimLance, Javelin] [AI1_InRange80, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 TheaSquad2:
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [1,1] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [5,1] 0x0 0x0 0x1 REDA_3_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [1,1] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [5,1] 0x0 0x0 0x1 REDA_3_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 EchidnaFighters:
@@ -194,14 +247,259 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
+FlagON(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
+DISA Orlo
+STAL 16
+FlashCursor(27,2,60)
+Text(BG_Castle1,Ch11A_Start1)
+LoadReinforcements(CutsceneMelady)
+ENUN
+MOVE 0x0 Melady [30,5]
+ENUN
+DISA Melady
+Text(BG_Castle1,Ch11A_Start2)
+LOAD1 0x1 JustOrlo
+ENUN
+LOAD3 0x0 Units
+ENUN
+PlayMusic(MUS_WhenTheRushComes)
+CAM1 Roy
+Text(BG_Outside,Ch11A_Start3)
+LOAD1 0x1 JustLarum
+ENUN
+GotoPrepScreen
+
+MeladyAndGalleLeave:
+SwitchMusic(MUS_TheKingdomOfBern)
+CAM1 [28,12]
+LoadReinforcements(CutsceneMelady)
+ENUN
+CMOF
+LoadReinforcements(CutsceneGalle)
+Text(Ch11A_MeladyGalleLeave)
+MOVE 0x0 Galle [30,18]
+MOVE 0x0 Melady [30,17]
+ENUN
+DISA Galle
+DISA Melady
+RestoreMusic
+EndEvent
+
+OrloCallsBandits:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+CAM1 [27,2]
+PlayMusic(MUS_WildFrontier)
+Text(BG_Castle1, Ch11A_OrloLaughsAndSendsBandits)
+LABEL 9
+EndEvent
+
+KleinAppears:
+PlayMusic(MUS_WildFrontier)
+LoadReinforcements(KleinSquad1)
+ENUN
+LoadReinforcements(KleinSquad2)
+ENUN
+STAL 16
+CMOF
+LoadReinforcements(CutsceneThea)
+ENUN
+Text(Ch10B_Ch11A_KleinAppears1)
+MOVE 0x0 Thea [18,26]
+ENUN
+DISA Thea
+Text(Ch10B_Ch11A_KleinAppears2)
+EndEvent
+
+BanditsAppear:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadReinforcements(BrigandReinforcements1)
+PlayMusic(MUS_WildFrontier)
+Text(Ch11A_BanditsAppear)
+FlagON(Ch11A_BanditsAppearCutscenePlayedFlag)
+LABEL 9
+EndEvent
+
+BanditsAppearRoyComments:
+CheckFlag(Ch11A_BanditsAppearCutscenePlayedFlag)
+BEQ 9 s0 sC
+SwitchMusic(MUS_AnUnexpectedCaller)
+CAM1 Roy
+Text(Ch11A_BanditsAppearRoy)
+RestoreMusic
+LABEL 9
+EndEvent
+
+TheaAppears:
+SwitchMusic(MUS_DistantLands)
+LoadReinforcements(TheaSquad1)
+LoadReinforcements(TheaSquad2)
+Text(Ch10B_Ch11A_TheaAppears)
+RestoreMusic
+EndEvent
+
+EchidnaAppears:
+SwitchMusic(MUS_AnUnexpectedCaller)
+CAM1 [18,10]
+LoadReinforcements(EchidnaFighters)
+Text(Ch11A_EchidnaAppears1)
+LoadReinforcements(JustEchidna)
+Text(Ch11A_EchidnaAppears2)
+RestoreMusic
+EndEvent
+
+OrloComplainsAndTalksAboutReinforcements:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+CAM1 [27,2]
+FlashCursor(27,2,60)
+PlayMusic(MUS_WildFrontier)
+STAL 16
+Text(BG_Castle1,Ch11A_OrloComplainsAndTalksAboutReinforcements)
+LABEL 9
+EndEvent
+
+NorthCavsAppearIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadReinforcements(NorthWestCavReinforcements1)
+LoadReinforcements(NorthWestCavReinforcements2)
+LABEL 9
+EndEvent
+
+MoreBanditsAppear:
+LoadReinforcements(BrigandReinforcements2)
+EndEvent
+
+HardOrloMoreReinforcements:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+CHECK_HARD
+BNE 9 s0 sC
+SwitchMusic(MUS_WildFrontier)
+CAM1 [27,2]
+FlashCursor(27,2,60)
+STAL 16
+Text(BG_Castle1,Ch11A_MoreReinforcementsComing)
+LABEL 9
+EndEvent
+
+HardSouthCavsAppearIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadHardReinforcements(SouthEastCavReinforcements1)
+LoadHardReinforcements(SouthEastCavReinforcements2)
+LABEL 9
+EndEvent
+
+LarumRecruitsEchidna:
+SwitchMusic(MUS_JoinUs)
+Text(Ch11A_LarumRecruitsEchidna)
+BecomeAlly(Echidna)
+RestoreMusic
+EndEvent
+
+DragonshieldVillageVisit:
+VillageEventItem(Ch11A_DragonshieldVillage,BG_Village,Dragonshield)
+
+SleepVillageVisit:
+VillageEventItem(Ch11A_SleepVillage,BG_Village,Sleep)
+
+MoneyVillageVisit:
+VillageEventMoney(Ch11A_5000GoldVillage,BG_Village,5000)
+
+RestoreVillageVisit:
+VillageEventItem(Ch11A_RestoreVillage,BG_Village,Restore)
+
+SpeedwingsVillageVisit:
+VillageEventItem(Ch11A_SpeedwingsVillage,BG_Village,Speedwings)
+
+AngelicRobeVillageVisit:
+VillageEventItem(Ch11A_AngelicRobeVillage,BG_Village,AngelicRobe)
+
+OrionsBoltVillageVisit:
+VillageEventItem(Ch11A_OrionsBoltVillage,BG_Village,OrionsBolt)
+
+AxereaverVillageVisit:
+VillageEventItem(Ch11A_AxereaverVillage,BG_Village,Axereaver)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+//fadein 5s
+//clear units
+//load elffin
+//walk elffin, no enun
+//fadeout 5s
+//disa elffin
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch11A_End1
+TEXTEND
+PlayMusic(MUS_IntoTheShadowOfTriumph)
+TEXTCONT
+TEXTEND
+REMA
+
+
+//hero crest
+CheckFlag(Ch11A_VillageFlag1)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag2)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag3)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag4)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag5)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag6)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag7)
+BEQ 1 s0 sC
+CheckFlag(Ch11A_VillageFlag8)
+BEQ 1 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch11A_EndHeroCrest)
+GiveItemToCharacter(Roy,HeroCrest)
+
+LABEL 1
+
+//orion's bolt
+CHECK_ALIVE Klein
+BEQ 2 s0 sC
+CheckFlag(Ch11A_Ch10B_GenericArcherKleinDeath)
+BNE 2 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch10B_Ch11A_EndOrionsBolt)
+GiveItemToCharacter(Klein,OrionsBolt)
+
+LABEL 2
+
+//elysian whip
+CHECK_ALIVE Thea
+BEQ 3 s0 sC
+CheckFlag(Ch11A_Ch10B_GenericPegKnightTheaDeath)
+BNE 3 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)
+GiveItemToCharacter(Thea,ElysianWhip)
+
+LABEL 3
+
 MoveToChapter(CHAPTER_Ch12)
 ENDA
+
+ArmoryList:
+SHLI SlimLance IronLance SteelLance Javelin IronAxe SteelAxe KillerAxe HandAxe Hammer IronBow SteelBow
+
+VendorList:
+SHLI Fire Thunder Lightning Heal Vulnerary Antitoxin DoorKey ChestKey5Uses
 
 MESSAGE Events end at offset CURRENTOFFSET

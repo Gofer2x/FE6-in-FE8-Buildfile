@@ -337,7 +337,7 @@ You don't want any?! Darn![AN]
 I'll give you a sample,[N]
 so buy one next time![AN][X]
 
-## Ch11A_SpeedwingVillage
+## Ch11A_SpeedwingsVillage
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager48][OpenMidRight]Take this![N]
 I want to help in any way I can.[AN]
 It's a speedwing![AN]
@@ -418,10 +418,9 @@ sending your army away.[AN]
 Perhaps your presence in Lycia was[N]
 undesirable to them.[AN]
 [OpenMidRight]I never even[N]
-considered that...[AN][X]
-
-## Ch11A_End2
-[LoadOverworldFaces][OpenFarLeft][ToggleSmile]There are rumors...that Roartz and[N]
+considered that...[AN]
+[LoadOverworldFaces]
+[OpenFarLeft][ToggleSmile]There are rumors...that Roartz and[N]
 Arcardo are working with Bern.[AN]
 [OpenMidRight][MoveRight]What?!
 Then Lycia is in danger![AN]

@@ -240,7 +240,7 @@ DISA Legance
 MOVE 0x0 Debias [5,1]
 ENUN
 STAL 16
-MUSC MUS_WhenTheRushComes
+PlayMusic(MUS_WhenTheRushComes)
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy
@@ -279,20 +279,20 @@ EndEvent
 
 DebiasWarnsAboutReinforcements:
 CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BNE 9 s0 sC
 CAM1 [5,1]
 FlashCursor(5,1,60)
 STAL 16
 Text(Ch7_DebiasTalksAboutReinforcements)
-LABEL 1
+LABEL 9
 EndEvent
 
 LoadCavaliersIfBossAlive:
 CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BNE 9 s0 sC
 LOAD1 0x1 SouthCavReinforcements
 ENUN
-LABEL 1
+LABEL 9
 EndEvent
 
 LoadHardCavaliers:
@@ -305,10 +305,10 @@ EndEvent
 
 LoadThroneReinforcementsIfBossAlive:
 CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BNE 9 s0 sC
 LoadReinforcements(ThroneReinforcements)
 ENUN
-LABEL 1
+LABEL 9
 EndEvent
 
 RoyRecruitsZelot:

@@ -67,7 +67,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-CharacterEvent(Ch6_RoyCathTalkFlag,CathRecruitmentEvent,Roy,Cath)
+CharacterEvent(Ch6_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 CharacterEvent(Ch6_RoySueTalkFlag,RoyRecruitsSue,Roy,Sue)
 END_MAIN
 

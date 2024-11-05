@@ -61,5 +61,11 @@ Sacae[X]
 ## GenericDjuteName
 Djute[X]
 
+## GenericArcherKleinName
+Archer[X]
+
+## GenericPegKnightTheaName
+Peg Kn[X]
+
 ## GenericOstiaName
 Ostia[X]

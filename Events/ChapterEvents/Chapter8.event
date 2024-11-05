@@ -77,7 +77,7 @@ CharacterEventBothWays(0x0,BorsLilinaTalk,Bors,Lilina)
 //lilina and barthe two way
 CharacterEventBothWays(0x0,BartheLilinaTalk,Barthe,Lilina)
 //roy and cath
-CharacterEvent(Ch8_RoyCathTalkFlag,CathRecruitmentEvent,Roy,Cath)
+CharacterEvent(Ch8_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:

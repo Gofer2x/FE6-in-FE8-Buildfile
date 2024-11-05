@@ -2,6 +2,8 @@ on the gay agenda, from highest to lowest priority (aka how much i feel like it)
 
 chapters
 
+figure out how to install the "change allegiance and ai of units that meet criteria" patches. as of right now i can only change one unit at once and it makes the events where multiple generic red units turn green (thea/klein recruitment) not work properly.
+
 item stealing priority table
 
 supports

@@ -13,6 +13,15 @@
 // 0x5
 //RoutFlag 0x6
 
+//#define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
+//#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
+//#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
+//#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
+//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+
+//#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
+//#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
+
 EventPointerTable(EVENTS_Ch10B,ThisChapter)
 
 ALIGN 4

@@ -79,9 +79,9 @@ UNIT Geese Pirate Nord Level(10,NPC,0) [18,21] 0x0 0x0 0x1 REDA_18_22 [SteelAxe,
 UNIT
 Civilians:
 UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_20 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
-UNIT 0xCD Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
 UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
-UNIT 0xCD Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_18 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_18 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
 UNIT
 
 BartreSquad:
@@ -125,9 +125,9 @@ UNIT GenericEidyna Shaman 0x0 Level(12,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_4_24 [Fl
 UNIT
 
 CastleMercs:
-UNIT 0xD4 Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_1_26 [Armorslayer] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT 0xD4 Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT 0xD4 Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidyna Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_1_26 [Armorslayer] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidyna Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidyna Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
 UNIT
 
 CastleReinforcements1:

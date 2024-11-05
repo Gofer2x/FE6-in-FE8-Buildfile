@@ -368,7 +368,7 @@ would never approve of that.[AN]
 [OpenMidLeft]Commander Klein's not like that.[N]
 I trust him with my life.[AN]
 [OpenMidRight]...Very well.[AN]
-Then we'll trust him as well,
+Then we'll trust him as well,[N]
 for we trust you, Captain.[AN]
 [OpenMidLeft]Good.[N]
 Let's go![AN][X]

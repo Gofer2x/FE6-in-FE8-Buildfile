@@ -3,7 +3,7 @@
 //#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
 //#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
 //#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+//#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 
 EVENT_TheaRecruitment:
 //check if klein recruited
@@ -25,7 +25,6 @@ SwitchMusic(MUS_BindingTies)
 Text(Ch10B_Ch11A_YesKleinShannaTheaFirstTalk)
 BecomeNPC(Thea)
 AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
-FlagOFF(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
 RestoreMusic
 GOTO 9
 
@@ -47,7 +46,7 @@ EndEvent
 
 
 EVENT_KleinRecruitsThea:
-SwitchMusic(MUS_JoinUs)
+SwitchMusic(MUS_JoinUs) //yes, it plays the music even if she's already recruited. go figure
 Text(Ch10B_Ch11A_KleinTurnsTheaBlue)
 BecomeAlly(Thea)
 AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
@@ -82,4 +81,13 @@ EndEvent
 
 EVENT_ClarineKleinExtraTalk:
 Text(Ch10B_Ch11A_ClarineKleinTalkIfRoyRecruit)
+EndEvent
+
+
+
+EVENT_LilinaRecruitsGonzalez:
+SwitchMusic(MUS_JoinUs)
+Text(Ch10A_Ch10B_LilinaRecruitsGonzalez)
+BecomeAlly(Gonzalez)
+RestoreMusic
 EndEvent

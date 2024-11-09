@@ -30,7 +30,7 @@
 #define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
 #define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
 #define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 
 //temporary flags for specific generic deaths
 #define Ch11A_Ch10B_GenericArcherKleinDeath 0x20

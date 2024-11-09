@@ -17,7 +17,7 @@
 //#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
 //#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
 //#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+//#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 #define Ch11A_BanditsAppearCutscenePlayedFlag 0xC
 #define Ch11A_LarumEchidnaTalkFlag 0xD
 #define Ch11A_VillageFlag1 0xE
@@ -72,8 +72,7 @@ CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_RoyRecruitsKlein,Roy,
 CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_ClarineRecruitsKlein,Clarine,Klein)
 CharacterEventBothWays(Ch11A_Ch10B_ClarineKleinExtraTalkFlag,EVENT_ClarineKleinExtraTalk,Clarine,Klein)
 CharacterEvent(Ch11A_Ch10B_ShannaTheaTalkFlag,EVENT_TheaRecruitment,Shanna,Thea)
-CharacterEvent(Ch11A_Ch10B_ShannaTheaTalkFlag,EVENT_KleinRecruitsThea,Klein,Thea)
-CharacterEvent(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag,EVENT_KleinRecruitsThea,Klein,Thea)
+CharacterEvent(Ch11A_Ch10B_KleinTheaTalkFlag,EVENT_KleinRecruitsThea,Klein,Thea)
 
 
 END_MAIN
@@ -250,7 +249,6 @@ PlayMusic(MUS_TheKingdomOfBern)
 LOAD1 0x1 Enemies
 ENUN
 FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
-FlagON(Ch11A_Ch10B_KleinRecruitsNPCTheaFlag)
 DISA Orlo
 STAL 16
 FlashCursor(27,2,60)
@@ -495,6 +493,8 @@ LABEL 3
 
 MoveToChapter(CHAPTER_Ch12)
 ENDA
+
+
 
 ArmoryList:
 SHLI SlimLance IronLance SteelLance Javelin IronAxe SteelAxe KillerAxe HandAxe Hammer IronBow SteelBow

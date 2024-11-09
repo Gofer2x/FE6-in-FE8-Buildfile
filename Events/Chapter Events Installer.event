@@ -3,7 +3,7 @@
 #include "REDAs.event"
 #include "CathRecruitment.event"
 #include "OstiaNarcianCutscene.event"
-#include "KleinTheaRecruitment.event"
+#include "WestIslesEvents.event"
 {
 #include "ChapterEvents/Chapter1.event"
 }

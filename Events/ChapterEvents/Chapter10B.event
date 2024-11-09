@@ -17,10 +17,21 @@
 //#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
 //#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
 //#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-//#define Ch11A_Ch10B_KleinRecruitsNPCTheaFlag 0xB
+//#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
+
+#define Ch10B_LilinaGonzalezTalkFlag 0xC
+#define Ch10B_VillageFlag1 0xE
+#define Ch10B_VillageFlag2 0xF
+#define Ch10B_VillageFlag3 0x10
+#define Ch10B_VillageFlag4 0x11
+#define Ch10B_VillageFlag5 0x12
+#define Ch10B_VillageFlag6 0x13
+#define Ch10B_VillageFlag7 0x14
 
 //#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
 //#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
+
+
 
 EventPointerTable(EVENTS_Ch10B,ThisChapter)
 
@@ -43,9 +54,24 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch10B_LilinaGonzalezTalkFlag,EVENT_LilinaRecruitsGonzalez,Lilina,Gonzalez)
+CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_RoyRecruitsKlein,Roy,Klein)
+CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_ClarineRecruitsKlein,Clarine,Klein)
+CharacterEventBothWays(Ch11A_Ch10B_ClarineKleinExtraTalkFlag,EVENT_ClarineKleinExtraTalk,Clarine,Klein)
+CharacterEvent(Ch11A_Ch10B_ShannaTheaTalkFlag,EVENT_TheaRecruitment,Shanna,Thea)
+CharacterEvent(Ch11A_Ch10B_KleinTheaTalkFlag,EVENT_KleinRecruitsThea,Klein,Thea)
 END_MAIN
 
 LocationBasedEvents:
+Village(Ch10B_VillageFlag1,SleepVillageVisit,18,11)
+Village(Ch10B_VillageFlag2,OrionsBoltVillageVisit,18,16)
+Village(Ch10B_VillageFlag3,BarrierVillageVisit,8,20)
+Village(Ch10B_VillageFlag4,MaryVillageVisit,8,8)
+Village(Ch10B_VillageFlag5,MieuVillageVisit,4,8)
+Village(Ch10B_VillageFlag6,DragonshieldVillageVisit,5,13)
+Village(Ch10B_VillageFlag7,SwordreaverVillageVisit,17,21)
+Armory(ArmoryList,4,22)
+Seize(20,2)
 END_MAIN
 
 MiscBasedEvents:
@@ -109,24 +135,24 @@ UNIT
 
 KleinSquad1:
 UNIT Klein Sniper 0x0 Level(1,Enemy,0) [21,31] 0x0 0x0 0x1 REDA_21_30 [SilverBow, WhiteGem] [AI1_InRange80, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(14,Enemy,1) [20,28] 0x0 0x0 0x1 REDA_20_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(14,Enemy,1) [22,28] 0x0 0x0 0x1 REDA_22_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [20,28] 0x0 0x0 0x1 REDA_20_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [22,28] 0x0 0x0 0x1 REDA_22_29 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 KleinSquad2:
-UNIT 0xD8 Archer Klein Level(15,Enemy,1) [20,30] 0x0 0x0 0x1 REDA_20_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT 0xD8 Archer Klein Level(15,Enemy,1) [22,30] 0x0 0x0 0x1 REDA_22_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(15,Enemy,1) [20,30] 0x0 0x0 0x1 REDA_20_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKlein Archer Klein Level(15,Enemy,1) [22,30] 0x0 0x0 0x1 REDA_22_31 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 TheaSquad1:
 UNIT Thea PegasusKnight 0x0 Level(8,Enemy,0) [12,0] 0x0 0x0 0x1 REDA_12_1 [SlimLance, Javelin] [AI1_InRange80, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_11_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_13_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [10,0] 0x0 0x0 0x1 REDA_11_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_13_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 TheaSquad2:
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [11,1] 0x0 0x0 0x1 REDA_12_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT 0xD9 PegasusKnight Thea Level(6,Enemy,1) [15,1] 0x0 0x0 0x1 REDA_14_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [11,1] 0x0 0x0 0x1 REDA_12_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [15,1] 0x0 0x0 0x1 REDA_14_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 BrigandReinforcements1:
@@ -181,14 +207,127 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_WildFrontier)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+CMOF
+FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
+Text(BG_Castle1,Ch10B_Start1)
+PlayMusic(MUS_WhenTheRushComes)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+Text(BG_Outside,Ch10B_Start2)
+GotoPrepScreen
+
+MeladyAndGalleLeave:
+SwitchMusic(MUS_TheKingdomOfBern)
+CAM1 [20,2]
+CMOF
+LoadReinforcements(CutsceneMelady)
+ENUN
+CMON
+LoadReinforcements(CutsceneGalle)
+
+Text(Ch10B_MeladyGalleLeave)
+MOVE 0x0 Galle [30,18]
+MOVE 0x0 Melady [30,17]
+ENUN
+DISA Galle
+DISA Melady
+RestoreMusic
+EndEvent
+
+
+
+
+
+
+SleepVillageVisit:
+VillageEventItem(Ch10B_SleepVillage,BG_Village,Sleep)
+
+OrionsBoltVillageVisit:
+VillageEventItem(Ch10B_OrionsBoltVillage,BG_Village,OrionsBolt)
+
+BarrierVillageVisit:
+VillageEventItem(Ch10B_BarrierVillage,BG_Village,Barrier)
+
+
+
+MaryVillageVisit:
+QuieterMusic
+
+SVAL s1 Ward
+CHECK_ACTIVE
+BEQ 1 s1 sC
+
+SVAL s1 Lot
+CHECK_ACTIVE
+BEQ 2 s1 sC
+
+//default case
+Text(BG_Village,Ch10B_MaryVillageNotLotWard)
+GiveItemToCurrent(DoorKey)
+GOTO 9
+
+LABEL 1
+Text(BG_Village,Ch10B_MaryVillageWard)
+GiveItemToCurrent(Swordreaver)
+GOTO 9
+
+LABEL 2
+Text(BG_Village,Ch10B_MaryVillageLot)
+GiveItemToCurrent(Swordreaver)
+GOTO 9
+
+LABEL 9
+UnquieterMusic
+EndEvent
+
+
+
+MieuVillageVisit:
+QuieterMusic
+
+SVAL s1 Ward
+CHECK_ACTIVE
+BEQ 1 s1 sC
+
+SVAL s1 Lot
+CHECK_ACTIVE
+BEQ 2 s1 sC
+
+//default case
+Text(BG_Village,Ch10B_MieuVillageNotLotWard)
+GiveItemToCurrent(Elixir)
+GOTO 9
+
+LABEL 1
+Text(BG_Village,Ch10B_MieuVillageWard)
+GiveItemToCurrent(Speedwings)
+GOTO 9
+
+LABEL 2
+Text(BG_Village,Ch10B_MieuVillageLot)
+GiveItemToCurrent(Speedwings)
+GOTO 9
+
+LABEL 9
+UnquieterMusic
+EndEvent
+
+
+
+DragonshieldVillageVisit:
+VillageEventItem(Ch10B_DragonshieldVillage,BG_Village,Dragonshield)
+
+SwordreaverVillageVisit:
+VillageEventItem(Ch10B_SwordreaverVillage,BG_Village,Swordreaver)
 
 EndingScene:
 MoveToChapter(CHAPTER_Ch11B)
 ENDA
+
+ArmoryList:
+SHLI SlimLance IronLance SteelLance Javelin IronAxe SteelAxe HandAxe Hammer IronBow SteelBow
 
 MESSAGE Events end at offset CURRENTOFFSET

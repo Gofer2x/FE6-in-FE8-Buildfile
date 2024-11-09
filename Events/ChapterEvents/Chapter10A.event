@@ -32,7 +32,6 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-END_MAIN
 TurnEventNPC(0x0,GeeseAppears,4)
 TurnEventEnemy(0x0,GonzalezAppears,6)
 TurnEventEnemy(0x0,LoadPirateReinforcements1,4)
@@ -45,10 +44,11 @@ TurnEventEnemy(0x0,LoadPirateReinforcements1,10)
 TurnEventEnemy(0x0,LoadHardPirateReinforcements2,11)
 TurnEventEnemy(0x0,LoadPirateReinforcements1,12)
 TurnEventEnemy(0x0,LoadFortReinforcements,13,6)
+END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-CharacterEvent(Ch10A_LilinaGonzalesTalkFlag,LilinaRecruitsGonzalez,Lilina,Gonzalez)
+CharacterEvent(Ch10A_LilinaGonzalesTalkFlag,EVENT_LilinaRecruitsGonzalez,Lilina,Gonzalez)
 CharacterEvent(Ch10A_RoyGeeseTalkFlag,RoyRecruitsGeese,Roy,Geese)
 END_MAIN
 
@@ -157,7 +157,7 @@ ENUN
 CAM1 Roy
 STAL 32
 Text(BG_Outside,Ch10A_Start2)
-EndEvent
+GotoPrepScreen
 
 GonzalezAppears:
 CAM1 [18,29]

@@ -370,8 +370,7 @@ LABEL 9
 EndEvent
 
 MoreBanditsAppear:
-LoadReinforcements(BrigandReinforcements2)
-EndEvent
+ReinforcementEvent(BrigandReinforcements2)
 
 HardOrloMoreReinforcements:
 CheckFlag(BossDefeatFlag)
@@ -427,12 +426,13 @@ VillageEventItem(Ch11A_AxereaverVillage,BG_Village,Axereaver)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-//fadein 5s
-//clear units
-//load elffin
-//walk elffin, no enun
-//fadeout 5s
-//disa elffin
+FadeIn
+ClearAll
+LOAD1 0x1 CutsceneElffin
+MOVE 0x0 Elffin [27,2]
+FadeOut
+ENUN
+DISA Elffin
 SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch11A_End1

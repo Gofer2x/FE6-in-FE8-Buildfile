@@ -12,4 +12,4 @@ ch8x: almost done, no fire traps
 ch9: done
 ch10a: almost done, ballista don't seem to work though
 ch11a: done?
-ch10b: in progress
+ch10b: done?

@@ -50,6 +50,18 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,MeladyAndGalleLeave,1)
+TurnEventNPC(0x0,ElffinWakesUp,1)
+TurnEventEnemy(0x0,BossComplainsAndSendsBandits,4)
+TurnEventEnemy(0x0,BanditsAppear,6)
+TurnEventEnemy(0x0,KleinAppears,8)
+TurnEventEnemy(0x0,LoadMoreBandits,9)
+TurnEventEnemy(0x0,LoadMoreBandits,11)
+TurnEventEnemy(0x0,LoadMoreBandits,13)
+TurnEventEnemy(0x0,ZinqueComplainsAndTalksAboutReinforcements,9)
+TurnEventEnemy(0x0,CavsAppearIfBossAlive,10)
+TurnEventEnemy(0x0,HardZinqueMoreReinforcements,14)
+TurnEventEnemy(0x0,HardCavsAppearIfBossAlive,15)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -227,18 +239,108 @@ LoadReinforcements(CutsceneMelady)
 ENUN
 CMON
 LoadReinforcements(CutsceneGalle)
-
 Text(Ch10B_MeladyGalleLeave)
-MOVE 0x0 Galle [30,18]
-MOVE 0x0 Melady [30,17]
+MOVE 0x0 Galle [7,1]
+ENUN
+MOVE 0x0 Galle [13,0]
+MOVE 0x0 Melady [12,0]
 ENUN
 DISA Galle
 DISA Melady
 RestoreMusic
 EndEvent
 
+ElffinWakesUp:
+SwitchMusic(MUS_PoemOfTheSoftWind)
+CAM1 [8,8]
+FlashCursor(8,8,60)
+Text(BG_Village,Ch10B_MaryElffinCutscene)
+RestoreMusic
+EndEvent
 
+BossComplainsAndSendsBandits:
+CAM1 [20,2]
+FlashCursor(20,2,60)
+PlayMusic(MUS_WildFrontier)
+Text(BG_Castle1,Ch10B_ZinqueComplainsAndSendsBandits)
+EndEvent
 
+BanditsAppear:
+LoadReinforcements(BrigandReinforcements1)
+LoadReinforcements(BrigandReinforcements2)
+CAM1 Scollan
+PlayMusic(MUS_WildFrontier)
+Text(Ch10B_ScollanOrdersGonzalez)
+EndEvent
+
+KleinAppears:
+SwitchMusic(MUS_DeerOfThePlains) //yes, really. fe6 is weird
+LoadReinforcements(KleinSquad1)
+ENUN
+LoadReinforcements(KleinSquad2)
+ENUN
+STAL 16
+CMOF
+LoadReinforcements(CutsceneThea)
+ENUN
+Text(Ch10B_Ch11A_KleinAppears1)
+MOVE 0x0 Thea [17,32]
+ENUN
+DISA Thea
+Text(Ch10B_Ch11A_KleinAppears2)
+RestoreMusic
+EndEvent
+
+TheaAppears:
+SwitchMusic(MUS_DistantLands)
+LoadReinforcements(TheaSquad1)
+LoadReinforcements(TheaSquad2)
+Text(Ch10B_Ch11A_TheaAppears)
+RestoreMusic
+EndEvent
+
+LoadMoreBandits:
+ReinforcementEvent(BrigandReinforcements2)
+
+ZinqueComplainsAndTalksAboutReinforcements:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+CAM1 [20,2]
+FlashCursor(20,2,60)
+PlayMusic(MUS_WildFrontier)
+STAL 16
+Text(BG_Castle1,Ch10B_ReinforcementsComing)
+LABEL 9
+EndEvent
+
+CavsAppearIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadReinforcements(CavReinforcements1)
+LoadReinforcements(CavReinforcements2)
+LABEL 9
+EndEvent
+
+HardZinqueMoreReinforcements:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+CHECK_HARD
+BNE 9 s0 sC
+SwitchMusic(MUS_WildFrontier)
+CAM1 [27,2]
+FlashCursor(27,2,60)
+STAL 16
+Text(BG_Castle1,Ch10B_MoreReinforcementsComing)
+LABEL 9
+EndEvent
+
+HardCavsAppearIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadHardReinforcements(CavReinforcements3)
+LoadHardReinforcements(CavReinforcements4)
+LABEL 9
+EndEvent
 
 
 
@@ -324,6 +426,72 @@ SwordreaverVillageVisit:
 VillageEventItem(Ch10B_SwordreaverVillage,BG_Village,Swordreaver)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+FadeIn
+ClearAll
+LOAD1 0x1 CutsceneElffin
+MOVE 0x0 Elffin [20,2]
+FadeOut
+ENUN
+DISA Elffin
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch10B_End1
+TEXTEND
+PlayMusic(MUS_IntoTheShadowOfTriumph)
+TEXTCONT
+TEXTEND
+REMA
+GiveItemToCharacter(Roy,Wyrmslayer)
+
+//hero crest
+CheckFlag(Ch10B_VillageFlag1)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag2)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag3)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag4)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag5)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag6)
+BEQ 1 s0 sC
+CheckFlag(Ch10B_VillageFlag7)
+BEQ 1 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch10B_EndHeroCrest)
+GiveItemToCharacter(Roy,HeroCrest)
+
+LABEL 1
+
+//orion's bolt
+CHECK_ALIVE Klein
+BEQ 2 s0 sC
+CheckFlag(Ch11A_Ch10B_GenericArcherKleinDeath)
+BNE 2 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch10B_Ch11A_EndOrionsBolt)
+GiveItemToCharacter(Klein,OrionsBolt)
+
+LABEL 2
+
+//elysian whip
+CHECK_ALIVE Thea
+BEQ 3 s0 sC
+CheckFlag(Ch11A_Ch10B_GenericPegKnightTheaDeath)
+BNE 3 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)
+GiveItemToCharacter(Thea,ElysianWhip)
+
+LABEL 3
+
+STAL 64
+
 MoveToChapter(CHAPTER_Ch11B)
 ENDA
 

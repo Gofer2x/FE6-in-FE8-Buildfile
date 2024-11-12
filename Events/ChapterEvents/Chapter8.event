@@ -50,37 +50,38 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//lilina in her cell, enemy phase
 TurnEventEnemy(0x0,LilinaComplains,1)
-//turn 6, scrub squad appears on player turn
 TurnEventPlayer(0x0,OstiaSquadAppears,6)
-//turn 10, cath and thief appear (if cath alive)
 TurnEventEnemy(0x0,CathAppearsIfAlive,10)
-//turn 15-16 hard mode reinforcements from scrub corner
-TurnEventEnemy(0x0,LoadNorthWestReinforcements1,15,2)
-//turn 16-17 reinforcements from stairs and throneroom
+TurnEventEnemy(0x0,LoadHardNorthWestReinforcements1,15,2)
 TurnEventEnemy(0x0,LoadThroneRoomStairsEnemies1,16,2)
-//turn 17-18 hard mode different reinforcements from scrub corner
-TurnEventEnemy(0x0,LoadNorthWestReinforcements2,17,2)
-//turn 18-19 different reinforcements from stairs and throneroom
+TurnEventEnemy(0x0,LoadHardNorthWestReinforcements2,17,2)
 TurnEventEnemy(0x0,LoadThroneRoomStairsEnemies1,18,2)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-//lilina-roy two way, lilina gets thunder tome
 CharacterEventBothWays(0x0,RoyLilinaTalk,Roy,Lilina)
-//wendy and bors two way
 CharacterEventBothWays(0x0,BorsGwendolynTalk,Bors,Gwendolyn)
-//lilina and bors two way
 CharacterEventBothWays(0x0,BorsLilinaTalk,Bors,Lilina)
-//lilina and barthe two way
 CharacterEventBothWays(0x0,BartheLilinaTalk,Barthe,Lilina)
-//roy and cath
 CharacterEvent(Ch8_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Chest(ElysianWhip,0,9)
+Chest(SilverAxe,1,10)
+Chest(SecretBook,0,11)
+Chest(GuidingRing,1,12)
+Chest(LightBrand,8,9)
+Chest(KillerBow,9,10)
+Chest(Elfire,10,9)
+Chest(KnightCrest,11,10)
+Door(1,15)
+Door(6,9)
+Door(13,10)
+Door(18,12)
+Seize(6,17)
 END_MAIN
 
 MiscBasedEvents:
@@ -253,10 +254,10 @@ ReinforcementEvent(StairsAndThroneReinforcements1)
 LoadThroneRoomStairsEnemies2:
 ReinforcementEvent(StairsAndThroneReinforcements2)
 
-LoadNorthWestReinforcements1:
+LoadHardNorthWestReinforcements1:
 HardReinforcementEvent(NorthWestReinforcements1)
 
-LoadNorthWestReinforcements2:
+LoadHardNorthWestReinforcements2:
 HardReinforcementEvent(NorthWestReinforcements2)
 
 RoyLilinaTalk:

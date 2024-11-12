@@ -2,17 +2,17 @@ on the gay agenda, from highest to lowest priority (aka how much i feel like it)
 
 chapters
 
+escape points
+
+item stealing priority table
+
 actually figure out the whole chapter fade thing and what you do at the start
 
 also actually figure out the CMON and CMOFs and LOAD1s and LoadReinforcements()s
 
-item stealing priority table
-
 supports
 
 actually implementing supports
-
-add boss palettes
 
 roy special death quote? give it a special event?
 

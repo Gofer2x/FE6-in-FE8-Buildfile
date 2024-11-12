@@ -12,7 +12,7 @@
 #define RoyCathTalkFlag1 0x78
 #define RoyCathTalkFlag2 0x79
 #define CathDeadOrRecruited 0x7A
-#define GlobalFlag7B 0x7B
+#define WestIslesEchidnaRouteFlag 0x7B //off means bartre route
 #define GlobalFlag7C 0x7C
 #define GlobalFlag7D 0x7D
 #define GlobalFlag7E 0x7E

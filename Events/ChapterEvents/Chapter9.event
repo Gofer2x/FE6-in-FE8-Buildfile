@@ -246,6 +246,7 @@ Text(BG_Castle1,Ch9_End1)
 CheckFlag(Ch9_LeftVillageVisitedFlag)
 BEQ 1 sC s0
 //left visited, go to echidna route
+FlagON(WestIslesEchidnaRouteFlag)
 Text(BG_Castle1,Ch9_EndNorth)
 MoveToChapter(CHAPTER_Ch10A)
 GOTO 9

@@ -12,6 +12,9 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch13_PercevalRecruitedFlag 0x7
+#define Ch13_NarcianOnThroneFlag 0x8
+#define Ch13_NarcianLeavesFlag 0x9
 
 //#define Ch13_Ch15_GenericSoldierPercevalDeath 0x20
 
@@ -32,16 +35,39 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,CeciliaDies,1)
+TurnEventNPC(0x0,PercevalComplains,1)
+TurnEventPlayer(0x0,CastleFallen,2)
+TurnEventEnemy(0x0,GuinivereFound,2)
+TurnEventNPC(0x0,MeladyJoins,2)
+TurnEventEnemy(0x0,ZephielLeaves,3)
+TurnEventNPC(0x0,SophiaAndCeciliaInDungeon,3)
+TurnEventNPC(0x0,PercevalLeaves,8)
+TurnEventEnemy(0x0,LoadNorthWestReinforcements,8)
+TurnEventEnemy(0x0,LoadSouthWestReinforcements,12)
+TurnEventEnemy(0x0,LoadHardNorthWestReinforcements,15)
+TurnEventEnemy(0x0,LoadHardSouthWestReinforcements,18)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch13_PercevalRecruitedFlag,EVENT_LarumRecruitsPerceval,Larum,Perceval)
+CharacterEvent(Ch13_PercevalRecruitedFlag,EVENT_ElffinRecruitsPerceval,Elffin,Perceval)
 END_MAIN
 
 LocationBasedEvents:
+Armory(ArmoryList,41,5)
+Vendor(VendorList,43,4)
+Village(0x0,BodyRingVillageVisit,7,6)
+Village(0x0,AlsSwordVillageVisit,38,18)
+House(0x0,ThreeGeneralsHouseVisit,7,6)
+House(0x0,CeciliaDefeatedHouseVisit,38,6)
+House(0x0,PercevalLoyalHouseVisit,41,19)
+Seize(43,9)
 END_MAIN
 
 MiscBasedEvents:
+AreaEvent(Ch13_NarcianLeavesFlag,NarcianLeaves,22,0,45,24) //idk if this is right
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -174,14 +200,234 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Suspicious)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+CAM1 Flaer
+STAL 16
+CMOF
+LOAD1 0x1 CutsceneNarcian
+ENUN
+Text(Ch13_Start1)
+PlayMusic(MUS_TheKingOfBern)
+LOAD1 0x1 CutsceneZephielIdunn
+ENUN
+MOVE 0x0 IdunnHuman [45,14]
+ENUN
+Text(Ch13_Start2)
+//move idunn 1 up?
+//ENUN
+DISA IdunnHuman
+PlayMusic(MUS_WhenTheRushComes)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+Text(BG_Outside,Ch13_Start3)
+GotoPrepScreen
+
+CeciliaDies:
+//idk zephiel music here
+CAM1 [43,9]
+Text(Ch13_ZephielAttacksCecilia)
+//battle. is this how you do it? hopefully yes
+StartBattle
+MissedAttack(0,0)
+CriticalHit(1,60)
+EndAttack
+FIG1 Cecilia Zephiel 0x0
+Text(Ch13_CeciliaFunkingDies)
+KILL Cecilia
+Text(Ch13_CeciliaThrownIntoDungeon)
+MOVE 0x0 Zephiel [43,9]
+EndEvent
+
+PercevalComplains:
+QuieterMusic
+CAM1 Perceval
+FlashCursor(Perceval, 60)
+Text(Ch13_PercevalComplains)
+UnquieterMusic
+EndEvent
+
+CastleFallen:
+SwitchMusic(MUS_AnUnexpectedCaller)
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Outside,Ch13_CastleHasFallen)
+RestoreMusic
+EndEvent
+
+GuinivereFound:
+//there is like a bunch of asm here idk. whatever man
+SwitchMusic(MUS_TheKingOfBern)
+CAM1 [43,9]
+MOVE 0x0 Narcian [43,10]
+ENUN
+Text(Ch13_GuinivereFound)
+MOVE 0x0 Narcian [44,10]
+ENUN
+STAL 16
+LOAD1 0x1 CutsceneGuinivere
+ENUN
+Text(Ch13_ZephielScoldsGuinivere)
+STAL 60
+DISA Zephiel
+ENUN
+MOVE 0x0 Narcian [43,10]
+DISA GuinivereTrial
+ENUN
+MOVE 0x0 Narcian [43,9]
+ENUN
+DISA Narcian
+ENUN
+RestoreMusic
+EndEvent
+
+MeladyJoins:
+SwitchMusic(MUS_PrincessOfDestiny)
+CAM1 [43,9]
+Text(BG_Castle1,Ch13_GuinivereTalksToMelady)
+LoadReinforcements(JustMelady)
+//TODO this doesn't exist. patch? or something?
+//MOVENEXTTO 0x0 Melady Roy
+//ENUN
+Text(Ch13_MeladyRecruitsHerself)
+TurnAlly(Melady)
+RestoreMusic
+EndEvent
+
+ZephielLeaves:
+SwitchMusic(MUS_TheKingOfBern)
+CAM1 [43,9]
+FlashCursor(43,9,60)
+Text(BG_Castle1,Ch13_ZephielLeaves)
+LOAD1 0x1 CutsceneZephiel2
+ENUN
+LOAD1 0x1 CutsceneIdunn2
+ENUN
+MOVE 0x0 Zephiel [46,10]
+MOVE 0x0 IdunnHuman [46,11]
+ENUN
+DISA Zephiel
+DISA IdunnHuman
+LOAD1 0x1 CutsceneNarcian2
+FlagON(Ch13_NarcianOnThroneFlag)
+RestoreMusic
+EndEvent
+
+SophiaAndCeciliaInDungeon:
+CAM1 [43,9]
+FlashCursor(43,9,60)
+PlayMusic(MUS_DistantUtopia)
+Text(BG_Dungeon,Ch13_SophiaTendsToCecilia)
+EndEvent
+
+PercevalLeaves:
+CheckFlag(Ch13_PercevalRecruitedFlag)
+BNE 9 sC s0
+CHECK_ALIVE Perceval
+BEQ 9 sC s0
+SwitchMusic(MUS_BindingTies)
+CAM1 Perceval
+FlashCursor(Perceval,60)
+Text(Ch13_PercevalLeaves)
+MOVE 0x0 Perceval [45,6]
+ENUN
+DISA Perceval
+RestoreMusic
+//TODO check if this blows the game up or if i can be lazy
+MOVE 0x0 GenericSoldierPerceval [45,6]
+ENUN
+DISA GenericSoldierPerceval
+MOVE 0x0 GenericSoldierPerceval [45,6]
+ENUN
+DISA GenericSoldierPerceval
+MOVE 0x0 GenericSoldierPerceval [45,6]
+ENUN
+DISA GenericSoldierPerceval
+LABEL 9
+EndEvent
+
+NarcianLeaves: //not sure if this works, test
+PlayerInRange
+CheckFlag(Ch13_NarcianOnThroneFlag)
+BNE 1 s0 sC
+FlagOFF(Ch13_NarcianLeavesFlag)
+GOTO 9
+LABEL 1
+SwitchMusic(MUS_Suspicious)
+MOVE 0x0 Flaer [43,10]
+ENUN
+Text(Ch13_NarcianLeaves)
+MOVE 0x0 Flaer [42,10]
+ENUN
+MOVE 0x0 Narcian [46,9]
+ENUN
+DISA Narcian
+MOVE 0x0 Flaer [43,9]
+ENUN
+ChangeAIAllEnemy(AI1_InRange,AI2_Charge,GenericBern,0)
+RestoreMusic
+LABEL 9
+EndEvent
+
+LoadNorthWestReinforcements:
+LoadReinforcements(NorthWestReinforcements1)
+LoadReinforcements(NorthWestReinforcements2)
+EndEvent
+
+LoadSouthWestReinforcements:
+LoadReinforcements(SouthWestReinforcements1)
+LoadReinforcements(SouthWestReinforcements2)
+EndEvent
+
+LoadHardNorthWestReinforcements:
+LoadHardReinforcements(NorthWestReinforcements1)
+LoadHardReinforcements(NorthWestReinforcements2)
+EndEvent
+
+LoadHardSouthWestReinforcements:
+LoadHardReinforcements(SouthWestReinforcements1)
+LoadHardReinforcements(SouthWestReinforcements2)
+EndEvent
+
+BodyRingVillageVisit:
+VillageEventItem(Ch13_BodyRingVillage,BG_Village,BodyRing)
+
+AlsSwordVillageVisit:
+VillageEventItem(Ch13_AlsSwordVillage,BG_Village,AlsSword)
+
+ThreeGeneralsHouseVisit:
+HouseEvent(Ch13_ThreeGeneralsHouse,BG_House)
+
+CeciliaDefeatedHouseVisit:
+HouseEvent(Ch13_CeciliaDefeatedHouse,BG_House)
+
+PercevalLoyalHouseVisit:
+HouseEvent(Ch13_PercevalLoyalHouse,BG_House)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch13_End)
+CheckFlag(Ch13_PercevalRecruitedFlag)
+BEQ 1 sC s0
+CHECK_ALIVE Perceval
+BEQ 1 sC s0
+CheckFlag(Ch13_Ch15_GenericSoldierPercevalDeath)
+BNE 1 s0 sC
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch13_Ch15_EndKnightCrest)
+GiveItemToCharacter(Perceval,KnightCrest)
+
+LABEL 1
+STAL 64
 MoveToChapter(CHAPTER_Ch14)
 ENDA
+
+ArmoryList:
+SHLI IronSword SteelSword KillingEdge IronLance SteelLance KillerLance Javelin IronBow SteelBow KillerBow
+
+VendorList:
+SHLI Fire Thunder Elfire Lightning Flux Heal Mend Restore Vulnerary Antitoxin Torch
 
 MESSAGE Events end at offset CURRENTOFFSET

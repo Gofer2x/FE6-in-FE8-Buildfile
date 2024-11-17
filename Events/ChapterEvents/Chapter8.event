@@ -290,7 +290,7 @@ GOTO 9
 
 LABEL 1 //lilina dead, go to ch9
 Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
-//some sort of roy movement here.. maybe later
+//TODO some sort of roy movement here.. maybe later
 FadeIn
 CALL OstiaNarcianCutscene
 LABEL 9

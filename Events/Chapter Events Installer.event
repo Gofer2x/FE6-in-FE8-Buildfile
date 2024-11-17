@@ -4,6 +4,7 @@
 #include "CathRecruitment.event"
 #include "OstiaNarcianCutscene.event"
 #include "WestIslesEvents.event"
+#include "PercevalRecruitment.event"
 {
 #include "ChapterEvents/Chapter1.event"
 }

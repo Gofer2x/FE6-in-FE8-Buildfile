@@ -13,3 +13,6 @@ ch9: done
 ch10a: almost done, ballista don't seem to work though
 ch11a: done?
 ch10b: done?
+ch11b: nope
+ch12: done?
+ch12x: mostly done, no poison traps

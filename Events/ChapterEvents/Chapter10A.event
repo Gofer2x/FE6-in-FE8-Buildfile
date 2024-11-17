@@ -49,7 +49,7 @@ ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
 CharacterEvent(Ch10A_LilinaGonzalesTalkFlag,EVENT_LilinaRecruitsGonzalez,Lilina,Gonzalez)
-CharacterEvent(Ch10A_RoyGeeseTalkFlag,RoyRecruitsGeese,Roy,Geese)
+CharacterEvent(Ch10A_RoyGeeseTalkFlag,EVENT_RoyRecruitsGeese,Roy,Geese)
 END_MAIN
 
 LocationBasedEvents:
@@ -167,8 +167,7 @@ CHECK_EVENTID BossDefeatFlag
 BNE 1 s0 sC
 PlayMusic(MUS_WildFrontier)
 Text(BG_Castle1,Ch10A_GonzalezAppears)
-LOAD1 0x1 JustGonzalez
-ENUN
+LoadReinforcements(JustGonzalez)
 LABEL 1
 EndEvent
 
@@ -177,21 +176,13 @@ CAM1 [18,17]
 FlashCursor(18,17,60)
 SwitchMusic(MUS_BindingTies)
 Text(BG_Village,Ch10A_Ch11B_GeeseAppears)
-LOAD1 0x1 JustGeese
-ENUN
+LoadReinforcements(JustGeese)
 EndEvent
 
 LilinaRecruitsGonzalez:
 SwitchMusic(MUS_JoinUs)
 Text(Ch10A_Ch10B_LilinaRecruitsGonzalez)
 BecomeAlly(Gonzalez)
-RestoreMusic
-EndEvent
-
-RoyRecruitsGeese:
-SwitchMusic(MUS_JoinUs)
-Text(Ch10A_Ch11B_RoyRecruitsGeese)
-BecomeAlly(Geese)
 RestoreMusic
 EndEvent
 

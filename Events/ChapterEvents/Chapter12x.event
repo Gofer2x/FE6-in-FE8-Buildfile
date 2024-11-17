@@ -37,6 +37,19 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Chest(Elixir,12,24)
+Chest(Antitoxin,3,17)
+Chest(Torch,7,8)
+Chest(Antitoxin,18,16)
+Chest(Elixir,19,9)
+Chest(Lockpick,11,4)
+Chest(RedGem,25,12)
+Chest(Antitoxin,25,20)
+Chest(Antitoxin,26,24)
+Chest(ChestKey5Uses,1,3)
+Chest(Elixir,13,15)
+Chest(WhiteGem,13,0)
+Seize(25,1)
 END_MAIN
 
 MiscBasedEvents:
@@ -50,6 +63,7 @@ Tutorial:
 END_MAIN
 
 TrapData:
+//TODO poison traps ig
 ENDTRAP
 
 ALIGN 4
@@ -97,14 +111,37 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+LOAD1 0x1 Enemies
+ENUN
 PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Units
 ENUN
-LOAD1 0x1 Enemies
+Text(BG_Cave,Ch12x_Start1)
+PlayMusic(MUS_ScarsOfTheScouring)
+LOAD3 0x0 Units
 ENUN
-ENDA
+CAM1 Roy
+Text(BG_Cave,Ch12x_Start2)
+GotoPrepScreen
 
 EndingScene:
+PlayMusic(MUS_IntoTheShadowOfTriumph)
+CheckFlag(WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
+BNE 1 s0 sC
+//bartre route
+CHECK_ALIVE Elffin
+BEQ 2 s0 sC //if bartre route and elffin dead, elfinless dialogue
+//else, continue as if we were on echidna route
+
+LABEL 1 //echidna route and elffin alive on bartre route
+Text(BG_Cave,Ch12x_EndElffinAlive)
+GOTO 3
+
+LABEL 2
+Text(BG_Cave,Ch12x_EndElffinDead)
+
+LABEL 3 //either way, message from etruria
+Text(BG_Cave,Ch12_Ch12x_EndEtruriaRevolution)
 MoveToChapter(CHAPTER_Ch13)
 ENDA
 

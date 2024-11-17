@@ -12,6 +12,9 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch11B_RoyGeeseTalkFlag 0x8
+#define Ch11B_BartreRecruitmentFlag 0x9
+#define Ch11B_FirBartreExtraTalkFlag 0xA
 
 EventPointerTable(EVENTS_Ch11B,ThisChapter)
 
@@ -30,13 +33,33 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,LoadCivilianChasers,4)
+TurnEventNPC(0x0,GeeseAppears,5)
+TurnEventEnemy(0x0,LoadPirates,5,3)
+TurnEventEnemy(0x0,ReinforcementsComing,10)
+TurnEventEnemy(0x0,LoadTwoFightersIfBossAlive,11)
+TurnEventEnemy(0x0,LoadHardMercFighterIfBossAlive,12)
+TurnEventEnemy(0x0,LoadMercArcherIfBossAlive,13)
+TurnEventEnemy(0x0,LoadTwoFightersIfBossAlive,14)
+TurnEventEnemy(0x0,LoadHardMercFighterIfBossAlive,15)
+TurnEventEnemy(0x0,LoadMercArcherIfBossAlive,16)
+TurnEventEnemy(0x0,LoadTwoFightersIfBossAlive,17)
+TurnEventEnemy(0x0,LoadHardMercFighterIfBossAlive,18)
+TurnEventEnemy(0x0,LoadMercArcherIfBossAlive,19)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch11B_BartreRecruitmentFlag,RoyRecruitsBartre,Roy,Bartre)
+CharacterEvent(Ch11B_BartreRecruitmentFlag,FirRecruitsBartre,Fir,Bartre)
+CharacterEvent(Ch11B_RoyGeeseTalkFlag,EVENT_RoyRecruitsGeese,Roy,Geese)
+CharacterEventBothWays(Ch11B_FirBartreExtraTalkFlag,FirBartreExtraTalk,Fir,Bartre)
 END_MAIN
 
 LocationBasedEvents:
+Seize(2,25)
+Vendor(VendorList,23,17)
+Village(0x0,VisitRedGemVillage,18,21)
 END_MAIN
 
 MiscBasedEvents:
@@ -75,8 +98,9 @@ UNIT Elffin Bard 0x0 Level(1,Ally,0) [28,4] 0x0 0x0 0x0 0x0 [Vulnerary, AngelicR
 UNIT
 
 JustGeese:
-UNIT Geese Pirate Nord Level(10,NPC,0) [18,21] 0x0 0x0 0x1 REDA_18_22 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT Geese Pirate 0x0 Level(10,NPC,0) [18,21] 0x0 0x0 0x1 REDA_18_22 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
+
 Civilians:
 UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_20 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
 UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
@@ -130,17 +154,17 @@ UNIT GenericEidyna Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 
 UNIT GenericEidyna Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
 UNIT
 
-CastleReinforcements1:
+CastleReinforcementsTwoFighters:
 UNIT GenericEidyna Fighter 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
-CastleReinforcements2:
+CastleReinforcementsMercArcher:
 UNIT GenericEidyna Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT GenericEidyna Archer 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
-CastleReinforcements3:
+CastleReinforcementsMercFighter:
 UNIT GenericEidyna Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
@@ -158,14 +182,108 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_AnUnexpectedCaller)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+DISA Morgan
+LoadReinforcements(Civilians)
+Text(Ch11B_Start1)
+CAM1 [2,25]
+FlashCursor(2,25,60)
+Text(BG_Castle1,Ch11B_Start2)
+LOAD1 0x1 CutsceneArcardo
+ENUN
+MOVE 0x0 Arcardo [0,26]
+ENUN
+DISA Arcardo
+LoadReinforcements(CastleMercs)
+LoadReinforcements(JustMorgan)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustElffin
+ENUN
+CAM1 Roy
+STAL 16
+Text(BG_Outside,Ch11B_Start3)
+GotoPrepScreen
+
+RoyRecruitsBartre:
+SwitchMusic(MUS_JoinUs)
+Text(Ch11B_RoyRecruitsBartre)
+BecomeAlly(Bartre)
+RestoreMusic
+FlagOFF(Ch11B_FirBartreExtraTalkFlag)
+EndEvent
+
+FirRecruitsBartre:
+SwitchMusic(MUS_JoinUs)
+Text(Ch11B_FirRecruitsBartre)
+BecomeAlly(Fir)
+RestoreMusic
+EndEvent
+
+FirBartreExtraTalk:
+QuieterMusic
+Text(Ch11B_FirRecruitsBartre)
+UnquieterMusic
+EndEvent
+
+VisitRedGemVillage:
+VillageEventItem(Ch11B_RedGemVillage,BG_Village,RedGem)
+
+LoadCivilianChasers:
+ReinforcementEvent(CivilianChasers)
+
+GeeseAppears:
+CAM1 [18,17]
+FlashCursor(18,17,60)
+SwitchMusic(MUS_BindingTies)
+Text(BG_Village,Ch10A_Ch11B_GeeseAppears)
+LoadReinforcements(JustGeese)
+EndEvent
+
+ReinforcementsComing:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+SwitchMusic(MUS_WildFrontier)
+CAM1 [2,25]
+FlashCursor(2,25,60)
+Text(BG_Castle1,Ch11B_ReinforcementsComing)
+RestoreMusic
+LABEL 9
+EndEvent
+
+LoadPirates:
+ReinforcementEvent(PirateReinforcements)
+
+LoadTwoFightersIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadReinforcements(CastleReinforcementsTwoFighters)
+LABEL 9
+EndEvent
+
+LoadMercArcherIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadReinforcements(CastleReinforcementsMercArcher)
+LABEL 9
+EndEvent
+
+LoadHardMercFighterIfBossAlive:
+CheckFlag(BossDefeatFlag)
+BNE 9 s0 sC
+LoadHardReinforcements(CastleReinforcementsMercFighter)
+LABEL 9
+EndEvent
+
+TurnEnemiesAggressive: //TODO add second enemy variant for this?
+EndEvent
 
 EndingScene:
 MoveToChapter(CHAPTER_Ch12)
 ENDA
+
+VendorList:
+SHLI Fire Thunder Lightning Heal Vulnerary Antitoxin DoorKey ChestKey5Uses
 
 MESSAGE Events end at offset CURRENTOFFSET

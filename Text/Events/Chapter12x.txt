@@ -58,7 +58,7 @@ not alone in this cave.[AN]
 coming from the cave walls.[AN]
 We must tread lightly.[AN][X]
 
-## Ch12x_End1
+## Ch12x_EndElffinAlive
 [OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy][ToggleSmile]Where is the legendary weapon?[AN]
 [OpenMidLeft]Hmm...[AN]
 I hear wind blowing from[N]
@@ -74,8 +74,9 @@ This axe is enormous.[AN]
 The very axe wielded by[N]
 Durban the Berserker.[AN]
 It certainly appears fit for[N]
-a warrior of his stature.[AN]
-## Ch12x_[0BDE]
+a warrior of his stature.[AN][X]
+
+## Ch12x_EndElffinDead
 [OpenMidLeft][LoadSoldier1][ToggleSmile]Lord Roy, here it is![AN]
 There's a large axe behind the[N]
 throne![AN]

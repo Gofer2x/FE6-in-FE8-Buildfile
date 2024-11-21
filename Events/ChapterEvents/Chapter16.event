@@ -12,7 +12,11 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-
+//Ch16_NarcianVsMeladyFlag 0x0
+//Ch16_NarcianVsClarineFlag 0x0
+//Ch16_NarcianVsZeissFlag 0x0
+//Ch16_NarcianVsCeciliaFlag 0x0
+//Ch16_NarcianVsPercevalFlag 0x0
 EventPointerTable(EVENTS_Ch16,ThisChapter)
 
 ALIGN 4

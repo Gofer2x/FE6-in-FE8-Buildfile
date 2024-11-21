@@ -31,7 +31,10 @@
 #define Ch8_LilinaBorsTalkFlag 0x9
 #define Ch8_LilinaBartheTalkFlag 0xA
 #define Ch8_RoyCathTalkFlag 0xB
-
+//Ch8_DebiasVsBorsFlag 0xC
+//Ch8_LeganceVsLilinaFlag 0xD
+//Ch8_LeganceVsBartheFlag 0xE
+//Ch8_LeganceVsGwendolynFlag 0xF
 
 EventPointerTable(EVENTS_Ch8,ThisChapter)
 

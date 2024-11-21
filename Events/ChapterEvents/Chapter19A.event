@@ -12,6 +12,8 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+//Ch19A_SiguneVsShannaFlag 0x0
+//Ch19A_SiguneVsTheaFlag 0x0
 
 EventPointerTable(EVENTS_Ch19A,ThisChapter)
 

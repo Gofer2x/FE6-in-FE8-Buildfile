@@ -12,8 +12,8 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-
-//#define Ch20A_GenericCitizenIlliaDeath 0x20
+//Ch20A_RoartzVsDouglasFlag 0x0
+//Ch20A_GenericCitizenIlliaDeath 0x20
 
 EventPointerTable(EVENTS_Ch20A,ThisChapter)
 

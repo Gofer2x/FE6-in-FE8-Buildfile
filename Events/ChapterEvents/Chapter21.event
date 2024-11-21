@@ -12,6 +12,9 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+//Ch21_MurdockVsRoyFlag 0x0
+//Ch21_MurdockVsMeladyFlag 0x0
+//Ch21_MurdockVsZeissFlag 0x0
 
 EventPointerTable(EVENTS_Ch21,ThisChapter)
 

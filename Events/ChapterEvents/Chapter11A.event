@@ -13,11 +13,11 @@
 // 0x5
 //RoutFlag 0x6
 
-//#define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
-//#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
-//#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
-//#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-//#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
+//Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
+//Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
+//Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
+//Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
+//Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 #define Ch11A_BanditsAppearCutscenePlayedFlag 0xC
 #define Ch11A_LarumEchidnaTalkFlag 0xD
 #define Ch11A_VillageFlag1 0xE
@@ -28,9 +28,11 @@
 #define Ch11A_VillageFlag6 0x13
 #define Ch11A_VillageFlag7 0x14
 #define Ch11A_VillageFlag8 0x15
+//Ch11A_OrloVsElenFlag 0x16
+//Ch11A_SaulVsOrloFlag 0x17
 
-//#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
-//#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
+//Ch11A_Ch10B_GenericArcherKleinDeath 0x20
+//Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
 
 EventPointerTable(EVENTS_Ch11A,ThisChapter)
 

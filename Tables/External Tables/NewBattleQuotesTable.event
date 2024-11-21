@@ -85,43 +85,79 @@ UnspecifiedBattleConvo(Jahn,CHAPTER_Ch24,0x1,JahnBattleQuote)
 
 
 //All below have temporary flags
-SpecifiedBattleConvo(Bors,Debias,CHAPTER_Ch7,0x2,DebiasVsBorsBattleQuote)
+#define Ch7_BorsVsDebiasFlag 0xD
+SpecifiedBattleConvo(Bors,Debias,CHAPTER_Ch7,Ch7_BorsVsDebiasFlag,DebiasVsBorsBattleQuote)
 
-SpecifiedBattleConvo(Bors,Legance,CHAPTER_Ch8,0x2,LeganceVsBorsBattleQuote)
-SpecifiedBattleConvo(Lilina,Legance,CHAPTER_Ch8,0x3,LeganceVsLilinaBattleQuote)
-SpecifiedBattleConvo(Barthe,Legance,CHAPTER_Ch8,0x4,LeganceVsBartheBattleQuote)
-SpecifiedBattleConvo(Gwendolyn,Legance,CHAPTER_Ch8,0x5,LeganceVsGwendolynBattleQuote)
+#define Ch8_LeganceVsBorsFlag 0xC
+#define Ch8_LeganceVsLilinaFlag 0xD
+#define Ch8_LeganceVsBartheFlag 0xE
+#define Ch8_LeganceVsGwendolynFlag 0xF
+SpecifiedBattleConvo(Bors,Legance,CHAPTER_Ch8,Ch8_LeganceVsBorsFlag,LeganceVsBorsBattleQuote)
+SpecifiedBattleConvo(Lilina,Legance,CHAPTER_Ch8,Ch8_LeganceVsLilinaFlag,LeganceVsLilinaBattleQuote)
+SpecifiedBattleConvo(Barthe,Legance,CHAPTER_Ch8,Ch8_LeganceVsBartheFlag,LeganceVsBartheBattleQuote)
+SpecifiedBattleConvo(Gwendolyn,Legance,CHAPTER_Ch8,Ch8_LeganceVsGwendolynFlag,LeganceVsGwendolynBattleQuote)
 
-SpecifiedBattleConvo(Elen,Orlo,CHAPTER_Ch11A,0x2,OrloVsElenBattleQuote)
-SpecifiedBattleConvo(Saul,Orlo,CHAPTER_Ch11A,0x3,OrloVsSaulBattleQuote)
+#define Ch11A_OrloVsElenFlag 0x16
+#define Ch11A_OrloVsSaulFlag 0x17
+SpecifiedBattleConvo(Elen,Orlo,CHAPTER_Ch11A,Ch11A_OrloVsElenFlag,OrloVsElenBattleQuote)
+SpecifiedBattleConvo(Saul,Orlo,CHAPTER_Ch11A,Ch11A_OrloVsSaulFlag,OrloVsSaulBattleQuote)
 
-SpecifiedBattleConvo(Clarine,Narcian,CHAPTER_Ch16,0x2,NarcianVsClarineBattleQuote)
-SpecifiedBattleConvo(Melady,Narcian,CHAPTER_Ch16,0x3,NarcianVsMeladyBattleQuote)
-SpecifiedBattleConvo(Zeiss,Narcian,CHAPTER_Ch16,0x4,NarcianVsZeissBattleQuote)
-SpecifiedBattleConvo(Cecilia,Narcian,CHAPTER_Ch16,0x5,NarcianVsCeciliaBattleQuote)
-SpecifiedBattleConvo(Perceval,Narcian,CHAPTER_Ch16,0x6,NarcianVsPercevalBattleQuote)
+//TODO update when doing ch16
+#define Ch16_NarcianVsMeladyFlag 0x0
+#define Ch16_NarcianVsClarineFlag 0x0
+#define Ch16_NarcianVsZeissFlag 0x0
+#define Ch16_NarcianVsCeciliaFlag 0x0
+#define Ch16_NarcianVsPercevalFlag 0x0
+SpecifiedBattleConvo(Clarine,Narcian,CHAPTER_Ch16,Ch16_NarcianVsMeladyFlag,NarcianVsClarineBattleQuote)
+SpecifiedBattleConvo(Melady,Narcian,CHAPTER_Ch16,Ch16_NarcianVsClarineFlag,NarcianVsMeladyBattleQuote)
+SpecifiedBattleConvo(Zeiss,Narcian,CHAPTER_Ch16,Ch16_NarcianVsZeissFlag,NarcianVsZeissBattleQuote)
+SpecifiedBattleConvo(Cecilia,Narcian,CHAPTER_Ch16,Ch16_NarcianVsCeciliaFlag,NarcianVsCeciliaBattleQuote)
+SpecifiedBattleConvo(Perceval,Narcian,CHAPTER_Ch16,Ch16_NarcianVsPercevalFlag,NarcianVsPercevalBattleQuote)
 
-SpecifiedBattleConvo(Klein,Arcardo,CHAPTER_Ch17A,0x2,ArcardoVsKleinBattleQuote)
-SpecifiedBattleConvo(Douglas,Arcardo,CHAPTER_Ch17A,0x3,ArcardoVsDouglasBattleQuote)
+//TODO update when doing ch17a
+#define Ch17A_ArcardoVsKleinFlag 0x0
+#define Ch17A_ArcardoVsDouglasFlag 0x0
+SpecifiedBattleConvo(Klein,Arcardo,CHAPTER_Ch17A,Ch17A_ArcardoVsKleinFlag,ArcardoVsKleinBattleQuote)
+SpecifiedBattleConvo(Douglas,Arcardo,CHAPTER_Ch17A,Ch17A_ArcardoVsDouglasFlag,ArcardoVsDouglasBattleQuote)
 
-SpecifiedBattleConvo(Shanna,Sigune,CHAPTER_Ch19A,0x2,SiguneVsShannaBattleQuote)
-SpecifiedBattleConvo(Thea,Sigune,CHAPTER_Ch19A,0x3,SiguneVsTheaBattleQuote)
+//TODO update when doing ch19a
+#define Ch19A_SiguneVsShannaFlag 0x0
+#define Ch19A_SiguneVsTheaFlag 0x0
+SpecifiedBattleConvo(Sigune,Shanna,CHAPTER_Ch19A,Ch19A_SiguneVsShannaFlag,SiguneVsShannaBattleQuote)
+SpecifiedBattleConvo(Sigune,Thea,CHAPTER_Ch19A,Ch19A_SiguneVsTheaFlag,SiguneVsTheaBattleQuote)
 
-SpecifiedBattleConvo(Douglas,Roartz,CHAPTER_Ch20A,0x2,RoartzVsDouglasBattleQuote)
+//TODO update when doing ch20a
+#define Ch20A_RoartzVsDouglasFlag 0x0
+SpecifiedBattleConvo(Douglas,Roartz,CHAPTER_Ch20A,Ch20A_RoartzVsDouglasFlag,RoartzVsDouglasBattleQuote)
 
-SpecifiedBattleConvo(Klein,Arcardo,CHAPTER_Ch17B,0x2,ArcardoVsKleinBattleQuote)
-SpecifiedBattleConvo(Douglas,Arcardo,CHAPTER_Ch17B,0x3,ArcardoVsDouglasBattleQuote)
+//TODO update when doing ch17b
+#define Ch17B_ArcardoVsKleinFlag 0x0
+#define Ch17B_ArcardoVsDouglasFlag 0x0
+SpecifiedBattleConvo(Klein,Arcardo,CHAPTER_Ch17B,Ch17B_ArcardoVsKleinFlag,ArcardoVsKleinBattleQuote)
+SpecifiedBattleConvo(Douglas,Arcardo,CHAPTER_Ch17B,Ch17B_ArcardoVsDouglasFlag,ArcardoVsDouglasBattleQuote)
 
-SpecifiedBattleConvo(Sue,Monke,CHAPTER_Ch18B,0x2,MonkeVsSueBattleQuote)
-SpecifiedBattleConvo(Sin,Monke,CHAPTER_Ch18B,0x3,MonkeVsSinBattleQuote)
+//TODO update when doing ch18b
+#define Ch18B_MonkeVsSueFlag 0x0
+#define Ch18B_MonkeVsSinFlag 0x0
+SpecifiedBattleConvo(Sue,Monke,CHAPTER_Ch18B,Ch18B_MonkeVsSueFlag,MonkeVsSueBattleQuote)
+SpecifiedBattleConvo(Sin,Monke,CHAPTER_Ch18B,Ch18B_MonkeVsSinFlag,MonkeVsSinBattleQuote)
 
-SpecifiedBattleConvo(Douglas,Roartz,CHAPTER_Ch20B,0x2,RoartzVsDouglasBattleQuote)
+//TODO update when doing ch20b
+#define Ch20B_RoartzVsDouglasFlag 0x0
+SpecifiedBattleConvo(Douglas,Roartz,CHAPTER_Ch20B,Ch20B_RoartzVsDouglasFlag,RoartzVsDouglasBattleQuote)
 
-SpecifiedBattleConvo(Roy,Murdock,CHAPTER_Ch21,0x2,MurdockVsRoyBattleQuote)
-SpecifiedBattleConvo(Melady,Murdock,CHAPTER_Ch21,0x3,MurdockVsMeladyBattleQuote)
-SpecifiedBattleConvo(Zeiss,Murdock,CHAPTER_Ch21,0x4,MurdockVsZeissBattleQuote)
+//TODO update when doing ch21
+#define Ch21_MurdockVsRoyFlag 0x0
+#define Ch21_MurdockVsMeladyFlag 0x0
+#define Ch21_MurdockVsZeissFlag 0x0
+SpecifiedBattleConvo(Roy,Murdock,CHAPTER_Ch21,Ch21_MurdockVsRoyFlag,MurdockVsRoyBattleQuote)
+SpecifiedBattleConvo(Melady,Murdock,CHAPTER_Ch21,Ch21_MurdockVsMeladyFlag,MurdockVsMeladyBattleQuote)
+SpecifiedBattleConvo(Zeiss,Murdock,CHAPTER_Ch21,Ch21_MurdockVsZeissFlag,MurdockVsZeissBattleQuote)
 
-SpecifiedBattleConvo(Melady,Brunnya,CHAPTER_Ch23,0x2,BrunnyaVsMeladyAndZeissBattleQuote)
-SpecifiedBattleConvo(Zeiss,Brunnya,CHAPTER_Ch23,0x3,BrunnyaVsMeladyAndZeissBattleQuote)
+//TODO update when doing ch23
+#define Ch23_BrunnyaVsMeladyFlag 0x0
+#define Ch23_BrunnyaVsZeissFlag 0x0
+SpecifiedBattleConvo(Melady,Brunnya,CHAPTER_Ch23,Ch23_BrunnyaVsMeladyFlag,BrunnyaVsMeladyAndZeissBattleQuote)
+SpecifiedBattleConvo(Zeiss,Brunnya,CHAPTER_Ch23,Ch23_BrunnyaVsZeissFlag,BrunnyaVsMeladyAndZeissBattleQuote)
 
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0

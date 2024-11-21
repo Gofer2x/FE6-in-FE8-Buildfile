@@ -11,7 +11,7 @@
 #define EditItemUseEffectTable(Table, Item, Pointer) "PUSH ; ORG Table+(Item-0x4B+1)*4 ; POIN Pointer ; POP"
 
 
-
+//i used this a bunch previously but there is more hardcoded stuff than i thought so most of it goes unused
 
 #define CanBeUsed_DoorKey 0x0028B88
 #define CanBeUsed_ChestKey 0x0028B80

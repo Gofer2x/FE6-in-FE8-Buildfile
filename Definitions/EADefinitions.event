@@ -49,5 +49,6 @@
 #define GotoPrepScreenNoENDA "CALL $591FD8"
 
 //don't feel like dealign with world map events rn
+MESSAGE cuz i dont feel like dealing with map events rn
 #define MoveToChapter(chapter) "MNC2 chapter"
 

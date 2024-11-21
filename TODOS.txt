@@ -4,7 +4,17 @@ chapters
 
 escape points
 
-item stealing priority table
+forced deploys. for units that join at start of chapter, so
+ch6 - saul and dorothy
+ch8 - astolfo
+ch11a - larum
+ch11b - elffin
+ch14 - cecilia and sophia
+ch15 - igrene
+ch16x - douglas
+ch19a - niime
+ch20b - niime
+ch21 - yoder
 
 actually figure out the whole chapter fade thing and what you do at the start
 

@@ -1,0 +1,32 @@
+PUSH
+ORG $03B7C0
+POIN NewItemStealingTable
+POP
+
+ALIGN 4
+NewItemStealingTable:
+BYTE Firestone 0x0
+BYTE Divinestone 0x0
+BYTE HeroCrest 0x0
+BYTE KnightCrest 0x0
+BYTE OrionsBolt 0x0
+BYTE ElysianWhip 0x0
+BYTE GuidingRing 0x0
+BYTE SecretBook 0x0
+BYTE GoddessIcon 0x0
+BYTE AngelicRobe 0x0
+BYTE Dragonshield 0x0
+BYTE EnergyRing 0x0
+BYTE Speedwings 0x0
+BYTE Boots 0x0
+BYTE BodyRing 0x0
+BYTE MemberCard 0x0
+BYTE SilverCard 0x0
+BYTE Elixir 0x0
+BYTE ChestKey5Uses 0x0
+BYTE ChestKey1Use 0x0
+BYTE Lockpick 0x0
+BYTE PureWater 0x0
+BYTE Torch 0x0
+BYTE Antitoxin 0x0
+BYTE 0xFF 0xFF

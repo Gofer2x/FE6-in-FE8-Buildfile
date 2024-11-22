@@ -15,7 +15,7 @@
 #define Ch14_TreasureSilenceFlag 0x7
 #define Ch14_TreasureTalismanFlag 0x8
 #define Ch14_TreasureBootsFlag 0x9
-#define Ch14_TreasureSilverBladeFlaglag 0xA
+#define Ch14_TreasureSilverBladeFlag 0xA
 #define Ch14_TreasureSilverCardFlag 0xB
 #define Ch14_TreasureWarpFlag 0xC
 #define Ch14_SophiaGuidingRingFlag 0xD
@@ -263,14 +263,19 @@ PlayerInRange
 DesertTreasure(Boots,32752)
 EndEvent
 
+TreasureSilverBlade:
+PlayerInRange
+DesertTreasure(SilverBlade,32753)
+EndEvent
+
 TreasureSilverCard:
 PlayerInRange
-DesertTreasure(SilverCard,32753)
+DesertTreasure(SilverCard,32754)
 EndEvent
 
 TreasureWarp:
 PlayerInRange
-DesertTreasure(Warp,32754)
+DesertTreasure(Warp,32755)
 EndEvent
 
 SophiaGuidingRing:
@@ -278,7 +283,7 @@ PlayerInRange
 SVAL s1 Sophia
 CHECK_ACTIVE
 BEQ 1 s1 sC
-FlagOff(Ch14_SophiaGuidingRingFlag)
+FlagOFF(Ch14_SophiaGuidingRingFlag)
 GOTO 9
 LABEL 1
 Text(Ch14_SophiaFindsGuidingRing)

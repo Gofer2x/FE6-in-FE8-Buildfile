@@ -106,13 +106,35 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+CAM1 Oates
+FlashCursor(Oates,60)
+Text(BG_Temple2White,Ch14x_Start1)
+PlayMusic(MUS_DistantUtopia)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Temple2White,Ch14x_Start2)
+GotoPrepScreen
 
 EndingScene:
+PlayMusic(MUS_DistantUtopia)
+CHECK_ALIVE Sophia
+BEQ 1 s0 sC //go to 1 if sophia dead
+//else, alive processing
+Text(BG_Temple1,Ch14x_EndSophiaAlive)
+GOTO 9
+
+LABEL 1
+Text(BG_Temple1,Ch14x_EndSophiaDead1)
+Text(BG_Outside,Ch14x_EndSophiaDead2)
+LABEL 9
+
+Text(BG_Castle3,Ch14_Ch14x_EndElder)
+GiveItemToCharacter(Roy,Forblaze)
+STAL 64
 MoveToChapter(CHAPTER_Ch15)
 ENDA
 

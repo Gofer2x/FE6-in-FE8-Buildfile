@@ -12,6 +12,14 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch14_TreasureSilenceFlag 0x7
+#define Ch14_TreasureTalismanFlag 0x8
+#define Ch14_TreasureBootsFlag 0x9
+#define Ch14_TreasureSilverBladeFlaglag 0xA
+#define Ch14_TreasureSilverCardFlag 0xB
+#define Ch14_TreasureWarpFlag 0xC
+#define Ch14_SophiaGuidingRingFlag 0xD
+#define Ch14_GaidenFailFlag 0x20
 
 EventPointerTable(EVENTS_Ch14,ThisChapter)
 
@@ -30,6 +38,15 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,BanditsAppear,7)
+TurnEventEnemy(0x0,LoadSouthWestBandits,8,3)
+TurnEventEnemy(0x0,LoadHardSouthEastBandits,13)
+TurnEventEnemy(0x0,LoadHardSouthEastBandits,15)
+TurnEventEnemy(0x0,LoadHardSouthEastBandits,17)
+TurnEventEnemy(0x0,LoadHardNorthBandits,14)
+TurnEventEnemy(0x0,LoadHardNorthBandits,16)
+TurnEventEnemy(0x0,LoadHardNorthBandits,18)
+TurnEventPlayer(Ch14_GaidenFailFlag,GaidenFail,26)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -37,9 +54,22 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Armory(ArmoryList,26,4)
+Vendor(VendorList,29,4)
+House(0x0,DelphiHouseVisit,26,6)
+House(0x0,BonesTreasureHouseVisit,25,6)
 END_MAIN
 
 MiscBasedEvents:
+//sophia range event
+//bone events
+AreaEvent(Ch14_TreasureSilenceFlag,TreasureSilence,12,13,18,18)
+AreaEvent(Ch14_TreasureTalismanFlag,TreasureTalisman,0,10,4,15)
+AreaEvent(Ch14_TreasureBootsFlag,TreasureBoots,10,8,14,10)
+AreaEvent(Ch14_TreasureSilverBladeFlag,TreasureSilverBlade,25,13,31,16)
+AreaEvent(Ch14_TreasureSilverCardFlag,TreasureSilverCard,1,1,5,5)
+AreaEvent(Ch14_TreasureWarpFlag,TreasureWarp,23,19,31,21)
+AreaEvent(Ch14_SophiaGuidingRingFlag,SophiaGuidingRing,26,7,28,10)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -155,14 +185,134 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_AnUnexpectedCaller)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FlashCursor(27,1,60)
+Text(BG_Temple1,Ch14_Start1)
+PlayMusic(MUS_MessengerFromTheDarkness)
+CAM1 Randy
+FlashCursor(27,3,60)
+Text(BG_Castle3,Ch14_Start2)
+FadeOutMusic
+//sandstorm bgs?
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+Text(Ch14_Start3)
+LOAD1 0x1 CeciliaSophia
+ENUN
+//stop sandstorm bgs
+GotoPrepScreen
+
+BanditsAppear:
+SwitchMusic(MUS_HappinessAbounds)
+LoadReinforcements(BrigandReinforcements1)
+LoadReinforcements(BrigandReinforcements2)
+LoadReinforcements(BrigandReinforcements3)
+LoadReinforcements(BrigandReinforcements4)
+FlashCursor(Maggie,60)
+Text(Ch14_BanditsAppear)
+RestoreMusic
+EndEvent
+
+LoadSouthWestBandits:
+ReinforcementEvent(BrigandReinforcementsSouthWest)
+
+LoadHardNorthBandits:
+HardReinforcementEvent(BrigandReinforcementsNorth)
+
+LoadHardSouthEastBandits:
+HardReinforcementEvent(BrigandReinforcementsSouthEast)
+
+GaidenFail:
+//remove fog
+WEA1 0x0 //is this it????
+STAL 128
+CAM1 Roy
+QuieterMusic
+Text(Ch14_GaidenGone1)
+UnquieterMusic
+CHECK_EVENTID BossDefeatFlag
+BNE 9 s0 sC
+CAM1 [27,3]
+FlashCursor(Randy,60)
+QuieterMusic
+Text(Ch14_GaidenGone2)
+UnquieterMusic
+LABEL 9
+EndEvent
+
+DelphiHouseVisit:
+HouseEvent(Ch14_DelphiHouse,BG_House)
+
+BonesTreasureHouseVisit:
+HouseEvent(Ch14_BonesTreasureHouse,BG_House)
+
+TreasureSilence:
+PlayerInRange
+DesertTreasure(Silence,32750)
+EndEvent
+
+TreasureTalisman:
+PlayerInRange
+DesertTreasure(Talisman,32751)
+EndEvent
+
+TreasureBoots:
+PlayerInRange
+DesertTreasure(Boots,32752)
+EndEvent
+
+TreasureSilverCard:
+PlayerInRange
+DesertTreasure(SilverCard,32753)
+EndEvent
+
+TreasureWarp:
+PlayerInRange
+DesertTreasure(Warp,32754)
+EndEvent
+
+SophiaGuidingRing:
+PlayerInRange
+SVAL s1 Sophia
+CHECK_ACTIVE
+BEQ 1 s1 sC
+FlagOff(Ch14_SophiaGuidingRingFlag)
+GOTO 9
+LABEL 1
+Text(Ch14_SophiaFindsGuidingRing)
+GiveItemToCharacter(Sophia,GuidingRing)
+LABEL 9
+EndEvent
 
 EndingScene:
+PlayMusic(MUS_DistantUtopia)
+CHECK_ALIVE Sophia
+BEQ 8 s0 sC //if sophia dead, fail and go to label 8
+//else, continue
+
+CheckFlag(Ch14_GaidenFailFlag) //check gaiden flag
+BNE 8 s0 sC //if on, fail and go to label 8
+
+//else, gaiden success
+Text(BG_Castle3,Ch14_EndGaidenGot)
+STAL 64
 MoveToChapter(CHAPTER_Ch14x)
+GOTO 9
+
+LABEL 8 //fail gaiden and go to 15
+Text(BG_Castle3,Ch14_Ch14x_EndElder)
+STAL 64
+MoveToChapter(CHAPTER_Ch15)
+
+LABEL 9 //end event
 ENDA
+
+ArmoryList:
+SHLI SteelSword SteelBlade SteelLance SteelAxe SteelBow
+
+VendorList:
+SHLI Elfire Aircalibur Lightning Flux Nosferatu Mend Restore Torch PureWater
 
 MESSAGE Events end at offset CURRENTOFFSET

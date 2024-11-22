@@ -211,7 +211,7 @@ LABEL 1
 Text(Ch12_Start3BartreRoute)
 
 LABEL 9
-EndEvent
+GotoPrepScreen
 
 EinAppearsFlaerLeaves:
 SwitchMusic(MUS_DragonSanctuary)

@@ -5,3 +5,4 @@
 #include "External Tables/NewItemEffectsTable.event"
 #include "External Tables/NewPromotionTables.event"
 #include "External Tables/NewItemStealingTable.event"
+#include "External Tables/NewForcedDeploymentTable.event"

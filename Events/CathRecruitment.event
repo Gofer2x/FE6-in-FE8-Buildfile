@@ -1,24 +1,22 @@
 EVENT_CathRecruitment:
-CHECK_EVENTID RoyCathTalkFlag1
-BNE 1 s0 sC
-MUSS MUS_GoingMyWay
+BranchIfFlagON(1,RoyCathTalkFlag1)
+SwitchMusic(MUS_GoingMyWay)
 Text(RoyCathFirstTalkConvo)
-ENUT RoyCathTalkFlag1
+FlagON(RoyCathTalkFlag1)
 SetAI(Cath, AI1_None, AI2_Escape)
 GOTO 9
 LABEL 1
-CHECK_EVENTID RoyCathTalkFlag2
-BNE 2 s0 sC
-MUSS MUS_GoingMyWay
+BranchIfFlagON(2,RoyCathTalkFlag2)
+SwitchMusic(MUS_GoingMyWay)
 Text(RoyCathSecondTalkConvo)
-ENUT RoyCathTalkFlag2
+FlagON(RoyCathTalkFlag2)
 SetAI(Cath, AI1_None, AI2_Escape)
 GOTO 9
 LABEL 2
-MUSS MUS_JoinUs
+SwitchMusic(MUS_JoinUs)
 Text(RoyCathThirdTalkConvo)
-ENUT CathDeadOrRecruited
+FlagON(CathRecruitedOrDeadFlag)
 BecomeAlly(Cath)
 LABEL 9
-MURE 0x5
+RestoreMusic
 EndEvent

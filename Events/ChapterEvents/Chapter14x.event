@@ -121,8 +121,7 @@ GotoPrepScreen
 
 EndingScene:
 PlayMusic(MUS_DistantUtopia)
-CHECK_ALIVE Sophia
-BEQ 1 s0 sC //go to 1 if sophia dead
+BranchIfUnitDead(1,Sophia) //go to 1 if sophia dead
 //else, alive processing
 Text(BG_Temple1,Ch14x_EndSophiaAlive)
 GOTO 9

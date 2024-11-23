@@ -16,7 +16,7 @@
 #define Ch13_NarcianOnThroneFlag 0x8
 #define Ch13_NarcianLeavesFlag 0x9
 
-//#define Ch13_Ch15_GenericSoldierPercevalDeath 0x20
+//Ch13_Ch15_GenericSoldierPercevalDeath 0x20
 
 EventPointerTable(EVENTS_Ch13,ThisChapter)
 
@@ -51,8 +51,8 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-CharacterEvent(Ch13_PercevalRecruitedFlag,EVENT_LarumRecruitsPerceval,Larum,Perceval)
-CharacterEvent(Ch13_PercevalRecruitedFlag,EVENT_ElffinRecruitsPerceval,Elffin,Perceval)
+CharacterEvent(Ch13_PercevalRecruitedFlag,LarumRecruitsPerceval,Larum,Perceval)
+CharacterEvent(Ch13_PercevalRecruitedFlag,ElffinRecruitsPerceval,Elffin,Perceval)
 END_MAIN
 
 LocationBasedEvents:
@@ -295,6 +295,26 @@ TurnAlly(Melady)
 RestoreMusic
 EndEvent
 
+LarumRecruitsPerceval:
+SwitchMusic(MUS_JoinUs)
+Text(Ch13_Ch15_LarumRecruitsPerceval)
+BecomeAlly(Perceval)
+AllEnemiesToNPC(GenericSoldierPerceval,0)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPerceval,0)
+FlagON(PercevalRecruitedOrDeadFlag)
+RestoreMusic
+EndEvent
+
+ElffinRecruitsPerceval:
+SwitchMusic(MUS_JoinUs)
+Text(Ch13_Ch15_ElffinRecruitsPerceval)
+BecomeAlly(Perceval)
+AllEnemiesToNPC(GenericSoldierPerceval,0)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPerceval,0)
+FlagON(PercevalRecruitedOrDeadFlag)
+RestoreMusic
+EndEvent
+
 ZephielLeaves:
 SwitchMusic(MUS_TheKingOfBern)
 CAM1 [43,9]
@@ -322,10 +342,8 @@ Text(BG_Dungeon,Ch13_SophiaTendsToCecilia)
 EndEvent
 
 PercevalLeaves:
-CheckFlag(Ch13_PercevalRecruitedFlag)
-BNE 9 sC s0
-CHECK_ALIVE Perceval
-BEQ 9 sC s0
+BranchIfFlagON(9,Ch13_PercevalRecruitedFlag)
+BranchIfUnitDead(9,Perceval)
 SwitchMusic(MUS_BindingTies)
 CAM1 Perceval
 FlashCursor(Perceval,60)
@@ -349,10 +367,10 @@ EndEvent
 
 NarcianLeaves: //not sure if this works, test
 PlayerInRange
-CheckFlag(Ch13_NarcianOnThroneFlag)
-BNE 1 s0 sC
+BranchIfFlagON(1,Ch13_NarcianOnThroneFlag)
 FlagOFF(Ch13_NarcianLeavesFlag)
 GOTO 9
+
 LABEL 1
 SwitchMusic(MUS_Suspicious)
 MOVE 0x0 Flaer [43,10]
@@ -408,12 +426,10 @@ HouseEvent(Ch13_PercevalLoyalHouse,BG_House)
 EndingScene:
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch13_End)
-CheckFlag(Ch13_PercevalRecruitedFlag)
-BEQ 1 sC s0
-CHECK_ALIVE Perceval
-BEQ 1 sC s0
-CheckFlag(Ch13_Ch15_GenericSoldierPercevalDeath)
-BNE 1 s0 sC
+
+BranchIfFlagOFF(1,Ch13_PercevalRecruitedFlag)
+BranchIfUnitDead(1,Perceval)
+BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
 
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch13_Ch15_EndKnightCrest)

@@ -12,6 +12,14 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch16_RoyCathTalkFlag 0x7
+#define Ch16_MeladyZeissTalkFlag 0x8
+#define Ch16_CeciliaDouglasTalkFlag 0x9
+#define Ch16_KleinDouglasTalkFlag 0xA
+#define Ch16_LarumDouglasTalkFlag 0xB
+#define Ch16_ElffinDouglasTalkFlag 0xC
+#define Ch16_HughRecruitmentFlag 0xD
+
 //Ch16_NarcianVsMeladyFlag 0x0
 //Ch16_NarcianVsClarineFlag 0x0
 //Ch16_NarcianVsZeissFlag 0x0
@@ -34,13 +42,41 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventNPC(0x0,GalleAndZeissTalk,1)
+TurnEventEnemy(0x0,HughComplains,2)
+TurnEventEnemy(0x0,CathAndAThiefAppear,10)
+TurnEventEnemy(0x0,LoadBoltingMage,12)
+TurnEventEnemy(0x0,LoadStairsReinforcements,11,5)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch16_MeladyZeissTalkFlag,MeladyRecruitsZeiss,Melady,Zeiss)
+CharacterEvent(Ch16_CeciliaDouglasTalkFlag,CeciliaDouglasTalk,Cecilia,Douglas)
+CharacterEvent(Ch16_KleinDouglasTalkFlag,KleinDouglasTalk,Klein,Douglas)
+CharacterEvent(Ch16_LarumDouglasTalkFlag,LarumDouglasTalk,Larum,Douglas)
+CharacterEvent(Ch16_ElffinDouglasTalkFlag,ElffinDouglasTalk,Elffin,Douglas)
+CharacterEvent(Ch16_HughRecruitmentFlag,HughRecruitment,Roy,Hugh)
+CharacterEvent(Ch16_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Chest(Recover,30,11)
+Chest(Restore,30,9)
+Chest(BraveLance,30,6)
+Chest(Bolting,30,3)
+ChestMoney(5000,28,2)
+Chest(Rescue,3,23)
+Chest(SilverBow,2,22)
+Chest(HeroCrest,1,20)
+Chest(KnightCrest,2,18)
+Chest(Berserk,1,16)
+SecretShop(SecretShopList,1,0)
+Door(5,15)
+Door(11,15)
+Door(12,15)
+Door(27,4)
+Seize(14,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -123,12 +159,12 @@ JustZeiss:
 UNIT Zeiss WyvernRider 0x0 Level(7,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_1 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
-CathThief:
+CathAndThief:
 UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [13,22] 0x0 0x0 0x1 REDA_12_22 [IronSword, Lockpick, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Def, AI4_Retreat]
 UNIT GenericThief Thief 0x0 Level(13,Enemy,1) [21,1] 0x0 0x0 0x1 REDA_21_2 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_30_80|TAI_Def, AI4_Retreat]
 UNIT
 
-BoltingMageReinforcements:
+FunnyBoltingMage:
 UNIT GenericEtruria Mage 0x0 Level(14,Enemy,1) [30,22] 0x0 0x0 0x0 0x0 [Bolting] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
@@ -144,14 +180,132 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Suspicious)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+FlagON(Ch16_RoyCathTalkFlag)
+LABEL 1
+FlashCursor(Narcian,60)
+Text(BG_Castle2,Ch16_Start1)
+LOAD1 0x1 CutsceneMurdock
+ENUN
+CMOF
+MOVE 0x0 Murdock [7,13]
+ENUN
+DISA Murdock
+Text(BG_Castle2,Ch16_Start2)
+FadeOutMusic
+PlayMusic(MUS_DeerOfThePlains)
+CAM1 Douglas
+Text(Ch16_Start3)
+CAM1 Roartz
+MOVE 0x0 Roartz [3,11]
+ENUN
+DISA Roartz
+CAM1 Arcardo
+MOVE 0x0 Arcardo [3,11]
+ENUN
+DISA Arcardo
+CAM1 Douglas
+Text(Ch16_Start4)
+
+LOAD3 0x0 Units
+ENUN
+PlayMusic(MUS_WhenTheRushComes)
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Castle2,Ch16_Start5)
+GotoPrepScreen
+
+GalleAndZeissTalk:
+SwitchMusic(MUS_TheKingdomOfBern)
+CAM1 [1,1]
+LOAD1 0x1 JustZeiss
+ENUN
+MOVE 0x0 Zeiss [1,4]
+ENUN
+STAL 32
+LOAD1 0x1 CutsceneGalle
+ENUN
+Text(Ch16_GalleCallsZeiss)
+MOVE 0x0 Zeiss [1,2]
+ENUN
+Text(Ch16_GalleAndZeissTalk)
+MOVE 0x0 Galle [1,0]
+ENUN
+DISA Galle
+Text(Ch16_ZeissDotDotDotDotDotDot)
+MOVE 0x0 Zeiss [1,0]
+ENUN
+RestoreMusic
+EndEvent
+
+HughComplains:
+//some asm with a branch here?
+SwitchMusic(MUS_HappinessAbounds)
+CAM1 Hugh
+Text(Ch16_HughComplains)
+RestoreMusic
+EndEvent
+
+CathAndAThiefAppear:
+BranchIfFlagON(9,CathRecruitedOrDeadFlag)
+SwitchMusic(MUS_GoingMyWay)
+LoadReinforcements(CathAndThief)
+CAM1 Cath
+Text(Ch16_CathAppears)
+RestoreMusic
+LABEL 9
+EndEvent
+
+MeladyRecruitsZeiss:
+SwitchMusic(MUS_JoinUs)
+Text(Ch16_MeladyRecruitsZeiss)
+BecomeAlly(Zeiss)
+RestoreMusic
+EndEvent
+
+CeciliaDouglasTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch16_CeciliaDouglasTalk)
+RestoreMusic
+EndEvent
+
+KleinDouglasTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch16_KleinDouglasTalk)
+RestoreMusic
+EndEvent
+
+LarumDouglasTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch16_LarumDouglasTalk)
+RestoreMusic
+EndEvent
+
+ElffinDouglasTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch16_ElffinDouglasTalk)
+RestoreMusic
+EndEvent
+
+HughRecruitment:
+//TODO Pain
+TurnAlly(Hugh) //temp
+EndEvent
+
+LoadBoltingMage:
+ReinforcementEvent(FunnyBoltingMage)
+
+LoadStairsReinforcements:
+ReinforcementEvent(StairsReinforcements)
 
 EndingScene:
+//TODO this lol
 MoveToChapter(CHAPTER_Ch16x)
 ENDA
+
+SecretShopList:
+SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing AngelicRobe Lockpick
 
 MESSAGE Events end at offset CURRENTOFFSET

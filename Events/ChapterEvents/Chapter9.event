@@ -243,8 +243,8 @@ EndingScene:
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch9_End1)
 
-CheckFlag(Ch9_LeftVillageVisitedFlag)
-BEQ 1 sC s0
+
+BranchIfFlagOFF(1,Ch9_LeftVillageVisitedFlag)
 //left visited, go to echidna route
 FlagON(WestIslesEchidnaRouteFlag)
 Text(BG_Castle1,Ch9_EndNorth)
@@ -252,8 +252,7 @@ MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 1
-CheckFlag(Ch9_RightVillageVisitedFlag)
-BEQ 2 sC s0
+BranchIfFlagOFF(2,Ch9_LeftVillageVisitedFlag)
 Text(BG_Castle1,Ch9_EndWest)
 MoveToChapter(CHAPTER_Ch10B)
 GOTO 9

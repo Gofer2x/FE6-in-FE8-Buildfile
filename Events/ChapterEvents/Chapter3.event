@@ -191,7 +191,7 @@ CHECK_ACTIVE
 SVAL s1 Chad
 BNE 0 s1 sC
 Text(BG_Village, Ch3_ChadLughVillage)
-ENUT Ch3_ChadLughTalkFlag
+FlagON(Ch3_ChadLughTalkFlag)
 GOTO 1
 LABEL 0
 Text(BG_Village, Ch3_LughVillage)

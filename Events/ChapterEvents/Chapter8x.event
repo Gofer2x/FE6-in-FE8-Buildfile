@@ -145,8 +145,7 @@ GotoPrepScreen
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-CHECK_ALIVE Lilina
-BEQ 1 s0 sC
+BranchIfUnitDead(1,Lilina)
 Text(BG_LavaFort, Ch8x_EndLilinaAlive)
 GOTO 2
 LABEL 1

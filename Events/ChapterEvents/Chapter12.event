@@ -179,8 +179,7 @@ LOAD1 0x1 Enemies
 FlagON(Ch12_LughRaighExtraTalkFlag)
 FlagON(Ch12_ChadRaighExtraTalkFlag)
 
-CheckFlag(CathDeadOrRecruited)
-BNE 1 s0 sC
+BranchIfFlagON(1,CathRecruitedOrDeadFlag)
 FlagON(Ch12_RoyCathTalkFlag)
 LABEL 1
 
@@ -203,10 +202,10 @@ LOAD3 0x0 Units
 ENUN
 CAM1 Roy
 
-CheckFlag(WestIslesEchidnaRouteFlag)
-BEQ 1 sC s0
+BranchIfFlagOFF(1,WestIslesEchidnaRouteFlag)
 Text(BG_Outside,Ch12_Start3EchidnaRoute)
 GOTO 9
+
 LABEL 1
 Text(Ch12_Start3BartreRoute)
 
@@ -240,8 +239,7 @@ RestoreMusic
 EndEvent
 
 CathAppears:
-CheckFlag(CathDeadOrRecruited)
-BNE 9 sC s0
+BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
 Text(Ch12_CathAppears)
@@ -250,8 +248,7 @@ LABEL 9
 EndEvent
 
 ReinforcementsWarning:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 SwitchMusic(MUS_DragonSanctuary)
 CAM1 [9,1]
 FlashCursor(9,1,60)
@@ -261,8 +258,7 @@ LABEL 9
 EndEvent
 
 LoadReinforcementsIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadReinforcements(WyvernReinforcements)
 LoadReinforcements(SouthEastReinforcements)
 LABEL 9
@@ -322,15 +318,15 @@ EndEvent
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle2,Ch12_End1)
-CheckFlag(WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
-BNE 1 s0 sC
+BranchIfFlagON(1,WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
+
 //bartre route
-CHECK_ALIVE Elffin
-BEQ 8 s0 sC //if elffin dead, fail and go to label 8
+BranchIfUnitDead(8,Elffin) //if elffin dead, fail and go to label 8
 //else, continue as if we were on echidna route
+
 LABEL 1 //echidna route
-CheckFlag(Ch12_GaidenFailFlag) //check gaiden flag
-BNE 8 s0 sC //if on, fail and go to label 8
+BranchIfFlagON(8,Ch12_GaidenFailFlag) //check gaiden flag and go to label 8 if on
+//else, onto the gaiden
 PlayMusic(MUS_Triumph)
 Text(BG_Castle2,Ch12_EndGaidenGot)
 STAL 64
@@ -339,9 +335,9 @@ GOTO 9
 
 LABEL 8 //fail gaiden and go to 13
 Text(BG_Castle2,Ch12_Ch12x_EndEtruriaRevolution)
-MoveToChapter(CHAPTER_Ch12x)
+MoveToChapter(CHAPTER_Ch13)
 
-LABEL 9 //end event
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

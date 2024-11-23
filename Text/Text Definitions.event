@@ -1217,7 +1217,7 @@
 #define Ch14x_EndSophiaDead1 0x1206
 #define Ch14x_EndSophiaDead2 0x1207
 #define Ch15_Start1 0x1208
-#define Ch15_Start2 0x1209
+#define Ch15_Start2Perceval 0x1209
 #define Ch15_Start3 0x120a
 #define Ch15_GarretAppears 0x120b
 #define Ch15_ReinforcementsComing 0x120c

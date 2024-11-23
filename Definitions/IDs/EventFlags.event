@@ -11,9 +11,9 @@
 // 0x71 to 0x77 are eirika ephraim route stuff
 #define RoyCathTalkFlag1 0x78
 #define RoyCathTalkFlag2 0x79
-#define CathDeadOrRecruited 0x7A
+#define CathRecruitedOrDeadFlag 0x7A
 #define WestIslesEchidnaRouteFlag 0x7B //off means bartre route
-#define PercevalJoinedOrDeadFlag 0x7C //for ch15
+#define PercevalRecruitedOrDeadFlag 0x7C //for ch15
 #define GlobalFlag7D 0x7D
 #define GlobalFlag7E 0x7E
 #define TriangleAttackDialogFlag1 0x7F
@@ -33,7 +33,7 @@
 #define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 
 //temporary flags for specific generic deaths
-#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
-#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
-#define Ch13_Ch15_GenericSoldierPercevalDeath 0x20
+#define Ch11A_Ch10B_GenericArcherKleinDeathFlag 0x20
+#define Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
+#define Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 #define Ch20A_GenericCitizenIlliaDeath 0x20

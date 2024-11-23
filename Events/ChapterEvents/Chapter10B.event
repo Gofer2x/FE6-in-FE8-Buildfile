@@ -13,11 +13,11 @@
 // 0x5
 //RoutFlag 0x6
 
-//#define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
-//#define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
-//#define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
-//#define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
-//#define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
+//Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
+//Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
+//Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
+//Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
+//Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 
 #define Ch10B_LilinaGonzalezTalkFlag 0xC
 #define Ch10B_VillageFlag1 0xE
@@ -28,8 +28,8 @@
 #define Ch10B_VillageFlag6 0x13
 #define Ch10B_VillageFlag7 0x14
 
-//#define Ch11A_Ch10B_GenericArcherKleinDeath 0x20
-//#define Ch11A_Ch10B_GenericPegKnightTheaDeath 0x21
+//Ch11A_Ch10B_GenericArcherKleinDeathFlag 0x20
+//Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
 
 
 
@@ -303,8 +303,7 @@ LoadMoreBandits:
 ReinforcementEvent(BrigandReinforcements2)
 
 ZinqueComplainsAndTalksAboutReinforcements:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 CAM1 [20,2]
 FlashCursor(20,2,60)
 PlayMusic(MUS_WildFrontier)
@@ -314,16 +313,14 @@ LABEL 9
 EndEvent
 
 CavsAppearIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadReinforcements(CavReinforcements1)
 LoadReinforcements(CavReinforcements2)
 LABEL 9
 EndEvent
 
 HardZinqueMoreReinforcements:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 CHECK_HARD
 BNE 9 s0 sC
 SwitchMusic(MUS_WildFrontier)
@@ -335,8 +332,7 @@ LABEL 9
 EndEvent
 
 HardCavsAppearIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadHardReinforcements(CavReinforcements3)
 LoadHardReinforcements(CavReinforcements4)
 LABEL 9
@@ -445,20 +441,13 @@ REMA
 GiveItemToCharacter(Roy,Wyrmslayer)
 
 //hero crest
-CheckFlag(Ch10B_VillageFlag1)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag2)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag3)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag4)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag5)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag6)
-BEQ 1 s0 sC
-CheckFlag(Ch10B_VillageFlag7)
-BEQ 1 s0 sC
+BranchIfFlagOFF(1,Ch10B_VillageFlag1)
+BranchIfFlagOFF(1,Ch10B_VillageFlag2)
+BranchIfFlagOFF(1,Ch10B_VillageFlag3)
+BranchIfFlagOFF(1,Ch10B_VillageFlag4)
+BranchIfFlagOFF(1,Ch10B_VillageFlag5)
+BranchIfFlagOFF(1,Ch10B_VillageFlag6)
+BranchIfFlagOFF(1,Ch10B_VillageFlag7)
 
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_EndHeroCrest)
@@ -467,10 +456,8 @@ GiveItemToCharacter(Roy,HeroCrest)
 LABEL 1
 
 //orion's bolt
-CHECK_ALIVE Klein
-BEQ 2 s0 sC
-CheckFlag(Ch11A_Ch10B_GenericArcherKleinDeath)
-BNE 2 s0 sC
+BranchIfUnitDead(2,Klein)
+BranchIfFlagON(2,Ch11A_Ch10B_GenericArcherKleinDeathFlag)
 
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndOrionsBolt)
@@ -479,10 +466,8 @@ GiveItemToCharacter(Klein,OrionsBolt)
 LABEL 2
 
 //elysian whip
-CHECK_ALIVE Thea
-BEQ 3 s0 sC
-CheckFlag(Ch11A_Ch10B_GenericPegKnightTheaDeath)
-BNE 3 s0 sC
+BranchIfUnitDead(3,Thea)
+BranchIfFlagON(3,Ch11A_Ch10B_GenericPegKnightTheaDeathFlag)
 
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)

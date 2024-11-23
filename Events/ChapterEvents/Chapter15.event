@@ -12,12 +12,12 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-
-//#define Ch13_Ch15_GenericSoldierPercevalDeath 0x20
+#define Ch15_PercevalRecruitmentFlag 0x7
+#define Ch15_RoyPercevalTalkFlag 0x8
+#define Ch15_LilinaGarretTalkFlag 0x9
+//Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch15,ThisChapter)
-
-
 
 ALIGN 4
 
@@ -34,13 +34,27 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,GarretAppears,3)
+TurnEventEnemy(0x0,ReinforcementsComing,10)
+TurnEventEnemy(0x0,IfBossAliveCavsFromForts,12,4)
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch15_PercevalRecruitmentFlag,LarumRecruitsPerceval,Larum,Perceval)
+CharacterEvent(Ch15_PercevalRecruitmentFlag,ElffinRecruitsPerceval,Elffin,Perceval)
+CharacterEvent(Ch15_RoyPercevalTalkFlag,RoyPercevalTalk,Roy,Perceval) //only available if perceval recruited this chapter
+CharacterEvent(Ch15_LilinaGarretTalkFlag,LilinaRecruitsGarret,Lilina,Garret)
 END_MAIN
 
 LocationBasedEvents:
+Village(0x0,DivineVillageVisit,8,22)
+Village(0x0,HammerneVillageVisit,25,15)
+House(0x0,SavageBanditsHouseVist,19,23)
+House(0x0,GeneralsDividedHouseVist,23,19)
+Vendor(VendorList,26,17)
+Seize(16,9)
 END_MAIN
 
 MiscBasedEvents:
@@ -140,14 +154,131 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FlagON(Ch15_PercevalRecruitmentFlag)
+FlagON(Ch15_RoyPercevalTalkFlag)
+CMOF
+CAM1 Raith
+FlashCursor(Raith,60)
+Text(BG_Castle1,Ch15_Start1)
+BranchIfFlagON(1,PercevalRecruitedOrDeadFlag)
+
+LOAD1 0x1 PercevalSquad
+FlagOFF(Ch15_PercevalRecruitmentFlag)
+ENUN
+CAM1 Perceval
+STAL 16
+MOVE 0x0 Douglas [1,0]
+ENUN
+Text(Ch15_Start2Perceval)
+MOVE 0x0 Douglas [0,0]
+ENUN
+DISA Douglas
+MOVE 0x0 Perceval [2,3]
+ENUN
+
+LABEL 1
+PlayMusic(MUS_CogsOfFate)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+Text(BG_Outside,Ch15_Start3)
+LOAD1 0x1 JustIgrene
+ENUN
+GotoPrepScreen
+
+LarumRecruitsPerceval:
+SwitchMusic(MUS_JoinUs)
+Text(Ch13_Ch15_LarumRecruitsPerceval)
+BecomeAlly(Perceval)
+AllEnemiesToNPC(GenericSoldierPerceval,0)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPerceval,0)
+FlagON(PercevalRecruitedOrDeadFlag)
+RestoreMusic
+FlagOFF(Ch15_RoyPercevalTalkFlag)
+EndEvent
+
+ElffinRecruitsPerceval:
+SwitchMusic(MUS_JoinUs)
+Text(Ch13_Ch15_ElffinRecruitsPerceval)
+BecomeAlly(Perceval)
+AllEnemiesToNPC(GenericSoldierPerceval,0)
+ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPerceval,0)
+FlagON(PercevalRecruitedOrDeadFlag)
+RestoreMusic
+FlagOFF(Ch15_RoyPercevalTalkFlag)
+EndEvent
+
+DivineVillageVisit:
+VillageEventItem(Ch15_DivineVillage,BG_Village,Divine)
+
+HammerneVillageVisit:
+VillageEventItem(Ch15_HammerneVillage,BG_Village,Hammerne)
+
+SavageBanditsHouseVist:
+HouseEvent(Ch15_SavageBanditsHouse,BG_House)
+
+GeneralsDividedHouseVist:
+HouseEvent(Ch15_GeneralsDividedHouse,BG_House)
+
+GarretAppears:
+LoadReinforcements(GarretSquad)
+CAM1 Garret
+PlayMusic(MUS_DeerOfThePlains)
+Text(Ch15_GarretAppears)
+EndEvent
+
+LilinaRecruitsGarret:
+SwitchMusic(MUS_JoinUs)
+Text(Ch15_LilinaRecruitsGarret)
+BecomeAlly(Garret)
+RestoreMusic
+EndEvent
+
+RoyPercevalTalk:
+QuieterMusic
+Text(Ch15_PercevalRoyTalk)
+UnquieterMusic
+EndEvent
+
+ReinforcementsComing:
+BranchIfBossDead(9)
+CAM1 Raith
+FlashCursor(Raith,60)
+PlayMusic(MUS_DeerOfThePlains)
+Text(BG_Castle1,Ch15_ReinforcementsComing)
+LABEL 9
+EndEvent
+
+IfBossAliveCavsFromForts:
+BranchIfBossDead(9)
+LoadReinforcements(CavReinforcements)
+LABEL 9
+EndEvent
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch15_End)
+
+BranchIfFlagOFF(1,Ch15_PercevalRecruitmentFlag)
+BranchIfUnitDead(1,Perceval)
+BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch13_Ch15_EndKnightCrest)
+GiveItemToCharacter(Perceval,KnightCrest)
+
+LABEL 1
+
+CMOF
+LOAD1 0x1 JustFae
+ENUN
+STAL 64
 MoveToChapter(CHAPTER_Ch16)
 ENDA
+
+VendorList:
+SHLI Thunder Lightning Flux Mend Vulnerary DoorKey ChestKey5Uses Torch
 
 MESSAGE Events end at offset CURRENTOFFSET

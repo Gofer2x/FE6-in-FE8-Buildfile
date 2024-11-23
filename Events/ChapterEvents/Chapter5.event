@@ -174,8 +174,7 @@ PlayerInRange
 QuieterMusic
 Text(Ch5_GateOpens)
 TILECHANGE 0x1
-CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BranchIfBossDead(1)
 STAL 32
 CAM1 [2,14]
 Text(Ch5_BossAngryAtGate)

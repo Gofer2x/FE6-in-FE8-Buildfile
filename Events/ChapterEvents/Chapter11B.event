@@ -242,8 +242,7 @@ LoadReinforcements(JustGeese)
 EndEvent
 
 ReinforcementsComing:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 SwitchMusic(MUS_WildFrontier)
 CAM1 [2,25]
 FlashCursor(2,25,60)
@@ -256,22 +255,19 @@ LoadPirates:
 ReinforcementEvent(PirateReinforcements)
 
 LoadTwoFightersIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadReinforcements(CastleReinforcementsTwoFighters)
 LABEL 9
 EndEvent
 
 LoadMercArcherIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadReinforcements(CastleReinforcementsMercArcher)
 LABEL 9
 EndEvent
 
 LoadHardMercFighterIfBossAlive:
-CheckFlag(BossDefeatFlag)
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadHardReinforcements(CastleReinforcementsMercFighter)
 LABEL 9
 EndEvent

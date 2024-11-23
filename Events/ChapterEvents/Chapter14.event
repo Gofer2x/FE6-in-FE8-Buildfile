@@ -232,8 +232,7 @@ CAM1 Roy
 QuieterMusic
 Text(Ch14_GaidenGone1)
 UnquieterMusic
-CHECK_EVENTID BossDefeatFlag
-BNE 9 s0 sC
+BranchIfBossDead(9)
 CAM1 [27,3]
 FlashCursor(Randy,60)
 QuieterMusic
@@ -293,14 +292,12 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_DistantUtopia)
-CHECK_ALIVE Sophia
-BEQ 8 s0 sC //if sophia dead, fail and go to label 8
+BranchIfUnitDead(8,Sophia)//if sophia dead, fail and go to label 8
 //else, continue
 
-CheckFlag(Ch14_GaidenFailFlag) //check gaiden flag
-BNE 8 s0 sC //if on, fail and go to label 8
+BranchIfFlagON(8,Ch14_GaidenFailFlag) //check gaiden flag, if fail go to 8
 
-//else, gaiden success
+//gaiden success
 Text(BG_Castle3,Ch14_EndGaidenGot)
 STAL 64
 MoveToChapter(CHAPTER_Ch14x)

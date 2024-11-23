@@ -299,8 +299,7 @@ HardReinforcementEvent(ThroneRoomReinforcements3)
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
-CHECK_ALIVE Sue
-BEQ 1 s0 sC
+BranchIfUnitDead(1,Sue)
 Text(BG_Castle3, Ch6_EndSue)
 LABEL 1
 Text(BG_Castle3, Ch6_End)

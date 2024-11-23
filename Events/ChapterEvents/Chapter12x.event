@@ -126,11 +126,10 @@ GotoPrepScreen
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
-CheckFlag(WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
-BNE 1 s0 sC
+BranchIfFlagON(1, WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
+
 //bartre route
-CHECK_ALIVE Elffin
-BEQ 2 s0 sC //if bartre route and elffin dead, elfinless dialogue
+BranchIfUnitDead(2,Elffin) //if bartre route and elffin dead, elfinless dialogue
 //else, continue as if we were on echidna route
 
 LABEL 1 //echidna route and elffin alive on bartre route

@@ -218,8 +218,7 @@ LoadCavsFromTheBackReinforcements:
 HardReinforcementEvent(CavReinforcements)
 
 RutgerWarning:
-CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BranchIfBossDead(1)
 CAM1 [3,8]
 FlashCursor(3,8,60)
 MUSC MUS_DeerOfThePlains
@@ -229,8 +228,7 @@ LABEL 1
 EndEvent
 
 RutgerAppears:
-CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BranchIfBossDead(1)
 CAM1 [4,9]
 STAL 16
 MUSC MUS_DeerOfThePlains

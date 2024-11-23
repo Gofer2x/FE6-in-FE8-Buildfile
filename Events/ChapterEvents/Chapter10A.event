@@ -163,8 +163,7 @@ GonzalezAppears:
 CAM1 [18,29]
 FlashCursor(18,29,60)
 CMOF
-CHECK_EVENTID BossDefeatFlag
-BNE 1 s0 sC
+BranchIfBossDead(1)
 PlayMusic(MUS_WildFrontier)
 Text(BG_Castle1,Ch10A_GonzalezAppears)
 LoadReinforcements(JustGonzalez)

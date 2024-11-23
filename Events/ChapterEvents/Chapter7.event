@@ -250,18 +250,17 @@ Text(BG_Outside,Ch7_Start2)
 GotoPrepScreen
 
 ZelotAndTrecAppear:
-MUSS MUS_BindingTies
+SwitchMusic(MUS_BindingTies)
 CAM1 [15,15]
 STAL 16
-LOAD1 0x1 ZelotTrec
-ENUN
+LoadReinforcements(ZelotTrec)
 STAL 16
 Text(Ch7_ZelotAndTrecAppear)
-MURE 0x5
+RestoreMusic
 EndEvent
 
 NoahAppears:
-MUSS MUS_BindingTies
+SwitchMusic(MUS_BindingTies)
 CAM1 [8,16]
 CMOF
 STAL 16
@@ -275,12 +274,11 @@ ENUN
 DISA Fir
 LOAD1 0x1 JustNoah
 ENUN
-MURE 0x5
+RestoreMusic
 EndEvent
 
 DebiasWarnsAboutReinforcements:
-CHECK_EVENTID BossDefeatFlag
-BNE 9 s0 sC
+BranchIfBossDead(9)
 CAM1 [5,1]
 FlashCursor(5,1,60)
 STAL 16
@@ -289,10 +287,8 @@ LABEL 9
 EndEvent
 
 LoadCavaliersIfBossAlive:
-CHECK_EVENTID BossDefeatFlag
-BNE 9 s0 sC
-LOAD1 0x1 SouthCavReinforcements
-ENUN
+BranchIfBossDead(9)
+LoadReinforcements(SouthCavReinforcements)
 LABEL 9
 EndEvent
 
@@ -305,8 +301,7 @@ FlagOFF(Ch7_ThroneEnemiesFlag)
 EndEvent
 
 LoadThroneReinforcementsIfBossAlive:
-CHECK_EVENTID BossDefeatFlag
-BNE 9 s0 sC
+BranchIfBossDead(9)
 LoadReinforcements(ThroneReinforcements)
 ENUN
 LABEL 9

@@ -154,7 +154,7 @@ ENUN
 Text(Ch2_Start1)
 MOVE 0x0 Ruud [17,4]
 ENUN
-MOVE 0x0 Melady [13,65535]
+MOVE 0x0 Melady [13,0]
 ENUN
 DISA Melady
 STAL 16
@@ -257,13 +257,11 @@ EndingScene:
 PlayMusic(MUS_Triumph)
 SetBackground(BG_Castle1)
 TextNoBGNoREMA(Ch2_End1)
-CHECK_ALIVE Elen
-BEQ 1 s0 sC
+BranchIfUnitDead(1,Elen)
 TextNoBGNoREMA(Ch2_End2IfElen)
 LABEL 1
 TextNoBGNoREMA(Ch2_End3)
-CHECK_ALIVE Elen
-BEQ 2 s0 sC
+BranchIfUnitDead(2,Elen)
 TextNoBGNoREMA(Ch2_End4IfElen)
 LABEL 2
 TextNoBGNoREMA(Ch2_End5)

@@ -240,15 +240,14 @@ RestoreMusic
 EndEvent
 
 CathAppearsIfAlive:
-CheckFlag(CathDeadOrRecruited)
-BNE 1 s0 sC
+BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LOAD1 0x1 CathThief
 ENUN
 CAM1 Cath
 Text(Ch8_CathAppears)
 RestoreMusic
-LABEL 1
+LABEL 9
 EndEvent
 
 LoadThroneRoomStairsEnemies1:
@@ -281,10 +280,9 @@ ConvoEvent(Ch8_BartheLilinaTalk)
 
 
 EndingScene:
-CHECK_ALIVE Lilina
-BEQ 1 s0 sC
-// lilina alive, go to ch8x
+BranchIfUnitDead(1,Lilina)
 
+// lilina alive, go to ch8x
 Text(BG_Castle2, Ch8_EndLilinaAlive)
 PlayMusic(MUS_FinalFarewell)
 STAL 64

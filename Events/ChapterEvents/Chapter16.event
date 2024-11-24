@@ -25,6 +25,9 @@
 //Ch16_NarcianVsZeissFlag 0x0
 //Ch16_NarcianVsCeciliaFlag 0x0
 //Ch16_NarcianVsPercevalFlag 0x0
+
+//Ch16_DouglasDeathFlag 0x20
+
 EventPointerTable(EVENTS_Ch16,ThisChapter)
 
 ALIGN 4
@@ -301,8 +304,21 @@ LoadStairsReinforcements:
 ReinforcementEvent(StairsReinforcements)
 
 EndingScene:
-//TODO this lol
+BranchIfFlagON(1,Ch16_DouglasDeathFlag)
+PlayMusic(MUS_Triumph)
+Text(BG_Castle2,Ch16_EndGaidenGot)
+STAL 64
 MoveToChapter(CHAPTER_Ch16x)
+GOTO 9
+
+LABEL 1 //gaiden fail
+PlayMusic(MUS_PrincessOfDestiny)
+Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
+STAL 64
+//TODO Route determination
+MoveToChapter(CHAPTER_Ch17A)
+
+LABEL 9
 ENDA
 
 SecretShopList:

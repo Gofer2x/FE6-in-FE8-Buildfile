@@ -631,7 +631,7 @@ and over all of Etruria.[AN]
 [OpenMidRight]Of course.[N]
 That is what I live for.[AN][X]
 
-## Ch16_End
+## Ch16_EndGaidenGot
 [OpenFarLeft][LoadMordred][OpenRight][LoadRoy]
 [OpenFarLeft]So it is you...[N]
 who rescued us.[AN]

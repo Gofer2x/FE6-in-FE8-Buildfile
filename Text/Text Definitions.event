@@ -1252,7 +1252,7 @@
 #define Ch16_LarumDouglasTalk 0x1229
 #define Ch16_ElffinDouglasTalk 0x122a
 #define Ch16_PercevalDouglasTalk 0x122b
-#define Ch16_End 0x122c
+#define Ch16_EndGaidenGot 0x122c
 #define Ch16x_Start1 0x122d
 #define Ch16x_Start2 0x122e
 #define Ch16x_EndDouglasAlive 0x122f

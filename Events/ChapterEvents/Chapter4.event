@@ -200,7 +200,7 @@ ENUN
 EndEvent
 
 PiratesAppear:
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 STAL 16
 QuieterMusic
 LoadReinforcements(PirateReinforcements)
@@ -221,7 +221,7 @@ RutgerWarning:
 BranchIfBossDead(1)
 CAM1 [3,8]
 FlashCursor(3,8,60)
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 STAL 16
 Text(BG_Castle1, Ch4_RutgerWarning)
 LABEL 1
@@ -231,7 +231,7 @@ RutgerAppears:
 BranchIfBossDead(1)
 CAM1 [4,9]
 STAL 16
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 CMOF
 LoadReinforcements(RutgerSquad)
 Text(Ch4_RutgerAppears)
@@ -273,7 +273,7 @@ HouseEvent(Ch4_ReaverHouse,BG_House)
 EndingScene:
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1, Ch4_End)
-MUSC MUS_PrincessOfDestiny
+PlayMusic(MUS_PrincessOfDestiny)
 STAL 64
 MoveToChapter(CHAPTER_Ch5)
 ENDA

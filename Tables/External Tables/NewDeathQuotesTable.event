@@ -11,85 +11,89 @@ POP
 
 ALIGN 4
 NewDeathQuotesTable:
-DeathQuote(Damas,CHAPTER_Ch1,2,DamasDeathQuote)
+DeathQuote(Damas,CHAPTER_Ch1,BossDefeatFlag,DamasDeathQuote)
 
-DeathQuote(Ruud,CHAPTER_Ch2,2,RuudDeathQuote)
+DeathQuote(Ruud,CHAPTER_Ch2,BossDefeatFlag,RuudDeathQuote)
 
-DeathQuote(Slater,CHAPTER_Ch3,2,SlaterDeathQuote)
+DeathQuote(Slater,CHAPTER_Ch3,BossDefeatFlag,SlaterDeathQuote)
 
-DeathQuote(Erik,CHAPTER_Ch4,2,ErikDeathQuote)
+DeathQuote(Erik,CHAPTER_Ch4,BossDefeatFlag,ErikDeathQuote)
 
-DeathQuote(Dory,CHAPTER_Ch5,2,DoryDeathQuote)
+DeathQuote(Dory,CHAPTER_Ch5,BossDefeatFlag,DoryDeathQuote)
 
-DeathQuote(Wagner,CHAPTER_Ch6,2,WagnerDeathQuote)
+DeathQuote(Wagner,CHAPTER_Ch6,BossDefeatFlag,WagnerDeathQuote)
 
-DeathQuote(Debias,CHAPTER_Ch7,2,DebiasDeathQuote)
+DeathQuote(Debias,CHAPTER_Ch7,BossDefeatFlag,DebiasDeathQuote)
 
-DeathQuote(Legance,CHAPTER_Ch8,2,LeganceDeathQuote)
+DeathQuote(Legance,CHAPTER_Ch8,BossDefeatFlag,LeganceDeathQuote)
 
-DeathQuote(Henning,CHAPTER_Ch8x,2,HenningDeathQuote)
+DeathQuote(Henning,CHAPTER_Ch8x,BossDefeatFlag,HenningDeathQuote)
 
-DeathQuote(Scott,CHAPTER_Ch9,2,ScottDeathQuote)
+DeathQuote(Scott,CHAPTER_Ch9,BossDefeatFlag,ScottDeathQuote)
 
-DeathQuote(Nord,CHAPTER_Ch10A,2,NordDeathQuote)
+DeathQuote(Nord,CHAPTER_Ch10A,BossDefeatFlag,NordDeathQuote)
 
-DeathQuote(Orlo,CHAPTER_Ch11A,2,OrloDeathQuote)
+DeathQuote(Orlo,CHAPTER_Ch11A,BossDefeatFlag,OrloDeathQuote)
 
-DeathQuote(Zinque,CHAPTER_Ch10B,2,ZinqueDeathQuote)
+DeathQuote(Zinque,CHAPTER_Ch10B,BossDefeatFlag,ZinqueDeathQuote)
 
-DeathQuote(Morgan,CHAPTER_Ch11B,2,MorganDeathQuote)
+DeathQuote(Morgan,CHAPTER_Ch11B,BossDefeatFlag,MorganDeathQuote)
 
-DeathQuote(Ein,CHAPTER_Ch12,2,EinDeathQuote)
+DeathQuote(Ein,CHAPTER_Ch12,BossDefeatFlag,EinDeathQuote)
 
-DeathQuote(Guerrero,CHAPTER_Ch12x,2,GuerreroDeathQuote)
+DeathQuote(Guerrero,CHAPTER_Ch12x,BossDefeatFlag,GuerreroDeathQuote)
 
-DeathQuote(Flaer,CHAPTER_Ch13,2,FlaerDeathQuote)
+DeathQuote(Flaer,CHAPTER_Ch13,BossDefeatFlag,FlaerDeathQuote)
 
-DeathQuote(Randy,CHAPTER_Ch14,2,RandyDeathQuote)
+DeathQuote(Randy,CHAPTER_Ch14,BossDefeatFlag,RandyDeathQuote)
 
-DeathQuote(Maggie,CHAPTER_Ch14,2,MaggieDeathQuote)
+DeathQuote(Maggie,CHAPTER_Ch14,BossDefeatFlag,MaggieDeathQuote)
 
-DeathQuote(Rose,CHAPTER_Ch14,2,RoseDeathQuote)
+DeathQuote(Rose,CHAPTER_Ch14,BossDefeatFlag,RoseDeathQuote)
 
-DeathQuote(Oates,CHAPTER_Ch14x,2,OatesDeathQuote)
+DeathQuote(Oates,CHAPTER_Ch14x,BossDefeatFlag,OatesDeathQuote)
 
-DeathQuote(Raith,CHAPTER_Ch15,2,RaithDeathQuote)
+DeathQuote(Raith,CHAPTER_Ch15,BossDefeatFlag,RaithDeathQuote)
 
-DeathQuote(Narcian,CHAPTER_Ch16,2,NarcianDeathQuote)
+DeathQuote(Narcian,CHAPTER_Ch16,BossDefeatFlag,NarcianDeathQuote)
 
-DeathQuote(Windham,CHAPTER_Ch16x,2,WindhamDeathQuote)
+DeathQuote(Windham,CHAPTER_Ch16x,BossDefeatFlag,WindhamDeathQuote)
 
-DeathQuote(Arcardo,CHAPTER_Ch17A,2,ArcardoDeathQuote)
+DeathQuote(Arcardo,CHAPTER_Ch17A,BossDefeatFlag,ArcardoDeathQuote)
 
-DeathQuote(Martel,CHAPTER_Ch18A,2,MartelDeathQuote)
+DeathQuote(Martel,CHAPTER_Ch18A,BossDefeatFlag,MartelDeathQuote)
 
-DeathQuote(Sigune,CHAPTER_Ch19A,2,SiguneDeathQuote)
+DeathQuote(Sigune,CHAPTER_Ch19A,BossDefeatFlag,SiguneDeathQuote)
 
-DeathQuote(Roartz,CHAPTER_Ch20A,2,RoartzDeathQuote)
+DeathQuote(Roartz,CHAPTER_Ch20A,BossDefeatFlag,RoartzDeathQuote)
 
-DeathQuote(Tick,CHAPTER_Ch20Ax,2,TickDeathQuote)
+DeathQuote(Tick,CHAPTER_Ch20Ax,BossDefeatFlag,TickDeathQuote)
 
-DeathQuote(Arcardo,CHAPTER_Ch17B,2,ArcardoDeathQuote)
+DeathQuote(Arcardo,CHAPTER_Ch17B,BossDefeatFlag,ArcardoDeathQuote)
 
-DeathQuote(Monke,CHAPTER_Ch18B,2,MonkeDeathQuote)
+DeathQuote(Monke,CHAPTER_Ch18B,BossDefeatFlag,MonkeDeathQuote)
 
-DeathQuote(Kel,CHAPTER_Ch19B,2,KelDeathQuote)
+DeathQuote(Kel,CHAPTER_Ch19B,BossDefeatFlag,KelDeathQuote)
 
-DeathQuote(Roartz,CHAPTER_Ch20B,2,RoartzDeathQuote)
+DeathQuote(Roartz,CHAPTER_Ch20B,BossDefeatFlag,RoartzDeathQuote)
 
-DeathQuote(Murdock,CHAPTER_Ch21,2,MurdockDeathQuote)
+DeathQuote(Murdock,CHAPTER_Ch21,BossDefeatFlag,MurdockDeathQuote)
 
 DeathQuote(Galle,CHAPTER_Ch21,0,GalleDeathQuote)
 
-DeathQuote(Peres,CHAPTER_Ch21x,2,PeresDeathQuote)
+DeathQuote(Peres,CHAPTER_Ch21x,BossDefeatFlag,PeresDeathQuote)
 
-DeathQuote(Zephiel,CHAPTER_Ch22,2,ZephielDeathQuote)
+DeathQuote(Zephiel,CHAPTER_Ch22,BossDefeatFlag,ZephielDeathQuote)
 
-DeathQuote(Brunnya,CHAPTER_Ch23,2,BrunnyaDeathQuote)
+DeathQuote(Brunnya,CHAPTER_Ch23,BossDefeatFlag,BrunnyaDeathQuote)
 
-DeathQuote(Jahn,CHAPTER_Ch23,2,JahnDeathQuote)
+DeathQuote(Jahn,CHAPTER_Ch23,BossDefeatFlag,JahnDeathQuote)
 
-DeathQuote(IdunnDragon,CHAPTER_Final,2,IdunnDeathQuote)
+DeathQuote(IdunnDragon,CHAPTER_Final,BossDefeatFlag,IdunnDeathQuote)
+
+
+
+DeathQuote(Douglas,CHAPTER_Ch16,Ch16_DouglasDeathFlag,DouglasDeathQuote)
 
 
 

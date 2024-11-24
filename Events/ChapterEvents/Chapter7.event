@@ -391,9 +391,9 @@ VillageEventItem(Ch7_HorseslayerVillage,BG_Village,Horseslayer)
 
 
 EndingScene:
-MUSC MUS_Triumph
+PlayMusic(MUS_Triumph)
 Text(BG_Castle2, Ch7_End)
-MUSC MUS_CogsOfFate
+PlayMusic(MUS_CogsOfFate)
 STAL 64
 MoveToChapter(CHAPTER_Ch8)
 ENDA

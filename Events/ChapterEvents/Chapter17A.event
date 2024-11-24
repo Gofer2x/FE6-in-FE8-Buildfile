@@ -32,6 +32,14 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,PathThroughTheOcean,6)
+TurnEventEnemy(0x0,LoadFortCavs,8,4)
+TurnEventEnemy(0x0,LoadPegKnights,10,6)
+TurnEventEnemy(0x0,LoadArcher,8,4)
+TurnEventEnemy(0x0,LoadHardFortCavs,12,4)
+TurnEventEnemy(0x0,LoadHardPegKnights,8,2)
+TurnEventEnemy(0x0,LoadHardArcher,12,4)
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -39,6 +47,11 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(
+Village(0x0,TinasStaffVillageVisit,2,12)
+House(0x0,SandbarHouseVisit,8,13)
+House(0x0,BoatHouseVisit,8,14)
+Armory(ArmoryList,6,8)
 END_MAIN
 
 MiscBasedEvents:
@@ -118,7 +131,7 @@ UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [28,6] 0x0 0x0 0x0 0x0 [Steel
 UNIT GenericEtruria Cavalier 0x0 Level(15,Enemy,1) [24,3] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
-CutsceneArcardo:
+JustArcardo:
 UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [29,3] 0x0 0x0 0x0 0x0 [SilverAxe, Javelin] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
 UNIT
 
@@ -139,14 +152,94 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Dignified)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FlagON(IlliaRouteFlag)
+DISA Arcardo
+FlashCursor(29,3,60)
+Text(BG_Castle2,Ch17A_Start1)
+LOAD1 0x1 CutsceneRoartz
+ENUN
+MOVE 0x0 Roartz [32,5]
+ENUN
+DISA Roartz
+STAL 16
+LOAD1 0x1 CutsceneGalleMudrock
+ENUN
+STAL 16
+Text(Ch17A_Start2)
+MOVE 0x0 Murdock [28,12]
+MOVE 0x0 Galle [28,11]
+ENUN
+DISA Murdock
+DISA Galle
+ENUN
+LOAD1 0x1 JustArcardo
+ENUN
+LOAD3 0x0 Units
+ENUN
+PlayMusic(MUS_WhenTheRushComes)
+LOAD 0x1 CutsceneYoder
+ENUN
+CAM1 Roy
+Text(BG_Outside,Ch17A_Start3)
+MOVE 0x0 Yoder [0,19]
+ENUN
+DISA Yoder
+GotoPrepScreen
+
+PathThroughTheOcean:
+CAM1 [10,8]
+PlaySound(SND_WaterTileGoingUp)
+TILECHANGE 0x2
+STAL 64
+BranchIfBossDead(9):
+CAM1 [29,3]
+Text(Ch17A_OceanPathAppears1)
+SwitchMusic(MUS_BeyondDistantSkies)
+CAM1 Roy
+Text(Ch17A_OceanPathAppears2)
+RestoreMusic
+LABEL 9
+EndEvent
+
+LoadFortCavs:
+ReinforcementEvent(CavReinforcements)
+
+LoadPegKnights:
+ReinforcementEvent(PegReinforcements)
+
+LoadArcher:
+ReinforcementEvent(ArcherReinforcements)
+
+LoadHardFortCavs:
+HardReinforcementEvent(CavReinforcements)
+
+LoadHardPegKnights:
+HardReinforcementEvent(PegReinforcements)
+
+LoadHardArcher:
+HardReinforcementEvent(ArcherReinforcements)
+
+TinasStaffVillageVisit:
+VillageEventItem(Ch17A_TinasStaffVillage,BG_Village,TinasStaff)
+
+SandbarHouseVisit:
+HouseEvent(Ch17A_SandbarHouse,BG_House)
+
+BoatHouseVisit:
+HouseEvent(Ch17A_BoatHouse,BG_House)
+
+
 
 EndingScene:
+PlayMusic(MUS_IntoTheShadowOfTriumph)
+Text(BG_Castle2,Ch17A_End)
+STAL 64
 MoveToChapter(CHAPTER_Ch18A)
 ENDA
+
+ArmoryList:
+SHLI SlimSword, IronSword, KillingEdge, IronBlade, SlimLance, IronLance, KillerLance, Javelin, IronAxe, KillerAxe, HandAxe, IronBow, KillerBow
 
 MESSAGE Events end at offset CURRENTOFFSET

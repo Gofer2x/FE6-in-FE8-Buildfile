@@ -10,6 +10,8 @@ also actually figure out the CMON and CMOFs and LOAD1s and LoadReinforcements()s
 
 supports
 
+fix ballistae? can't enter em
+
 actually implementing supports
 
 roy special death quote? give it a special event?

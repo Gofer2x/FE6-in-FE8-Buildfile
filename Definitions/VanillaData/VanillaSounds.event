@@ -71,7 +71,8 @@
 
 
 #define SND_VillageDestruction 0xAB
-
+#define SND_WaterTileGoingDown 0xBD
+#define SND_WaterTileGoingUp 0xBE
 
 
 

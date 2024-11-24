@@ -30,6 +30,12 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,LoadLeftBishop,8)
+TurnEventEnemy(0x0,LoadRightBishop,10)
+TurnEventEnemy(0x0,LoadLeftBishop,18)
+TurnEventEnemy(0x0,LoadRightBishop,20)
+TurnEventEnemy(0x0,EnableAggro,25)
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -117,13 +123,53 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+
+
+CAM1 Windham
+Text(BG_Temple2Yellow,Ch16x_Start1)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustDouglas
+ENUN
+PlayMusic(MUS_ScarsOfTheScouring)
+CAM1 Roy
+Text(BG_Temple2Yellow,Ch16x_Start2)
+GotoPrepScreen
+
+LoadLeftBishop:
+ReinforcmentEvent(NorthWestBishopReinforcements)
+
+LoadRightBishop:
+ReinforcmentEvent(NorthEastBishopReinforcements)
+
+EnableAggro:
+BranchIfBossDead(9)
+ChangeAIAllEnemy(AI1_InRange,AI2_Charge,GenericEtruria,0)
+LABEL 9
+EndEvent
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+BranchIfUnitDead(1,Douglas)
+Text(BG_Temple2Yellow,Ch16x_EndDouglasAlive)
+GOTO 2
+LABEL 1
+Text(BG_Temple2Yellow(Ch16x_EndDouglasDead1)
+LABEL 2
+PlayMusic(MUS_PrincessOfDestiny)
+Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
+
+BranchIfUnitDead(3,Douglas)
+PlayMusic(MUS_Triumph)
+Text(BG_Temple1,Ch16x_EndDouglasDead2)
+LABEL 3
+
+GiveItemToCharacter(Roy,Aureola)
+STAL 64
+
+//TODO Route determination
 MoveToChapter(CHAPTER_Ch17A)
 ENDA
 

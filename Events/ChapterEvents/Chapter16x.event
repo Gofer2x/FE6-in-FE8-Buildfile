@@ -43,6 +43,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(15,2)
 END_MAIN
 
 MiscBasedEvents:
@@ -139,10 +140,10 @@ Text(BG_Temple2Yellow,Ch16x_Start2)
 GotoPrepScreen
 
 LoadLeftBishop:
-ReinforcmentEvent(NorthWestBishopReinforcements)
+ReinforcementEvent(NorthWestBishopReinforcements)
 
 LoadRightBishop:
-ReinforcmentEvent(NorthEastBishopReinforcements)
+ReinforcementEvent(NorthEastBishopReinforcements)
 
 EnableAggro:
 BranchIfBossDead(9)
@@ -156,7 +157,7 @@ BranchIfUnitDead(1,Douglas)
 Text(BG_Temple2Yellow,Ch16x_EndDouglasAlive)
 GOTO 2
 LABEL 1
-Text(BG_Temple2Yellow(Ch16x_EndDouglasDead1)
+Text(BG_Temple2Yellow,Ch16x_EndDouglasDead1)
 LABEL 2
 PlayMusic(MUS_PrincessOfDestiny)
 Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)

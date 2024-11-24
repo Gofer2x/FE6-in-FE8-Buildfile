@@ -75,6 +75,7 @@ CharacterEvent(Ch11A_Ch10B_KleinTheaTalkFlag,EVENT_KleinRecruitsThea,Klein,Thea)
 END_MAIN
 
 LocationBasedEvents:
+Seize(20,2)
 Village(Ch10B_VillageFlag1,SleepVillageVisit,18,11)
 Village(Ch10B_VillageFlag2,OrionsBoltVillageVisit,18,16)
 Village(Ch10B_VillageFlag3,BarrierVillageVisit,8,20)
@@ -83,7 +84,6 @@ Village(Ch10B_VillageFlag5,MieuVillageVisit,4,8)
 Village(Ch10B_VillageFlag6,DragonshieldVillageVisit,5,13)
 Village(Ch10B_VillageFlag7,SwordreaverVillageVisit,17,21)
 Armory(ArmoryList,4,22)
-Seize(20,2)
 END_MAIN
 
 MiscBasedEvents:

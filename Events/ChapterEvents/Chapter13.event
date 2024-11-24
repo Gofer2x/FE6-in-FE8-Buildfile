@@ -56,6 +56,7 @@ CharacterEvent(Ch13_PercevalRecruitedFlag,ElffinRecruitsPerceval,Elffin,Perceval
 END_MAIN
 
 LocationBasedEvents:
+Seize(43,9)
 Armory(ArmoryList,41,5)
 Vendor(VendorList,43,4)
 Village(0x0,BodyRingVillageVisit,7,6)
@@ -63,7 +64,6 @@ Village(0x0,AlsSwordVillageVisit,38,18)
 House(0x0,ThreeGeneralsHouseVisit,7,6)
 House(0x0,CeciliaDefeatedHouseVisit,38,6)
 House(0x0,PercevalLoyalHouseVisit,41,19)
-Seize(43,9)
 END_MAIN
 
 MiscBasedEvents:

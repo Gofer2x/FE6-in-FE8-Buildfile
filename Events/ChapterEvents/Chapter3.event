@@ -52,13 +52,11 @@ CharacterEventBothWays(Ch3_ChadLughTalkFlag,ChadLughTalk,Chad,Lugh)
 END_MAIN
 
 LocationBasedEvents:
+Seize(19,4)
 Village(0x0,NorthVillageVisit,3,3)
 Village(0x0,SouthVillageVisit,19,19)
 Chest(Halberd,20,11)
 ChestMoney(3000,22,12)
-Seize(19,4)
-
-
 END_MAIN
 
 MiscBasedEvents:

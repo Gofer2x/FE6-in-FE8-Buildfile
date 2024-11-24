@@ -49,12 +49,12 @@ CharacterEvent(Ch15_LilinaGarretTalkFlag,LilinaRecruitsGarret,Lilina,Garret)
 END_MAIN
 
 LocationBasedEvents:
+Seize(16,9)
 Village(0x0,DivineVillageVisit,8,22)
 Village(0x0,HammerneVillageVisit,25,15)
 House(0x0,SavageBanditsHouseVist,19,23)
 House(0x0,GeneralsDividedHouseVist,23,19)
 Vendor(VendorList,26,17)
-Seize(16,9)
 END_MAIN
 
 MiscBasedEvents:

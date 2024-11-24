@@ -45,12 +45,12 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(2,14)
 Vendor(VendorList,7,2)
 Village(0x0,GantsLanceVillageVisit,10,2)
 House(0x0,FortsHouseVisit,11,20)
 House(0x0,AraphenDragonHouseVisit,12,20)
 House(0x0,BrigandsMountainsHouseVisit,8,19)
-Seize(2,14)
 END_MAIN
 
 MiscBasedEvents:

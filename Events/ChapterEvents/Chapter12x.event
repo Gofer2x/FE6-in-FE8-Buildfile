@@ -37,6 +37,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(25,1)
 Chest(Elixir,12,24)
 Chest(Antitoxin,3,17)
 Chest(Torch,7,8)
@@ -49,7 +50,6 @@ Chest(Antitoxin,26,24)
 Chest(ChestKey5Uses,1,3)
 Chest(Elixir,13,15)
 Chest(WhiteGem,13,0)
-Seize(25,1)
 END_MAIN
 
 MiscBasedEvents:

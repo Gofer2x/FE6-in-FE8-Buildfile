@@ -54,6 +54,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(27,3)
 Armory(ArmoryList,26,4)
 Vendor(VendorList,29,4)
 House(0x0,DelphiHouseVisit,26,6)

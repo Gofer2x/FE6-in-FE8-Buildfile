@@ -56,6 +56,7 @@ CharacterEvent(Ch12_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Seize(9,1)
 Chest(Flux,5,20)
 Chest(Aircalibur,5,23)
 Chest(BlueGem,27,4)
@@ -68,7 +69,6 @@ Door(9,7)
 Door(24,5)
 Door(26,10)
 Door(27,14)
-Seize(9,1)
 END_MAIN
 
 MiscBasedEvents:

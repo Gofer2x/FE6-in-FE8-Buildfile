@@ -64,6 +64,7 @@ CharacterEvent(Ch16_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Seize(14,3)
 Chest(Recover,30,11)
 Chest(Restore,30,9)
 Chest(BraveLance,30,6)
@@ -79,7 +80,6 @@ Door(5,15)
 Door(11,15)
 Door(12,15)
 Door(27,4)
-Seize(14,3)
 END_MAIN
 
 MiscBasedEvents:

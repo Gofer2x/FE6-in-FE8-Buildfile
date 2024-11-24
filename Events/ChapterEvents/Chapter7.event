@@ -89,6 +89,7 @@ CharacterEventBothWays(Ch7_ConvoFlagD,RoyAndZelotTalk,Roy,Zelot)
 END_MAIN
 
 LocationBasedEvents:
+Seize(5,1)
 Village(0x0,HeroCrestVillageVisit,19,21)
 Village(0x0,LongbowVillageVisit,1,18)
 Village(0x0,TorchStaffVillageVisit,1,24)
@@ -106,7 +107,6 @@ Armory(Armory2List,19,11)
 Door(4,8)
 Door(5,8)
 Door(17,3)
-Seize(5,1)
 END_MAIN
 
 MiscBasedEvents:

@@ -47,7 +47,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Seize(
+Seize(29,3)
 Village(0x0,TinasStaffVillageVisit,2,12)
 House(0x0,SandbarHouseVisit,8,13)
 House(0x0,BoatHouseVisit,8,14)
@@ -193,7 +193,7 @@ CAM1 [10,8]
 PlaySound(SND_WaterTileGoingUp)
 TILECHANGE 0x2
 STAL 64
-BranchIfBossDead(9):
+BranchIfBossDead(9)
 CAM1 [29,3]
 Text(Ch17A_OceanPathAppears1)
 SwitchMusic(MUS_BeyondDistantSkies)
@@ -240,6 +240,6 @@ MoveToChapter(CHAPTER_Ch18A)
 ENDA
 
 ArmoryList:
-SHLI SlimSword, IronSword, KillingEdge, IronBlade, SlimLance, IronLance, KillerLance, Javelin, IronAxe, KillerAxe, HandAxe, IronBow, KillerBow
+SHLI SlimSword IronSword KillingEdge IronBlade SlimLance IronLance KillerLance Javelin IronAxe KillerAxe HandAxe IronBow KillerBow
 
 MESSAGE Events end at offset CURRENTOFFSET

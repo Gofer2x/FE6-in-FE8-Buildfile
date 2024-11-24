@@ -72,6 +72,7 @@ CharacterEvent(Ch6_RoySueTalkFlag,RoyRecruitsSue,Roy,Sue)
 END_MAIN
 
 LocationBasedEvents:
+Seize(12,1)
 Chest(ShortBow,22,8)
 Chest(GoddessIcon,23,9)
 Chest(KillerAxe,22,10)
@@ -98,8 +99,6 @@ DoorWithEvent(NorthmostEastRoomEvent,19,6)
 
 //"door" x16 y4, northmost east room side entrance
 DoorWithEvent(NorthmostEastRoomEvent,16,4)
-
-Seize(12,1)
 END_MAIN
 
 MiscBasedEvents:

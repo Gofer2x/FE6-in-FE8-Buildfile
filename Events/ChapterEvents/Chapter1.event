@@ -42,11 +42,11 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(5,4)
 Village(0x0,SouthVillageVisit,12,19)
 House(0x0,DoomHouseVisit,12,15)
 House(0x0,TerrainHouseVisit,9,16)
 House(0x0,MoneyHouseVisit,9,19)
-Seize(5,4)
 END_MAIN
 
 MiscBasedEvents:

@@ -52,12 +52,13 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-CharacterEventBothWays(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy) //change once clarine ai is done
+CharacterEventBothWays(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy) //TODO change once clarine ai is done
 //CharacterEvent(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy)
 CharacterEvent(Ch4_ClarineRutgerTalkFlag,ClarineRecruitsRutger,Clarine,Rutger)
 END_MAIN
 
 LocationBasedEvents:
+Seize(3,8)
 Vendor(VendorList,13,15)
 Armory(ArmoryList,11,14)
 Village(0x0,DoorKeyVillageVisit,27,2)
@@ -66,7 +67,6 @@ Village(0x0,AngelicRobeVillageVisit,8,15)
 House(0x0,BanditWarningHouseVisit,24,1)
 House(0x0,LausNomadsHouseVisit,13,3)
 House(0x0,ReaverHouseVisit,9,5)
-Seize(3,8)
 END_MAIN
 
 MiscBasedEvents:

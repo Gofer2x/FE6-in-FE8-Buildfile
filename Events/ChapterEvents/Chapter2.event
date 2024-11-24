@@ -42,13 +42,13 @@ CharacterEventBothWays(Ch2_RoyDieckTalkFlag,RoyDieckTalk,Roy,Dieck)
 END_MAIN
 
 LocationBasedEvents:
+Seize(16,3)
 Village(0x0,VillageVisit,3,4)
 Vendor(VendorList,7,9)
 Armory(ArmoryList,6,1)
 House(0x0,FliersHouseVisit,6,7)
 House(0x0,WeaponTriangleHouseVisit,0,4)
 House(0x0,FortsHouseVisit,5,7)
-Seize(16,3)
 END_MAIN
 
 MiscBasedEvents:

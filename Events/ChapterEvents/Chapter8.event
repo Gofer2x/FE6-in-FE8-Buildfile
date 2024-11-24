@@ -72,6 +72,7 @@ CharacterEvent(Ch8_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Seize(6,17)
 Chest(ElysianWhip,0,9)
 Chest(SilverAxe,1,10)
 Chest(SecretBook,0,11)
@@ -84,7 +85,6 @@ Door(1,15)
 Door(6,9)
 Door(13,10)
 Door(18,12)
-Seize(6,17)
 END_MAIN
 
 MiscBasedEvents:

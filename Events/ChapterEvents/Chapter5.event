@@ -139,8 +139,10 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_DeerOfThePlains
+PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
+ENUN
+FadeFromBlack
 CAM1 [2,14]
 STAL 16
 Text(Ch5_Start1)
@@ -205,8 +207,14 @@ LoadHardEastFortsReinforcements:
 HardReinforcementEvent(EastFortBrigandReinforcements)
 
 EndingScene:
-Text(BG_Castle1, Ch5_End)
-MUSC MUS_CogsOfFate
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch5_End
+TEXTEND
+PlayMusic(MUS_CogsOfFate)
+TEXTCONT
+TEXTEND
+REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch6)
 ENDA

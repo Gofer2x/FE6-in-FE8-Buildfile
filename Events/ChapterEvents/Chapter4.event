@@ -152,7 +152,9 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Suspicious)
+FadeFromBlack
 LOAD 0x1 CutsceneNarcian
+ENUN
 STAL 16
 CAM1 [3,8]
 STAL 16
@@ -272,8 +274,14 @@ HouseEvent(Ch4_ReaverHouse,BG_House)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-Text(BG_Castle1, Ch4_End)
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch4_End
+TEXTEND
 PlayMusic(MUS_PrincessOfDestiny)
+TEXTCONT
+TEXTEND
+REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch5)
 ENDA

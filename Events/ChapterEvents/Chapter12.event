@@ -175,6 +175,7 @@ ALIGN 4
 BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
 LOAD1 0x1 Enemies
+FadeFromBlack
 
 FlagON(Ch12_LughRaighExtraTalkFlag)
 FlagON(Ch12_ChadRaighExtraTalkFlag)
@@ -183,7 +184,8 @@ BranchIfFlagON(1,CathRecruitedOrDeadFlag)
 FlagON(Ch12_RoyCathTalkFlag)
 LABEL 1
 
-LoadReinforcements(CutsceneFlaer)
+LOAD1 0x1 CutsceneFlaer
+ENUN
 CAM1 Flaer
 MOVE 0x0 Flaer [9,2]
 ENUN

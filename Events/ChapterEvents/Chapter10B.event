@@ -221,6 +221,7 @@ BeginningScene:
 PlayMusic(MUS_WildFrontier)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 CMOF
 FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 Text(BG_Castle1,Ch10B_Start1)
@@ -423,11 +424,11 @@ VillageEventItem(Ch10B_SwordreaverVillage,BG_Village,Swordreaver)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-FadeIn
+FadeIntoBlack
 ClearAll
 LOAD1 0x1 CutsceneElffin
 MOVE 0x0 Elffin [20,2]
-FadeOut
+FadeFromBlack
 ENUN
 DISA Elffin
 SetBackground(BG_Castle1)

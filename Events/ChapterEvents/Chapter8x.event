@@ -135,6 +135,7 @@ BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 Text(BG_LavaFort,Ch8x_Start1)
 PlayMusic(MUS_ScarsOfTheScouring)
 LOAD3 0x0 Units
@@ -154,7 +155,7 @@ LABEL 2
 GiveItemToCharacter(Roy,Durandal)
 STAL 64
 Text(BG_LavaFort,Ch8_Ch8x_WyvernsAtOstia)
-FadeIn
+FadeIntoBlack
 CALL OstiaNarcianCutscene
 ENDA
 

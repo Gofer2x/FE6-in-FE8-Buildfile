@@ -250,12 +250,13 @@ BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 DISA Orlo
 STAL 16
 FlashCursor(27,2,60)
 Text(BG_Castle1,Ch11A_Start1)
-LoadReinforcements(CutsceneMelady)
+LOAD1 0x1 CutsceneMelady
 ENUN
 MOVE 0x0 Melady [30,5]
 ENUN
@@ -421,11 +422,11 @@ VillageEventItem(Ch11A_AxereaverVillage,BG_Village,Axereaver)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-FadeIn
+FadeIntoBlack
 ClearAll
 LOAD1 0x1 CutsceneElffin
 MOVE 0x0 Elffin [27,2]
-FadeOut
+FadeFromBlack
 ENUN
 DISA Elffin
 SetBackground(BG_Castle1)

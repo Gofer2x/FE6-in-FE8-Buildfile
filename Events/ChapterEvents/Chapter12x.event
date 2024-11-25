@@ -111,9 +111,10 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Enemies
 ENUN
-PlayMusic(MUS_LegendaryInheritance)
+FadeFromBlack
 LOAD1 0x1 Units
 ENUN
 Text(BG_Cave,Ch12x_Start1)

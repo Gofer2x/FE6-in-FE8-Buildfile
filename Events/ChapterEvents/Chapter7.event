@@ -219,12 +219,10 @@ BEQ 1 s0 sC
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN
-FADU 60
-STAL 60
+PlayMusic(MUS_DeerOfThePlains)
+FadeFromBlack
 FlagON(Ch7_ConvoFlagD)
 FlagON(Ch7_ThroneEnemiesFlag)
-CMOF
-PlayMusic(MUS_DeerOfThePlains)
 MOVE 0x0 Debias [4,2]
 ENUN
 STAL 16
@@ -392,8 +390,14 @@ VillageEventItem(Ch7_HorseslayerVillage,BG_Village,Horseslayer)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-Text(BG_Castle2, Ch7_End)
+SetBackground(BG_Castle2)
+TEXTSTART
+TEXTSHOW Ch7_End
+TEXTEND
 PlayMusic(MUS_CogsOfFate)
+TEXTCONT
+TEXTEND
+REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch8)
 ENDA

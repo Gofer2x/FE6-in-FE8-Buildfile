@@ -184,8 +184,10 @@ BeginningScene:
 PlayMusic(MUS_AnUnexpectedCaller)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 DISA Morgan
-LoadReinforcements(Civilians)
+LOAD1 0x1 Civilians
+ENUN
 Text(Ch11B_Start1)
 CAM1 [2,25]
 FlashCursor(2,25,60)
@@ -195,8 +197,10 @@ ENUN
 MOVE 0x0 Arcardo [0,26]
 ENUN
 DISA Arcardo
-LoadReinforcements(CastleMercs)
-LoadReinforcements(JustMorgan)
+LOAD1 0x1 CastleMercs
+ENUN
+LOAD1 0x1 JustMorgan
+ENUN
 LOAD3 0x0 Units
 ENUN
 LOAD1 0x1 JustElffin

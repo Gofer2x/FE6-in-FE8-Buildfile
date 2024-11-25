@@ -41,8 +41,8 @@
 #define FadeOutMusic "MUSCMID 0x7FFF"
 #define PlaySound(sound) "SOUN sound"
 
-#define FadeOut "FADU 60"
-#define FadeIn "FADI 60"
+#define FadeFromBlack "FADU 60"
+#define FadeIntoBlack "FADI 60"
 
 #define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
 

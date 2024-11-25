@@ -145,8 +145,8 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
+FadeFromBlack
 CAM1 [18,0]
-CMOF
 LOAD1 0x1 JustRuud
 ENUN
 LOAD1 0x1 CutsceneMelady
@@ -169,7 +169,6 @@ MoveByCoords(0x0,16,3,17,11)
 ENUN
 MOVE 0x0 Ruud [16,3]
 ENUN
-CMOF
 LOAD1 0x1 RightEnemies
 ENUN
 FadeOutMusic
@@ -192,8 +191,13 @@ MOVE 0x0 Elen [4,11]
 ENUN
 MOVE 0x0 Elen [3,10]
 ENUN
-Text(Ch2_Start4)
+TEXTSTART
+TEXTSHOW Ch2_Start4
+TEXTEND
 PlayMusic(MUS_AnUnexpectedCaller)
+TEXTCONT
+TEXTEND
+REMA
 LOAD1 0x1 ElenChaserSoldier
 ENUN
 STAL 16

@@ -144,9 +144,10 @@ UNIT
 ALIGN 4
 
 BeginningScene:
+PlayMusic(MUS_WildFrontier)
 LOAD1 0x1 Enemies
 ENUN
-PlayMusic(MUS_WildFrontier)
+FadeFromBlack
 CAM1 [18,29]
 FlashCursor(18,29,60)
 CMOF

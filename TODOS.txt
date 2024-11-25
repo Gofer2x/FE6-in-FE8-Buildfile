@@ -5,6 +5,7 @@ chapters
 escape points
 
 actually figure out the whole chapter fade thing and what you do at the start
+well, if you do fade from black then include a fadein in teh starting event. else glitchy will happens
 
 also actually figure out the CMON and CMOFs and LOAD1s and LoadReinforcements()s
 

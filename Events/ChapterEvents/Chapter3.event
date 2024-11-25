@@ -145,26 +145,36 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-MUSC MUS_TheKingOfBern
+PlayMusic(MUS_TheKingOfBern)
 LOAD1 0x0 Enemies
+ENUN
+FadeFromBlack
 CAM1 [19,2]
 STAL 16
 Text(BG_Castle1, Ch3_Start1)
-CMOF
+
 LOAD3 0x0 Units
 ENUN
 MUSC MUS_JoinUs
 CAM1 Roy
 STAL 16
-Text(BG_Outside, Ch3_Start2)
-MUSC MUS_WhenTheRushComes
+
+SetBackground(BG_Outside)
+TEXTSTART
+TEXTSHOW Ch3_Start2
+TEXTEND
+PlayMusic(MUS_WhenTheRushComes)
+TEXTCONT
+TEXTEND
+REMA
+//TODO rema doesn't remove the bg here?? idk man
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy
 EndEvent
 
 BishopKidsEvent:
-MUSC MUS_BeyondDistantSkies
+PlayMusic(MUS_BeyondDistantSkies)
 CAM1 [0,0]
 CMOF
 FlashCursor(3,3)
@@ -175,10 +185,10 @@ LOAD1 0x1 CutsceneBishop
 ENUN
 LOAD1 0x1 CutsceneKids
 ENUN
-MOVE 0x0 Orlo [5,65535]
-MOVE 0x0 Cath [5,65535]
-MOVE 0x0 Raigh [5,65535]
-MOVE 0x0 Lilina [5,65535]
+MOVE 0x0 Orlo [5,0]
+MOVE 0x0 Cath [5,0]
+MOVE 0x0 Raigh [5,0]
+MOVE 0x0 Lilina [5,0]
 ENUN
 STAL 64
 EndEvent
@@ -259,7 +269,7 @@ ChadLughTalk:
 ConvoEvent(Ch3_ChadLughTalk)
 
 EndingScene:
-MUSC MUS_IntoTheShadowOfTriumph
+PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle1, Ch3_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch4)

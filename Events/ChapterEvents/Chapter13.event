@@ -202,6 +202,7 @@ BeginningScene:
 PlayMusic(MUS_Suspicious)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 CAM1 Flaer
 STAL 16
 CMOF
@@ -268,7 +269,18 @@ ENUN
 STAL 16
 LOAD1 0x1 CutsceneGuinivere
 ENUN
-Text(Ch13_ZephielScoldsGuinivere)
+
+TEXTSTART
+TEXTSHOW Ch13_ZephielScoldsGuinivere
+TEXTEND
+//idk what some asm happens here man
+TEXTCONT
+TEXTEND
+//and again
+TEXTCONT
+TEXTEND
+REMA
+
 STAL 60
 DISA Zephiel
 ENUN
@@ -425,7 +437,14 @@ HouseEvent(Ch13_PercevalLoyalHouse,BG_House)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-Text(BG_Castle1,Ch13_End)
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch13_End
+TEXTEND
+PlayMusic(MUS_DistantUtopia)
+TEXTCONT
+TEXTEND
+REMA
 
 BranchIfFlagOFF(1,Ch13_PercevalRecruitedFlag)
 BranchIfUnitDead(1,Perceval)

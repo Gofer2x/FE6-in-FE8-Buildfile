@@ -53,7 +53,7 @@ LOMA CHAPTER_Ch7
 LOAD3 0x0 CutsceneRoy
 LOAD1 0x1 CutsceneNarcianSquad
 MOVE 0x0 Roy [6,17]
-FadeOut
+FadeFromBlack
 STAL 60
 CAM1 Narcian
 PlayMusic(MUS_Suspicious)

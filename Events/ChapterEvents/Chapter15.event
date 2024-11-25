@@ -156,6 +156,7 @@ BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
+FadeFromBlack
 FlagON(Ch15_PercevalRecruitmentFlag)
 FlagON(Ch15_RoyPercevalTalkFlag)
 CMOF
@@ -259,7 +260,15 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-Text(BG_Castle1,Ch15_End)
+
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch15_End
+TEXTEND
+PlayMusic(MUS_DistantUtopia)
+TEXTCONT
+TEXTEND
+REMA
 
 BranchIfFlagOFF(1,Ch15_PercevalRecruitmentFlag)
 BranchIfUnitDead(1,Perceval)

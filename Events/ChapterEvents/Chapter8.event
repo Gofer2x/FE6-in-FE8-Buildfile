@@ -197,9 +197,11 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Enemies
-//weird asm
 PlayMusic(MUS_DeerOfThePlains)
+LOAD1 0x1 Enemies
+ENUN
+FadeFromBlack
+//weird asm
 MoveByCoords(0, 6, 19, 6, 18)
 ENUN
 Text(Ch8_Start1)
@@ -283,8 +285,14 @@ EndingScene:
 BranchIfUnitDead(1,Lilina)
 
 // lilina alive, go to ch8x
-Text(BG_Castle2, Ch8_EndLilinaAlive)
+SetBackground(BG_Castle2)
+TEXTSTART
+TEXTSHOW Ch8_EndLilinaAlive
+TEXTEND
 PlayMusic(MUS_FinalFarewell)
+TEXTCONT
+TEXTEND
+REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch8x)
 GOTO 9
@@ -292,7 +300,7 @@ GOTO 9
 LABEL 1 //lilina dead, go to ch9
 Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
 //TODO some sort of roy movement here.. maybe later
-FadeIn
+FadeIntoBlack
 CALL OstiaNarcianCutscene
 LABEL 9
 ENDA

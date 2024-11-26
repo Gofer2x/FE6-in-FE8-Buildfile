@@ -1,11 +1,3 @@
-#include "IDs/ChapterIDs.event"
-#include "IDs/ItemIDs.event"
-#include "IDs/ClassIDs.event"
-#include "IDs/CharacterIDs.event"
-#include "IDs/ChNumbersIDs.event"
-#include "IDs/PListIDs.event"
-#include "IDs/EventFlags.event"
-
 #include "VanillaData/VanillaClassCards.event"
 #include "VanillaData/VanillaMovementDataPointers.event"
 //#include "VanillaData/VanillaClassAnimationTables.event"
@@ -19,6 +11,15 @@
 #include "VanillaData/VanillaStatBoosts.event"
 //#include "VanillaData/VanillaEffectivenessTables.event"
 #include "VanillaData/VanillaSounds.event"
+
+#include "IDs/ChapterIDs.event"
+#include "IDs/ItemIDs.event"
+#include "IDs/ClassIDs.event"
+#include "IDs/CharacterIDs.event"
+#include "IDs/ChNumbersIDs.event"
+#include "IDs/PListIDs.event"
+#include "IDs/EventFlags.event"
+#include "IDs/Sounds.event"
 
 #include "NewWeaponRanks.event"
 #include "ChapterTextStuffs.event"

@@ -78,6 +78,9 @@ Tutorial:
 END_MAIN
 
 TrapData:
+NormalBallista(19,20)
+NormalBallista(20,16)
+NormalBallista(35,4)
 ENDTRAP
 
 ALIGN 4
@@ -273,10 +276,10 @@ ENUN
 TEXTSTART
 TEXTSHOW Ch13_ZephielScoldsGuinivere
 TEXTEND
-//idk what some asm happens here man
+//TODO idk what some asm happens here man
 TEXTCONT
 TEXTEND
-//and again
+//TODO and again
 TEXTCONT
 TEXTEND
 REMA

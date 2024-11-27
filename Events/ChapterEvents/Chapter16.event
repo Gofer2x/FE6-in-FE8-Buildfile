@@ -20,11 +20,11 @@
 #define Ch16_ElffinDouglasTalkFlag 0xC
 #define Ch16_HughRecruitmentFlag 0xD
 
-//Ch16_NarcianVsMeladyFlag 0x0
-//Ch16_NarcianVsClarineFlag 0x0
-//Ch16_NarcianVsZeissFlag 0x0
-//Ch16_NarcianVsCeciliaFlag 0x0
-//Ch16_NarcianVsPercevalFlag 0x0
+//Ch16_NarcianVsMeladyFlag 0x1B
+//Ch16_NarcianVsClarineFlag 0x1C
+//Ch16_NarcianVsZeissFlag 0x1D
+//Ch16_NarcianVsCeciliaFlag 0x1E
+//Ch16_NarcianVsPercevalFlag 0x1F
 
 //Ch16_DouglasDeathFlag 0x20
 

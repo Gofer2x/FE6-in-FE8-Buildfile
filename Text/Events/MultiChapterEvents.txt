@@ -966,7 +966,7 @@ not harm any civilians...[AN]
 I promise you.[AN]
 [OpenFarLeft][FastPrint][ToggleSmile]...Thank you.[AN][X]
 
-## Ch20A_Ch20Ax_EndRoyAndGuinivereTalk1
+## Ch20A_Ch20Ax_EndRoyAndGuinivereTalk
 [OpenMidLeft][LoadGuinivere][OpenMidRight][LoadRoy]
 [OpenMidRight][ToggleSmile]Princess Guinivere, the attack[N]
 on Bern will commence soon.[AN]
@@ -1029,9 +1029,7 @@ Zephiel feigned death.[AN]
 At his funeral service, our father leaned[N]
 over the coffin to view Zephiel's body.[AN]
 It was at that moment that Zephiel sprung[N]
-from the coffin and...sword in hand...[AN][X]
-
-## Ch20A_Ch20Ax_EndRoyAndGuinivereTalk2
+from the coffin and...sword in hand...[AN]
 [OpenMidRight][NormalPrint][ToggleMouthMove]......[AN]
 [OpenMidLeft][CloseSpeechFast][ToggleMouthMove][ToggleSmile]I was but a child then, so naturally[N]
 I could not understand what was going on.[AN]

@@ -12,8 +12,11 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Ch19A_SiguneVsShannaFlag 0x0
-//Ch19A_SiguneVsTheaFlag 0x0
+
+//Ch19A_SiguneVsShannaFlag 0x1E
+//Ch19A_SiguneVsTheaFlag 0x1F
+
+
 
 EventPointerTable(EVENTS_Ch19A,ThisChapter)
 
@@ -32,6 +35,9 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,ReinforcementsComingIfBossAlive,13)
+TurnEventEnemy(0x0,LoadBrigands,11,6)
+TurnEventEnemy(0x0,LoadPegsIfBossAlive,16,5)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -39,6 +45,14 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(28,3)
+Village(0x0,AircaliburVillageVisit,10,14)
+Village(0x0,EnergyRingVillageVisit,29,14)
+House(0x0,IvoryDevilHouseVisit,1,19)
+House(0x0,PegasiBallistaeSiguneHouseVisit,3,17)
+House(0x0,BallistaRangeHouseVisit,1,14)
+House(0x0,EdessaHouseVisit,3,11)
+Vendor(VendorList,4,18)
 END_MAIN
 
 MiscBasedEvents:
@@ -52,6 +66,12 @@ Tutorial:
 END_MAIN
 
 TrapData:
+IronBallista(4,2)
+IronBallista(23,4)
+IronBallista(29,17)
+NormalBallista(13,19)
+NormalBallista(13,19)
+NormalBallista(22,13)
 ENDTRAP
 
 ALIGN 4
@@ -131,14 +151,83 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+FlashCursor(Sigune,60)
+Text(BG_Castle1,Ch19A_Start1)
+PlayMusic(MUS_WhenTheRushComes)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustNiime
+ENUN
+CAM1 Roy
+STAL 16
+MOVE 0x0 Niime [2,20]
+ENUN
+TEXTSTART
+TEXTSHOW Ch19A_Start2
+TEXTEND
+PlayMusic(MUS_Talking)
+TEXTCONT
+TEXTEND
+REMA
+GotoPrepScreen
+
+AircaliburVillageVisit:
+VillageEventItem(Ch19A_AircaliburVillage,BG_SnowVillage,Aircalibur)
+
+EnergyRingVillageVisit:
+VillageEventItem(Ch19A_EnergyRingVillage,BG_SnowVillage,EnergyRing)
+
+IvoryDevilHouseVisit:
+HouseEvent(Ch19A_IvoryDevilHouse,BG_SnowVillage)
+
+PegasiBallistaeSiguneHouseVisit:
+HouseEvent(Ch19A_PegasiBallistaeSiguneHouse,BG_SnowVillage)
+
+BallistaRangeHouseVisit:
+HouseEvent(Ch19A_BallistaRangeHouse,BG_SnowVillage)
+
+EdessaHouseVisit:
+HouseEvent(Ch19A_EdessaHouse,BG_SnowVillage)
+
+ReinforcementsComingIfBossAlive:
+BranchIfBossDead(9)
+CAM1 Sigune
+FlashCursor(Sigune,60)
+Text(BG_Castle1,Ch19A_ReinforcementsComing)
+LABEL 9
+EndEvent
+
+LoadBrigands:
+ReinforcementEvent(BrigandReinforcements)
+
+LoadPegsIfBossAlive:
+BranchIfBossDead(9)
+LoadReinforcements(PegReinforcements)
+LABEL 9
+EndEvent
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch19A_End
+TEXTEND
+//TODO idk what some asm happens here man
+TEXTCONT
+TEXTEND
+//TODO and again
+TEXTCONT
+TEXTEND
+REMA
+STAL 64
 MoveToChapter(CHAPTER_Ch20A)
 ENDA
+
+VendorList:
+SHLI Thunder Lightning Flux Heal Mend Physic Restore DoorKey ChestKey5Uses
 
 MESSAGE Events end at offset CURRENTOFFSET

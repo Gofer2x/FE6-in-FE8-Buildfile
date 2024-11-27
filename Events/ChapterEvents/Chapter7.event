@@ -38,7 +38,7 @@
 #define Ch7_ConvoFlagD 0xA
 #define Ch7_ThroneEnemiesFlag 0xB
 #define Ch7_ThroneEnemiesZoneFlag 0xC
-//Ch7_BorsVsDebiasFlag 0xD
+//Ch7_BorsVsDebiasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch7,ThisChapter)
 

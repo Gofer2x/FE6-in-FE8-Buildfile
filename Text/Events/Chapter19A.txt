@@ -132,27 +132,6 @@ your inner strength.[AN]
 ...Please bring peace[N]
 back to this land.[AN][X]
 
-## Ch19A_EdessaHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49]
-Bern's headquarters in Ilia?[AN]
-Um, I think it was Edarza...[N]
-Edetta... Edessa! That's it.[AN]
-It's to the northeast.[AN][X]
-
-## Ch19A_BallistaRangeHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
-You know about the ballista[N]
-to the east, right?[AN]
-We're out of its range here,[N]
-but the shop over there isn't...[AN][X]
-
-## Ch19A_PegasiBallistaeSiguneHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager57]
-[ToggleSmile]Pegasus knights and ballistae...[N]
-Captain Sigune is after you.[AN]
-She's hiding in the blizzard,[N]
-waiting to strike...[AN][X]
-
 ## Ch19A_IvoryDevilHouse
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager53]
 You go up against Ivory Devil[N]
@@ -164,6 +143,27 @@ and then they will suddenly appear[N]
 out of the swirling snow.[AN]
 But when that happens it's too[N]
 late... You're already dead...[AN][X]
+
+## Ch19A_PegasiBallistaeSiguneHouse
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager57]
+[ToggleSmile]Pegasus knights and ballistae...[N]
+Captain Sigune is after you.[AN]
+She's hiding in the blizzard,[N]
+waiting to strike...[AN][X]
+
+## Ch19A_BallistaRangeHouse
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager51]
+You know about the ballista[N]
+to the east, right?[AN]
+We're out of its range here,[N]
+but the shop over there isn't...[AN][X]
+
+## Ch19A_EdessaHouse
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager49]
+Bern's headquarters in Ilia?[AN]
+Um, I think it was Edarza...[N]
+Edetta... Edessa! That's it.[AN]
+It's to the northeast.[AN][X]
 
 ## Ch19A_End
 [OpenMidRight][LoadRoy][OpenMidLeft][LoadMerlinus]

@@ -13,6 +13,9 @@
 // 0x5
 //RoutFlag 0x6
 
+
+//
+
 EventPointerTable(EVENTS_Ch18A,ThisChapter)
 
 ALIGN 4
@@ -55,7 +58,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-
+Seize(19,3)
 Village(0x0,GoddessIconVillageVisit,2,4)
 Village(0x0,GuidingRingVillageVisit,20,9)
 Village(0x0,SecretBookVillageVisit,18,24)
@@ -63,7 +66,6 @@ House(0x0,MartelSecretWeaponHouseVisit,3,22)
 House(0x0,FrozenRiversHouseVisit,8,23)
 House(0x0,SwordSaintHouseVisit,4,20)
 House(0x0,OldLadyAkaNiimeHouseVisit,7,17)
-Seize(19,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -77,6 +79,8 @@ Tutorial:
 END_MAIN
 
 TrapData:
+NormalBallista(17,17)
+NormalBallista(5,14)
 ENDTRAP
 
 ALIGN 4

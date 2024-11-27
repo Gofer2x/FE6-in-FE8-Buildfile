@@ -28,8 +28,8 @@
 #define Ch11A_VillageFlag6 0x13
 #define Ch11A_VillageFlag7 0x14
 #define Ch11A_VillageFlag8 0x15
-//Ch11A_OrloVsElenFlag 0x16
-//Ch11A_SaulVsOrloFlag 0x17
+//Ch11A_OrloVsElenFlag 0x1E
+//Ch11A_SaulVsOrloFlag 0x1F
 
 //Ch11A_Ch10B_GenericArcherKleinDeathFlag 0x20
 //Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21

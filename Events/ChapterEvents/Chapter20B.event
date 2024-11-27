@@ -12,7 +12,7 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Ch20B_RoartzVsDouglasFlag 0x0
+//Ch20B_RoartzVsDouglasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch20B,ThisChapter)
 

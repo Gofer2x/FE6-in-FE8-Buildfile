@@ -12,8 +12,8 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Ch23_BrunnyaVsMeladyFlag 0x0
-//Ch23_BrunnyaVsZeissFlag 0x0
+//Ch23_BrunnyaVsMeladyFlag 0x1E
+//Ch23_BrunnyaVsZeissFlag 0x1F
 
 EventPointerTable(EVENTS_Ch23,ThisChapter)
 

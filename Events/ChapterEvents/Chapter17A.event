@@ -12,8 +12,8 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Ch17A_ArcardoVsKleinFlag 0x0
-//Ch17A_ArcardoVsDouglasFlag 0x0
+//Ch17A_ArcardoVsKleinFlag 0x1E
+//Ch17A_ArcardoVsDouglasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch17A,ThisChapter)
 
@@ -65,6 +65,8 @@ Tutorial:
 END_MAIN
 
 TrapData:
+NormalBallista(17,14)
+NormalBallista(21,17)
 ENDTRAP
 
 ALIGN 4

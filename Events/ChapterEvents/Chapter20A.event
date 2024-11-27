@@ -12,7 +12,15 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Ch20A_RoartzVsDouglasFlag 0x0
+#define Ch20A_RoyCathTalkFlag 0x7
+#define Ch20A_JunoRecruitmentFlag 0x8
+#define Ch20A_ShannaJunoExtraTalkFlag 0x9
+#define Ch20A_TheaJunoExtraTalkFlag 0xA
+#define Ch20A_ZelotJunoExtraTalkFlag 0xB
+#define Ch20A_InsideAggroFlag 0xB
+#define Ch20A_GaidenGoneFlag 0xC
+
+//Ch20A_RoartzVsDouglasFlag 0x1F
 //Ch20A_GenericCitizenIlliaDeath 0x20
 
 EventPointerTable(EVENTS_Ch20A,ThisChapter)
@@ -32,16 +40,47 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,CathAndThievesAppear,10)
+TurnEventEnemy(0x0,GaidenGone,26)
+TurnEventEnemy(0x0,LoadMercs,15,4)
+TurnEventEnemy(0x0,LoadFighters,11,4)
+TurnEventEnemy(0x0,LoadHardMercs,11,4)
+TurnEventEnemy(0x0,LoadHardFighters,15,4)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch20A_JunoRecruitmentFlag,ShannaRecruitsJuno,Shanna,Juno)
+CharacterEvent(Ch20A_JunoRecruitmentFlag,TheaRecruitsJuno,Thea,Juno)
+CharacterEvent(Ch20A_JunoRecruitmentFlag,ZelotRecruitsJuno,Zelot,Juno)
+CharacterEventBothWays(Ch20A_ShannaJunoExtraTalkFlag,ShannaJunoExtraTalk,Shanna,Juno)
+CharacterEventBothWays(Ch20A_TheaJunoExtraTalkFlag,TheaJunoExtraTalk,Thea,Juno)
+CharacterEventBothWays(Ch20A_ZelotJunoExtraTalkFlag,ZelotJunoExtraTalk,Zelot,Juno)
+
+
 END_MAIN
 
 LocationBasedEvents:
+Seize(3,19)
+Armory(ArmoryList,8,0)
+Vendor(VendorList,5,1)
+Chest(Speedwings,2,10)
+Chest(Axereaver,3,11)
+Chest(Longbow,4,11)
+Chest(WoDao,5,10)
+Chest(Purge,16,18)
+Chest(Sleep,17,16)
+Chest(Nosferatu,15,16)
+Chest(Wyrmslayer,12,16)
+Door(7,11)
+Door(7,17)
+Door(9,8)
+Door(18,20)
+Door(22,18)
 END_MAIN
 
 MiscBasedEvents:
+AreaEvent(Ch20A_InsideAggroFlag,InsideAggroEvent,8,10,18,14)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -52,6 +91,9 @@ Tutorial:
 END_MAIN
 
 TrapData:
+NormalBallista(3,15)
+NormalBallista(28,12)
+NormalBallista(17,25)
 ENDTRAP
 
 ALIGN 4
@@ -138,14 +180,161 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+FlagON(Ch20A_ShannaJunoExtraTalkFlag)
+FlagON(Ch20A_TheaJunoExtraTalkFlag)
+FlagON(Ch20A_ZelotJunoExtraTalkFlag)
+
+BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+FlagON(Ch12_RoyCathTalkFlag)
+LABEL 1
+FlashCursor(Roartz,60)
+Text(BG_Castle1,Ch20A_Start1)
+CAM1 Juno
+FlashCursor(Juno, 60)
+PlayMusic(MUS_FinalFarewell)
+Text(BG_Dungeon,Ch20A_Start2)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+PlayMusic(MUS_PrincessOfDestiny)
+Text(BG_SnowOutside,Ch20A_Start3)
+PlayMusic(MUS_BeholdingNaturesBeauty)
+GotoPrepScreen
+
+InsideAggroEvent:
+PlayerInRange
+SetAI(21,15,AI1_InRange,AI2_Charge)
+SetAI(22,12,AI1_InRange,AI2_Charge)
+SetAI(22,14,AI1_InRange,AI2_Charge)
+SetAI(22,16,AI1_InRange,AI2_Charge)
+SetAI(20,11,AI1_InRange,AI2_Charge)
+SetAI(23,11,AI1_InRange,AI2_Charge)
+EndEvent
+
+ShannaRecruitsJuno:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20A_ShannaRecruitsJuno)
+BecomeAlly(Juno)
+RestoreMusic
+FlagOFF(Ch20A_TheaJunoExtraTalkFlag)
+FlagOFF(Ch20A_ZelotJunoExtraTalkFlag)
+EndEvent
+
+TheaRecruitsJuno:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20A_TheaRecruitsJuno)
+BecomeAlly(Juno)
+RestoreMusic
+FlagOFF(Ch20A_ShannaJunoExtraTalkFlag)
+FlagOFF(Ch20A_ZelotJunoExtraTalkFlag)
+EndEvent
+
+ZelotRecruitsJuno:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20A_ZelotRecruitsJuno)
+BecomeAlly(Juno)
+RestoreMusic
+FlagOFF(Ch20A_ShannaJunoExtraTalkFlag)
+FlagOFF(Ch20A_TheaJunoExtraTalkFlag)
+EndEvent
+
+ShannaJunoExtraTalk:
+QuieterMusic
+Text(Ch20A_ShannaJunoTalk)
+UnquieterMusic
+EndEvent
+
+TheaJunoExtraTalk:
+QuieterMusic
+Text(Ch20A_TheaJunoTalk)
+UnquieterMusic
+EndEvent
+
+ZelotJunoExtraTalk:
+QuieterMusic
+Text(Ch20A_ZelotJunoTalk)
+UnquieterMusic
+EndEvent
+
+CathAndThievesAppear:
+BranchIfFlagON(3,CathRecruitedOrDeadFlag)
+SwitchMusic(MUS_GoingMyWay)
+LoadReinforcements(JustCath)
+Text(Ch20A_CathAppears)
+RestoreMusic
+LABEL 3
+LoadReinforcements(ThiefReinforcements)
+EndEvent
+
+GaidenGone:
+FlagON(Ch20A_GaidenGoneFlag)
+//TODO weather snow
+CAM1 Roy
+FlashCursor(Roy,60)
+QuieterMusic
+Text(Ch20A_GaidenGone)
+UnquieterMusic
+EndEvent
+
+LoadMercs:
+ReinforcementEvent(MercReinforcements)
+
+LoadFighters:
+ReinforcementEvent(FighterReinforcements)
+
+LoadHardMercs:
+HardReinforcementEvent(MercReinforcements)
+
+LoadHardFighters:
+HardReinforcementEvent(FighterReinforcements)
 
 EndingScene:
+BranchIfUnitDead(5,Juno)
+BranchIfUnitDead(5,Zelot)
+BranchIfFlagON(5,Ch20A_GaidenGoneFlag)
+
+//gaiden epic success
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch20A_EndGaidenGot)
+
+BranchIfFlagON(3,Ch20A_GenericCitizenIlliaDeath)
+Text(BG_Castle1,Ch20A_EndAngelicRobe)
+GiveItemToCharacter(Roy,AngelicRobe)
+LABEL 3
+STAL 64
 MoveToChapter(CHAPTER_Ch20Ax)
+GOTO 9
+
+LABEL 5 //gaiden epic fail
+PlayMusic(MUS_PrincessOfDestiny)
+
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch20A_Ch20Ax_EndRoyAndGuinivereTalk
+TEXTEND
+PlayMusic(MUS_MainThemeArrangement)
+TEXTCONT
+TEXTEND
+REMA
+
+BranchIfFlagON(7,Ch20A_GenericCitizenIlliaDeath)
+Text(BG_Castle1,Ch20A_EndAngelicRobe)
+GiveItemToCharacter(Roy,AngelicRobe)
+LABEL 7
+STAL 64
+MoveToChapter(CHAPTER_Ch21)
+LABEL 9
 ENDA
+
+ArmoryList:
+SHLI IronSword SteelSword SilverSword IronBlade SteelBlade IronLance SteelLance SilverLance IronAxe SteelAxe SilverAxe Hammer IronBow SteelBow SilverBow
+
+VendorList:
+SHLI Fire Thunder Elfire Aircalibur Lightning Divine Flux Vulnerary PureWater
 
 MESSAGE Events end at offset CURRENTOFFSET

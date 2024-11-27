@@ -241,13 +241,15 @@ LOAD1 0x1 SaulDorothy
 ENUN
 CAM1 Roy
 CMOF
-MOVE 0x0 Wagner [13,10] //wagner disappears for some reason. look into this
+MOVE 0x0 Wagner [13,10]
 MOVE 0x0 Roy [13,18]
 ENUN
+MOVE 0x0 Wagner [13,18]
 MoveByCoords(60, 12, 9, 12, 16)
 MoveByCoords(60, 13, 9, 13, 16)
 ENUN
 Text(Ch6_Start3)
+MOVE 0x0 Wagner [12,1]
 MoveByCoords(60, 12, 16, 12, 9)
 MoveByCoords(60, 13, 16, 13, 9)
 ENUN

@@ -276,10 +276,11 @@ GotoPrepScreen
 MeladyAndGalleLeave:
 SwitchMusic(MUS_TheKingdomOfBern)
 CAM1 [28,12]
-LoadReinforcements(CutsceneMelady)
+LOAD1 0x1 CutsceneMelady
 ENUN
 CMOF
-LoadReinforcements(CutsceneGalle)
+LOAD1 0x1 CutsceneGalle
+ENUN
 Text(Ch11A_MeladyGalleLeave)
 MOVE 0x0 Galle [30,18]
 MOVE 0x0 Melady [30,17]
@@ -304,8 +305,7 @@ ENUN
 LoadReinforcements(KleinSquad2)
 ENUN
 STAL 16
-CMOF
-LoadReinforcements(CutsceneThea)
+LOAD1 0x1 CutsceneThea
 ENUN
 Text(Ch10B_Ch11A_KleinAppears1)
 MOVE 0x0 Thea [18,26]

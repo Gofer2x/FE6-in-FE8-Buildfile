@@ -12,6 +12,19 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch20Bx_ThorilTriedFlag 0x7
+#define Ch20Bx_BrakulTriedFlag 0x8
+#define Ch20Bx_KudokaTriedFlag 0x9
+#define Ch20Bx_MarralTriedFlag 0xA
+#define Ch20Bx_KabulTriedFlag 0xB
+#define Ch20Bx_ChanTriedFlag 0xC
+
+#define Ch20Bx_ThorilCorrectFlag 0xD
+#define Ch20Bx_BrakulCorrectFlag 0xE
+#define Ch20Bx_KudokaCorrectFlag 0xF
+#define Ch20Bx_MarralCorrectFlag 0x10
+#define Ch20Bx_KabulCorrectFlag 0x11
+#define Ch20Bx_ChanCorrectFlag 0x12
 
 EventPointerTable(EVENTS_Ch20Bx,ThisChapter)
 
@@ -37,6 +50,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(0x0,
 END_MAIN
 
 MiscBasedEvents:
@@ -182,13 +196,132 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+Text(Ch20Bx_Start1)
+PlayMusic(MUS_ScarsOfTheScouring)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(Ch20Bx_Start2Elffin)
+
+//set random gate throne thing
+RANDOMNUMBER 5
+BEQ 0 s0 sC
+SVAL s1 1
+BEQ 1 s1 sC
+SVAL s1 2
+BEQ 2 s1 sC
+SVAL s1 3
+BEQ 3 s1 sC
+SVAL s1 4
+BEQ 4 s1 sC
+//if none of the previous branched, it's 5
+  FlagON(Ch20Bx_ThorilCorrectFlag)
+  GOTO 9
+LABEL 4
+  FlagON(Ch20Bx_BrakulCorrectFlag)
+  GOTO 9
+LABEL 3
+  FlagON(Ch20Bx_KudokaCorrectFlag)
+  GOTO 9
+LABEL 2
+  FlagON(Ch20Bx_MarralCorrectFlag)
+  GOTO 9
+LABEL 1
+  FlagON(Ch20Bx_KabulCorrectFlag)
+  GOTO 9
+LABEL 0
+  FlagON(Ch20Bx_ChanCorrectFlag)
+  GOTO 9
+LABEL 9
+
+GotoPrepScreen
+
+TryThorilSeize:
+BranchIfFlagOFF(5,Ch20Bx_ThorilCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(ThorilAmbush1)
+LoadReinforcements(ThorilAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
+
+TryBrakulSeize:
+BranchIfFlagOFF(5,Ch20Bx_BrakulCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(BrakulAmbush1)
+LoadReinforcements(BrakulAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
+
+TryKudokaSeize:
+BranchIfFlagOFF(5,Ch20Bx_KudokaCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(KudokaAmbush1)
+LoadReinforcements(KudokaAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
+
+TryMarralSeize:
+BranchIfFlagOFF(5,Ch20Bx_MarralCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(MarralAmbush1)
+LoadReinforcements(MarralAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
+
+TryKabulSeize:
+BranchIfFlagOFF(5,Ch20Bx_KabulCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(KabulAmbush1)
+LoadReinforcements(KabulAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
+
+TryChanSeize:
+BranchIfFlagOFF(5,Ch20Bx_ChanCorrectFlag)
+FlagON(SeizeFlag)
+GOTO 9
+LABEL 5
+LoadReinforcements(ChanAmbush1)
+LoadReinforcements(ChanAmbush2)
+Text(Ch20Bx_TrapSprung)
+LABEL 9
+EndEvent
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+Text(Ch20Bx_End)
+GiveItemToCharacter(Roy,Mulagir)
+SetBackground(Outside)
+TEXTSTART
+TEXTSHOW Ch20B_Ch20Bx_EndRoyAndGuinivereTalk
+TEXTEND
+PlayMusic(MUS_PrincessOfDestiny)
+TEXTCONT
+TEXTEND
+PlayMusic(MUS_MainThemeArrangement)
+TEXTCONT
+TEXTEND
+REMA
+STAL 64
 MoveToChapter(CHAPTER_Ch21)
 ENDA
 

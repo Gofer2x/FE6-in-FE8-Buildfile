@@ -13,7 +13,7 @@ Ah, one of the legendary weapons.[AN]
 Good. Then we must[N]
 simply hold out until then![AN][X]
 
-## Ch20B_Start22
+## Ch20B_Start2
 [OpenMidLeft][LoadNiime][OpenMidRight][LoadRoy]
 [OpenMidRight][ToggleSmile]This is Roartz's manor...[AN]
 [OpenMidLeft]

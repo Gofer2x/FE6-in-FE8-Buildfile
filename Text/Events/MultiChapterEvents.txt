@@ -1063,7 +1063,7 @@ Princess Guinivere.[AN]
 I swear by the Fire Emblem[N]
 that I will stop King Zephiel![AN][X]
 
-## Ch20B_Ch20Bx_EndRoyAndGuinivereTalk1
+## Ch20B_Ch20Bx_EndRoyAndGuinivereTalk
 [OpenMidRight][LoadRoy][OpenMidLeft][LoadMerlinus]
 [OpenMidRight][ToggleSmile]Merlinus, I need you to send this[N]
 letter to Father Yoder in Etruria.[AN]

@@ -12,6 +12,14 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+
+#define Ch20B_RoyCathTalkFlag 0x7
+#define Ch20B_DayanRecruitmentFlag 0x8
+#define Ch20B_SueDayanExtraTalkFlag 0x9
+#define Ch20B_SinDayanExtraTalkFlag 0xA
+#define Ch20B_GaidenGoneFlag 0xB
+
+
 //Ch20B_RoartzVsDouglasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch20B,ThisChapter)
@@ -31,13 +39,35 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventNPC(0x0,DayanAppears,2)
+TurnEventEnemy(0x0,CathAppears,10)
+TurnEventEnemy(0x0,LoadThief,12)
+TurnEventEnemy(Ch20B_GaidenGoneFlag,GaidenGone,26)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch20B_DayanRecruitmentFlag,RoyRecruitsDayan,Roy,Dayan)
+CharacterEvent(Ch20B_DayanRecruitmentFlag,SueRecruitsDayan,Sue,Dayan)
+CharacterEvent(Ch20B_DayanRecruitmentFlag,SinRecruitsDayan,Sin,Dayan)
+CharacterEventBothWays(Ch20B_SueDayanExtraTalkFlag,SueDayanExtraTalk,Sue,Dayan)
+CharacterEventBothWays(Ch20B_SinDayanExtraTalkFlag,SinDayanExtraTalk,Sin,Dayan)
+CharacterEvent(Ch20B_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Seize(15,2)
+Chest(Sleep,24,5)
+Chest(Axereaver,24,8)
+Chest(GuidingRing,26,6)
+Chest(BlueGem,26,9)
+Chest(Nosferatu,22,6)
+Chest(Dragonshield,26,4)
+Door(10,4)
+Door(20,5)
+Door(25,11)
+Door(23,15)
+Door(19,15)
 END_MAIN
 
 MiscBasedEvents:
@@ -134,13 +164,134 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+FlagON(Ch20B_RoyCathTalkFlag)
+LABEL 1
+FlagON(Ch20B_SueDayanExtraTalkFlag)
+FlagON(Ch20B_SinDayanExtraTalkFlag)
+FlashCursor(15,2,60)
+Text(BG_Castle1,Ch20B_Start1)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 JustNiime
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+PlayMusic(MUS_WhenTheRushComes)
+TEXTSTART
+TEXTSHOW Ch20B_Start2
+TEXTEND
+PlayMusic(MUS_Talking)
+TEXTCONT
+TEXTEND
+REMA
+GotoPrepScreen
+
+DayanAppears:
+PlayMusic(MUS_BindingTies)
+LoadReinforcements(JustDayan)
+Text(BG_Castle3,Ch20B_DayanAppears)
+EndEvent
+
+CathAppears:
+BranchIfFlagON(9,CathRecruitedOrDeadFlag)
+SwitchMusic(MUS_GoingMyWay)
+LoadReinforcements(JustCath)
+Text(Ch20B_CathAppears)
+RestoreMusic
+LABEL 9
+EndEvent
+
+LoadThief:
+ReinforcementEvent(ThiefReinforcements)
+
+GaidenGone:
+LoadReinforcements(GaidenBossesYouGoofed)
+Text(Ch20B_GaidenGone)
+EndEvent
+
+RoyRecruitsDayan:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20B_RoyRecruitsDayan)
+BecomeAlly(Dayan)
+RestoreMusic
+FlagOFF(Ch20B_SueDayanExtraTalkFlag)
+FlagOFF(Ch20B_SinDayanExtraTalkFlag)
+EndEvent
+
+SueRecruitsDayan:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20B_SueRecruitsDayan)
+BecomeAlly(Dayan)
+RestoreMusic
+FlagOFF(Ch20B_SinDayanExtraTalkFlag)
+EndEvent
+
+SinRecruitsDayan:
+SwitchMusic(MUS_JoinUs)
+Text(Ch20B_SinRecruitsDayan)
+BecomeAlly(Dayan)
+RestoreMusic
+FlagOFF(Ch20B_SueDayanExtraTalkFlag)
+EndEvent
+
+SueDayanExtraTalk:
+MusicQuieter
+Text(Ch20B_SueDayanTalk)
+MusicUnquieter
+EndEvent
+
+SueDayanExtraTalk:
+MusicQuieter
+Text(Ch20B_SinDayanTalk)
+MusicUnquieter
+EndEvent
+
 
 EndingScene:
+BranchIfUnitDead(5,Sue)
+BranchIfUnitDead(5,Sin)
+BranchIfUnitDead(5,Dayan)
+BranchIfFlagON(5,Ch20B_GaidenGoneFlag)
+
+//gaiden epic success
+
+PlayMusic(MUS_Triumph)
+Text(BG_Castle3,Ch20B_EndGaidenGot)
+STAL 64
+MoveToChapter(CHAPTER_Ch20Bx)
+GOTO 9
+
+LABEL 5 //gaiden epic fail
+PlayMusic(MUS_PrincessOfDestiny)
+
+SetBackground(BG_Castle3)
+TEXTSTART
+TEXTSHOW Ch20B_Ch20Bx_EndRoyAndGuinivereTalk
+TEXTEND
+PlayMusic(MUS_PrincessOfDestiny)
+TEXTCONT
+TEXTEND
+PlayMusic(MUS_MainThemeArrangement)
+TEXTCONT
+TEXTEND
+REMA
+
+STAL 64
+MoveToChapter(CHAPTER_Ch21)
+LABEL 9
+ENDA
+
+
+
+
+
+
+
+
 MoveToChapter(CHAPTER_Ch20Bx)
 ENDA
 

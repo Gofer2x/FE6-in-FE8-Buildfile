@@ -37,6 +37,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(16,1)
 END_MAIN
 
 MiscBasedEvents:
@@ -117,13 +118,34 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies
+FadeFromBlack
+CAM1 [16,1]
+FlashCursor(16,1,60)
+Text(BG_Temple2White,Ch20Ax_Start1)
+LOAD3 0x0 Units
 ENUN
-ENDA
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Temple2White,Ch20Ax_Start2Elffin)
+GotoPrepScreen
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+Text(BG_Temple2White,Ch20Ax_End)
+GiveItemToCharacter(Roy,Maltet)
+
+SetBackground(BG_Temple2White)
+TEXTSTART
+TEXTSHOW Ch20A_Ch20Ax_EndRoyAndGuinivereTalk
+TEXTEND
+PlayMusic(MUS_MainThemeArrangement)
+TEXTCONT
+TEXTEND
+REMA
+
+STAL 64
 MoveToChapter(CHAPTER_Ch21)
 ENDA
 

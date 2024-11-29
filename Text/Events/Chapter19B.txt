@@ -194,7 +194,7 @@ Here, take one.[AN]
 Use it to drive Bern's[N]
 soldiers out of here![AN][X]
 
-## Ch19B_End1
+## Ch19B_End
 [OpenLeft][LoadNiime][OpenMidRight][LoadRoy]
 [OpenLeft]I must say, you're not[N]
 half bad at all.[AN]
@@ -218,10 +218,11 @@ who are in human form.[AN]
 [OpenMidRight][......][ToggleSmile]...I wish to speak[N]
 with her in private.[AN]
 Will you leave us, please?[AN]
-[SendToBack][OpenFarLeft]Yes, milord.[AN][ClearFace][X]
+[SendToBack][OpenFarLeft]Yes, milord.[AN][ClearFace]
 
-## Ch19B_End2
-[LoadOverworldFaces][OpenLeft][MoveMidLeft]Well, that sure got your[N]
+[LoadOverworldFaces]
+
+[OpenLeft][MoveMidLeft]Well, that sure got your[N]
 attention, didn't it?[AN]
 [OpenMidRight][ToggleSmile]The dragons you speak of...[AN]
 They're not like the wyverns[N]

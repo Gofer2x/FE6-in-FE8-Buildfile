@@ -36,7 +36,10 @@ to see it with my own eyes.[AN]
 [OpenMidRight]I've been wondering...[AN]
 Do you think the demon dragon[N]
 is in human form as well?[AN]
-[LoadOverworldFaces][OpenMidLeft]It seems probable.[AN]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft]It seems probable.[AN]
 It could be that all dragons in[N]
 this realm are in human form.[AN]
 I've even heard stories of dragons[N]

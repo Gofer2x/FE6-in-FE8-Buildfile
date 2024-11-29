@@ -118,7 +118,10 @@ We have found Princess Guinivere.[AN]
 ## Ch13_ZephielScoldsGuinivere
 [OpenRight][LoadZephiel][OpenMidLeft][LoadGuinivere][ToggleSmile]My brother...[AN]
 [OpenRight][FastPrint]Guinivere.[N]
-So good to see you.[AN][LoadOverworldFaces]
+So good to see you.[AN]
+
+[LoadOverworldFaces]
+
 [OpenMidLeft][CloseSpeechFast]Zephiel, why?[AN]
 Why do you continue this war?[N]
 So many innocent people have died...[AN]
@@ -143,7 +146,10 @@ As such, I forgive you this time,[N]
 but I shan't the next.[AN]
 You would do well to[N]
 remember that.[AN]
-[OpenFarLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][AN][LoadOverworldFaces]
+[OpenFarLeft][NormalPrint][ToggleMouthMove]......[ToggleMouthMove][AN]
+
+[LoadOverworldFaces]
+
 [OpenRight][CloseSpeechFast]Narcian![AN]
 Is the head of Guinivere's[N]
 guard present?[AN]
@@ -439,7 +445,10 @@ A shaman of Arcadia...[AN][SendToBack]
 [OpenLeft][ToggleSmile]She foresaw your coming.[AN]
 She also said she would explain[N]
 her story once we had time.[AN]
-[ClearFace][LoadOverworldFaces]
+[ClearFace]
+
+[LoadOverworldFaces]
+
 [OpenFarLeft][CloseSpeechFast][ToggleSmile]Yes, now is fine...[AN]
 Arcadia, my home, lies to the east[N]
 in the Nabata desert...[AN]

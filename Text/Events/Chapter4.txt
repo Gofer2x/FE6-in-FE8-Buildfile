@@ -360,7 +360,11 @@ soldiers from Laus are retreating.[AN]
 [OpenMidRight]Thank you.[N]
 Tell everyone to get some rest.[AN]
 [OpenMidLeft]Yes, milord.[AN]
-[OpenMidLeft][ClearFace][LoadOverworldFaces][OpenMidLeft][.....][LoadGuinivere]Roy...[N]
+[OpenMidLeft][ClearFace]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft][.....][LoadGuinivere]Roy...[N]
 Are you all right?[AN]
 [OpenMidRight]
 I never would have thought that[N]

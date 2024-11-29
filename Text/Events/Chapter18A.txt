@@ -93,7 +93,9 @@ Princess Guinivere looked[N]
 very troubled...[AN]
 [OpenRight][MoveMidRight]...It's nothing to worry over.[N]
 Do you need something?[AN]
+
 [LoadOverworldFaces]
+
 [OpenFarLeft][MoveMidLeft][OpenMidLeft]
 Yes, I have learned some troubling[N]
 information.[AN]
@@ -242,7 +244,9 @@ but it was only a guise.[AN]
 Bern's army has something[N]
 I wish to study.[AN]
 [OpenMidRight][ToggleSmile]And what is that?[AN]
+
 [LoadOverworldFaces]
+
 [OpenMidLeft][ToggleSmile]The dragons.[AN]
 [OpenMidRight][ToggleSmile][ToggleMouthMove]!![AN][ToggleMouthMove]
 [OpenMidLeft][ToggleSmile]Well, that sure got your[N]

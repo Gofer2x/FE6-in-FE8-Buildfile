@@ -462,7 +462,10 @@ But the dragons... I can't even[N]
 conceive how powerful they must be.[AN]
 Lord Hector mentioned a weapon that[N]
 is effective against dragons...[AN]
-I wonder where it's hidden.[AN][LoadOverworldFaces]
+I wonder where it's hidden.[AN]
+
+[LoadOverworldFaces]
+
 [OpenMidLeft]I presume it must be one of[N]
 the legendary weapons.[AN]
 [OpenMidRight]If we can obtain those, we might have a[N]

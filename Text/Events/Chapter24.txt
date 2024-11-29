@@ -2,7 +2,10 @@
 [OpenMidRight][LoadRoy][ToggleSmile]This is the Dragon Sanctuary...[N]
 The air feels strange.[AN]
 Did the Eight Legends fight[N]
-under these conditions, too?[AN][LoadOverworldFaces]
+under these conditions, too?[AN]
+
+[LoadOverworldFaces]
+
 [OpenMidLeft][LoadJahn]
 You humans stand[N]
 against us once more.[AN]
@@ -460,7 +463,10 @@ like the demon dragon can, however.[AN][X]
 [OpenMidRight][LoadRoy][FastPrint][ToggleSmile]
 The demon dragon[N]
 lies ahead...[AN]
-[LoadOverworldFaces][OpenMidLeft][LoadFae]...Roy...[AN]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft][LoadFae]...Roy...[AN]
 [OpenMidRight]What's wrong, Fae?[AN]
 You look like you're[N]
 about to cry.[AN]

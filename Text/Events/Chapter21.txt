@@ -30,7 +30,10 @@ I have found you at last.[AN]
 What brings you all[N]
 the way from Etruria?[AN]
 Is something amiss?[AN]
-[OpenMidLeft][ToggleSmile][LoadOverworldFaces]
+[OpenMidLeft][ToggleSmile]
+
+[LoadOverworldFaces]
+
 I did some additional research[N]
 after reading your letter.[AN]
 I reached the same conclusion. Bern[N]

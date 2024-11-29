@@ -5723,11 +5723,3 @@ TxtData0x12e1:
 #incext ParseFile "_textentries\0x12e1.txt"
 setText(0x12e1,TxtData0x12e1)
 
-TxtData0x12e2:
-#incext ParseFile "_textentries\0x12e2.txt"
-setText(0x12e2,TxtData0x12e2)
-
-TxtData0x12e3:
-#incext ParseFile "_textentries\0x12e3.txt"
-setText(0x12e3,TxtData0x12e3)
-

@@ -196,14 +196,14 @@ CAM1 Randy
 FlashCursor(27,3,60)
 Text(BG_Castle3,Ch14_Start2)
 FadeOutMusic
-//sandstorm bgs?
+//TODO sandstorm bgs?
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy
 Text(Ch14_Start3)
 LOAD1 0x1 CeciliaSophia
 ENUN
-//stop sandstorm bgs
+//TODO stop sandstorm bgs
 GotoPrepScreen
 
 BanditsAppear:

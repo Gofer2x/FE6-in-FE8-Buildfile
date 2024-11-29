@@ -2,8 +2,19 @@
 //Credit Pikmin1211
 #define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 
+#define BranchIfBossDead(label) "CheckFlag(BossDefeatFlag) ; BNE label s0 sC"
+#define BranchIfBossAlive(label) "CheckFlag(BossDefeatFlag) ; BEQ label s0 sC"
+
+#define BranchIfUnitDead(label,unit) "CHECK_ALIVE unit ; BEQ label s0 sC"
+#define BranchIfUnitAlive(label,unit) "CHECK_ALIVE unit ; BNE label s0 sC"
+
+#define BranchIfFlagOFF(label,flag) "CheckFlag(flag) ; BEQ label s0 sC"
+#define BranchIfFlagON(label,flag) "CheckFlag(flag) ; BNE label s0 sC"
+
 #define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
-#define HardReinforcementEvent(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C; EVBIT_T 0x7; ENDA"
+
+//yep, this is how these work in fe6 apparently. hard mode exclusive = don't appear if boss dead
+#define HardReinforcementEvent(unitPtr) "BranchIfBossDead(9) ; SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C; LABEL 9 ; EVBIT_T 0x7 ; ENDA"
 
 #define AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)   "AREA eventID EventPointer [corner1x,corner1y] [corner2x,corner2y]" 
 
@@ -47,16 +58,6 @@
 #define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
 
 #define GotoPrepScreenNoENDA "CALL $591FD8"
-
-#define BranchIfBossDead(label) "CheckFlag(BossDefeatFlag) ; BNE label s0 sC"
-#define BranchIfBossAlive(label) "CheckFlag(BossDefeatFlag) ; BEQ label s0 sC"
-
-#define BranchIfUnitDead(label,unit) "CHECK_ALIVE unit ; BEQ label s0 sC"
-#define BranchIfUnitAlive(label,unit) "CHECK_ALIVE unit ; BNE label s0 sC"
-
-#define BranchIfFlagOFF(label,flag) "CheckFlag(flag) ; BEQ label s0 sC"
-#define BranchIfFlagON(label,flag) "CheckFlag(flag) ; BNE label s0 sC"
-
 
 //don't feel like dealign with world map events rn
 MESSAGE cuz i dont feel like dealing with map events rn

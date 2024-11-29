@@ -227,7 +227,10 @@ St. Elimine Church.[AN]
 You are as beautiful as[N]
 the rumors say![AN][SendToBack]
 [OpenFarRight][NormalPrint]Pardon me...?[AN][SendToBack]
-[OpenMidLeft]Ahem... Forgive me.[AN][LoadOverworldFaces]
+[OpenMidLeft]Ahem... Forgive me.[AN]
+
+[LoadOverworldFaces]
+
 Your Highness, I wish to know the[N]
 location of the Fire Emblem.[AN]
 You have it with you,[N]

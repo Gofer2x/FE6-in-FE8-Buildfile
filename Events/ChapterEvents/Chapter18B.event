@@ -12,6 +12,8 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+#define Ch18B_TriggerAmbushFlag 0x7
+#define Ch18B_AmbushFlag 0x8
 //Ch18B_MonkeVsSueFlag 0x1E
 //Ch18B_MonkeVsSinFlag 0x1F
 
@@ -32,6 +34,15 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,LoadSouthWestNomads,10)
+TurnEventEnemy(0x0,LoadSouthWestNomads,15)
+TurnEventEnemy(0x0,LoadSouthWestNomads,20)
+TurnEventEnemy(0x0,LoadSouthEastNomads,12)
+TurnEventEnemy(0x0,LoadSouthEastNomads,17)
+TurnEventEnemy(0x0,LoadSouthEastNomads,22)
+TurnEventEnemy(0x0,LoadWyverns,13)
+TurnEventEnemy(0x0,LoadWyverns,23)
+TurnEventEnemy(0x0,TheAmbush,1,255)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -42,6 +53,9 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
+AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,14,15,20,15)
+AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,13,16,21,22)
+AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,14,23,20,23)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -190,14 +204,69 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+FlashCursor(17,19,60)
+Text(BG_Outside,Ch18B_Start1)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+PlayMusic(MUS_PrincessOfDestiny)
+Text(BG_Outside,Ch18B_Start2)
+GotoPrepScreen
+
+UniteHouseVisit:
+HouseEvent(BG_House,Ch18B_UniteHouse)
+
+PrayHouseVisit:
+HouseEvent(BG_House,Ch18B_PrayHouse)
+
+DefendHouseVisit:
+HouseEvent(BG_House,Ch18B_DefendHouse)
+
+UnitedClansHouseVisit:
+HouseEvent(BG_House,Ch18B_UnitedClansHouse)
+
+TriggerAmbush:
+PlayerInRange
+FlagOFF(Ch18B_AmbushFlag)
+EndEvent
+
+TheAmbush:
+//TODO this entire thing, the wikis say it's supposed to be infinite but it's not??
+EndEvent
+
+LoadSouthWestNomads:
+ReinforcementEvent(SouthWestNomadReinforcements)
+
+LoadSouthEastNomads:
+ReinforcementEvent(SouthEastNomadReinforcements)
+
+LoadWyverns:
+ReinforcementEvent(WyvernReinforcements)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+TEXTSTART
+TEXTSHOW Ch18B_End
+TEXTEND
+//TODO idk what some asm happens here man
+TEXTCONT
+TEXTEND
+//TODO and again
+TEXTCONT
+TEXTEND
+REMA
+STAL 64
 MoveToChapter(CHAPTER_Ch19B)
 ENDA
+
+ArmoryList:
+SHLI IronSword KillingEdge IronBlade IronLance KillerLance Javelin IronAxe KillerAxe HandAxe IronBow SteelBow
+
+VendorList:
+SHLI Thunder Lightning Flux Heal Mend Physic Restore DoorKey ChestKey5Uses
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -96,7 +96,10 @@ I am the son of[N]
 Marquess Pherae.[AN]
 [OpenMidRight]Oh, Saint Elimine! Thank you[N]
 for guiding me to this boy![AN]
-[OpenMidLeft][ToggleSmile]Pardon?[AN][LoadOverworldFaces]
+[OpenMidLeft][ToggleSmile]Pardon?[AN]
+
+[LoadOverworldFaces]
+
 [OpenMidRight][MoveRight]Please, I need your help[N]
 to rescue my mistress.[AN]
 [OpenMidLeft]What happened?[AN]

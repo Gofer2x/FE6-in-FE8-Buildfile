@@ -241,7 +241,10 @@ but how much longer will he be?[AN]
 [OpenMidRight][ToggleSmile]Lilina...[N]
 You haven't heard?[AN]
 [OpenMidLeft][ToggleSmile]Heard what?[AN]
-[LoadOverworldFaces][OpenMidRight][ToggleSmile]Lord Hector...[N]
+
+[LoadOverworldFaces]
+
+[OpenMidRight][ToggleSmile]Lord Hector...[N]
 passed on.[AN]
 [OpenMidLeft]What...?[AN]
 [OpenMidRight]I'm sorry... By the time we arrived[N]

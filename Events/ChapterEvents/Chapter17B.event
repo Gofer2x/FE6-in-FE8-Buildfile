@@ -32,6 +32,14 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,LoadFortThief,3)
+TurnEventEnemy(0x0,LoadFortThief,6)
+TurnEventEnemy(0x0,LoadFortThief,9)
+TurnEventEnemy(0x0,LoadCavReinforcements,6,3)
+TurnEventEnemy(0x0,LoadNomadReinforcements,12,4)
+TurnEventEnemy(0x0,LoadCavReinforcements,6,3)
+
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -39,6 +47,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(29,18)
+Village(0x0,TinasStaffVillageVisit,2,17)
+Village(0x0,EclipseVillageVisit,30,2)
+House(0x0,NorthEastHouseVisit,1,18)
+House(0x0,ThievesHouseVisit,6,15)
+Armory(ArmoryList,3,19)
+
 END_MAIN
 
 MiscBasedEvents:
@@ -130,14 +145,63 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Melancholic)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+FlashCursor(29,18,60)
+Text(BG_Castle2,Ch17B_Start1)
+STAL 16
+FlashCursor(29,18,60)
+Text(BG_Castle3,Ch17B_Start2)
+LOAD3 0x0 Units
+ENUN
+LOAD1 0x1 CutsceneYoder
+ENUN
+CAM1 Roy
+PlayMusic(MUS_WhenTheRushComes)
+Text(Ch17B_Start3)
+MOVE 0x0 Yoder [0,0]
+ENUN
+DISA Yoder
+LOAD1 0x1 PillagerThiefReinforcements1 //idk lol fe6 is weird
+ENUN
+GotoPrepScreen
+
+TinasStaffVillageVisit:
+VillageEventItem(Ch17B_TinasStaffVillage,BG_Village,TinasStaff)
+
+EclipseVillageVisit:
+VillageEventItem(Ch17B_EclipseVillage,BG_Village,Eclipse)
+
+NorthEastHouseVisit:
+HouseEvent(Ch17B_NorthEastVillageHouse,BG_House)
+
+ThievesHouseVisit:
+HouseEvent(Ch17B_ThievesHouse,BG_House)
+
+LoadFortThief:
+ReinforcementEvent(PillagerThiefReinforcements2)
+
+LoadCavReinforcements:
+ReinforcementEvent(CavReinforcements)
+
+LoadNomadReinforcements:
+ReinforcementEvent(NomadReinforcements)
+
+LoadHardCavReinforcements:
+HardReinforcementEvent(CavReinforcements)
+
+LoadHardNomadReinforcements:
+HardReinforcementEvent(NomadReinforcements)
 
 EndingScene:
+PlayMusic(MUS_IntoTheShadowOfTriumph)
+Text(BG_Castle2,Ch17B_End)
+STAL 64
 MoveToChapter(CHAPTER_Ch18B)
 ENDA
+
+ArmoryList:
+SHLI IronSword SteelSword SilverSword IronBlade SteelBlade IronLance SteelLance SilverLance IronAxe SteelAxe SilverAxe IronBow SteelBow SilverBow ShortBow
 
 MESSAGE Events end at offset CURRENTOFFSET

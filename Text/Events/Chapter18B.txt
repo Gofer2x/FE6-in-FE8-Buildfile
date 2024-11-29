@@ -132,7 +132,10 @@ where they might be?[AN]
 Actually, the spy I sent out[N]
 earlier should be back by now.[AN]
 I will see if he's learned[N]
-anything.[AN][ClearFace][.......][LoadOverworldFaces]
+anything.[AN][ClearFace][.......]
+
+[LoadOverworldFaces]
+
 [OpenFarLeft][LoadGuinivere][ToggleMouthMove]......[AN][ToggleMouthMove]
 [OpenMidRight]Is something wrong,[N]
 Princess Guinivere?[AN]
@@ -164,7 +167,10 @@ Then King Zephiel...[AN]
 he took from our father.[AN]
 So he...[AN]
 [OpenMidRight]What...?[N]
-Why did--[AN][LoadOverworldFaces]
+Why did--[AN]
+
+[LoadOverworldFaces]
+
 [OpenFarLeft][LoadMerlinus]...Lord Roy![AN]
 We've located the enemy! They're[N]
 still planning their attack![AN][Clear]

@@ -108,7 +108,9 @@ have you.[AN]
 I think your skills will be an asset.[AN]
 [OpenMidLeft][ToggleSmile]Yeah, I can pick any[N]
 locked doors or chests![AN]
+
 [LoadOverworldFaces]
+
 [OpenMidLeft][ClearFace][OpenMidLeft][LoadGuinivere][FastPrint][ToggleSmile]...Lord Roy...[AN]
 I'm sorry for my brother...[AN]
 I didn't think the invasion[N]

@@ -292,9 +292,18 @@ tasty fruit![.......][......]
 [OpenMidLeft][ToggleSmile]Yeah. [......]Can you see it?[......]
 It's up at the top.[.......][......]
 And if you [......]shake the tree[......]
-like this...[.....][MoveMidLeft][LoadOverworldFaces]
-[MoveMidLeft][LoadOverworldFaces]
-[OpenMidLeft][ToggleSmile]Oww![MoveMidLeft][LoadOverworldFaces]
+like this...[.....][MoveMidLeft]
+
+[LoadOverworldFaces]
+
+[MoveMidLeft]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft][ToggleSmile]Oww![MoveMidLeft]
+
+[LoadOverworldFaces]
+
 [......][.....]
 [OpenMidLeft][ToggleSmile]It fell on[N]
 my head...[.......][......]

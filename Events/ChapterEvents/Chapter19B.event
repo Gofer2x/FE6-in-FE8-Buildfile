@@ -30,6 +30,20 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventNPC(0x0,WellItBegins,1)
+TurnEventEnemy(0x0,ReinforcementsComing,7)
+TurnEventEnemy(0x0,OpenTheGate,12)
+TurnEventEnemy(0x0,HouseEnemiesComing,13)
+TurnEventEnemy(0x0,LoadWyvernsAndNomadsIfBossAlive,8)
+TurnEventEnemy(0x0,LoadWyverns,10)
+TurnEventEnemy(0x0,LoadWyverns,15)
+TurnEventEnemy(0x0,LoadWyverns,20)
+TurnEventEnemy(0x0,LoadNomads,8)
+TurnEventEnemy(0x0,LoadNomads,13)
+TurnEventEnemy(0x0,LoadNomads,18)
+TurnEventEnemy(0x0,LoadNomads,23)
+TurnEventEnemy(0x0,LoadHouseMyrms,15)
+TurnEventEnemy(0x0,LoadHardHouseMyrms,17,3)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -37,6 +51,14 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(16,1)
+Village(0x0,WyrmslayerVillageVisit,6,5)
+Village(0x0,EnergyRingVillageVisit,10,10)
+Village(0x0,GoddessIconVillageVisit,15,12)
+Village(0x0,WoDaoVillageVisit,17,10)
+Village(0x0,LongbowVillageVisit,26,3)
+Armory(ArmoryList,8,1)
+Vendor(VendorList,27,0)
 END_MAIN
 
 MiscBasedEvents:
@@ -154,14 +176,110 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+FlashCursor(16,1,60)
+Text(BG_Castle3,Ch19B_Start1)
+PlayMusic(MUS_PrincessOfDestiny)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(Ch19B_Start2)
+GotoPrepScreen
+
+WellItBegins:
+CAM1 [16,11]
+FlashCursor(16,11,60)
+QuieterMusic
+Text(BG_House,Ch19B_NiimeItBegins)
+UnquieterMusic
+EndEvent
+
+ReinforcementsComing:
+BranchIfBossDead(9)
+CAM1 [16,1]
+FlashCursor(16,1,60)
+PlayMusic(MUS_DistantLands)
+STAL 16
+Text(BG_Castle1,Ch19B_ReinforcementsComing)
+LABEL 9
+EndEvent
+
+OpenTheGate:
+BranchIfBossDead(9)
+CAM1 [16,16]
+FlashCursor(16,16,60)
+PlayMusic(MUS_DistantLands)
+STAL 16
+Text(BG_Castle1,Ch19B_OpenTheGate)
+TILECHANGE 8
+LABEL 9
+EndEvent
+
+HouseEnemiesComing:
+BranchIfBossDead(9)
+CAM1 [16,1]
+FlashCursor(16,1,60)
+PlayMusic(MUS_DistantLands)
+STAL 16
+Text(BG_Castle1,Ch19B_HouseEnemiesComing)
+LABEL 9
+EndEvent
+
+WyrmslayerVillageVisit:
+VillageEventItem(Ch19B_WyrmslayerVillage,BG_Village,Wyrmslayer)
+
+EnergyRingVillageVisit:
+VillageEventItem(Ch19B_EnergyRingVillage,BG_Village,EnergyRing)
+
+GoddessIconVillageVisit:
+VillageEventItem(Ch19B_GoddessIconVillage,BG_Village,GoddessIcon)
+
+WoDaoVillageVisit:
+VillageEventItem(Ch19B_WoDaoVillage,BG_Village,WoDao)
+
+LongbowVillageVisit:
+VillageEventItem(Ch19B_LongbowVillage,BG_Village,Longbow)
+
+LoadWyvernsAndNomadsIfBossAlive:
+BranchIfBossDead(9)
+LoadReinforcements(NomadReinforcements1)
+LoadReinforcements(WyvernReinforcements1)
+LABEL 9
+EndEvent
+
+LoadWyverns:
+ReinforcementEvent(WyvernReinforcements2)
+
+LoadNomads:
+ReinforcementEvent(NomadReinforcements2)
+
+LoadHouseMyrms:
+ReinforcementEvent(MyrmsFromHouses)
+
+LoadHardHouseMyrms:
+HardReinforcementEvent(MyrmsFromHouses)
 
 EndingScene:
+PlayMusic(MUS_Triumph)
+SetBackground(BG_Castle3)
+TEXTSTART
+TEXTSHOW Ch19B_End
+TEXTEND
+PlayMusic(MUS_Talking)
+TEXTCONT
+TEXTEND
+REMA
+STAL 64
 MoveToChapter(CHAPTER_Ch20B)
 ENDA
+
+ArmoryList:
+SHLI IronSword SteelSword SilverSword IronBlade SteelBlade IronLance SteelLance SilverLance IronAxe SteelAxe SilverAxe Hammer IronBow SteelBow SilverBow
+
+VendorList:
+SHLI Fire Thunder Elfire Aircalibur Lightning Divine Flux Vulnerary PureWater
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -273,7 +273,10 @@ fight against each other...[AN][X]
 Here she is![AN]
 [OpenMidRight][LoadRoy]You found her?[AN]
 [OpenFarLeft][CloseSpeechFast]I believe you owe Lord Roy[N]
-a thank you, young lady.[AN][LoadOverworldFaces]
+a thank you, young lady.[AN]
+
+[LoadOverworldFaces]
+
 [OpenLeft][LoadFae][FastPrint]...Sniff...[AN]
 [OpenMidRight]Easy, Merlinus.[AN][OpenFarLeft][ClearFace]
 [OpenMidRight][CloseSpeechFast]...Why did you follow us?[AN]

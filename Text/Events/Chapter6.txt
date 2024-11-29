@@ -3,7 +3,11 @@
 there's nothing worth stealing![AN]
 Hmm, looks like the north hall has all[N]
 the valuables, but with that security--[AN][Clear]
-...Are those footsteps?[AN][ClearFace][LoadOverworldFaces][......]
+...Are those footsteps?[AN][ClearFace]
+
+[LoadOverworldFaces]
+
+[......]
 [OpenMidRight][LoadWagner][OpenMidLeft][LoadSoldier2]
 [OpenMidRight][FastPrint]I trust everything is under control.[AN]
 [OpenMidLeft]Yes, Sir Wagner, the soldiers are[N]

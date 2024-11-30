@@ -63,7 +63,19 @@ Tutorial:
 END_MAIN
 
 TrapData:
-//TODO poison traps ig
+PoisonTrap(1,2,down,1,1)
+PoisonTrap(11,2,down,1,1)
+PoisonTrap(15,1,up,1,1)
+PoisonTrap(10,7,left,1,1)
+PoisonTrap(21,9,left,1,1)
+PoisonTrap(13,13,down,1,1)
+PoisonTrap(23,12,right,1,1)
+PoisonTrap(1,14,right,1,1)
+PoisonTrap(14,17,up,1,1)
+PoisonTrap(20,18,left,1,1)
+PoisonTrap(23,20,right,1,1)
+PoisonTrap(12,26,up,1,1)
+
 ENDTRAP
 
 ALIGN 4

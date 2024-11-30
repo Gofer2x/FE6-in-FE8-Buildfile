@@ -11,6 +11,18 @@
 #define BranchIfFlagOFF(label,flag) "CheckFlag(flag) ; BEQ label s0 sC"
 #define BranchIfFlagON(label,flag) "CheckFlag(flag) ; BNE label s0 sC"
 
+#define BranchIfCounterZero(label,counter) "COUNTER_CHECK counter ; BEQ label s0 sC"
+#define BranchIfCounterNotZero(label,counter,value) "COUNTER_CHECK counter ; BNE label s0 sC"
+
+#define BranchIfCounterEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BEQ label s1 sC"
+#define BranchIfCounterNotEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BNE label s1 sC"
+
+#define SetCounter(counter,value) "COUNTER_SET counter value"
+
+#define IncrementCounter(counter) "COUNTER_ADD counter"
+#define DecrementCounter(counter) "COUNTER_DEC counter"
+
+
 #define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
 
 //yep, this is how these work in fe6 apparently. hard mode exclusive = don't appear if boss dead
@@ -53,7 +65,14 @@
 #define PlaySound(sound) "SOUN sound"
 
 #define FadeFromBlack "FADU 60"
+#define FadeFromBlack(speed) "FADU speed"
 #define FadeIntoBlack "FADI 60"
+#define FadeIntoBlack(speed) "FADI speed"
+
+#define FadeFromWhite "FAWU 60"
+#define FadeFromWhite(speed) "FAWU speed"
+#define FadeIntoWhite "FAWI 60"
+#define FadeIntoWhite(speed) "FAWI speed"
 
 #define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
 

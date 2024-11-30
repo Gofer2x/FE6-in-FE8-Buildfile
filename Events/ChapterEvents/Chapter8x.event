@@ -52,32 +52,32 @@ END_MAIN
 
 TrapData:
 //fire tiles lol
-//x10 y22
-//x14 y21
-//x14 y23
-//x17 y22
-//x19 y21
-//x23 y18
-//x25 y18
-//x23 y16
-//x24 y9
-//x23 y8
-//x25 y8
-//x20 y1
-//x19 y3
-//x14 y8
-//x13 y9
-//x15 y9
-//x14 y10
-//x12 y12
-//x11 y11
-//x11 y13
-//x9 y11
-//x9 y13
-//x8 y12
-//x7 y11
-//x7 y13
-//x3 y10
+FireTrap(10,22,1,1)
+FireTrap(14,21,1,1)
+FireTrap(14,23,1,1)
+FireTrap(17,22,1,1)
+FireTrap(19,21,1,1)
+FireTrap(23,18,1,1)
+FireTrap(25,18,1,1)
+FireTrap(23,16,1,1)
+FireTrap(24,9,1,1)
+FireTrap(23,8,1,1)
+FireTrap(25,8,1,1)
+FireTrap(20,1,1,1)
+FireTrap(19,3,1,1)
+FireTrap(14,8,1,1)
+FireTrap(13,9,1,1)
+FireTrap(15,9,1,1)
+FireTrap(14,10,1,1)
+FireTrap(12,12,1,1)
+FireTrap(11,11,1,1)
+FireTrap(11,13,1,1)
+FireTrap(9,11,1,1)
+FireTrap(9,13,1,1)
+FireTrap(8,12,1,1)
+FireTrap(7,11,1,1)
+FireTrap(7,13,1,1)
+FireTrap(3,10,1,1)
 ENDTRAP
 
 ALIGN 4

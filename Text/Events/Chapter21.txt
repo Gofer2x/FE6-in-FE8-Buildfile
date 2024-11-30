@@ -249,7 +249,7 @@ You have much to be proud of.[AN]
 [OpenMidRight]Thank you,[N]
 Father Yoder![AN][X]
 
-## Ch21_HeroCrestVillage
+## Ch21_KnightCrestVillage
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager2][ToggleSmile]
 You're the Etrurian Army,[N]
 aren't you?[AN]

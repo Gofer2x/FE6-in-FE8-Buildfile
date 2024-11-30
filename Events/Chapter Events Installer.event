@@ -5,6 +5,7 @@
 #include "OstiaNarcianCutscene.event"
 #include "WestIslesEvents.event"
 //#include "PercevalRecruitment.event"
+#include "BindingBladeAndRoyPromo.event"
 {
 #include "ChapterEvents/Chapter1.event"
 }

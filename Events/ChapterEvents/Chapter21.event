@@ -12,9 +12,33 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+
+#define Ch21_DorothyYoderTalkFlag 0x7
+#define Ch21_SaulYoderTalkFlag 0x8
+#define Ch21_MeladyGalleTalkFlag 0x9
+#define Ch21_ZeissGalleTalkFlag 0xA
+
+#define Ch21_GaidenGoneFlag 0xB
+
+#define Ch21_RedZoneActivatedFlag 0xC
+#define Ch21_RedZoneDoneFlag 0xD
+#define Ch21_OrangeZoneActivatedFlag 0xE
+#define Ch21_OrangeZoneDoneFlag 0xF
+#define Ch21_BlueZoneActivatedFlag 0x10
+#define Ch21_BlueZoneDoneFlag 0x11
+#define Ch21_PinkZoneActivatedFlag 0x12
+#define Ch21_PinkZoneDoneFlag 0x13
+#define Ch21_YellowZoneActivatedFlag 0x14
+#define Ch21_YellowZoneDoneFlag 0x15
+
 //Ch21_MurdockVsRoyFlag 0x1D
 //Ch21_MurdockVsMeladyFlag 0x1E
 //Ch21_MurdockVsZeissFlag 0x1F
+
+#define Ch21_RedZoneCounter 0x0
+#define Ch21_OrangeZoneCounter 0x1
+#define Ch21_BlueZoneCounter 0x2
+#define Ch21_PinkZoneCounter 0x3
 
 EventPointerTable(EVENTS_Ch21,ThisChapter)
 
@@ -33,16 +57,56 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(Ch21_GaidenGoneFlag,GaidenGone,31) //yes, this is not an ambush
+
+TurnEventEnemy(Ch21_RedZoneDoneFlag,RedZoneEvent,1,255)
+TurnEventEnemy(Ch21_OrangeZoneDoneFlag,OrangeZoneEvent,1,255)
+TurnEventEnemy(Ch21_BlueZoneDoneFlag,BlueZoneEvent,1,255)
+TurnEventEnemy(Ch21_PinkZoneDoneFlag,PinkZoneEvent,1,255)
+TurnEventEnemy(Ch21_YellowZoneDoneFlag,YellowZoneEvent,1,255)
+
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEventBothWays(Ch21_DorothyYoderTalkFlag,DorothyYoderTalk,Dorothy,Yoder)
+CharacterEventBothWays(Ch21_SaulYoderTalkFlag,SaulYoderTalk,Saul,Yoder)
+CharacterEvent(Ch21_MeladyGalleTalkFlag,MeladyGalleTalk,Melady,Galle)
+CharacterEvent(Ch21_ZeissGalleTalkFlag,ZeissGalleTalk,Zeiss,Galle)
 END_MAIN
 
 LocationBasedEvents:
+Seize(24,27)
+Village(0x0,KnightCrestVillageVisit,11,11)
+Armory(ArmoryList,5,1)
+Vendor(VendorList,9,1)
+SecretShop(SecretShopList,30,13)
 END_MAIN
 
 MiscBasedEvents:
+//https://fe6.triangleattack.com/chapters/the_binding_blade
+
+//RED: (0,15,8,18)
+//PaladinReinforcements, SouthWestWyvernReinforcementsLeft
+AreaEvent(Ch21_RedZoneActivatedFlag,ActivateRedZone,0,15,8,18)
+
+//ORANGE: (0,24,12,27)
+//SouthWestWyvernReinforcementsMiddle
+AreaEvent(Ch21_OrangeZoneActivatedFlag,ActivateOrangeZone,0,24,12,27)
+
+//BLUE: (30,6,21,0)
+//EastWyvernReinforcementsLeft, EastWyvernReinforcementsDown, SouthCenterWyvernReinforcements
+AreaEvent(Ch21_BlueZoneActivatedFlag,ActivateBlueZone,30,6,21,0)
+
+//PINK: (17,21,31,35)
+//EastWyvernReinforcementsRight, SouthWestWyvernReinforcementsRight
+AreaEvent(Ch21_PinkZoneActivatedFlag,ActivatePinkZone,17,21,31,35)
+
+//YELLOW: (12,21,31,24)
+//JustGalle, GalleSquad
+AreaEvent(Ch21_YellowZoneActivatedFlag,ActivateYellowZone,12,21,31,24)
+
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -82,7 +146,7 @@ YoderMulagir:
 UNIT Yoder Bishop 0x0 Level(20,Ally,0) [1,2] 0x0 0x0 0x0 0x0 [Recover, Lightning, Mulagir, SaintsStaff] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
-YogerMaltet:
+YoderMaltet:
 UNIT Yoder Bishop 0x0 Level(20,Ally,0) [1,2] 0x0 0x0 0x0 0x0 [Recover, Lightning, Maltet, SaintsStaff] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
@@ -137,21 +201,21 @@ UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [8,35] 0x0 0x0 0x0 0x0 [Steel
 UNIT GenericBern WyvernRider 0x0 Level(10,Enemy,1) [6,35] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
-EastWyvernReinforcements1:
+EastWyvernReinforcementsRight:
 UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,12] 0x0 0x0 0x1 REDA_30_11 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
 UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [31,11] 0x0 0x0 0x1 REDA_31_10 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,10] 0x0 0x0 0x1 REDA_30_9 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
 UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [30,11] 0x0 0x0 0x1 REDA_30_10 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat] //AI1_GaleSquad
 UNIT
 
-EastWyvernReinforcements2:
+EastWyvernReinforcementsLeft:
 UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [28,11] 0x0 0x0 0x1 REDA_27_10 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [28,11] 0x0 0x0 0x1 REDA_27_11 [SteelLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [27,10] 0x0 0x0 0x1 REDA_26_11 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(5,Enemy,1) [27,10] 0x0 0x0 0x1 REDA_26_10 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
-EastWyvernReinforcements3:
+EastWyvernReinforcementsDown:
 UNIT GenericBern WyvernLord 0x0 Level(13,Enemy,1) [31,15] 0x0 0x0 0x1 REDA_30_15 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [31,16] 0x0 0x0 0x1 REDA_29_15 [Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBern WyvernRider 0x0 Level(20,Enemy,1) [31,16] 0x0 0x0 0x1 REDA_29_16 [SteelLance, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
@@ -214,14 +278,189 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Dignified)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
+CHECK_HARD
+BEQ 1 s0 sC
+LOAD1 0x1 HardExtraEnemies
+LABEL 1
 ENUN
-ENDA
+FadeFromBlack
+
+FlagON(Ch21_RedZoneDoneFlag)
+FlagON(Ch21_OrangeZoneDoneFlag)
+FlagON(Ch21_BlueZoneDoneFlag)
+FlagON(Ch21_PinkZoneDoneFlag)
+FlagON(Ch21_YellowZoneDoneFlag)
+
+CAM1 Murdock
+FlashCursor(Murdock,60)
+Text(BG_Temple1,Ch21_Start1)
+PlayMusic(MUS_WhenTheRushComes)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+
+SetBackground(BG_Outside)
+TEXTSTART
+TEXTSHOW Ch21_Start2
+TEXTEND
+PlayMusic(MUS_ShockingTruth2)
+TEXTCONT
+TEXTEND
+REMA
+
+BranchIfFlagOFF(2,IlliaRouteFlag)
+//took illia route
+LOAD1 0x1 YoderMulagir
+ENUN
+GOTO 3
+//took sacae route
+LABEL 2
+LOAD1 0x1 YoderMaltet
+LABEL 3
+GotoPrepScreen
+
+SaulYoderTalk:
+Text(Ch21_SaulYoderTalk)
+EndEvent
+
+DorothyYoderTalk:
+Text(Ch21_DorothyYoderTalk)
+EndEvent
+
+MeladyGalleTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch21_MeladyGalleTalk)
+RestoreMusic
+EndEvent
+
+ZeissGalleTalk:
+SwitchMusic(MUS_CogsOfFate)
+Text(Ch21_ZeissGalleTalk)
+RestoreMusic
+EndEvent
+
+GaidenGone:
+LoadReinforcements(PeresSquad)
+BranchIfBossDead(9)
+Text(Ch21_GaidenGone)
+LABEL 9
+EndEvent
+
+KnightCrestVillageVisit:
+VillageEventItem(Ch21_KnightCrestVillage,BG_Village,KnightCrest)
+
+ActivateRedZone:
+PlayerInRange
+SetCounter(Ch21_RedZoneCounter, 3)
+FlagOFF(Ch21_RedZoneDoneFlag)
+EndEvent
+
+ActivateOrangeZone:
+PlayerInRange
+FlagOFF(Ch21_OrangeZoneDoneFlag)
+SetCounter(Ch21_OrangeZoneCounter, 3)
+EndEvent
+
+ActivateBlueZone:
+PlayerInRange
+FlagOFF(Ch21_BlueZoneDoneFlag)
+SetCounter(Ch21_BlueZoneCounter, 3)
+EndEvent
+
+ActivatePinkZone:
+PlayerInRange
+FlagOFF(Ch21_PinkZoneDoneFlag)
+SetCounter(Ch21_PinkZoneCounter, 3)
+EndEvent
+
+ActivateYellowZone:
+PlayerInRange
+FlagOFF(Ch21_YellowZoneDoneFlag)
+EndEvent
+
+RedZoneEvent:
+FlagOFF(Ch21_RedZoneDoneFlag)
+BranchIfCounterZero(8,Ch21_RedZoneCounter)
+LoadReinforcements(PaladinReinforcements)
+LoadReinforcements(SouthWestWyvernReinforcementsLeft)
+DecrementCounter(Ch21_RedZoneCounter)
+GOTO 9
+LABEL 8
+FlagON(Ch21_RedZoneDoneFlag)
+LABEL 9
+EndEvent
+
+OrangeZoneEvent:
+FlagOFF(Ch21_OrangeZoneDoneFlag)
+BranchIfCounterZero(8,Ch21_OrangeZoneCounter)
+LoadReinforcements(SouthWestWyvernReinforcementsMiddle)
+DecrementCounter(Ch21_OrangeZoneCounter)
+GOTO 9
+LABEL 8
+FlagON(Ch21_OrangeZoneDoneFlag)
+LABEL 9
+EndEvent
+
+BlueZoneEvent:
+FlagOFF(Ch21_BlueZoneDoneFlag)
+BranchIfCounterZero(8,Ch21_BlueZoneCounter)
+LoadReinforcements(EastWyvernReinforcementsLeft)
+LoadReinforcements(EastWyvernReinforcementsDown)
+LoadReinforcements(SouthCenterWyvernReinforcements)
+DecrementCounter(Ch21_BlueZoneCounter)
+GOTO 9
+LABEL 8
+FlagON(Ch21_BlueZoneDoneFlag)
+LABEL 9
+EndEvent
+
+PinkZoneEvent:
+FlagOFF(Ch21_PinkZoneDoneFlag)
+BranchIfCounterZero(8,Ch21_PinkZoneCounter)
+LoadReinforcements(EastWyvernReinforcementsRight)
+LoadReinforcements(SouthWestWyvernReinforcementsRight)
+DecrementCounter(Ch21_PinkZoneCounter)
+GOTO 9
+LABEL 8
+FlagON(Ch21_PinkZoneDoneFlag)
+LABEL 9
+EndEvent
+
+YellowZoneEvent:
+LoadReinforcements(JustGalle)
+PlayMusic(MUS_TheKingdomOfBern)
+LoadReinforcements(GalleSquad)
+CAM1 Galle
+FlashCursor(Galle,60)
+RestoreMusic
+EndEvent
 
 EndingScene:
+BranchIfUnitDead(5,Melady)
+BranchIfUnitDead(5,Zeiss)
+BranchIfFlagON(5,Ch21_GaidenGoneFlag)
+//gaiden got
+Text(BG_Temple2White,Ch21_EndGaidenGot)
+STAL 64
 MoveToChapter(CHAPTER_Ch21x)
+GOTO 9
+
+//epic fail
+LABEL 5
+CALL EVENT_BindingBladeAndRoyPromo
+
+LABEL 9
 ENDA
+
+ArmoryList:
+SHLI SilverSword SilverBlade Armorslayer SilverLance Horseslayer SilverAxe Halberd SilverBow
+
+VendorList:
+SHLI Thunder Elfire Lightning Divine Flux Heal Mend Physic PureWater DoorKey ChestKey5Uses
+
+SecretShopList:
+SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots Bolting Purge Eclipse
 
 MESSAGE Events end at offset CURRENTOFFSET

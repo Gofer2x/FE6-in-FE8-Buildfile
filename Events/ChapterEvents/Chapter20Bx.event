@@ -50,7 +50,15 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Seize(0x0,
+
+Seize(Ch20Bx_ThorilTriedFlag,TryThorilSeize,17,8)
+Seize(Ch20Bx_BrakulTriedFlag,TryBrakulSeize,21,15)
+Seize(Ch20Bx_KudokaTriedFlag,TryKudokaSeize,3,10)
+Seize(Ch20Bx_MarralTriedFlag,TryMarralSeize,8,14)
+Seize(Ch20Bx_KabulTriedFlag,TryKabulSeize,3,24)
+Seize(Ch20Bx_ChanTriedFlag,TryChanSeize,12,26)
+
+
 END_MAIN
 
 MiscBasedEvents:
@@ -310,7 +318,7 @@ EndingScene:
 PlayMusic(MUS_Triumph)
 Text(Ch20Bx_End)
 GiveItemToCharacter(Roy,Mulagir)
-SetBackground(Outside)
+SetBackground(BG_Outside)
 TEXTSTART
 TEXTSHOW Ch20B_Ch20Bx_EndRoyAndGuinivereTalk
 TEXTEND

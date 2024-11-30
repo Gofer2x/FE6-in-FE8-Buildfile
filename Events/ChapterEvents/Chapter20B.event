@@ -239,15 +239,15 @@ FlagOFF(Ch20B_SueDayanExtraTalkFlag)
 EndEvent
 
 SueDayanExtraTalk:
-MusicQuieter
+QuieterMusic
 Text(Ch20B_SueDayanTalk)
-MusicUnquieter
+UnquieterMusic
 EndEvent
 
-SueDayanExtraTalk:
-MusicQuieter
+SinDayanExtraTalk:
+QuieterMusic
 Text(Ch20B_SinDayanTalk)
-MusicUnquieter
+UnquieterMusic
 EndEvent
 
 

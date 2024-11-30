@@ -79,7 +79,7 @@ the truth lies in Bern.[AN][X]
 ## Ch20B_GaidenGone
 [OpenMidLeft][LoadSacaeGaidenBosses]Pigs from Etruria...![AN]
 I will avenge the Djute[N]
-right here, right now![AN]
+right here, right now![AN][X]
 
 ## Ch20B_DayanAppears
 [OpenMidLeft][LoadDayan]

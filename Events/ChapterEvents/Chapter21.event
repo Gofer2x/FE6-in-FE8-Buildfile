@@ -310,7 +310,7 @@ TEXTCONT
 TEXTEND
 REMA
 
-BranchIfFlagOFF(2,IlliaRouteFlag)
+BranchIfFlagON(2,SacaeRouteFlag)
 //took illia route
 LOAD1 0x1 YoderMulagir
 ENUN

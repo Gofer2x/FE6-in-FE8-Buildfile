@@ -204,7 +204,7 @@ LOAD3 0x0 Units
 ENUN
 CAM1 Roy
 
-BranchIfFlagOFF(1,WestIslesEchidnaRouteFlag)
+BranchIfFlagON(1,WestIslesBartreRouteFlag)
 Text(BG_Outside,Ch12_Start3EchidnaRoute)
 GOTO 9
 
@@ -320,7 +320,7 @@ EndEvent
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle2,Ch12_End1)
-BranchIfFlagON(1,WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
+BranchIfFlagOFF(1,WestIslesBartreRouteFlag) //did we go echidna or bartre route?
 
 //bartre route
 BranchIfUnitDead(8,Elffin) //if elffin dead, fail and go to label 8

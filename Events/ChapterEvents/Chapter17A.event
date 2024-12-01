@@ -157,7 +157,6 @@ PlayMusic(MUS_Dignified)
 LOAD1 0x1 Enemies
 ENUN
 FadeFromBlack
-FlagON(IlliaRouteFlag)
 DISA Arcardo
 FlashCursor(29,3,60)
 Text(BG_Castle2,Ch17A_Start1)

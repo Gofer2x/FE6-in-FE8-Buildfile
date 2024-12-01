@@ -247,13 +247,13 @@ Text(BG_Castle1,Ch9_End1)
 
 BranchIfFlagOFF(1,Ch9_LeftVillageVisitedFlag)
 //left visited, go to echidna route
-FlagON(WestIslesEchidnaRouteFlag)
 Text(BG_Castle1,Ch9_EndNorth)
 MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 1
 BranchIfFlagOFF(2,Ch9_LeftVillageVisitedFlag)
+FlagON(WestIslesBartreRouteFlag)
 Text(BG_Castle1,Ch9_EndWest)
 MoveToChapter(CHAPTER_Ch10B)
 GOTO 9

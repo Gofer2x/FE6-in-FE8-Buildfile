@@ -13,6 +13,15 @@
 // 0x5
 //RoutFlag 0x6
 
+//i don't think this is gonna work
+#define Ch21x_WestLeftChestTrappedFlag 0x7
+#define Ch21x_WestRightChestTrappedFlag 0x8
+#define Ch21x_CenterLeftChestTrappedFlag 0x9
+#define Ch21x_CenterRightChestTrappedFlag 0xA
+#define Ch21x_EastLeftChestTrappedFlag 0xB
+#define Ch21x_EastRightChestTrappedFlag 0xC
+
+
 EventPointerTable(EVENTS_Ch21x,ThisChapter)
 
 ALIGN 4
@@ -37,6 +46,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(15,1)
+//the chest traps are gonna be oof
 END_MAIN
 
 MiscBasedEvents:
@@ -115,18 +126,114 @@ UNIT GenericBern Hero 0x0 Level(10,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [BraveSword] 
 UNIT GenericBern Druid 0x0 Level(8,Enemy,1) [15,10] 0x0 0x0 0x0 0x0 [Silence, Fenrir, Physic] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
+WestLeftChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [3,1] 0x0 0x0 0x1 REDA_3_0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+WestRightChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [6,1] 0x0 0x0 0x1 REDA_6_0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CenterLeftChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [14,12] 0x0 0x0 0x1 REDA_14_11 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+CenterRightChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_11 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+EastLeftChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [25,1] 0x0 0x0 0x1 REDA_25_0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
+EastRightChestManakete:
+UNIT GenericManakete FireManakete 0x0 Level(12,Enemy,1) [29,1] 0x0 0x0 0x1 REDA_29_0 [Firestone] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT
+
 ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+//FlagON(Ch21x_WestLeftChestTrappedFlag)
+//FlagON(Ch21x_WestRightChestTrappedFlag)
+//FlagON(Ch21x_CenterLeftChestTrappedFlag)
+//FlagON(Ch21x_CenterLeftChestTrappedFlag)
+//FlagON(Ch21x_EastLeftChestTrappedFlag)
+//FlagON(Ch21x_EastRightChestTrappedFlag)
+FadeFromBlack
+CAM1 [15,1]
+FlashCursor(15,1,60)
+Text(BG_Temple2White,Ch21x_Start)
+PlayMusic(MUS_ScarsOfTheScouring)
+LOAD3 0x0 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Temple2White,Ch21x_Start2Melady)
+GotoPrepScreen
+
+WestLeftChest:
+BranchIfFlagON(3,Ch21x_WestLeftChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(WestLeftChestManakete)
+LABEL 9
+EndEvent
+
+WestRightChest:
+BranchIfFlagON(3,Ch21x_WestRightChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(WestRightChestManakete)
+LABEL 9
+EndEvent
+
+CenterLeftChest:
+BranchIfFlagON(3,Ch21x_CenterLeftChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(CenterLeftChestManakete)
+LABEL 9
+EndEvent
+
+CenterRightChest:
+BranchIfFlagON(3,Ch21x_CenterRightChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(CenterRightChestManakete)
+LABEL 9
+EndEvent
+
+EastLeftChest:
+BranchIfFlagON(3,Ch21x_EastLeftChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(EastLeftChestManakete)
+LABEL 9
+EndEvent
+
+EastRightChest:
+BranchIfFlagON(3,Ch21x_EastRightChestTrappedFlag)
+GiveItemToCurrent(Elixir)
+GOTO 9
+LABEL 3
+LoadReinforcements(EastRightChestManakete)
+LABEL 9
+EndEvent
 
 EndingScene:
-MoveToChapter(CHAPTER_Ch22)
+PlayMusic(MUS_Triumph)
+Text(BG_Temple2White,Ch21x_End)
+GiveItemToCharacter(Roy,Apocalypse)
+STAL 64
+CALL EVENT_BindingBladeAndRoyPromo 
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -139,7 +139,7 @@ GotoPrepScreen
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
-BranchIfFlagON(1, WestIslesEchidnaRouteFlag) //did we go echidna or bartre route?
+BranchIfFlagOFF(1, WestIslesBartreRouteFlag) //did we go echidna or bartre route?
 
 //bartre route
 BranchIfUnitDead(2,Elffin) //if bartre route and elffin dead, elfinless dialogue

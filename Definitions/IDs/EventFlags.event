@@ -12,9 +12,9 @@
 #define RoyCathTalkFlag1 0x78
 #define RoyCathTalkFlag2 0x79
 #define CathRecruitedOrDeadFlag 0x7A
-#define WestIslesBartreRouteFlag 0x7B //off means echidna route
+#define WestIslesBartreRouteFlag 0x7B //off means echidna route, on means bartre route
 #define PercevalRecruitedOrDeadFlag 0x7C //for ch15
-#define SacaeRouteFlag 0x7D //on means sacae route
+#define SacaeRouteFlag 0x7D //off means illia route, on means sacae route
 #define GlobalFlag7E 0x7E
 #define TriangleAttackDialogFlag1 0x7F
 #define TriangleAttackDialogFlag2 0x80

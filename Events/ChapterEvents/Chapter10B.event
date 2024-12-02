@@ -202,19 +202,19 @@ UNIT GenericSoldierWestIsles Cavalier 0x0 Level(12,Enemy,1) [1,29] 0x0 0x0 0x1 R
 UNIT
 
 CutsceneElffin:
-UNIT Elffin Bard 0x0 Level(6,NPC,1) [16,7] 0x0 0x0 0x0 0x0 [SilverBow, WhiteGem] DummyAI
+UNIT Elffin Bard 0x0 Level(1,NPC,1) [16,7] 0x0 0x0 0x0 0x0 [Vulnerary, AngelicRobe, BlueGem] DummyAI
 UNIT
 
 CutsceneGalle:
-UNIT Galle WyvernLord 0x0 Level(6,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [SilverBow, WhiteGem] DummyAI
+UNIT Galle WyvernLord 0x0 Level(18,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [Spear] DummyAI
 UNIT
 
 CutsceneMelady:
-UNIT Melady WyvernRiderF 0x0 Level(6,Enemy,1) [20,2] 0x0 0x0 0x1 REDA_6_1 [SilverBow, WhiteGem] DummyAI
+UNIT Melady WyvernRiderF 0x0 Level(10,Enemy,1) [20,2] 0x0 0x0 0x1 REDA_6_1 [SteelLance] DummyAI
 UNIT
 
 CutsceneThea:
-UNIT Thea PegasusKnight 0x0 Level(6,Enemy,1) [17,31] 0x0 0x0 0x1 REDA_20_30 [SilverBow, WhiteGem] DummyAI
+UNIT Thea PegasusKnight 0x0 Level(8,Enemy,1) [17,31] 0x0 0x0 0x1 REDA_20_30 [SlimLance, Javelin] DummyAI
 UNIT
 
 ALIGN 4
@@ -358,13 +358,8 @@ VillageEventItem(Ch10B_BarrierVillage,BG_Village,Barrier)
 MaryVillageVisit:
 QuieterMusic
 
-SVAL s1 Ward
-CHECK_ACTIVE
-BEQ 1 s1 sC
-
-SVAL s1 Lot
-CHECK_ACTIVE
-BEQ 2 s1 sC
+BranchIfUnitActive(1,Ward)
+BranchIfUnitActive(2,Lot)
 
 //default case
 Text(BG_Village,Ch10B_MaryVillageNotLotWard)
@@ -390,13 +385,8 @@ EndEvent
 MieuVillageVisit:
 QuieterMusic
 
-SVAL s1 Ward
-CHECK_ACTIVE
-BEQ 1 s1 sC
-
-SVAL s1 Lot
-CHECK_ACTIVE
-BEQ 2 s1 sC
+BranchIfUnitActive(1,Ward)
+BranchIfUnitActive(2,Lot)
 
 //default case
 Text(BG_Village,Ch10B_MieuVillageNotLotWard)

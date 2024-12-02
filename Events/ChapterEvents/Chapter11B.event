@@ -175,7 +175,7 @@ UNIT GenericBanditWestIsles Pirate 0x0 Level(7,Enemy,1) [26,24] 0x0 0x0 0x0 0x0 
 UNIT
 
 CutsceneArcardo:
-UNIT Arcardo Paladin 0x0 Level(6,Enemy,0) [2,25] 0x0 0x0 0x0 0x0 [SilverAxe, Horseslayer, Javelin] [AI1_InPlace, AI2_DontMove, RAI_50_100|0x60, AI4_DontRetreat]
+UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [2,25] 0x0 0x0 0x0 0x0 [SilverAxe, Javelin] DummyAI
 UNIT
 
 ALIGN 4

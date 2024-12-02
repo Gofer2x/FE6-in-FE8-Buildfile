@@ -225,23 +225,23 @@ UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [23,24] 0x0 0x0 0x0 0x0 
 UNIT
 
 CutsceneMelady:
-UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [27,2] 0x0 0x0 0x0 0x0 [Divine] DummyAI
+UNIT Melady WyvernRiderF 0x0 Level(10,Enemy,1) [27,2] 0x0 0x0 0x0 0x0 [SteelLance] DummyAI
 UNIT
 
 CutsceneMelady2:
-UNIT Melady WyvernRiderF 0x0 Level(8,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_27_12 [Divine] DummyAI
+UNIT Melady WyvernRiderF 0x0 Level(10,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_27_12 [SteelLance] DummyAI
 UNIT
 
 CutsceneGalle:
-UNIT Galle WyvernRider 0x0 Level(8,Enemy,1) [29,14] 0x0 0x0 0x1 REDA_27_13 [Divine] DummyAI
+UNIT Galle WyvernRider 0x0 Level(18,Enemy,1) [29,14] 0x0 0x0 0x1 REDA_27_13 [Spear] DummyAI
 UNIT
 
 CutsceneThea:
-UNIT Thea PegasusKnight 0x0 Level(8,Enemy,1) [18,25] 0x0 0x0 0x1 REDA_21_24 [Divine] DummyAI
+UNIT Thea PegasusKnight 0x0 Level(8,Enemy,1) [18,25] 0x0 0x0 0x1 REDA_21_24 [SlimLance, Javelin] DummyAI
 UNIT
 
 CutsceneElffin:
-UNIT Elffin Bard 0x0 Level(8,NPC,1) [29,3] 0x0 0x0 0x1 REDA_27_2 [Divine] DummyAI
+UNIT Elffin Bard 0x0 Level(1,NPC,1) [29,3] 0x0 0x0 0x1 REDA_27_2 [Vulnerary, AngelicRobe, BlueGem] DummyAI
 UNIT
 
 ALIGN 4
@@ -343,9 +343,11 @@ EndEvent
 EchidnaAppears:
 SwitchMusic(MUS_AnUnexpectedCaller)
 CAM1 [18,10]
-LoadReinforcements(EchidnaFighters)
+LOAD1 0x1 EchidnaFighters
+ENUN
 Text(Ch11A_EchidnaAppears1)
-LoadReinforcements(JustEchidna)
+LOAD1 0x1 JustEchidna
+ENUN
 Text(Ch11A_EchidnaAppears2)
 RestoreMusic
 EndEvent

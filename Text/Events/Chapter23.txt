@@ -136,7 +136,7 @@ If only I could have been[N]
 there with you...[AN]
 [OpenMidRight][NormalPrint][ToggleMouthMove]......[AN][X]
 
-## Ch23_KarelRoyTalk
+## Ch23_RoyKarelTalk
 [OpenMidLeft][LoadKarel][OpenMidRight][LoadRoy]
 [OpenMidLeft]Are you Roy?[AN]
 [OpenMidRight]Who are you?[AN]
@@ -178,7 +178,7 @@ but she fell ill some time ago.[AN]
 I only hope she leads a peaceful[N]
 life with her husband and daughter...[AN][X]
 
-## Ch23_KarelFirTalk
+## Ch23_FirKarelTalk
 [OpenMidLeft][LoadKarel][OpenMidRight][LoadFir][NormalPrint][ToggleSmile]Uncle![AN]
 [OpenMidLeft][FastPrint][ToggleSmile]...Fir?[N]
 Is that you?[AN]
@@ -232,7 +232,7 @@ The last time I saw you,[N]
 you couldn't even walk yet.[AN]
 [OpenMidRight]Uncle...[AN][X]
 
-## Ch23_KarelBartreTalk
+## Ch23_BartreKarelTalk
 [OpenMidLeft][LoadKarel][OpenMidRight][LoadBartre][ToggleSmile][FastPrint]Karel?![AN]
 [OpenMidLeft][CloseSpeechFast][ToggleSmile]Bartre?[N]
 What are you doing here?[AN]
@@ -270,7 +270,7 @@ You have my sword.[AN]
 With your skills,[N]
 victory is as good as ours![AN][X]
 
-## Ch23_KarelVillageFail
+## Ch23_KarelVillageDefault
 [OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadKarel]
 [ToggleSmile]This village has none who[N]
 wish to join your fight.[AN]

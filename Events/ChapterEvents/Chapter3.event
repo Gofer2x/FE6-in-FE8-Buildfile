@@ -133,13 +133,13 @@ UNIT GenericBern Fighter Slater Level(4,Enemy,1) [22,5] 0x0 0x0 0x0 0x0 [IronAxe
 UNIT
 
 CutsceneBishop:
-UNIT Orlo Bishop Roy Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_5_4 [] DummyAI
+UNIT Orlo Bishop 0x0 Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_5_4 [] DummyAI
 UNIT
 
 CutsceneKids:
-UNIT Cath Child Roy Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_4_4 [] DummyAI
-UNIT Raigh ChildF Roy Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_4_5 [] DummyAI
-UNIT Lilina ChildF Roy Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_3_4 [] DummyAI
+UNIT Cath Child Orlo Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_4_4 [] DummyAI
+UNIT Raigh ChildF Orlo Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_4_5 [] DummyAI
+UNIT Lilina ChildF Orlo Level(1,NPC,0) [3,3] 0x0 0x0 0x1 REDA_3_4 [] DummyAI
 UNIT
 
 ALIGN 4
@@ -195,16 +195,17 @@ EndEvent
 
 NorthVillageVisit:
 SwitchMusic(MUS_JoinUs)
-CHECK_ACTIVE
-SVAL s1 Chad
-BNE 0 s1 sC
+
+BranchIfUnitActive(1,Chad)
+
+Text(BG_Village, Ch3_LughVillage)
+GOTO 3
+
+LABEL 1
 Text(BG_Village, Ch3_ChadLughVillage)
 FlagON(Ch3_ChadLughTalkFlag)
-GOTO 1
-LABEL 0
-Text(BG_Village, Ch3_LughVillage)
-LABEL 1
-REMA
+
+LABEL 3
 RestoreMusic
 LOAD1 0x1 JustLugh
 ENUN

@@ -138,16 +138,16 @@ UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [29,3] 0x0 0x0 0x0 0x0 [SilverAxe, Ja
 UNIT
 
 CutsceneGalleMudrock:
-UNIT Galle WyvernLord 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_28_7 [SteelAxe, Vulnerary] DummyAI
-UNIT Murdock General 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_29_7 [SteelAxe, Vulnerary] DummyAI
+UNIT Galle WyvernLord 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_28_7 [Spear] DummyAI
+UNIT Murdock General 0x0 Level(20,Enemy,1) [29,3] 0x0 0x0 0x1 REDA_29_7 [Tomahawk] DummyAI
 UNIT
 
 CutsceneRoartz:
-UNIT Roartz General 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x0 0x0 [SteelAxe] DummyAI
+UNIT Roartz General 0x0 Level(18,Enemy,1) [29,3] 0x0 0x0 0x0 0x0 [Spear] DummyAI
 UNIT
 
 CutsceneYoder:
-UNIT Yoder Bishop 0x0 Level(18,NPC,1) [3,20] 0x0 0x0 0x0 0x0 [SteelAxe] DummyAI
+UNIT Yoder Bishop 0x0 Level(18,NPC,1) [3,20] 0x0 0x0 0x0 0x0 [Recover, Lightning] DummyAI
 UNIT
 
 ALIGN 4

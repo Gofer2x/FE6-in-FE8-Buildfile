@@ -203,23 +203,23 @@ UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [Steel
 UNIT
 
 CutsceneLegance:
-UNIT Legance General 0x0 Level(12,Enemy,0) [11,0] 0x0 0x0 0x1 REDA_5_1 [KillerLance, Javelin] DummyAI
+UNIT Legance General 0x0 Level(1,Enemy,0) [11,0] 0x0 0x0 0x1 REDA_5_1 [SteelLance, Javelin] DummyAI
 UNIT
 
 CutsceneFir:
-UNIT Fir MyrmidonF 0x0 Level(12,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_17 [KillerLance, Javelin] DummyAI
+UNIT Fir MyrmidonF 0x0 Level(1,NPC,0) [6,16] 0x0 0x0 0x1 REDA_6_17 [WoDao, Vulnerary] DummyAI
 UNIT
 
 ALIGN 4
 
 BeginningScene:
+PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 CHECK_HARD
 BEQ 1 s0 sC
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN
-PlayMusic(MUS_DeerOfThePlains)
 FadeFromBlack
 FlagON(Ch7_ConvoFlagD)
 FlagON(Ch7_ThroneEnemiesFlag)

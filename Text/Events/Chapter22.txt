@@ -111,7 +111,7 @@ Victory will be ours![AN][X]
 Castle Bern... A worthy target[N]
 for the Master Thief.[AN]
 I'm sure there's mountains of[N]
-gold hidden in here somewhere![AN]
+gold hidden in here somewhere![AN][X]
 
 ## Ch22_Switch1
 [OpenMidRight][LoadCurrentCharacter]
@@ -203,7 +203,7 @@ and in yourself.[AN]
 I believe in mankind, and I know[N]
 that your lunacy must be stopped![AN][X]
 
-## Ch22_EndTrue1
+## Ch22_EndTrue
 [OpenRight][LoadRoy][ToggleSmile]Zephiel has fallen...[AN][SendToBack]
 [OpenFarRight][LoadMerlinus]We've done it,[N]
 Lord Roy.[AN][SendToBack]
@@ -214,9 +214,10 @@ Lord Roy.[AN][SendToBack]
 nowhere to be found...[AN][SendToBack]
 [OpenFarRight]...She must have[N]
 escaped.[AN][SendToBack]
-[OpenRight]...So it seems.[AN][X]
+[OpenRight]...So it seems.[AN]
 
-## Ch22_EndTrue2
+[LoadOverworldFaces]
+
 [SendToBack][OpenFarRight][ToggleSmile]What...?[.....]
 What was that?[AN][SendToBack]
 [OpenRight]Zephiel's sword...[N]
@@ -245,13 +246,13 @@ higher level than the legendary weapons...[AN]
 It may be its own entity, beyond compare[N]
 to even the legendary weapons...[AN]
 [OpenRight]More powerful than the legendary weapons...?[N]
-What power lies in this sword?[AN][X]
-
-## Ch22_EndTrue3
+What power lies in this sword?[AN]
 [SendToBack][OpenFarRight][ToggleSmile]The sword is glowing again![AN]
 The light is pointing[N]
 to the south![AN][SendToBack]
+
 [LoadOverworldFaces]
+
 [OpenRight]
 Will the light lead us[N]
 to the Dragon Sanctuary?[AN]

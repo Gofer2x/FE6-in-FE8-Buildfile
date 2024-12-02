@@ -175,28 +175,28 @@ UNIT GenericEtruria Troubadour Flaer Level(15,Enemy,1) [1,21] 0x0 0x0 0x1 REDA_0
 UNIT
 
 CutsceneGuinivere:
-UNIT GuinivereTrial SageF 0x0 Level(20,NPC,0) [44,10] 0x0 0x0 0x1 REDA_43_10 [] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GuinivereTrial SageF 0x0 Level(20,NPC,0) [44,10] 0x0 0x0 0x1 REDA_43_10 [Divine, Recover] DummyAI
 UNIT
 
 CutsceneIdunn2:
-UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [43,9] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [43,9] 0x0 0x0 0x0 0x0 [Elixir] DummyAI
 UNIT
 
 CutsceneNarcian:
-UNIT Narcian WyvernLord 0x0 Level(8,Enemy,0) [45,23] 0x0 0x0 0x1 REDA_45_12 [Runesword, DelphiShield] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Narcian WyvernLord 0x0 Level(8,Enemy,0) [45,23] 0x0 0x0 0x1 REDA_45_12 [Runesword, DelphiShield] DummyAI
 UNIT
 
 CutsceneNarcian2:
-UNIT Narcian WyvernLord 0x0 Level(8,Enemy,0) [43,9] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Narcian WyvernLord 0x0 Level(8,Enemy,0) [43,9] 0x0 0x0 0x0 0x0 [Runesword, DelphiShield] DummyAI
 UNIT
 
 CutsceneZephiel2:
-UNIT Zephiel King 0x0 Level(20,Enemy,0) [43,9] 0x0 0x0 0x1 REDA_43_10 [Eckesachs] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Zephiel King 0x0 Level(20,Enemy,0) [43,9] 0x0 0x0 0x1 REDA_43_10 [Eckesachs] DummyAI
 UNIT
 
 CutsceneZephielIdunn:
-UNIT Zephiel King 0x0 Level(20,Enemy,0) [42,21] 0x0 0x0 0x0 0x0 [Eckesachs] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [42,23] 0x0 0x0 0x0 0x0 [] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Zephiel King 0x0 Level(20,Enemy,0) [42,21] 0x0 0x0 0x0 0x0 [Eckesachs] DummyAI
+UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [42,23] 0x0 0x0 0x0 0x0 [Elixir] DummyAI
 UNIT
 
 ALIGN 4
@@ -301,10 +301,14 @@ MeladyJoins:
 SwitchMusic(MUS_PrincessOfDestiny)
 CAM1 [43,9]
 Text(BG_Castle1,Ch13_GuinivereTalksToMelady)
-LoadReinforcements(JustMelady)
+LOAD1 0x1 JustMelady
+ENUN
+CMON
 //TODO this doesn't exist. patch? or something?
+MOVE 0x0 Melady [4,18]
 //MOVENEXTTO 0x0 Melady Roy
 //ENUN
+CMOF
 Text(Ch13_MeladyRecruitsHerself)
 TurnAlly(Melady)
 RestoreMusic

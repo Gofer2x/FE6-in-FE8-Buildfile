@@ -17,6 +17,9 @@
 #define BranchIfCounterEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BEQ label s1 sC"
 #define BranchIfCounterNotEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BNE label s1 sC"
 
+#define BranchIfUnitActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BEQ label s1 sC"
+#define BranchIfUnitNotActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BNE label s1 sC"
+
 #define SetCounter(counter,value) "COUNTER_SET counter value"
 
 #define IncrementCounter(counter) "COUNTER_ADD counter"
@@ -73,6 +76,9 @@
 #define FadeFromWhite(speed) "FAWU speed"
 #define FadeIntoWhite "FAWI 60"
 #define FadeIntoWhite(speed) "FAWI speed"
+
+//16 fastest, 1 slowest
+#define FlashWhiteAdjustable(speed) "FAWI speed ; FAWU speed"
 
 #define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
 

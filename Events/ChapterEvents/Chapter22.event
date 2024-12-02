@@ -13,6 +13,13 @@
 // 0x5
 //RoutFlag 0x6
 
+#define Ch22_RoyCathTalkFlag 0x7
+#define Ch22_WestSwitchFlag 0x8
+#define Ch22_EastSwitchFlag 0x9
+#define Ch22_ThroneRoomOpenFlag 0xA
+
+
+
 EventPointerTable(EVENTS_Ch22,ThisChapter)
 
 ALIGN 4
@@ -30,16 +37,48 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,CathAndAThiefAppear,10)
+TurnEventEnemy(0x0,LoadBishopReinforcements,10)
+TurnEventEnemy(0x0,LoadBishopReinforcements,15)
+TurnEventEnemy(0x0,LoadBishopReinforcements,20)
+TurnEventEnemy(0x0,LoadBishopReinforcements,25)
+TurnEventEnemy(0x0,LoadBishopReinforcements,30)
+TurnEventEnemy(0x0,LoadBishopReinforcements,35)
+TurnEventEnemy(0x0,LoadBishopReinforcements,40)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,9)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,12)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,15)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,18)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,21)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,24)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,27)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,30)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,33)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,36)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,39)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,42)
+TurnEventEnemy(0x0,LoadThroneRoomReinforcementsIfOpen,45)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+CharacterEvent(Ch22_RoyCathTalkFlag,EVENT_CathRecruitment,Roy,Cath)
 END_MAIN
 
 LocationBasedEvents:
+Seize(15,8)
+Chest(1,8,Sleep)
+Chest(1,10,WhiteGem)
+Chest(1,12,Nosferatu)
+Chest(29,8,Wyrmslayer)
+Chest(29,11,Dragonshield)
+Chest(29,14,Swordreaver)
 END_MAIN
 
 MiscBasedEvents:
+AreaEvent(Ch22_WestSwitchFlag,WestSwitch,1,0,1,6)
+AreaEvent(Ch22_EastSwitchFlag,EastSwitch,30,0,30,0)
+AreaEvent(Ch22_ThroneRoomOpenFlag,ThroneRoomOpens,14,20,16,20)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -166,14 +205,122 @@ ALIGN 4
 
 BeginningScene:
 MUSC MUS_TheKingOfBern
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+CHECK_HARD
+BEQ 1 s0 sC
+LOAD1 0x1 HardExtraEnemies
+LABEL 1
+FadeFromBlack
+
+BranchIfFlagON(2,CathRecruitedOrDeadFlag)
+FlagON(Ch22_RoyCathTalkFlag)
+LABEL 2
+
+CAM1 [18,19]
+Text(BG_Castle2,Ch22_Start1)
+CAM1 [1,0]
+FlashCursor(1,0,60)
+Text(Ch22_Start2)
+CAM1 [30,0]
+FlashCursor(30,0,60)
+Text(Ch22_Start3)
+LOAD3 0x0 Units
+ENUN
+PlayMusic(MUS_ShockingTruth2)
+CAM1 Roy
+FlashCursor(Roy,60)
+Text(BG_Castle2,Ch22_Start4)
+GotoPrepScreen
+
+CathAndAThiefAppear:
+BranchIfFlagON(3,CathRecruitedOrDeadFlag)
+SwitchMusic(MUS_GoingMyWay)
+LoadReinforcements(JustCath)
+Text(Ch22_CathAppears)
+RestoreMusic
+LABEL 3
+LoadReinforcements(ThiefReinforcements)
+EndEvent
+
+LoadBishopReinforcements:
+ReinforcementEvent(BishopReinforcements)
+
+LoadThroneRoomReinforcementsIfOpen:
+BranchIfFlagOFF(9,Ch22_ThroneRoomOpenFlag)
+LoadReinforcements(ThroneRoomReinforcements)
+LABEL 9
+EndEvent
+
+WestSwitch:
+PlayerInRange
+QuieterMusic
+Text(Ch22_Switch1)
+UnquieterMusic
+EndEvent
+
+EastSwitch:
+PlayerInRange
+QuieterMusic
+Text(Ch22_Switch2)
+UnquieterMusic
+EndEvent
+
+ThroneRoomOpens:
+PlayerInRange
+BranchIfUnitNotActive(5,Roy)
+BranchIfFlagOFF(5,Ch22_EastSwitchFlag)
+BranchIfFlagOFF(5,Ch22_WestSwitchFlag)
+SwitchMusic(MUS_TheKingOfBern)
+TILECHANGE 0
+Text(BG_Castle2,Ch22_ThroneRoomOpen)
+LoadReinforcements(SouthWestReinforcements)
+LoadReinforcements(SouthEastReinforcements)
+RestoreMusic
+GOTO 9
+
+LABEL 5
+FlagOFF(Ch22_ThroneRoomOpenFlag)
+LABEL 9
+EndEvent
+
+
+
+
+
+
+EndEvent
+
+
 
 EndingScene:
+//TODO check for leg weapons and GOTO 1 or GOTO 3
+FadeOutMusic
+
+LABEL 1
+SetBackground(BG_Castle2)
+TEXTSTART
+TEXTSHOW Ch22_EndTrue
+TEXTEND
+//TODO play flash sound effect
+FlashWhiteAdjustable(16)
+//TODO play flash sound effect
+FlashWhiteAdjustable(16)
+PlayMusic(MUS_ThePathToGreatness)
+TEXTCONT
+TEXTEND
+//TODO play longer flash sound effect
+FlashWhiteAdjustable(12)
+TEXTCONT
+TEXTEND
+REMA
 MoveToChapter(CHAPTER_Ch23)
+GOTO 9
+
+LABEL 3
+//MoveToChapter(CHAPTER_Epilogue) //TODO not implemented, you just get softlocked for now lol
+
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

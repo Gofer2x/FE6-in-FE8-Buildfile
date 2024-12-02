@@ -167,7 +167,7 @@ UNIT GenericBern WyvernRider 0x0 Level(13,Enemy,1) [30,0] 0x0 0x0 0x0 0x0 [Steel
 UNIT
 
 CutsceneFlaer:
-UNIT Flaer WyvernLord 0x0 Level(1,Enemy,0) [12,6] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Def, AI4_Retreat]
+UNIT Flaer WyvernLord 0x0 Level(2,Enemy,0) [12,6] 0x0 0x0 0x0 0x0 [Spear] DummyAI
 UNIT
 
 ALIGN 4

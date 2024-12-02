@@ -145,7 +145,7 @@ UNIT GenericLaus Cavalier 0x0 Level(4,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_28_8 [Iro
 UNIT
 
 CutsceneNarcian:
-UNIT Narcian WyvernLord 0x0 Level(1,Enemy,0) [18,10] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] DummyAI
+UNIT Narcian WyvernLord 0x0 Level(10,Enemy,0) [18,10] 0x0 0x0 0x0 0x0 [Runesword, DelphiShield] DummyAI
 UNIT
 
 ALIGN 4

@@ -89,8 +89,8 @@ UNIT Merlinus Transporter Roy Level(1,Ally,0) [18,15] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
 CutsceneSaulDorothy:
-UNIT Saul Priest Dory Level(5,NPC,1) [10,3] 0x0 0x0 0x1 REDA_10_4 [] DummyAI
-UNIT Dorothy ArcherF Dory Level(6,NPC,1) [10,2] 0x0 0x0 0x1 REDA_10_3 [] DummyAI
+UNIT Saul Priest Dory Level(5,NPC,1) [10,3] 0x0 0x0 0x1 REDA_10_4 [Mend] DummyAI
+UNIT Dorothy ArcherF Dory Level(6,NPC,1) [10,2] 0x0 0x0 0x1 REDA_10_3 [SteelBow, Vulnerary] DummyAI
 UNIT
 
 Enemies:

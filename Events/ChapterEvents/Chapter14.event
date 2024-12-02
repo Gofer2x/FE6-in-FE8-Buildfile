@@ -281,14 +281,12 @@ EndEvent
 
 SophiaGuidingRing:
 PlayerInRange
-SVAL s1 Sophia
-CHECK_ACTIVE
-BEQ 1 s1 sC
-FlagOFF(Ch14_SophiaGuidingRingFlag)
-GOTO 9
-LABEL 1
+BranchIfUnitNotActive(1,Sophia)
 Text(Ch14_SophiaFindsGuidingRing)
 GiveItemToCharacter(Sophia,GuidingRing)
+GOTO 9
+LABEL 1
+FlagOFF(Ch14_SophiaGuidingRingFlag)
 LABEL 9
 EndEvent
 

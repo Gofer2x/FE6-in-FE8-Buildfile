@@ -133,8 +133,8 @@ UNIT GenericPirateWestIsles Pirate 0x0 Level(11,Enemy,1) [7,5] 0x0 0x0 0x0 0x0 [
 UNIT
 
 CutsceneCeciliaGuinivere:
-UNIT Cecilia Valkyrie Scott Level(1,NPC,0) [19,16] 0x0 0x0 0x0 0x0 [WoDao, Vulnerary] DummyAI
-UNIT GuinivereTrial SageF Scott Level(1,NPC,0) [18,16] 0x0 0x0 0x0 0x0 [WoDao, Vulnerary] DummyAI
+UNIT Cecilia Valkyrie 0x0 Level(1,NPC,0) [19,16] 0x0 0x0 0x0 0x0 [Aircalibur, Mend] DummyAI
+UNIT GuinivereTrial SageF 0x0 Level(20,NPC,0) [18,16] 0x0 0x0 0x0 0x0 [Divine, Recover] DummyAI
 UNIT
 
 ALIGN 4

@@ -138,7 +138,7 @@ UNIT GenericSacae Thief 0x0 Level(17,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [PoisonSwor
 UNIT
 
 CutsceneYoder:
-UNIT Yoder Bishop 0x0 Level(10,NPC,0) [2,1] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] DummyAI
+UNIT Yoder Bishop 0x0 Level(10,NPC,0) [2,1] 0x0 0x0 0x0 0x0 [Recover, Lightning] DummyAI
 UNIT
 
 ALIGN 4

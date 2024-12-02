@@ -146,8 +146,8 @@ UNIT GenericEtruria Bishop 0x0 Level(1,Enemy,1) [22,6] 0x0 0x0 0x0 0x0 [Lightnin
 UNIT GenericEtruria Sniper 0x0 Level(6,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [SilverBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT GenericEtruria Sniper 0x0 Level(5,Enemy,1) [5,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT Douglas General 0x0 Level(10,Enemy,0) [3,6] 0x0 0x0 0x0 0x0 [SilverAxe] [AI1_Douglas, AI2_Douglas, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT Roartz General 0x0 Level(6,Enemy,0) [4,7] 0x0 0x0 0x0 0x0 [SilverLance] DummyAI
-UNIT Arcardo Paladin 0x0 Level(5,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverLance] DummyAI
+UNIT Roartz General 0x0 Level(10,Enemy,0) [4,7] 0x0 0x0 0x0 0x0 [Spear] DummyAI
+UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverAxe, Javelin] DummyAI
 UNIT Hugh Mage 0x0 Level(15,Enemy,0) [22,11] 0x0 0x0 0x0 0x0 [Elfire, MemberCard, Elixir] [AI1_InRange, AI2_MoveTowardsRoy, RAI_80_100|TAI_HP, AI4_Retreat]
 UNIT
 
@@ -172,11 +172,11 @@ UNIT GenericEtruria Mage 0x0 Level(14,Enemy,1) [30,22] 0x0 0x0 0x0 0x0 [Bolting]
 UNIT
 
 CutsceneGalle:
-UNIT Galle WyvernLord 0x0 Level(10,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_1 [BraveLance] DummyAI
+UNIT Galle WyvernLord 0x0 Level(18,Enemy,0) [1,0] 0x0 0x0 0x1 REDA_1_1 [Spear] DummyAI
 UNIT
 
 CutsceneMurdock:
-UNIT Murdock General 0x0 Level(10,Enemy,0) [14,4] 0x0 0x0 0x0 0x0 [Javelin, SilverSword, Speedwings, BlueGem] DummyAI
+UNIT Murdock General 0x0 Level(20,Enemy,0) [14,4] 0x0 0x0 0x0 0x0 [Tomahawk] DummyAI
 UNIT
 
 ALIGN 4

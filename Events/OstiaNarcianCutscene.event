@@ -3,48 +3,48 @@ UNIT Roy RoyLord 0x0 Level(7,Ally,1) [6,17] 0x0 0x0 0x0 0x0 [Rapier, IronSword, 
 UNIT
 
 CutsceneCecilia:
-UNIT Cecilia Valkyrie 0x0 Level(6,NPC,0) [7,25] 0x0 0x0 0x1 REDA_7_22 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Cecilia Valkyrie 0x0 Level(1,NPC,0) [7,25] 0x0 0x0 0x1 REDA_7_22 [Aircalibur, Mend] DummyAI
 UNIT
 
 CutsceneEtrurians1:
-UNIT GenericRebel Cavalier 0x0 Level(6,NPC,0) [5,25] 0x0 0x0 0x1 REDA_5_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Cavalier 0x0 Level(6,NPC,0) [8,25] 0x0 0x0 0x1 REDA_7_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [15,19] 0x0 0x0 0x1 REDA_14_19 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [0,19] 0x0 0x0 0x1 REDA_2_19 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Perceval Level(10,NPC,0) [5,25] 0x0 0x0 0x1 REDA_5_23 [SteelSword, IronLance, Javelin] DummyAI
+UNIT GenericEtruria Cavalier Perceval Level(10,NPC,0) [8,25] 0x0 0x0 0x1 REDA_7_23 [IronSword, SteelLance, Javelin] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [15,19] 0x0 0x0 0x1 REDA_14_19 [Fire] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [0,19] 0x0 0x0 0x1 REDA_2_19 [Thunder] DummyAI
 UNIT
 
 CutsceneEtrurians2:
-UNIT GenericRebel Valkyrie 0x0 Level(6,NPC,0) [5,25] 0x0 0x0 0x1 REDA_3_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Valkyrie 0x0 Level(6,NPC,0) [8,25] 0x0 0x0 0x1 REDA_9_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [0,22] 0x0 0x0 0x1 REDA_2_22 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [15,22] 0x0 0x0 0x1 REDA_14_22 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Valkyrie Cecilia Level(15,NPC,0) [5,25] 0x0 0x0 0x1 REDA_3_23 [Thunder, Aircalibur, Physic] DummyAI
+UNIT GenericEtruria Valkyrie Cecilia Level(5,NPC,0) [8,25] 0x0 0x0 0x1 REDA_9_23 [Thunder, Heal] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [0,22] 0x0 0x0 0x1 REDA_2_22 [Fire] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [15,22] 0x0 0x0 0x1 REDA_14_22 [Thunder] DummyAI
 UNIT
 
 CutsceneEtrurians3:
-UNIT GenericRebel Cavalier 0x0 Level(6,NPC,0) [5,25] 0x0 0x0 0x1 REDA_4_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Cavalier 0x0 Level(6,NPC,0) [8,25] 0x0 0x0 0x1 REDA_8_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [0,19] 0x0 0x0 0x1 REDA_1_19 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [0,25] 0x0 0x0 0x1 REDA_2_25 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Cavalier Perceval Level(10,NPC,0) [5,25] 0x0 0x0 0x1 REDA_4_23 [IronSword, Javelin] DummyAI
+UNIT GenericEtruria Cavalier Perceval Level(10,NPC,0) [8,25] 0x0 0x0 0x1 REDA_8_23 [SteelSword, Javelin] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [0,19] 0x0 0x0 0x1 REDA_1_19 [Aircalibur] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [0,25] 0x0 0x0 0x1 REDA_2_25 [Aircalibur] DummyAI
 UNIT
 
 CutsceneEtrurians4:
-UNIT GenericRebel Valkyrie 0x0 Level(6,NPC,0) [5,25] 0x0 0x0 0x1 REDA_6_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Valkyrie 0x0 Level(6,NPC,0) [8,25] 0x0 0x0 0x1 REDA_10_23 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage 0x0 Level(6,NPC,0) [0,18] 0x0 0x0 0x1 REDA_1_18 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruria Valkyrie Cecilia Level(15,NPC,0) [5,25] 0x0 0x0 0x1 REDA_6_23 [Thunder, Aircalibur, Physic] DummyAI
+UNIT GenericEtruria Valkyrie Cecilia Level(5,NPC,0) [8,25] 0x0 0x0 0x1 REDA_10_23 [Fire, Mend] DummyAI
+UNIT GenericEtruria Mage Cecilia Level(10,NPC,0) [0,18] 0x0 0x0 0x1 REDA_1_18 [Thunder] DummyAI
 UNIT
 
 CutsceneNarcianSquad:
-UNIT Narcian WyvernLord Narcian Level(6,Enemy,0) [6,21] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(9,Enemy,1) [5,19] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(10,Enemy,1) [3,19] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(6,Enemy,1) [1,19] 0x0 0x0 0x0 0x0 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(6,Enemy,1) [7,19] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(11,Enemy,1) [9,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericRebel WyvernRider Narcian Level(10,Enemy,1) [11,19] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT Narcian WyvernLord 0x0 Level(6,Enemy,0) [6,21] 0x0 0x0 0x0 0x0 [Runesword, DelphiShield] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [5,19] 0x0 0x0 0x0 0x0 [SteelLance] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [3,19] 0x0 0x0 0x0 0x0 [SteelLance] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [1,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [7,19] 0x0 0x0 0x0 0x0 [IronLance, Javelin] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [9,19] 0x0 0x0 0x0 0x0 [SteelLance] DummyAI
+UNIT GenericBern WyvernRider Narcian Level(10,Enemy,1) [11,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] DummyAI
 UNIT
 
 CutscenePerceval:
-UNIT Perceval Paladin 0x0 Level(6,NPC,0) [6,25] 0x0 0x0 0x1 REDA_6_21 [Rapier, IronSword, DoorKey] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT Perceval Paladin 0x0 Level(5,NPC,0) [6,25] 0x0 0x0 0x1 REDA_6_21 [SilverLance, SilverSword] DummyAI
 UNIT
 
 OstiaNarcianCutscene:

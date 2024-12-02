@@ -3,14 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//SouthVillageDestroyed 0x0
-//NorthVillageDestroyed 0x1
-//NorthEastVillageDestroyed 0x2
-//SouthVillageVisited 0x3
-//NorthVillageVisited 0x4 
-//NorthEastVillageVisited 0x05
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -22,6 +14,8 @@
 #define Ch4_ClarineRutgerTalkFlag 0x8
 
 EventPointerTable(EVENTS_Ch4,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch4,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch4,0x0)
 
 ALIGN 4
 

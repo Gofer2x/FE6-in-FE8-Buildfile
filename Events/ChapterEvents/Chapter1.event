@@ -3,12 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//SouthVillageDestroyed 0x0
-//NorthVillageDestroyed 0x1
-//SouthVillageVisited 0x2
-//NorthVillageVisited 0x3
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -18,6 +12,8 @@
 //RoutFlag 0x6
 
 EventPointerTable(EVENTS_Ch1,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch1,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch1,0x0)
 
 ALIGN 4
 

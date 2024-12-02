@@ -3,22 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//LeftTreasureRoomChest1Opened 0x0
-//LeftTreasureRoomChest2Opened 0x1
-//LeftTreasureRoomChest3Opened 0x2
-//LeftTreasureRoomChest4Opened 0x3
-//RightTreasureRoomChest1Opened 0x4
-//RightTreasureRoomChest3Opened 0x5
-//RightTreasureRoomChest2Opened 0x6
-//RightTreasureRoomChest4Opened 0x7
-//LeftTreasureRoomDoorOpened 0x8
-//NorthWestWallBroken 0x9
-//RightTreasureRoomLeftDoorOpened 0xA
-//RightTreasureRoomRightDoorOpened 0xB
-//LilinaRoomDoorOpened 0xC
-//LilinaRoomWallBroken 0xD
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -38,7 +22,14 @@
 
 EventPointerTable(EVENTS_Ch8,ThisChapter)
 
+EscapePointPointerTable(CHAPTER_Ch8,Ch8EscapePoints)
+NPCEscapePointPointerTable(CHAPTER_Ch8,0x0)
+
 ALIGN 4
+
+Ch8EscapePoints:
+EscapePoint(0,4,MoveLeft)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

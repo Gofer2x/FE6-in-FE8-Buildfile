@@ -34,8 +34,14 @@
 
 
 EventPointerTable(EVENTS_Ch10B,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch10B,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch10B,Ch10BNPCEscapePoints)
 
 ALIGN 4
+
+Ch10BNPCEscapePoints:
+EscapePoint(16,0,MoveUp)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

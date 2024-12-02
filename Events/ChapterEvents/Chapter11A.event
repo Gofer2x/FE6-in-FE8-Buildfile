@@ -35,8 +35,14 @@
 //Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
 
 EventPointerTable(EVENTS_Ch11A,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch11A,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch11A,Ch11ANPCEscapePoints)
 
 ALIGN 4
+
+Ch11ANPCEscapePoints:
+EscapePoint(23,0,MoveUp)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

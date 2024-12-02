@@ -22,6 +22,8 @@
 #define Ch14_GaidenFailFlag 0x20
 
 EventPointerTable(EVENTS_Ch14,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch14,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch14,0x0)
 
 ALIGN 4
 

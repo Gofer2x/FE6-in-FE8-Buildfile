@@ -3,15 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//NorthHouseDestroyed 0x0
-//SouthHouseDestroyed 0x1
-//NorthHouseVisited 0x2
-//SouthHouseVisited 0x3
-//LeftChestOpened 0x4
-//RightChestOpened 0x5
-//ThroneRoomOpened 0x6
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -22,6 +13,8 @@
 #define Ch3_ChadLughTalkFlag 0x7
 
 EventPointerTable(EVENTS_Ch3,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch3,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch3,0x0)
 
 ALIGN 4
 

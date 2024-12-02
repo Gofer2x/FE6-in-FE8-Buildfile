@@ -16,6 +16,8 @@
 //Ch17B_ArcardoVsDouglasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch17B,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch17B,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch17B,0x0)
 
 ALIGN 4
 

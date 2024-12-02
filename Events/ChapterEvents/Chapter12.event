@@ -19,8 +19,14 @@
 #define Ch12_GaidenFailFlag 0xB
 
 EventPointerTable(EVENTS_Ch12,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch12,Ch12EscapePoints)
+NPCEscapePointPointerTable(CHAPTER_Ch12,0x0)
 
 ALIGN 4
+
+Ch12EscapePoints:
+EscapePoint(12,31,MoveDown)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

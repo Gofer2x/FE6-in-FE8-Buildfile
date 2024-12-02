@@ -24,8 +24,14 @@
 //Ch20A_GenericCitizenIlliaDeath 0x20
 
 EventPointerTable(EVENTS_Ch20A,ThisChapter)
+NPCEscapePointPointerTable(CHAPTER_Ch20A,Ch20AEscapePoints)
+EscapePointPointerTable(CHAPTER_Ch20A,Ch20AEscapePoints)
 
 ALIGN 4
+
+Ch20AEscapePoints:
+EscapePoint(13,0,MoveUp)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

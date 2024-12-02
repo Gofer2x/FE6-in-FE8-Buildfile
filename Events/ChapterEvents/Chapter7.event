@@ -3,28 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//WestTopHouseDestroyed 0x0
-//WestBottomHouseDestroyed 0x1
-//EastHouse1Destroyed 0x2
-//EastHouse2Destroyed 0x3
-//EastHouse3Destroyed 0x4
-//EastHouse4Destroyed 0x5
-//EastHouse5Destroyed 0x6
-//EastHouse6Destroyed 0x7
-//GateOpened 0x8
-//LeftChestOpened 0x9
-//RightChestOpened 0xA
-//WestTopHouseVisited 0xB
-//WestBottomHouseVisited 0xC
-//EastHouse1Visited 0xD
-//EastHouse2Visited 0xE
-//EastHouse3Visited 0xF
-//EastHouse4Visited 0x10
-//EastHouse5Visited 0x11
-//EastHouse6Visited 0x12
-//ChestRoomDoorOpened 0x13
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -41,6 +19,8 @@
 //Ch7_BorsVsDebiasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch7,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch7,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch7,0x0)
 
 ALIGN 4
 

@@ -23,8 +23,14 @@
 //Ch20B_RoartzVsDouglasFlag 0x1F
 
 EventPointerTable(EVENTS_Ch20B,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch20B,Ch20BEscapePoints)
+NPCEscapePointPointerTable(CHAPTER_Ch20B,0x0)
 
 ALIGN 4
+
+Ch20BEscapePoints:
+EscapePoint(15,25,MoveDown)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

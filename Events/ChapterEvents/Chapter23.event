@@ -21,6 +21,8 @@
 //Ch23_BrunnyaVsZeissFlag 0x1F
 
 EventPointerTable(EVENTS_Ch23,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch23,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch23,0x0)
 
 ALIGN 4
 
@@ -236,7 +238,7 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-TEXT(BG_Temple1,Ch23_End)
+Text(BG_Temple1,Ch23_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch24)
 ENDA

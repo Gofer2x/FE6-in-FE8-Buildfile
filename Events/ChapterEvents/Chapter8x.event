@@ -14,6 +14,8 @@
 //RoutFlag 0x6
 
 EventPointerTable(EVENTS_Ch8x,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch8x,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch8x,0x0)
 
 ALIGN 4
 

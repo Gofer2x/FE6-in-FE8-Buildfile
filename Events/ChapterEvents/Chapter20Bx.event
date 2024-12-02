@@ -27,6 +27,8 @@
 #define Ch20Bx_ChanCorrectFlag 0x12
 
 EventPointerTable(EVENTS_Ch20Bx,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch20Bx,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch20Bx,0x0)
 
 ALIGN 4
 

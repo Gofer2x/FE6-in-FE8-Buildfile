@@ -18,6 +18,8 @@
 //Ch18B_MonkeVsSinFlag 0x1F
 
 EventPointerTable(EVENTS_Ch18B,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch18B,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch18B,0x0)
 
 ALIGN 4
 

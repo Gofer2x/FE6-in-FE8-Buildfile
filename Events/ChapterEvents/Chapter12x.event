@@ -14,8 +14,14 @@
 //RoutFlag 0x6
 
 EventPointerTable(EVENTS_Ch12x,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch12x,Ch12xEscapePoints)
+NPCEscapePointPointerTable(CHAPTER_Ch12x,0x0)
 
 ALIGN 4
+
+Ch12xEscapePoints:
+EscapePoint(2,26,MoveDown)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

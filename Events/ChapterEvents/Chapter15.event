@@ -18,8 +18,14 @@
 //Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch15,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch15,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch15,Ch15NPCEscapePoints)
 
 ALIGN 4
+
+Ch15NPCEscapePoints:
+EscapePoint(27,23,MoveRight)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

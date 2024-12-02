@@ -16,6 +16,8 @@
 #define Ch10A_RoyGeeseTalkFlag 0x8
 
 EventPointerTable(EVENTS_Ch10A,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch10A,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch10A,0x0)
 
 ALIGN 4
 

@@ -17,6 +17,8 @@
 //
 
 EventPointerTable(EVENTS_Ch18A,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch18A,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch18A,0x0)
 
 ALIGN 4
 

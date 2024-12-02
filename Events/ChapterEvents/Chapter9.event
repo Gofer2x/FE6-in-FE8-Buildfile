@@ -18,6 +18,8 @@
 #define Ch9_RightVillageVisitedFlag 0xA
 
 EventPointerTable(EVENTS_Ch9,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch9,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch9,0x0)
 
 ALIGN 4
 

@@ -2,19 +2,10 @@ on the gay agenda, from highest to lowest priority (aka how much i feel like it)
 
 chapters
 
-escape points
-
-script that automatically updates all sorts of ids (chars, classes, items) based on the tables. also adjust the tables
-
-actually figure out the whole chapter fade thing and what you do at the start
-well, if you do fade from black then include a fadein in teh starting event. else glitchy will happens
-
-also actually figure out the CMON and CMOFs and LOAD1s and LoadReinforcements()s
-
 supports
 
 fix ballistae? can't enter em
-does it have to do with me moving the ballista items?
+does it have to do with me moving the ballista items? yes it does. move them back to their og ids.
 
 actually implementing supports
 

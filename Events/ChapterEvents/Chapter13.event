@@ -19,8 +19,14 @@
 //Ch13_Ch15_GenericSoldierPercevalDeath 0x20
 
 EventPointerTable(EVENTS_Ch13,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch13,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch13,Ch13NPCEscapePoints)
 
 ALIGN 4
+
+Ch13NPCEscapePoints:
+EscapePoint(45,6,MoveRight)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

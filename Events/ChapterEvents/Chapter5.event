@@ -3,11 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-//VillageDestroyed 0x0
-//GateOpened 0x1
-//VillageVisited 0x2
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -18,6 +13,8 @@
 #define Ch5_GateFlag 0x7
 
 EventPointerTable(EVENTS_Ch5,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch5,0x0)
+NPCEscapePointPointerTable(CHAPTER_Ch5,0x0)
 
 ALIGN 4
 

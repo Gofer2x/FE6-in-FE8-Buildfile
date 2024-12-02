@@ -29,8 +29,14 @@
 //Ch16_DouglasDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch16,ThisChapter)
+EscapePointPointerTable(CHAPTER_Ch16,Ch16EscapePoints)
+NPCEscapePointPointerTable(CHAPTER_Ch16,0x0)
 
 ALIGN 4
+
+Ch16EscapePoints:
+EscapePoint(6,22,NoMove)
+EscapePointEnd
 
 ThisChapter:
 POIN TurnBasedEvents

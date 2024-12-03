@@ -299,10 +299,88 @@ Text(Ch16_ElffinDouglasTalk)
 RestoreMusic
 EndEvent
 
+
+
 HughRecruitment:
-//TODO Pain
-TurnAlly(Hugh) //temp
+EVBIT_MODIFY 4 //No skip allowed
+Text(Ch16_HughRecruitmentStart)
+BranchIfGoldAtLeast(1,10000) //Do we have 10000 Gold? If yes, branch to 1
+BranchIfGoldAtLeast(2,8000)  //Do we have 8000 Gold? If yes, branch to 2
+BranchIfGoldAtLeast(3,6000)  //Do we have 6000 Gold? If yes, branch to 3
+BranchIfGoldAtLeast(4,5000)  //Do we have 5000 Gold? If yes, branch to 4
+GOTO 7 //else, fail
+
+LABEL 1 //10k recruitment
+Text(Ch16_HughRecruitmentWellYesNo)
+BEQ 2 s0 sC //branch to next threshold if No
+//else recruit
+LoseMoney(10000)
+GOTO 8 //branch to recruitment
+
+LABEL 2 //8k recruitment
+Text(Ch16_HughDownTo8k)
+Text(Ch16_HughRecruitmentWellYesNo)
+BEQ 3 s0 sC //branch to next threshold if No
+//else, nerf and recruit
+DecreaseUnitStats(Hugh,0x13,1) //HP
+DecreaseUnitStats(Hugh,0x14,1) //MAG
+DecreaseUnitStats(Hugh,0x14,1) //MAG
+DecreaseUnitStats(Hugh,0x15,1) //SKILL
+DecreaseUnitStats(Hugh,0x16,1) //SPD
+DecreaseUnitStats(Hugh,0x17,1) //DEF
+DecreaseUnitStats(Hugh,0x18,1) //RES
+DecreaseUnitStats(Hugh,0x19,1) //LUCK
+LoseMoney(8000)
+GOTO 8 //branch to recruitment
+
+LABEL 3 //6k recruitment
+Text(Ch16_HughDownTo6k)
+Text(Ch16_HughRecruitmentWellYesNo)
+BEQ 4 s0 sC //branch to next threshold if No
+//else, nerf and recruit
+DecreaseUnitStats(Hugh,0x13,2) //HP
+DecreaseUnitStats(Hugh,0x14,2) //MAG
+DecreaseUnitStats(Hugh,0x14,2) //MAG
+DecreaseUnitStats(Hugh,0x15,2) //SKILL
+DecreaseUnitStats(Hugh,0x16,2) //SPD
+DecreaseUnitStats(Hugh,0x17,2) //DEF
+DecreaseUnitStats(Hugh,0x18,2) //RES
+DecreaseUnitStats(Hugh,0x19,2) //LUCK
+LoseMoney(6000)
+GOTO 8 //branch to recruitment
+
+LABEL 4 //5k recruitment
+Text(Ch16_HughDownTo5k)
+Text(Ch16_HughRecruitmentWellYesNo)
+BEQ 7 s0 sC //branch to failure if No
+//else, nerf and recruit
+DecreaseUnitStats(Hugh,0x13,3) //HP
+DecreaseUnitStats(Hugh,0x14,3) //MAG
+DecreaseUnitStats(Hugh,0x14,3) //MAG
+DecreaseUnitStats(Hugh,0x15,3) //SKILL
+DecreaseUnitStats(Hugh,0x16,3) //SPD
+DecreaseUnitStats(Hugh,0x17,3) //DEF
+DecreaseUnitStats(Hugh,0x18,3) //RES
+DecreaseUnitStats(Hugh,0x19,3) //LUCK
+LoseMoney(5000)
+GOTO 8 //branch to recruitment
+
+LABEL 7 //not recruited
+Text(Ch16_HughFinalRejected)
+GOTO 9
+
+LABEL 8 //hugh gets recruited
+EVBIT_MODIFY 0 //allow skip
+SwitchMusic(MUS_JoinUs)
+Text(Ch16_HughRecruited)
+TurnAlly(Hugh) 
+RestoreMusic
+
+LABEL 9
 EndEvent
+
+
+
 
 LoadBoltingMage:
 ReinforcementEvent(FunnyBoltingMage)

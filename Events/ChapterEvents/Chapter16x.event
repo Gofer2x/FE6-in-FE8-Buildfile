@@ -172,8 +172,16 @@ LABEL 3
 GiveItemToCharacter(Roy,Aureola)
 STAL 64
 
-//TODO Route determination
+CALL EVENT_IlliaSacaeRouteDetermination
+
+BranchIfFlagON(8,SacaeRouteFlag)
 MoveToChapter(CHAPTER_Ch17A)
+GOTO 9
+
+LABEL 8
+MoveToChapter(CHAPTER_Ch17B)
+
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

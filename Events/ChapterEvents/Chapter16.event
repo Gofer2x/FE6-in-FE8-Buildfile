@@ -400,11 +400,14 @@ LABEL 1 //gaiden fail
 PlayMusic(MUS_PrincessOfDestiny)
 Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
 STAL 64
-//TODO Route determination
+CALL EVENT_IlliaSacaeRouteDetermination
 
-CheckUnitParam(Shanna,param_Exp)
-
+BranchIfFlagON(8,SacaeRouteFlag)
 MoveToChapter(CHAPTER_Ch17A)
+GOTO 9
+
+LABEL 8
+MoveToChapter(CHAPTER_Ch17B)
 
 LABEL 9
 ENDA

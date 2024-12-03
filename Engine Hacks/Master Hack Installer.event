@@ -20,7 +20,7 @@
 #include "EVENTSCRIPT_AutoLevelUnits/Installer.event" //to simulate bugged hm bonuses
 #include "EVENTSCRIPT_change_allegiance_all/change_allegiance_all.event"
 #include "EVENTSCRIPT_change_ai_all/change_ai_all.event"
-#include "EVENTSCRIPT_COND_GetStatus/set_status_param.event"
+#include "EVENTSCRIPT_COND_GetStatus/Installer.event"
 #include "InlineFix_GenerateBestMovementScript.event"
 
 #include "NarrowFont/Narrowfont installer.event"

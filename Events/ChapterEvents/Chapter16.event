@@ -322,14 +322,14 @@ Text(Ch16_HughDownTo8k)
 Text(Ch16_HughRecruitmentWellYesNo)
 BEQ 3 s0 sC //branch to next threshold if No
 //else, nerf and recruit
-DecreaseUnitStats(Hugh,0x13,1) //HP
-DecreaseUnitStats(Hugh,0x14,1) //MAG
-DecreaseUnitStats(Hugh,0x14,1) //MAG
-DecreaseUnitStats(Hugh,0x15,1) //SKILL
-DecreaseUnitStats(Hugh,0x16,1) //SPD
-DecreaseUnitStats(Hugh,0x17,1) //DEF
-DecreaseUnitStats(Hugh,0x18,1) //RES
-DecreaseUnitStats(Hugh,0x19,1) //LUCK
+DecreaseUnitParam(Hugh,param_MaxHP,1)
+DecreaseUnitParam(Hugh,param_HP,1)
+DecreaseUnitParam(Hugh,param_Pow,1)
+DecreaseUnitParam(Hugh,param_Skl,1)
+DecreaseUnitParam(Hugh,param_Spd,1)
+DecreaseUnitParam(Hugh,param_Def,1)
+DecreaseUnitParam(Hugh,param_Res,1)
+DecreaseUnitParam(Hugh,param_Luck,1)
 LoseMoney(8000)
 GOTO 8 //branch to recruitment
 
@@ -338,14 +338,14 @@ Text(Ch16_HughDownTo6k)
 Text(Ch16_HughRecruitmentWellYesNo)
 BEQ 4 s0 sC //branch to next threshold if No
 //else, nerf and recruit
-DecreaseUnitStats(Hugh,0x13,2) //HP
-DecreaseUnitStats(Hugh,0x14,2) //MAG
-DecreaseUnitStats(Hugh,0x14,2) //MAG
-DecreaseUnitStats(Hugh,0x15,2) //SKILL
-DecreaseUnitStats(Hugh,0x16,2) //SPD
-DecreaseUnitStats(Hugh,0x17,2) //DEF
-DecreaseUnitStats(Hugh,0x18,2) //RES
-DecreaseUnitStats(Hugh,0x19,2) //LUCK
+DecreaseUnitParam(Hugh,param_MaxHP,2)
+DecreaseUnitParam(Hugh,param_HP,2)
+DecreaseUnitParam(Hugh,param_Pow,2)
+DecreaseUnitParam(Hugh,param_Skl,2)
+DecreaseUnitParam(Hugh,param_Spd,2)
+DecreaseUnitParam(Hugh,param_Def,2)
+DecreaseUnitParam(Hugh,param_Res,2)
+DecreaseUnitParam(Hugh,param_Luck,2)
 LoseMoney(6000)
 GOTO 8 //branch to recruitment
 
@@ -354,14 +354,14 @@ Text(Ch16_HughDownTo5k)
 Text(Ch16_HughRecruitmentWellYesNo)
 BEQ 7 s0 sC //branch to failure if No
 //else, nerf and recruit
-DecreaseUnitStats(Hugh,0x13,3) //HP
-DecreaseUnitStats(Hugh,0x14,3) //MAG
-DecreaseUnitStats(Hugh,0x14,3) //MAG
-DecreaseUnitStats(Hugh,0x15,3) //SKILL
-DecreaseUnitStats(Hugh,0x16,3) //SPD
-DecreaseUnitStats(Hugh,0x17,3) //DEF
-DecreaseUnitStats(Hugh,0x18,3) //RES
-DecreaseUnitStats(Hugh,0x19,3) //LUCK
+DecreaseUnitParam(Hugh,param_MaxHP,3)
+DecreaseUnitParam(Hugh,param_HP,3)
+DecreaseUnitParam(Hugh,param_Pow,3)
+DecreaseUnitParam(Hugh,param_Skl,3)
+DecreaseUnitParam(Hugh,param_Spd,3)
+DecreaseUnitParam(Hugh,param_Def,3)
+DecreaseUnitParam(Hugh,param_Res,3)
+DecreaseUnitParam(Hugh,param_Luck,3)
 LoseMoney(5000)
 GOTO 8 //branch to recruitment
 
@@ -401,6 +401,9 @@ PlayMusic(MUS_PrincessOfDestiny)
 Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
 STAL 64
 //TODO Route determination
+
+CheckUnitParam(Shanna,param_Exp)
+
 MoveToChapter(CHAPTER_Ch17A)
 
 LABEL 9

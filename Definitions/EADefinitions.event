@@ -20,9 +20,15 @@
 #define BranchIfUnitActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BEQ label s1 sC"
 #define BranchIfUnitNotActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BNE label s1 sC"
 
+#define BranchIfTileChangeActive(label, tilechange) "CheckTileChange(tilechange) ; BNE label s0 sC"
+#define BranchIfTileChangeNotActive(label, tilechange) "CheckTileChange(tilechange) ; BEQ label s0 sC"
+
+
+
+
 #define SetCounter(counter,value) "COUNTER_SET counter value"
 
-#define IncrementCounter(counter) "COUNTER_ADD counter"
+#define IncrementCounter(counter) "COUNTER_INC counter"
 #define DecrementCounter(counter) "COUNTER_DEC counter"
 
 #define LoseMoney(amount) "SVAL s3 amount ; TAKEMONEY"
@@ -53,6 +59,9 @@
 
 //door but with event flag and event pointer
 #define DoorWithEvent(EventPointer,doorX,doorY) "DOOR 0 EventPointer [doorX,doorY] 0x12"
+
+#define TileChangeCoord(x,y) "SCOORD sB [x,y] ; TILECHANGE -1"
+#define ReverseTileChangeCoord(x,y) "SCOORD sB [x,y] ; TILEREVERSE -1"
 
 #define EndEvent "EVBIT_T 0x7 ; ENDA"
 

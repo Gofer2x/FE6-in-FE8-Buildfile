@@ -4,6 +4,35 @@
 #include EAstdlib.event
 
 //Tile Changes
+#define Ch14x_Bridge1 0
+#define Ch14x_Bridge2 1
+#define Ch14x_Bridge3 2
+#define Ch14x_Bridge4 3
+#define Ch14x_Bridge5 4
+#define Ch14x_Bridge6 5
+#define Ch14x_Bridge7 6
+#define Ch14x_Bridge8 7
+#define Ch14x_Bridge9 8
+#define Ch14x_Bridge10 9
+#define Ch14x_Bridge11 10
+#define Ch14x_Bridge12 11
+#define Ch14x_Bridge13 12
+#define Ch14x_Bridge14 13
+#define Ch14x_Bridge15 14
+#define Ch14x_Bridge16 15
+#define Ch14x_Bridge17 16
+#define Ch14x_Bridge18 17
+#define Ch14x_Bridge19 18
+#define Ch14x_Bridge20 19
+#define Ch14x_Bridge21 20
+#define Ch14x_Bridge22 21
+#define Ch14x_Bridge23 22
+#define Ch14x_Bridge24 23
+#define Ch14x_Bridge25 24
+#define Ch14x_Bridge26 25
+
+#define WaterBridgeSubmerge(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileGoingDown) ; TILECHANGE bridge"
+#define WaterBridgeSurface(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileGoingUp) ; TILEREVERSE bridge "
 
 //Flags/EventIDs
 //BossQuoteFlag 0x1
@@ -12,6 +41,12 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+
+#define Ch14x_BridgeGroup1Counter 0x0
+#define Ch14x_BridgeGroup2Counter 0x1
+#define Ch14x_BridgeGroup3Counter 0x2
+#define Ch14x_BridgeGroup4Counter 0x3
+#define Ch14x_BridgeGroup5Counter 0x4
 
 EventPointerTable(EVENTS_Ch14x,ThisChapter)
 
@@ -30,6 +65,12 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,BridgeGroup1Processing,2,253)
+TurnEventPlayer(0x0,BridgeGroup2Processing,5,250)
+TurnEventPlayer(0x0,BridgeGroup3Processing,7,248)
+TurnEventPlayer(0x0,BridgeGroup4Processing,4,251)
+TurnEventPlayer(0x0,BridgeGroup5Processing,9,246)
+
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -120,6 +161,366 @@ CAM1 Roy
 FlashCursor(Roy,60)
 Text(BG_Temple2White,Ch14x_Start2)
 GotoPrepScreen
+
+
+
+
+
+
+
+
+
+
+BridgeGroup1Processing:
+IncrementCounter(Ch14x_BridgeGroup1Counter)
+BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup1Counter,13)
+
+SetCounter(Ch14x_BridgeGroup1Counter,1)
+
+LABEL 0
+
+BranchIfCounterEqualTo(1 ,Ch14x_BridgeGroup1Counter,1)
+BranchIfCounterEqualTo(2 ,Ch14x_BridgeGroup1Counter,2)
+BranchIfCounterEqualTo(3 ,Ch14x_BridgeGroup1Counter,3)
+BranchIfCounterEqualTo(50,Ch14x_BridgeGroup1Counter,4)
+BranchIfCounterEqualTo(5 ,Ch14x_BridgeGroup1Counter,5)
+BranchIfCounterEqualTo(6 ,Ch14x_BridgeGroup1Counter,6)
+BranchIfCounterEqualTo(7 ,Ch14x_BridgeGroup1Counter,7)
+BranchIfCounterEqualTo(8 ,Ch14x_BridgeGroup1Counter,8)
+BranchIfCounterEqualTo(9 ,Ch14x_BridgeGroup1Counter,9)
+BranchIfCounterEqualTo(50,Ch14x_BridgeGroup1Counter,10)
+BranchIfCounterEqualTo(11,Ch14x_BridgeGroup1Counter,11)
+BranchIfCounterEqualTo(12,Ch14x_BridgeGroup1Counter,12)
+Text(ThisShouldNotHappen)
+
+LABEL 1
+WaterBridgeSubmerge(Ch14x_Bridge1,2,11)
+GOTO 50
+
+LABEL 2
+WaterBridgeSubmerge(Ch14x_Bridge3,4,11)
+GOTO 50
+
+LABEL 3
+WaterBridgeSubmerge(Ch14x_Bridge4,2,18)
+GOTO 50
+
+//LABEL 4
+
+LABEL 5
+WaterBridgeSubmerge(Ch14x_Bridge2,3,11)
+GOTO 50
+
+LABEL 6
+WaterBridgeSubmerge(Ch14x_Bridge5,3,18)
+GOTO 50
+
+LABEL 7
+WaterBridgeSurface(Ch14x_Bridge1,2,11)
+GOTO 50
+
+LABEL 8
+WaterBridgeSurface(Ch14x_Bridge3,4,11)
+GOTO 50
+
+LABEL 9
+WaterBridgeSurface(Ch14x_Bridge4,2,18)
+GOTO 50
+
+//LABEL 10
+
+LABEL 11
+WaterBridgeSurface(Ch14x_Bridge2,3,11)
+GOTO 50
+
+LABEL 12
+WaterBridgeSurface(Ch14x_Bridge5,3,18)
+GOTO 50
+
+LABEL 50
+EndEvent
+
+
+
+
+
+
+
+
+
+
+BridgeGroup2Processing:
+IncrementCounter(Ch14x_BridgeGroup2Counter)
+BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup2Counter,11)
+
+SetCounter(Ch14x_BridgeGroup2Counter,1)
+
+LABEL 0
+
+BranchIfCounterEqualTo(1 ,Ch14x_BridgeGroup2Counter,1)
+BranchIfCounterEqualTo(2 ,Ch14x_BridgeGroup2Counter,2)
+BranchIfCounterEqualTo(3 ,Ch14x_BridgeGroup2Counter,3)
+BranchIfCounterEqualTo(4 ,Ch14x_BridgeGroup2Counter,4)
+BranchIfCounterEqualTo(5 ,Ch14x_BridgeGroup2Counter,5)
+BranchIfCounterEqualTo(6 ,Ch14x_BridgeGroup2Counter,6)
+BranchIfCounterEqualTo(7 ,Ch14x_BridgeGroup2Counter,7)
+BranchIfCounterEqualTo(8 ,Ch14x_BridgeGroup2Counter,8)
+BranchIfCounterEqualTo(9 ,Ch14x_BridgeGroup2Counter,9)
+BranchIfCounterEqualTo(10,Ch14x_BridgeGroup2Counter,10)
+Text(ThisShouldNotHappen)
+
+LABEL 1
+WaterBridgeSubmerge(Ch14x_Bridge6,4,18)
+WaterBridgeSubmerge(Ch14x_Bridge7,6,22)
+GOTO 50
+
+LABEL 2
+WaterBridgeSubmerge(Ch14x_Bridge10,10,25)
+GOTO 50
+
+LABEL 3
+WaterBridgeSubmerge(Ch14x_Bridge8,10,22)
+GOTO 50
+
+LABEL 4
+WaterBridgeSubmerge(Ch14x_Bridge9,6,25)
+GOTO 50
+
+LABEL 5
+WaterBridgeSubmerge(Ch14x_Bridge11,8,24)
+GOTO 50
+
+LABEL 6
+WaterBridgeSurface(Ch14x_Bridge6,4,18)
+WaterBridgeSurface(Ch14x_Bridge7,6,22)
+GOTO 50
+
+LABEL 7
+WaterBridgeSurface(Ch14x_Bridge10,10,25)
+GOTO 50
+
+LABEL 8
+WaterBridgeSurface(Ch14x_Bridge8,10,22)
+GOTO 50
+
+LABEL 9
+WaterBridgeSurface(Ch14x_Bridge9,6,25)
+GOTO 50
+
+LABEL 10
+WaterBridgeSurface(Ch14x_Bridge11,8,24)
+GOTO 50
+
+LABEL 50
+EndEvent
+
+
+
+
+
+
+
+
+
+
+BridgeGroup3Processing:
+IncrementCounter(Ch14x_BridgeGroup3Counter)
+BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup3Counter,26)
+
+SetCounter(Ch14x_BridgeGroup3Counter,1)
+
+LABEL 0
+
+BranchIfCounterEqualTo(1,Ch14x_BridgeGroup3Counter,1)
+BranchIfCounterEqualTo(2,Ch14x_BridgeGroup3Counter,2)
+BranchIfCounterEqualTo(3,Ch14x_BridgeGroup3Counter,3)
+BranchIfCounterEqualTo(4,Ch14x_BridgeGroup3Counter,4)
+BranchIfCounterEqualTo(5,Ch14x_BridgeGroup3Counter,5)
+//not making 15 blank checks
+BranchIfCounterEqualTo(21,Ch14x_BridgeGroup3Counter,21)
+BranchIfCounterEqualTo(22,Ch14x_BridgeGroup3Counter,22)
+BranchIfCounterEqualTo(23,Ch14x_BridgeGroup3Counter,23)
+BranchIfCounterEqualTo(24,Ch14x_BridgeGroup3Counter,24)
+BranchIfCounterEqualTo(25,Ch14x_BridgeGroup3Counter,25)
+//just go here if all fail
+GOTO 50
+
+LABEL 1
+WaterBridgeSubmerge(Ch14x_Bridge12,12,19)
+GOTO 50
+
+LABEL 2
+WaterBridgeSubmerge(Ch14x_Bridge13,14,19)
+GOTO 50
+
+LABEL 3
+WaterBridgeSubmerge(Ch14x_Bridge14,16,19)
+GOTO 50
+
+LABEL 4
+WaterBridgeSubmerge(Ch14x_Bridge15,13,19)
+GOTO 50
+
+LABEL 5
+WaterBridgeSubmerge(Ch14x_Bridge16,15,19)
+GOTO 50
+
+LABEL 21
+WaterBridgeSurface(Ch14x_Bridge12,12,19)
+GOTO 50
+
+LABEL 22
+WaterBridgeSurface(Ch14x_Bridge13,14,19)
+GOTO 50
+
+LABEL 23
+WaterBridgeSurface(Ch14x_Bridge14,16,19)
+GOTO 50
+
+LABEL 24
+WaterBridgeSurface(Ch14x_Bridge15,13,19)
+GOTO 50
+
+LABEL 25
+WaterBridgeSurface(Ch14x_Bridge16,15,19)
+GOTO 50
+
+LABEL 50
+EndEvent
+
+
+
+
+
+
+
+
+
+
+//Bridges 17–19 disappear or reappear every three turns
+//Bridge 17 disappears on turn 4
+//Bridge 18 disappears on turn 5
+//Bridge 19 disappears on turn 6
+
+BridgeGroup4Processing:
+IncrementCounter(Ch14x_BridgeGroup4Counter)
+BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup4Counter,7)
+
+SetCounter(Ch14x_BridgeGroup4Counter,1)
+
+LABEL 0
+
+BranchIfCounterEqualTo(1,Ch14x_BridgeGroup4Counter,1)
+BranchIfCounterEqualTo(2,Ch14x_BridgeGroup4Counter,2)
+BranchIfCounterEqualTo(3,Ch14x_BridgeGroup4Counter,3)
+BranchIfCounterEqualTo(4,Ch14x_BridgeGroup4Counter,4)
+BranchIfCounterEqualTo(5,Ch14x_BridgeGroup4Counter,5)
+BranchIfCounterEqualTo(6,Ch14x_BridgeGroup4Counter,6)
+Text(ThisShouldNotHappen)
+
+LABEL 1
+WaterBridgeSubmerge(Ch14x_Bridge17,18,23)
+GOTO 50
+
+LABEL 2
+WaterBridgeSubmerge(Ch14x_Bridge18,20,23)
+GOTO 50
+
+LABEL 3
+WaterBridgeSubmerge(Ch14x_Bridge19,20,25)
+GOTO 50
+
+LABEL 4
+WaterBridgeSurface(Ch14x_Bridge17,18,23)
+GOTO 50
+
+LABEL 5
+WaterBridgeSurface(Ch14x_Bridge18,20,23)
+GOTO 50
+
+LABEL 6
+WaterBridgeSurface(Ch14x_Bridge19,20,25)
+GOTO 50
+
+LABEL 50
+EndEvent
+
+
+
+
+
+
+
+
+
+
+BridgeGroup5Processing:
+IncrementCounter(Ch14x_BridgeGroup5Counter)
+BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup5Counter,9)
+
+SetCounter(Ch14x_BridgeGroup5Counter,1)
+
+LABEL 0
+
+BranchIfCounterEqualTo(1,Ch14x_BridgeGroup5Counter,1)
+BranchIfCounterEqualTo(2,Ch14x_BridgeGroup5Counter,2)
+BranchIfCounterEqualTo(3,Ch14x_BridgeGroup5Counter,3)
+BranchIfCounterEqualTo(4,Ch14x_BridgeGroup5Counter,4)
+BranchIfCounterEqualTo(5,Ch14x_BridgeGroup5Counter,5)
+BranchIfCounterEqualTo(6,Ch14x_BridgeGroup5Counter,6)
+BranchIfCounterEqualTo(7,Ch14x_BridgeGroup5Counter,7)
+BranchIfCounterEqualTo(8,Ch14x_BridgeGroup5Counter,8)
+Text(ThisShouldNotHappen)
+
+LABEL 1
+WaterBridgeSubmerge(Ch14x_Bridge20,24,15)
+GOTO 50
+
+LABEL 2
+WaterBridgeSubmerge(Ch14x_Bridge21,26,15)
+WaterBridgeSubmerge(Ch14x_Bridge25,18,12)
+WaterBridgeSubmerge(Ch14x_Bridge26,17,10)
+GOTO 50
+
+LABEL 3
+WaterBridgeSubmerge(Ch14x_Bridge22,26,11)
+WaterBridgeSubmerge(Ch14x_Bridge24,18,6)
+GOTO 50
+
+LABEL 4
+WaterBridgeSubmerge(Ch14x_Bridge23,26,6)
+GOTO 50
+
+LABEL 5
+WaterBridgeSurface(Ch14x_Bridge20,24,15)
+GOTO 50
+
+LABEL 6
+WaterBridgeSurface(Ch14x_Bridge21,26,15)
+WaterBridgeSurface(Ch14x_Bridge25,18,12)
+WaterBridgeSurface(Ch14x_Bridge26,17,10)
+GOTO 50
+
+LABEL 7
+WaterBridgeSurface(Ch14x_Bridge22,26,11)
+WaterBridgeSurface(Ch14x_Bridge24,18,6)
+GOTO 50
+
+LABEL 8
+WaterBridgeSurface(Ch14x_Bridge23,26,6)
+GOTO 50
+
+LABEL 50
+EndEvent
+
+
+
+
+
+
+
+
+
 
 EndingScene:
 PlayMusic(MUS_DistantUtopia)

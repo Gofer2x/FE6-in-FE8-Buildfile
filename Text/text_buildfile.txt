@@ -57,3 +57,5 @@ Erm, what the sigma?[X]
 #include "Events/Chapter24.txt"
 #include "Events/Endgame.txt"
 #include "Events/Epilogue.txt"
+
+#include "Debug.txt"

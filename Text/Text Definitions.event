@@ -1434,3 +1434,4 @@
 #define Epilogue_FaeIdunn2 0x12df
 #define Epilogue_FaeIdunn3 0x12e0
 #define Epilogue_AWarmBreeze 0x12e1
+#define ThisShouldNotHappen 0x12e2

@@ -97,7 +97,7 @@ Tutorial:
 END_MAIN
 
 TrapData:
-NormalBallista(3,15)
+KillerBallista(3,15)
 NormalBallista(28,12)
 NormalBallista(17,25)
 ENDTRAP

@@ -9,6 +9,8 @@ does it have to do with me moving the ballista items? yes it does. move them bac
 
 actually implementing supports
 
+fix chapter title graphics. they use vanilla text? did i mess up the patch?
+
 roy special death quote? give it a special event?
 
 larum/dancer mms is broken

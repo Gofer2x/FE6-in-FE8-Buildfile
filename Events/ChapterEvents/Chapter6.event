@@ -12,9 +12,16 @@
 //RoutFlag 0x6
 #define Ch6_RoySueTalkFlag 0x7
 #define Ch6_RoyCathTalkFlag 0x8
-#define Ch6_SouthmostWestRoomOpenFlag 0x9
-#define Ch6_SouthmostEastRoomOpenFlag 0xA
-#define Ch6_SouthReinforcementsFlag 0xB
+#define Ch6_SouthReinforcementsFlag 0x9
+#define Ch6_SouthmostWestRoomOpenFlag 0xA
+#define Ch6_SouthmostEastRoomOpenFlag 0xB
+#define Ch6_SouthmostWestRoomDoneFlag 0xC
+#define Ch6_SouthmostEastRoomDoneFlag 0xD
+
+#define Ch6_SouthmostWestRoomCounter 0x0
+#define Ch6_SouthmostEastRoomCounter 0x1
+
+
 
 EventPointerTable(EVENTS_Ch6,ThisChapter)
 
@@ -45,7 +52,10 @@ TurnEventEnemy(0x0,CathAppears,5)
 TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements1,8)
 TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements2,12)
 TurnEventEnemy(0x0,LoadHardThroneRoomReinforcements3,16)
-//turn 1-255, enemies from south once no player units in bottom half of map
+TurnEventEnemy(Ch6_SouthReinforcementsFlag,BottomHalfReinforcementsEvent,1,255)
+TurnEventEnemy(Ch6_SouthmostWestRoomDoneFlag,SouthWestRoomReinforcementsEvent,1,255)
+TurnEventEnemy(Ch6_SouthmostEastRoomDoneFlag,SouthEastRoomReinforcementsEvent,1,255)
+
 //turn 1-255, enemies from southmost east room 3 turns after open (not ambush)
 //turn 1-255, enemies from southmost west room 3 turns after open (not ambush)
 
@@ -190,14 +200,14 @@ UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [14,0] 0x0 0x0 0x1 REDA_14_1 [Jav
 UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [15,0] 0x0 0x0 0x1 REDA_15_1 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
-WestSouthmostRoomReinforcements:
+SouthmostWestRoomReinforcements:
 UNIT GenericThria Knight 0x0 Level(6,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_18 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT GenericThria Archer 0x0 Level(5,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
 UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_6_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [4,21] 0x0 0x0 0x1 REDA_5_20 [IronLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
-EastSouthmostRoomReinforcements:
+SouthmostEastRoomReinforcements:
 UNIT GenericThria Knight 0x0 Level(6,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_18 [SteelLance] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT GenericThria Archer 0x0 Level(5,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_20_18 [SteelBow] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Arch, AI4_Retreat]
 UNIT GenericThria Soldier 0x0 Level(9,Enemy,1) [21,21] 0x0 0x0 0x1 REDA_19_20 [Javelin] [AI1_InRange, AI2_Charge, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
@@ -285,6 +295,66 @@ HardReinforcementEvent(ThroneRoomReinforcements2)
 
 LoadHardThroneRoomReinforcements3:
 HardReinforcementEvent(ThroneRoomReinforcements3)
+
+
+
+
+
+BottomHalfReinforcementsEvent:
+CountUnitsInRange(0,0,0,0,$F0000,$170019,0) //just took em from febuilder idk how to turn coords into shorts lol
+BEQ 1 sC s0
+FlagOFF(Ch6_SouthReinforcementsFlag)
+GOTO 9
+
+LABEL 1
+LoadReinforcements(SouthReinforcements1)
+LoadReinforcements(SouthReinforcements2)
+
+LABEL 9
+EndEvent
+
+
+
+
+
+SouthWestRoomReinforcementsEvent:
+BranchIfFlagOFF(1,Ch6_SouthmostWestRoomOpenFlag)
+IncrementCounter(Ch6_SouthmostWestRoomCounter)
+BranchIfCounterEqualTo(2,Ch6_SouthmostWestRoomCounter,3)
+
+LABEL 1
+FlagOFF(Ch6_SouthmostWestRoomDoneFlag)
+GOTO 9
+
+LABEL 2
+LoadReinforcements(SouthmostWestRoomReinforcements)
+
+LABEL 9
+EndEvent
+
+
+
+
+
+SouthEastRoomReinforcementsEvent:
+BranchIfFlagOFF(1,Ch6_SouthmostEastRoomOpenFlag)
+IncrementCounter(Ch6_SouthmostEastRoomCounter)
+BranchIfCounterEqualTo(2,Ch6_SouthmostEastRoomCounter,3)
+
+LABEL 1
+FlagOFF(Ch6_SouthmostEastRoomDoneFlag)
+GOTO 9
+
+LABEL 2
+LoadReinforcements(SouthmostEastRoomReinforcements)
+
+LABEL 9
+EndEvent
+
+
+
+
+
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)

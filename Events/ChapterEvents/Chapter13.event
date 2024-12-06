@@ -238,6 +238,8 @@ GotoPrepScreen
 CeciliaDies:
 //idk zephiel music here
 CAM1 [43,9]
+MOVE 0x0 Zephiel [43,10]
+ENUN
 Text(Ch13_ZephielAttacksCecilia)
 //battle. is this how you do it? hopefully yes
 StartBattle
@@ -249,6 +251,7 @@ Text(Ch13_CeciliaFunkingDies)
 KILL Cecilia
 Text(Ch13_CeciliaThrownIntoDungeon)
 MOVE 0x0 Zephiel [43,9]
+ENUN
 EndEvent
 
 PercevalComplains:

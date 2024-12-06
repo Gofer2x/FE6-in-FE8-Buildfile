@@ -58,8 +58,8 @@ ALIGN 4
 
 IdunnManaketes:
 UNIT IdunnHuman ShamanF 0x0 Level(20,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [DarkBreath] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_Retreat]
-UNIT GenericManakete FireManakete IdunnDragon Level(19,Enemy,1) [5,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericManakete FireManakete IdunnDragon Level(18,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(19,Enemy,1) [5,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(18,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 JustIdunn:
@@ -67,19 +67,19 @@ UNIT IdunnDragon DemonDragon 0x0 Level(20,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [DarkBr
 UNIT
 
 ManaketeReinforcements1:
-UNIT GenericManakete FireManakete IdunnDragon Level(18,Enemy,1) [2,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(18,Enemy,1) [2,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 ManaketeReinforcements2:
-UNIT GenericManakete FireManakete IdunnDragon Level(17,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(17,Enemy,1) [14,2] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 ManaketeReinforcements3:
-UNIT GenericManakete FireManakete IdunnDragon Level(19,Enemy,1) [2,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(19,Enemy,1) [2,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 ManaketeReinforcements4:
-UNIT GenericManakete FireManakete IdunnDragon Level(18,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericManaketeFinal FireManakete IdunnDragon Level(18,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [Firestone, Elixir] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 Units:

@@ -92,22 +92,22 @@ UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, 
 UNIT
 
 ElenChaserSoldier:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ElenChasers:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ElenChasers2:
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 CastleSoldier:
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 JustRuud:
@@ -115,18 +115,18 @@ UNIT Ruud Knight 0x0 Level(5,Enemy,0) [16,3] 0x0 0x0 0x1 REDA_16_4 [Javelin] [AI
 UNIT
 
 RightEnemies:
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [17,13] 0x0 0x0 0x1 REDA_15_6 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]//[AI1_GhostOfBern, AI2_0x11, RAI_30_80|TAI_HP, AI4_Retreat] //ghost of bern, making them in range
-UNIT GenericBern Archer Ruud Level(3,Enemy,1) [18,14] 0x0 0x0 0x1 REDA_17_4 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat] //[AI1_GhostOfBern, AI2_0x12, RAI_30_80|TAI_Arch, AI4_Retreat] //ditto
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [16,15] 0x0 0x0 0x1 REDA_18_6 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [17,12] 0x0 0x0 0x1 REDA_17_11 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_10 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Soldier Ruud Level(3,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_17_9 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Soldier Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_11 [IronLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(1,Enemy,1) [18,13] 0x0 0x0 0x1 REDA_18_9 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Soldier Ruud Level(1,Enemy,1) [18,15] 0x0 0x0 0x1 REDA_18_8 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Archer Ruud Level(1,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_7 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern Fighter Ruud Level(3,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_10 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [IronBlade] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(2,Enemy,1) [17,13] 0x0 0x0 0x1 REDA_15_6 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]//[AI1_GhostOfBern, AI2_0x11, RAI_30_80|TAI_HP, AI4_Retreat] //ghost of bern, making them in range
+UNIT GenericBernCh2 Archer Ruud Level(3,Enemy,1) [18,14] 0x0 0x0 0x1 REDA_17_4 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat] //[AI1_GhostOfBern, AI2_0x12, RAI_30_80|TAI_Arch, AI4_Retreat] //ditto
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [16,15] 0x0 0x0 0x1 REDA_18_6 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [17,12] 0x0 0x0 0x1 REDA_17_11 [IronAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_10 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_17_9 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(2,Enemy,1) [18,12] 0x0 0x0 0x1 REDA_18_11 [IronLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [18,13] 0x0 0x0 0x1 REDA_18_9 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Soldier Ruud Level(1,Enemy,1) [18,15] 0x0 0x0 0x1 REDA_18_8 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Archer Ruud Level(1,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_7 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh2 Fighter Ruud Level(3,Enemy,1) [16,12] 0x0 0x0 0x1 REDA_16_10 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh2 Mercenary Ruud Level(3,Enemy,1) [17,9] 0x0 0x0 0x1 REDA_17_7 [IronBlade] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 CutsceneMelady:

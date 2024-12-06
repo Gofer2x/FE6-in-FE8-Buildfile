@@ -1,5 +1,7 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
+11b doesn't have an ending lol
+
 chapters
 
 supports
@@ -10,8 +12,6 @@ fix ballistae? can't enter em
 does it have to do with me moving the ballista items? yes it does. move them back to their og ids. $35 normal, $36 long/iron, $37 killer
 
 add ifdefs and events for giving recruitable characters hm bonuses
-
-remove the ch7 wyverns characters and simulate their stat boosts with the increase params patch
 
 actually implementing supports
 

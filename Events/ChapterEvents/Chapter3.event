@@ -91,29 +91,29 @@ UNIT Lugh Mage Roy Level(1,Ally,0) [3,3] 0x0 0x0 0x1 REDA_3_4 [Fire, Vulnerary] 
 UNIT
 
 Enemies:
-UNIT GenericBern Knight Slater Level(2,Enemy,1) [10,7] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Knight Slater Level(3,Enemy,1) [15,12] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Knight Slater Level(3,Enemy,1) [18,12] 0x0 0x0 0x0 0x0 [IronLance, Javelin, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [11,17] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [13,4] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [7,9] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [6,13] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [16,19] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [17,21] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [1,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(5,Enemy,1) [0,6] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
-UNIT GenericBern Soldier Slater Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
-UNIT GenericBern Archer Slater Level(2,Enemy,1) [2,4] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericBern Archer Slater Level(2,Enemy,1) [9,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericBernCh3 Knight Slater Level(2,Enemy,1) [10,7] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh3 Knight Slater Level(3,Enemy,1) [15,12] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh3 Knight Slater Level(3,Enemy,1) [18,12] 0x0 0x0 0x0 0x0 [IronLance, Javelin, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [11,17] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [13,4] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [7,9] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [6,13] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [16,19] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [17,21] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [1,5] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(5,Enemy,1) [0,6] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x50, AI4_Retreat]
+UNIT GenericBernCh3 Soldier Slater Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
+UNIT GenericBernCh3 Archer Slater Level(2,Enemy,1) [2,4] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericBernCh3 Archer Slater Level(2,Enemy,1) [9,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 CavReinforcements:
-UNIT GenericBern Cavalier Slater Level(1,Enemy,1) [24,8] 0x0 0x0 0x1 REDA_23_8 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern Cavalier Slater Level(1,Enemy,1) [24,9] 0x0 0x0 0x1 REDA_23_9 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh3 Cavalier Slater Level(1,Enemy,1) [24,8] 0x0 0x0 0x1 REDA_23_8 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh3 Cavalier Slater Level(1,Enemy,1) [24,9] 0x0 0x0 0x1 REDA_23_9 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ThroneRoomUnits:
@@ -121,8 +121,8 @@ UNIT Zephiel King 0x0 Level(8,Enemy,0) [19,4] 0x0 0x0 0x0 0x0 [SteelLance, Javel
 UNIT IdunnHuman ShamanF Slater Level(4,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [HandAxe] DummyAI
 UNIT Narcian WyvernLord Slater Level(4,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [IronAxe] DummyAI
 UNIT Slater Knight 0x0 Level(7,Enemy,0) [21,5] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Def, AI4_DontRetreat]
-UNIT GenericBern Fighter Slater Level(4,Enemy,1) [16,5] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Def, AI4_Retreat]
-UNIT GenericBern Fighter Slater Level(4,Enemy,1) [22,5] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericBernCh3 Fighter Slater Level(4,Enemy,1) [16,5] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericBernCh3 Fighter Slater Level(4,Enemy,1) [22,5] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Def, AI4_Retreat]
 UNIT
 
 CutsceneBishop:

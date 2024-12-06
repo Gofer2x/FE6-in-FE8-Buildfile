@@ -29,7 +29,7 @@ POP
 #define Citizen11BByte 0x5A8B3C
 PUSH
 ORG Citizen11BByte
-BYTE GenericCitizenEidyna
+BYTE GenericCitizenEidynaCh11B
 POP
 
 //Change AI1_9 to not attack Larum and Elffin (Douglas)

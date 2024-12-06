@@ -101,40 +101,40 @@ UNIT
 Enemies:
 UNIT Narcian WyvernLord 0x0 Level(1,Enemy,1) [3,8] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] DummyAI
 UNIT Erik Cavalier 0x0 Level(10,Enemy,0) [2,9] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
-UNIT GenericLaus Cavalier Erik Level(4,Enemy,1) [1,5] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Archer Erik Level(5,Enemy,1) [0,6] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(3,Enemy,1) [5,10] 0x0 0x0 0x1 REDA_3_10 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(3,Enemy,1) [5,11] 0x0 0x0 0x1 REDA_3_11 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(3,Enemy,1) [1,10] 0x0 0x0 0x1 REDA_0_10 [IronSword] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(5,Enemy,1) [1,11] 0x0 0x0 0x1 REDA_0_11 [IronLance] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(3,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(3,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(2,Enemy,1) [15,7] 0x0 0x0 0x1 REDA_12_8 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(2,Enemy,1) [17,6] 0x0 0x0 0x1 REDA_14_7 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier Erik Level(2,Enemy,1) [15,4] 0x0 0x0 0x1 REDA_13_2 [IronSword] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Archer Erik Level(5,Enemy,1) [8,12] 0x0 0x0 0x1 REDA_1_12 [IronBow] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Archer Erik Level(4,Enemy,1) [5,8] 0x0 0x0 0x1 REDA_4_9 [IronBow] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [3,10] 0x0 0x0 0x1 REDA_1_9 [IronBow] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Nomad Erik Level(1,Enemy,1) [16,6] 0x0 0x0 0x1 REDA_13_7 [IronBow] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(4,Enemy,1) [1,5] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Archer Erik Level(5,Enemy,1) [0,6] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(3,Enemy,1) [5,10] 0x0 0x0 0x1 REDA_3_10 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(3,Enemy,1) [5,11] 0x0 0x0 0x1 REDA_3_11 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(3,Enemy,1) [1,10] 0x0 0x0 0x1 REDA_0_10 [IronSword] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(5,Enemy,1) [1,11] 0x0 0x0 0x1 REDA_0_11 [IronLance] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(3,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(3,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(2,Enemy,1) [15,7] 0x0 0x0 0x1 REDA_12_8 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(2,Enemy,1) [17,6] 0x0 0x0 0x1 REDA_14_7 [IronLance] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier Erik Level(2,Enemy,1) [15,4] 0x0 0x0 0x1 REDA_13_2 [IronSword] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Archer Erik Level(5,Enemy,1) [8,12] 0x0 0x0 0x1 REDA_1_12 [IronBow] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Archer Erik Level(4,Enemy,1) [5,8] 0x0 0x0 0x1 REDA_4_9 [IronBow] [AI1_InRangeLaus, AI2_TwoMovesLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Nomad Erik Level(1,Enemy,1) [3,10] 0x0 0x0 0x1 REDA_1_9 [IronBow] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Nomad Erik Level(1,Enemy,1) [16,6] 0x0 0x0 0x1 REDA_13_7 [IronBow] [AI1_InRangeLaus, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 PirateReinforcements:
-UNIT GenericPirate Pirate 0x0 Level(4,Enemy,1) [29,15] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRangeLaus, AI2_PillageAttack, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
-UNIT GenericPirate Pirate 0x0 Level(3,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRangeLaus, AI2_PillageAttack, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericPirateCh4 Pirate 0x0 Level(4,Enemy,1) [29,15] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRangeLaus, AI2_PillageAttack, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericPirateCh4 Pirate 0x0 Level(3,Enemy,1) [23,16] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRangeLaus, AI2_PillageAttack, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT
 
 RutgerSquad:
-UNIT GenericLaus Fighter Erik Level(3,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_5_7 [IronAxe, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Fighter Erik Level(2,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_7_7 [IronAxe, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Archer Erik Level(2,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_6_7 [IronBow, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Fighter Erik Level(3,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_5_7 [IronAxe, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Fighter Erik Level(2,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_7_7 [IronAxe, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Archer Erik Level(2,Enemy,1) [3,9] 0x0 0x0 0x1 REDA_6_7 [IronBow, Vulnerary] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_NoRecovery|TAI_Pos, AI4_Retreat]
 UNIT Rutger Myrmidon 0x0 Level(4,Enemy,0) [3,9] 0x0 0x0 0x1 REDA_6_8 [KillingEdge] [AI1_InRangeLaus, AI2_ChargeLaus, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 CavReinforcements:
-UNIT GenericLaus Cavalier 0x0 Level(4,Enemy,1) [29,5] 0x0 0x0 0x1 REDA_28_5 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier 0x0 Level(4,Enemy,1) [29,6] 0x0 0x0 0x1 REDA_28_6 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier 0x0 Level(4,Enemy,1) [29,7] 0x0 0x0 0x1 REDA_28_7 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericLaus Cavalier 0x0 Level(4,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_28_8 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier 0x0 Level(4,Enemy,1) [29,5] 0x0 0x0 0x1 REDA_28_5 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier 0x0 Level(4,Enemy,1) [29,6] 0x0 0x0 0x1 REDA_28_6 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier 0x0 Level(4,Enemy,1) [29,7] 0x0 0x0 0x1 REDA_28_7 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericLausCh4 Cavalier 0x0 Level(4,Enemy,1) [29,8] 0x0 0x0 0x1 REDA_28_8 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 CutsceneNarcian:

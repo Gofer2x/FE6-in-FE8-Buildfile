@@ -35,6 +35,7 @@
 //temporary flags for specific generic deaths
 #define Ch11A_Ch10B_GenericArcherKleinDeathFlag 0x20
 #define Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
+#define Ch11B_GenericCitizenEidynaDeathFlag 0x20
 #define Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 #define Ch20A_GenericCitizenIlliaDeath 0x20
 

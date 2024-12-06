@@ -133,53 +133,53 @@ UNIT
 
 Enemies:
 UNIT Debias Knight 0x0 Level(13,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Spear] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
-UNIT GenericBernCh8 WyvernRider Debias Level(9,Enemy,1) [3,6] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBernCh8 WyvernRider Debias Level(10,Enemy,1) [9,6] 0x0 0x0 0x0 0x0 [SteelLance, RedGem] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericRebel Priest Debias Level(7,Enemy,1) [8,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericRebel Priest Debias Level(7,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mercenary Debias Level(6,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(7,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(6,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(6,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(6,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage Debias Level(6,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
-UNIT GenericRebel Mage Debias Level(6,Enemy,1) [15,8] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(9,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(7,Enemy,1) [19,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(8,Enemy,1) [19,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(10,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(9,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericBernCh7 WyvernRider Debias Level(9,Enemy,1) [3,6] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh7 WyvernRider Debias Level(10,Enemy,1) [9,6] 0x0 0x0 0x0 0x0 [SteelLance, RedGem] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebelCh7 Priest Debias Level(7,Enemy,1) [8,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericRebelCh7 Priest Debias Level(7,Enemy,1) [11,8] 0x0 0x0 0x0 0x0 [Physic, Vulnerary] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericRebelCh7 Mercenary Debias Level(6,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Mercenary Debias Level(6,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(7,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(6,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(6,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(6,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Mage Debias Level(6,Enemy,1) [6,5] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericRebelCh7 Mage Debias Level(6,Enemy,1) [15,8] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Def, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier Debias Level(9,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier Debias Level(9,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelSword, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier Debias Level(7,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [Javelin, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(7,Enemy,1) [19,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(8,Enemy,1) [19,22] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(10,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(9,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
 UNIT
 
 HardExtraEnemies:
-UNIT GenericBernCh8 WyvernRider Debias Level(8,Enemy,1) [13,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Knight Debias Level(7,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh7 WyvernRider Debias Level(8,Enemy,1) [13,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier Debias Level(7,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier Debias Level(7,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [IronSword, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(7,Enemy,1) [17,16] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Knight Debias Level(7,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 SouthCavReinforcements:
-UNIT GenericRebel Cavalier Debias Level(15,Enemy,1) [7,27] 0x0 0x0 0x1 REDA_6_26 [SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericRebel Cavalier Debias Level(7,Enemy,1) [6,27] 0x0 0x0 0x1 REDA_5_26 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat] //[AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat //uhh i don't feel like dealing with this
-UNIT GenericRebel Cavalier Debias Level(5,Enemy,1) [8,27] 0x0 0x0 0x1 REDA_7_26 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat] // [AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat
-UNIT GenericRebel Cavalier Debias Level(5,Enemy,1) [9,27] 0x0 0x0 0x1 REDA_8_26 [SteelLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]  // [AI1_GaleSquad, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat
+UNIT GenericRebelCommanderCh7 Cavalier 0x0 Level(15,Enemy,1) [7,27] 0x0 0x0 0x1 REDA_6_26 [SilverLance] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier GenericRebelCommanderCh7 Level(7,Enemy,1) [6,27] 0x0 0x0 0x1 REDA_5_26 [IronLance, Javelin] [AI1_InRangeOfCommander, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier GenericRebelCommanderCh7 Level(5,Enemy,1) [8,27] 0x0 0x0 0x1 REDA_7_26 [SteelLance] [AI1_InRangeOfCommander, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericRebelCh7 Cavalier GenericRebelCommanderCh7 Level(5,Enemy,1) [9,27] 0x0 0x0 0x1 REDA_8_26 [SteelLance] [AI1_InRangeOfCommander, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
 UNIT
 
 ThroneReinforcements:
-UNIT GenericRebel Mage Debias Level(7,Enemy,1) [3,0] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(9,Enemy,1) [2,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [1,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Mage Debias Level(7,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Archer Debias Level(7,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [9,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericRebel Soldier Debias Level(11,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Mage Debias Level(7,Enemy,1) [3,0] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(9,Enemy,1) [2,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [1,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Mage Debias Level(7,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Archer Debias Level(7,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [9,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericRebelCh7 Soldier Debias Level(11,Enemy,1) [10,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 CutsceneLegance:

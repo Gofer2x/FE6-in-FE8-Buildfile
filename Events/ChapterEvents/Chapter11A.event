@@ -139,27 +139,27 @@ UNIT
 
 Enemies:
 UNIT Orlo Bishop 0x0 Level(8,Enemy,0) [27,2] 0x0 0x0 0x0 0x0 [Divine] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_DontRetreat]
-UNIT GenericEburacum Fighter Orlo Level(13,Enemy,1) [3,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(14,Enemy,1) [8,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(13,Enemy,1) [8,19] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(13,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Shaman Orlo Level(14,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(15,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(15,Enemy,1) [22,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(14,Enemy,1) [21,17] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(15,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(15,Enemy,1) [20,7] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(14,Enemy,1) [22,7] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(14,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(14,Enemy,1) [20,9] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(15,Enemy,1) [21,8] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(14,Enemy,1) [21,6] 0x0 0x0 0x0 0x0 [KillerBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Shaman Orlo Level(16,Enemy,1) [26,3] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Shaman Orlo Level(16,Enemy,1) [28,3] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(14,Enemy,1) [14,6] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(14,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Archer Orlo Level(14,Enemy,1) [14,23] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEburacum Fighter Orlo Level(16,Enemy,1) [8,23] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Weird2, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(13,Enemy,1) [3,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(14,Enemy,1) [8,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(13,Enemy,1) [8,19] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(13,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Shaman Orlo Level(14,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(15,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(15,Enemy,1) [22,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(14,Enemy,1) [21,17] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(15,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(15,Enemy,1) [20,7] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(14,Enemy,1) [22,7] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(14,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(14,Enemy,1) [20,9] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(15,Enemy,1) [21,8] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(14,Enemy,1) [21,6] 0x0 0x0 0x0 0x0 [KillerBow] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Shaman Orlo Level(16,Enemy,1) [26,3] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Shaman Orlo Level(16,Enemy,1) [28,3] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(14,Enemy,1) [14,6] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(14,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Archer Orlo Level(14,Enemy,1) [14,23] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter Orlo Level(16,Enemy,1) [8,23] 0x0 0x0 0x0 0x0 [Halberd] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Weird2, AI4_Retreat]
 UNIT
 
 JustOrlo:
@@ -168,66 +168,66 @@ UNIT
 
 KleinSquad1:
 UNIT Klein Sniper 0x0 Level(1,Enemy,0) [22,25] 0x0 0x0 0x1 REDA_22_24 [SilverBow, WhiteGem] [AI1_InRange80, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [21,24] 0x0 0x0 0x1 REDA_21_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [23,24] 0x0 0x0 0x1 REDA_23_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKleinCh11A_Ch10B Archer Klein Level(14,Enemy,1) [21,24] 0x0 0x0 0x1 REDA_21_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKleinCh11A_Ch10B Archer Klein Level(14,Enemy,1) [23,24] 0x0 0x0 0x1 REDA_23_23 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 KleinSquad2:
-UNIT GenericArcherKlein Archer Klein Level(14,Enemy,1) [20,25] 0x0 0x0 0x1 REDA_21_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericArcherKlein Archer Klein Level(15,Enemy,1) [24,25] 0x0 0x0 0x1 REDA_23_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKleinCh11A_Ch10B Archer Klein Level(14,Enemy,1) [20,25] 0x0 0x0 0x1 REDA_21_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArcherKleinCh11A_Ch10B Archer Klein Level(15,Enemy,1) [24,25] 0x0 0x0 0x1 REDA_23_25 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 TheaSquad1:
 UNIT Thea PegasusKnight 0x0 Level(8,Enemy,0) [2,0] 0x0 0x0 0x1 REDA_2_1 [SlimLance, Javelin] [AI1_InRange80, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightTheaCh11A_Ch10B PegasusKnight Thea Level(6,Enemy,1) [0,0] 0x0 0x0 0x1 REDA_1_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightTheaCh11A_Ch10B PegasusKnight Thea Level(6,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 TheaSquad2:
-UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [1,1] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT GenericPegKnightThea PegasusKnight Thea Level(6,Enemy,1) [5,1] 0x0 0x0 0x1 REDA_3_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightTheaCh11A_Ch10B PegasusKnight Thea Level(6,Enemy,1) [1,1] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
+UNIT GenericPegKnightTheaCh11A_Ch10B PegasusKnight Thea Level(6,Enemy,1) [5,1] 0x0 0x0 0x1 REDA_3_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
 UNIT
 
 EchidnaFighters:
-UNIT GenericEburacum Fighter 0x0 Level(17,Enemy,1) [16,10] 0x0 0x0 0x1 REDA_16_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Fighter 0x0 Level(15,Enemy,1) [20,12] 0x0 0x0 0x1 REDA_18_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Fighter 0x0 Level(15,Enemy,1) [20,10] 0x0 0x0 0x1 REDA_20_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter 0x0 Level(17,Enemy,1) [16,10] 0x0 0x0 0x1 REDA_16_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter 0x0 Level(15,Enemy,1) [20,12] 0x0 0x0 0x1 REDA_18_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Fighter 0x0 Level(15,Enemy,1) [20,10] 0x0 0x0 0x1 REDA_20_11 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 BrigandReinforcements1:
-UNIT GenericBanditWestIsles Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericBanditWestIsles Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11A Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11A Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 BrigandReinforcements2:
-UNIT GenericBanditWestIsles Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericBanditWestIsles Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11A Brigand 0x0 Level(14,Enemy,1) [26,9] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11A Brigand 0x0 Level(15,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 NorthWestCavReinforcements1:
-UNIT GenericEburacum Cavalier 0x0 Level(19,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_1 [KillerLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [2,0] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier 0x0 Level(19,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_1 [KillerLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [1,0] 0x0 0x0 0x1 REDA_1_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [2,0] 0x0 0x0 0x1 REDA_2_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_3_2 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 NorthWestCavReinforcements2:
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_4_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [5,0] 0x0 0x0 0x1 REDA_5_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_3 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [4,0] 0x0 0x0 0x1 REDA_4_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [5,0] 0x0 0x0 0x1 REDA_5_2 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [3,0] 0x0 0x0 0x1 REDA_3_3 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 SouthEastCavReinforcements1:
 UNIT Roberts Paladin 0x0 Level(1,Enemy,1) [20,25] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [18,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [19,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [18,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [19,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 SouthEastCavReinforcements2:
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [21,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(15,Enemy,1) [22,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericEburacum Cavalier Roberts Level(14,Enemy,1) [23,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [21,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(15,Enemy,1) [22,24] 0x0 0x0 0x0 0x0 [IronLance, Javelin] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericEburacumCh11A Cavalier Roberts Level(14,Enemy,1) [23,24] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 CutsceneMelady:

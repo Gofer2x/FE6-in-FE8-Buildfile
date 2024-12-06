@@ -98,28 +98,28 @@ UNIT
 
 Enemies:
 UNIT Nord Druid 0x0 Level(5,Enemy,0) [18,29] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
-UNIT GenericArmagh Fighter Nord Level(10,Enemy,1) [11,10] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(10,Enemy,1) [13,10] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(11,Enemy,1) [11,11] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(11,Enemy,1) [13,11] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(11,Enemy,1) [11,12] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(12,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(11,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(14,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [Halberd, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Archer Nord Level(10,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(10,Enemy,1) [12,18] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(12,Enemy,1) [11,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(11,Enemy,1) [13,19] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(11,Enemy,1) [11,20] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(11,Enemy,1) [13,20] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(12,Enemy,1) [10,19] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(11,Enemy,1) [14,19] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Mercenary Nord Level(11,Enemy,1) [14,22] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Berserker Nord Level(1,Enemy,1) [12,21] 0x0 0x0 0x0 0x0 [SteelAxe, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Archer Nord Level(13,Enemy,1) [10,22] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
-UNIT GenericArmagh Shaman Nord Level(12,Enemy,1) [14,30] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericArmagh Shaman Nord Level(12,Enemy,1) [19,30] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Archer Nord Level(10,Enemy,1) [6,19] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(10,Enemy,1) [11,10] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(10,Enemy,1) [13,10] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(11,Enemy,1) [11,11] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(11,Enemy,1) [13,11] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(11,Enemy,1) [11,12] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(12,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(11,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(14,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [Halberd, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Archer Nord Level(10,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(10,Enemy,1) [12,18] 0x0 0x0 0x0 0x0 [KillingEdge] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(12,Enemy,1) [11,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(11,Enemy,1) [13,19] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(11,Enemy,1) [11,20] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(11,Enemy,1) [13,20] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(12,Enemy,1) [10,19] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(11,Enemy,1) [14,19] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Mercenary Nord Level(11,Enemy,1) [14,22] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Berserker Nord Level(1,Enemy,1) [12,21] 0x0 0x0 0x0 0x0 [SteelAxe, Vulnerary] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Archer Nord Level(13,Enemy,1) [10,22] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_TwoMoves, RAI_10_50|TAI_Arch, AI4_Retreat]
+UNIT GenericArmaghCh10A Shaman Nord Level(12,Enemy,1) [14,30] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericArmaghCh10A Shaman Nord Level(12,Enemy,1) [19,30] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Archer Nord Level(10,Enemy,1) [6,19] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 JustGonzalez:
@@ -127,20 +127,20 @@ UNIT Gonzalez Brigand Nord Level(5,Enemy,0) [18,30] 0x0 0x0 0x1 REDA_18_31 [Devi
 UNIT
 
 FortFighterReinforcements:
-UNIT GenericArmagh Fighter Nord Level(12,Enemy,1) [9,31] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericArmagh Fighter Nord Level(13,Enemy,1) [11,31] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(12,Enemy,1) [9,31] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericArmaghCh10A Fighter Nord Level(13,Enemy,1) [11,31] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 PirateReinforcements1:
-UNIT GenericPirate Pirate 0x0 Level(11,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericPirateWestIslesCh10A Pirate 0x0 Level(11,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [PoisonAxe, Antitoxin] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 PirateReinforcements2:
-UNIT GenericPirate Pirate 0x0 Level(13,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [Hammer] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericPirateWestIslesCh10A Pirate 0x0 Level(13,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [Hammer] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 PirateReinforcements3:
-UNIT GenericPirate Pirate 0x0 Level(12,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
+UNIT GenericPirateWestIslesCh10A Pirate 0x0 Level(12,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_Pos, AI4_Retreat]
 UNIT
 
 ALIGN 4

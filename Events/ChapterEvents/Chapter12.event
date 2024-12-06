@@ -110,33 +110,33 @@ UNIT
 
 Enemies:
 UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [9,1] 0x0 0x0 0x0 0x0 [SilverLance, Elixir] [AI1_None, AI2_PillageEscape, RAI_80_100|TAI_Def, AI4_DontRetreat]
-UNIT GenericJuteaux Fighter 0x0 Level(12,Enemy,1) [10,21] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(13,Enemy,1) [13,21] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Knight 0x0 Level(13,Enemy,1) [9,16] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(12,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(13,Enemy,1) [8,12] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(12,Enemy,1) [10,10] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(14,Enemy,1) [10,12] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Warrior 0x0 Level(5,Enemy,1) [9,11] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(12,Enemy,1) [10,21] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(13,Enemy,1) [13,21] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Knight 0x0 Level(13,Enemy,1) [9,16] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(12,Enemy,1) [8,10] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(13,Enemy,1) [8,12] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(12,Enemy,1) [10,10] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(14,Enemy,1) [10,12] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Warrior 0x0 Level(5,Enemy,1) [9,11] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT Raigh Shaman 0x0 Level(12,Enemy,0) [3,11] 0x0 0x0 0x0 0x0 [Nosferatu] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(15,Enemy,1) [23,17] 0x0 0x0 0x0 0x0 [KillerAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Knight 0x0 Level(12,Enemy,1) [23,12] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(15,Enemy,1) [23,8] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Priest 0x0 Level(14,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [Mend] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericJuteaux Priest 0x0 Level(15,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [Sleep] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Priest 0x0 Level(15,Enemy,1) [20,22] 0x0 0x0 0x0 0x0 [Physic, Mend] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericJuteaux Priest 0x0 Level(15,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Physic, Sleep] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
-UNIT GenericJuteaux Archer 0x0 Level(11,Enemy,1) [14,18] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Archer 0x0 Level(12,Enemy,1) [16,18] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Archer 0x0 Level(13,Enemy,1) [10,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Archer 0x0 Level(13,Enemy,1) [14,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Archer 0x0 Level(13,Enemy,1) [15,10] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Archer 0x0 Level(13,Enemy,1) [18,10] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericJuteaux Shaman 0x0 Level(13,Enemy,1) [12,14] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Shaman 0x0 Level(13,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Shaman 0x0 Level(14,Enemy,1) [20,21] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericJuteaux Shaman 0x0 Level(13,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [Eclipse] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Sniper 0x0 Level(2,Enemy,1) [21,18] 0x0 0x0 0x0 0x0 [SilverBow, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(15,Enemy,1) [23,17] 0x0 0x0 0x0 0x0 [KillerAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Knight 0x0 Level(12,Enemy,1) [23,12] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(15,Enemy,1) [23,8] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Priest 0x0 Level(14,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [Mend] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericJuteauxCh12 Priest 0x0 Level(15,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [Sleep] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Priest 0x0 Level(15,Enemy,1) [20,22] 0x0 0x0 0x0 0x0 [Physic, Mend] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericJuteauxCh12 Priest 0x0 Level(15,Enemy,1) [10,2] 0x0 0x0 0x0 0x0 [Physic, Sleep] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Reckless, AI4_DontRetreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(11,Enemy,1) [14,18] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(12,Enemy,1) [16,18] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(13,Enemy,1) [10,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(13,Enemy,1) [14,14] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(13,Enemy,1) [15,10] 0x0 0x0 0x0 0x0 [Longbow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Archer 0x0 Level(13,Enemy,1) [18,10] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericJuteauxCh12 Shaman 0x0 Level(13,Enemy,1) [12,14] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Shaman 0x0 Level(13,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Shaman 0x0 Level(14,Enemy,1) [20,21] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericJuteauxCh12 Shaman 0x0 Level(13,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [Eclipse] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Sniper 0x0 Level(2,Enemy,1) [21,18] 0x0 0x0 0x0 0x0 [SilverBow, Vulnerary] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
 UNIT
 
 JustEin:
@@ -148,28 +148,28 @@ UNIT Cath ThiefF 0x0 Level(5,Enemy,0) [18,0] 0x0 0x0 0x1 REDA_18_1 [IronSword, L
 UNIT
 
 SouthEastReinforcements:
-UNIT GenericJuteaux Warrior 0x0 Level(15,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_30_22 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(15,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_29_22 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(14,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_30_23 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(13,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_28_23 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Warrior 0x0 Level(15,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_30_22 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(15,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_29_22 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(14,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_30_23 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(13,Enemy,1) [31,23] 0x0 0x0 0x1 REDA_28_23 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 SouthReinforcements:
-UNIT GenericJuteaux Hero 0x0 Level(1,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_12_30 [SilverSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Mercenary 0x0 Level(13,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_11_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Mercenary 0x0 Level(16,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_13_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Mercenary 0x0 Level(16,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_12_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Hero 0x0 Level(1,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_12_30 [SilverSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Mercenary 0x0 Level(13,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_11_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Mercenary 0x0 Level(16,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_13_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Mercenary 0x0 Level(16,Enemy,1) [12,31] 0x0 0x0 0x1 REDA_12_28 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 ThroneRoomFighterReinforcements:
-UNIT GenericJuteaux Fighter 0x0 Level(12,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericJuteaux Fighter 0x0 Level(14,Enemy,1) [12,6] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(12,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericJuteauxCh12 Fighter 0x0 Level(14,Enemy,1) [12,6] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 WyvernReinforcements:
-UNIT GenericBern WyvernRider 0x0 Level(15,Enemy,1) [26,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(12,Enemy,1) [28,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(13,Enemy,1) [30,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh12 WyvernRider 0x0 Level(15,Enemy,1) [26,0] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh12 WyvernRider 0x0 Level(12,Enemy,1) [28,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericBernCh12 WyvernRider 0x0 Level(13,Enemy,1) [30,0] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 CutsceneFlaer:

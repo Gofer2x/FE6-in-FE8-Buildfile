@@ -16,6 +16,8 @@
 #define Ch11B_BartreRecruitmentFlag 0x9
 #define Ch11B_FirBartreExtraTalkFlag 0xA
 
+//Ch11B_GenericCitizenEidynaDeathFlag 0x20
+
 EventPointerTable(EVENTS_Ch11B,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch11B,0x0)
 NPCEscapePointPointerTable(CHAPTER_Ch11B,Ch11BNPCEscapePoints)
@@ -108,40 +110,40 @@ UNIT Geese Pirate 0x0 Level(10,NPC,0) [18,21] 0x0 0x0 0x1 REDA_18_22 [SteelAxe, 
 UNIT
 
 Civilians:
-UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_20 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
-UNIT GenericCitizenEidyna Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_18 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidynaCh11B Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_20 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidynaCh11B Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_0_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidynaCh11B Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_19 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
+UNIT GenericCitizenEidynaCh11B Civilian 0x0 Level(1,NPC,0) [2,26] 0x0 0x0 0x1 REDA_1_18 [Vulnerary] [AI1_None, AI2_Escape, RAI_80_100|TAI_Reckless, AI4_Retreat]
 UNIT
 
 BartreSquad:
 UNIT Bartre Warrior 0x0 Level(2,NPC,0) [0,11] 0x0 0x0 0x1 REDA_1_11 [BraveAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,10] 0x0 0x0 0x1 REDA_0_11 [IronAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
-UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,13] 0x0 0x0 0x1 REDA_0_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
+UNIT GenericResistanceCh11B Fighter Bartre Level(12,NPC,1) [0,10] 0x0 0x0 0x1 REDA_0_11 [IronAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
+UNIT GenericResistanceCh11B Fighter Bartre Level(12,NPC,1) [0,13] 0x0 0x0 0x1 REDA_0_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
 UNIT
 
 Enemies:
 UNIT Morgan General 0x0 Level(8,Enemy,0) [2,25] 0x0 0x0 0x0 0x0 [SilverAxe, Horseslayer, Javelin] [AI1_InPlace, AI2_DontMove, RAI_50_100|0x60, AI4_DontRetreat]
-UNIT GenericEidyna Fighter 0x0 Level(12,Enemy,1) [12,2] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(13,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(13,Enemy,1) [12,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(12,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Mercenary 0x0 Level(12,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(11,Enemy,1) [22,11] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Shaman 0x0 Level(13,Enemy,1) [9,11] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(12,Enemy,1) [10,12] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(13,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(13,Enemy,1) [16,5] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(13,Enemy,1) [16,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(13,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Mercenary 0x0 Level(12,Enemy,1) [17,18] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(12,Enemy,1) [15,20] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(13,Enemy,1) [22,19] 0x0 0x0 0x0 0x0 [IronBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Berserker 0x0 Level(3,Enemy,1) [11,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(15,Enemy,1) [12,25] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(15,Enemy,1) [14,25] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Mercenary 0x0 Level(14,Enemy,1) [13,26] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(14,Enemy,1) [13,27] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(12,Enemy,1) [12,2] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(13,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(13,Enemy,1) [12,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(12,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Mercenary 0x0 Level(12,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(11,Enemy,1) [22,11] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Shaman 0x0 Level(13,Enemy,1) [9,11] 0x0 0x0 0x0 0x0 [Flux] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(12,Enemy,1) [10,12] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(13,Enemy,1) [16,3] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(13,Enemy,1) [16,5] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(13,Enemy,1) [16,16] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(13,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Mercenary 0x0 Level(12,Enemy,1) [17,18] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(12,Enemy,1) [15,20] 0x0 0x0 0x0 0x0 [IronBow] [AI1_InRange, AI2_Charge, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(13,Enemy,1) [22,19] 0x0 0x0 0x0 0x0 [IronBow] [AI1_Ballista11B, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Berserker 0x0 Level(3,Enemy,1) [11,4] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(15,Enemy,1) [12,25] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(15,Enemy,1) [14,25] 0x0 0x0 0x0 0x0 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Mercenary 0x0 Level(14,Enemy,1) [13,26] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(14,Enemy,1) [13,27] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|0x60, AI4_Retreat]
 UNIT
 
 JustMorgan:
@@ -149,35 +151,35 @@ UNIT Morgan General 0x0 Level(6,Enemy,0) [2,25] 0x0 0x0 0x0 0x0 [SilverAxe, Hors
 UNIT
 
 CivilianChasers:
-UNIT GenericEidyna Druid 0x0 Level(1,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_4_26 [Flux, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,25] 0x0 0x0 0x1 REDA_4_25 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
-UNIT GenericEidyna Shaman 0x0 Level(12,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_4_24 [Flux] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Druid 0x0 Level(1,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_4_26 [Flux, Vulnerary] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(14,Enemy,1) [2,25] 0x0 0x0 0x1 REDA_4_25 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Shaman 0x0 Level(12,Enemy,1) [2,24] 0x0 0x0 0x1 REDA_4_24 [Flux] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
 CastleMercs:
-UNIT GenericEidyna Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_1_26 [Armorslayer] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT GenericEidyna Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
-UNIT GenericEidyna Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidynaAggroCh11B Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_1_26 [Armorslayer] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidynaAggroCh11B Mercenary 0x0 Level(14,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_2_27 [SteelSword] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
+UNIT GenericEidynaAggroCh11B Mercenary 0x0 Level(11,Enemy,1) [2,26] 0x0 0x0 0x1 REDA_3_26 [Lancereaver] [AI1_InPlace, AI2_DontMove, RAI_10_50|0x60, AI4_Retreat]
 UNIT
 
 CastleReinforcementsTwoFighters:
-UNIT GenericEidyna Fighter 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
 CastleReinforcementsMercArcher:
-UNIT GenericEidyna Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
-UNIT GenericEidyna Archer 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Archer 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelBow] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
 CastleReinforcementsMercFighter:
-UNIT GenericEidyna Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
-UNIT GenericEidyna Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Mercenary 0x0 Level(15,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_4_24 [SteelSword] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
+UNIT GenericEidynaCh11B Fighter 0x0 Level(14,Enemy,1) [2,23] 0x0 0x0 0x1 REDA_1_21 [SteelAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x40, AI4_Retreat]
 UNIT
 
 PirateReinforcements:
-UNIT GenericBanditWestIsles Pirate 0x0 Level(7,Enemy,1) [28,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
-UNIT GenericBanditWestIsles Pirate 0x0 Level(7,Enemy,1) [26,24] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11B Pirate 0x0 Level(7,Enemy,1) [28,19] 0x0 0x0 0x0 0x0 [SteelAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+UNIT GenericBanditWestIslesCh11B Pirate 0x0 Level(7,Enemy,1) [26,24] 0x0 0x0 0x0 0x0 [IronAxe] [AI1_InRange, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
 
 CutsceneArcardo:
@@ -286,6 +288,7 @@ TurnEnemiesAggressive: //TODO add second enemy variant for this?
 EndEvent
 
 EndingScene:
+//TODO lol i forgot this
 MoveToChapter(CHAPTER_Ch12)
 ENDA
 

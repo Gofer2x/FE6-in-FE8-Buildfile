@@ -92,51 +92,51 @@ UNIT
 
 Enemies:
 UNIT Arcardo Paladin 0x0 Level(10,Enemy,0) [29,18] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] [AI1_InPlace, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
-UNIT GenericEtruria Mage 0x0 Level(15,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Mage 0x0 Level(14,Enemy,1) [14,3] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Mage 0x0 Level(16,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Mage 0x0 Level(15,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Mage 0x0 Level(17,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Sage 0x0 Level(4,Enemy,1) [17,4] 0x0 0x0 0x0 0x0 [Elfire, Mend] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Sage 0x0 Level(6,Enemy,1) [20,1] 0x0 0x0 0x0 0x0 [Bolting, Physic] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
-UNIT GenericEtruria Archer 0x0 Level(17,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEtruria Archer 0x0 Level(17,Enemy,1) [21,18] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericEtruria Cavalier 0x0 Level(17,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Cavalier 0x0 Level(17,Enemy,1) [11,17] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Cavalier 0x0 Level(17,Enemy,1) [13,14] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericSacae Nomad 0x0 Level(15,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericSacae Nomad 0x0 Level(16,Enemy,1) [16,16] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericSacae Nomad 0x0 Level(14,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericSacae Nomad 0x0 Level(16,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
-UNIT GenericSacae NomadTrooper 0x0 Level(4,Enemy,1) [19,15] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericSacae NomadTrooper 0x0 Level(5,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(16,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(16,Enemy,1) [27,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(16,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(16,Enemy,1) [27,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(13,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(13,Enemy,1) [19,10] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericBern WyvernRider 0x0 Level(13,Enemy,1) [20,12] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericSacae Thief 0x0 Level(17,Enemy,1) [19,17] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruriaCh17B Mage 0x0 Level(15,Enemy,1) [12,5] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Mage 0x0 Level(14,Enemy,1) [14,3] 0x0 0x0 0x0 0x0 [Thunder] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Mage 0x0 Level(16,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Fire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Mage 0x0 Level(15,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Mage 0x0 Level(17,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [Elfire] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Sage 0x0 Level(4,Enemy,1) [17,4] 0x0 0x0 0x0 0x0 [Elfire, Mend] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Sage 0x0 Level(6,Enemy,1) [20,1] 0x0 0x0 0x0 0x0 [Bolting, Physic] [AI1_HealAllies, AI2_DontMove, RAI_50_100|TAI_Pos, AI4_DontRetreat]
+UNIT GenericEtruriaCh17B Archer 0x0 Level(17,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruriaCh17B Archer 0x0 Level(17,Enemy,1) [21,18] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(17,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InPlace, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(17,Enemy,1) [11,17] 0x0 0x0 0x0 0x0 [IronLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(17,Enemy,1) [13,14] 0x0 0x0 0x0 0x0 [Javelin] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(16,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(15,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(16,Enemy,1) [16,16] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(14,Enemy,1) [18,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(16,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat]
+UNIT GenericSacaeCh17B NomadTrooper 0x0 Level(4,Enemy,1) [19,15] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSacaeCh17B NomadTrooper 0x0 Level(5,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [ShortBow, SteelSword] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(16,Enemy,1) [27,15] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(16,Enemy,1) [27,19] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_TwoMoves, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(16,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_RandomMovement, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(16,Enemy,1) [27,3] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(13,Enemy,1) [21,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(13,Enemy,1) [19,10] 0x0 0x0 0x0 0x0 [Axereaver] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericBernCh17B WyvernRider 0x0 Level(13,Enemy,1) [20,12] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSacaeCh17B Thief 0x0 Level(17,Enemy,1) [19,17] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 CavReinforcements:
-UNIT GenericEtruria Cavalier 0x0 Level(16,Enemy,1) [5,1] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericEtruria Cavalier 0x0 Level(17,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(16,Enemy,1) [5,1] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericEtruriaCh17B Cavalier 0x0 Level(17,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 NomadReinforcements:
-UNIT GenericSacae Nomad 0x0 Level(16,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
-UNIT GenericSacae Nomad 0x0 Level(15,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(16,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
+UNIT GenericSacaeCh17B Nomad 0x0 Level(15,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT
 
 PillagerThiefReinforcements1:
-UNIT GenericSacae Thief 0x0 Level(17,Enemy,1) [17,3] 0x0 0x0 0x1 REDA_14_5 [PoisonSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericSacaeCh17B Thief 0x0 Level(17,Enemy,1) [17,3] 0x0 0x0 0x1 REDA_14_5 [PoisonSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 PillagerThiefReinforcements2:
-UNIT GenericSacae Thief 0x0 Level(17,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Pos, AI4_Retreat]
+UNIT GenericSacaeCh17B Thief 0x0 Level(17,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] [AI1_None, AI2_PillageEscape, RAI_50_100|TAI_Pos, AI4_Retreat]
 UNIT
 
 CutsceneYoder:

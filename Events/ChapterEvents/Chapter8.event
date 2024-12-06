@@ -290,7 +290,11 @@ GOTO 9
 
 LABEL 1 //lilina dead, go to ch9
 Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
-//TODO some sort of roy movement here.. maybe later
+//this is technically a manual move but we only have 1steps in fe8 so let's just
+//02   01    01    01    01    02   02   01    02   02   02   01    01    01    01    01
+//Down Right Right Right Right Down Down Right Down Down Down Right Right Right Right Right 
+MOVE 0x0 Roy [16,23]
+
 FadeIntoBlack
 CALL OstiaNarcianCutscene
 LABEL 9

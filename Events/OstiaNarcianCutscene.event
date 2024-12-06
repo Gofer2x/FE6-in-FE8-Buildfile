@@ -52,6 +52,11 @@ ClearAll
 LOMA CHAPTER_Ch7
 LOAD3 0x0 CutsceneRoy
 LOAD1 0x1 CutsceneNarcianSquad
+//weird manual move here
+//00   00   00   00   00   00   00   00   00   00   03 03 03 03 03 03 03 03 03 03 03 03
+//Left Left Left Left Left Left Left Left Left Left Up Up Up Up Up Up Up Up Up Up Up Up
+//10x left, 12 right
+//...wait, this happens before the screen fades out. why????? not implementing it.
 MOVE 0x0 Roy [6,17]
 FadeFromBlack
 STAL 60
@@ -83,7 +88,7 @@ LOAD1 0x1 CutsceneEtrurians3
 ENUN
 LOAD1 0x1 CutsceneEtrurians4
 ENUN
-//two invalid pointers here lol?
+//fe6 has two more invalid unit pointers here lol
 Text(Ch8_Ch8x_EtruriansAppear)
 MOVE 0x0 Narcian [20,12]
 MoveByCoords(0,3,17,19,11)
@@ -109,6 +114,6 @@ ENUN
 Text(Ch8_Ch8x_CeciliaTalk)
 MOVE 0x0 Roy [6,10]
 ENUN
-Text(Ch8_Ch8x_CeciliaSus)
+Text(Ch8_Ch8x_CeciliaRoyMan)
 MoveToChapter(CHAPTER_Ch9)
 ENDA

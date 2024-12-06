@@ -1,6 +1,6 @@
 EVENT_BindingBladeAndRoyPromo:
 
-//TODO make this less janky lol. both visually and the dummy.
+//TODO make this less janky lol. both visually and the dummy promo item.
 //most notably the backgrounds that appear between white flashes show up for as they're set before the fade from white finishes.
 
 FadeOutMusic
@@ -10,11 +10,11 @@ TEXTSTART
 TEXTSHOW Ch21_Ch21x_EndBindingBlade1
 TEXTEND
 FadeIntoWhite(16) //quick flash of white
-//TODO Play funny sound
+PlaySound(SND_MagicShine)
 FadeFromWhite(16)
 TEXTCONT //whoa! what's happening?
 TEXTEND
-//TODO Play funny sound again
+PlaySound(SND_MagicShine)
 FadeIntoWhite(4) // does this work?
 REMA
 SetBackground(BG_Temple1Bright)
@@ -23,11 +23,10 @@ PlayMusic(MUS_TheDarkPriestess)
 TEXTSTART
 TEXTSHOW Ch21_Ch21x_EndBindingBlade2
 TEXTEND
-FadeIntoWhite(16) //quick flash of white again
-FadeFromWhite(16)
+FlashWhiteAdjustable(16) //quick flash of white again
 
 
-//TODO funny sound again again
+PlaySound(SND_MagicShine)
 FadeIntoWhite(4)
 REMA
 SetBackground(BG_Castle2)

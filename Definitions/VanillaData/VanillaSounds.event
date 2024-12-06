@@ -73,3 +73,13 @@
 #define SND_VillageDestruction 0xAB
 #define SND_WaterTileGoingDown 0xBD
 #define SND_WaterTileGoingUp 0xBE
+
+//TODO when doing audio, don't forget to replace these too (maybe)
+#define MUS_Envsound_Windgusts 0x4E
+
+#define SND_MagicShine 0x2E9
+#define SND_MagicShineLong 0x2EA
+#define SND_MagicShineLonger 0x2EB
+#define SND_MagicShineEvenLonger 0x2EC
+#define SND_MagicShineLongest 0x2ED
+

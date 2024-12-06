@@ -198,14 +198,14 @@ CAM1 Randy
 FlashCursor(27,3,60)
 Text(BG_Castle3,Ch14_Start2)
 FadeOutMusic
-//TODO sandstorm bgs?
+PlayMusic(MUS_Envsound_Windgusts)
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy
 Text(Ch14_Start3)
 LOAD1 0x1 CeciliaSophia
 ENUN
-//TODO stop sandstorm bgs
+FadeOutMusic
 GotoPrepScreen
 
 BanditsAppear:
@@ -229,7 +229,7 @@ LoadHardSouthEastBandits:
 HardReinforcementEvent(BrigandReinforcementsSouthEast)
 
 GaidenFail:
-//remove fog
+VCWF 0x0
 WEA1 0x0 //is this it????
 STAL 128
 CAM1 Roy

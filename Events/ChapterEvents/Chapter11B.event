@@ -116,8 +116,8 @@ UNIT
 
 BartreSquad:
 UNIT Bartre Warrior 0x0 Level(2,NPC,0) [0,11] 0x0 0x0 0x1 REDA_1_11 [BraveAxe] [AI1_InRange, AI2_Charge, RAI_30_80|0x68, AI4_Retreat]
-UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,10] 0x0 0x0 0x1 REDA_0_11 [IronAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // [AI1_GaleSquad, AI2_Charge, RAI_10_50|0x68, AI4_Retreat]  removing gale ai
-UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,13] 0x0 0x0 0x1 REDA_0_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat]
+UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,10] 0x0 0x0 0x1 REDA_0_11 [IronAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
+UNIT GenericResistance Fighter Bartre Level(12,NPC,1) [0,13] 0x0 0x0 0x1 REDA_0_12 [HandAxe] [AI1_InRange, AI2_Charge, RAI_10_50|0x68, AI4_Retreat] // AI1_GaleSquad
 UNIT
 
 Enemies:

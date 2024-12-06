@@ -123,7 +123,7 @@ you're in our debt.[AN]
 [OpenMidRight]Regardless, please come in and[N]
 meet the rest of the army.[AN][X]
 
-## Ch8_Ch8x_CeciliaSus
+## Ch8_Ch8x_CeciliaRoyMan
 [OpenMidLeft][LoadCecilia]...He's grown so much in the short[N]
 time since I met him last.[AN]
 He's maturing into a man.[AN][X]

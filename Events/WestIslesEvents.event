@@ -33,7 +33,6 @@ Text(Ch10B_Ch11A_YesKleinShannaTheaSecondTalk)
 BecomeAlly(Thea)
 AllEnemiesToNPC(GenericPegKnightThea,PegasusKnight)
 ChangeAIAllNPC(AI1_None,AI2_Escape,GenericPegKnightThea,PegasusKnight)
-//SetAI(GenericPegKnightThea,AI1_None,AI2_Escape) //TODO use script
 RestoreMusic
 GOTO 9
 

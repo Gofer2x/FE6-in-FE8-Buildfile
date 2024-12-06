@@ -4,8 +4,14 @@ chapters
 
 supports
 
+S ranks impossible to reach? are the different ranks properly set? do testing
+
 fix ballistae? can't enter em
-does it have to do with me moving the ballista items? yes it does. move them back to their og ids.
+does it have to do with me moving the ballista items? yes it does. move them back to their og ids. $35 normal, $36 long/iron, $37 killer
+
+add ifdefs and events for giving recruitable characters hm bonuses
+
+remove the ch7 wyverns characters and simulate their stat boosts with the increase params patch
 
 actually implementing supports
 
@@ -17,6 +23,8 @@ larum/dancer mms is broken
 
 harp and birdie sounds for elffin animation
 
+different length fade ins and fadeouts? rn all are just 60 i think
+
 manakete anims
 
 the mugs for the female villager in hat and bangs seem to dislike being palette swaps of each other. their binary data seems different. also one is missing (villager13). i've messed around with them a bunch and i think it's that some of them from the repo have a slight offset and that the first one only has 15 colors which messes things up. i've made htem not palette swaps for the time being, just leave them for now
@@ -25,7 +33,16 @@ experimental: since i only use my own map and tileset data, use the space for it
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.
 
 note on differences from fe6:
-the double hard mode bonuses in the first few chapters are not implemented. not sure how to do that, idk how that hm bonuses event patch works exactly.
+the double hard mode bonuses in the first few chapters are not implemented. i will need a patch that can handle multiple units at once for that.
+
+torch staff has fe8 behavior.. maybe? did i change the 
+
+thieves need higher speed to steal. this will need a patch to be changed.
+
 brigand and pirate berserker promo have different stat bonuses in fe6, but i had to combine them here.
-all the enemies iwth the wacky "ghost of bern" ai have mroe standard ai instead.
-ditto with galle and squad ai
+
+
+
+all the enemies with the wacky "ghost of bern" ai have more standard ai instead.
+ditto with galle and squad ai. might change this eventually if a need arises.
+

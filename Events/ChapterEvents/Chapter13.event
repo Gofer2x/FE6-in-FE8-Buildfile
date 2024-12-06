@@ -221,11 +221,12 @@ Text(Ch13_Start1)
 PlayMusic(MUS_TheKingOfBern)
 LOAD1 0x1 CutsceneZephielIdunn
 ENUN
+MOVE 0x0 Zephiel [45,13]
 MOVE 0x0 IdunnHuman [45,14]
 ENUN
 Text(Ch13_Start2)
-//move idunn 1 up?
-//ENUN
+MOVE_1STEP 0x0 IdunnHuman Up
+ENUN
 DISA IdunnHuman
 PlayMusic(MUS_WhenTheRushComes)
 LOAD3 0x0 Units
@@ -267,8 +268,12 @@ RestoreMusic
 EndEvent
 
 GuinivereFound:
-//there is like a bunch of asm here idk. whatever man
-SwitchMusic(MUS_TheKingOfBern)
+//NOTE: this section uses some asm to, i think, do a two-layer music switch + return.
+//first switch from map theme to zephiel music, then switch to guinivere, then back to zephiel, then finally back to map music.
+//i will do a normal "play music" at the start and do a restore for the zephiel music, then just keep the music at end.
+//enemy phase starts right as the event ends so you don't get to hear the player phase track anyway.
+//TODO see if this works properly.
+PlayMusic(MUS_TheKingOfBern)
 CAM1 [43,9]
 MOVE 0x0 Narcian [43,10]
 ENUN
@@ -282,10 +287,14 @@ ENUN
 TEXTSTART
 TEXTSHOW Ch13_ZephielScoldsGuinivere
 TEXTEND
-//TODO idk what some asm happens here man
+//Guinivere. So good to see you.
+SwitchMusic(MUS_PrincessOfDestiny)
+//Zephiel, why?
 TEXTCONT
 TEXTEND
-//TODO and again
+//......
+RestoreMusic
+//Narcian! Is the head of Guinivere's guard present?
 TEXTCONT
 TEXTEND
 REMA
@@ -293,14 +302,14 @@ REMA
 STAL 60
 DISA Zephiel
 ENUN
-MOVE 0x0 Narcian [43,10]
+
+MOVE_1STEP 0x0 Narcian Left
 DISA GuinivereTrial
 ENUN
 MOVE 0x0 Narcian [43,9]
 ENUN
 DISA Narcian
 ENUN
-RestoreMusic
 EndEvent
 
 MeladyJoins:
@@ -310,10 +319,9 @@ Text(BG_Castle1,Ch13_GuinivereTalksToMelady)
 LOAD1 0x1 JustMelady
 ENUN
 CMON
-//TODO this doesn't exist. patch? or something?
-MOVE 0x0 Melady [4,18]
-//MOVENEXTTO 0x0 Melady Roy
-//ENUN
+//TODO this allegedly breaks with cutscene skips, test
+MoveNextTo(0x0,Melady,Roy)
+ENUN
 CMOF
 Text(Ch13_MeladyRecruitsHerself)
 TurnAlly(Melady)

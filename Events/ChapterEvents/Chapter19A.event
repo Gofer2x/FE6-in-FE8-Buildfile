@@ -218,10 +218,10 @@ SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch19A_End
 TEXTEND
-//TODO idk what some asm happens here man
+SwitchMusic(MUS_PrincessOfDestiny)
 TEXTCONT
 TEXTEND
-//TODO and again
+RestoreMusic
 TEXTCONT
 TEXTEND
 REMA

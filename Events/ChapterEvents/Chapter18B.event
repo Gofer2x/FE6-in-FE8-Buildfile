@@ -3,8 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2
@@ -12,10 +10,13 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-#define Ch18B_TriggerAmbushFlag 0x7
-#define Ch18B_AmbushFlag 0x8
+#define Ch18B_AmbushFlag 0x7
 //Ch18B_MonkeVsSueFlag 0x1E
 //Ch18B_MonkeVsSinFlag 0x1F
+
+#define Ch18B_AmbushChance 0xA //TODO try to find what chance this is specifically
+
+
 
 EventPointerTable(EVENTS_Ch18B,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch18B,0x0)
@@ -44,7 +45,7 @@ TurnEventEnemy(0x0,LoadSouthEastNomads,17)
 TurnEventEnemy(0x0,LoadSouthEastNomads,22)
 TurnEventEnemy(0x0,LoadWyverns,13)
 TurnEventEnemy(0x0,LoadWyverns,23)
-TurnEventEnemy(0x0,TheAmbush,1,255)
+TurnEventEnemy(Ch18B_AmbushFlag,TheAmbush,1,255)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -55,9 +56,9 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
-AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,14,15,20,15)
-AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,13,16,21,22)
-AreaEvent(Ch18B_TriggerAmbushFlag,TriggerAmbush,14,23,20,23)
+AreaEvent(0x0,TriggerAmbush,14,15,20,15)
+AreaEvent(0x0,TriggerAmbush,13,16,21,22)
+AreaEvent(0x0,TriggerAmbush,14,23,20,23)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -237,7 +238,81 @@ FlagOFF(Ch18B_AmbushFlag)
 EndEvent
 
 TheAmbush:
-//TODO this entire thing, the wikis say it's supposed to be infinite but it's not??
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 1 s0 sC
+LoadReinforcements(TentsNomad1)
+LABEL 1
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 2 s0 sC
+LoadReinforcements(TentsNomad2)
+LABEL 2
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 3 s0 sC
+LoadReinforcements(TentsNomad3)
+LABEL 3
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 4 s0 sC
+LoadReinforcements(TentsNomad4)
+LABEL 4
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 5 s0 sC
+LoadReinforcements(TentsNomad5)
+LABEL 5
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 6 s0 sC
+LoadReinforcements(TentsNomad6)
+LABEL 6
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 7 s0 sC
+LoadReinforcements(TentsNomad7)
+LABEL 7
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 8 s0 sC
+LoadReinforcements(TentsNomad8)
+LABEL 8
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 9 s0 sC
+LoadReinforcements(TentsNomad9)
+LABEL 9
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 10 s0 sC
+LoadReinforcements(TentsNomad10)
+LABEL 10
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 11 s0 sC
+LoadReinforcements(TentsNomad11)
+LABEL 11
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 12 s0 sC
+LoadReinforcements(TentsNomad12)
+LABEL 12
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 13 s0 sC
+LoadReinforcements(TentsNomad13)
+LABEL 13
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 14 s0 sC
+LoadReinforcements(TentsNomad14)
+LABEL 14
+
+RANDOMNUMBER Ch18B_AmbushChance
+BNE 15 s0 sC
+LoadReinforcements(TentsNomad15)
+LABEL 15
+
 EndEvent
 
 LoadSouthWestNomads:
@@ -254,10 +329,10 @@ PlayMusic(MUS_Triumph)
 TEXTSTART
 TEXTSHOW Ch18B_End
 TEXTEND
-//TODO idk what some asm happens here man
+SwitchMusic(MUS_PrincessOfDestiny)
 TEXTCONT
 TEXTEND
-//TODO and again
+RestoreMusic
 TEXTCONT
 TEXTEND
 REMA

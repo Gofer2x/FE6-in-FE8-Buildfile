@@ -54,6 +54,8 @@
 #define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
 #define SetAI(x,y,ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHAI [x,y]"
 
+#define MoveNextTo(speed,unit1,unit2) "BYTE $49 $2F ; SHORT speed ; SHORT unit1 ; SHORT unit2 "
+
 //door but with event flag
 #define Door(EventFlag, DoorX, DoorY) "DOOR EventFlag [DoorX, DoorY] 0x12"
 
@@ -80,6 +82,11 @@
 
 #define FadeOutMusic "MUSCMID 0x7FFF"
 #define PlaySound(sound) "SOUN sound"
+
+#define Fade11s 1
+#define Fade5s 4
+#define Fade2s 12
+#define Fade1s 16
 
 #define FadeFromBlack "FADU 60"
 #define FadeFromBlack(speed) "FADU speed"

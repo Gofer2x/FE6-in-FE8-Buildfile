@@ -943,7 +943,7 @@
 #define Ch8_Ch8x_EtruriansAppear 0x10f4
 #define Ch8_Ch8x_PercevalGigaChad 0x10f5
 #define Ch8_Ch8x_CeciliaTalk 0x10f6
-#define Ch8_Ch8x_CeciliaSus 0x10f7
+#define Ch8_Ch8x_CeciliaRoyMan 0x10f7
 #define Ch10A_Ch10B_LilinaRecruitsGonzalez 0x10f8
 #define Ch10A_Ch11B_GeeseAppears 0x10f9
 #define Ch10A_Ch11B_RoyRecruitsGeese 0x10fa

@@ -244,11 +244,13 @@ Text(Ch13_ZephielAttacksCecilia)
 //battle. is this how you do it? hopefully yes
 StartBattle
 MissedAttack(0,0)
-CriticalHit(1,60)
+//can you kill her but not cause an actual death?? idk, just putting damage at so it leaves her at 1
+CriticalHit(1,29)
 EndAttack
 FIG1 Cecilia Zephiel 0x0
 Text(Ch13_CeciliaFunkingDies)
 KILL Cecilia
+ENUN
 Text(Ch13_CeciliaThrownIntoDungeon)
 MOVE 0x0 Zephiel [43,9]
 ENUN
@@ -388,7 +390,7 @@ MOVE 0x0 Perceval [45,6]
 ENUN
 DISA Perceval
 RestoreMusic
-//TODO check if this blows the game up or if i can be lazy
+//this is a bit lazy but works
 MOVE 0x0 GenericSoldierPerceval [45,6]
 ENUN
 DISA GenericSoldierPerceval

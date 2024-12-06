@@ -428,6 +428,7 @@ UnarmedAnim(Dancer_RefreshAnim)
 EndAnim
 
 //Sadly will have to do this for now
+//TODO at them at some point
 #define FaeManakete_Anims 0x0
 #define FireManakete_Anims 0x0
 #define DivineDragon_Anims 0x0

@@ -278,7 +278,7 @@ EndEvent
 
 GaidenGone:
 FlagON(Ch20A_GaidenGoneFlag)
-//TODO weather snow
+WEA1 SnowStorm
 CAM1 Roy
 FlashCursor(Roy,60)
 QuieterMusic

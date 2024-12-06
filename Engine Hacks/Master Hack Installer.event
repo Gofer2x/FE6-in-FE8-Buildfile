@@ -23,6 +23,7 @@
 #include "EVENTSCRIPT_COND_GetStatus/Installer.event"
 #include "EVENTSCRIPT_IsTileChangeTriggered/IsTileChangeTriggered.event"
 #include "EVENTSCRIPT_COND_COUNT_RANGE_20220305/CountRangeState.event"
+#include "AI_TalkAI/TalkAI.event"
 #include "InlineFix_GenerateBestMovementScript.event"
 
 #include "NarrowFont/Narrowfont installer.event"

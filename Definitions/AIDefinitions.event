@@ -24,7 +24,7 @@
 #define AI2_PillageEscape 0x5
 #define AI2_TwoMoves 0x6
 #define AI2_TwoMovesLaus 0x7
-//#define AI2_ 0x8
+#define AI2_ClarineTalkToRoyAI 0x8
 #define AI2_RandomMovement 0x9
 #define AI2_MoveTowardsRoy 0xA
 //#define AI2_ 0xB

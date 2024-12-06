@@ -17,9 +17,13 @@ actually implementing supports
 
 fix chapter title graphics. they use vanilla text? did i mess up the patch?
 
+tileanim2s broken
+
 roy special death quote? give it a special event?
 
 larum/dancer mms is broken
+
+battle backgrounds and battle floors
 
 harp and birdie sounds for elffin animation
 

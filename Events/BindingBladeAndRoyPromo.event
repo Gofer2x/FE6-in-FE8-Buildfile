@@ -1,6 +1,6 @@
 EVENT_BindingBladeAndRoyPromo:
 
-//TODO make this less janky lol. both visually and the dummy promo item.
+//TODO make this less janky lol. both visually and the dummy promo item. for the latter, just make it a fake binding blade lol?
 //most notably the backgrounds that appear between white flashes show up for as they're set before the fade from white finishes.
 
 FadeOutMusic

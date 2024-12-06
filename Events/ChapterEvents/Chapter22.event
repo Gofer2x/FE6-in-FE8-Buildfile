@@ -308,14 +308,14 @@ SetBackground(BG_Castle2)
 TEXTSTART
 TEXTSHOW Ch22_EndTrue
 TEXTEND
-//TODO play flash sound effect
+PlaySound(SND_MagicShine)
 FlashWhiteAdjustable(16)
-//TODO play flash sound effect
+PlaySound(SND_MagicShine)
 FlashWhiteAdjustable(16)
 PlayMusic(MUS_ThePathToGreatness)
 TEXTCONT
 TEXTEND
-//TODO play longer flash sound effect
+PlaySound(SND_MagicShineLonger)
 FlashWhiteAdjustable(12)
 TEXTCONT
 TEXTEND

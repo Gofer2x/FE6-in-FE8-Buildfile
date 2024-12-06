@@ -19,7 +19,7 @@
 #define Ch14_TreasureSilverCardFlag 0xB
 #define Ch14_TreasureWarpFlag 0xC
 #define Ch14_SophiaGuidingRingFlag 0xD
-#define Ch14_GaidenFailFlag 0x20
+#define Ch14_GaidenGoneFlag 0x20
 
 EventPointerTable(EVENTS_Ch14,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch14,0x0)
@@ -48,7 +48,7 @@ TurnEventEnemy(0x0,LoadHardSouthEastBandits,17)
 TurnEventEnemy(0x0,LoadHardNorthBandits,14)
 TurnEventEnemy(0x0,LoadHardNorthBandits,16)
 TurnEventEnemy(0x0,LoadHardNorthBandits,18)
-TurnEventPlayer(Ch14_GaidenFailFlag,GaidenFail,26)
+TurnEventPlayer(Ch14_GaidenGoneFlag,GaidenGone,26)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -228,7 +228,7 @@ HardReinforcementEvent(BrigandReinforcementsNorth)
 LoadHardSouthEastBandits:
 HardReinforcementEvent(BrigandReinforcementsSouthEast)
 
-GaidenFail:
+GaidenGone:
 VCWF 0x0
 WEA1 0x0 //is this it????
 STAL 128
@@ -297,7 +297,7 @@ PlayMusic(MUS_DistantUtopia)
 BranchIfUnitDead(8,Sophia)//if sophia dead, fail and go to label 8
 //else, continue
 
-BranchIfFlagON(8,Ch14_GaidenFailFlag) //check gaiden flag, if fail go to 8
+BranchIfFlagON(8,Ch14_GaidenGoneFlag) //check gaiden flag, if fail go to 8
 
 //gaiden success
 Text(BG_Castle3,Ch14_EndGaidenGot)

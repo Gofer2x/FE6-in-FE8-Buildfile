@@ -46,8 +46,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-CharacterEventBothWays(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy) //TODO change once clarine ai is done
-//CharacterEvent(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy)
+CharacterEvent(Ch4_ClarineRoyTalkFlag,ClarineRecruitsHerself,Clarine,Roy)
 CharacterEvent(Ch4_ClarineRutgerTalkFlag,ClarineRecruitsRutger,Clarine,Rutger)
 END_MAIN
 
@@ -96,7 +95,7 @@ UNIT Merlinus Transporter Roy Level(1,Ally,1) [24,3] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
 JustClarine:
-UNIT Clarine Troubadour 0x0 Level(1,NPC,0) [3,6] 0x0 0x0 0x1 REDA_5_5 [Heal, Vulnerary] [AI1_None, AI2_MoveTowardsRoy, RAI_30_80|TAI_Pos, AI4_Retreat] //clarine will need her own ai2 to talk to roy, look at this later
+UNIT Clarine Troubadour 0x0 Level(1,NPC,0) [3,6] 0x0 0x0 0x1 REDA_5_5 [Heal, Vulnerary] [AI1_None, AI2_ClarineTalkToRoyAI, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
 Enemies:
@@ -237,6 +236,7 @@ EndEvent
 ClarineRecruitsHerself:
 SwitchMusic(MUS_JoinUs)
 Text(BG_Outside, Ch4_ClarineRecruitsHerself)
+REVEAL Clarine
 BecomeAlly(Clarine)
 RestoreMusic
 EndEvent

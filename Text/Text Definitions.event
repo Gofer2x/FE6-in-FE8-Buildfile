@@ -1156,7 +1156,7 @@
 #define Ch11B_ReinforcementsComing 0x11c9
 #define Ch11B_RedGemVillage 0x11ca
 #define Ch11B_EndElffinDead 0x11cb
-#define Ch11B_End1 0x11cc
+#define Ch11B_End 0x11cc
 #define Ch11B_EndEnergyRing 0x11cd
 #define Ch12_Start1 0x11ce
 #define Ch12_Start2 0x11cf

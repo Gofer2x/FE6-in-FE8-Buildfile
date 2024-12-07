@@ -11,10 +11,13 @@
 // 0x5
 //RoutFlag 0x6
 #define Ch18B_AmbushFlag 0x7
+#define Ch18B_AmbushStopCheckFlag 0x8
 //Ch18B_MonkeVsSueFlag 0x1E
 //Ch18B_MonkeVsSinFlag 0x1F
 
 #define Ch18B_AmbushChance 0xA //TODO try to find what chance this is specifically
+
+#define Ch18B_AmbushCounter 0x0
 
 // https://github.com/FireEmblemUniverse/fireemblem6j/blob/main/data/chapters/chapter18_s/eventscript.h#L43
 // https://github.com/FireEmblemUniverse/fireemblem6j/blob/main/src/eventfunctions.c#L1716
@@ -58,9 +61,9 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
-AreaEvent(0x0,TriggerAmbush,14,15,20,15)
-AreaEvent(0x0,TriggerAmbush,13,16,21,22)
-AreaEvent(0x0,TriggerAmbush,14,23,20,23)
+AreaEvent(Ch18B_AmbushStopCheckFlag,TriggerAmbush,14,15,20,15)
+AreaEvent(Ch18B_AmbushStopCheckFlag,TriggerAmbush,13,16,21,22)
+AreaEvent(Ch18B_AmbushStopCheckFlag,TriggerAmbush,14,23,20,23)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -145,63 +148,63 @@ UNIT GenericBernCh18B WyvernRider 0x0 Level(14,Enemy,1) [27,1] 0x0 0x0 0x1 REDA_
 UNIT GenericBernCh18B WyvernRider 0x0 Level(15,Enemy,1) [27,2] 0x0 0x0 0x1 REDA_26_2 [Horseslayer] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Weird2, AI4_Retreat]
 UNIT
 
-TentsNomad1:
+YurtsNomad1:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [15,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad10:
+YurtsNomad10:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [12,21] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad11:
+YurtsNomad11:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [22,21] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad12:
+YurtsNomad12:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [13,23] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad13:
+YurtsNomad13:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [21,23] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad14:
+YurtsNomad14:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [15,24] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad15:
+YurtsNomad15:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [19,24] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_50_100|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad2:
+YurtsNomad2:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [17,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad3:
+YurtsNomad3:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [19,14] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad4:
+YurtsNomad4:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [13,15] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad5:
+YurtsNomad5:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad6:
+YurtsNomad6:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [12,17] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad7:
+YurtsNomad7:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [22,17] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad8:
+YurtsNomad8:
 UNIT GenericDjuteCh18B NomadTrooper 0x0 Level(6,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
-TentsNomad9:
+YurtsNomad9:
 UNIT GenericDjuteCh18B Nomad 0x0 Level(17,Enemy,1) [22,19] 0x0 0x0 0x0 0x0 [ShortBow] [AI1_InRange, AI2_Charge, RAI_10_50|TAI_Arch, AI4_Retreat]
 UNIT
 
@@ -236,83 +239,96 @@ HouseEvent(BG_House,Ch18B_UnitedClansHouse)
 
 TriggerAmbush:
 PlayerInRange
+BranchIfHard(1)
+
+BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,5) //the ambush can only happen 5 times on normal
+GOTO 8
+
+LABEL 1
+BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,10) //and 10 on hard
+
+LABEL 8
 FlagOFF(Ch18B_AmbushFlag)
+FlagOFF(Ch18B_AmbushStopCheckFlag)
+LABEL 9
 EndEvent
 
 TheAmbush:
+IncrementCounter(Ch18B_AmbushCounter)
+
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 1 s0 sC
-LoadReinforcements(TentsNomad1)
+LoadReinforcements(YurtsNomad1)
 LABEL 1
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 2 s0 sC
-LoadReinforcements(TentsNomad2)
+LoadReinforcements(YurtsNomad2)
 LABEL 2
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 3 s0 sC
-LoadReinforcements(TentsNomad3)
+LoadReinforcements(YurtsNomad3)
 LABEL 3
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 4 s0 sC
-LoadReinforcements(TentsNomad4)
+LoadReinforcements(YurtsNomad4)
 LABEL 4
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 5 s0 sC
-LoadReinforcements(TentsNomad5)
+LoadReinforcements(YurtsNomad5)
 LABEL 5
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 6 s0 sC
-LoadReinforcements(TentsNomad6)
+LoadReinforcements(YurtsNomad6)
 LABEL 6
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 7 s0 sC
-LoadReinforcements(TentsNomad7)
+LoadReinforcements(YurtsNomad7)
 LABEL 7
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 8 s0 sC
-LoadReinforcements(TentsNomad8)
+LoadReinforcements(YurtsNomad8)
 LABEL 8
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 9 s0 sC
-LoadReinforcements(TentsNomad9)
+LoadReinforcements(YurtsNomad9)
 LABEL 9
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 10 s0 sC
-LoadReinforcements(TentsNomad10)
+LoadReinforcements(YurtsNomad10)
 LABEL 10
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 11 s0 sC
-LoadReinforcements(TentsNomad11)
+LoadReinforcements(YurtsNomad11)
 LABEL 11
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 12 s0 sC
-LoadReinforcements(TentsNomad12)
+LoadReinforcements(YurtsNomad12)
 LABEL 12
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 13 s0 sC
-LoadReinforcements(TentsNomad13)
+LoadReinforcements(YurtsNomad13)
 LABEL 13
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 14 s0 sC
-LoadReinforcements(TentsNomad14)
+LoadReinforcements(YurtsNomad14)
 LABEL 14
 
 RANDOMNUMBER Ch18B_AmbushChance
 BNE 15 s0 sC
-LoadReinforcements(TentsNomad15)
+LoadReinforcements(YurtsNomad15)
 LABEL 15
 
 EndEvent

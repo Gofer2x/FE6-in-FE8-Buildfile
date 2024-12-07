@@ -15,6 +15,7 @@
 #define Ch11B_RoyGeeseTalkFlag 0x8
 #define Ch11B_BartreRecruitmentFlag 0x9
 #define Ch11B_FirBartreExtraTalkFlag 0xA
+#define Ch11B_MercsAggroFlag 0xB
 
 //Ch11B_GenericCitizenEidynaDeathFlag 0x20
 
@@ -71,6 +72,9 @@ Village(0x0,VisitRedGemVillage,18,21)
 END_MAIN
 
 MiscBasedEvents:
+AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,0,24,16,27)
+AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,0,21,2,23)
+AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,3,20,5,22)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -284,11 +288,23 @@ LoadHardReinforcements(CastleReinforcementsMercFighter)
 LABEL 9
 EndEvent
 
-TurnEnemiesAggressive: //TODO add second enemy variant for this?
+TurnMercsAggressive:
+PlayerInRange
+ChangeAIAllEnemy(AI1_InRange,AI2_Charge,GenericEidynaAggroCh11B,0)
 EndEvent
 
 EndingScene:
-//TODO lol i forgot this
+BranchIfUnitAlive(1,Elffin)
+PlayMusic(MUS_PoemOfTheSoftWind)
+Text(BG_Castle1,Ch11B_EndElffinDead)
+LABEL 1
+PlayMusic(MUS_Triumph)
+Text(BG_Castle1,Ch11B_End)
+BranchIfFlagON(2,Ch11B_GenericCitizenEidynaDeathFlag)
+Text(BG_Castle1,Ch11B_EndEnergyRing)
+GiveItemToCharacter(Roy,EnergyRing)
+LABEL 2
+STAL 64
 MoveToChapter(CHAPTER_Ch12)
 ENDA
 

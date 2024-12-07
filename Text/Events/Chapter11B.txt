@@ -182,7 +182,7 @@ Leave the fighting to us.[AN]
 [OpenMidLeft]Yes, you are right...[N]
 Forgive my being a hindrance...[AN][X]
 
-## Ch11B_End1
+## Ch11B_End
 [OpenMidLeft][LoadElffin][OpenMidRight][LoadRoy]
 [OpenMidRight][ToggleSmile]Even though we've saved the[N]
 people at Castle Eidyna,[AN]

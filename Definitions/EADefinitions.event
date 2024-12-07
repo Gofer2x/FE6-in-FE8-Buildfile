@@ -23,8 +23,8 @@
 #define BranchIfTileChangeActive(label, tilechange) "CheckTileChange(tilechange) ; BNE label s0 sC"
 #define BranchIfTileChangeNotActive(label, tilechange) "CheckTileChange(tilechange) ; BEQ label s0 sC"
 
-
-
+#define BranchIfHard(label) "CHECK_HARD ; BNE label s0 sC"
+#define BranchIfNotHard(label) "CHECK_HARD ; BEQ label s0 sC"
 
 #define SetCounter(counter,value) "COUNTER_SET counter value"
 

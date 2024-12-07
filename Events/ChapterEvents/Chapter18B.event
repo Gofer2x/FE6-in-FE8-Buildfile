@@ -16,6 +16,8 @@
 
 #define Ch18B_AmbushChance 0xA //TODO try to find what chance this is specifically
 
+// https://github.com/FireEmblemUniverse/fireemblem6j/blob/main/data/chapters/chapter18_s/eventscript.h#L43
+// https://github.com/FireEmblemUniverse/fireemblem6j/blob/main/src/eventfunctions.c#L1716
 
 
 EventPointerTable(EVENTS_Ch18B,ThisChapter)

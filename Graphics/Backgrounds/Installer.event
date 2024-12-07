@@ -4,7 +4,7 @@
 //TSA Length: 0x4C0
 //blank out vanilla bgs
 PUSH
-ORG 0x95DD1C
+ORG ConvoBackgroundTable
 FILL 0x36 * 12
 POP
 

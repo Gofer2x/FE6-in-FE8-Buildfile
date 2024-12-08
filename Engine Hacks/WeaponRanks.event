@@ -69,15 +69,16 @@ BYTE WeaponRankDifference
 POP
 
 //"Weapon Exp Required for S Rank" there are two of these for some reason? do the one with more values, it includes the other one
+//this needs -1 apparently
 PUSH
 ORG 0x16d86
-BYTE SRank
+BYTE SRank-1
 ORG 0x02AD74
-BYTE SRank
+BYTE SRank-1
 ORG 0x2C164
-BYTE SRank
+BYTE SRank-1
 ORG 0x2C168
-BYTE SRank
+BYTE SRank-1
 POP
 
 //"Weapon Exp Required for S Rank(Difference Value)"

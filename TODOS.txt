@@ -4,8 +4,6 @@ chapters
 
 supports
 
-S ranks impossible to reach? are the different ranks properly set? do testing
-
 fix ballistae? can't enter em
 does it have to do with me moving the ballista items? yes it does. move them back to their og ids. $35 normal, $36 long/iron, $37 killer
 

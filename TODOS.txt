@@ -1,7 +1,5 @@
 on the gay agenda, from highest to lowest priority (aka how much i feel like it):
 
-11b doesn't have an ending lol
-
 chapters
 
 supports
@@ -18,8 +16,6 @@ actually implementing supports
 fix chapter title graphics. they use vanilla text? did i mess up the patch?
 
 king animation broken. too big
-
-tileanim2s broken
 
 roy special death quote? give it a special event?
 

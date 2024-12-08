@@ -1,48 +1,48 @@
-ALIGN 4
+
 TILEANIM2_LavaColors0:
-#incbin "LavaColors0.dmp"
-ALIGN 4
+BYTE  $16 $00 $9D $00 $7F $01 $1F $0A;
+
 TILEANIM2_LavaColors1:
-#incbin "LavaColors1.dmp"
-ALIGN 4
+BYTE  $18 $00 $BE $00 $BF $05 $5F $1E;
+
 TILEANIM2_LavaColors2:
-#incbin "LavaColors2.dmp"
-ALIGN 4
+BYTE  $19 $00 $DF $00 $DF $05 $7F $22;
+
 TILEANIM2_LavaColors3:
-#incbin "LavaColors3.dmp"
-ALIGN 4
+BYTE  $3A $00 $1F $01 $FF $0D $9F $2A;
+
 TILEANIM2_LavaColors4:
-#incbin "LavaColors4.dmp"
-ALIGN 4
+BYTE  $3B $00 $5F $01 $FF $11 $BF $2E;
+
 TILEANIM2_LavaColors5:
-#incbin "LavaColors5.dmp"
-ALIGN 4
+BYTE  $3D $00 $7F $01 $5F $16 $DF $32;
+
 TILEANIM2_LavaColors6:
-#incbin "LavaColors6.dmp"
-ALIGN 4
+BYTE  $3E $00 $7F $01 $9E $1A $FF $36;
+
 TILEANIM2_LavaColors7:
-#incbin "LavaColors7.dmp"
-ALIGN 4
+BYTE  $5F $00 $DF $01 $BF $26 $1F $37;
+
 TILEANIM2_LavaColors8:
-#incbin "LavaColors8.dmp"
-ALIGN 4
+BYTE  $9F $00 $5F $06 $1F $37 $7F $3B;
+
 TILEANIM2_LavaColors9:
-#incbin "LavaColors9.dmp"
-ALIGN 4
+BYTE  $5F $00 $5F $06 $FF $2E $5F $3B;
+
 TILEANIM2_LavaColors10:
-#incbin "LavaColors10.dmp"
-ALIGN 4
+BYTE  $3E $00 $7F $01 $9E $1A $FF $36;
+
 TILEANIM2_LavaColors11:
-#incbin "LavaColors11.dmp"
-ALIGN 4
+BYTE  $3D $00 $7F $01 $5F $16 $DF $32;
+
 TILEANIM2_LavaColors12:
-#incbin "LavaColors12.dmp"
-ALIGN 4
+BYTE  $3B $00 $5F $01 $FF $11 $BF $2E;
+
 TILEANIM2_LavaColors13:
-#incbin "LavaColors13.dmp"
-ALIGN 4
+BYTE  $3A $00 $1F $01 $FF $0D $9F $2A;
+
 TILEANIM2_LavaColors14:
-#incbin "LavaColors14.dmp"
+BYTE  $18 $00 $DF $00 $DF $05 $7F $22;
 
 ALIGN 4
 TILEANIM2_LavaRawData:
@@ -61,5 +61,7 @@ paletteAnimation(TILEANIM2_LavaColors11, 16, 4, 60, 0)
 paletteAnimation(TILEANIM2_LavaColors12, 16, 4, 60, 0)
 paletteAnimation(TILEANIM2_LavaColors13, 17, 4, 60, 0)
 paletteAnimation(TILEANIM2_LavaColors14, 18, 4, 60, 0)
+WORD 0x0
+WORD 0x0
 
 EventPointerTable(TILEANIM2_Lava,TILEANIM2_LavaRawData)

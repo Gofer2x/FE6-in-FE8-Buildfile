@@ -248,6 +248,9 @@ Text(Ch16_ZeissDotDotDotDotDotDot)
 MOVE 0x0 Zeiss [1,0]
 ENUN
 RestoreMusic
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Zeiss by +11
+#endif
 EndEvent
 
 HughComplains:
@@ -265,6 +268,9 @@ LoadReinforcements(CathAndThief)
 CAM1 Cath
 Text(Ch16_CathAppears)
 RestoreMusic
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Cath by +11
+#endif
 LABEL 9
 EndEvent
 

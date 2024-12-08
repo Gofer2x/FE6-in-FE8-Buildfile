@@ -245,6 +245,9 @@ SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
 Text(Ch22_CathAppears)
 RestoreMusic
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Cath by +14
+#endif
 LABEL 3
 LoadReinforcements(ThiefReinforcements)
 EndEvent

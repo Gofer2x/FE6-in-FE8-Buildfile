@@ -183,6 +183,9 @@ MOVE 0x0 Douglas [0,0]
 ENUN
 DISA Douglas
 MOVE 0x0 Perceval [2,3]
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Perceval by +11
+#endif
 ENUN
 
 LABEL 1
@@ -234,6 +237,9 @@ LoadReinforcements(GarretSquad)
 CAM1 Garret
 PlayMusic(MUS_DeerOfThePlains)
 Text(Ch15_GarretAppears)
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Garret by +11
+#endif
 EndEvent
 
 LilinaRecruitsGarret:

@@ -173,6 +173,9 @@ MOVE 0x0 Erik [3,8]
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy
+#ifdef CONFIG_BuggedEarlyHMBonuses
+//Patch here on Erik and GenericLausCh4 by +4
+#endif
 EndEvent
 
 RutgerClarine1:
@@ -231,6 +234,9 @@ CMOF
 LoadReinforcements(RutgerSquad)
 Text(Ch4_RutgerAppears)
 LABEL 1
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Rutger by +4
+#endif
 EndEvent
 
 ClarineRecruitsHerself:

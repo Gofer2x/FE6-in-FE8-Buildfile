@@ -208,6 +208,9 @@ SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
 Text(Ch20B_CathAppears)
 RestoreMusic
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Cath by +13
+#endif
 LABEL 9
 EndEvent
 

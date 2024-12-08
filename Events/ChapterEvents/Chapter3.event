@@ -164,6 +164,9 @@ REMA
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy
+#ifdef CONFIG_BuggedEarlyHMBonuses
+//Patch here on.. Slater? Does he get HM bonuses? TODO check and GenericBernCh3 by +5
+#endif
 EndEvent
 
 BishopKidsEvent:

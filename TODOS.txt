@@ -7,8 +7,6 @@ supports
 fix ballistae? can't enter em
 does it have to do with me moving the ballista items? yes it does. move them back to their og ids. $35 normal, $36 long/iron, $37 killer
 
-add ifdefs and events for giving recruitable characters hm bonuses
-
 actually implementing supports
 
 fix chapter title graphics. they use vanilla text? did i mess up the patch?
@@ -28,6 +26,12 @@ different length fade ins and fadeouts? rn all are just 60 i think
 manakete anims
 
 the mugs for the female villager in hat and bangs seem to dislike being palette swaps of each other. their binary data seems different. also one is missing (villager13). i've messed around with them a bunch and i think it's that some of them from the repo have a slight offset and that the first one only has 15 colors which messes things up. i've made htem not palette swaps for the time being, just leave them for now
+
+recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
+
+
+
+
 
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.

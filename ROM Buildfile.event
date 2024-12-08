@@ -3,6 +3,7 @@
 	#include "EA Standard Library/Backward Compatibility.txt"
 	#include "Definitions/Master Definitions Installer.event"
 	#define FreeSpace 0xefb2e0
+	#include "Config.event"
 	
 	ORG FreeSpace
 	

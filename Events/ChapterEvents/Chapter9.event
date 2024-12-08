@@ -180,6 +180,9 @@ Text(BG_Outside,Ch9_FirAndSinHeadOut)
 CAM1 [2,3]
 FlashCursor(2,3,60)
 Text(BG_Castle1,Ch9_ScottFirWoDao)
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Fir and Sin by +8
+#endif
 EndEvent
 
 SinTurnsAggressive:

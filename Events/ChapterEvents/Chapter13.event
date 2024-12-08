@@ -331,6 +331,9 @@ CMOF
 Text(Ch13_MeladyRecruitsHerself)
 TurnAlly(Melady)
 RestoreMusic
+#ifdef CONFIG_RecruitableUnitsHMBonuses
+//Level Melady by +10
+#endif
 EndEvent
 
 LarumRecruitsPerceval:

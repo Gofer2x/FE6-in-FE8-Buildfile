@@ -17,8 +17,6 @@ roy special death quote? give it a special event?
 
 larum/dancer mms is broken
 
-battle backgrounds and battle floors
-
 harp and birdie sounds for elffin animation
 
 different length fade ins and fadeouts? rn all are just 60 i think
@@ -36,6 +34,10 @@ recruitable character hm bonuses and bugged early hm bonuses need modified/new p
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.
 
+
+
+
+
 note on differences from fe6:
 the double hard mode bonuses in the first few chapters are not implemented. i will need a patch that can handle multiple units at once for that.
 
@@ -44,8 +46,6 @@ torch staff has fe8 behavior.. maybe? did i change the
 thieves need higher speed to steal. this will need a patch to be changed.
 
 brigand and pirate berserker promo have different stat bonuses in fe6, but i had to combine them here.
-
-
 
 all the enemies with the wacky "ghost of bern" ai have more standard ai instead.
 ditto with galle and squad ai. might change this eventually if a need arises.

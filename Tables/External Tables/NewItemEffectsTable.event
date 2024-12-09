@@ -296,7 +296,7 @@ FullItemEffect(0x5E, Sleep, MapAndBattle, 0x2E, 0x9A4D64, DontShowHP, DontTurn, 
 FullItemEffect(0x5F, Berserk, MapAndBattle, 0x30, 0x9A4CC4, DontShowHP, DontTurn, White)
 FullItemEffect(0x60, Warp, MapAndBattle, 0xFFFE, 0x9A4CC4, DontShowHP, DontTurn, White)
 FullItemEffect(0x61, Rescue, MapAndBattle, 0xFFFE, 0x9A4CC4, DontShowHP, DontTurn, White)
-FullItemEffect(0x62, TorchStaff, MapOnly, 0xFFFE, 0x9A4BF4, DontShowHP, TurnDown, White) //TODO test if this works. it uses the same effect as normal torch
+FullItemEffect(0x62, TorchStaff, MapOnly, 0xFFFE, 0x9A4BF4, DontShowHP, TurnDown, White)
 FullItemEffect(0x63, Hammerne, MapAndBattle, 0x2F, 0x9A4FCC, DontShowHP, DontTurn, White)
 FullItemEffect(0x64, Unlock, MapOnly, 0xFFFE, 0x9A4C3C, DontShowHP, TurnLeft, White)
 FullItemEffect(0x65, Barrier, MapAndBattle, 0x31, 0x9A518C, DontShowHP, DontTurn, White)

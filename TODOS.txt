@@ -41,7 +41,7 @@ this also can apply to much more like mugs. it would need some tinkering and cou
 note on differences from fe6:
 the double hard mode bonuses in the first few chapters are not implemented. i will need a patch that can handle multiple units at once for that.
 
-torch staff has fe8 behavior.. maybe? did i change the 
+torch staff has fe8 behavior. needs a patch ig.
 
 thieves need higher speed to steal. this will need a patch to be changed.
 

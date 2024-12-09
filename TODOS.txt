@@ -9,8 +9,6 @@ does it have to do with me moving the ballista items? yes it does. move them bac
 
 actually implementing supports
 
-fix chapter title graphics. they use vanilla text? did i mess up the patch?
-
 king animation broken. too big
 
 roy special death quote? give it a special event?
@@ -25,9 +23,9 @@ manakete anims
 
 the mugs for the female villager in hat and bangs seem to dislike being palette swaps of each other. their binary data seems different. also one is missing (villager13). i've messed around with them a bunch and i think it's that some of them from the repo have a slight offset and that the first one only has 15 colors which messes things up. i've made htem not palette swaps for the time being, just leave them for now
 
+world map lol. i am in uhh no rush though
+
 recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
-
-
 
 
 

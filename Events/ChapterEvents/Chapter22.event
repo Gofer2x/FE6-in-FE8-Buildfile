@@ -301,10 +301,18 @@ EndEvent
 EndEvent
 
 
-
 EndingScene:
-//TODO check for leg weapons and GOTO 1 or GOTO 3
 FadeOutMusic
+
+BranchIfItemNotInPossession(3,Durandal)
+BranchIfItemNotInPossession(3,Armads)
+BranchIfItemNotInPossession(3,Forblaze)
+BranchIfItemNotInPossession(3,Aureola)
+BranchIfItemNotInPossession(3,Mulagir)
+BranchIfItemNotInPossession(3,Maltet)
+BranchIfItemNotInPossession(3,SaintsStaff)
+BranchIfItemNotInPossession(3,Apocalypse)
+BranchIfItemNotInPossession(3,BindingBlade)
 
 LABEL 1
 SetBackground(BG_Castle2)

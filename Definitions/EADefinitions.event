@@ -26,6 +26,8 @@
 #define BranchIfHard(label) "CHECK_HARD ; BNE label s0 sC"
 #define BranchIfNotHard(label) "CHECK_HARD ; BEQ label s0 sC"
 
+#define BranchIfItemNotInPossession(label,item) "CheckIfItemInPossession(item) ; BEQ label s0 sC"
+
 #define SetCounter(counter,value) "COUNTER_SET counter value"
 
 #define IncrementCounter(counter) "COUNTER_INC counter"

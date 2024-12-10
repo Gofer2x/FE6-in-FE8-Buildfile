@@ -9,7 +9,7 @@
   ORG ChName_DefaultChapterOffset
 #endif
 
-#define ChName_ID 0x01 //TODO: Change this depending on what chapter you're making.
+#define ChName_ID 0x01
 EventPointerTable(ChName_ID, ChName_ThisChapter)
 
 ChName_ThisChapter:
@@ -65,7 +65,7 @@ ENDB
 
 ChName_EndingScene:
 
-MNCH 0x01 //TODO: Replace with proper code for next chapter.
+MNCH 0x01
 ENDA
 
 

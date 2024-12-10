@@ -2,17 +2,16 @@
 //Modified by Nintenlord
 //Modified by Crazycolorz5 and Arch
 
-//TODO: Find and replace ChName with a unique identifier.
 #include EAstdlib.event
 
 #ifndef InlineEvents
 #define DISABLE_TUTORIALS
-    #define ChName_DefaultOffset 0x1000000 //TODO: Change Me
+    #define ChName_DefaultOffset 0x1000000
     PUSH
     ORG ChName_DefaultOffset
 #endif
 
-#define ChName_ID //TODO: Fill in
+#define ChName_ID
 EventPointerTable(ChName_ID,ChName_Start)
     
 ChName_Start:
@@ -55,7 +54,7 @@ ChName_Opening_Event:
 ENDA
 
 ChName_Ending_Event:
-MoveToChapter(NextChapter) //TODO: Put the next chapter here
+MoveToChapter(NextChapter)
 ENDA
 
 ChName_TrapData:

@@ -148,7 +148,7 @@ POP
 //BallistaWeapon(XYZ, Ballista)
 //BallistaWeapon(XYZ, IronBallista)
 //BallistaWeapon(XYZ, KillerBallista)
-//MagicWeapon(XYZ, Fire, 0x16, Red)
+//MagicWeapon(XYZ, Fire, 0x16, Red) //TODO install new magic animations for some of these
 //MagicWeapon(XYZ, Thunder, 0x19, Yellow)
 //MagicWeapon(XYZ, Elfire, 0x17, Red)
 //MagicWeapon(XYZ, Aircalibur, 0x1C, Blue)
@@ -197,6 +197,8 @@ POP
 //MagicWeapon(XYZ, Firestone, 0x13, White)
 //MagicWeapon(XYZ, Divinestone, 0x14, White)
 //MagicWeapon(XYZ, DarkBreath, 0x15, White)
+
+
 
 NormalWeapon(0x0, IronSword)
 NormalWeapon(0x1, SlimSword)

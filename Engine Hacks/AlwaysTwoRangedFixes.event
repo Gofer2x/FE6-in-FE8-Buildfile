@@ -1,0 +1,19 @@
+PUSH
+ORG 0x582D4
+BYTE HandAxe
+ORG 0x582C0
+BYTE HandAxe
+ORG 0x58324
+BYTE Hatchet
+ORG 0x58310
+BYTE Hatchet
+ORG 0x582FC
+BYTE Tomahawk
+ORG 0x582E8
+BYTE Tomahawk
+ORG 0x582A8
+BYTE Runesword
+ORG 0x58290
+BYTE Runesword
+POP
+

@@ -4,9 +4,6 @@ chapters
 
 supports
 
-fix ballistae? can't enter em
-does it have to do with me moving the ballista items? yes it does. move them back to their og ids. $35 normal, $36 long/iron, $37 killer
-
 actually implementing supports
 
 king animation broken. too big
@@ -18,6 +15,8 @@ harp and birdie sounds for elffin animation
 bard and dancer map sounds are weird
 
 different length fade ins and fadeouts? rn all are just 60 i think
+
+slight visual bug with ballista ammo counter (also shows terrain info i think)
 
 manakete anims
 

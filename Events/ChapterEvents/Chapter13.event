@@ -51,8 +51,8 @@ TurnEventNPC(0x0,SophiaAndCeciliaInDungeon,3)
 TurnEventNPC(0x0,PercevalLeaves,8)
 TurnEventEnemy(0x0,LoadNorthWestReinforcements,8)
 TurnEventEnemy(0x0,LoadSouthWestReinforcements,12)
-TurnEventEnemy(0x0,LoadHardNorthWestReinforcementsIfBossAlive,15)
-TurnEventEnemy(0x0,LoadHardSouthWestReinforcementsIfBossAlive,18)
+TurnEventEnemy(0x0,LoadHardNorthWestReinforcements,15)
+TurnEventEnemy(0x0,LoadHardSouthWestReinforcements,18)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -439,14 +439,14 @@ LoadReinforcements(SouthWestReinforcements1)
 LoadReinforcements(SouthWestReinforcements2)
 EndEvent
 
-LoadHardNorthWestReinforcementsIfBossAlive:
+LoadHardNorthWestReinforcements:
 BranchIfBossDead(9)
 LoadHardReinforcements(NorthWestReinforcements1)
 LoadHardReinforcements(NorthWestReinforcements2)
 LABEL 9
 EndEvent
 
-LoadHardSouthWestReinforcementsIfBossAlive:
+LoadHardSouthWestReinforcements:
 BranchIfBossDead(9)
 LoadHardReinforcements(SouthWestReinforcements1)
 LoadHardReinforcements(SouthWestReinforcements2)

@@ -331,6 +331,7 @@ FlashWhiteAdjustable(12)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9
 

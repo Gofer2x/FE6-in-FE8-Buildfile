@@ -311,6 +311,7 @@ PlayMusic(MUS_ShockingTruth2)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 
 BranchIfFlagON(2,SacaeRouteFlag)
 //took illia route

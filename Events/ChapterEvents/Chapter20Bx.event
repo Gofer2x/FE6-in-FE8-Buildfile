@@ -331,6 +331,7 @@ PlayMusic(MUS_MainThemeArrangement)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
 ENDA

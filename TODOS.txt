@@ -10,6 +10,8 @@ king animation broken. too big
 
 roy special death quote? give it a special event?
 
+ifdefs for roy supports
+
 harp and birdie sounds for elffin animation
 
 bard and dancer map sounds are weird

@@ -452,7 +452,6 @@ TEXTCONT
 TEXTEND
 REMA
 
-
 //hero crest
 BranchIfFlagOFF(1,Ch11A_VillageFlag1)
 BranchIfFlagOFF(1,Ch11A_VillageFlag2)

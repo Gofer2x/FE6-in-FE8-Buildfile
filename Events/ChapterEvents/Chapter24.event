@@ -177,6 +177,7 @@ PlayMusic(MUS_ShockingTruth1)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 GotoPrepScreen
 
 Throne1Seize:
@@ -214,12 +215,6 @@ TILECHANGE Ch24_Throne5SeizeTileChange
 RestoreMusic
 EndEvent
 
-Throne5Seize:
-SwitchMusic(MUS_ShockingTruth1)
-Text(BG_Temple1,Ch24_LoreDump5)
-TILECHANGE Ch24_Throne5SeizeTileChange
-RestoreMusic
-EndEvent
 
 Throne6Seize:
 SwitchMusic(MUS_ShockingTruth1)

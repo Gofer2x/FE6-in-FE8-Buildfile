@@ -217,6 +217,7 @@ ENUN
 EndEvent
 
 MercsShowUp:
+CMON
 STAL 32
 SwitchMusic(MUS_JoinUs)
 STAL 32

@@ -194,6 +194,7 @@ PlayMusic(MUS_Talking)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 GotoPrepScreen
 
 DayanAppears:
@@ -288,7 +289,7 @@ PlayMusic(MUS_MainThemeArrangement)
 TEXTCONT
 TEXTEND
 REMA
-
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
 LABEL 9

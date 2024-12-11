@@ -175,6 +175,7 @@ PlayMusic(MUS_ShadowApproaches)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 CAM1 Roy
 GotoPrepScreen
 
@@ -263,6 +264,7 @@ PlayMusic(MUS_CogsOfFate)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch19A)
 ENDA

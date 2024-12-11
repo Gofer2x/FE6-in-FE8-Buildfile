@@ -335,6 +335,7 @@ BranchIfFlagON(7,Ch20A_GenericCitizenIlliaDeath)
 Text(BG_Castle1,Ch20A_EndAngelicRobe)
 GiveItemToCharacter(Roy,AngelicRobe)
 LABEL 7
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
 LABEL 9

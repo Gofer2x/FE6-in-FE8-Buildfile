@@ -284,6 +284,7 @@ PlayMusic(MUS_FinalFarewell)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch8x)
 GOTO 9

@@ -160,12 +160,13 @@ PlayMusic(MUS_WhenTheRushComes)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 //TODO rema doesn't remove the bg here?? idk man
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy
 #ifdef CONFIG_BuggedEarlyHMBonuses
-//Patch here on.. Slater? Does he get HM bonuses? TODO check and GenericBernCh3 by +5
+//Patch here on GenericBernCh3 by +5 (Slater is loaded later)
 #endif
 EndEvent
 
@@ -186,6 +187,10 @@ MOVE 0x0 Cath [5,0]
 MOVE 0x0 Raigh [5,0]
 MOVE 0x0 Lilina [5,0]
 ENUN
+DISA Orlo
+DISA Cath
+DISA Raigh
+DISA Lilina
 STAL 64
 EndEvent
 

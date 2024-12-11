@@ -483,7 +483,7 @@ Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)
 GiveItemToCharacter(Thea,ElysianWhip)
 
 LABEL 3
-
+CLEAN
 STAL 64
 
 MoveToChapter(CHAPTER_Ch11B)

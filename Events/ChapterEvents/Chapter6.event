@@ -240,7 +240,7 @@ CMOF
 MOVE 0x0 Wagner [13,10]
 MOVE 0x0 Roy [13,18]
 ENUN
-MOVE 0x0 Wagner [13,18]
+MOVE 0x0 Wagner [13,17]
 MoveByCoords(60, 12, 9, 12, 16)
 MoveByCoords(60, 13, 9, 13, 16)
 ENUN

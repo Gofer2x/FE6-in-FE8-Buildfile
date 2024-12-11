@@ -282,6 +282,7 @@ PlayMusic(MUS_PrincessOfDestiny)
 TEXTCONT
 TEXTEND
 REMA
+CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch5)
 ENDA

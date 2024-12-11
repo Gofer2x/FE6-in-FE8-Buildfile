@@ -4,6 +4,12 @@
 #include EAstdlib.event
 
 //Tile Changes
+#define Ch24_Throne1SeizeTileChange 0x5
+#define Ch24_Throne2SeizeTileChange 0x4
+#define Ch24_Throne3SeizeTileChange 0x3
+#define Ch24_Throne4SeizeTileChange 0x2
+#define Ch24_Throne5SeizeTileChange 0x1
+#define Ch24_Throne6SeizeTileChange 0x0
 
 //Flags/EventIDs
 //BossQuoteFlag 0x1
@@ -12,6 +18,13 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+
+#define Ch24_Throne1SeizeFlag 0x7
+#define Ch24_Throne2SeizeFlag 0x8
+#define Ch24_Throne3SeizeFlag 0x9
+#define Ch24_Throne4SeizeFlag 0xA
+#define Ch24_Throne5SeizeFlag 0xB
+#define Ch24_Throne6SeizeFlag 0xC
 
 EventPointerTable(EVENTS_Ch24,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch24,0x0)
@@ -35,10 +48,33 @@ TurnBasedEvents:
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
+//TODO Reinforcements
+//The enemy phase of every other turn after the first throne is seized and before the second is
+//1 Manakete with an Elixir from the southeast room
+//The enemy phase of every other turn after the second throne is seized and before the third is
+//1 level 12 Manakete from the first throne
+//The enemy phase of every other turn after the third throne is seized and before the fourth is
+//1 level 12 Manakete from the second throne
+//The enemy phase of every other turn after the fourth throne is seized and before the fifth is
+//1 level 12 Manakete from the third throne
+//The enemy phase of every other turn after the fifth throne is seized and before the sixth is
+//1 level 14 Manakete from the fourth throne
+//The enemy phase of every other turn after the sixth throne is seized
+//1 level 14 Manakete from the fifth throne
+//Each Manakete can only appear up to five times.
+
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(Ch24_Throne1SeizeFlag,Throne1Seize,18,36)
+Seize(Ch24_Throne2SeizeFlag,Throne2Seize,7,35)
+Seize(Ch24_Throne3SeizeFlag,Throne3Seize,5,23)
+Seize(Ch24_Throne4SeizeFlag,Throne4Seize,16,21)
+Seize(Ch24_Throne5SeizeFlag,Throne5Seize,27,14)
+Seize(Ch24_Throne6SeizeFlag,Throne6Seize,18,6)
+Seize(6,3)
+
 END_MAIN
 
 MiscBasedEvents:
@@ -126,13 +162,87 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
-ENDA
+FadeFromBlack
+LOAD1 0x1 Units
+ENUN
+CAM1 Roy
+FlashCursor(Roy,60)
+SetBackground(BG_Temple1)
+TEXTSTART
+TEXTSHOW Ch24_Start
+TEXTEND
+PlayMusic(MUS_ShockingTruth1)
+TEXTCONT
+TEXTEND
+REMA
+GotoPrepScreen
+
+Throne1Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump1)
+TILECHANGE Ch24_Throne1SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne2Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump2)
+TILECHANGE Ch24_Throne2SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne3Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump3)
+TILECHANGE Ch24_Throne3SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne4Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump4)
+TILECHANGE Ch24_Throne4SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne5Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump5)
+TILECHANGE Ch24_Throne5SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne5Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump5)
+TILECHANGE Ch24_Throne5SeizeTileChange
+RestoreMusic
+EndEvent
+
+Throne6Seize:
+SwitchMusic(MUS_ShockingTruth1)
+Text(BG_Temple1,Ch24_LoreDump6)
+TILECHANGE Ch24_Throne6SeizeTileChange
+RestoreMusic
+EndEvent
 
 EndingScene:
+BranchIfUnitDead(1,Fae)
+FadeOutMusic
+SetBackground(BG_Temple1)
+TEXTSTART
+TEXTSHOW Ch24_EndFaeAlive
+TEXTEND
+PlayMusic(MUS_DistantUtopia)
+TEXTCONT
+TEXTEND
+
+LABEL 1
+PlayMusic(MUS_Triumph)
+Text(BG_Temple1,Ch24_End2)
+STAL 64
 MoveToChapter(CHAPTER_Final)
 ENDA
 

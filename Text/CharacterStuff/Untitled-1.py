@@ -142,7 +142,7 @@ s = [["Roy","Marcus"],
 ["Niime","Yoder"],
 ["Dayan","Yoder"]]
 
-with open("Supports.txt","w") as w:
+with open("Supports Empty.txt","w") as w:
     for pair in s:
         A = pair[0]
         B = pair[1]

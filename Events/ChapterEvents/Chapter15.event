@@ -14,7 +14,7 @@
 //RoutFlag 0x6
 #define Ch15_PercevalRecruitmentFlag 0x7
 #define Ch15_RoyPercevalTalkFlag 0x8
-#define Ch15_LilinaGarretTalkFlag 0x9
+#define Ch15_LilinaGarrettTalkFlag 0x9
 //Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch15,ThisChapter)
@@ -40,7 +40,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventEnemy(0x0,GarretAppears,3)
+TurnEventEnemy(0x0,GarrettAppears,3)
 TurnEventEnemy(0x0,ReinforcementsComing,10)
 TurnEventEnemy(0x0,IfBossAliveCavsFromForts,12,4)
 
@@ -51,7 +51,7 @@ CharacterBasedEvents:
 CharacterEvent(Ch15_PercevalRecruitmentFlag,LarumRecruitsPerceval,Larum,Perceval)
 CharacterEvent(Ch15_PercevalRecruitmentFlag,ElffinRecruitsPerceval,Elffin,Perceval)
 CharacterEvent(Ch15_RoyPercevalTalkFlag,RoyPercevalTalk,Roy,Perceval) //only available if perceval recruited this chapter
-CharacterEvent(Ch15_LilinaGarretTalkFlag,LilinaRecruitsGarret,Lilina,Garret)
+CharacterEvent(Ch15_LilinaGarrettTalkFlag,LilinaRecruitsGarrett,Lilina,Garrett)
 END_MAIN
 
 LocationBasedEvents:
@@ -146,8 +146,8 @@ UNIT GenericSoldierPercevalCh13_Ch15 Cavalier Perceval Level(14,Enemy,1) [1,2] 0
 UNIT GenericSoldierPercevalCh13_Ch15 Cavalier Perceval Level(14,Enemy,1) [3,2] 0x0 0x0 0x0 0x0 [SteelLance] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
-GarretSquad:
-UNIT Garret Berserker 0x0 Level(1,Enemy,0) [20,0] 0x0 0x0 0x1 REDA_22_2 [SteelAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
+GarrettSquad:
+UNIT Garrett Berserker 0x0 Level(1,Enemy,0) [20,0] 0x0 0x0 0x1 REDA_22_2 [SteelAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditCh15 Brigand 0x0 Level(18,Enemy,1) [20,0] 0x0 0x0 0x1 REDA_21_3 [PoisonAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT GenericBanditCh15 Brigand 0x0 Level(18,Enemy,1) [20,0] 0x0 0x0 0x1 REDA_21_2 [PoisonAxe, HandAxe] [AI1_InRange80, AI2_PillageAttack, RAI_10_50|TAI_HP, AI4_Retreat]
 UNIT
@@ -232,20 +232,20 @@ HouseEvent(Ch15_SavageBanditsHouse,BG_House)
 GeneralsDividedHouseVist:
 HouseEvent(Ch15_GeneralsDividedHouse,BG_House)
 
-GarretAppears:
-LoadReinforcements(GarretSquad)
-CAM1 Garret
+GarrettAppears:
+LoadReinforcements(GarrettSquad)
+CAM1 Garrett
 PlayMusic(MUS_DeerOfThePlains)
-Text(Ch15_GarretAppears)
+Text(Ch15_GarrettAppears)
 #ifdef CONFIG_RecruitableUnitsHMBonuses
-//Level Garret by +11
+//Level Garrett by +11
 #endif
 EndEvent
 
-LilinaRecruitsGarret:
+LilinaRecruitsGarrett:
 SwitchMusic(MUS_JoinUs)
-Text(Ch15_LilinaRecruitsGarret)
-BecomeAlly(Garret)
+Text(Ch15_LilinaRecruitsGarrett)
+BecomeAlly(Garrett)
 RestoreMusic
 EndEvent
 

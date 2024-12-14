@@ -222,8 +222,8 @@ Sophia_DruidF:
 Igrene_SniperF:
 	#incbin "./_palettes/Igrene_SniperF.lzpal" 
 
-Garret_Berserker:
-	#incbin "./_palettes/Garret_Berserker.lzpal" 
+Garrett_Berserker:
+	#incbin "./_palettes/Garrett_Berserker.lzpal" 
 
 Hugh_Mage:
 	#incbin "./_palettes/Hugh_Mage.lzpal" 

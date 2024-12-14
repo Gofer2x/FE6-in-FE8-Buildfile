@@ -223,8 +223,8 @@ at least...[AN][Clear]
 Can I go back to the place[N]
 I love now...?[AN][X]
 
-## GarretDeathQuote
-[OpenMidLeft][LoadGarret]
+## GarrettDeathQuote
+[OpenMidLeft][LoadGarrett]
 It's...all over...[AN][X]
 
 ## FaeDeathQuote

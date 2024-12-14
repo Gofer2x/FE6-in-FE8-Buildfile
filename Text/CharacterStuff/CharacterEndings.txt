@@ -64,7 +64,7 @@ Lone Swordsman[X]
 ## EndingTitleDieck
 Wounded Tiger[X]
 
-## EndingTitleGarret
+## EndingTitleGarrett
 Retired Outlaw[X]
 
 ## EndingTitleAlen
@@ -304,7 +304,7 @@ set out to travel on his own. Independent, he
 fought in various battles and left many tales
 in his wake.[X]
 
-## EndingDescGarrett
+## EndingDescGarrettt
 Garrett quit banditry
 and led the life of a
 farmer. He worked and tended his crops like an

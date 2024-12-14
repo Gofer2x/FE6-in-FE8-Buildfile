@@ -172,7 +172,7 @@ I will win![A][ClearFace]
 [LoadDieck][NormalPrint]Whoa... There's something
 you don't see everyday![A][ClearFace]
 [0216]
-[LoadGarret][NormalPrint]A truly powerful enemy!
+[LoadGarrett][NormalPrint]A truly powerful enemy!
 Haven't met one in years![A][ClearFace]
 [0217]
 [LoadAlen][NormalPrint]I will protect Lord Roy with
@@ -331,7 +331,7 @@ so far to go...[A]
 [LoadDieck][ToggleSmile]I'm sorry...
 I must take my leave.[A]
 [0280]
-[LoadGarret][ToggleSmile]It's...all over...[A]
+[LoadGarrett][ToggleSmile]It's...all over...[A]
 [0281]
 [LoadAlen][ToggleSmile]N...no...
 Why...here? Lord Roy...[A]
@@ -9203,7 +9203,7 @@ again, weren't you?[A]
 [OpenMidRight][ToggleSmile]N-no!
 I wasn't![A]
 [040E]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarret][OpenMidLeft]
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]
 Oh... Hello, Garrett.[A]
 [OpenMidRight][ToggleSmile]You.[A]
 I'm gonna be frank.
@@ -9245,7 +9245,7 @@ though, so whatever...[A]
 Do what ya want with
 your own things...[A]
 [040F]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarret][OpenMidLeft]Hello, Garrett.[A]
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]Hello, Garrett.[A]
 [OpenMidRight][ToggleSmile]You again?[A]
 I told you before, I ain't
 your friend.[A]
@@ -9283,7 +9283,7 @@ I...trust you.[A][ClearFace]
 [ToggleSmile]How could I rob her when she
 looks at me like that...?[A]
 [0410]
-[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarret][OpenMidLeft]Hello, Garrett.[A]
+[OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]Hello, Garrett.[A]
 [OpenMidRight][ToggleSmile]Hey...
 Uh...[A]
 [OpenMidLeft][ToggleSmile]Yes?[A]
@@ -9328,7 +9328,7 @@ Anyway, he wanted me to give
 it to you. Just take it.[A][ClearFace]
 [OpenMidLeft]Garrett...[A]
 [0411]
-[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarret][OpenMidRight][ToggleSmile]Hey, you're a
+[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Hey, you're a
 sailor, right?[A]
 [OpenMidLeft]Hm? Yeah, I am.[A]
 [OpenMidRight]D'you make a lotta
@@ -9355,7 +9355,7 @@ trader after the war ends.[A]
 I could hire you to do odd jobs
 around the ship if you want.[A]
 [0412]
-[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarret]
+[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett]
 [OpenMidLeft][ToggleSmile]Hey, Garrett.[A]
 Try spinning around
 a few times.[A]
@@ -9397,7 +9397,7 @@ land for an entire year.[A]
 Maybe I don't wanna do
 this after all.[A]
 [0413]
-[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarret][OpenMidRight][ToggleSmile]Fast cash isn't easy to
+[OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Fast cash isn't easy to
 find, is it?[A]
 Sailing sounds worse
 the more I hear about it.[A]
@@ -9429,7 +9429,7 @@ understand what it is to be a sailor.[A]
 [OpenMidRight]But it won't put bread
 on the table...[A]
 [0414]
-[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarret][OpenMidLeft][ToggleSmile]Eeeeeeek!
+[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidLeft][ToggleSmile]Eeeeeeek!
 A bandit![A]
 [OpenMidRight]Yep, I'm a bandit.
 I won't hurtcha though.[A]
@@ -9456,7 +9456,7 @@ Next time.
 See you![A][ClearFace]
 [OpenMidRight][ToggleSmile]I'm countin' on ya...[A]
 [0415]
-[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarret][OpenMidLeft]No, no! You've got
+[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidLeft]No, no! You've got
 it all wrong![A]
 [OpenMidRight][ToggleSmile]W-what?
 It's like this, right?[A]
@@ -9507,7 +9507,7 @@ Pfffha ha ha ha ha![A]
 [OpenMidRight][ToggleSmile]...I swear, you're just
 playin' with me...[A]
 [0416]
-[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarret][OpenMidRight][ToggleSmile]Hey!
+[OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Hey!
 Larum![A]
 [OpenMidLeft][ToggleSmile]Yeah?[A]
 [OpenMidRight][ToggleSmile]You made a fool of me![A]
@@ -9545,7 +9545,7 @@ I thought.[A]
 I thought you were
 doing great.[A]
 [0417]
-[OpenMidLeft][LoadGarret][OpenMidRight][LoadCath][OpenMidRight][ToggleSmile]Hey, you.[A]
+[OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidRight][ToggleSmile]Hey, you.[A]
 [OpenMidLeft]Yeah?[A]
 [OpenMidRight]You... You're
 a bandit.[A]
@@ -9565,7 +9565,7 @@ You must be bored outta your mind.[A]
 [OpenMidLeft]...Huh. What was
 that all about?[A]
 [0418]
-[OpenMidLeft][LoadGarret][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[A]
+[OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[A]
 [OpenMidRight]...Oh.[A]
 [OpenMidLeft]Ugh.
 You again?[A]
@@ -9589,7 +9589,7 @@ village or hurt innocent people.[A]
 [ToggleMouthMove]...I...
 I'm sorry.[A][ClearFace]
 [0419]
-[OpenMidLeft][LoadGarret][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[A]
+[OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[A]
 [OpenMidRight]...Oh.[A]
 [OpenMidLeft][ToggleMouthMove]......[A]
 [OpenMidRight][ToggleMouthMove]You again?
@@ -9611,7 +9611,7 @@ That's all.[A]
 [ToggleMouthMove][ToggleSmile]...Maybe you're not such
 a bad guy after all.[A]
 [041A]
-[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarret][OpenMidRight][ToggleSmile]Whoa?![A]
+[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Whoa?![A]
 [OpenMidLeft]Uh? Wha?[A]
 [OpenMidRight]What the...?!
 You an enemy?[A]
@@ -9645,7 +9645,7 @@ P...?[A]
 Strange name...[A]
 [OpenMidRight]Look who's talkin'![A]
 [041B]
-[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarret][OpenMidRight]Hey. You want
+[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight]Hey. You want
 somethin'?[A]
 [OpenMidLeft][ToggleSmile]You...
 P...P...[A]
@@ -9680,7 +9680,7 @@ else to live for.[A]
 [OpenMidRight][ToggleMouthMove]Grr... Why am I tellin'
 this to you anyway?[A]
 [041C]
-[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarret][OpenMidRight]Hey, Gonzalez.[A]
+[OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight]Hey, Gonzalez.[A]
 [OpenMidLeft][ToggleSmile]You...
 P...[A]
 [OpenMidRight][ToggleSmile]Professor Garrett.[A]

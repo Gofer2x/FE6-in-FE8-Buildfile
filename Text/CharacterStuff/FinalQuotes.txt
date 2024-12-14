@@ -73,8 +73,8 @@ I will win![AN][ClearFace][X]
 [LoadDieck][NormalPrint]Whoa... There's something[N]
 you don't see everyday![AN][ClearFace][X]
 
-## FinalQuoteGarret
-[LoadGarret][NormalPrint]A truly powerful enemy![N]
+## FinalQuoteGarrett
+[LoadGarrett][NormalPrint]A truly powerful enemy![N]
 Haven't met one in years![AN][ClearFace][X]
 
 ## FinalQuoteAlen

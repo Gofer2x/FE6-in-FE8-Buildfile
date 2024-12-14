@@ -120,7 +120,7 @@ to Aquileia.[A][ClearFace]
 [OpenRight]...Move forth!
 Pursue the Lycian Army![A]
 [0147]
-[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadGarret][FastPrint][ToggleSmile]This is a
+[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadGarrett][FastPrint][ToggleSmile]This is a
 battlefield...[A]
 [OpenMidLeft]What do we do, Boss?[A]
 [OpenMidRight][CloseSpeechFast]The armies are gonna loot the villages.
@@ -259,7 +259,7 @@ Like, "If you want my skill,
 you'll have to best me first!"[A]
 Oh well. This works too.[A]
 [014B]
-[OpenMidLeft][LoadGarret][OpenMidRight][LoadLilina]
+[OpenMidLeft][LoadGarrett][OpenMidRight][LoadLilina]
 [OpenMidRight][NormalPrint][ToggleSmile]Wait![A]
 [OpenMidLeft][FastPrint]What?
 Who are you?[A]

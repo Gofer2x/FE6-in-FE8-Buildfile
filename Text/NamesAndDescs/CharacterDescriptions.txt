@@ -174,7 +174,7 @@ predict the future.[X]
 A sniper known as the Guardian[N]
 of Nabata.[X]
 
-## GarretDescription
+## GarrettDescription
 A bandit from the Etrurian[N]
 border.[X]
 

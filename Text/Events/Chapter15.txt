@@ -122,8 +122,8 @@ that Fae is a dragon...[AN]
 seem to have noticed us.[AN]
 [OpenRight]Then we must move quickly.[AN][X]
 
-## Ch15_GarretAppears
-[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadGarret][FastPrint][ToggleSmile]This is a[N]
+## Ch15_GarrettAppears
+[OpenMidLeft][LoadBanditKid][OpenMidRight][LoadGarrett][FastPrint][ToggleSmile]This is a[N]
 battlefield...[AN]
 [OpenMidLeft]What do we do, Boss?[AN]
 [OpenMidRight][CloseSpeechFast]The armies are gonna loot the villages.[N]
@@ -144,8 +144,8 @@ the reinforcements are ready![AN]
 Deploy them now.[AN]
 [OpenMidLeft]Yes, sir.[AN][X]
 
-## Ch15_LilinaRecruitsGarret
-[OpenMidLeft][LoadGarret][OpenMidRight][LoadLilina]
+## Ch15_LilinaRecruitsGarrett
+[OpenMidLeft][LoadGarrett][OpenMidRight][LoadLilina]
 [OpenMidRight][NormalPrint][ToggleSmile]Wait![AN]
 [OpenMidLeft][FastPrint]What?[N]
 Who are you?[AN]

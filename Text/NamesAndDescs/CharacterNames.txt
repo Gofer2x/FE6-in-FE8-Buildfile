@@ -130,8 +130,8 @@ Sophia[X]
 ## IgreneName
 Igrene[X]
 
-## GarretName
-Garret[X]
+## GarrettName
+Garrett[X]
 
 ## FaeName
 Fae[X]

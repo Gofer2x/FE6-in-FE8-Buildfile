@@ -482,16 +482,16 @@ IgreneMugMiniData:
 #incbin "Dmp/Igrene_minimug.dmp"
 setMugEntryManual(IgreneMug, IgreneMugData, IgreneMugMiniData, IgreneMugPaletteData, IgreneMugFramesData, 2,5,3,3)
 
-#define GarretMug 0x2D
-GarretMugData:
-#incbin "Dmp/Garret_mug.dmp"
-GarretMugFramesData:
-#incbin "Dmp/Garret_frames.dmp"
-GarretMugPaletteData:
-#incbin "Dmp/Garret_palette.dmp"
-GarretMugMiniData:
-#incbin "Dmp/Garret_minimug.dmp"
-setMugEntryManual(GarretMug, GarretMugData, GarretMugMiniData, GarretMugPaletteData, GarretMugFramesData, 2,4,3,2)
+#define GarrettMug 0x2D
+GarrettMugData:
+#incbin "Dmp/Garrett_mug.dmp"
+GarrettMugFramesData:
+#incbin "Dmp/Garrett_frames.dmp"
+GarrettMugPaletteData:
+#incbin "Dmp/Garrett_palette.dmp"
+GarrettMugMiniData:
+#incbin "Dmp/Garrett_minimug.dmp"
+setMugEntryManual(GarrettMug, GarrettMugData, GarrettMugMiniData, GarrettMugPaletteData, GarrettMugFramesData, 2,4,3,2)
 
 #define FaeMug 0x2E
 FaeMugData:

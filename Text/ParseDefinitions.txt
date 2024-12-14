@@ -96,7 +96,7 @@
 [LoadCecilia] = [LoadPortrait][0x2A][0x1]
 [LoadSophia] = [LoadPortrait][0x2B][0x1]
 [LoadIgrene] = [LoadPortrait][0x2C][0x1]
-[LoadGarret] = [LoadPortrait][0x2D][0x1]
+[LoadGarrett] = [LoadPortrait][0x2D][0x1]
 [LoadFae] = [LoadPortrait][0x2E][0x1]
 [LoadHugh] = [LoadPortrait][0x2F][0x1]
 [LoadZeiss] = [LoadPortrait][0x30][0x1]

@@ -54,7 +54,7 @@ I will win![A][ClearFace]
 [LoadDieck][NormalPrint]Whoa... There's something
 you don't see everyday![A][ClearFace]
 [0216]
-[LoadGarret][NormalPrint]A truly powerful enemy!
+[LoadGarrett][NormalPrint]A truly powerful enemy!
 Haven't met one in years![A][ClearFace]
 [0217]
 [LoadAlen][NormalPrint]I will protect Lord Roy with

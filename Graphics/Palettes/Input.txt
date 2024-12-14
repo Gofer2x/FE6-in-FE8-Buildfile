@@ -217,7 +217,7 @@
 #char{73} "Igrene_SniperF" set{Igrene, 3, SniperF}
 	5553FF7FFF6B1F4B2E19FC533937531E937FE9728259DF563B29D51C0B04A514
 
-#char{74} "Garret_Berserker" set{Garret, 3, Berserker}
+#char{74} "Garrett_Berserker" set{Garrett, 3, Berserker}
 	5553FF7FFF6B1D47392EB51D2E19F65A9877F36E2D56FF07D64ECE31291DA514
 
 #char{75} "Hugh_Mage" set{Hugh, 1, Mage}

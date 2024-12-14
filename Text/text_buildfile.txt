@@ -58,4 +58,6 @@ Erm, what the sigma?[X]
 #include "Events/Endgame.txt"
 #include "Events/Epilogue.txt"
 
+#include "CharacterStuff/Supports.txt"
+
 #include "Debug.txt"

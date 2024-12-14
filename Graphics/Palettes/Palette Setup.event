@@ -296,9 +296,9 @@
 	setPalette(73,Igrene_SniperF)
 	setCBSP(73,Igrene, 3, SniperF)
 
-// Garret_Berserker
-	setPalette(74,Garret_Berserker)
-	setCBSP(74,Garret, 3, Berserker)
+// Garrett_Berserker
+	setPalette(74,Garrett_Berserker)
+	setCBSP(74,Garrett, 3, Berserker)
 
 // Hugh_Mage
 	setPalette(75,Hugh_Mage)

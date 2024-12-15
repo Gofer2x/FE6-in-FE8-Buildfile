@@ -9351,7 +9351,7 @@ any help when you need it.[AN]
 [OpenMidRight]Thank you![AN]
 [X]
 
-## LilinaGarretSupportC
+## LilinaGarrettSupportC
 [OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]
 Oh... Hello, Garrett.[AN]
 [OpenMidRight][ToggleSmile]You.[AN]
@@ -9395,7 +9395,7 @@ Do what ya want with[N]
 your own things...[AN]
 [X]
 
-## LilinaGarretSupportB
+## LilinaGarrettSupportB
 [OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]Hello, Garrett.[AN]
 [OpenMidRight][ToggleSmile]You again?[AN]
 I told you before, I ain't[N]
@@ -9435,7 +9435,7 @@ I...trust you.[AN][ClearFace]
 looks at me like that...?[AN]
 [X]
 
-## LilinaGarretSupportA
+## LilinaGarrettSupportA
 [OpenMidLeft][LoadLilina][OpenMidRight][LoadGarrett][OpenMidLeft]Hello, Garrett.[AN]
 [OpenMidRight][ToggleSmile]Hey...[N]
 Uh...[AN]
@@ -10667,7 +10667,7 @@ Are you a big shot?[AN]
 ...Or just an idiot?[AN]
 [X]
 
-## GeeseGarretSupportC
+## GeeseGarrettSupportC
 [OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Hey, you're a[N]
 sailor, right?[AN]
 [OpenMidLeft]Hm? Yeah, I am.[AN]
@@ -10696,7 +10696,7 @@ I could hire you to do odd jobs[N]
 around the ship if you want.[AN]
 [X]
 
-## GeeseGarretSupportB
+## GeeseGarrettSupportB
 [OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett]
 [OpenMidLeft][ToggleSmile]Hey, Garrett.[AN]
 Try spinning around[N]
@@ -10740,7 +10740,7 @@ Maybe I don't wanna do[N]
 this after all.[AN]
 [X]
 
-## GeeseGarretSupportA
+## GeeseGarrettSupportA
 [OpenMidLeft][LoadGeese][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Fast cash isn't easy to[N]
 find, is it?[AN]
 Sailing sounds worse[N]
@@ -11078,7 +11078,7 @@ down the very sky above![AN]
 [OpenMidRight]I...[AN]
 [X]
 
-## GonzalezGarretSupportC
+## GonzalezGarrettSupportC
 [OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Whoa?![AN]
 [OpenMidLeft]Uh? Wha?[AN]
 [OpenMidRight]What the...?![N]
@@ -11114,7 +11114,7 @@ Strange name...[AN]
 [OpenMidRight]Look who's talkin'![AN]
 [X]
 
-## GonzalezGarretSupportB
+## GonzalezGarrettSupportB
 [OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight]Hey. You want[N]
 somethin'?[AN]
 [OpenMidLeft][ToggleSmile]You...[N]
@@ -11151,7 +11151,7 @@ else to live for.[AN]
 this to you anyway?[AN]
 [X]
 
-## GonzalezGarretSupportA
+## GonzalezGarrettSupportA
 [OpenMidLeft][LoadGonzalez][OpenMidRight][LoadGarrett][OpenMidRight]Hey, Gonzalez.[AN]
 [OpenMidLeft][ToggleSmile]You...[N]
 P...[AN]
@@ -11957,7 +11957,7 @@ you wake-up dances every morning![AN]
 my comprehension.[AN]
 [X]
 
-## LarumGarretSupportC
+## LarumGarrettSupportC
 [OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidLeft][ToggleSmile]Eeeeeeek![N]
 A bandit![AN]
 [OpenMidRight]Yep, I'm a bandit.[N]
@@ -11986,7 +11986,7 @@ See you![AN][ClearFace]
 [OpenMidRight][ToggleSmile]I'm countin' on ya...[AN]
 [X]
 
-## LarumGarretSupportB
+## LarumGarrettSupportB
 [OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidLeft]No, no! You've got[N]
 it all wrong![AN]
 [OpenMidRight][ToggleSmile]W-what?[N]
@@ -12039,7 +12039,7 @@ Pfffha ha ha ha ha![AN]
 playin' with me...[AN]
 [X]
 
-## LarumGarretSupportA
+## LarumGarrettSupportA
 [OpenMidLeft][LoadLarum][OpenMidRight][LoadGarrett][OpenMidRight][ToggleSmile]Hey![N]
 Larum![AN]
 [OpenMidLeft][ToggleSmile]Yeah?[AN]
@@ -13159,7 +13159,7 @@ What was that?[AN]
 [OpenMidRight]...Nothing.[AN]
 [X]
 
-## CathGarretSupportC
+## CathGarrettSupportC
 [OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidRight][ToggleSmile]Hey, you.[AN]
 [OpenMidLeft]Yeah?[AN]
 [OpenMidRight]You... You're[N]
@@ -13181,7 +13181,7 @@ You must be bored outta your mind.[AN]
 that all about?[AN]
 [X]
 
-## CathGarretSupportB
+## CathGarrettSupportB
 [OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[AN]
 [OpenMidRight]...Oh.[AN]
 [OpenMidLeft]Ugh.[N]
@@ -13207,7 +13207,7 @@ village or hurt innocent people.[AN]
 I'm sorry.[AN][ClearFace]
 [X]
 
-## CathGarretSupportA
+## CathGarrettSupportA
 [OpenMidLeft][LoadGarrett][OpenMidRight][LoadCath][OpenMidLeft][ToggleSmile]Hm?[AN]
 [OpenMidRight]...Oh.[AN]
 [OpenMidLeft][ToggleMouthMove]......[AN]

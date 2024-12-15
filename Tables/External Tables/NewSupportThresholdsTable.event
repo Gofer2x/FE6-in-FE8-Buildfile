@@ -1,1 +1,11 @@
-#include "GeneratedSupportThresholds.event"
+#include "GeneratedSupportThresholdsTable.event"
+
+NewSupportConvosTable:
+#include "GeneratedSupportConvosTable.event"
+
+PUSH
+ORG $084784
+POIN NewSupportConvosTable
+ORG $0847FC
+POIN NewSupportConvosTable
+POP

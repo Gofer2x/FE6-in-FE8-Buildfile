@@ -256,5 +256,26 @@ for char in charsInOrder:
             output.append(line)
         output.append("\n")
 
-with open("GeneratedSupportThresholds.event","w") as w:
+with open("GeneratedSupportThresholdsTable.event","w") as w:
+    w.writelines(output)
+
+
+output = []
+
+for pair in pairs:
+    char1,char2 = pair[0],pair[1]
+    output.append("//"+char1+" "+char2+"\n")
+    output.append("SHORT "+char1+"\n")
+    output.append("SHORT "+char2+"\n")
+    output.append("SHORT "+char1+char2+"SupportC\n")
+    output.append("SHORT "+char1+char2+"SupportB\n")
+    output.append("SHORT "+char1+char2+"SupportA\n")
+    output.append("SHORT 0x0\n")
+    output.append("SHORT 0x0\n")
+    output.append("SHORT 0x0\n")
+
+output.append("SHORT 0xFFFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 //Terminator\n")
+
+
+with open("GeneratedSupportConvosTable.event","w") as w:
     w.writelines(output)

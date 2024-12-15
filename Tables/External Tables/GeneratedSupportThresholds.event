@@ -1,0 +1,1404 @@
+//Roy
+RoySupportData:
+BYTE Marcus //Partner 1
+BYTE Alen //Partner 2
+BYTE Lance //Partner 3
+BYTE Wolt //Partner 4
+BYTE Shanna //Partner 5
+BYTE Lilina //Partner 6
+BYTE Cecilia //Partner 7
+BYTE 30 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 56 //Partner 6 Intial Value
+BYTE 20 //Partner 7 Intial Value
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 4 //Partner 6 Growth
+BYTE 2 //Partner 7 Growth
+BYTE 7 //Amount
+SHORT 0x0
+
+//Marcus
+MarcusSupportData:
+BYTE Roy //Partner 1
+BYTE Alen //Partner 2
+BYTE Lance //Partner 3
+BYTE Wolt //Partner 4
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 30 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 4 //Amount
+SHORT 0x0
+
+//Alen
+AlenSupportData:
+BYTE Roy //Partner 1
+BYTE Marcus //Partner 2
+BYTE Lance //Partner 3
+BYTE Wolt //Partner 4
+BYTE Ward //Partner 5
+BYTE Thea //Partner 6
+BYTE 0
+BYTE 20 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 1 //Partner 6 Intial Value
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 1 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Lance
+LanceSupportData:
+BYTE Roy //Partner 1
+BYTE Marcus //Partner 2
+BYTE Alen //Partner 3
+BYTE Wolt //Partner 4
+BYTE Lot //Partner 5
+BYTE Clarine //Partner 6
+BYTE 0
+BYTE 20 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 1 //Partner 6 Intial Value
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 1 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Wolt
+WoltSupportData:
+BYTE Roy //Partner 1
+BYTE Marcus //Partner 2
+BYTE Alen //Partner 3
+BYTE Lance //Partner 4
+BYTE Sue //Partner 5
+BYTE 0
+BYTE 0
+BYTE 30 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Bors
+BorsSupportData:
+BYTE Astolfo //Partner 1
+BYTE Lilina //Partner 2
+BYTE Barthe //Partner 3
+BYTE Ogier //Partner 4
+BYTE Gwendolyn //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 35 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Merlinus
+MerlinusSupportData:
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 0 //Amount
+SHORT 0x0
+
+//Elen
+ElenSupportData:
+BYTE Chad //Partner 1
+BYTE Lugh //Partner 2
+BYTE Saul //Partner 3
+BYTE Melady //Partner 4
+BYTE Zeiss //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 10 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Dieck
+DieckSupportData:
+BYTE Ward //Partner 1
+BYTE Lot //Partner 2
+BYTE Shanna //Partner 3
+BYTE Clarine //Partner 4
+BYTE Rutger //Partner 5
+BYTE Klein //Partner 6
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 10 //Partner 5 Intial Value
+BYTE 40 //Partner 6 Intial Value
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 1 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Ward
+WardSupportData:
+BYTE Alen //Partner 1
+BYTE Dieck //Partner 2
+BYTE Lot //Partner 3
+BYTE Shanna //Partner 4
+BYTE Echidna //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 40 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Lot
+LotSupportData:
+BYTE Lance //Partner 1
+BYTE Dieck //Partner 2
+BYTE Ward //Partner 3
+BYTE Shanna //Partner 4
+BYTE Echidna //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 40 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Shanna
+ShannaSupportData:
+BYTE Roy //Partner 1
+BYTE Dieck //Partner 2
+BYTE Ward //Partner 3
+BYTE Lot //Partner 4
+BYTE Zelot //Partner 5
+BYTE Thea //Partner 6
+BYTE Juno //Partner 7
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 30 //Partner 6 Intial Value
+BYTE 30 //Partner 7 Intial Value
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 3 //Partner 6 Growth
+BYTE 3 //Partner 7 Growth
+BYTE 7 //Amount
+SHORT 0x0
+
+//Chad
+ChadSupportData:
+BYTE Elen //Partner 1
+BYTE Lugh //Partner 2
+BYTE Raigh //Partner 3
+BYTE Cath //Partner 4
+BYTE Hugh //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Lugh
+LughSupportData:
+BYTE Elen //Partner 1
+BYTE Chad //Partner 2
+BYTE Raigh //Partner 3
+BYTE Melady //Partner 4
+BYTE Hugh //Partner 5
+BYTE 0
+BYTE 0
+BYTE 30 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 5 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 3 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Clarine
+ClarineSupportData:
+BYTE Lance //Partner 1
+BYTE Dieck //Partner 2
+BYTE Rutger //Partner 3
+BYTE Dorothy //Partner 4
+BYTE Klein //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Rutger
+RutgerSupportData:
+BYTE Dieck //Partner 1
+BYTE Clarine //Partner 2
+BYTE Fir //Partner 3
+BYTE Dayan //Partner 4
+BYTE Karel //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Saul
+SaulSupportData:
+BYTE Elen //Partner 1
+BYTE Dorothy //Partner 2
+BYTE Cecilia //Partner 3
+BYTE Igrene //Partner 4
+BYTE Yoder //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Dorothy
+DorothySupportData:
+BYTE Clarine //Partner 1
+BYTE Saul //Partner 2
+BYTE Sin //Partner 3
+BYTE Perceval //Partner 4
+BYTE Yoder //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Sue
+SueSupportData:
+BYTE Wolt //Partner 1
+BYTE Sin //Partner 2
+BYTE Fae //Partner 3
+BYTE Dayan //Partner 4
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 40 //Partner 4 Intial Value
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 4 //Amount
+SHORT 0x0
+
+//Zelot
+ZelotSupportData:
+BYTE Shanna //Partner 1
+BYTE Trec //Partner 2
+BYTE Noah //Partner 3
+BYTE Thea //Partner 4
+BYTE Juno //Partner 5
+BYTE 0
+BYTE 0
+BYTE 30 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Trec
+TrecSupportData:
+BYTE Zelot //Partner 1
+BYTE Noah //Partner 2
+BYTE Gonzalez //Partner 3
+BYTE Melady //Partner 4
+BYTE Juno //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Noah
+NoahSupportData:
+BYTE Zelot //Partner 1
+BYTE Trec //Partner 2
+BYTE Fir //Partner 3
+BYTE Juno //Partner 4
+BYTE Karel //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Astolfo
+AstolfoSupportData:
+BYTE Bors //Partner 1
+BYTE Lilina //Partner 2
+BYTE Barthe //Partner 3
+BYTE Gwendolyn //Partner 4
+BYTE Igrene //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 10 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Lilina
+LilinaSupportData:
+BYTE Roy //Partner 1
+BYTE Bors //Partner 2
+BYTE Astolfo //Partner 3
+BYTE Barthe //Partner 4
+BYTE Gwendolyn //Partner 5
+BYTE Gonzalez //Partner 6
+BYTE Garrett //Partner 7
+BYTE 56 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 30 //Partner 6 Intial Value
+BYTE 10 //Partner 7 Intial Value
+BYTE 4 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 2 //Partner 6 Growth
+BYTE 2 //Partner 7 Growth
+BYTE 7 //Amount
+SHORT 0x0
+
+//Barthe
+BartheSupportData:
+BYTE Bors //Partner 1
+BYTE Astolfo //Partner 2
+BYTE Lilina //Partner 3
+BYTE Ogier //Partner 4
+BYTE Gwendolyn //Partner 5
+BYTE 0
+BYTE 0
+BYTE 20 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Ogier
+OgierSupportData:
+BYTE Bors //Partner 1
+BYTE Barthe //Partner 2
+BYTE Gwendolyn //Partner 3
+BYTE Larum //Partner 4
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 10 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 4 //Amount
+SHORT 0x0
+
+//Gwendolyn
+GwendolynSupportData:
+BYTE Bors //Partner 1
+BYTE Astolfo //Partner 2
+BYTE Lilina //Partner 3
+BYTE Barthe //Partner 4
+BYTE Ogier //Partner 5
+BYTE 0
+BYTE 0
+BYTE 35 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 10 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 3 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Fir
+FirSupportData:
+BYTE Rutger //Partner 1
+BYTE Noah //Partner 2
+BYTE Sin //Partner 3
+BYTE Bartre //Partner 4
+BYTE Karel //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 40 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Sin
+SinSupportData:
+BYTE Dorothy //Partner 1
+BYTE Sue //Partner 2
+BYTE Fir //Partner 3
+BYTE Zeiss //Partner 4
+BYTE Dayan //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Geese
+GeeseSupportData:
+BYTE Larum //Partner 1
+BYTE Echidna //Partner 2
+BYTE Cath //Partner 3
+BYTE Garrett //Partner 4
+BYTE Douglas //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Gonzalez
+GonzalezSupportData:
+BYTE Trec //Partner 1
+BYTE Lilina //Partner 2
+BYTE Echidna //Partner 3
+BYTE Bartre //Partner 4
+BYTE Garrett //Partner 5
+BYTE Dayan //Partner 6
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 1 //Partner 6 Intial Value
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 1 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Klein
+KleinSupportData:
+BYTE Dieck //Partner 1
+BYTE Clarine //Partner 2
+BYTE Thea //Partner 3
+BYTE Elffin //Partner 4
+BYTE Perceval //Partner 5
+BYTE 0
+BYTE 0
+BYTE 40 //Partner 1 Intial Value
+BYTE 40 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Thea
+TheaSupportData:
+BYTE Alen //Partner 1
+BYTE Shanna //Partner 2
+BYTE Zelot //Partner 3
+BYTE Klein //Partner 4
+BYTE Juno //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Larum
+LarumSupportData:
+BYTE Ogier //Partner 1
+BYTE Geese //Partner 2
+BYTE Echidna //Partner 3
+BYTE Perceval //Partner 4
+BYTE Garrett //Partner 5
+BYTE Douglas //Partner 6
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 30 //Partner 6 Intial Value
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 3 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Elffin
+ElffinSupportData:
+BYTE Klein //Partner 1
+BYTE Perceval //Partner 2
+BYTE Cecilia //Partner 3
+BYTE Fae //Partner 4
+BYTE Douglas //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Echidna
+EchidnaSupportData:
+BYTE Ward //Partner 1
+BYTE Lot //Partner 2
+BYTE Geese //Partner 3
+BYTE Gonzalez //Partner 4
+BYTE Larum //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Bartre
+BartreSupportData:
+BYTE Fir //Partner 1
+BYTE Gonzalez //Partner 2
+BYTE Cath //Partner 3
+BYTE Zeiss //Partner 4
+BYTE Karel //Partner 5
+BYTE 0
+BYTE 0
+BYTE 40 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 20 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 3 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Raigh
+RaighSupportData:
+BYTE Chad //Partner 1
+BYTE Lugh //Partner 2
+BYTE Sophia //Partner 3
+BYTE Hugh //Partner 4
+BYTE Niime //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 5 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Cath
+CathSupportData:
+BYTE Chad //Partner 1
+BYTE Geese //Partner 2
+BYTE Bartre //Partner 3
+BYTE Garrett //Partner 4
+BYTE Hugh //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Melady
+MeladySupportData:
+BYTE Elen //Partner 1
+BYTE Lugh //Partner 2
+BYTE Trec //Partner 3
+BYTE Zeiss //Partner 4
+BYTE Yoder //Partner 5
+BYTE 0
+BYTE 0
+BYTE 20 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Perceval
+PercevalSupportData:
+BYTE Dorothy //Partner 1
+BYTE Klein //Partner 2
+BYTE Larum //Partner 3
+BYTE Elffin //Partner 4
+BYTE Cecilia //Partner 5
+BYTE Douglas //Partner 6
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 20 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 30 //Partner 6 Intial Value
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 2 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Cecilia
+CeciliaSupportData:
+BYTE Roy //Partner 1
+BYTE Saul //Partner 2
+BYTE Elffin //Partner 3
+BYTE Perceval //Partner 4
+BYTE Douglas //Partner 5
+BYTE 0
+BYTE 0
+BYTE 20 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Sophia
+SophiaSupportData:
+BYTE Raigh //Partner 1
+BYTE Igrene //Partner 2
+BYTE Fae //Partner 3
+BYTE Niime //Partner 4
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 3 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 0
+BYTE 0
+BYTE 0
+BYTE 4 //Amount
+SHORT 0x0
+
+//Igrene
+IgreneSupportData:
+BYTE Saul //Partner 1
+BYTE Astolfo //Partner 2
+BYTE Sophia //Partner 3
+BYTE Fae //Partner 4
+BYTE Douglas //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 10 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Garrett
+GarrettSupportData:
+BYTE Lilina //Partner 1
+BYTE Geese //Partner 2
+BYTE Gonzalez //Partner 3
+BYTE Larum //Partner 4
+BYTE Cath //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Fae
+FaeSupportData:
+BYTE Sue //Partner 1
+BYTE Elffin //Partner 2
+BYTE Sophia //Partner 3
+BYTE Igrene //Partner 4
+BYTE Niime //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 3 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Hugh
+HughSupportData:
+BYTE Chad //Partner 1
+BYTE Lugh //Partner 2
+BYTE Raigh //Partner 3
+BYTE Cath //Partner 4
+BYTE Niime //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 5 //Partner 2 Intial Value
+BYTE 5 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Zeiss
+ZeissSupportData:
+BYTE Elen //Partner 1
+BYTE Sin //Partner 2
+BYTE Bartre //Partner 3
+BYTE Melady //Partner 4
+BYTE Karel //Partner 5
+BYTE 0
+BYTE 0
+BYTE 10 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 3 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Douglas
+DouglasSupportData:
+BYTE Geese //Partner 1
+BYTE Larum //Partner 2
+BYTE Elffin //Partner 3
+BYTE Perceval //Partner 4
+BYTE Cecilia //Partner 5
+BYTE Igrene //Partner 6
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 30 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 30 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 1 //Partner 6 Intial Value
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 2 //Partner 5 Growth
+BYTE 1 //Partner 6 Growth
+BYTE 0
+BYTE 6 //Amount
+SHORT 0x0
+
+//Niime
+NiimeSupportData:
+BYTE Raigh //Partner 1
+BYTE Sophia //Partner 2
+BYTE Fae //Partner 3
+BYTE Hugh //Partner 4
+BYTE Yoder //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 40 //Partner 4 Intial Value
+BYTE 40 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Juno
+JunoSupportData:
+BYTE Shanna //Partner 1
+BYTE Zelot //Partner 2
+BYTE Trec //Partner 3
+BYTE Noah //Partner 4
+BYTE Thea //Partner 5
+BYTE 0
+BYTE 0
+BYTE 30 //Partner 1 Intial Value
+BYTE 40 //Partner 2 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 30 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 3 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 3 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Dayan
+DayanSupportData:
+BYTE Rutger //Partner 1
+BYTE Sue //Partner 2
+BYTE Sin //Partner 3
+BYTE Gonzalez //Partner 4
+BYTE Yoder //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 40 //Partner 2 Intial Value
+BYTE 40 //Partner 3 Intial Value
+BYTE 1 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 3 //Partner 2 Growth
+BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Yoder
+YoderSupportData:
+BYTE Saul //Partner 1
+BYTE Dorothy //Partner 2
+BYTE Melady //Partner 3
+BYTE Niime //Partner 4
+BYTE Dayan //Partner 5
+BYTE 0
+BYTE 0
+BYTE 40 //Partner 1 Intial Value
+BYTE 40 //Partner 2 Intial Value
+BYTE 1 //Partner 3 Intial Value
+BYTE 40 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 2 //Partner 1 Growth
+BYTE 2 //Partner 2 Growth
+BYTE 1 //Partner 3 Growth
+BYTE 1 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+
+//Karel
+KarelSupportData:
+BYTE Rutger //Partner 1
+BYTE Noah //Partner 2
+BYTE Fir //Partner 3
+BYTE Bartre //Partner 4
+BYTE Zeiss //Partner 5
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Intial Value
+BYTE 1 //Partner 2 Intial Value
+BYTE 30 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
+BYTE 1 //Partner 5 Intial Value
+BYTE 0
+BYTE 0
+BYTE 1 //Partner 1 Growth
+BYTE 1 //Partner 2 Growth
+BYTE 3 //Partner 3 Growth
+BYTE 2 //Partner 4 Growth
+BYTE 1 //Partner 5 Growth
+BYTE 0
+BYTE 0
+BYTE 5 //Amount
+SHORT 0x0
+

@@ -6,3 +6,4 @@
 #include "External Tables/NewPromotionTables.event"
 #include "External Tables/NewItemStealingTable.event"
 #include "External Tables/NewForcedDeploymentTable.event"
+#include "External Tables/NewSupportThresholdsTable.event"

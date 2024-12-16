@@ -1,0 +1,5 @@
+modifiable supports
+
+config.event in root (doesn't have an affect yet)
+
+can move items, classes, and characters around in their tables. then go into "enumerate" and run the table reader, enumerate all bat, then move the new definitions to the definitions ids.

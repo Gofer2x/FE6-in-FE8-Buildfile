@@ -1,0 +1,63 @@
+EVENT_RoyDeath:
+Text(RoyDeathQuote)
+
+//TODO i think the "branchif" here aka CHECK_DEPLOYED breaks and immediately cancels event when run? not much i can do i guess.
+//Lilina
+BranchIfUnitNotDeployed(1,Lilina)
+Text(RoyDeathQuoteLilina)
+GOTO 9
+
+//Guinivere
+LABEL 1
+CALL EVENT_IsGuinivereAround
+BEQ 2 sC s0 //Branch if Guinivere not around
+Text(RoyDeathQuoteGuinivere)
+GOTO 9
+
+//Marcus
+LABEL 2
+BranchIfUnitNotDeployed(3,Marcus)
+Text(RoyDeathQuoteMarcus)
+GOTO 9
+
+//Merlinus
+LABEL 3
+BranchIfUnitNotDeployed(9,Merlinus)
+Text(RoyDeathQuoteMerlinus)
+
+LABEL 9
+EndEvent
+
+
+
+
+
+
+
+EVENT_IsGuinivereAround:
+//LABEL 1 = True
+//LABEL 2 = False
+
+//Guinivere present after Ch13
+BranchIfChapterIDLargerThan(1,CHAPTER_Ch13)
+
+//Not present in Ch1 and Ch2, aka before Ch3
+BranchIfChapterIDSmallerThan(2,CHAPTER_Ch3)
+
+//Present during Ch3-Ch8x, aka before Ch9
+BranchIfChapterIDSmallerThan(1,CHAPTER_Ch9)
+
+//Otherwise we're in West Isles/Ch13, where she's not present
+GOTO 2
+
+//True
+LABEL 1
+SVAL sC 1
+GOTO 9
+
+//False
+LABEL 2
+SVAL sC 0
+
+LABEL 9
+EndEvent

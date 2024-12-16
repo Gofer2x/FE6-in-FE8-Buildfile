@@ -97,7 +97,7 @@ DeathQuote(Douglas,CHAPTER_Ch16,Ch16_DouglasDeathFlag,DouglasDeathQuote)
 
 
 
-DeathQuote(Roy,AnyChapter,0x65,RoyDeathQuote)
+DeathQuote(Roy,AnyChapter,0x65,0,EVENT_RoyDeath)
 DeathQuote(Marcus,AnyChapter,0,MarcusDeathQuote)
 DeathQuote(Alen,AnyChapter,0,AlenDeathQuote)
 DeathQuote(Lance,AnyChapter,0,LanceDeathQuote)

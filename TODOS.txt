@@ -4,8 +4,6 @@ chapters
 
 king animation broken. too big
 
-roy special death quote? give it a special event?
-
 ifdefs for roy supports
 
 harp and birdie sounds for elffin animation
@@ -24,7 +22,7 @@ world map lol. i am in uhh no rush though
 
 recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
 
-
+roy has a death event for special character dialogue, but it seems to return early. pretty sure it's CHARATER_DEPLOYED's fault.
 
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.

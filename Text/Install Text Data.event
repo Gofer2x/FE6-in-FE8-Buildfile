@@ -7443,3 +7443,19 @@ TxtData0x148f:
 #incext ParseFile "_textentries\0x148f.txt"
 setText(0x148f,TxtData0x148f)
 
+TxtData0x1490:
+#incext ParseFile "_textentries\0x1490.txt"
+setText(0x1490,TxtData0x1490)
+
+TxtData0x1491:
+#incext ParseFile "_textentries\0x1491.txt"
+setText(0x1491,TxtData0x1491)
+
+TxtData0x1492:
+#incext ParseFile "_textentries\0x1492.txt"
+setText(0x1492,TxtData0x1492)
+
+TxtData0x1493:
+#incext ParseFile "_textentries\0x1493.txt"
+setText(0x1493,TxtData0x1493)
+

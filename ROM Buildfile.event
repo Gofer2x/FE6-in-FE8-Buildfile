@@ -32,7 +32,7 @@
 	#include "Tables/Table Installer.event"
 	#include "Tables/External Tables Installer.event"
 	
-	#include "Events/Chapter Events Installer.event"
+	#include "Events/Master Events Installer.event"
 	#include "Events/WMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"

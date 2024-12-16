@@ -518,3 +518,22 @@ I am alone...[.....][N]
 in the dark...[AN]
 I am alone...[.....]in...[.....][N]
 darkness...[AN][X]
+
+
+
+
+## RoyDeathQuoteLilina
+[LoadLilina][ToggleSmile]I-I...[N]
+I'm sorry...[AN][X]
+
+## RoyDeathQuoteGuinivere
+[LoadGuinivere][ToggleSmile]Roy...![N]
+Live on...[AN][X]
+
+## RoyDeathQuoteMarcus
+[LoadMarcus][ToggleSmile]Lord Roy...[N]
+Forgive me...![AN][X]
+
+## RoyDeathQuoteMerlinus
+[LoadMerlinus][ToggleSmile]Lord Roy![N]
+Forgive me...![AN][X]

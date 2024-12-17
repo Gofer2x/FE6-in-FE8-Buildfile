@@ -3,8 +3,6 @@
 
 #include EAstdlib.event
 
-//Tile Changes
-
 //Flags/EventIDs
 //BossQuoteFlag 0x1
 //BossDefeatFlag 0x2

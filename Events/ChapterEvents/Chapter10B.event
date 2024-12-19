@@ -87,7 +87,7 @@ Village(Ch10B_VillageFlag3,BarrierVillageVisit,8,20)
 Village(Ch10B_VillageFlag4,MaryVillageVisit,8,8)
 Village(Ch10B_VillageFlag5,MieuVillageVisit,4,8)
 Village(Ch10B_VillageFlag6,DragonshieldVillageVisit,5,13)
-Village(Ch10B_VillageFlag7,SwordreaverVillageVisit,17,21)
+Village(Ch10B_VillageFlag7,SwordreaverVillageVisit,17,23)
 Armory(ArmoryList,4,22)
 END_MAIN
 

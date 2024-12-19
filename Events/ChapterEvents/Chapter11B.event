@@ -43,6 +43,7 @@ TurnBasedEvents:
 TurnEventEnemy(0x0,LoadCivilianChasers,4)
 TurnEventNPC(0x0,GeeseAppears,5)
 TurnEventEnemy(0x0,LoadPirates,5,3)
+TurnEventNPC(0x0,BartreAppears,8)
 TurnEventEnemy(0x0,ReinforcementsComing,10)
 TurnEventEnemy(0x0,LoadTwoFightersIfBossAlive,11)
 TurnEventEnemy(0x0,LoadHardMercFighterIfBossAlive,12)
@@ -255,6 +256,13 @@ FlashCursor(18,17,60)
 SwitchMusic(MUS_BindingTies)
 Text(BG_Village,Ch10A_Ch11B_GeeseAppears)
 LoadReinforcements(JustGeese)
+EndEvent
+
+BartreAppears:
+PlayMusic(MUS_WildFrontier)
+LOAD1 0x1 BartreSquad
+ENUN
+Text(Ch11B_BartreAppears)
 EndEvent
 
 ReinforcementsComing:

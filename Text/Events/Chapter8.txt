@@ -152,7 +152,7 @@ the time being.[AN]
 [OpenMidLeft][FastPrint]Thanks.[AN][X]
 
 ## Ch8_BorsGwendolynTalk
-[OpenMidLeft][LoadGwendolyn][NormalPrint]Bors!
+[OpenMidLeft][LoadGwendolyn][NormalPrint]Bors![N]
 You're all right![AN]
 [OpenMidRight][LoadBors][FastPrint]Is that you, Gwendolyn?[AN]
 I'm so glad to see[N]

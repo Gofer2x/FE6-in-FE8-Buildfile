@@ -1,108 +1,108 @@
-#define MercenaryClassCard 0xB0
+#define MercenaryClassCard 0xB4
 setCardEntry(MercenaryClassCard, MercenaryCardData, MercenaryCardPalette)
 
-#define HeroClassCard 0xB1
+#define HeroClassCard 0xB5
 setCardEntry(HeroClassCard, HeroCardData, HeroCardPalette)
 
-#define MyrmidonClassCard 0xB2
+#define MyrmidonClassCard 0xB6
 setCardEntry(MyrmidonClassCard, MyrmidonCardData, MyrmidonCardPalette)
 
-#define SwordmasterClassCard 0xB3
+#define SwordmasterClassCard 0xB7
 setCardEntry(SwordmasterClassCard, SwordmasterCardData, SwordmasterCardPalette)
 
-#define FighterClassCard 0xB4
+#define FighterClassCard 0xB8
 setCardEntry(FighterClassCard, FighterCardData, FighterCardPalette)
 
-#define WarriorClassCard 0xB5
+#define WarriorClassCard 0xB9
 setCardEntry(WarriorClassCard, WarriorCardData, WarriorCardPalette)
 
-#define BrigandClassCard 0xB6
+#define BrigandClassCard 0xBA
 setCardEntry(BrigandClassCard, BrigandCardData, BrigandCardPalette)
 
-#define PirateClassCard 0xB7
+#define PirateClassCard 0xBB
 setCardEntry(PirateClassCard, PirateCardData, PirateCardPalette)
 
-#define BerserkerClassCard 0xB8
+#define BerserkerClassCard 0xBC
 setCardEntry(BerserkerClassCard, BerserkerCardData, BerserkerCardPalette)
 
-#define SoldierClassCard 0xB9
+#define SoldierClassCard 0xBD
 setCardEntry(SoldierClassCard, SoldierCardData, SoldierCardPalette)
 
-#define KnightClassCard 0xBA
+#define KnightClassCard 0xBE
 setCardEntry(KnightClassCard, KnightCardData, KnightCardPalette)
 
-#define GeneralClassCard 0xBB
+#define GeneralClassCard 0xBF
 setCardEntry(GeneralClassCard, GeneralCardData, GeneralCardPalette)
 
-#define ArcherClassCard 0xBC
+#define ArcherClassCard 0xC0
 setCardEntry(ArcherClassCard, ArcherCardData, ArcherCardPalette)
 
-#define SniperClassCard 0xBD
+#define SniperClassCard 0xC1
 setCardEntry(SniperClassCard, SniperCardData, SniperCardPalette)
 
-#define ThiefClassCard 0xBE
+#define ThiefClassCard 0xC2
 setCardEntry(ThiefClassCard, ThiefCardData, ThiefCardPalette)
 
-#define RogueClassCard 0xBF
+#define RogueClassCard 0xC3
 setCardEntry(RogueClassCard, RogueCardData, RogueCardPalette)
 
-#define CavalierClassCard 0xC0
+#define CavalierClassCard 0xC4
 setCardEntry(CavalierClassCard, CavalierCardData, CavalierCardPalette)
 
-#define PaladinClassCard 0xC1
+#define PaladinClassCard 0xC5
 setCardEntry(PaladinClassCard, PaladinCardData, PaladinCardPalette)
 
-#define GreatKnightClassCard 0xC2
+#define GreatKnightClassCard 0xC6
 setCardEntry(GreatKnightClassCard, GreatKnightCardData, GreatKnightCardPalette)
 
-#define NomadClassCard 0xC3
+#define NomadClassCard 0xC7
 setCardEntry(NomadClassCard, NomadCardData, NomadCardPalette)
 
-#define NomadTrooperClassCard 0xC4
+#define NomadTrooperClassCard 0xC8
 setCardEntry(NomadTrooperClassCard, NomadTrooperCardData, NomadTrooperCardPalette)
 
-#define MonkClericClassCard 0xC5
+#define MonkClericClassCard 0xC9
 setCardEntry(MonkClericClassCard, MonkClericCardData, MonkClericCardPalette)
 
-#define BishopClassCard 0xC6
+#define BishopClassCard 0xCA
 setCardEntry(BishopClassCard, BishopCardData, BishopCardPalette)
 
-#define TroubadourClassCard 0xC7
+#define TroubadourClassCard 0xCB
 setCardEntry(TroubadourClassCard, TroubadourCardData, TroubadourCardPalette)
 
-#define ValkyrieClassCard 0xC8
+#define ValkyrieClassCard 0xCC
 setCardEntry(ValkyrieClassCard, ValkyrieCardData, ValkyrieCardPalette)
 
-#define MageClassCard 0xC9
+#define MageClassCard 0xCD
 setCardEntry(MageClassCard, MageCardData, MageCardPalette)
 
-#define SageClassCard 0xCA
+#define SageClassCard 0xCE
 setCardEntry(SageClassCard, SageCardData, SageCardPalette)
 
-#define MageKnightClassCard 0xCB
+#define MageKnightClassCard 0xCF
 setCardEntry(MageKnightClassCard, MageKnightCardData, MageKnightCardPalette)
 
-#define ShamanClassCard 0xCC
+#define ShamanClassCard 0xD0
 setCardEntry(ShamanClassCard, ShamanCardData, ShamanCardPalette)
 
-#define DruidClassCard 0xCD
+#define DruidClassCard 0xD1
 setCardEntry(DruidClassCard, DruidCardData, DruidCardPalette)
 
-#define PegasusKnightClassCard 0xCE
+#define PegasusKnightClassCard 0xD2
 setCardEntry(PegasusKnightClassCard, PegasusKnightCardData, PegasusKnightCardPalette)
 
-#define FalcoknightClassCard 0xCF
+#define FalcoknightClassCard 0xD3
 setCardEntry(FalcoknightClassCard, FalcoknightCardData, FalcoknightCardPalette)
 
-#define WyvernRiderClassCard 0xD0
+#define WyvernRiderClassCard 0xD4
 setCardEntry(WyvernRiderClassCard, WyvernRiderCardData, WyvernRiderCardPalette)
 
-#define WyvernLordClassCard 0xD1
+#define WyvernLordClassCard 0xD5
 setCardEntry(WyvernLordClassCard, WyvernLordCardData, WyvernLordCardPalette)
 
-#define WyvernKnightClassCard 0xD2
+#define WyvernKnightClassCard 0xD6
 setCardEntry(WyvernKnightClassCard, WyvernKnightCardData, WyvernKnightCardPalette)
 
-#define FireManaketeClassCard 0xD3
+#define FireManaketeClassCard 0xD7
 setCardEntry(FireManaketeClassCard, FireManaketeCardData, FireManaketeCardPalette)
 

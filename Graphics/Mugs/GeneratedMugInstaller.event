@@ -1027,7 +1027,54 @@ IdunnDragonMugMiniData:
 #incbin "Dmp/IdunnDragon_minimug.dmp"
 setMugEntryManual(IdunnDragonMug, IdunnDragonMugData, IdunnDragonMugMiniData, IdunnDragonMugPaletteData, IdunnDragonMugFramesData, 2,10,3,4)
 
-#define BanditKidMug 0x64
+#define AnnaMug 0x64
+AnnaMugData:
+#incbin "Dmp/Anna_mug.dmp"
+AnnaMugFramesData:
+#incbin "Dmp/Anna_frames.dmp"
+AnnaMugPaletteData:
+#incbin "Dmp/Anna_palette.dmp"
+setMugEntryManual(AnnaMug, AnnaMugData, 0x0, AnnaMugPaletteData, AnnaMugFramesData, 2,5,3,3)
+
+#define ArmoryMug 0x65
+ArmoryMugData:
+#incbin "Dmp/Armory_mug.dmp"
+ArmoryMugFramesData:
+#incbin "Dmp/Armory_frames.dmp"
+ArmoryMugPaletteData:
+#incbin "Dmp/Armory_palette.dmp"
+setMugEntryManual(ArmoryMug, ArmoryMugData, 0x0, ArmoryMugPaletteData, ArmoryMugFramesData, 3,2,0,0)
+
+#define VendorMug 0x66
+VendorMugData:
+#incbin "Dmp/Vendor_mug.dmp"
+VendorMugFramesData:
+#incbin "Dmp/Vendor_frames.dmp"
+VendorMugPaletteData:
+#incbin "Dmp/Vendor_palette.dmp"
+setMugEntryManual(VendorMug, VendorMugData, 0x0, VendorMugPaletteData, VendorMugFramesData, 3,3,0,0)
+
+#define ArenaMug 0x67
+ArenaMugData:
+#incbin "Dmp/Arena_mug.dmp"
+ArenaMugFramesData:
+#incbin "Dmp/Arena_frames.dmp"
+ArenaMugPaletteData:
+#incbin "Dmp/Arena_palette.dmp"
+setMugEntryManual(ArenaMug, ArenaMugData, 0x0, ArenaMugPaletteData, ArenaMugFramesData, 3,2,0,0)
+
+#define SecretShopMug 0x68
+SecretShopMugData:
+#incbin "Dmp/SecretShop_mug.dmp"
+SecretShopMugFramesData:
+#incbin "Dmp/SecretShop_frames.dmp"
+SecretShopMugPaletteData:
+#incbin "Dmp/SecretShop_palette.dmp"
+SecretShopMugMiniData:
+#incbin "Dmp/SecretShop_minimug.dmp"
+setMugEntryManual(SecretShopMug, SecretShopMugData, SecretShopMugMiniData, SecretShopMugPaletteData, SecretShopMugFramesData, 3,3,0,0)
+
+#define BanditKidMug 0x69
 BanditKidMugData:
 #incbin "Dmp/BanditKid_mug.dmp"
 BanditKidMugFramesData:
@@ -1036,9 +1083,9 @@ BanditKidMugPaletteData:
 #incbin "Dmp/BanditKid_palette.dmp"
 BanditKidMugMiniData:
 #incbin "Dmp/BanditKid_minimug.dmp"
-setMugEntryManual(BanditKidMug, BanditKidMugData, 0x0, BanditKidMugPaletteData, BanditKidMugFramesData, 2,6,2,4)
+setMugEntryManual(BanditKidMug, BanditKidMugData, BanditKidMugMiniData, BanditKidMugPaletteData, BanditKidMugFramesData, 2,6,2,4)
 
-#define IdunnHoodMug 0x65
+#define IdunnHoodMug 0x6A
 IdunnHoodMugData:
 #incbin "Dmp/IdunnHood_mug.dmp"
 IdunnHoodMugFramesData:
@@ -1049,516 +1096,468 @@ IdunnHoodMugMiniData:
 #incbin "Dmp/IdunnHood_minimug.dmp"
 setMugEntryManual(IdunnHoodMug, IdunnHoodMugData, IdunnHoodMugMiniData, IdunnHoodMugPaletteData, IdunnHoodMugFramesData, 2,6,3,4)
 
-#define HectorBloodMug 0x66
+#define HectorBloodMug 0x6B
 HectorBloodMugData:
 #incbin "Dmp/HectorBlood_mug.dmp"
 HectorBloodMugFramesData:
 #incbin "Dmp/HectorBlood_frames.dmp"
 HectorBloodMugPaletteData:
 #incbin "Dmp/HectorBlood_palette.dmp"
-HectorBloodMugMiniData:
-#incbin "Dmp/HectorBlood_minimug.dmp"
 setMugEntryManual(HectorBloodMug, HectorBloodMugData, 0x0, HectorBloodMugPaletteData, HectorBloodMugFramesData, 2,5,3,2)
 
-#define MordredMug 0x67
+#define MordredMug 0x6C
 MordredMugData:
 #incbin "Dmp/Mordred_mug.dmp"
 MordredMugFramesData:
 #incbin "Dmp/Mordred_frames.dmp"
 MordredMugPaletteData:
 #incbin "Dmp/Mordred_palette.dmp"
-MordredMugMiniData:
-#incbin "Dmp/Mordred_minimug.dmp"
 setMugEntryManual(MordredMug, MordredMugData, 0x0, MordredMugPaletteData, MordredMugFramesData, 3,6,4,4)
 
-#define GenericPegasusKnightMug 0x68
+#define GenericPegasusKnightMug 0x6D
 GenericPegasusKnightMugData:
 #incbin "Dmp/GenericPegasusKnight_mug.dmp"
 GenericPegasusKnightMugFramesData:
 #incbin "Dmp/GenericPegasusKnight_frames.dmp"
 GenericPegasusKnightMugPaletteData:
 #incbin "Dmp/GenericPegasusKnight_palette.dmp"
-GenericPegasusKnightMugMiniData:
-#incbin "Dmp/GenericPegasusKnight_minimug.dmp"
 setMugEntryManual(GenericPegasusKnightMug, GenericPegasusKnightMugData, 0x0, GenericPegasusKnightMugPaletteData, GenericPegasusKnightMugFramesData, 2,6,3,4)
 
-#define PriestMug 0x69
+#define PriestMug 0x6E
 PriestMugData:
 #incbin "Dmp/Priest_mug.dmp"
 PriestMugFramesData:
 #incbin "Dmp/Priest_frames.dmp"
 PriestMugPaletteData:
 #incbin "Dmp/Priest_palette.dmp"
-PriestMugMiniData:
-#incbin "Dmp/Priest_minimug.dmp"
 setMugEntryManual(PriestMug, PriestMugData, 0x0, PriestMugPaletteData, PriestMugFramesData, 2,5,2,3)
 
-#define SacaeanVillagerMug 0x6A
+#define SacaeanVillagerMug 0x6F
 SacaeanVillagerMugData:
 #incbin "Dmp/SacaeanVillager_mug.dmp"
 SacaeanVillagerMugFramesData:
 #incbin "Dmp/SacaeanVillager_frames.dmp"
 SacaeanVillagerMugPaletteData:
 #incbin "Dmp/SacaeanVillager_palette.dmp"
-SacaeanVillagerMugMiniData:
-#incbin "Dmp/SacaeanVillager_minimug.dmp"
 setMugEntryManual(SacaeanVillagerMug, SacaeanVillagerMugData, 0x0, SacaeanVillagerMugPaletteData, SacaeanVillagerMugFramesData, 2,6,3,4)
 
-#define Soldier1Mug 0x6B
+#define Soldier1Mug 0x70
 Soldier1MugData:
 #incbin "Dmp/Soldier1_mug.dmp"
 Soldier1MugFramesData:
 #incbin "Dmp/Soldier1_frames.dmp"
 Soldier1MugPaletteData:
 #incbin "Dmp/Soldier1_palette.dmp"
-Soldier1MugMiniData:
-#incbin "Dmp/Soldier1_minimug.dmp"
 setMugEntryManual(Soldier1Mug, Soldier1MugData, 0x0, Soldier1MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier2Mug 0x6C
+#define Soldier2Mug 0x71
 Soldier2MugPaletteData:
 #incbin "Dmp/Soldier2_palette.dmp"
 setMugEntryManual(Soldier2Mug, Soldier1MugData, 0x0, Soldier2MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier3Mug 0x6D
+#define Soldier3Mug 0x72
 Soldier3MugPaletteData:
 #incbin "Dmp/Soldier3_palette.dmp"
 setMugEntryManual(Soldier3Mug, Soldier1MugData, 0x0, Soldier3MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier4Mug 0x6E
+#define Soldier4Mug 0x73
 Soldier4MugPaletteData:
 #incbin "Dmp/Soldier4_palette.dmp"
 setMugEntryManual(Soldier4Mug, Soldier1MugData, 0x0, Soldier4MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier5Mug 0x6F
+#define Soldier5Mug 0x74
 Soldier5MugPaletteData:
 #incbin "Dmp/Soldier5_palette.dmp"
 setMugEntryManual(Soldier5Mug, Soldier1MugData, 0x0, Soldier5MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier6Mug 0x70
+#define Soldier6Mug 0x75
 Soldier6MugPaletteData:
 #incbin "Dmp/Soldier6_palette.dmp"
 setMugEntryManual(Soldier6Mug, Soldier1MugData, 0x0, Soldier6MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define Soldier7Mug 0x71
+#define Soldier7Mug 0x76
 Soldier7MugPaletteData:
 #incbin "Dmp/Soldier7_palette.dmp"
 setMugEntryManual(Soldier7Mug, Soldier1MugData, 0x0, Soldier7MugPaletteData, Soldier1MugFramesData, 4,6,4,4)
 
-#define MaryMug 0x72
+#define MaryMug 0x77
 MaryMugData:
 #incbin "Dmp/Mary_mug.dmp"
 MaryMugFramesData:
 #incbin "Dmp/Mary_frames.dmp"
 MaryMugPaletteData:
 #incbin "Dmp/Mary_palette.dmp"
-MaryMugMiniData:
-#incbin "Dmp/Mary_minimug.dmp"
 setMugEntryManual(MaryMug, MaryMugData, 0x0, MaryMugPaletteData, MaryMugFramesData, 2,5,3,3)
 
-#define MieuMug 0x73
+#define MieuMug 0x78
 MieuMugData:
 #incbin "Dmp/Mieu_mug.dmp"
 MieuMugFramesData:
 #incbin "Dmp/Mieu_frames.dmp"
 MieuMugPaletteData:
 #incbin "Dmp/Mieu_palette.dmp"
-MieuMugMiniData:
-#incbin "Dmp/Mieu_minimug.dmp"
 setMugEntryManual(MieuMug, MieuMugData, 0x0, MieuMugPaletteData, MieuMugFramesData, 2,7,3,5)
 
-#define Villager1Mug 0x74
+#define Villager1Mug 0x79
 Villager1MugData:
 #incbin "Dmp/Villager1_mug.dmp"
 Villager1MugFramesData:
 #incbin "Dmp/Villager1_frames.dmp"
 Villager1MugPaletteData:
 #incbin "Dmp/Villager1_palette.dmp"
-Villager1MugMiniData:
-#incbin "Dmp/Villager1_minimug.dmp"
 setMugEntryManual(Villager1Mug, Villager1MugData, 0x0, Villager1MugPaletteData, Villager1MugFramesData, 2,6,3,4)
 
-#define Villager2Mug 0x75
+#define Villager2Mug 0x7A
 Villager2MugData:
 #incbin "Dmp/Villager2_mug.dmp"
 Villager2MugFramesData:
 #incbin "Dmp/Villager2_frames.dmp"
 Villager2MugPaletteData:
 #incbin "Dmp/Villager2_palette.dmp"
-Villager2MugMiniData:
-#incbin "Dmp/Villager2_minimug.dmp"
 setMugEntryManual(Villager2Mug, Villager2MugData, 0x0, Villager2MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
-#define Villager3Mug 0x76
+#define Villager3Mug 0x7B
 Villager3MugData:
 #incbin "Dmp/Villager3_mug.dmp"
 Villager3MugFramesData:
 #incbin "Dmp/Villager3_frames.dmp"
 Villager3MugPaletteData:
 #incbin "Dmp/Villager3_palette.dmp"
-Villager3MugMiniData:
-#incbin "Dmp/Villager3_minimug.dmp"
 setMugEntryManual(Villager3Mug, Villager3MugData, 0x0, Villager3MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
-#define Villager4Mug 0x77
+#define Villager4Mug 0x7C
 Villager4MugData:
 #incbin "Dmp/Villager4_mug.dmp"
 Villager4MugFramesData:
 #incbin "Dmp/Villager4_frames.dmp"
 Villager4MugPaletteData:
 #incbin "Dmp/Villager4_palette.dmp"
-Villager4MugMiniData:
-#incbin "Dmp/Villager4_minimug.dmp"
 setMugEntryManual(Villager4Mug, Villager4MugData, 0x0, Villager4MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
-#define Villager5Mug 0x78
+#define Villager5Mug 0x7D
 Villager5MugData:
 #incbin "Dmp/Villager5_mug.dmp"
 Villager5MugFramesData:
 #incbin "Dmp/Villager5_frames.dmp"
 Villager5MugPaletteData:
 #incbin "Dmp/Villager5_palette.dmp"
-Villager5MugMiniData:
-#incbin "Dmp/Villager5_minimug.dmp"
 setMugEntryManual(Villager5Mug, Villager5MugData, 0x0, Villager5MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
-#define Villager6Mug 0x79
+#define Villager6Mug 0x7E
 Villager6MugData:
 #incbin "Dmp/Villager6_mug.dmp"
 Villager6MugFramesData:
 #incbin "Dmp/Villager6_frames.dmp"
 Villager6MugPaletteData:
 #incbin "Dmp/Villager6_palette.dmp"
-Villager6MugMiniData:
-#incbin "Dmp/Villager6_minimug.dmp"
 setMugEntryManual(Villager6Mug, Villager6MugData, 0x0, Villager6MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
-#define Villager7Mug 0x7A
+#define Villager7Mug 0x7F
 Villager7MugData:
 #incbin "Dmp/Villager7_mug.dmp"
 Villager7MugFramesData:
 #incbin "Dmp/Villager7_frames.dmp"
 Villager7MugPaletteData:
 #incbin "Dmp/Villager7_palette.dmp"
-Villager7MugMiniData:
-#incbin "Dmp/Villager7_minimug.dmp"
 setMugEntryManual(Villager7Mug, Villager7MugData, 0x0, Villager7MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
-#define Villager8Mug 0x7B
+#define Villager8Mug 0x80
 Villager8MugData:
 #incbin "Dmp/Villager8_mug.dmp"
 Villager8MugFramesData:
 #incbin "Dmp/Villager8_frames.dmp"
 Villager8MugPaletteData:
 #incbin "Dmp/Villager8_palette.dmp"
-Villager8MugMiniData:
-#incbin "Dmp/Villager8_minimug.dmp"
 setMugEntryManual(Villager8Mug, Villager8MugData, 0x0, Villager8MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
-#define Villager9Mug 0x7C
+#define Villager9Mug 0x81
 Villager9MugData:
 #incbin "Dmp/Villager9_mug.dmp"
 Villager9MugFramesData:
 #incbin "Dmp/Villager9_frames.dmp"
 Villager9MugPaletteData:
 #incbin "Dmp/Villager9_palette.dmp"
-Villager9MugMiniData:
-#incbin "Dmp/Villager9_minimug.dmp"
 setMugEntryManual(Villager9Mug, Villager9MugData, 0x0, Villager9MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
-#define Villager10Mug 0x7D
+#define Villager10Mug 0x82
 Villager10MugData:
 #incbin "Dmp/Villager10_mug.dmp"
 Villager10MugFramesData:
 #incbin "Dmp/Villager10_frames.dmp"
 Villager10MugPaletteData:
 #incbin "Dmp/Villager10_palette.dmp"
-Villager10MugMiniData:
-#incbin "Dmp/Villager10_minimug.dmp"
 setMugEntryManual(Villager10Mug, Villager10MugData, 0x0, Villager10MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
-#define Villager11Mug 0x7E
+#define Villager11Mug 0x83
 Villager11MugData:
 #incbin "Dmp/Villager11_mug.dmp"
 Villager11MugFramesData:
 #incbin "Dmp/Villager11_frames.dmp"
 Villager11MugPaletteData:
 #incbin "Dmp/Villager11_palette.dmp"
-Villager11MugMiniData:
-#incbin "Dmp/Villager11_minimug.dmp"
 setMugEntryManual(Villager11Mug, Villager11MugData, 0x0, Villager11MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
-#define Villager12Mug 0x7F
+#define Villager12Mug 0x84
 Villager12MugData:
 #incbin "Dmp/Villager12_mug.dmp"
 Villager12MugFramesData:
 #incbin "Dmp/Villager12_frames.dmp"
 Villager12MugPaletteData:
 #incbin "Dmp/Villager12_palette.dmp"
-Villager12MugMiniData:
-#incbin "Dmp/Villager12_minimug.dmp"
 setMugEntryManual(Villager12Mug, Villager12MugData, 0x0, Villager12MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
-#define Villager13Mug 0x80
+#define Villager13Mug 0x85
 Villager13MugData:
 #incbin "Dmp/Villager13_mug.dmp"
 Villager13MugFramesData:
 #incbin "Dmp/Villager13_frames.dmp"
 Villager13MugPaletteData:
 #incbin "Dmp/Villager13_palette.dmp"
-Villager13MugMiniData:
-#incbin "Dmp/Villager13_minimug.dmp"
 setMugEntryManual(Villager13Mug, Villager13MugData, 0x0, Villager13MugPaletteData, Villager13MugFramesData, 2,6,3,4)
 
-#define Villager14Mug 0x81
+#define Villager14Mug 0x86
 Villager14MugPaletteData:
 #incbin "Dmp/Villager14_palette.dmp"
 setMugEntryManual(Villager14Mug, Villager2MugData, 0x0, Villager14MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
-#define Villager15Mug 0x82
+#define Villager15Mug 0x87
 Villager15MugPaletteData:
 #incbin "Dmp/Villager15_palette.dmp"
 setMugEntryManual(Villager15Mug, Villager3MugData, 0x0, Villager15MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
-#define Villager16Mug 0x83
+#define Villager16Mug 0x88
 Villager16MugPaletteData:
 #incbin "Dmp/Villager16_palette.dmp"
 setMugEntryManual(Villager16Mug, Villager4MugData, 0x0, Villager16MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
-#define Villager17Mug 0x84
+#define Villager17Mug 0x89
 Villager17MugPaletteData:
 #incbin "Dmp/Villager17_palette.dmp"
 setMugEntryManual(Villager17Mug, Villager5MugData, 0x0, Villager17MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
-#define Villager18Mug 0x85
+#define Villager18Mug 0x8A
 Villager18MugPaletteData:
 #incbin "Dmp/Villager18_palette.dmp"
 setMugEntryManual(Villager18Mug, Villager6MugData, 0x0, Villager18MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
-#define Villager19Mug 0x86
+#define Villager19Mug 0x8B
 Villager19MugPaletteData:
 #incbin "Dmp/Villager19_palette.dmp"
 setMugEntryManual(Villager19Mug, Villager7MugData, 0x0, Villager19MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
-#define Villager20Mug 0x87
+#define Villager20Mug 0x8C
 Villager20MugPaletteData:
 #incbin "Dmp/Villager20_palette.dmp"
 setMugEntryManual(Villager20Mug, Villager8MugData, 0x0, Villager20MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
-#define Villager21Mug 0x88
+#define Villager21Mug 0x8D
 Villager21MugPaletteData:
 #incbin "Dmp/Villager21_palette.dmp"
 setMugEntryManual(Villager21Mug, Villager9MugData, 0x0, Villager21MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
-#define Villager22Mug 0x89
+#define Villager22Mug 0x8E
 Villager22MugPaletteData:
 #incbin "Dmp/Villager22_palette.dmp"
 setMugEntryManual(Villager22Mug, Villager10MugData, 0x0, Villager22MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
-#define Villager23Mug 0x8A
+#define Villager23Mug 0x8F
 Villager23MugPaletteData:
 #incbin "Dmp/Villager23_palette.dmp"
 setMugEntryManual(Villager23Mug, Villager11MugData, 0x0, Villager23MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
-#define Villager24Mug 0x8B
+#define Villager24Mug 0x90
 Villager24MugPaletteData:
 #incbin "Dmp/Villager24_palette.dmp"
 setMugEntryManual(Villager24Mug, Villager12MugData, 0x0, Villager24MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
-#define Villager25Mug 0x8C
+#define Villager25Mug 0x91
 Villager25MugData:
 #incbin "Dmp/Villager25_mug.dmp"
 Villager25MugFramesData:
 #incbin "Dmp/Villager25_frames.dmp"
 Villager25MugPaletteData:
 #incbin "Dmp/Villager25_palette.dmp"
-Villager25MugMiniData:
-#incbin "Dmp/Villager25_minimug.dmp"
 setMugEntryManual(Villager25Mug, Villager25MugData, 0x0, Villager25MugPaletteData, Villager25MugFramesData, 2,6,3,4)
 
-#define Villager26Mug 0x8D
+#define Villager26Mug 0x92
 Villager26MugPaletteData:
 #incbin "Dmp/Villager26_palette.dmp"
 setMugEntryManual(Villager26Mug, Villager2MugData, 0x0, Villager26MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
-#define Villager27Mug 0x8E
+#define Villager27Mug 0x93
 Villager27MugPaletteData:
 #incbin "Dmp/Villager27_palette.dmp"
 setMugEntryManual(Villager27Mug, Villager3MugData, 0x0, Villager27MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
-#define Villager28Mug 0x8F
+#define Villager28Mug 0x94
 Villager28MugPaletteData:
 #incbin "Dmp/Villager28_palette.dmp"
 setMugEntryManual(Villager28Mug, Villager4MugData, 0x0, Villager28MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
-#define Villager29Mug 0x90
+#define Villager29Mug 0x95
 Villager29MugPaletteData:
 #incbin "Dmp/Villager29_palette.dmp"
 setMugEntryManual(Villager29Mug, Villager5MugData, 0x0, Villager29MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
-#define Villager30Mug 0x91
+#define Villager30Mug 0x96
 Villager30MugPaletteData:
 #incbin "Dmp/Villager30_palette.dmp"
 setMugEntryManual(Villager30Mug, Villager6MugData, 0x0, Villager30MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
-#define Villager31Mug 0x92
+#define Villager31Mug 0x97
 Villager31MugPaletteData:
 #incbin "Dmp/Villager31_palette.dmp"
 setMugEntryManual(Villager31Mug, Villager7MugData, 0x0, Villager31MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
-#define Villager32Mug 0x93
+#define Villager32Mug 0x98
 Villager32MugPaletteData:
 #incbin "Dmp/Villager32_palette.dmp"
 setMugEntryManual(Villager32Mug, Villager8MugData, 0x0, Villager32MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
-#define Villager33Mug 0x94
+#define Villager33Mug 0x99
 Villager33MugPaletteData:
 #incbin "Dmp/Villager33_palette.dmp"
 setMugEntryManual(Villager33Mug, Villager9MugData, 0x0, Villager33MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
-#define Villager34Mug 0x95
+#define Villager34Mug 0x9A
 Villager34MugPaletteData:
 #incbin "Dmp/Villager34_palette.dmp"
 setMugEntryManual(Villager34Mug, Villager10MugData, 0x0, Villager34MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
-#define Villager35Mug 0x96
+#define Villager35Mug 0x9B
 Villager35MugPaletteData:
 #incbin "Dmp/Villager35_palette.dmp"
 setMugEntryManual(Villager35Mug, Villager11MugData, 0x0, Villager35MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
-#define Villager36Mug 0x97
+#define Villager36Mug 0x9C
 Villager36MugPaletteData:
 #incbin "Dmp/Villager36_palette.dmp"
 setMugEntryManual(Villager36Mug, Villager12MugData, 0x0, Villager36MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
-#define Villager37Mug 0x98
+#define Villager37Mug 0x9D
 Villager37MugData:
 #incbin "Dmp/Villager37_mug.dmp"
 Villager37MugFramesData:
 #incbin "Dmp/Villager37_frames.dmp"
 Villager37MugPaletteData:
 #incbin "Dmp/Villager37_palette.dmp"
-Villager37MugMiniData:
-#incbin "Dmp/Villager37_minimug.dmp"
 setMugEntryManual(Villager37Mug, Villager37MugData, 0x0, Villager37MugPaletteData, Villager37MugFramesData, 2,6,3,4)
 
-#define Villager38Mug 0x99
+#define Villager38Mug 0x9E
 Villager38MugPaletteData:
 #incbin "Dmp/Villager38_palette.dmp"
 setMugEntryManual(Villager38Mug, Villager2MugData, 0x0, Villager38MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
-#define Villager39Mug 0x9A
+#define Villager39Mug 0x9F
 Villager39MugPaletteData:
 #incbin "Dmp/Villager39_palette.dmp"
 setMugEntryManual(Villager39Mug, Villager3MugData, 0x0, Villager39MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
-#define Villager40Mug 0x9B
+#define Villager40Mug 0xA0
 Villager40MugPaletteData:
 #incbin "Dmp/Villager40_palette.dmp"
 setMugEntryManual(Villager40Mug, Villager4MugData, 0x0, Villager40MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
-#define Villager41Mug 0x9C
+#define Villager41Mug 0xA1
 Villager41MugPaletteData:
 #incbin "Dmp/Villager41_palette.dmp"
 setMugEntryManual(Villager41Mug, Villager5MugData, 0x0, Villager41MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
-#define Villager42Mug 0x9D
+#define Villager42Mug 0xA2
 Villager42MugPaletteData:
 #incbin "Dmp/Villager42_palette.dmp"
 setMugEntryManual(Villager42Mug, Villager6MugData, 0x0, Villager42MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
-#define Villager43Mug 0x9E
+#define Villager43Mug 0xA3
 Villager43MugPaletteData:
 #incbin "Dmp/Villager43_palette.dmp"
 setMugEntryManual(Villager43Mug, Villager7MugData, 0x0, Villager43MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
-#define Villager44Mug 0x9F
+#define Villager44Mug 0xA4
 Villager44MugPaletteData:
 #incbin "Dmp/Villager44_palette.dmp"
 setMugEntryManual(Villager44Mug, Villager8MugData, 0x0, Villager44MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
-#define Villager45Mug 0xA0
+#define Villager45Mug 0xA5
 Villager45MugPaletteData:
 #incbin "Dmp/Villager45_palette.dmp"
 setMugEntryManual(Villager45Mug, Villager9MugData, 0x0, Villager45MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
-#define Villager46Mug 0xA1
+#define Villager46Mug 0xA6
 Villager46MugPaletteData:
 #incbin "Dmp/Villager46_palette.dmp"
 setMugEntryManual(Villager46Mug, Villager10MugData, 0x0, Villager46MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
-#define Villager47Mug 0xA2
+#define Villager47Mug 0xA7
 Villager47MugPaletteData:
 #incbin "Dmp/Villager47_palette.dmp"
 setMugEntryManual(Villager47Mug, Villager11MugData, 0x0, Villager47MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
-#define Villager48Mug 0xA3
+#define Villager48Mug 0xA8
 Villager48MugPaletteData:
 #incbin "Dmp/Villager48_palette.dmp"
 setMugEntryManual(Villager48Mug, Villager12MugData, 0x0, Villager48MugPaletteData, Villager12MugFramesData, 3,7,3,5)
 
-#define Villager49Mug 0xA4
+#define Villager49Mug 0xA9
 Villager49MugData:
 #incbin "Dmp/Villager49_mug.dmp"
 Villager49MugFramesData:
 #incbin "Dmp/Villager49_frames.dmp"
 Villager49MugPaletteData:
 #incbin "Dmp/Villager49_palette.dmp"
-Villager49MugMiniData:
-#incbin "Dmp/Villager49_minimug.dmp"
 setMugEntryManual(Villager49Mug, Villager49MugData, 0x0, Villager49MugPaletteData, Villager49MugFramesData, 2,6,3,4)
 
-#define Villager50Mug 0xA5
+#define Villager50Mug 0xAA
 Villager50MugPaletteData:
 #incbin "Dmp/Villager50_palette.dmp"
 setMugEntryManual(Villager50Mug, Villager2MugData, 0x0, Villager50MugPaletteData, Villager2MugFramesData, 4,6,3,4)
 
-#define Villager51Mug 0xA6
+#define Villager51Mug 0xAB
 Villager51MugPaletteData:
 #incbin "Dmp/Villager51_palette.dmp"
 setMugEntryManual(Villager51Mug, Villager3MugData, 0x0, Villager51MugPaletteData, Villager3MugFramesData, 2,5,3,3)
 
-#define Villager52Mug 0xA7
+#define Villager52Mug 0xAC
 Villager52MugPaletteData:
 #incbin "Dmp/Villager52_palette.dmp"
 setMugEntryManual(Villager52Mug, Villager4MugData, 0x0, Villager52MugPaletteData, Villager4MugFramesData, 2,6,3,4)
 
-#define Villager53Mug 0xA8
+#define Villager53Mug 0xAD
 Villager53MugPaletteData:
 #incbin "Dmp/Villager53_palette.dmp"
 setMugEntryManual(Villager53Mug, Villager5MugData, 0x0, Villager53MugPaletteData, Villager5MugFramesData, 2,6,3,4)
 
-#define Villager54Mug 0xA9
+#define Villager54Mug 0xAE
 Villager54MugPaletteData:
 #incbin "Dmp/Villager54_palette.dmp"
 setMugEntryManual(Villager54Mug, Villager6MugData, 0x0, Villager54MugPaletteData, Villager6MugFramesData, 2,7,2,4)
 
-#define Villager55Mug 0xAA
+#define Villager55Mug 0xAF
 Villager55MugPaletteData:
 #incbin "Dmp/Villager55_palette.dmp"
 setMugEntryManual(Villager55Mug, Villager7MugData, 0x0, Villager55MugPaletteData, Villager7MugFramesData, 2,6,3,4)
 
-#define Villager56Mug 0xAB
+#define Villager56Mug 0xB0
 Villager56MugPaletteData:
 #incbin "Dmp/Villager56_palette.dmp"
 setMugEntryManual(Villager56Mug, Villager8MugData, 0x0, Villager56MugPaletteData, Villager8MugFramesData, 2,6,3,4)
 
-#define Villager57Mug 0xAC
+#define Villager57Mug 0xB1
 Villager57MugPaletteData:
 #incbin "Dmp/Villager57_palette.dmp"
 setMugEntryManual(Villager57Mug, Villager9MugData, 0x0, Villager57MugPaletteData, Villager9MugFramesData, 2,5,3,3)
 
-#define Villager58Mug 0xAD
+#define Villager58Mug 0xB2
 Villager58MugPaletteData:
 #incbin "Dmp/Villager58_palette.dmp"
 setMugEntryManual(Villager58Mug, Villager10MugData, 0x0, Villager58MugPaletteData, Villager10MugFramesData, 2,6,3,4)
 
-#define Villager59Mug 0xAE
+#define Villager59Mug 0xB3
 Villager59MugPaletteData:
 #incbin "Dmp/Villager59_palette.dmp"
 setMugEntryManual(Villager59Mug, Villager11MugData, 0x0, Villager59MugPaletteData, Villager11MugFramesData, 3,7,3,5)
 
-#define Villager60Mug 0xAF
+#define Villager60Mug 0xB4
 Villager60MugPaletteData:
 #incbin "Dmp/Villager60_palette.dmp"
 setMugEntryManual(Villager60Mug, Villager12MugData, 0x0, Villager60MugPaletteData, Villager12MugFramesData, 3,7,3,5)

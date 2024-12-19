@@ -359,6 +359,7 @@ EndEvent
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 BranchIfUnitDead(1,Sue)
+BranchIfFlagOFF(1,Ch6_RoySueTalkFlag)
 Text(BG_Castle3, Ch6_EndSue)
 LABEL 1
 Text(BG_Castle3, Ch6_End)

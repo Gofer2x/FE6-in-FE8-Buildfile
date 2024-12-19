@@ -27,7 +27,7 @@ three Wyvern Generals.[AN]
 My lovely little lass, I think you will enjoy[N]
 my company more than your brother's...[AN]
 [MoveRight][ToggleMouthMove]Hm[.....] hm[.....] hm...[ToggleMouthMove][AN]
-[OpenFarLeft][NormalPrint]Heh...
+[OpenFarLeft][NormalPrint]Heh...[N]
 Ha ha ha![AN]
 [OpenRight][FastPrint][ToggleSmile]What?[AN]
 Why do you laugh?[AN]

@@ -105,7 +105,12 @@ mugsData = {
     "Brunnya":[2,5,3,3],
     "Jahn":[3,5,3,3],
     "IdunnHuman":[2,6,3,4],
-    "IdunnDragon":[2,10,3,4],
+    "IdunnDragon":[2,10,3,4], #0x63
+    "Anna":[2,5,3,3],
+    "Armory":[3,2,0,0],
+    "Vendor":[3,3,0,0],
+    "Arena":[3,2,0,0],
+    "SecretShop":[3,3,0,0],
     "BanditKid":[2,6,2,4],
     "IdunnHood":[2,6,3,4],
     "HectorBlood":[2,5,3,2],
@@ -181,7 +186,8 @@ mugsData = {
     "Villager57":[2,5,3,3],
     "Villager58":[2,6,3,4],
     "Villager59":[3,7,3,5],
-    "Villager60":[3,7,3,5]
+    "Villager60":[3,7,3,5],
+
 }
 
 paletteSwaps = [
@@ -213,6 +219,11 @@ paletteSwaps = [
 ]
 
 noMinis =[
+    "Anna",
+    "Armory",
+    "Vendor",
+    "Arena",
+    "SecretShop"
     "BanditKid",
     "HectorBlood",
     "Mordred",
@@ -287,8 +298,7 @@ noMinis =[
     "Villager57",
     "Villager58",
     "Villager59",
-    "Villager60"
-    
+    "Villager60",
 ]
 
 output = []
@@ -330,8 +340,6 @@ for name in names:
                         ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
                         (name+"MugPaletteData:\n"),
                         ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
-                        (name+"MugMiniData:\n"),
-                        ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
                         ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
                     ]
             else:
@@ -380,8 +388,6 @@ for name in names:
                 ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
                 (name+"MugPaletteData:\n"),
                 ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
-                (name+"MugMiniData:\n"),
-                ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
                 ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+a+","+b+","+c+","+d+")\n")
             ]
     for line in templateString:

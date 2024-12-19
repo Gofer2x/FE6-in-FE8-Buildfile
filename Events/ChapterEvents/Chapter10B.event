@@ -60,6 +60,7 @@ TurnEventEnemy(0x0,BossComplainsAndSendsBandits,4)
 TurnEventEnemy(0x0,BanditsAppear,6)
 TurnEventEnemy(0x0,KleinAppears,8)
 TurnEventEnemy(0x0,LoadMoreBandits,9)
+TurnEventEnemy(0x0,TheaAppears,10)
 TurnEventEnemy(0x0,LoadMoreBandits,11)
 TurnEventEnemy(0x0,LoadMoreBandits,13)
 TurnEventEnemy(0x0,ZinqueComplainsAndTalksAboutReinforcements,9)
@@ -101,8 +102,6 @@ Tutorial:
 END_MAIN
 
 TrapData:
-NormalBallista(10,12)
-NormalBallista(22,19)
 ENDTRAP
 
 ALIGN 4

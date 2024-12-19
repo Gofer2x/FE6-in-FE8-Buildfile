@@ -264,7 +264,7 @@ Thanks for the rescue, Roy.[AN]
 Of course, Father.[N]
 How is your health?[AN]
 
-[OpenLeft][ToggleSmile]Well enough.
+[OpenLeft][ToggleSmile]Well enough.[N]
 I've some life in me yet.[AN][Clear]
 [ToggleSmile]But Roy, do you know why[N]
 I called you back here?[AN]

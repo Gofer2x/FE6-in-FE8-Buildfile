@@ -158,10 +158,10 @@ EndEvent
 DorothyAndSaulCutscene:
 SwitchMusic(MUS_GoingMyWay)
 CAM1 [10,2]
-CMOF
 FlashCursor(10,2,60)
 Text(BG_Village, Ch5_DorothySaulYoderCutscene)
 LOAD1 0x1 CutsceneSaulDorothy
+ENUN
 MOVE 0x0 Saul [20,5]
 MOVE 0x0 Dorothy [20,6]
 ENUN

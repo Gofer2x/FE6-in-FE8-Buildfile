@@ -224,7 +224,7 @@ Heh heh heh...[AN][X]
 
 
 ## Ch10B_ScollanOrdersGonzalez
-[OpenMidRight][LoadScollan][FastPrint][ToggleSmile]Gonzalez!
+[OpenMidRight][LoadScollan][FastPrint][ToggleSmile]Gonzalez![N]
 Where are you, Gonzalez?![AN]
 [OpenMidLeft][LoadGonzalez]Here...[N]
 I here...[AN]

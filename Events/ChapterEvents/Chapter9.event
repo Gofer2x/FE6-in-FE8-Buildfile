@@ -255,7 +255,7 @@ MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 1
-BranchIfFlagOFF(2,Ch9_LeftVillageVisitedFlag)
+BranchIfFlagOFF(2,Ch9_RightVillageVisitedFlag)
 FlagON(WestIslesBartreRouteFlag)
 Text(BG_Castle1,Ch9_EndWest)
 MoveToChapter(CHAPTER_Ch10B)
@@ -265,7 +265,6 @@ LABEL 2
 //neither visited, go echidna route
 Text(BG_Castle1,Ch9_EndNorthNoVillage)
 MoveToChapter(CHAPTER_Ch10A)
-GOTO 9
 
 LABEL 9
 ENDA

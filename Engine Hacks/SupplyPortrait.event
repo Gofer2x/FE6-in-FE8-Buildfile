@@ -1,0 +1,4 @@
+PUSH
+ORG 0x9D70E
+BYTE Merlinus
+POP

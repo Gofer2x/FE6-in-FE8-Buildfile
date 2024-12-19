@@ -1,0 +1,54 @@
+#define MovementCostTableThrone 0x1F
+#define MovementCostTableValley 0x31
+
+PUSH
+
+//Make Throne movement cost 2 across the board, except for fliers
+//Who get to fly over Valleys
+
+ORG WaterwalkingInfantryMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG PromotedCavalryMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG CavalryMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG ArmorMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG ThiefMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG MageMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG FlierMovementCost+MovementCostTableValley
+BYTE 1
+
+ORG FighterWarriorMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG OtherInfantryMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG BrigandMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG PirateMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG BerserkerMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG CivilianMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG NomadMovementCost+MovementCostTableThrone
+BYTE 2
+
+ORG NomadTrooperMovementCost+MovementCostTableThrone
+BYTE 2
+
+POP

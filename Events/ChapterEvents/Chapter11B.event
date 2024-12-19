@@ -260,8 +260,7 @@ EndEvent
 
 BartreAppears:
 PlayMusic(MUS_WildFrontier)
-LOAD1 0x1 BartreSquad
-ENUN
+LoadReinforcements(BartreSquad)
 Text(Ch11B_BartreAppears)
 EndEvent
 

@@ -12,6 +12,7 @@
 	#include "Misc/EditVanillaStatBoosts.event"
 	#include "Misc/EditItemEffects.event"
 	#include "Misc/EditTerrainBGFloorsTable.event"
+	#include "Misc/EditArenaWeapons.event"
 	
 	#include "Text/NewTextTableInstaller.event"
 	

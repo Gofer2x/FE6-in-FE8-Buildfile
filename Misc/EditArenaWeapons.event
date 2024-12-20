@@ -1,0 +1,39 @@
+PUSH
+ORG 0xD7F5C //player weapons
+BYTE IronSword
+BYTE IronLance
+BYTE IronAxe
+BYTE IronBow
+BYTE 0x0
+BYTE Fire
+BYTE Lightning
+BYTE Flux
+
+ORG 0xD7F64 //enemy weapons
+BYTE IronSword
+BYTE SteelSword
+BYTE SilverSword
+BYTE 0x0
+BYTE IronLance
+BYTE SteelLance
+BYTE SilverLance
+BYTE 0x0
+BYTE IronAxe
+BYTE SteelAxe
+BYTE SilverAxe
+BYTE 0x0
+BYTE IronBow
+BYTE SteelBow
+BYTE SilverBow
+BYTE 0x0
+BYTE Fire
+BYTE Elfire
+BYTE Fimbulvetr
+BYTE 0x0
+BYTE Lightning
+BYTE Divine
+BYTE 0x0
+BYTE Flux
+BYTE 0x0
+BYTE 0xFF
+POP

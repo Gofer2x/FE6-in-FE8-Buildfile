@@ -66,12 +66,11 @@ Tutorial:
 END_MAIN
 
 TrapData:
-IronBallista(4,2)
+NormalBallista(4,2)
+NormalBallista(13,19)
 IronBallista(23,4)
 IronBallista(29,17)
-NormalBallista(13,19)
-NormalBallista(13,19)
-NormalBallista(22,13)
+IronBallista(22,13)
 ENDTRAP
 
 ALIGN 4

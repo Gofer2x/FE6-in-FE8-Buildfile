@@ -84,7 +84,7 @@ END_MAIN
 TrapData:
 NormalBallista(19,20)
 NormalBallista(20,16)
-NormalBallista(35,4)
+KillerBallista(35,4)
 ENDTRAP
 
 ALIGN 4

@@ -67,8 +67,8 @@ Tutorial:
 END_MAIN
 
 TrapData:
-NormalBallista(7,17)
-NormalBallista(6,19)
+IronBallista(7,17)
+IronBallista(6,19)
 KillerBallista(13,18)
 ENDTRAP
 

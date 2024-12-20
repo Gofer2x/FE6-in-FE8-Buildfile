@@ -1,0 +1,25 @@
+//#include "Extensions/Hack Installation.txt"
+
+PUSH
+ORG $9EE61C  //FE8U
+BYTE 0x40 0x0D 0x00 0x00; POIN MultiDiscoverDesertTreasuresTable_ASMC+1; //ASMC MultiDiscoverDesertTreasuresTable_ASMC+1
+BYTE 0x41 0x0C 0x00 0x00 0x0C 0x00 0x00 0x00 ; //BNE 0,C,0
+BYTE 0x20 0x00 0x00 0x00                     ; //NOP
+BYTE 0x20 0x00 0x00 0x00                     ; //NOP
+BYTE 0x20 0x00 0x00 0x00                     ; //NOP
+BYTE 0x20 0x00 0x00 0x00                     ; //NOP
+BYTE 0x20 0x00 0x00 0x00                     ; //NOP
+POP
+
+
+
+MultiDiscoverDesertTreasuresTable_ASMC:
+#incbin "MultiDiscoverDesertTreasuresTable.dmp"
+POIN MultiDiscoverDesertTreasuresTable
+
+
+MultiDiscoverDesertTreasuresTable:
+BYTE Thief   //Class: Thief
+BYTE ThiefF  //Class: Rogue
+
+BYTE 0x00   //term data

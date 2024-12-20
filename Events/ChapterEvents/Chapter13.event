@@ -65,7 +65,7 @@ Armory(ArmoryList,41,5)
 Vendor(VendorList,43,4)
 Village(0x0,BodyRingVillageVisit,7,6)
 Village(0x0,AlsSwordVillageVisit,38,18)
-House(0x0,ThreeGeneralsHouseVisit,7,6)
+House(0x0,ThreeGeneralsHouseVisit,10,6)
 House(0x0,CeciliaDefeatedHouseVisit,38,6)
 House(0x0,PercevalLoyalHouseVisit,41,19)
 END_MAIN
@@ -248,6 +248,7 @@ EndAttack
 FIG1 Cecilia Zephiel 0x0
 Text(Ch13_CeciliaFunkingDies)
 KILL Cecilia
+DISA Cecilia
 ENUN
 Text(Ch13_CeciliaThrownIntoDungeon)
 MOVE 0x0 Zephiel [43,9]
@@ -322,7 +323,6 @@ Text(BG_Castle1,Ch13_GuinivereTalksToMelady)
 LOAD1 0x1 JustMelady
 ENUN
 CMON
-//TODO this allegedly breaks with cutscene skips, test
 MoveNextTo(0x0,Melady,Roy)
 ENUN
 CMOF
@@ -411,6 +411,7 @@ FlagOFF(Ch13_NarcianLeavesFlag)
 GOTO 9
 
 LABEL 1
+CAM1 Narcian
 SwitchMusic(MUS_Suspicious)
 MOVE 0x0 Flaer [43,10]
 ENUN

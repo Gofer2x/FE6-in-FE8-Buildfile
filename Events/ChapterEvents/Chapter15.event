@@ -11,8 +11,9 @@
 // 0x5
 //RoutFlag 0x6
 #define Ch15_PercevalRecruitmentFlag 0x7
-#define Ch15_RoyPercevalTalkFlag 0x8
-#define Ch15_LilinaGarrettTalkFlag 0x9
+#define Ch15_PercevalRecruitedInCh15Flag 0x8 //to avoid triggering knight crest reward with perceval recruited in ch13
+#define Ch15_RoyPercevalTalkFlag 0x9
+#define Ch15_LilinaGarrettTalkFlag 0xA
 //Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch15,ThisChapter)
@@ -170,8 +171,8 @@ Text(BG_Castle1,Ch15_Start1)
 BranchIfFlagON(1,PercevalRecruitedOrDeadFlag)
 
 LOAD1 0x1 PercevalSquad
-FlagOFF(Ch15_PercevalRecruitmentFlag)
 ENUN
+FlagOFF(Ch15_PercevalRecruitmentFlag)
 CAM1 Perceval
 STAL 16
 MOVE 0x0 Douglas [1,0]
@@ -203,6 +204,7 @@ BecomeAlly(Perceval)
 AllEnemiesToNPC(GenericSoldierPercevalCh13_Ch15,0)
 ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPercevalCh13_Ch15,0)
 FlagON(PercevalRecruitedOrDeadFlag)
+FlagON(Ch15_PercevalRecruitedInCh15Flag)
 RestoreMusic
 FlagOFF(Ch15_RoyPercevalTalkFlag)
 EndEvent
@@ -214,6 +216,7 @@ BecomeAlly(Perceval)
 AllEnemiesToNPC(GenericSoldierPercevalCh13_Ch15,0)
 ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPercevalCh13_Ch15,0)
 FlagON(PercevalRecruitedOrDeadFlag)
+FlagON(Ch15_PercevalRecruitedInCh15Flag)
 RestoreMusic
 FlagOFF(Ch15_RoyPercevalTalkFlag)
 EndEvent
@@ -280,6 +283,7 @@ TEXTCONT
 TEXTEND
 REMA
 
+BranchIfFlagOFF(1,Ch15_PercevalRecruitedInCh15Flag)
 BranchIfFlagOFF(1,Ch15_PercevalRecruitmentFlag)
 BranchIfUnitDead(1,Perceval)
 BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
@@ -290,7 +294,7 @@ GiveItemToCharacter(Perceval,KnightCrest)
 
 LABEL 1
 
-CMOF
+CLEAN
 LOAD1 0x1 JustFae
 ENUN
 STAL 64

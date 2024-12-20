@@ -1,46 +1,49 @@
 //Not sure what the best way to do this is, so let's just be safe.
 
-#define ClarineByte 0x5A8A00
-PUSH
-ORG ClarineByte //overwrite natasha
+LausNoAttackList:
 BYTE Clarine
-POP
+BYTE 0x0
+SHORT 0x0
 
 //Change AI1_7 to not attack Clarine
 PUSH
 ORG 0x5A8A0C
-POIN ClarineByte
+POIN LausNoAttackList
 ORG 0xEFB2E0
 POP
 
 //Ditto with AI2_1
 PUSH
 ORG 0x5A84B8
-POIN ClarineByte
+POIN LausNoAttackList
 POP
 
 //Ditto with AI2_7
 PUSH
 ORG 0x5A869C
-POIN ClarineByte
+POIN LausNoAttackList
 POP
 
 //Change AI1_8 to not attack Citizens in Chapter 11B
-#define Citizen11BByte 0x5A8B3C
+Ballista11BNoAttackList:
+	BYTE GenericCitizenEidyna1Ch11B
+	BYTE 0x0
+	BYTE GenericCitizenEidyna2Ch11B
+	BYTE 0x0
+	SHORT 0x0
+
 PUSH
-ORG Citizen11BByte
-BYTE GenericCitizenEidynaCh11B
+ORG 0x5A8B48
+POIN Ballista11BNoAttackList
 POP
 
 //Change AI1_9 to not attack Larum and Elffin (Douglas)
-//In freespace
-ALIGN 4
 DouglasNoAttackList:
 	BYTE Larum
 	BYTE 0x0
 	BYTE Elffin
 	BYTE 0x0
-	WORD 0x0
+	SHORT 0x0
 PUSH
 ORG 0x5A8B88
 POIN DouglasNoAttackList

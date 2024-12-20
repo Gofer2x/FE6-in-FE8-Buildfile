@@ -208,7 +208,8 @@ GenericManaketeCh24
 GenericManaketeFinal
 BlankCharacter6
 GenericResistanceCh11B
-GenericCitizenEidynaCh11B
+GenericCitizenEidyna1Ch11B
+GenericCitizenEidyna2Ch11B
 GenericArcherKleinCh11A_Ch10B
 GenericPegKnightTheaCh11A_Ch10B
 GenericSoldierPercevalCh13_Ch15
@@ -249,7 +250,6 @@ BlankCharacter39
 BlankCharacter40
 BlankCharacter41
 BlankCharacter42
-BlankCharacter43
 EnemyArena
 CharWall
 CharSnag

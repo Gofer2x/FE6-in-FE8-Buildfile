@@ -50,7 +50,7 @@ I leave them to you.[AN][ClearFace][X]
 If we defeat the Lycian Army here,[N]
 the Isles shall be ours...[AN][X]
 
-## Ch12_Start3BartreRoute
+## Ch12_Start3EchidnaRoute
 [OpenMidRight][LoadRoy][ToggleSmile]This is the capital...[AN]
 Once we take it,[N]
 we can finally go home.[AN]
@@ -67,7 +67,7 @@ Who turns into a dragon?[AN]
 [OpenMidLeft]I can say nothing more at this point,[N]
 but we must proceed with caution.[AN][X]
 
-## Ch12_Start3EchidnaRoute
+## Ch12_Start3BartreRoute
 [OpenRight][LoadRoy][ToggleSmile]This is the capital...[AN]
 [ToggleSmile]Once we take it,[N]
 we can finally go home.[AN]

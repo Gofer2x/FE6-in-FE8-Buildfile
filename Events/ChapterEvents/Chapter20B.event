@@ -171,7 +171,7 @@ PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
 FadeFromBlack
-BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch20B_RoyCathTalkFlag)
 LABEL 1
 FlagON(Ch20B_SueDayanExtraTalkFlag)

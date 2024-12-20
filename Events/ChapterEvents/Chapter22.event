@@ -217,7 +217,7 @@ LOAD1 0x1 HardExtraEnemies
 LABEL 1
 FadeFromBlack
 
-BranchIfFlagON(2,CathRecruitedOrDeadFlag)
+BranchIfFlagOFF(2,CathRecruitedOrDeadFlag)
 FlagON(Ch22_RoyCathTalkFlag)
 LABEL 2
 

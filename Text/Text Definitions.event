@@ -1164,8 +1164,8 @@
 #define Ch11B_EndEnergyRing 0x11d1
 #define Ch12_Start1 0x11d2
 #define Ch12_Start2 0x11d3
-#define Ch12_Start3BartreRoute 0x11d4
-#define Ch12_Start3EchidnaRoute 0x11d5
+#define Ch12_Start3EchidnaRoute 0x11d4
+#define Ch12_Start3BartreRoute 0x11d5
 #define Ch12_EinAppears 0x11d6
 #define Ch12_RaighDragon 0x11d7
 #define Ch12_CathAppears 0x11d8

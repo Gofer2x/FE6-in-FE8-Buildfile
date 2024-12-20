@@ -190,7 +190,7 @@ PlayMusic(MUS_Suspicious)
 LOAD1 0x1 Enemies
 ENUN
 FadeFromBlack
-BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch16_RoyCathTalkFlag)
 LABEL 1
 FlashCursor(Narcian,60)

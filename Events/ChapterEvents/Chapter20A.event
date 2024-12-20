@@ -191,7 +191,7 @@ FlagON(Ch20A_ShannaJunoExtraTalkFlag)
 FlagON(Ch20A_TheaJunoExtraTalkFlag)
 FlagON(Ch20A_ZelotJunoExtraTalkFlag)
 
-BranchIfFlagON(1,CathRecruitedOrDeadFlag)
+BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch12_RoyCathTalkFlag)
 LABEL 1
 FlashCursor(Roartz,60)

@@ -88,7 +88,7 @@
   #include "NomadTrooperF\Unarmed Installer.event"
   }
   {
-  #include "Bard\Refresh Installer.event"
+  #include "Bard\Refresh (FE7-8) Installer.event"
   }
   {
   #include "Dancer\Refresh Installer.event"

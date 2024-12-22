@@ -4,7 +4,7 @@
 #define MUS_DistantLands MUS_Assault //enemy phase 3
 #define MUS_TheKingdomOfBern MUS_FromTheDarkness //enemy phase 4
 #define MUS_DragonSanctuary MUS_TwistedShadowsA //enemy phase 5
-#define MUS_LegendaryInheritance MUS_ShadowOfTheEnemy //enemy phase gaiden
+#define MUS_LegendaryInheritance MUS_TwistedShadowsB //enemy phase gaiden
 #define MUS_DisquietingSteps MUS_ShadowOfTheEnemy //enemy phase trial
 #define MUS_MessengerFromTheDarkness MUS_EnvoyFromTheDark //enemy phase fow
 #define MUS_BeyondDistantSkies MUS_DistantRoads //player phase 1

@@ -1,56 +1,19 @@
 EVENT_IlliaSacaeRouteDetermination:
 
-BranchIfUnitDead(1,Shanna)
-CheckTotalGainedExp(Shanna,1,s3)
-LABEL 1
+//TODO this shit doesn't work
 
-BranchIfUnitDead(2,Thea)
-CheckTotalGainedExp(Thea,8,s4)
-LABEL 2
+GetUnitEXPGain(Shanna)
+SADD s1 sC s0 //s1 is now Shanna Exp
+GetUnitEXPGain(Thea)
+SADD s1 s1 sC //s1 is now Shanna+Thea Exp
 
-SADD s7 s3 s4
-//s7 is now Shanna+Thea Exp
+GetUnitEXPGain(Sue)
+SADD s2 sC s0 //s2 is now Sue Exp
+GetUnitEXPGain(Sin)
+SADD s2 s2 sC //s2 is now Sin Exp
 
-BranchIfUnitDead(3,Sue)
-CheckTotalGainedExp(Sue,1,s3)
-LABEL 3
-
-BranchIfUnitDead(4,Sin)
-CheckTotalGainedExp(Sin,5,s4)
-LABEL 4
-
-SADD s8 s3 s4
-//s8 is Sue+Sin Exp
-
-//if s7 is equal to or larger than s8, branch to 7. else, turn on sacae flag
-BGE 7 s7 s8
+//if s7 is equal to or larger than s8, branch. else, turn on sacae flag
+BGE 1 s1 s2
 FlagON(SacaeRouteFlag)
-LABEL 7
-
+LABEL 1
 EndEvent
-
-
-
-
-
-////CheckUnitParam(Shanna,param_Level)
-//SVAL s9 1 //shanna starts at lv 1
-//// s9 = 1     sC = Level
-//
-//SSUB sC sC s9 // so sC = sC - s9
-//// s9 = 1     sC = Level-1
-//
-//SVAL s9 100 //for exp
-//// s9 = 100     sC = Level-1
-//
-//SMUL sC sC s9 //multiply level-1 by 100 for exp
-//// s9 = 100     sC = (Level-1)*100
-//
-//SADD s1 sC s0 //copy sC to s1
-//// s1 = (Level-1)*100     s9 = 100     sC = (Level-1)*100
-//
-//CheckUnitParam(Shanna,param_Exp)
-//// s1 = (Level-1)*100     s9 = 100     sC = CurrentExp
-//
-//SADD s1 s1 sC //add current exp to level exp
-//// s1 = TotalExp     s9 = 100     sC = CurrentExp

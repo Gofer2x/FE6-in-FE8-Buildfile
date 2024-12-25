@@ -415,7 +415,7 @@ try:
         mugsOutput.append("\n")
         print("Successfully processed mug "+name+".")
 
-    with open("GeneratedMugInstaller.event", "w") as w:
+    with open("GeneratedMugsInstaller.event", "w") as w:
         w.writelines(mugsOutput)
     print("Finished processing mugs.")
 
@@ -431,7 +431,7 @@ try:
         i += 1
         
 
-    with open("GeneratedCardInstaller.event", "w") as writeCardInstaller:
+    with open("GeneratedCardsInstaller.event", "w") as writeCardInstaller:
         writeCardInstaller.writelines(cardsOutput)
     print("Finished processing class cards.")
     input("Press enter to end program.")

@@ -28,5 +28,6 @@
 #include "multi_discover_desert_treasures/Installer.event"
 #include "AI_TalkAI/TalkAI.event"
 #include "InlineFix_GenerateBestMovementScript.event"
+#include "AAA_GetUnitExpGain/Installer.event"
 
 #include "NarrowFont/Narrowfont installer.event"

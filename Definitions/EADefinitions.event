@@ -45,8 +45,6 @@
 
 #define BranchIfGoldAtLeast(label,amount) "SVAL s1 amount ; CHECK_MONEY ; BGE label sC s1"
 
-#define CheckTotalGainedExp(unit,initiallevel,targetslot) "CheckUnitParam(unit,param_Level) ; SVAL s9 initiallevel ; SSUB sC sC s9 ; SVAL s9 100 ; SMUL sC sC s9 ; SADD targetslot sC s0 ; CheckUnitParam(unit,param_Exp) ; SADD targetslot targetslot sC"
-
 #define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
 
 //yep, this is how these work in fe6 apparently. hard mode exclusive = don't appear if boss dead

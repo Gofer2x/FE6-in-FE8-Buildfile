@@ -424,11 +424,11 @@ try:
     print("Processing class cards.")
     cardsOutput = []
     for name in classCards:
+        i += 1
         cardsOutput.append("#define "+name+"ClassCard"+" "+intToHex(i)+"\n")
         cardsOutput.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPalette)\n")
         cardsOutput.append("\n")
         print("Successfully processed class card "+name+".")
-        i += 1
         
 
     with open("GeneratedCardsInstaller.event", "w") as writeCardInstaller:

@@ -15,8 +15,8 @@
 #define Ch20A_ShannaJunoExtraTalkFlag 0x9
 #define Ch20A_TheaJunoExtraTalkFlag 0xA
 #define Ch20A_ZelotJunoExtraTalkFlag 0xB
-#define Ch20A_InsideAggroFlag 0xB
-#define Ch20A_GaidenGoneFlag 0xC
+#define Ch20A_InsideAggroFlag 0xC
+#define Ch20A_GaidenGoneFlag 0xD
 
 //Ch20A_RoartzVsDouglasFlag 0x1F
 //Ch20A_GenericCitizenIlliaDeath 0x20

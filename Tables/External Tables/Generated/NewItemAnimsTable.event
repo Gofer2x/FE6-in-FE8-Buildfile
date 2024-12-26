@@ -1,0 +1,106 @@
+#define ItemAnimsTableEntryLength 16
+
+ALIGN 4
+NewItemAnimsTable:
+FILL 0xCE * ItemAnimsTableEntryLength
+
+PUSH
+ORG 0x58014
+POIN NewItemAnimsTable
+POP
+
+#define FullItemEffect(EntryID, ItemID, MapOrBattleMapAnim, BattleAnim, MapAnimEffect, ShowHP, MapSpriteDir, Color) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapOrBattleMapAnim ; BYTE 0x0 ; SHORT BattleAnim ; SHORT 0x0 ; POIN MapAnimEffect ; BYTE ShowHP ; BYTE MapSpriteDir ; BYTE Color ; POP"
+
+#define NormalWeapon(EntryID, ItemID) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapAndBattle ; BYTE 0x0 ; SHORT MBA_None ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+#define HandAxeWeapon(EntryID, ItemID) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapAndBattle ; BYTE 0x0 ; SHORT MBA_HandAxe ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+#define JavelinWeapon(EntryID, ItemID) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapAndBattle ; BYTE 0x0 ; SHORT MBA_Javelin ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+#define BowWeapon(EntryID, ItemID) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapAndBattle ; BYTE 0x0 ; SHORT MBA_Arrow ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+#define BallistaWeapon(EntryID, ItemID) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE MapAndBattle ; BYTE 0x0 ; SHORT 0x10 ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE 0x0 ; POP"
+
+#define MagicWeapon(EntryID, ItemID, BattleAnim, Color) "PUSH ; ORG NewItemAnimsTable+EntryID*16 ; BYTE ItemID ; BYTE 0x0 ; BYTE 0x2 ; BYTE 0x0 ; SHORT BattleAnim ; SHORT 0x0 ; POIN 0x0 ; BYTE 0x1 ; BYTE 0x0 ; BYTE Color ; POP"
+
+//MagicBattleAnim
+#define MBA_HandAxe 0x1
+#define MBA_Arrow 0x2
+#define MBA_Javelin 0x3
+#define MBA_DancePlay1 0xE
+#define MBA_DancePlay2 0xF
+#define MBA_Ballista 0x10 //Glitchy Arrow
+#define MBA_Nothing 0x11 //Glitched Eckesachs
+#define MBA_BindingBladeFire 0x12 //Glitched?
+#define MBA_Flametongue 0x13
+#define MBA_FaeDivinestone 0x14 //BGM-SFX Kill
+#define MBA_IdunnDarkStone 0x15
+#define MBA_Fire 0x16
+#define MBA_Elfire 0x17
+#define MBA_Thunder 0x19
+#define MBA_Bolting 0x1A
+#define MBA_Fimbulvetr 0x1B
+#define MBA_Aircalibur 0x1C //BGM Kill
+#define MBA_Flux 0x1D
+#define MBA_Nosferatu 0x1E
+#define MBA_Lightning 0x1F
+#define MBA_Purge 0x20
+#define MBA_Divine 0x22
+#define MBA_Eclipse 0x24
+#define MBA_Fenrir 0x25
+#define MBA_Heal 0x26
+#define MBA_Mend 0x27
+#define MBA_Recover 0x28
+#define MBA_Physic 0x29
+#define MBA_Fortify 0x2A //Stalls
+#define MBA_Latona 0x2B //Stalls
+#define MBA_Restore 0x2C
+#define MBA_Silence 0x2D
+#define MBA_Sleep 0x2E
+#define MBA_Hammerne 0x2F //Unused
+#define MBA_Berserk 0x30
+#define MBA_Barrier 0x31
+#define MBA_Shine 0x33
+#define MBA_Luna 0x34
+#define MBA_Excalibur 0x35
+#define MBA_Aura 0x37
+#define MBA_FilasMight 0x3A
+#define MBA_ThorsIre 0x3B
+#define MBA_NinisGrace 0x3C
+#define MBA_SetsLitany 0x3D
+#define MBA_Stone 0x3E
+#define MBA_Ivaldi 0x3F
+#define MBA_DemonLight 0x40
+#define MBA_Gleipnir 0x41
+#define MBA_CrimsonEye 0x42
+#define MBA_EvilEye 0x43
+#define MBA_Shadowshot 0x44
+#define MBA_DemonSurge 0x45
+#define MBA_Naglfar 0x46
+#define MBA_WretchedBreath 0x47
+#define MBA_MapAnimOnly 0xFFFE
+#define MBA_None 0xFFFF
+
+//MapOrBattleMapAnim
+#define MapOnly 0x1
+#define MapAndBattle 0x2
+
+//ShowHP
+#define DontShowHP 0x0
+#define DoShowHP 0x1
+
+//MapSpriteDir
+#define DontTurn 0x0
+#define TurnDown 0x1
+#define TurnLeft 0x2
+
+//Color
+#define White 0x0
+#define Black 0x1
+#define Red 0x2
+#define Green 0x3
+#define Blue 0x4
+#define Yellow 0x5
+#define Black2 0x6
+
+#include "GeneratedItemAnimsTable.event"

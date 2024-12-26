@@ -1,17 +1,14 @@
-def crash(i):
-    print(i)
-
 # [char1,char2,initial,growth]
-pairs = [["Roy","Marcus",30,2],
-["Roy","Alen",20,2],
-["Roy","Lance",20,2],
-["Roy","Wolt",30,2],
-["Roy","Shanna",1,1],
-#["Roy","Sue",1,1],
-["Roy","Lilina",56,4], #LILINA
-#["Roy","Larum",1,1],
-["Roy","Cecilia",20,2],
-#["Roy","Sophia",1,1],
+pairs = [["Roy","Marcus",30,2], #ROY
+["Roy","Alen",20,2], #ROY
+["Roy","Lance",20,2], #ROY
+["Roy","Wolt",30,2], #ROY
+["Roy","Shanna",1,1], #ROY
+#["Roy","Sue",1,1], #ROY
+["Roy","Lilina",56,4], #ROY, LILINA
+#["Roy","Larum",1,1], #ROY
+["Roy","Cecilia",20,2], #ROY
+#["Roy","Sophia",1,1], #ROY
 ["Marcus","Alen",20,2],
 ["Marcus","Lance",20,2],
 ["Marcus","Wolt",20,2],
@@ -229,6 +226,7 @@ template = {
 }
 
 output = []
+aror = False
 
 for char in charsInOrder:
     output.append("//"+char+"\n")
@@ -241,9 +239,7 @@ for char in charsInOrder:
     for i in range(len(pairsCurrent)):
         pairsCurrent[i].remove(char)
     if len(pairsCurrent) > 7:
-        print(char+" has too many supports. Aborting.")
-        input()
-        crash()
+        input(char+" has too many supports. Skipping. This will break things.")
     else:
         templateCurrent["Amount"] = ("BYTE "+ str(len(pairsCurrent))+" //Amount\n")
         for i in range(len(pairsCurrent)):

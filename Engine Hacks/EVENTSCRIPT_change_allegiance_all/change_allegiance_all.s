@@ -58,7 +58,7 @@ Each:
 CheckClass:
 	ldr  r0,[r5,#0x4]         @get rom class pointer
 	cmp  r0,#0x00
-	beq  Next
+	beq  NextLoop
 
 	ldrb r2, [r4, #0x3]       @ˆø”2 40 0D 00 [ˆø”2] [ƒvƒƒOƒ‰ƒ€êŠ XX XX XX 08]
 	cmp  r2,#0x00

@@ -1,0 +1,43 @@
+Transformation_Table:
+//TODO Set this when importing drake animations
+//Fire
+BYTE FireManakete //Class ID
+BYTE Firestone //Item ID
+SHORT 0x0 //Base Animation
+SHORT 0x0 //Transformed Animation
+SHORT 0x0 //Transform Back Animation
+SHORT 0x0 //Transform FInished Animation
+SHORT SND_ManaketeTransform //Transform Start Sound
+SHORT SND_ManaketeYowl //Transform Finish Sound
+SHORT SND_ManaketeUntransform //Untransform Sound
+//Fae
+BYTE FaeManakete //Class ID
+BYTE Divinestone //Item ID
+SHORT 0x0 //Base Animation
+SHORT 0x0 //Transformed Animation
+SHORT 0x0 //Transform Back Animation
+SHORT 0x0 //Transform FInished Animation
+SHORT SND_ManaketeTransform //Transform Start Sound
+SHORT SND_ManaketeYowl //Transform Finish Sound
+SHORT SND_ManaketeUntransform //Untransform Sound
+//
+//Idunn
+BYTE DemonDragon //Class ID
+BYTE DarkBreath //Item ID
+SHORT 0x0 //Base Animation
+SHORT 0x0 //Transformed Animation
+SHORT 0x0 //Transform Back Animation
+SHORT 0x0 //Transform FInished Animation
+SHORT 0x0 //Transform Start Sound
+SHORT 0x0 //Transform Finish Sound
+SHORT 0x0 //Untransform Sound
+//End
+BYTE 0x0
+BYTE 0x0
+SHORT 0x0
+SHORT 0x0
+SHORT 0x0
+SHORT 0x0
+SHORT 0x0
+SHORT 0x0
+SHORT 0x0

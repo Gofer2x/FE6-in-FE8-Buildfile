@@ -74,6 +74,10 @@
 #define SND_WaterTileGoingDown 0xBD
 #define SND_WaterTileGoingUp 0xBE
 
+#define SND_ManaketeTransform 0xDC
+#define SND_ManaketeYowl 0xDE
+#define SND_ManaketeUntransform  0xDD
+
 //TODO when doing audio, don't forget to replace these too (maybe)
 #define MUS_Envsound_Windgusts 0x4E
 

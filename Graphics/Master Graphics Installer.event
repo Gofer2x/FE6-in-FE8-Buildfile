@@ -16,3 +16,5 @@
 #include "Palettes/Palette Setup.event"
 
 #include "Animation/Installer.event"
+
+#include "SpellAnimations/SpellAnimsInstaller.event"

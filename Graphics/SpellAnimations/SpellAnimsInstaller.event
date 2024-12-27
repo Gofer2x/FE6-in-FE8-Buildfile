@@ -1,0 +1,10 @@
+#include "CSA System FE8/Master Spell Animation Installer.event"
+
+#define SpellAnim_BindingBlade 0x49
+#define SpellAnim_Eckesachs 0x4A
+#define SpellAnim_Forblaze 0x4B
+#define SpellAnim_Aureola 0x4C
+#define SpellAnim_Apocalypse 0x4D
+
+//[Fire] Forblaze - FE8  FE7 Version {SHYUTERz}
+#include "[Fire] Forblaze - FE8  FE6 Version {SHYUTERz}/Spell.event"

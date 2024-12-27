@@ -6,5 +6,14 @@
 #define SpellAnim_Aureola 0x4C
 #define SpellAnim_Apocalypse 0x4D
 
-//[Fire] Forblaze - FE8  FE7 Version {SHYUTERz}
+//[Fire] Forblaze - FE8  FE6 Version {SHYUTERz}
+//NOTE: SE had their indexes increased by 3 (so $12A -> $12D, $12B -> $12E, $12C -> $12F)
+{
 #include "[Fire] Forblaze - FE8  FE6 Version {SHYUTERz}/Spell.event"
+}
+
+//[Light] Aureola {SHYUTERz}
+//NOTE: SE had their indexes decreased by 3 (so $12D -> $12A, $12E -> $12B, $12F -> $12C)
+{
+#include "[Light] Aureola {SHYUTERz}/Spell.event"
+}

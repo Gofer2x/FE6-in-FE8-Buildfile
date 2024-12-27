@@ -12,7 +12,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 7
 
-C012A48
+C012D48
 O Spell_o_000.png
 B Spell_b_002.png
 1
@@ -217,7 +217,7 @@ O Spell_o_000.png
 B Spell_b_016.png
 1
 
-C012B48
+C012E48
 O Spell_o_000.png
 B Spell_b_017.png
 1
@@ -360,7 +360,7 @@ B Spell_b_034.png
 
 C00001A
 C00001F
-C012C48
+C012F48
 C000014
 O Spell_o_000.png
 B Spell_b_001.png

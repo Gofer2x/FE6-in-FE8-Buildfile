@@ -71,12 +71,12 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(15,8)
-Chest(1,8,Sleep)
-Chest(1,10,WhiteGem)
-Chest(1,12,Nosferatu)
-Chest(29,8,Wyrmslayer)
-Chest(29,11,Dragonshield)
-Chest(29,14,Swordreaver)
+Chest(Sleep,1,8)
+Chest(WhiteGem,1,10)
+Chest(Nosferatu,1,12)
+Chest(Wyrmslayer,29,8)
+Chest(Dragonshield,29,11)
+Chest(Swordreaver,29,14)
 END_MAIN
 
 MiscBasedEvents:

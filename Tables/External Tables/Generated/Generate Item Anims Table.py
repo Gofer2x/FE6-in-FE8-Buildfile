@@ -16,3 +16,5 @@ for line in data:
 
 with open("GeneratedItemAnimsTable.event","w") as w:
     w.writelines(output)
+
+input("Done. Enter to exit.")

@@ -275,3 +275,5 @@ output.append("SHORT 0xFFFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 //Terminator\n")
 
 with open("GeneratedSupportConvosTable.event","w") as w:
     w.writelines(output)
+
+input("Done. Enter to exit.")

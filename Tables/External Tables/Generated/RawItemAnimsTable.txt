@@ -11,16 +11,11 @@ NormalWeapon(XYZ, BraveSword)
 NormalWeapon(XYZ, Lancereaver)
 MagicWeapon(XYZ, LightBrand, MBA_Lightning, Yellow)
 MagicWeapon(XYZ, Runesword, MBA_Nosferatu, White)
-MagicWeapon(XYZ, WindSword, MBA_Aircalibur, Blue)
 NormalWeapon(XYZ, Armorslayer)
-NormalWeapon(XYZ, Zanbato)
 NormalWeapon(XYZ, Wyrmslayer)
 NormalWeapon(XYZ, Rapier)
 NormalWeapon(XYZ, WoDao)
-NormalWeapon(XYZ, AlsSword)
-MagicWeapon(XYZ, BindingBlade, MBA_Fire, Red) //TODO Binding blade anim
-MagicWeapon(XYZ, Eckesachs, MBA_Fire, Red) //TODO Eckesachs anim
-NormalWeapon(XYZ, Durandal)
+
 NormalWeapon(XYZ, IronLance)
 NormalWeapon(XYZ, SlimLance)
 NormalWeapon(XYZ, SteelLance)
@@ -30,13 +25,10 @@ NormalWeapon(XYZ, KillerLance)
 NormalWeapon(XYZ, BraveLance)
 NormalWeapon(XYZ, Axereaver)
 JavelinWeapon(XYZ, Javelin)
-JavelinWeapon(XYZ, ShortSpear)
 JavelinWeapon(XYZ, Spear)
-NormalWeapon(XYZ, HeavySpear)
 NormalWeapon(XYZ, Horseslayer)
-NormalWeapon(XYZ, Dragonspear)
-NormalWeapon(XYZ, GantsLance)
-NormalWeapon(XYZ, Maltet)
+
+
 NormalWeapon(XYZ, IronAxe)
 NormalWeapon(XYZ, SteelAxe)
 NormalWeapon(XYZ, SilverAxe)
@@ -44,16 +36,13 @@ NormalWeapon(XYZ, PoisonAxe)
 NormalWeapon(XYZ, KillerAxe)
 NormalWeapon(XYZ, BraveAxe)
 NormalWeapon(XYZ, Swordreaver)
-HandAxeWeapon(XYZ, Hatchet)
+
 HandAxeWeapon(XYZ, HandAxe)
 HandAxeWeapon(XYZ, Tomahawk)
 NormalWeapon(XYZ, Hammer)
 NormalWeapon(XYZ, Halberd)
-NormalWeapon(XYZ, DragonAxe)
 NormalWeapon(XYZ, DevilAxe)
-NormalWeapon(XYZ, Swordslayer)
-NormalWeapon(XYZ, BattleAxe)
-NormalWeapon(XYZ, Armads)
+
 BowWeapon(XYZ, IronBow)
 BowWeapon(XYZ, SteelBow)
 BowWeapon(XYZ, SilverBow)
@@ -62,29 +51,27 @@ BowWeapon(XYZ, KillerBow)
 BowWeapon(XYZ, BraveBow)
 BowWeapon(XYZ, ShortBow)
 BowWeapon(XYZ, Longbow)
-BowWeapon(XYZ, Mulagir)
+
 BallistaWeapon(XYZ, Ballista)
 BallistaWeapon(XYZ, IronBallista)
 BallistaWeapon(XYZ, KillerBallista)
+
 MagicWeapon(XYZ, Fire, MBA_Fire, Red)
 MagicWeapon(XYZ, Thunder, MBA_Thunder, Yellow)
 MagicWeapon(XYZ, Elfire, MBA_Elfire, Red)
 MagicWeapon(XYZ, Aircalibur, MBA_Aircalibur, Blue) //BGM Kill, TODO Does this work?
 MagicWeapon(XYZ, Fimbulvetr, MBA_Fimbulvetr, Blue)
 MagicWeapon(XYZ, Bolting, MBA_Bolting, White)
-MagicWeapon(XYZ, Forblaze, MBA_Fire, Red) //TODO Forblaze anim
+
 MagicWeapon(XYZ, Lightning, MBA_Lightning, Yellow)
-MagicWeapon(XYZ, Shine, MBA_Shine, Yellow)
 MagicWeapon(XYZ, Divine, MBA_Divine, Yellow)
-MagicWeapon(XYZ, Aura, MBA_Aura, Yellow)
 MagicWeapon(XYZ, Purge, MBA_Purge, Yellow)
-MagicWeapon(XYZ, Aureola, MBA_Ivaldi, Yellow) //TODO Aureola anim
 MagicWeapon(XYZ, Flux, MBA_Flux, Black)
-MagicWeapon(XYZ, Luna, MBA_Luna, Black)
+
 MagicWeapon(XYZ, Nosferatu, MBA_Nosferatu, Black)
 MagicWeapon(XYZ, Fenrir, MBA_Fenrir, Black)
 MagicWeapon(XYZ, Eclipse, MBA_Eclipse, Black)
-MagicWeapon(XYZ, Apocalypse, MBA_Gleipnir, Black) //TODO Apocalypse anim
+
 FullItemEffect(XYZ, Heal, MapAndBattle, MBA_Heal, 0x9A4A54, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, Mend, MapAndBattle, MBA_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, Recover, MapAndBattle, MBA_Recover, 0x9A4B24, DoShowHP, DontTurn, White)
@@ -100,18 +87,52 @@ FullItemEffect(XYZ, TorchStaff, MapOnly, MBA_MapAnimOnly, 0x9A4BF4, DontShowHP, 
 FullItemEffect(XYZ, Hammerne, MapAndBattle, MBA_Hammerne, 0x9A4FCC, DontShowHP, DontTurn, White)
 FullItemEffect(XYZ, Unlock, MapOnly, MBA_MapAnimOnly, 0x9A4C3C, DontShowHP, TurnLeft, White)
 FullItemEffect(XYZ, Barrier, MapAndBattle, MBA_Barrier, 0x9A518C, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, TinasStaff, MapAndBattle, MBA_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
-FullItemEffect(XYZ, SaintsStaff, MapOnly, MBA_Latona, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
-FullItemEffect(XYZ, Vulnerary, MapOnly, MBA_MapAnimOnly, 0x9A49FC, DoShowHP, TurnDown, White)
-FullItemEffect(XYZ, Elixir, MapOnly, MBA_MapAnimOnly, 0x9A49A4, DoShowHP, TurnDown, White)
-FullItemEffect(XYZ, PureWater, MapOnly, MBA_MapAnimOnly, 0x9A495C, DontShowHP, TurnDown, White)
-FullItemEffect(XYZ, Antitoxin, MapOnly, MBA_MapAnimOnly, 0x9A4914, DontShowHP, TurnDown, White)
-FullItemEffect(XYZ, Torch, MapOnly, MBA_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
+
 FullItemEffect(XYZ, HeroCrest, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, KnightCrest, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, OrionsBolt, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, ElysianWhip, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, GuidingRing, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
+
+FullItemEffect(XYZ, Vulnerary, MapOnly, MBA_MapAnimOnly, 0x9A49FC, DoShowHP, TurnDown, White)
+FullItemEffect(XYZ, Elixir, MapOnly, MBA_MapAnimOnly, 0x9A49A4, DoShowHP, TurnDown, White)
+FullItemEffect(XYZ, PureWater, MapOnly, MBA_MapAnimOnly, 0x9A495C, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Antitoxin, MapOnly, MBA_MapAnimOnly, 0x9A4914, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Torch, MapOnly, MBA_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
+
+MagicWeapon(XYZ, BindingBlade, MBA_Fire, Red) //TODO Binding blade anim
+MagicWeapon(XYZ, Eckesachs, MBA_Fire, Red) //TODO Eckesachs anim
+NormalWeapon(XYZ, Durandal)
+NormalWeapon(XYZ, Maltet)
+NormalWeapon(XYZ, Armads)
+BowWeapon(XYZ, Mulagir)
+MagicWeapon(XYZ, Forblaze, MBA_Fire, Red) //TODO Forblaze anim
+MagicWeapon(XYZ, Aureola, MBA_Ivaldi, Yellow) //TODO Aureola anim
+MagicWeapon(XYZ, Apocalypse, MBA_Gleipnir, Black) //TODO Apocalypse anim
+FullItemEffect(XYZ, SaintsStaff, MapOnly, MBA_Latona, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
+
+NormalWeapon(XYZ, AlsSword)
+NormalWeapon(XYZ, GantsLance)
+FullItemEffect(XYZ, TinasStaff, MapAndBattle, MBA_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
+
 MagicWeapon(XYZ, Firestone, MBA_Flametongue, White)
 MagicWeapon(XYZ, Divinestone, MBA_FaeDivinestone, White) //TODO BGM SFX Kill?
 MagicWeapon(XYZ, DarkBreath, MBA_IdunnDarkStone, White)
+
+//Unused in FE6
+
+NormalWeapon(XYZ, Zanbato)
+MagicWeapon(XYZ, WindSword, MBA_Aircalibur, Blue)
+
+JavelinWeapon(XYZ, ShortSpear)
+NormalWeapon(XYZ, HeavySpear)
+NormalWeapon(XYZ, Dragonspear)
+
+NormalWeapon(XYZ, BattleAxe)
+HandAxeWeapon(XYZ, Hatchet)
+NormalWeapon(XYZ, Swordslayer)
+NormalWeapon(XYZ, DragonAxe)
+
+MagicWeapon(XYZ, Shine, MBA_Shine, Yellow)
+MagicWeapon(XYZ, Aura, MBA_Aura, Yellow)
+MagicWeapon(XYZ, Luna, MBA_Luna, Black)

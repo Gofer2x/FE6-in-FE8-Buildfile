@@ -1,34 +1,58 @@
 #include "_FE8EssentialFixes.event"
-#include "FillAIDangerMap.event"
-#include "ClassHardcoding.event"
-#include "CharacterHardcoding.event"
-#include "WeaponRanks.event"
-#include "WeaponTriangle.event"
-#include "FixSomeBattleSounds.event"
-#include "PortraitHeightFix.event"
-#include "AIChanges.event"
-#include "FE6Eclipse.event"
-#include "SupplyPortrait.event"
 
 
-#include "AlwaysTwoRangedFixes.event"
-#include "FE8WalkingSoundsFix/FE8-Walking Sounds EA.event"
-#include "WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"
-#include "MultiDancer/Installer.event"
-#include "Chapternamesastext2.1/fe8_chnames.event"
-#include "Allow254genericminimugs/Allow 254 generic minimugs.event"
-#include "EVENTSCRIPT_AutoLevelUnits/Installer.event" //to simulate bugged hm bonuses
-#include "EVENTSCRIPT_change_allegiance_all/change_allegiance_all.event"
-#include "EVENTSCRIPT_change_ai_all/change_ai_all.event"
-#include "EVENTSCRIPT_COND_GetStatus/Installer.event"
-#include "EVENTSCRIPT_IsTileChangeTriggered/IsTileChangeTriggered.event"
-#include "EVENTSCRIPT_COND_COUNT_RANGE_20220305/CountRangeState.event"
-#include "EVENTSCRIPT_COND_ITEM/Installer.event"
-#include "multi_discover_desert_treasures/Installer.event"
-#include "AI_TalkAI/TalkAI.event"
-#include "InlineFix_GenerateBestMovementScript.event"
-#include "AAA_GetUnitExpGain/Installer.event"
-#include "MultiTransformManims/MultiTransformManims.event"
-#include "BattleTransforming/FE8-Battle Transform EA.txt"
 
-#include "NarrowFont/Narrowfont installer.event"
+#include "EnginePatches/FillAIDangerMap/FillAIDangerMap.event"
+#include "EnginePatches/MultiDancer/Installer.event"
+#include "EnginePatches/Chapternamesastext2.1/fe8_chnames.event"
+#include "EnginePatches/Allow254genericminimugs/Allow 254 generic minimugs.event"
+#include "EnginePatches/multi_discover_desert_treasures/Installer.event"
+
+#include "EnginePatches/InlineFix_GenerateBestMovementScript.event"
+
+
+
+#include "HardcodingPatches/ClassHardcoding.event"
+#include "HardcodingPatches/CharacterHardcoding.event"
+#include "HardcodingPatches/SupplyPortrait.event"
+#include "HardcodingPatches/PortraitHeightFix.event"
+
+
+
+#include "WeaponPatches/FE6Eclipse.event"
+#include "WeaponPatches/WeaponRanks.event"
+#include "WeaponPatches/WeaponTriangle.event"
+#include "WeaponPatches/AlwaysTwoRangedFixes.event"
+
+#include "WeaponPatches/WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"
+#include "WeaponPatches/SacredWeapons2/weapon_battle_flash.event"
+#include "WeaponPatches/Magic Sword Rework/MagicSwordRework.event"
+
+
+
+#include "AIPatches/AI_TalkAI/TalkAI.event"
+#include "AIPatches/AIChanges.event"
+
+
+
+#include "EventPatches/EVENTSCRIPT_AutoLevelUnits/Installer.event" //to simulate bugged hm bonuses
+#include "EventPatches/EVENTSCRIPT_change_allegiance_all/change_allegiance_all.event"
+#include "EventPatches/EVENTSCRIPT_change_ai_all/change_ai_all.event"
+#include "EventPatches/EVENTSCRIPT_COND_GetStatus/Installer.event"
+#include "EventPatches/EVENTSCRIPT_IsTileChangeTriggered/IsTileChangeTriggered.event"
+#include "EventPatches/EVENTSCRIPT_COND_COUNT_RANGE_20220305/CountRangeState.event"
+#include "EventPatches/EVENTSCRIPT_COND_ITEM/Installer.event"
+#include "EventPatches/AAA_GetUnitExpGain/Installer.event"
+#include "EventPatches/New CHAI/New CHAI.event"
+
+
+
+#include "BattlePatches/MultiTransformManims/MultiTransformManims.event"
+#include "BattlePatches/BattleTransforming/FE8-Battle Transform EA.txt"
+
+
+
+#include "MiscPatches/FE8WalkingSoundsFix/FE8-Walking Sounds EA.event"
+#include "MiscPatches/NarrowFont/Narrowfont installer.event"
+#include "MiscPatches/FixSomeBattleSounds.event"
+

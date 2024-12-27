@@ -7,7 +7,10 @@ Map sprites:
 Mugs/Portraits:
 All blinking mugs by {Lenh, Obsidian Daddy}
 
-
+Spell Animations:
+[Fire] Forblaze - FE8  FE6 Version {SHYUTERz}
+[Light] Aureola {SHYUTERz}
+[Dark] Apocalypse - FE8 {SHYUTERz}  1
 
 Various scripts and macros/definitions taken from other projects. Most of them I found from github searches and they appeared in multiple repos, so not sure how to credit them lol. But thanks.
-Also thanks to Vesly for their great .bat files for processing data.
+Also thanks to Vesly for their great .bat files for processing data, and the people on the FEU discord.

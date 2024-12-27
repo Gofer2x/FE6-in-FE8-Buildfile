@@ -89,14 +89,14 @@ the truth about the rumors...[AN]
 Please...give me some time.[AN][ClearFace][X]
 
 ## Ch18B_UniteHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager30]
 The clans shall unite[N]
 to repel invaders...[AN]
 Such is the law[N]
 of Sacae.[AN][X]
 
 ## Ch18B_PrayHouse
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager30]
 Pray to the sky[N]
 and the earth...[AN]
 Such is the law[N]

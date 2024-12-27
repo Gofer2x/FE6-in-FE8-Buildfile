@@ -109,7 +109,7 @@ It was once used by the noble[N]
 Lady Tina...[AN][X]
 
 ## Ch17B_EclipseVillage
-[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager31]
+[OpenMidLeft][LoadCurrentCharacter][OpenMidRight][LoadVillager30]
 We don't get many visitors[N]
 up here...[AN][Clear]
 What?[AN]

@@ -148,7 +148,6 @@ PlayMusic(MUS_Melancholic)
 LOAD1 0x1 Enemies
 ENUN
 FadeFromBlack
-FlagON(SacaeRouteFlag)
 FlashCursor(29,18,60)
 Text(BG_Castle2,Ch17B_Start1)
 STAL 16

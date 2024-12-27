@@ -58,6 +58,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(17,19)
+House(0x0,UniteHouseVisit,8,17)
+House(0x0,PrayHouseVisit,8,21)
+House(0x0,DefendHouseVisit,12,7)
+House(0x0,UnitedClansHouseVisit,15,6)
+Armory(ArmoryList,4,3)
+Vendor(VendorList,2,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -226,16 +233,16 @@ Text(BG_Outside,Ch18B_Start2)
 GotoPrepScreen
 
 UniteHouseVisit:
-HouseEvent(BG_House,Ch18B_UniteHouse)
+HouseEvent(Ch18B_UniteHouse,BG_House)
 
 PrayHouseVisit:
-HouseEvent(BG_House,Ch18B_PrayHouse)
+HouseEvent(Ch18B_PrayHouse,BG_House)
 
 DefendHouseVisit:
-HouseEvent(BG_House,Ch18B_DefendHouse)
+HouseEvent(Ch18B_DefendHouse,BG_House)
 
 UnitedClansHouseVisit:
-HouseEvent(BG_House,Ch18B_UnitedClansHouse)
+HouseEvent(Ch18B_UnitedClansHouse,BG_House)
 
 TriggerAmbush:
 PlayerInRange

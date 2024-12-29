@@ -435,6 +435,7 @@ PlayMusic(MUS_TheKingdomOfBern)
 LoadReinforcements(GalleSquad)
 CAM1 Galle
 FlashCursor(Galle,60)
+Text(Ch21_GalleAppears)
 RestoreMusic
 EndEvent
 

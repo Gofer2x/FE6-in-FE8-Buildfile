@@ -404,7 +404,7 @@ DISA GenericSoldierPercevalCh13_Ch15
 LABEL 9
 EndEvent
 
-NarcianLeaves: //not sure if this works, test
+NarcianLeaves:
 PlayerInRange
 BranchIfFlagON(1,Ch13_NarcianOnThroneFlag)
 FlagOFF(Ch13_NarcianLeavesFlag)

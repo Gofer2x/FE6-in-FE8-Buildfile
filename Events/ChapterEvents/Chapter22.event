@@ -274,7 +274,7 @@ UnquieterMusic
 EndEvent
 
 ThroneRoomOpens:
-PlayerInRange
+UnitInRange(Roy)
 BranchIfUnitNotActive(5,Roy)
 BranchIfFlagOFF(5,Ch22_EastSwitchFlag)
 BranchIfFlagOFF(5,Ch22_WestSwitchFlag)
@@ -284,20 +284,7 @@ Text(BG_Castle2,Ch22_ThroneRoomOpen)
 LoadReinforcements(SouthWestReinforcements)
 LoadReinforcements(SouthEastReinforcements)
 RestoreMusic
-GOTO 9
-
-LABEL 5
-FlagOFF(Ch22_ThroneRoomOpenFlag)
-LABEL 9
 EndEvent
-
-
-
-
-
-
-EndEvent
-
 
 EndingScene:
 FadeOutMusic

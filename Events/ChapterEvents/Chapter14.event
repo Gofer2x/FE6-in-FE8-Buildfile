@@ -62,8 +62,6 @@ House(0x0,BonesTreasureHouseVisit,25,6)
 END_MAIN
 
 MiscBasedEvents:
-//sophia range event
-//bone events
 AreaEvent(Ch14_TreasureSilenceFlag,TreasureSilence,12,13,18,18)
 AreaEvent(Ch14_TreasureTalismanFlag,TreasureTalisman,0,10,4,15)
 AreaEvent(Ch14_TreasureBootsFlag,TreasureBoots,10,8,14,10)
@@ -280,14 +278,9 @@ DesertTreasure(Warp,32755)
 EndEvent
 
 SophiaGuidingRing:
-PlayerInRange
-BranchIfUnitNotActive(1,Sophia)
+UnitInRange(Sophia)
 Text(Ch14_SophiaFindsGuidingRing)
 GiveItemToCharacter(Sophia,GuidingRing)
-GOTO 9
-LABEL 1
-FlagOFF(Ch14_SophiaGuidingRingFlag)
-LABEL 9
 EndEvent
 
 EndingScene:

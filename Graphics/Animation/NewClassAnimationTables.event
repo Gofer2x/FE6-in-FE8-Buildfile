@@ -1,7 +1,7 @@
 ALIGN 4
 RoyLord_Anims:
 SwordAnim(RoyLord_SwordAnim)
-SpecialAnim(RoyLord_BindingBladeAnim, SteelSword)
+SpecialAnim(RoyLord_BindingBladeAnim, BindingBlade)
 UnarmedAnim(RoyLord_UnarmedAnim)
 EndAnim
 

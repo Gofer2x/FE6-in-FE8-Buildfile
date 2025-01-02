@@ -1,5 +1,6 @@
 Battle animations:
 "RogueF" aka "[Rogue-Reskin] [F] Ponytail by Temp" Made by {Temp, Black Mage, Wan}
+"King" aka "Zephiel Dark Aura and Critical BGM Kill Fixed" Made by [shadowofchaos](https://forums.serenesforest.net/topic/19553-king-zephiel-in-fe7-animation-screwup-and-fix/)
 
 Map sprites:
 "RogueF_SMS" AKA "Rogue (F) {Unknown}-stand" by Unknown (lol)

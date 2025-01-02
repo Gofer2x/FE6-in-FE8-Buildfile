@@ -9,8 +9,6 @@ preps armory
 
 i wrote a patch for getting exp amount from unit data but doesn't work. fix it
 
-king animation broken. too big
-
 harp and birdie sounds for elffin animation
 
 bard and dancer map sounds are weird

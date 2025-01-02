@@ -6,6 +6,7 @@ Map sprites:
 
 Mugs/Portraits:
 All blinking mugs by {Lenh, Obsidian Daddy}
+Thea mug fixed by me.
 
 Spell Animations:
 [Fire] Forblaze - FE8  FE6 Version {SHYUTERz}

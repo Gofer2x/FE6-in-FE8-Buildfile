@@ -1,0 +1,166 @@
+#define SacrificialItem 0xCD
+
+PUSH
+
+//Always two ranged
+ORG 0x582D4
+BYTE HandAxe
+ORG 0x582C0
+BYTE HandAxe
+ORG 0x58324
+BYTE Hatchet
+ORG 0x58310
+BYTE Hatchet
+ORG 0x582FC
+BYTE Tomahawk
+ORG 0x582E8
+BYTE Tomahawk
+ORG 0x582A8
+BYTE Runesword
+ORG 0x58290
+BYTE Runesword
+
+//Summon Creature Weapons
+//1
+ORG 0x07AEF8
+BYTE SacrificialItem
+//2
+ORG 0x07AEF4
+BYTE SacrificialItem
+//3
+ORG 0x07AEE4
+BYTE SacrificialItem
+ORG 0x07AECA
+BYTE SacrificialItem
+//4
+ORG 0x07AEA8
+BYTE SacrificialItem
+ORG 0x07AEBC
+BYTE SacrificialItem
+ORG 0x07AED6
+BYTE SacrificialItem
+
+//Not changing this but better to have it here imo
+////Staff that ignores battle animation 1 Start List
+//ORG 0x581D0
+//BYTE Warp
+////Staff that ignores battle animation 1 End List
+//ORG 0x581D4
+//BYTE TorchStaff
+////Staff that ignores battle animation 2
+//ORG 0x581D8
+//BYTE Unlock
+//
+////Chest Key 1 Use
+//ORG 0x18ACC
+//BYTE ChestKey1Use
+//
+////Chest Key 5 Uses
+//ORG 0x18AD8
+//BYTE ChestKey5Uses
+//
+////Door Key
+//ORG 0x18AE0
+//BYTE DoorKey
+//
+////Lockpick
+//ORG 0x18AB8
+//BYTE Lockpick
+//ORG 0x16F50
+//BYTE Lockpick
+//
+////Recovery animation
+//ORG 0x002F3C4
+//BYTE Vulnerary
+////Recovery animation Fort
+//ORG 0x035816
+//BYTE Vulnerary
+//
+//
+////Member Card
+//ORG 0x83A7C
+//BYTE MemberCard
+//ORG 0x991B2
+//BYTE MemberCard
+//ORG 0x9A1AA
+//BYTE MemberCard
+//ORG 0x9A240
+//BYTE MemberCard
+//
+////Silver Card
+////INCOMPATIBLE WITH SKILLSYSTEMS!
+//ORG 0xB5242
+//BYTE SilverCard
+//
+////Filla's Might
+//ORG 0x2FBF6
+//BYTE SacrificialItem
+//
+////Ninis's Grace
+//ORG 0x2FBEE
+//BYTE SacrificialItem
+//ORG 0x2FBF2
+//BYTE SacrificialItem
+//
+////Set's Litany
+//ORG 0x2FC04
+//BYTE SacrificialItem
+
+//Doing stuff now
+//Change battle BGM during battle 1 (used by Sieglinde)
+ORG 0x58B12
+BYTE SacrificialItem
+
+//Change battle BGM during battle 2 (used by Siegmund)
+ORG 0x58B16
+BYTE SacrificialItem
+
+//Metis's Tome/Afa's Drops
+ORG 0x02F820
+BYTE SacrificialItem
+
+//Lunar Brace
+ORG 0x291C2
+BYTE SacrificialItem
+
+//Solar Brace
+ORG 0x0291C6
+BYTE SacrificialItem
+
+//Dropped Gold Items Start List
+ORG 0x115AA
+BYTE SacrificialItem
+
+//Dropped Gold Items End List
+ORG 0x115AE
+BYTE SacrificialItem
+
+//Nightmare
+ORG 0x02FF78
+BYTE SacrificialItem
+ORG 0x032036
+BYTE SacrificialItem
+ORG 0x0322C6
+BYTE SacrificialItem
+
+//Stone Hardcoding
+//"Specified Item Attacks 1x Per Combat"
+//INCOMPATIBLE WITH SKILLSYSTEMS!
+ORG 0x2B008
+BYTE SacrificialItem
+//0 Damage
+ORG 0x2B3DA
+BYTE SacrificialItem
+//0 Crit
+ORG 0x02ACB6
+BYTE SacrificialItem
+
+//Dropped Gold Items Start List 2
+ORG 0x115B6
+BYTE SacrificialItem
+
+//Dropped Gold Items End List 2
+ORG 0x115B2
+BYTE SacrificialItem
+
+POP

@@ -16,13 +16,12 @@
 #include "HardcodingPatches/CharacterHardcoding.event"
 #include "HardcodingPatches/SupplyPortrait.event"
 #include "HardcodingPatches/PortraitHeightFix.event"
-
+#include "HardcodingPatches/ItemHardcoding.event"
 
 
 #include "WeaponPatches/FE6Eclipse.event"
 #include "WeaponPatches/WeaponRanks.event"
 #include "WeaponPatches/WeaponTriangle.event"
-#include "WeaponPatches/AlwaysTwoRangedFixes.event"
 
 #include "WeaponPatches/WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"
 #include "WeaponPatches/SacredWeapons2/weapon_battle_flash.event"

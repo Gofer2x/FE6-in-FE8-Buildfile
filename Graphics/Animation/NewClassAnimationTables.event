@@ -278,17 +278,20 @@ EndAnim
 ALIGN 4
 Monk_Anims:
 MagicAnim(Monk_MagicAnim)
+UnarmedAnim(Monk_MagicAnim)
 EndAnim
 
 ALIGN 4
 Bishop_Anims:
 MagicAnim(Bishop_MagicAnim)
+StaffAnim(Bishop_MagicAnim)
 UnarmedAnim(Bishop_UnarmedAnim)
 EndAnim
 
 ALIGN 4
 BishopF_Anims:
 MagicAnim(BishopF_MagicAnim)
+StaffAnim(BishopF_MagicAnim)
 UnarmedAnim(BishopF_UnarmedAnim)
 EndAnim
 
@@ -302,68 +305,80 @@ ALIGN 4
 Valkyrie_Anims:
 MagicAnim(Valkyrie_MagicAnim)
 StaffAnim(Valkyrie_StaffAnim)
+UnarmedAnim(Valkyrie_StaffAnim)
 EndAnim
 
 ALIGN 4
 Mage_Anims:
 MagicAnim(Mage_MagicAnim)
+UnarmedAnim(Mage_MagicAnim)
 EndAnim
 
 ALIGN 4
 MageF_Anims:
 MagicAnim(MageF_MagicAnim)
+UnarmedAnim(MageF_MagicAnim)
 EndAnim
 
 ALIGN 4
 Sage_Anims:
-MagicAnim(Sage_MagicAnim)
 StaffAnim(Sage_StaffAnim)
+MagicAnim(Sage_MagicAnim)
+UnarmedAnim(Sage_MagicAnim)
 EndAnim
 
 ALIGN 4
 SageF_Anims:
-MagicAnim(SageF_MagicAnim)
 StaffAnim(SageF_StaffAnim)
+MagicAnim(SageF_MagicAnim)
+UnarmedAnim(SageF_MagicAnim)
 EndAnim
 
 ALIGN 4
 MageKnight_Anims:
-MagicAnim(MageKnight_MagicAnim)
 StaffAnim(MageKnight_StaffAnim)
+MagicAnim(MageKnight_MagicAnim)
+UnarmedAnim(MageKnight_MagicAnim)
 EndAnim
 
 ALIGN 4
 MageKnightF_Anims:
-MagicAnim(MageKnightF_MagicAnim)
 StaffAnim(MageKnightF_StaffAnim)
+MagicAnim(MageKnightF_MagicAnim)
+UnarmedAnim(MageKnightF_MagicAnim)
 EndAnim
 
 ALIGN 4
 Shaman_Anims:
 MagicAnim(Shaman_MagicAnim)
+UnarmedAnim(Shaman_MagicAnim)
 EndAnim
 
 ALIGN 4
 ShamanF_Anims:
 MagicAnim(ShamanF_MagicAnim)
+UnarmedAnim(ShamanF_MagicAnim)
 EndAnim
 
 ALIGN 4
 Druid_Anims:
-MagicAnim(Druid_MagicAnim)
 StaffAnim(Druid_StaffAnim)
+MagicAnim(Druid_MagicAnim)
+UnarmedAnim(Druid_MagicAnim)
 EndAnim
 
 ALIGN 4
 DruidF_Anims:
-MagicAnim(DruidF_MagicAnim)
 StaffAnim(DruidF_StaffAnim)
+MagicAnim(DruidF_MagicAnim)
+UnarmedAnim(DruidF_MagicAnim)
 EndAnim
 
 ALIGN 4
 Summoner_Anims:
-MagicAnim(Summoner_MagicAnim)
 StaffAnim(Summoner_StaffAnim)
+MagicAnim(Summoner_MagicAnim)
+UnarmedAnim(Summoner_MagicAnim)
 EndAnim
 
 ALIGN 4

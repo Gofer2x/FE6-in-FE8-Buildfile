@@ -38,61 +38,61 @@
 #define King_SwordAnim 0xEE
 
   {
-  #include "RoyLord\Sword Installer.event"
+  #include "RoyLord\1.Sword\SwordInstaller.event"
   }
   {
-  #include "RoyLord\Sword BB Installer.event"
-  #include "RoyLord\Unarmed Installer.event"
+  #include "RoyLord\1.Sword(BindingBlade)\SwordInstaller.event"
+  #include "RoyLord\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "HeroF\Sword Installer.event"
-  #include "HeroF\Axe Installer.event"
-  #include "HeroF\HandAxe Installer.event"
-  #include "HeroF\Unarmed Installer.event"
+  #include "HeroF\1.Sword\SwordInstaller.event"
+  #include "HeroF\3.Axe\AxeInstaller.event"
+  #include "HeroF\4.HandAxe\HandAxeInstaller.event"
+  #include "HeroF\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "Paladin\Axe Installer.event"
-  #include "Paladin\Handaxe Installer.event"
+  #include "Paladin\3.Axe\AxeInstaller.event"
+  #include "Paladin\4.HandAxe\HandAxeInstaller.event"
   }
   {
-  #include "PaladinF\Axe Installer.event"
-  #include "PaladinF\Handaxe Installer.event"
+  #include "PaladinF\3.Axe\AxeInstaller.event"
+  #include "PaladinF\4.HandAxe\HandAxeInstaller.event"
   }
   {
-  #include "ThiefF\Sword Installer.event"
-  #include "ThiefF\Unarmed Installer.event"
+  #include "ThiefF\1.Sword\SwordInstaller.event"
+  #include "ThiefF\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "RogueF\Sword Installer.event"
-  #include "RogueF\Unarmed Installer.event"
+  #include "RogueF\1.Sword\SwordInstaller.event"
+  #include "RogueF\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "BishopF\Unarmed Installer.event"
+  #include "BishopF\8.Unarmed(FE6)\UnarmedInstaller.event"
   }
   {
-  #include "Nomad\Bow Installer.event"
-  #include "Nomad\Unarmed Installer.event"
+  #include "Nomad\5.Bow\BowInstaller.event"
+  #include "Nomad\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "NomadF\Bow Installer.event"
-  #include "NomadF\Unarmed Installer.event"
+  #include "NomadF\5.Bow\BowInstaller.event"
+  #include "NomadF\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "NomadTrooper\Bow Installer.event"
-  #include "NomadTrooper\Sword Installer.event"
-  #include "NomadTrooper\Unarmed Installer.event"
+  #include "NomadTrooper\5.Bow\BowInstaller.event"
+  #include "NomadTrooper\1.Sword\SwordInstaller.event"
+  #include "NomadTrooper\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "NomadTrooperF\Bow Installer.event"
-  #include "NomadTrooperF\Sword Installer.event"
-  #include "NomadTrooperF\Unarmed Installer.event"
+  #include "NomadTrooperF\BowInstaller.event"
+  #include "NomadTrooperF\SwordInstaller.event"
+  #include "NomadTrooperF\UnarmedInstaller.event"
   }
   {
-  #include "Bard\Refresh (FE7-8) Installer.event"
+  #include "Bard\8.Refresh(FE7-8)\RefreshInstaller.event"
   }
   {
-  #include "Dancer\Refresh Installer.event"
+  #include "Dancer\8.Refresh(Heart FE8)\RefreshInstaller.event" //Not sure which one to use
   }
   {
-  #include "King\Sword\Zephiel King Installer.event"
+  #include "King\Sword\ZephielKingInstaller.event"
   }

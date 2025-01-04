@@ -306,7 +306,7 @@ EndEvent
 
 
 HughRecruitment:
-EVBIT_MODIFY 4 //No skip allowed
+DisableSkipping //No skip allowed
 Text(Ch16_HughRecruitmentStart)
 BranchIfGoldAtLeast(1,10000) //Do we have 10000 Gold? If yes, branch to 1
 BranchIfGoldAtLeast(2,8000)  //Do we have 8000 Gold? If yes, branch to 2
@@ -374,7 +374,7 @@ Text(Ch16_HughFinalRejected)
 GOTO 9
 
 LABEL 8 //hugh gets recruited
-EVBIT_MODIFY 0 //allow skip
+EnableSkipping //allow skip
 SwitchMusic(MUS_JoinUs)
 Text(Ch16_HughRecruited)
 TurnAlly(Hugh) 

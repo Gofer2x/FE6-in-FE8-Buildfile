@@ -1,7 +1,15 @@
-EVENT_RoyDeath:
+//THIS IS VERY VERY DUMB
+PUSH
+ORG 0x592104 //overwriting og game over event
+CALL EVENT_CustomGameOver
+ENDA
+POP
+
+EVENT_CustomGameOver:
+DisableSkipping
 Text(RoyDeathQuote)
 
-//TODO i think the "branchif" here aka CHECK_DEPLOYED breaks and immediately cancels event when run? not much i can do i guess.
+//Character quotes
 //Lilina
 BranchIfUnitNotDeployed(1,Lilina)
 Text(RoyDeathQuoteLilina)
@@ -26,7 +34,9 @@ BranchIfUnitNotDeployed(9,Merlinus)
 Text(RoyDeathQuoteMerlinus)
 
 LABEL 9
-EndEvent
+
+ASMC $85375 //game over screen
+ENDA
 
 
 
@@ -47,7 +57,7 @@ BranchIfChapterIDSmallerThan(2,CHAPTER_Ch3)
 //Present during Ch3-Ch8x, aka before Ch9
 BranchIfChapterIDSmallerThan(1,CHAPTER_Ch9)
 
-//Otherwise we're in West Isles/Ch13, where she's not present
+//Otherwise we're in Ch9-13, where she's not present
 GOTO 2
 
 //True

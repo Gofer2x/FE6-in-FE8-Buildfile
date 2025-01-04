@@ -1,7 +1,7 @@
 //use braces here to avoid name conflicts. If you don't know what that means, surround all #includes in this files in braces like done below.
 
 #include "REDAs.event"
-#include "RoyDeath.event"
+#include "CustomGameOver.event"
 #include "CathRecruitment.event"
 #include "OstiaNarcianCutscene.event"
 #include "WestIslesEvents.event"

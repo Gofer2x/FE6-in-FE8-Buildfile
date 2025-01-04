@@ -125,3 +125,5 @@ MESSAGE cuz i dont feel like dealing with map events rn
 //don't ask
 #define DesertTreasure(item,id) "BYTE $28 $33 $FF $FF $20 $06 $C2 $00 $40 $05 $03 $00 ; BYTE item ; BYTE $00 $00 $00 $40 $0A $00 $00 $1C $E6 $9E $08 $41 $0C ; SHORT id ; BYTE $0C $00 $00 $00 $40 $0A $00 $00 $D4 $E1 $9E $08 $20 $08 ; SHORT id ; BYTE $28 $02 $07 $00 $20 $01 $00 $00"
 
+#define DisableSkipping "EVBIT_MODIFY 4"
+#define EnableSkipping "EVBIT_MODIFY 0"

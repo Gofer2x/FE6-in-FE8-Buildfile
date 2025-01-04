@@ -5,7 +5,7 @@ final chapter and epilogue(s)
 add some items back. like metis tome (id 0x89), gold bags, usable earth seal (id 0x88).
 roy seal config?
 
-preps armory
+move all new tables to their own folder?
 
 i wrote a patch for getting exp amount from unit data but doesn't work. fix it
 
@@ -38,8 +38,6 @@ the mugs for the female villager in hat and bangs seem to dislike being palette 
 world map lol. i am in uhh no rush though
 
 recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
-
-roy has a death event for special character dialogue, but it seems to return early. pretty sure it's CHARATER_DEPLOYED's fault.
 
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.

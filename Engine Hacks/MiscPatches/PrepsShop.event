@@ -1,0 +1,21 @@
+//For fixing the vanilla fe8 shop if i feel like it
+//If using this comment out the other stuff
+//PUSH
+//ORG 0xA188E4
+//BYTE IronSword 0x0
+//BYTE IronLance 0x0
+//BYTE IronAxe 0x0
+//BYTE IronBow 0x0
+//BYTE Fire 0x0
+//BYTE Flux 0x0
+//BYTE Lightning 0x0
+//BYTE Heal 0x0
+//POP
+
+NewPrepsShop:
+SHLI IronSword IronLance IronAxe IronBow Fire Heal
+
+PUSH
+ORG 0x099E64
+POIN NewPrepsShop
+POP

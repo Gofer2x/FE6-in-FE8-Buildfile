@@ -25,6 +25,8 @@ manakete anims
 
 harp and birdie sounds for elffin animation
 
+recruitable characters only go up to 63/0x3F i think. so it might be worth culling the trial chars (and doing a dummy for guinivere) to make room for new recruitables?
+
 bard and dancer map sounds are weird
 
 different length fade ins and fadeouts? rn all are just 60 i think

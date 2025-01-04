@@ -3,31 +3,31 @@
 //0x9, OG Knight "Armor Triangle Attack Class Range From"
 PUSH
 ORG 0x074FB4
-BYTE DumbEggID //Putting em all on the egg lol
+BYTE Knight
 POP
 
 //0x9, OG Knight "Armor Triangle Attack Class UnPromoted1"
 PUSH
 ORG 0x0074FC8
-BYTE DumbEggID
+BYTE Knight
 ORG 0x75034
-BYTE DumbEggID
+BYTE Knight
 POP
 
 //0xA, OG KnightF "Armor Triangle Attack Class UnPromoted2"
 PUSH
 ORG 0x0074FD0
-BYTE DumbEggID
+BYTE KnightF
 ORG 0x7503C
-BYTE DumbEggID
+BYTE KnightF
 POP
 
 //0xB, OG General "Armor Triangle Attack Class Promoted1"
 PUSH
 ORG 0x0074FD8
-BYTE DumbEggID
+BYTE General
 ORG 0x75044
-BYTE DumbEggID
+BYTE General
 POP
 
 //0xB, OG General "Great Shield First Class" Incompatible with SkillSystems
@@ -39,15 +39,15 @@ POP
 //0xC, OG GeneralF "Armor Triangle Attack Class Promoted2"
 PUSH
 ORG 0x0074FE0
-BYTE DumbEggID
+BYTE GeneralF
 ORG 0x7504C
-BYTE DumbEggID
+BYTE GeneralF
 POP
 
 //0xC, OG GeneralF "Armor Triangle Attack Class Range To"
 PUSH
 ORG 0x0074FBA
-BYTE DumbEggID
+BYTE GeneralF
 POP
 
 //0xC, OG GeneralF "Great Shield Last Class" Incompatible with SkillSystems
@@ -113,6 +113,7 @@ BYTE DumbEggID
 POP
 
 //OG 0x3C, MyrrhManakete "Special class ID to turn the battle background into a Manakete"
+//this will be handled by patches now. i think
 PUSH
 ORG 0x070B7E
 BYTE DumbEggID
@@ -129,11 +130,11 @@ POP
 //OG 0x48, PegasusKnight "Triangle Attack Class UnPromoted"
 PUSH
 ORG 0x00750C4
-BYTE DumbEggID
+BYTE PegasusKnight
 ORG 0x7510C
-BYTE DumbEggID
+BYTE PegasusKnight
 ORG 0x75156
-BYTE DumbEggID
+BYTE PegasusKnight
 POP
 
 PROTECT 0x00750C4
@@ -143,9 +144,9 @@ PROTECT 0x75156
 //OG 0x49, FalcoKnight "Triangle Attack Class Promoted"
 PUSH
 ORG 0x00750CC
-BYTE DumbEggID
+BYTE Falcoknight
 ORG 0x75114
-BYTE DumbEggID
+BYTE Falcoknight
 POP
 
 //OG 0x50, Fleet "Worldmap fleet icon"

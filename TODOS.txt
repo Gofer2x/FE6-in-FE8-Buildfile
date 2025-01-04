@@ -39,6 +39,8 @@ world map lol. i am in uhh no rush though
 
 recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
 
+there is now a custom game over event for the extra character dialogue, but because of how it's set up it only plays after roy has disappeared from the map. when i tried calling the dialogue event as a death event, it would exit early because i think CHECK_DEPLOYED wouldn't work properly. dunno maybe look into it at some point.
+
 experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
 this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.
 that's definitely the plan btw.

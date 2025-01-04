@@ -313,6 +313,7 @@ GiveItemToCharacter(Roy,EnergyRing)
 LABEL 2
 STAL 64
 MoveToChapter(CHAPTER_Ch12)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 VendorList:

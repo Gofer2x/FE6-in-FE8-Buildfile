@@ -484,6 +484,7 @@ CLEAN
 STAL 64
 
 MoveToChapter(CHAPTER_Ch11B)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

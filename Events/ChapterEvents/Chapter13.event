@@ -489,6 +489,7 @@ GiveItemToCharacter(Perceval,KnightCrest)
 LABEL 1
 STAL 64
 MoveToChapter(CHAPTER_Ch14)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

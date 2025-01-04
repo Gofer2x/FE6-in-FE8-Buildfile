@@ -183,6 +183,7 @@ TextNoBGNoREMA(Ch1_End3)
 REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch2)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

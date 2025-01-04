@@ -299,6 +299,7 @@ LOAD1 0x1 JustFae
 ENUN
 STAL 64
 MoveToChapter(CHAPTER_Ch16)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 VendorList:

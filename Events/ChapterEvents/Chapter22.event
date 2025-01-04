@@ -324,6 +324,7 @@ LABEL 3
 //MoveToChapter(CHAPTER_Epilogue) //TODO not implemented, you just get softlocked for now lol
 
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

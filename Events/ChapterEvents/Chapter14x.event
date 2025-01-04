@@ -538,6 +538,7 @@ Text(BG_Castle3,Ch14_Ch14x_EndElder)
 GiveItemToCharacter(Roy,Forblaze)
 STAL 64
 MoveToChapter(CHAPTER_Ch15)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

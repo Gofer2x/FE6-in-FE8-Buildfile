@@ -239,6 +239,7 @@ PlayMusic(MUS_Triumph)
 Text(BG_Temple1,Ch23_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch24)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 Armory1List:

@@ -180,6 +180,7 @@ LABEL 8
 MoveToChapter(CHAPTER_Ch17B)
 
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -348,6 +348,7 @@ TEXTEND
 REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch19B)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

@@ -332,6 +332,7 @@ REMA
 CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -376,6 +376,7 @@ EndEvent
 
 EndingScene:
 ENUN
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

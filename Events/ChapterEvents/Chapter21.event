@@ -454,6 +454,7 @@ LABEL 5
 CALL EVENT_BindingBladeAndRoyPromo
 
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

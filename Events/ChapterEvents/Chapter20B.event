@@ -291,6 +291,7 @@ CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 

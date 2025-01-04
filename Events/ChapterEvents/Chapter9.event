@@ -267,6 +267,7 @@ Text(BG_Castle1,Ch9_EndNorthNoVillage)
 MoveToChapter(CHAPTER_Ch10A)
 
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 VendorList:

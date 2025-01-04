@@ -213,6 +213,7 @@ Text(BG_Castle1,Ch10A_End)
 GiveItemToCharacter(Roy,Wyrmslayer)
 STAL 64
 MoveToChapter(CHAPTER_Ch11A)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

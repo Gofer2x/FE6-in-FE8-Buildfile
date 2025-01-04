@@ -274,6 +274,7 @@ TextNoBGNoREMA(Ch2_End5)
 REMA
 STAL 64
 MoveToChapter(CHAPTER_Ch3)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

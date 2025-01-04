@@ -239,6 +239,7 @@ PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle2,Ch17A_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch18A)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

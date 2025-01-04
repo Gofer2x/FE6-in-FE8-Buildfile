@@ -302,6 +302,7 @@ STAL 64
 MoveToChapter(CHAPTER_Ch15)
 
 LABEL 9 //end event
+CALL EVENT_ReviveMerlinus
 ENDA
 
 ArmoryList:

@@ -7,6 +7,7 @@
 #include "WestIslesEvents.event"
 #include "SacaeIlliaDetermination.event"
 #include "BindingBladeAndRoyPromo.event"
+#include "ReviveMerlinus.event"
 {
 #include "ChapterEvents/Chapter1.event"
 }

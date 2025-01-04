@@ -343,6 +343,7 @@ Text(BG_Castle2,Ch12_Ch12x_EndEtruriaRevolution)
 MoveToChapter(CHAPTER_Ch13)
 
 LABEL 9
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -275,6 +275,7 @@ PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle1, Ch3_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch4)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

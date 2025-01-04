@@ -285,6 +285,7 @@ REMA
 CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch5)
+CALL EVENT_ReviveMerlinus
 ENDA
 
 VendorList:

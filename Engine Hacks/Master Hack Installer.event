@@ -43,6 +43,7 @@
 #include "EventPatches/EVENTSCRIPT_COND_ITEM/Installer.event"
 #include "EventPatches/AAA_GetUnitExpGain/Installer.event"
 #include "EventPatches/New CHAI/New CHAI.event"
+#include "EventPatches/FE8-Set Condition/FE8-Set Condition.event"
 
 
 

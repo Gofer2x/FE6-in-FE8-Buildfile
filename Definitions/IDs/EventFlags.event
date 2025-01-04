@@ -37,6 +37,7 @@
 #define Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
 #define Ch11B_GenericCitizenEidynaDeathFlag 0x20
 #define Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
-#define Ch20A_GenericCitizenIlliaDeath 0x20
+#define Ch20A_GenericCitizenIlliaDeathFlag 0x20
+#define Final_ManaketeSlainFlag 0x20
 
 #define Ch16_DouglasDeathFlag 0x20

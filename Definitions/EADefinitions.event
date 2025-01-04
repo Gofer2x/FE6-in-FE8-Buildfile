@@ -41,6 +41,10 @@
 #define IncrementCounter(counter) "COUNTER_INC counter"
 #define DecrementCounter(counter) "COUNTER_DEC counter"
 
+#define BranchIfRandomZero(label,random) "RANDOMNUMBER random ; BNE label s0 sC"
+
+#define BranchIfResultEqualTo(label,number) "SVAL s1 number ; BEQ label s1 sC"
+
 #define LoseMoney(amount) "SVAL s3 amount ; TAKEMONEY"
 
 #define BranchIfGoldAtLeast(label,amount) "SVAL s1 amount ; CHECK_MONEY ; BGE label sC s1"

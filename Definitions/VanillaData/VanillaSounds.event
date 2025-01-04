@@ -87,3 +87,4 @@
 #define SND_MagicShineEvenLonger 0x2EC
 #define SND_MagicShineLongest 0x2ED
 
+#define SND_LightCircle 0x269

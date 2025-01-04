@@ -10,6 +10,7 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
+//Final_ManaketeSlainFlag 0x20
 
 EventPointerTable(EVENTS_Final,ThisChapter)
 EscapePointPointerTable(CHAPTER_Final,0x0)
@@ -30,6 +31,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,RandomManaketeSpawn,1,255)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -98,11 +100,279 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
+LOAD2 0x0 Units
 ENUN
 LOAD1 0x1 IdunnManaketes
 ENUN
-ENDA
+FadeFromBlack
+//asm here
+//more asm
+STAL 16
+MOVE 0x0 Roy [8,9]
+ENUN
+STAL 16
+CAM1 IdunnHuman
+PlayMusic(MUS_TheDarkPriestess)
+Text(Final_Start1)
+PlaySound(SND_LightCircle)
+FadeIntoWhite(Fade5s)
+DISA IdunnHuman
+LOAD1 0x1 JustIdunn
+STAL 32
+FadeFromWhite(Fade5s)
+STAL 16
+CAM1 [8,15]
+CALL FinalBattleQuotes
+//asm
+CAM1 Roy
+BranchIfUnitDead(1,Fae)
+Text(Final_Start2FaeAlive)
+GOTO 2
+LABEL 1
+Text(Final_Start2FaeDead)
+LABEL 2
+MOVE 0x0 Roy [8,16]
+EndEvent
+
+FinalBattleQuotes:
+BranchIfUnitNotDeployed(1,Marcus)
+FlashCursor(Marcus,60)
+Text(FinalQuoteMarcus)
+LABEL 1
+BranchIfUnitNotDeployed(2,Alen)
+FlashCursor(Alen,60)
+Text(FinalQuoteAlen)
+LABEL 2
+BranchIfUnitNotDeployed(3,Lance)
+FlashCursor(Lance,60)
+Text(FinalQuoteLance)
+LABEL 3
+BranchIfUnitNotDeployed(4,Wolt)
+FlashCursor(Wolt,60)
+Text(FinalQuoteWolt)
+LABEL 4
+BranchIfUnitNotDeployed(5,Bors)
+FlashCursor(Bors,60)
+Text(FinalQuoteBors)
+LABEL 5
+BranchIfUnitNotDeployed(6,Elen)
+FlashCursor(Elen,60)
+Text(FinalQuoteElen)
+LABEL 6
+BranchIfUnitNotDeployed(7,Dieck)
+FlashCursor(Dieck,60)
+Text(FinalQuoteDieck)
+LABEL 7
+BranchIfUnitNotDeployed(8,Ward)
+FlashCursor(Ward,60)
+Text(FinalQuoteWard)
+LABEL 8
+BranchIfUnitNotDeployed(9,Lot)
+FlashCursor(Lot,60)
+Text(FinalQuoteLot)
+LABEL 9
+BranchIfUnitNotDeployed(10,Shanna)
+FlashCursor(Shanna,60)
+Text(FinalQuoteShanna)
+LABEL 10
+BranchIfUnitNotDeployed(11,Chad)
+FlashCursor(Chad,60)
+Text(FinalQuoteChad)
+LABEL 11
+BranchIfUnitNotDeployed(12,Lugh)
+FlashCursor(Lugh,60)
+Text(FinalQuoteLugh)
+LABEL 12
+BranchIfUnitNotDeployed(13,Clarine)
+FlashCursor(Clarine,60)
+Text(FinalQuoteClarine)
+LABEL 13
+BranchIfUnitNotDeployed(14,Rutger)
+FlashCursor(Rutger,60)
+Text(FinalQuoteRutger)
+LABEL 14
+BranchIfUnitNotDeployed(15,Saul)
+FlashCursor(Saul,60)
+Text(FinalQuoteSaul)
+LABEL 15
+BranchIfUnitNotDeployed(16,Dorothy)
+FlashCursor(Dorothy,60)
+Text(FinalQuoteDorothy)
+LABEL 16
+BranchIfUnitNotDeployed(17,Sue)
+FlashCursor(Sue,60)
+Text(FinalQuoteSue)
+LABEL 17
+BranchIfUnitNotDeployed(18,Zelot)
+FlashCursor(Zelot,60)
+Text(FinalQuoteZelot)
+LABEL 18
+BranchIfUnitNotDeployed(19,Trec)
+FlashCursor(Trec,60)
+Text(FinalQuoteTrec)
+LABEL 19
+BranchIfUnitNotDeployed(20,Noah)
+FlashCursor(Noah,60)
+Text(FinalQuoteNoah)
+LABEL 20
+BranchIfUnitNotDeployed(21,Astolfo)
+FlashCursor(Astolfo,60)
+Text(FinalQuoteAstolfo)
+LABEL 21
+BranchIfUnitNotDeployed(22,Lilina)
+FlashCursor(Lilina,60)
+Text(FinalQuoteLilina)
+LABEL 22
+BranchIfUnitNotDeployed(23,Barthe)
+FlashCursor(Barthe,60)
+Text(FinalQuoteBarthe)
+LABEL 23
+BranchIfUnitNotDeployed(24,Ogier)
+FlashCursor(Ogier,60)
+Text(FinalQuoteOgier)
+LABEL 24
+BranchIfUnitNotDeployed(25,Gwendolyn)
+FlashCursor(Gwendolyn,60)
+Text(FinalQuoteGwendolyn)
+LABEL 25
+BranchIfUnitNotDeployed(26,Fir)
+FlashCursor(Fir,60)
+Text(FinalQuoteFir)
+LABEL 26
+BranchIfUnitNotDeployed(27,Sin)
+FlashCursor(Sin,60)
+Text(FinalQuoteSin)
+LABEL 27
+BranchIfUnitNotDeployed(28,Geese)
+FlashCursor(Geese,60)
+Text(FinalQuoteGeese)
+LABEL 28
+BranchIfUnitNotDeployed(29,Gonzalez)
+FlashCursor(Gonzalez,60)
+Text(FinalQuoteGonzalez)
+LABEL 29
+BranchIfUnitNotDeployed(30,Klein)
+FlashCursor(Klein,60)
+Text(FinalQuoteKlein)
+LABEL 30
+BranchIfUnitNotDeployed(31,Thea)
+FlashCursor(Thea,60)
+Text(FinalQuoteThea)
+LABEL 31
+BranchIfUnitNotDeployed(32,Larum)
+FlashCursor(Larum,60)
+Text(FinalQuoteLarum)
+LABEL 32
+BranchIfUnitNotDeployed(33,Elffin)
+FlashCursor(Elffin,60)
+Text(FinalQuoteElffin)
+LABEL 33
+BranchIfUnitNotDeployed(34,Echidna)
+FlashCursor(Echidna,60)
+Text(FinalQuoteEchidna)
+LABEL 34
+BranchIfUnitNotDeployed(35,Bartre)
+FlashCursor(Bartre,60)
+Text(FinalQuoteBartre)
+LABEL 35
+BranchIfUnitNotDeployed(36,Raigh)
+FlashCursor(Raigh,60)
+Text(FinalQuoteRaigh)
+LABEL 36
+BranchIfUnitNotDeployed(37,Cath)
+FlashCursor(Cath,60)
+Text(FinalQuoteCath)
+LABEL 37
+BranchIfUnitNotDeployed(38,Melady)
+FlashCursor(Melady,60)
+Text(FinalQuoteMelady)
+LABEL 38
+BranchIfUnitNotDeployed(39,Perceval)
+FlashCursor(Perceval,60)
+Text(FinalQuotePerceval)
+LABEL 39
+BranchIfUnitNotDeployed(40,Cecilia)
+FlashCursor(Cecilia,60)
+Text(FinalQuoteCecilia)
+LABEL 40
+BranchIfUnitNotDeployed(41,Sophia)
+FlashCursor(Sophia,60)
+Text(FinalQuoteSophia)
+LABEL 41
+BranchIfUnitNotDeployed(42,Igrene)
+FlashCursor(Igrene,60)
+Text(FinalQuoteIgrene)
+LABEL 42
+BranchIfUnitNotDeployed(43,Garrett)
+FlashCursor(Garrett,60)
+Text(FinalQuoteGarrett)
+LABEL 43
+BranchIfUnitNotDeployed(44,Fae)
+FlashCursor(Fae,60)
+Text(FinalQuoteFae)
+LABEL 44
+BranchIfUnitNotDeployed(45,Hugh)
+FlashCursor(Hugh,60)
+Text(FinalQuoteHugh)
+LABEL 45
+BranchIfUnitNotDeployed(46,Zeiss)
+FlashCursor(Zeiss,60)
+Text(FinalQuoteZeiss)
+LABEL 46
+BranchIfUnitNotDeployed(47,Douglas)
+FlashCursor(Douglas,60)
+Text(FinalQuoteDouglas)
+LABEL 47
+BranchIfUnitNotDeployed(48,Niime)
+FlashCursor(Niime,60)
+Text(FinalQuoteNiime)
+LABEL 48
+BranchIfUnitNotDeployed(49,Juno)
+FlashCursor(Juno,60)
+Text(FinalQuoteJuno)
+LABEL 49
+BranchIfUnitNotDeployed(50,Dayan)
+FlashCursor(Dayan,60)
+Text(FinalQuoteDayan)
+LABEL 50
+BranchIfUnitNotDeployed(51,Yoder)
+FlashCursor(Yoder,60)
+Text(FinalQuoteYoder)
+LABEL 51
+BranchIfUnitNotDeployed(52,Karel)
+FlashCursor(Karel,60)
+Text(FinalQuoteKarel)
+LABEL 52
+EndEvent
+
+RandomManaketeSpawn:
+//Only if one has already been killed
+BranchIfFlagOFF(9,Final_ManaketeSlainFlag)
+
+RANDOMNUMBER 3
+BranchIfResultEqualTo(1,0)
+BranchIfResultEqualTo(2,1)
+BranchIfResultEqualTo(3,2)
+//else it's 3
+
+LoadReinforcements(ManaketeReinforcements1)
+GOTO 9
+
+LABEL 1
+LoadReinforcements(ManaketeReinforcements2)
+GOTO 9
+
+LABEL 2
+LoadReinforcements(ManaketeReinforcements3)
+GOTO 9
+
+LABEL 3
+LoadReinforcements(ManaketeReinforcements4)
+
+LABEL 9
+EndEvent
+
+
 
 EndingScene:
 ENUN

@@ -19,7 +19,7 @@
 #define Ch20A_GaidenGoneFlag 0xD
 
 //Ch20A_RoartzVsDouglasFlag 0x1F
-//Ch20A_GenericCitizenIlliaDeath 0x20
+//Ch20A_GenericCitizenIlliaDeathFlag 0x20
 
 EventPointerTable(EVENTS_Ch20A,ThisChapter)
 NPCEscapePointPointerTable(CHAPTER_Ch20A,Ch20AEscapePoints)
@@ -309,7 +309,7 @@ BranchIfFlagON(5,Ch20A_GaidenGoneFlag)
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch20A_EndGaidenGot)
 
-BranchIfFlagON(3,Ch20A_GenericCitizenIlliaDeath)
+BranchIfFlagON(3,Ch20A_GenericCitizenIlliaDeathFlag)
 Text(BG_Castle1,Ch20A_EndAngelicRobe)
 GiveItemToCharacter(Roy,AngelicRobe)
 LABEL 3
@@ -329,7 +329,7 @@ TEXTCONT
 TEXTEND
 REMA
 
-BranchIfFlagON(7,Ch20A_GenericCitizenIlliaDeath)
+BranchIfFlagON(7,Ch20A_GenericCitizenIlliaDeathFlag)
 Text(BG_Castle1,Ch20A_EndAngelicRobe)
 GiveItemToCharacter(Roy,AngelicRobe)
 LABEL 7

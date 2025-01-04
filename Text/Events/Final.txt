@@ -1,4 +1,4 @@
-## Endgame_Start1
+## Final_Start1
 [OpenMidLeft][LoadIdunnHood][OpenMidRight][LoadRoy]
 [OpenMidLeft][NormalPrint][ToggleMouthMove]......[AN]
 [OpenMidRight][FastPrint][ToggleMouthMove][ToggleSmile]You're the Dark Priestess...[N]
@@ -52,20 +52,20 @@ I awoke for the purpose of[N]
 fulfilling his desires.[AN][X]
 
 
-## Endgame_Start2FaeAlive
+## Final_Start2FaeAlive
 [OpenMidRight][LoadRoy][ToggleSmile]Now is the time of truth![AN]
 I have the blade of Hartmut, who took[N]
 pity on you and spared your life![AN]
 Everyone, leave the final blow to me!![AN][X]
 
-## Endgame_Start2FaeDead
+## Final_Start2FaeDead
 [OpenMidRight][LoadRoy][ToggleSmile]I don't want to fight you...[N]
 But I can't leave things as they are![AN]
 The history of man may be tainted...[N]
 but we can do great things as well![AN]
 I will fight and prove that to you![AN][X]
 
-## Endgame_EndGood1
+## Final_EndGood1
 [OpenMidLeft][LoadFae][OpenMidRight][LoadRoy][OpenMidLeft][NormalPrint][ToggleSmile]Ah![AN]
 [OpenMidRight][FastPrint]Oh no...[N]
 The sanctuary is collapsing![AN]
@@ -74,7 +74,7 @@ Everyone! Hurry outside![AN]
 [OpenMidRight]I'll be fine.[AN]
 Now go!![AN][X]
 
-## Endgame_EndGood2
+## Final_EndGood2
 [OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft]Lord Roy![N]
 You are unharmed![AN]
@@ -98,12 +98,12 @@ Oh, yes.[AN]
 Merlinus, I need to ask[N]
 a favor of you...[AN][X]
 
-## Endgame_EndBad1
+## Final_EndBad1
 [OpenMidRight][LoadRoy][ToggleSmile]Oh no...[N]
 The sanctuary is collapsing![AN]
 Everyone! Hurry outside![AN][X]
 
-## Endgame_EndBad2
+## Final_EndBad2
 [OpenMidLeft][LoadMerlinus][OpenMidRight][LoadRoy]
 [OpenMidLeft]Lord Roy![N]
 You are unharmed![AN]

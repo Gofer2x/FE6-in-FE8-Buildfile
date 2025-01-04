@@ -263,78 +263,63 @@ EndEvent
 TheAmbush:
 IncrementCounter(Ch18B_AmbushCounter)
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 1 s0 sC
+BranchIfRandomZero(1,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad1)
 LABEL 1
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 2 s0 sC
+BranchIfRandomZero(2,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad2)
 LABEL 2
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 3 s0 sC
+BranchIfRandomZero(3,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad3)
 LABEL 3
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 4 s0 sC
+BranchIfRandomZero(4,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad4)
 LABEL 4
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 5 s0 sC
+BranchIfRandomZero(5,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad5)
 LABEL 5
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 6 s0 sC
+BranchIfRandomZero(6,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad6)
 LABEL 6
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 7 s0 sC
+BranchIfRandomZero(7,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad7)
 LABEL 7
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 8 s0 sC
+BranchIfRandomZero(8,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad8)
 LABEL 8
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 9 s0 sC
+BranchIfRandomZero(9,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad9)
 LABEL 9
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 10 s0 sC
+BranchIfRandomZero(10,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad10)
 LABEL 10
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 11 s0 sC
+BranchIfRandomZero(11,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad11)
 LABEL 11
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 12 s0 sC
+BranchIfRandomZero(12,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad12)
 LABEL 12
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 13 s0 sC
+BranchIfRandomZero(13,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad13)
 LABEL 13
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 14 s0 sC
+BranchIfRandomZero(14,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad14)
 LABEL 14
 
-RANDOMNUMBER Ch18B_AmbushChance
-BNE 15 s0 sC
+BranchIfRandomZero(15,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad15)
 LABEL 15
 

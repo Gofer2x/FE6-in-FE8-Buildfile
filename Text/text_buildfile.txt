@@ -14,7 +14,11 @@ Erm, what the sigma?[X]
 
 #include "CharacterStuff/BattleQuotes.txt"
 #include "CharacterStuff/DeathQuotes.txt"
+#include "CharacterStuff/FinalQuotes.txt"
 #include "CharacterStuff/CharacterEndings.txt"
+#include "CharacterStuff/TriangleAttacks.txt"
+
+#include "Other/ChapterStuff.txt"
 
 #include "Events/RoyCathConvos.txt"
 #include "Events/MultiChapterEvents.txt"
@@ -55,7 +59,7 @@ Erm, what the sigma?[X]
 #include "Events/Chapter22.txt"
 #include "Events/Chapter23.txt"
 #include "Events/Chapter24.txt"
-#include "Events/Endgame.txt"
+#include "Events/Final.txt"
 #include "Events/Epilogue.txt"
 
 #include "CharacterStuff/Supports.txt"

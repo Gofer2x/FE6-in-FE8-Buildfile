@@ -11,7 +11,7 @@
 
 
 ALIGN 4
-MESSAGE MSR at currentOffset
+//MESSAGE MSR at currentOffset
 MagicSwordRework:
 #incbin "MagicSwordRework.dmp"
 POIN MagicSwordList

@@ -11,7 +11,7 @@
 // 0x5
 //RoutFlag 0x6
 
-//i don't think this is gonna work
+//TODO how the hell do i do this
 #define Ch21x_WestLeftChestTrappedFlag 0x7
 #define Ch21x_WestRightChestTrappedFlag 0x8
 #define Ch21x_CenterLeftChestTrappedFlag 0x9

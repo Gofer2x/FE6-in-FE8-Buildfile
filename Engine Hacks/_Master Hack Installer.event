@@ -7,6 +7,7 @@
 #include "EnginePatches/Chapternamesastext2.1/fe8_chnames.event"
 #include "EnginePatches/Allow254genericminimugs/Allow 254 generic minimugs.event"
 #include "EnginePatches/multi_discover_desert_treasures/Installer.event"
+#include "EnginePatches/BattleMusicChange2_20200603/install_battle_music_changer2.event"
 
 #include "EnginePatches/InlineFix_GenerateBestMovementScript.event"
 

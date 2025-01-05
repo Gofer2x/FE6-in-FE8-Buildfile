@@ -7,7 +7,7 @@
 	
 	ORG FreeSpace
 	
-	#include "Engine Hacks/Master Hack Installer.event"
+	#include "Engine Hacks/_Master Hack Installer.event"
 	
 	#include "Misc/EditVanillaStatBoosts.event"
 	#include "Misc/EditItemEffects.event"
@@ -34,7 +34,7 @@
 	#include "Tables/External Tables Installer.event"
 	#include "Misc/EditMovementCosts.event"
 	
-	#include "Events/Master Events Installer.event"
+	#include "Events/_Master Events Installer.event"
 	#include "Events/WMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"

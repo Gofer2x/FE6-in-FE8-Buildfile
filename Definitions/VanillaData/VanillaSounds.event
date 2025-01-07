@@ -79,7 +79,7 @@
 #define SND_ManaketeUntransform  0xDD
 
 //TODO when doing audio, don't forget to replace these too (maybe)
-#define MUS_Envsound_Windgusts 0x4E
+#define BGS_Envsound_Windgusts 0x4E
 
 #define SND_MagicShine 0x2E9
 #define SND_MagicShineLong 0x2EA
@@ -88,3 +88,4 @@
 #define SND_MagicShineLongest 0x2ED
 
 #define SND_LightCircle 0x269
+#define BGS_Earthquake 0x26A

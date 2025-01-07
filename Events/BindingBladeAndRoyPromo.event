@@ -41,7 +41,9 @@ GiveItemToCharacter(Roy,BindingBlade)
 STAL 64
 //this uses teh vanilla heaven seal which has table of 1 and 2 for promo
 //TODO this is very visually glitchy. fix
+HIDEMAP //does this fix the glitchy?
 PROM Roy RoyGreatLord HeavenSealDUMMY
+SHOWMAP
 STAL 1280
 MoveToChapter(CHAPTER_Ch22)
 EndEvent

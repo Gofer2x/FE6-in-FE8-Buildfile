@@ -317,14 +317,16 @@ TEXTCONT
 TEXTEND
 REMA
 CLEAN
+CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9
 
 LABEL 3
-//MoveToChapter(CHAPTER_Epilogue) //TODO not implemented, you just get softlocked for now lol
+CALL EVENT_ReviveMerlinus
+ChangeMode(0x2) //Eirika Mode change for Epilogue
+MNC4 0 //Epilogue Save
 
 LABEL 9
-CALL EVENT_ReviveMerlinus
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

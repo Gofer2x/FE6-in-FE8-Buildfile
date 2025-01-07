@@ -1,0 +1,51 @@
+BAD ENDING $6771CC
+GOOD ENDING $6770E0
+
+pre epilogue:
+fade into black
+epilogue save
+branch if good ending flag is on (1), else
+call epilogue (bad ending)
+goto 9
+label 1
+call epilogue (good ending)
+label 9
+enda
+
+
+
+epilogue (bad ending):
+fade from black
+start playing ending theme track
+show zephiel room (empty)
+text (bg castle w blue banners, roy, guinivere, elffin, merlinus)
+fade into black
+text scroll
+credits
+chapter summary
+char endings
+Fin
+enda?
+
+
+
+epilogue (true ending, good variant):
+clear map
+fade from black
+load2 player units
+play white shine sound effect
+fade screen into white (short, 2s)
+load idunnhuman
+fade screen from white (very short)
+screen shake and sound effect
+text (no bg, oh no! the sanctuary is collapsing)
+everyone except roy flees (check timings in decomp?)
+enun
+roy runs up to idunn, on her left side
+2s fade into black
+fade out rumble se
+load ch23 map
+load2 player units, but load1 merlinus
+stal 3s
+load roy at gate and run up to merlinus
+text (bg outside, lord roy youre unharmed)

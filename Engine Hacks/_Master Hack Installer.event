@@ -42,7 +42,9 @@
 #include "EventPatches/EVENTSCRIPT_IsTileChangeTriggered/IsTileChangeTriggered.event"
 #include "EventPatches/EVENTSCRIPT_COND_COUNT_RANGE_20220305/CountRangeState.event"
 #include "EventPatches/EVENTSCRIPT_COND_ITEM/Installer.event"
+#include "EventPatches/EVENTSCRIPT_ChangeEdition/Installer.event"
 #include "EventPatches/AAA_GetUnitExpGain/Installer.event"
+
 #include "EventPatches/New CHAI/New CHAI.event"
 #include "EventPatches/FE8-Set Condition/FE8-Set Condition.event"
 

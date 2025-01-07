@@ -127,3 +127,11 @@ MESSAGE cuz i dont feel like dealing with map events rn
 
 #define DisableSkipping "EVBIT_MODIFY 4"
 #define EnableSkipping "EVBIT_MODIFY 0"
+
+#define DisplayCharacterEndings "BYTE $40 $0D $00 $00 $95 $6C $0B $08"
+#define DisplayTurnCounts "BYTE $40 $0D $00 $00 $75 $81 $0B $08"
+#define ReturnToTitleScreen "MNTS 1"
+#define StopGameGraphicsLogic "BYTE $40 $0D $00 $00 $85 $01 $03 $08"
+#define RollEndgameCredits "BYTE $40 $0D $00 $00 $79 $48 $0C $08"
+
+#define StopHereIfSkipping "BYTE $20 $02 $02 $00"

@@ -42,6 +42,7 @@ LocationBasedEvents:
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -375,8 +376,9 @@ EndEvent
 
 
 EndingScene:
-ENUN
 CALL EVENT_ReviveMerlinus
+ChangeMode(0x2) //Eirika Mode change for Epilogue
+MNC4 0 //Epilogue Save
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

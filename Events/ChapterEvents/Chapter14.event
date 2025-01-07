@@ -194,7 +194,7 @@ CAM1 Randy
 FlashCursor(27,3,60)
 Text(BG_Castle3,Ch14_Start2)
 FadeOutMusic
-PlayMusic(MUS_Envsound_Windgusts)
+PlayMusic(BGS_Envsound_Windgusts)
 LOAD3 0x0 Units
 ENUN
 CAM1 Roy

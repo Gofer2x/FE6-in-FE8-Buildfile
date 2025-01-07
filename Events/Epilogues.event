@@ -1,0 +1,197 @@
+IdunnHumanTemple:
+UNIT IdunnHuman ShamanF 0x0 Level(20,NPC,0) [8,2] 0x0 0x0 0x0 0x0 [] DummyAI
+UNIT
+
+DummyPlayerUnitsTemple:
+UNIT Roy RoyGreatLord 0x0 Level(20,Ally,1) [8,7] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI //this should work, right? roy is always deployed 1st in order
+UNIT Ward Warrior Roy Level(20,Ally,1) [4,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [5,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [6,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [7,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [8,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [9,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [10,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [11,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [12,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT
+
+DummyPlayerUnitsOutside:
+UNIT Ward Warrior Roy Level(20,Ally,1) [3,6] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [2,7] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [3,8] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [4,7] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [5,8] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [6,7] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [7,6] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [7,8] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [8,7] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT
+
+DummyMerlinusOutside:
+UNIT Merlinus Transporter Roy Level(20,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [] DummyAI
+UNIT
+
+RoyOutside:
+UNIT Roy RoyGreatLord 0x0 Level(20,Ally,1) [5,1] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI
+UNIT
+
+
+PUSH
+ORG 0x9EC0 //hopefully this is right
+POIN Epilogue_Choicer
+POP
+
+
+Epilogue_Choicer:
+BranchIfFlagON(1,IdunnBindingBladeFlag)
+CALL Epilogue_BadEnding
+GOTO 9
+LABEL 1
+CALL Epilogue_TrueEnding
+LABEL 9
+ENDA
+
+
+
+
+
+Epilogue_BadEnding:
+DisableSkipping
+ClearAll
+PlayMusic(0x0)
+STAL 30
+LOMA CHAPTER_Ch22 
+CAM1 [16,16]
+PlayMusic(MUS_MainThemeArrangement)
+FadeFromBlack(Fade5s)
+STAL 60
+Text(BG_Castle2,EpilogueBad_ThroneRoom)
+STAL 64
+PlayMusic(MUS_Epilogue)
+
+//TODO scrolling text and char endings
+STAL 128
+
+StopHereIfSkipping
+StopGameGraphicsLogic
+STAL 10
+RollEndgameCredits
+STAL 10
+StopHereIfSkipping
+DisplayCharacterEndings
+STAL 10
+StopHereIfSkipping
+DisplayTurnCounts
+STAL 10
+ReturnToTitleScreen
+STAL 10
+
+ENDA 
+
+
+
+
+
+Epilogue_TrueEnding:
+DisableSkipping
+ClearAll
+PlayMusic(0x0)
+STAL 30
+LOMA CHAPTER_Final
+CAM1 [9,9]
+LOAD3 0x0 DummyPlayerUnitsTemple
+ENUN
+FadeFromBlack(Fade1s)
+BranchIfFlagOFF(1,IdunnBindingBladeFlag)
+
+//Idunn saved
+PlaySound(SND_LightCircle)
+FadeIntoWhite(Fade5s)
+HIDEMAP
+LOAD1 0x1 IdunnHumanTemple
+ENUN
+FadeFromWhite(Fade5s)
+
+LABEL 1
+
+STAL 60
+EARTHQUAKE_START 100
+PlayMusic(BGS_Earthquake)
+
+BranchIfUnitDead(3,Fae)
+Text(EpilogueTrue_CollapsingFae)
+GOTO 3
+LABEL 2
+Text(EpilogueTrue_CollapsingNoFae)
+LABEL 3
+
+//Everyone "escapes" offscreen
+MoveByCoords(0x0, 4, 9, 6, 16)
+MoveByCoords(0x0, 5, 10, 7, 16)
+MoveByCoords(0x0, 6, 9, 8, 16)
+MoveByCoords(0x0, 7, 10, 9, 16)
+MoveByCoords(0x0, 8, 9, 10, 16)
+MoveByCoords(0x0, 9, 10, 6, 17)
+MoveByCoords(0x0, 10, 9, 7, 17)
+MoveByCoords(0x0, 11, 10, 9, 17)
+MoveByCoords(0x0, 12, 9, 10, 17)
+ENUN
+
+BranchIfFlagOFF(4,IdunnBindingBladeFlag)
+
+//Idunn saved
+MoveNextTo(0x0,Roy,IdunnHuman)
+ENUN
+
+LABEL 4
+
+FadeIntoBlack(Fade5s)
+EARTHQUAKE_END
+FadeOutMusic //aka shake
+
+ClearAll
+LOMA CHAPTER_Ch23
+CAM1 [0,0]
+LOAD3 0x0 DummyPlayerUnitsOutside
+ENUN
+LOAD2 0x0 DummyMerlinusOutside //this should work fine if merlinus was deployed in final?
+ENUN
+FadeFromBlack(Fade5s)
+
+STAL 150
+LOAD2 0x1 RoyOutside
+ENUN
+MOVE 0x0 Roy [5,5]
+ENUN
+STAL 60
+PlayMusic(MUS_MainThemeArrangement)
+
+BranchIfFlagOFF(5,IdunnBindingBladeFlag)
+//Idunn saved
+Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnSaved)
+//TODO this has the text fade into black without REMAing if idunn lives
+GOTO 6
+
+LABEL 5
+//Idunn not saved
+Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnDead)
+
+LABEL 6
+
+FadeIntoBlack(Fade5s)
+//TODO finish this
+
+StopHereIfSkipping
+StopGameGraphicsLogic
+STAL 10
+RollEndgameCredits
+STAL 10
+StopHereIfSkipping
+DisplayCharacterEndings
+STAL 10
+StopHereIfSkipping
+DisplayTurnCounts
+STAL 10
+ReturnToTitleScreen
+STAL 10
+ENDA

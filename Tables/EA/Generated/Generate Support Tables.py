@@ -229,6 +229,7 @@ output = []
 aror = False
 
 for char in charsInOrder:
+    output.append("ALIGN 4\n")
     output.append("//"+char+"\n")
     output.append(char+"SupportData:\n")
     pairsCurrent = []

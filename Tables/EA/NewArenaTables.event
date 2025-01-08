@@ -5,12 +5,9 @@ ORG $0319A8
 POIN NewArenaMagicClassesTable
 ORG $031958
 POIN NewArenaRangedClassesTable
-
-
-
 POP
 
-
+ALIGN 4
 NewArenaMeleeClassesTable:
 BYTE Mercenary
 BYTE Hero

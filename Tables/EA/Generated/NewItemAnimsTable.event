@@ -103,4 +103,5 @@ POP
 #define Yellow 0x5
 #define Black2 0x6
 
+ALIGN 4
 #include "GeneratedItemAnimsTable.event"

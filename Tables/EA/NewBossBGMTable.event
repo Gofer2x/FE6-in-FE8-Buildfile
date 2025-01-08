@@ -1,10 +1,12 @@
-#define BossBGMEntry(unit,bgm) "BYTE unit ; BYTE 0x0 0x0 0x0 ; SHORT bgm"
+#define BossBGMEntry(UnitId,SongId) "BYTE UnitId 0 0 0; SHORT SongId 0"
+#define BossBGMTerminator "BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF"
 
 PUSH
 ORG $072908
 POIN NewBossBGMTable
 POP
 
+ALIGN 4
 NewBossBGMTable:
 BossBGMEntry(Damas,MUS_BattleForTomorrow)
 BossBGMEntry(Ruud,MUS_BattleForTomorrow)
@@ -51,4 +53,4 @@ BossBGMEntry(Zephiel,MUS_BattleForWhoseSake)
 BossBGMEntry(Brunnya,MUS_InTheNameOfBern)
 BossBGMEntry(Jahn,MUS_AtTheFinalDragon)
 BossBGMEntry(IdunnDragon,MUS_PriestessInTheDark)
-BYTE $FF $FF $FF $FF $FF $FF $FF $FF
+BossBGMTerminator

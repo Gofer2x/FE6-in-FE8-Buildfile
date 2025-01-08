@@ -1,3 +1,4 @@
+ALIGN 4
 //Roy
 RoySupportData:
 BYTE Marcus //Partner 1
@@ -24,6 +25,7 @@ BYTE 2 //Partner 7 Growth
 BYTE 7 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Marcus
 MarcusSupportData:
 BYTE Roy //Partner 1
@@ -50,6 +52,7 @@ BYTE 0
 BYTE 4 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Alen
 AlenSupportData:
 BYTE Roy //Partner 1
@@ -76,6 +79,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Lance
 LanceSupportData:
 BYTE Roy //Partner 1
@@ -102,6 +106,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Wolt
 WoltSupportData:
 BYTE Roy //Partner 1
@@ -128,6 +133,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Bors
 BorsSupportData:
 BYTE Astolfo //Partner 1
@@ -154,6 +160,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Merlinus
 MerlinusSupportData:
 BYTE 0
@@ -180,6 +187,7 @@ BYTE 0
 BYTE 0 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Elen
 ElenSupportData:
 BYTE Chad //Partner 1
@@ -206,6 +214,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Dieck
 DieckSupportData:
 BYTE Ward //Partner 1
@@ -232,6 +241,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Ward
 WardSupportData:
 BYTE Alen //Partner 1
@@ -258,6 +268,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Lot
 LotSupportData:
 BYTE Lance //Partner 1
@@ -284,6 +295,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Shanna
 ShannaSupportData:
 BYTE Roy //Partner 1
@@ -310,6 +322,7 @@ BYTE 3 //Partner 7 Growth
 BYTE 7 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Chad
 ChadSupportData:
 BYTE Elen //Partner 1
@@ -336,6 +349,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Lugh
 LughSupportData:
 BYTE Elen //Partner 1
@@ -362,6 +376,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Clarine
 ClarineSupportData:
 BYTE Lance //Partner 1
@@ -388,6 +403,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Rutger
 RutgerSupportData:
 BYTE Dieck //Partner 1
@@ -414,6 +430,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Saul
 SaulSupportData:
 BYTE Elen //Partner 1
@@ -440,6 +457,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Dorothy
 DorothySupportData:
 BYTE Clarine //Partner 1
@@ -466,6 +484,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Sue
 SueSupportData:
 BYTE Wolt //Partner 1
@@ -492,6 +511,7 @@ BYTE 0
 BYTE 4 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Zelot
 ZelotSupportData:
 BYTE Shanna //Partner 1
@@ -518,6 +538,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Trec
 TrecSupportData:
 BYTE Zelot //Partner 1
@@ -544,6 +565,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Noah
 NoahSupportData:
 BYTE Zelot //Partner 1
@@ -570,6 +592,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Astolfo
 AstolfoSupportData:
 BYTE Bors //Partner 1
@@ -596,6 +619,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Lilina
 LilinaSupportData:
 BYTE Roy //Partner 1
@@ -622,6 +646,7 @@ BYTE 2 //Partner 7 Growth
 BYTE 7 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Barthe
 BartheSupportData:
 BYTE Bors //Partner 1
@@ -648,6 +673,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Ogier
 OgierSupportData:
 BYTE Bors //Partner 1
@@ -674,6 +700,7 @@ BYTE 0
 BYTE 4 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Gwendolyn
 GwendolynSupportData:
 BYTE Bors //Partner 1
@@ -700,6 +727,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Fir
 FirSupportData:
 BYTE Rutger //Partner 1
@@ -726,6 +754,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Sin
 SinSupportData:
 BYTE Dorothy //Partner 1
@@ -752,6 +781,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Geese
 GeeseSupportData:
 BYTE Larum //Partner 1
@@ -778,6 +808,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Gonzalez
 GonzalezSupportData:
 BYTE Trec //Partner 1
@@ -804,6 +835,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Klein
 KleinSupportData:
 BYTE Dieck //Partner 1
@@ -830,6 +862,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Thea
 TheaSupportData:
 BYTE Alen //Partner 1
@@ -856,6 +889,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Larum
 LarumSupportData:
 BYTE Ogier //Partner 1
@@ -882,6 +916,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Elffin
 ElffinSupportData:
 BYTE Klein //Partner 1
@@ -908,6 +943,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Echidna
 EchidnaSupportData:
 BYTE Ward //Partner 1
@@ -934,6 +970,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Bartre
 BartreSupportData:
 BYTE Fir //Partner 1
@@ -960,6 +997,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Raigh
 RaighSupportData:
 BYTE Chad //Partner 1
@@ -986,6 +1024,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Cath
 CathSupportData:
 BYTE Chad //Partner 1
@@ -1012,6 +1051,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Melady
 MeladySupportData:
 BYTE Elen //Partner 1
@@ -1038,6 +1078,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Perceval
 PercevalSupportData:
 BYTE Dorothy //Partner 1
@@ -1064,6 +1105,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Cecilia
 CeciliaSupportData:
 BYTE Roy //Partner 1
@@ -1090,6 +1132,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Sophia
 SophiaSupportData:
 BYTE Raigh //Partner 1
@@ -1116,6 +1159,7 @@ BYTE 0
 BYTE 4 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Igrene
 IgreneSupportData:
 BYTE Saul //Partner 1
@@ -1142,6 +1186,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Garrett
 GarrettSupportData:
 BYTE Lilina //Partner 1
@@ -1168,6 +1213,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Fae
 FaeSupportData:
 BYTE Sue //Partner 1
@@ -1194,6 +1240,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Hugh
 HughSupportData:
 BYTE Chad //Partner 1
@@ -1220,6 +1267,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Zeiss
 ZeissSupportData:
 BYTE Elen //Partner 1
@@ -1246,6 +1294,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Douglas
 DouglasSupportData:
 BYTE Geese //Partner 1
@@ -1272,6 +1321,7 @@ BYTE 0
 BYTE 6 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Niime
 NiimeSupportData:
 BYTE Raigh //Partner 1
@@ -1298,6 +1348,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Juno
 JunoSupportData:
 BYTE Shanna //Partner 1
@@ -1324,6 +1375,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Dayan
 DayanSupportData:
 BYTE Rutger //Partner 1
@@ -1350,6 +1402,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Yoder
 YoderSupportData:
 BYTE Saul //Partner 1
@@ -1376,6 +1429,7 @@ BYTE 0
 BYTE 5 //Amount
 SHORT 0x0
 
+ALIGN 4
 //Karel
 KarelSupportData:
 BYTE Rutger //Partner 1

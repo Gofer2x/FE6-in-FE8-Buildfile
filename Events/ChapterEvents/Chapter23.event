@@ -173,37 +173,27 @@ EndEvent
 
 
 KarelVillageVisit:
-SetBackground(BG_Village)
-
 BranchIfUnitActive(1,Fir)
 BranchIfUnitActive(3,Bartre)
 //default case
-TEXTSTART
-TEXTSHOW Ch23_KarelVillageDefault
-TEXTEND
-REMA
+Text(BG_Village,Ch23_KarelVillageDefault)
 GOTO 9
 
 LABEL 1
 SwitchMusic(MUS_JoinUs)
-TEXTSTART
-TEXTSHOW Ch23_KarelVillageFir
-TEXTEND
-REMA
+Text(BG_Village,Ch23_KarelVillageFir)
 FlagOFF(Ch23_BartreKarelTalkFlag)
 FlagOFF(Ch23_RoyKarelTalkFlag)
 GOTO 7
 
 LABEL 3
 SwitchMusic(MUS_JoinUs)
-TEXTSTART
-TEXTSHOW Ch23_KarelVillageBartre
-TEXTEND
-REMA
+Text(BG_Village,Ch23_KarelVillageBartre)
 FlagOFF(Ch23_FirKarelTalkFlag)
 FlagOFF(Ch23_RoyKarelTalkFlag)
 
 LABEL 7
+CLEAN
 LOAD1 0x1 JustKarel
 ENUN
 TILECHANGE 1

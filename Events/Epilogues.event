@@ -43,7 +43,7 @@ POP
 
 
 Epilogue_Choicer:
-BranchIfFlagON(1,IdunnBindingBladeFlag)
+BranchIfFlagON(1,PostChapter22Flag)
 CALL Epilogue_BadEnding
 GOTO 9
 LABEL 1
@@ -110,6 +110,7 @@ FadeIntoWhite(Fade5s)
 HIDEMAP
 LOAD1 0x1 IdunnHumanTemple
 ENUN
+SHOWMAP
 FadeFromWhite(Fade5s)
 
 LABEL 1

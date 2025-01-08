@@ -4,6 +4,7 @@ final chapter and epilogue(s)
 
 add some items back. like metis tome (id 0x89), gold bags, usable earth seal (id 0x88).
 roy seal config?
+IER???? skillsys???????
 
 move all new tables to their own folder?
 
@@ -11,7 +12,8 @@ i wrote a patch for getting exp amount from unit data but doesn't work. fix it
 
 fe6 different battle sprites:
 mercenary
-bishop
+bishop (has hat, + different staff anim)
+bishop f (needs different staff anim)
 mage f
 sage
 sage f

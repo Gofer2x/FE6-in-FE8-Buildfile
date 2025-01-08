@@ -36,9 +36,6 @@
 #define CHAPTER_Ch23 0x23
 #define CHAPTER_Ch24 0x24
 #define CHAPTER_Final 0x25
-#define CHAPTER_Tutorial 0x26
-#define CHAPTER_Trial_ValleyOfDeath 0x27
-#define CHAPTER_Trial_RainyIsland 0x28
-#define CHAPTER_Trial_SnowyDefensive 0x29
-#define CHAPTER_Trial_TrialPiratesChallenge 0x2A
-#define CHAPTER_Trial_RoysTrial 0x2B
+#define CHAPTER_Blank1 0x26
+#define CHAPTER_Blank2 0x27
+#define CHAPTER_Blank3 0x28

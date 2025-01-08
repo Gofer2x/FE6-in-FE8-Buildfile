@@ -1,0 +1,13 @@
+#include "NewDeathQuotesTable.event"
+#include "NewBattleQuotesTable.event"
+#include "NewEffectivenessTables.event"
+#include "NewTerrainMovementCostTables.event"
+#include "NewPromotionTables.event"
+#include "NewItemStealingTable.event"
+#include "NewForcedDeploymentTable.event"
+#include "NewArenaTables.event"
+#include "NewBossBGMTable.event"
+
+//Generated
+#include "Generated/NewSupportTables.event"
+#include "Generated/NewItemAnimsTable.event"

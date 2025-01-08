@@ -10,7 +10,7 @@
 //Firestone - +10 POW, +10 SKL, +20 DEF, +5 RES 
 //Divinestone - +12 POW, +12 SKL, +15 DEF, +20 RES (Vanilla, DragonstoneBoost)
 
-//Edit WretchedAirBoost's RES to +5 (from +10)
+//Edit WretchedAirBoost's RES to +5 (from +10) to be used for Firestone
 PUSH
 ORG 0x8AEF71
 BYTE 5

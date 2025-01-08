@@ -36,9 +36,6 @@ CHAPTER_Ch22
 CHAPTER_Ch23
 CHAPTER_Ch24
 CHAPTER_Final
-CHAPTER_Tutorial
-CHAPTER_Trial_ValleyOfDeath
-CHAPTER_Trial_RainyIsland
-CHAPTER_Trial_SnowyDefensive
-CHAPTER_Trial_TrialPiratesChallenge
-CHAPTER_Trial_RoysTrial
+CHAPTER_Blank1
+CHAPTER_Blank2
+CHAPTER_Blank3

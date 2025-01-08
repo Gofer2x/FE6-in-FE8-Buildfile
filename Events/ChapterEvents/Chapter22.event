@@ -317,6 +317,7 @@ TEXTCONT
 TEXTEND
 REMA
 CLEAN
+FlagON(PostChapter22Flag)
 CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9

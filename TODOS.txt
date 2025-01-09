@@ -19,7 +19,7 @@ sage
 sage f
 shaman, druid (m and f) have different palettes
 
-triangle attack!
+triangle attack doesn't have text?
 
 manakete anims
 

@@ -4,7 +4,7 @@ echo Running full make hack.
 
 copy FE8_clean.gba myHack.gba
 
-cd "%~dp0Tables"
+cd "%~dp0Tables/NightmareModules"
 echo: | (c2ea "%~dp0FE8_clean.gba" -installer "%base_dir%Tables/TableInstaller.event")
 
 cd "%~dp0Text"

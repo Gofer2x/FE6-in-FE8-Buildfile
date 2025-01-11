@@ -279,12 +279,11 @@ ALIGN 4
 BeginningScene:
 PlayMusic(MUS_Dignified)
 LOAD1 0x1 Enemies
-CHECK_HARD
-BEQ 1 s0 sC
+BranchIfNotHard(1)
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 
 FlagON(Ch21_RedZoneDoneFlag)
 FlagON(Ch21_OrangeZoneDoneFlag)

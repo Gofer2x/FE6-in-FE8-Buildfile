@@ -152,7 +152,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlashCursor(Sigune,60)
 Text(BG_Castle1,Ch19A_Start1)
 PlayMusic(MUS_WhenTheRushComes)

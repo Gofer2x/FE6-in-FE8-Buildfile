@@ -101,6 +101,8 @@
 #define Fade2s 12
 #define Fade1s 16
 
+#define ChStartFadeFromBlack "FADU 60"
+
 #define FadeFromBlack "FADU 60"
 #define FadeFromBlack(speed) "FADU speed"
 #define FadeIntoBlack "FADI 60"

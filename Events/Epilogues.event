@@ -35,6 +35,11 @@ RoyOutside:
 UNIT Roy RoyGreatLord 0x0 Level(20,Ally,1) [5,1] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI
 UNIT
 
+RoyGuinivereSoldier:
+UNIT Roy RoyLord 0x0 Level(20,Ally,1) [16,9] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI
+UNIT GuinivereTrial SageF 0x0 Level(20,NPC,1) [15,8] 0x0 0x0 0x0 0x0 [] DummyAI
+UNIT GenericBernCh22 Soldier 0x0 Level(5,NPC,1) [15,9] 0x0 0x0 0x1 REDA_15_17 [IronLance] DummyAI
+UNIT
 
 PUSH
 ORG 0x9EC0 //hopefully this is right
@@ -69,7 +74,7 @@ Text(BG_Castle2,EpilogueBad_ThroneRoom)
 STAL 64
 PlayMusic(MUS_Epilogue)
 
-//TODO scrolling text and char endings
+//TODO text scroll
 STAL 128
 
 StopHereIfSkipping
@@ -180,6 +185,49 @@ Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnDead)
 LABEL 6
 
 FadeIntoBlack(Fade5s)
+
+HIDEMAP
+ClearAll
+
+//TODO text scroll here
+
+FadeOutMusic
+STAL 120
+
+PlayMusic(MUS_Epilogue)
+
+//BranchIfNoLilinaRoyASupport(7) //TODO
+Text(BG_Castle3,EpilogueTrue_RoyLilinaASupport)
+GOTO 8
+
+LABEL 7
+FadeOutMusic
+LOMA CHAPTER_Ch22
+CAM1 [16,16]
+LOAD1 0x1 RoyGuinivereSoldier
+ENUN
+SHOWMAP
+FadeFromBlack(Fade5s)
+Text(EpilogueTrue_GuiniveresCrowning1)
+STAL 30
+MoveByCoords(0x0,15,17,15,9) //Soldier guy
+ENUN
+Text(EpilogueTrue_GuiniveresCrowning2)
+MoveByCoords(0x0,15,9,15,17)
+ENUN
+MOVE 0x0 GuinivereTrial [15,10] //two down
+ENUN
+Text(EpilogueTrue_GuiniveresCrowning3)
+
+//also roy doesn't move in the idunn saved + fae alive ending apparently. whatever man lol
+MOVE 8 GuinivereTrial [15,22]
+STAL 10
+MOVE 8 Roy [16,22]
+ENUN
+FadeIntoBlack(Fade2s)
+
+LABEL 8
+
 //TODO finish this
 
 StopHereIfSkipping

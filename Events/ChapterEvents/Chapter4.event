@@ -145,7 +145,7 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_Suspicious)
-FadeFromBlack
+ChStartFadeFromBlack
 LOAD 0x1 CutsceneNarcian
 ENUN
 STAL 16

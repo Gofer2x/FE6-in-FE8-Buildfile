@@ -186,7 +186,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlagON(Ch20A_ShannaJunoExtraTalkFlag)
 FlagON(Ch20A_TheaJunoExtraTalkFlag)
 FlagON(Ch20A_ZelotJunoExtraTalkFlag)

@@ -139,9 +139,9 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_TheKingOfBern)
-LOAD1 0x0 Enemies
+LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 [19,2]
 STAL 16
 Text(BG_Castle1, Ch3_Start1)

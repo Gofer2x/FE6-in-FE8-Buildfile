@@ -254,7 +254,7 @@ BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 DISA Orlo
 STAL 16

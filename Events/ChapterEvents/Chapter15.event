@@ -161,7 +161,7 @@ BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlagON(Ch15_PercevalRecruitmentFlag)
 FlagON(Ch15_RoyPercevalTalkFlag)
 CMOF

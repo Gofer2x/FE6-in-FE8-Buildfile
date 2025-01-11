@@ -179,7 +179,8 @@ ALIGN 4
 BeginningScene:
 PlayMusic(MUS_TheKingdomOfBern)
 LOAD1 0x1 Enemies
-FadeFromBlack
+ENUN
+ChStartFadeFromBlack
 
 FlagON(Ch12_LughRaighExtraTalkFlag)
 FlagON(Ch12_ChadRaighExtraTalkFlag)

@@ -139,7 +139,7 @@ BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 [2,14]
 STAL 16
 Text(Ch5_Start1)

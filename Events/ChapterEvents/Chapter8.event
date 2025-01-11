@@ -191,7 +191,7 @@ BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 //weird asm
 MoveByCoords(0, 6, 19, 6, 18)
 ENUN

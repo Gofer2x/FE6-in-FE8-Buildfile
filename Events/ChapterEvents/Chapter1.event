@@ -111,7 +111,7 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-FadeFromBlack
+ChStartFadeFromBlack
 PlayMusic(MUS_AnUnexpectedCaller)
 LOAD1 0x1 Enemies1
 ENUN

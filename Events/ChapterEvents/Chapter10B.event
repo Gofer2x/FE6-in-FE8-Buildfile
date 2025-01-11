@@ -226,7 +226,7 @@ BeginningScene:
 PlayMusic(MUS_WildFrontier)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CMOF
 FlagON(Ch11A_Ch10B_ClarineKleinExtraTalkFlag)
 Text(BG_Castle1,Ch10B_Start1)

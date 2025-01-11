@@ -210,12 +210,11 @@ ALIGN 4
 BeginningScene:
 MUSC MUS_TheKingOfBern
 LOAD1 0x1 Enemies
-ENUN
-CHECK_HARD
-BEQ 1 s0 sC
+BranchIfNotHard(1)
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
-FadeFromBlack
+ENUN
+ChStartFadeFromBlack
 
 BranchIfFlagOFF(2,CathRecruitedOrDeadFlag)
 FlagON(Ch22_RoyCathTalkFlag)

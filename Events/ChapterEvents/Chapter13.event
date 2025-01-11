@@ -209,7 +209,7 @@ BeginningScene:
 PlayMusic(MUS_Suspicious)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 Flaer
 STAL 16
 CMOF

@@ -195,12 +195,11 @@ ALIGN 4
 BeginningScene:
 PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
-CHECK_HARD
-BEQ 1 s0 sC
+BranchIfNotHard(1)
 LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlagON(Ch7_ConvoFlagD)
 FlagON(Ch7_ThroneEnemiesFlag)
 MOVE 0x0 Debias [4,2]

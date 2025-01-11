@@ -44,6 +44,7 @@ STAL 64
 HIDEMAP //does this fix the glitchy?
 PROM Roy RoyGreatLord HeavenSealDUMMY
 SHOWMAP
+FadeFromBlack(Fade1s)
 STAL 1280
 MoveToChapter(CHAPTER_Ch22)
 EndEvent

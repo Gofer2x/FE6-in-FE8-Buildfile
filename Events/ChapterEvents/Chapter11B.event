@@ -197,7 +197,7 @@ BeginningScene:
 PlayMusic(MUS_AnUnexpectedCaller)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 DISA Morgan
 LOAD1 0x1 Civilians
 ENUN

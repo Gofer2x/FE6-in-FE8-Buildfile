@@ -206,7 +206,7 @@ BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 Text(Ch20Bx_Start1)
 PlayMusic(MUS_ScarsOfTheScouring)
 LOAD3 0x0 Units

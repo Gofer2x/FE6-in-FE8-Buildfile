@@ -126,7 +126,7 @@ BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 
 CAM1 Windham
 Text(BG_Temple2Yellow,Ch16x_Start1)

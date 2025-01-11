@@ -150,7 +150,7 @@ BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 Oates
 FlashCursor(Oates,60)
 Text(BG_Temple2White,Ch14x_Start1)

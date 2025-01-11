@@ -170,7 +170,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch20B_RoyCathTalkFlag)
 LABEL 1

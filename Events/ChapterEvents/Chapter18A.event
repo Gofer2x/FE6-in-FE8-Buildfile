@@ -159,7 +159,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 Text(BG_Castle1,Ch18A_Start1)
 LOAD3 0x0 Units
 ENUN

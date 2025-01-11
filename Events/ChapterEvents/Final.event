@@ -101,11 +101,10 @@ UNIT
 ALIGN 4
 
 BeginningScene:
-LOAD2 0x0 Units
-ENUN
+LOAD3 0x0 Units
 LOAD1 0x1 IdunnManaketes
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 //asm here
 //more asm
 STAL 16

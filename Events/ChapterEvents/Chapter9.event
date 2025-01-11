@@ -143,7 +143,7 @@ BeginningScene:
 PlayMusic(MUS_MessengerFromTheDarkness)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 [2,3]
 FlashCursor(2,3,60)
 CMOF

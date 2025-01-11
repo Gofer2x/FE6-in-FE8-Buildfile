@@ -221,7 +221,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlashCursor(17,19,60)
 Text(BG_Outside,Ch18B_Start1)
 LOAD3 0x0 Units

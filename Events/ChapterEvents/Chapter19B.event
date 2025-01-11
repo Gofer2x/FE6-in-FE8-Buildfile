@@ -178,7 +178,7 @@ BeginningScene:
 PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlashCursor(16,1,60)
 Text(BG_Castle3,Ch19B_Start1)
 PlayMusic(MUS_PrincessOfDestiny)

@@ -189,7 +189,7 @@ BeginningScene:
 PlayMusic(MUS_Suspicious)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch16_RoyCathTalkFlag)
 LABEL 1

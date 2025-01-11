@@ -147,7 +147,7 @@ BeginningScene:
 PlayMusic(MUS_WildFrontier)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 [18,29]
 FlashCursor(18,29,60)
 CMOF

@@ -186,7 +186,7 @@ BeginningScene:
 PlayMusic(MUS_AnUnexpectedCaller)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlashCursor(27,1,60)
 Text(BG_Temple1,Ch14_Start1)
 PlayMusic(MUS_MessengerFromTheDarkness)

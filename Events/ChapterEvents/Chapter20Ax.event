@@ -118,9 +118,9 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_LegendaryInheritance)
-ENUN
 LOAD1 0x1 Enemies
-FadeFromBlack
+ENUN
+ChStartFadeFromBlack
 CAM1 [16,1]
 FlashCursor(16,1,60)
 Text(BG_Temple2White,Ch20Ax_Start1)

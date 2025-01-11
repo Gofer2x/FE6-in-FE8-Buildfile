@@ -219,7 +219,7 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 STAL 60
 SetBackground(BG_Castle1)
 TEXTSTART

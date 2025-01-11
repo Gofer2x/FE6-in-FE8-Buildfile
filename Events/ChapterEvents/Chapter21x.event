@@ -160,7 +160,7 @@ ENUN
 //FlagON(Ch21x_CenterLeftChestTrappedFlag)
 //FlagON(Ch21x_EastLeftChestTrappedFlag)
 //FlagON(Ch21x_EastRightChestTrappedFlag)
-FadeFromBlack
+ChStartFadeFromBlack
 CAM1 [15,1]
 FlashCursor(15,1,60)
 Text(BG_Temple2White,Ch21x_Start)

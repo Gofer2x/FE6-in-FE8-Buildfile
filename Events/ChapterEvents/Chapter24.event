@@ -164,7 +164,7 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 LOAD1 0x1 Units
 ENUN
 CAM1 Roy

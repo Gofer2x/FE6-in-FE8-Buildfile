@@ -147,7 +147,7 @@ BeginningScene:
 PlayMusic(MUS_Melancholic)
 LOAD1 0x1 Enemies
 ENUN
-FadeFromBlack
+ChStartFadeFromBlack
 FlagON(Ch23_FirKarelTalkFlag)
 FlagON(Ch23_BartreKarelTalkFlag)
 FlagON(Ch23_RoyKarelTalkFlag)

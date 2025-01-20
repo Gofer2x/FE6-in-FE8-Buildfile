@@ -25,6 +25,7 @@
 #define Ch24_Throne4SeizeFlag 0xA
 #define Ch24_Throne5SeizeFlag 0xB
 #define Ch24_Throne6SeizeFlag 0xC
+#define Ch24_ReinforcementCounter 0x0
 
 EventPointerTable(EVENTS_Ch24,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch24,0x0)
@@ -45,10 +46,10 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,ThroneReinforcements,1,255)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
-//TODO Reinforcements
 //The enemy phase of every other turn after the first throne is seized and before the second is
 //1 Manakete with an Elixir from the southeast room
 //The enemy phase of every other turn after the second throne is seized and before the third is
@@ -185,6 +186,7 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump1)
 TILECHANGE Ch24_Throne1SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 Throne2Seize:
@@ -192,6 +194,7 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump2)
 TILECHANGE Ch24_Throne2SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 Throne3Seize:
@@ -199,6 +202,7 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump3)
 TILECHANGE Ch24_Throne3SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 Throne4Seize:
@@ -206,6 +210,7 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump4)
 TILECHANGE Ch24_Throne4SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 Throne5Seize:
@@ -213,6 +218,7 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump5)
 TILECHANGE Ch24_Throne5SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 
@@ -221,6 +227,51 @@ SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump6)
 TILECHANGE Ch24_Throne6SeizeTileChange
 RestoreMusic
+SetCounter(Ch24_ReinforcementCounter,5)
+EndEvent
+
+ThroneReinforcements:
+BranchIfCounterZero(9,Ch24_ReinforcementCounter) //don't run if counter exhausted
+BranchIfFlagOFF(9,Ch24_Throne1SeizeFlag) //skip if no thrones have been seized yet
+CHECK_TURNS //only run on even turns. copied this from febuilder
+SVAL s7 1
+SAND 0xC7C
+BNE 9 sC s0
+
+BranchIfFlagON(1,Ch24_Throne6SeizeFlag)
+BranchIfFlagON(2,Ch24_Throne5SeizeFlag)
+BranchIfFlagON(3,Ch24_Throne4SeizeFlag)
+BranchIfFlagON(4,Ch24_Throne3SeizeFlag)
+BranchIfFlagON(5,Ch24_Throne2SeizeFlag)
+BranchIfFlagON(6,Ch24_Throne1SeizeFlag)
+
+LABEL 1
+LoadReinforcements(ManaketeReinforcements6)
+GOTO 8
+
+LABEL 2
+LoadReinforcements(ManaketeReinforcements5)
+GOTO 8
+
+LABEL 3
+LoadReinforcements(ManaketeReinforcements4)
+GOTO 8
+
+LABEL 4
+LoadReinforcements(ManaketeReinforcements3)
+GOTO 8
+
+LABEL 5
+LoadReinforcements(ManaketeReinforcements2)
+GOTO 8
+
+LABEL 6
+LoadReinforcements(ManaketeReinforcements1)
+
+LABEL 8
+DecrementCounter(Ch24_ReinforcementCounter)
+
+LABEL 9
 EndEvent
 
 EndingScene:

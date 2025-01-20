@@ -4,7 +4,7 @@ UNIT
 
 DummyPlayerUnitsTemple:
 UNIT Roy RoyGreatLord 0x0 Level(20,Ally,1) [8,7] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI //this should work, right? roy is always deployed 1st in order
-UNIT Ward Warrior Roy Level(20,Ally,1) [4,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
+UNIT Ward Warrior Roy Level(20,Ally,1) [4,9] 0x0 0x0 0x0 0x0 [Armads, Mulagir] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [5,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [6,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [7,10] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
@@ -16,6 +16,7 @@ UNIT Ward Warrior Roy Level(20,Ally,1) [12,9] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
 UNIT
 
 DummyPlayerUnitsOutside:
+UNIT Roy RoyGreatLord 0x0 Level(20,Ally,1) [5,6] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [3,6] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [2,7] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
 UNIT Ward Warrior Roy Level(20,Ally,1) [3,8] 0x0 0x0 0x0 0x0 [Mulagir] DummyAI
@@ -39,6 +40,11 @@ RoyGuinivereSoldier:
 UNIT Roy RoyLord 0x0 Level(20,Ally,1) [16,9] 0x0 0x0 0x0 0x0 [SlimSword] DummyAI
 UNIT GuinivereTrial SageF 0x0 Level(20,NPC,1) [15,8] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT GenericBernCh22 Soldier 0x0 Level(5,NPC,1) [15,9] 0x0 0x0 0x1 REDA_15_17 [IronLance] DummyAI
+UNIT
+
+IdunnAndFae:
+UNIT Fae FaeManakete 0x0 Level(20,Ally,1) [29,8] 0x0 0x0 0x0 0x0 [Divinestone] DummyAI
+UNIT IdunnHuman ShamanF 0x0 Level(20,NPC,1) [30,8] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
 PUSH
@@ -65,8 +71,9 @@ DisableSkipping
 ClearAll
 PlayMusic(0x0)
 STAL 30
-LOMA CHAPTER_Ch22 
-CAM1 [16,16]
+LOMA CHAPTER_Ch22
+TILECHANGE 0
+CAM1 [15,9]
 PlayMusic(MUS_MainThemeArrangement)
 FadeFromBlack(Fade5s)
 STAL 60
@@ -103,7 +110,7 @@ ClearAll
 PlayMusic(0x0)
 STAL 30
 LOMA CHAPTER_Final
-CAM1 [9,9]
+CAM1 [8,9]
 LOAD3 0x0 DummyPlayerUnitsTemple
 ENUN
 FadeFromBlack(Fade1s)
@@ -146,9 +153,10 @@ ENUN
 BranchIfFlagOFF(4,IdunnBindingBladeFlag)
 
 //Idunn saved
+CMON
 MoveNextTo(0x0,Roy,IdunnHuman)
 ENUN
-
+CMOF
 LABEL 4
 
 FadeIntoBlack(Fade5s)
@@ -160,11 +168,13 @@ LOMA CHAPTER_Ch23
 CAM1 [0,0]
 LOAD3 0x0 DummyPlayerUnitsOutside
 ENUN
-LOAD2 0x0 DummyMerlinusOutside //this should work fine if merlinus was deployed in final?
+REMU Roy
+LOAD2 0x0 DummyMerlinusOutside //TODO test if this works fine if merlinus was deployed in final
 ENUN
 FadeFromBlack(Fade5s)
 
 STAL 150
+REVEAL Roy
 LOAD2 0x1 RoyOutside
 ENUN
 MOVE 0x0 Roy [5,5]
@@ -196,39 +206,72 @@ STAL 120
 
 PlayMusic(MUS_Epilogue)
 
-//BranchIfNoLilinaRoyASupport(7) //TODO
+GetSupportLevel(Roy,Lilina)
+SVAL s1 3
+BNE 7 s1 sC
 Text(BG_Castle3,EpilogueTrue_RoyLilinaASupport)
 GOTO 8
 
 LABEL 7
 FadeOutMusic
 LOMA CHAPTER_Ch22
-CAM1 [16,16]
+TILECHANGE 0
+CAM1 [15,9]
 LOAD1 0x1 RoyGuinivereSoldier
 ENUN
 SHOWMAP
 FadeFromBlack(Fade5s)
 Text(EpilogueTrue_GuiniveresCrowning1)
 STAL 30
-MoveByCoords(0x0,15,17,15,9) //Soldier guy
+MoveByCoords(0x0,15,17,15,9) //Soldier guy moves up to throne
 ENUN
 Text(EpilogueTrue_GuiniveresCrowning2)
-MoveByCoords(0x0,15,9,15,17)
+MoveByCoords(0x0,15,9,15,17) //Soldier guy moves back offscreen
 ENUN
-MOVE 0x0 GuinivereTrial [15,10] //two down
+MOVE 0x0 GuinivereTrial [15,10] //Two down
 ENUN
 Text(EpilogueTrue_GuiniveresCrowning3)
 
-//also roy doesn't move in the idunn saved + fae alive ending apparently. whatever man lol
+//Roy doesn't move in the Idunn saved + Fae alive ending apparently. Not implementing that here lol.
+//Roy and Guinivere run off together
 MOVE 8 GuinivereTrial [15,22]
 STAL 10
 MOVE 8 Roy [16,22]
 ENUN
 FadeIntoBlack(Fade2s)
+ClearAll
 
 LABEL 8
 
-//TODO finish this
+BranchIfFlagOFF(9,IdunnBindingBladeFlag)
+BranchIfUnitDead(9,Fae)
+
+//TODO "Later, in Arcadia..."
+
+LOMA CHAPTER_Ch14
+CAM1 [27,3]
+PlayMusic(MUS_DistantUtopia)
+Text(BG_Temple1,EpilogueTrue_FaeIdunn1)
+FadeIntoBlack(Fade2s)
+LOAD2 0x1 IdunnAndFae
+ENUN
+
+//Fadein
+//FAE Move Speed 14, Left x7, Highlight (4)
+//STAL 30
+//IDUNN Move Speed 6, Left x8
+//ENUN
+
+FadeFromBlack(Fade2s)
+MOVE 14 Fae [22,8] //Fae runs left
+STAL 30
+MOVE 0xC IdunnHuman [22,8] //Idunn slowly follows her
+STAL 60
+MOVE 8 Fae [22,7] //Fae moves a bit up
+ENUN
+//PlayMusic(MUS_Something) idunn theme)
+Text(EpilogueTrue_FaeIdunn2)
+//TODO coconut
 
 StopHereIfSkipping
 StopGameGraphicsLogic

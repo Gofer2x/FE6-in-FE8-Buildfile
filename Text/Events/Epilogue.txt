@@ -320,7 +320,7 @@ If you will have me, then it is[N]
 my pleasure to accompany you.[AN]
 [OpenFarLeft][ToggleSmile]Then come...[N]
 This way.[AN]
-[OpenMidRight]Let us see a new Bern...[.....]
+[OpenMidRight]Let us see a new Bern...[.....][N]
 And the beginning of a new era.[AN][X]
 
 ## EpilogueTrue_EndScroll1
@@ -355,10 +355,10 @@ came to a close...[N][X]
 
 
 
-## EpilogueTrue_FaeIdunn1
+## EpilogueTrue_LaterInArcadia
 Later, in Arcadia...[N][X]
 
-## EpilogueTrue_FaeIdunn2
+## EpilogueTrue_FaeIdunn1
 [OpenMidLeft][LoadVillager18][OpenMidRight][LoadRoy]
 [OpenMidLeft]Ah, Lord Roy.[N]
 It has been far too long.[AN]
@@ -408,7 +408,7 @@ An expression of emotion would[N]
 be a promising first step...[AN]
 A laugh, for example...[AN][OpenMidLeft][X]
 
-## EpilogueTrue_FaeIdunn3
+## EpilogueTrue_FaeIdunn2
 [OpenMidRight][LoadIdunnHuman][OpenMidLeft][LoadFae]
 And that is called[N]
 a tree![.......][.....]

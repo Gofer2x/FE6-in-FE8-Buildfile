@@ -337,8 +337,7 @@ EndEvent
 
 HardZinqueMoreReinforcements:
 BranchIfBossDead(9)
-CHECK_HARD
-BNE 9 s0 sC
+BranchIfNotHard(9)
 SwitchMusic(MUS_WildFrontier)
 CAM1 [27,2]
 FlashCursor(27,2,60)

@@ -161,7 +161,6 @@ TEXTCONT
 TEXTEND
 REMA
 CLEAN
-//TODO rema doesn't remove the bg here?? idk man
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy

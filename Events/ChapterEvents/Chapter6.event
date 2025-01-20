@@ -302,7 +302,7 @@ HardReinforcementEvent(ThroneRoomReinforcements3)
 
 BottomHalfReinforcementsEvent:
 CountUnitsInRange(0,0,0,0,$F0000,$170019,0) //just took em from febuilder idk how to turn coords into shorts lol
-BEQ 1 sC s0
+BranchIfResultIsZero(1)
 FlagOFF(Ch6_SouthReinforcementsFlag)
 GOTO 9
 

@@ -1490,9 +1490,9 @@
 #define EpilogueTrue_EndScroll7 0x1317
 #define EpilogueTrue_EndScroll8 0x1318
 #define EpilogueTrue_EndScroll9 0x1319
-#define EpilogueTrue_FaeIdunn1 0x131a
-#define EpilogueTrue_FaeIdunn2 0x131b
-#define EpilogueTrue_FaeIdunn3 0x131c
+#define EpilogueTrue_LaterInArcadia 0x131a
+#define EpilogueTrue_FaeIdunn1 0x131b
+#define EpilogueTrue_FaeIdunn2 0x131c
 #define EpilogueTrue_AWarmBreeze 0x131d
 #define RoyMarcusSupportC 0x131e
 #define RoyMarcusSupportB 0x131f

@@ -44,6 +44,7 @@
 #include "EventPatches/EVENTSCRIPT_COND_COUNT_RANGE_20220305/CountRangeState.event"
 #include "EventPatches/EVENTSCRIPT_COND_ITEM/Installer.event"
 #include "EventPatches/EVENTSCRIPT_ChangeEdition/Installer.event"
+#include "EventPatches/EVENTSCRIPT_GetSupport_20220520/Installer.event"
 #include "EventPatches/AAA_GetUnitExpGain/Installer.event"
 
 #include "EventPatches/New CHAI/New CHAI.event"

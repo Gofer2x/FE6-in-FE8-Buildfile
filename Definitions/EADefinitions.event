@@ -44,6 +44,7 @@
 #define BranchIfRandomZero(label,random) "RANDOMNUMBER random ; BNE label s0 sC"
 
 #define BranchIfResultEqualTo(label,number) "SVAL s1 number ; BEQ label s1 sC"
+#define BranchIfResultIsZero(label) "BEQ label s0 sC"
 
 #define LoseMoney(amount) "SVAL s3 amount ; TAKEMONEY"
 
@@ -101,7 +102,7 @@
 #define Fade2s 12
 #define Fade1s 16
 
-#define ChStartFadeFromBlack "FADU 60"
+#define ChStartFadeFromBlack "FADU 16"
 
 #define FadeFromBlack "FADU 60"
 #define FadeFromBlack(speed) "FADU speed"

@@ -276,7 +276,6 @@ GuinivereFound:
 //first switch from map theme to zephiel music, then switch to guinivere, then back to zephiel, then finally back to map music.
 //i will do a normal "play music" at the start and do a restore for the zephiel music, then just keep the music at end.
 //enemy phase starts right as the event ends so you don't get to hear the player phase track anyway.
-//TODO see if this works properly.
 PlayMusic(MUS_TheKingOfBern)
 CAM1 [43,9]
 MOVE 0x0 Narcian [43,10]

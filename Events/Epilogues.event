@@ -82,6 +82,7 @@ STAL 64
 PlayMusic(MUS_Epilogue)
 
 //TODO text scroll
+Text(TempBadEndingScroll)
 STAL 128
 
 StopHereIfSkipping
@@ -200,6 +201,7 @@ HIDEMAP
 ClearAll
 
 //TODO text scroll here
+Text(TempTrueEndingScroll)
 
 FadeOutMusic
 STAL 120
@@ -247,6 +249,7 @@ BranchIfFlagOFF(9,IdunnBindingBladeFlag)
 BranchIfUnitDead(9,Fae)
 
 //TODO "Later, in Arcadia..."
+Text(TempLaterInArcadia)
 
 LOMA CHAPTER_Ch14
 CAM1 [27,3]

@@ -186,7 +186,7 @@ mugsData = { #"Name": [mouthX,mouthY,eyeX,eyeY]
 #Mugs that are palette swaps of other mugs. The first is the original mug, the one that will have all of its data installed. The rest, only palettes.
 paletteSwaps = {
     "Soldier1": ["Soldier2","Soldier3","Soldier4","Soldier5","Soldier6","Soldier7"],
-    #"Villager1": ["Villager13","Villager25","Villager37","Villager49"], #Commented out until I can fix them.
+    "Villager1": ["Villager13","Villager25","Villager37","Villager49"],
     "Villager2": ["Villager14","Villager26","Villager38","Villager50"],
     "Villager3": ["Villager15","Villager27","Villager39","Villager51"],
     "Villager3": ["Villager15","Villager27","Villager39","Villager51"],

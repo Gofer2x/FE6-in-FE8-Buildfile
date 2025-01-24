@@ -1924,3 +1924,6 @@
 #define DayanYoderSupportB 0x14c9
 #define DayanYoderSupportA 0x14ca
 #define ThisShouldNotHappen 0x14cb
+#define TempBadEndingScroll 0x14cc
+#define TempTrueEndingScroll 0x14cd
+#define TempLaterInArcadia 0x14ce

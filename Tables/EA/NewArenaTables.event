@@ -48,6 +48,7 @@ BYTE Soldier
 BYTE Soldier
 BYTE 0x0
 
+ALIGN 4
 NewArenaMagicClassesTable:
 BYTE Mercenary
 BYTE Hero
@@ -93,6 +94,7 @@ BYTE Soldier
 BYTE Soldier
 BYTE 0x0
 
+ALIGN 4
 NewArenaRangedClassesTable:
 BYTE Archer
 BYTE Sniper

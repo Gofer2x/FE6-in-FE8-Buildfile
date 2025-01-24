@@ -906,7 +906,7 @@
 #define EndingTitleLance 0x10cf
 #define EndingTitlePerceval 0x10d0
 #define EndingTitleIgrene 0x10d1
-#define EndingeTitleMarcus 0x10d2
+#define EndingTitleMarcus 0x10d2
 #define EndingTitleAstolfo 0x10d3
 #define EndingTitleWard 0x10d4
 #define EndingTitleLot 0x10d5
@@ -953,7 +953,7 @@
 #define EndingDescFir 0x10fe
 #define EndingDescRutger 0x10ff
 #define EndingDescDieck 0x1100
-#define EndingDescGarrettt 0x1101
+#define EndingDescGarrett 0x1101
 #define EndingDescAlen 0x1102
 #define EndingDescLance 0x1103
 #define EndingDescPerceval 0x1104

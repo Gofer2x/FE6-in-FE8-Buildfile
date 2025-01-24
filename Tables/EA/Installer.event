@@ -7,6 +7,7 @@
 #include "NewForcedDeploymentTable.event"
 #include "NewArenaTables.event"
 #include "NewBossBGMTable.event"
+#include "NewCharacterEndingsTables.event"
 
 //Generated
 #include "Generated/NewSupportTables.event"

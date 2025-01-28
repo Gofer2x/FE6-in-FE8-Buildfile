@@ -445,9 +445,20 @@ EndAnim
 //Sadly will have to do this for now
 //TODO at them at some point
 #define FaeManakete_Anims 0x0
-#define FireManakete_Anims 0x0
+
+ALIGN 4
+FireManakete_Anims:
+UnarmedAnim(FireManakete_Unarmed)
+SpecialAnim(FireManakete_Unarmed,Firestone)
+EndAnim
+
 #define DivineDragon_Anims 0x0
-#define FireDragon_Anims 0x0
+
+ALIGN 4
+FireDragon_Anims:
+UnarmedAnim(FireManakete_Unarmed)
+SpecialAnim(FireManakete_Unarmed,Firestone)
+EndAnim
 
 ALIGN 4
 King_Anims:

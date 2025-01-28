@@ -1,0 +1,16 @@
+FE6 $E1 -> FE8 $E1 Larum Heart SE, Low
+
+FE6 $ED -> FE8 $1FA Elffin Bird Tweet, Low
+FE6 $EE -> FE8 $1FB Elffin Harp, Low
+
+FE6 $104 -> FE8 $104 Apocalypse 1, Low
+FE6 $105 -> FE8 $105 Apocalypse 2, Lowest
+FE6 $106 -> FE8 $106 Apocalypse 3, Low
+
+FE6 $12A -> FE8 $12A Aurora Light Beam, Lowest
+FE6 $12B -> FE8 $12B Aurora Light Beam Falling, Low
+FE6 $12C -> FE8 $12C Aurora Light Explosion, Low
+
+FE6 $12D -> FE8 $12D Forblaze 1, Low
+FE6 $12E -> FE8 $12E Forblaze 2, Lowest
+FE6 $12F -> FE8 $12F Forblaze 3, Low

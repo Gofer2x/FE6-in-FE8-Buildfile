@@ -27,14 +27,14 @@
 #define BishopF_UnarmedAnim 0xE3
 #define Bard_RefreshAnim 0xE4
 #define Dancer_RefreshAnim 0xE5
-#define TempManakete1 0xE6
-#define TempManakete2 0xE7
-#define TempManakete3 0xE8
-#define TempManakete4 0xE9
-#define TempManakete5 0xEA
-#define TempManakete6 0xEB
-#define TempManakete7 0xEC
-#define TempManakete8 0xED
+#define FireManakete_Transform 0xE6
+#define FireManakete_Dragonstone 0xE7
+#define FireManakete_Revert 0xE8
+#define FireManakete_Unarmed 0xE9
+#define FaeManakete_Unarmed 0xEA
+#define FaeManakete_Dragonstone 0xEB
+#define FaeManakete_Transform 0xEC
+#define FaeManakete_Revert 0xED
 #define King_SwordAnim 0xEE
 
   {
@@ -88,10 +88,16 @@
   #include "NomadTrooperF\UnarmedInstaller.event"
   }
   {
-  #include "Bard\8.Refresh(FE7-8)\RefreshInstaller.event"
+  #include "Bard\8.Refresh(FE6)(BirdSfx)\RefreshInstaller.event"
   }
   {
   #include "Dancer\8.Refresh(Heart FE8)\RefreshInstaller.event" //Not sure which one to use
+  }
+  {
+  #include "FireManakete\8.Unarmed(Vanilla)\UnarmedInstaller.event"
+  #include "FireManakete\8.Dragonstone(FE8)\DragonstoneInstaller.event"
+  #include "FireManakete\8.Dragonstone(FE8)\TransformInstaller.event"
+  #include "FireManakete\8.Dragonstone(FE8)\RevertInstaller.event"
   }
   {
   #include "King\Sword\ZephielKingInstaller.event"

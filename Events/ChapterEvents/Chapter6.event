@@ -365,7 +365,9 @@ LABEL 1
 Text(BG_Castle3, Ch6_End)
 STAL 64
 MoveToChapter(CHAPTER_Ch7)
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

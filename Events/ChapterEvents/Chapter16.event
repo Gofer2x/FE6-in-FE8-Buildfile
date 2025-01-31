@@ -414,7 +414,9 @@ LABEL 8
 MoveToChapter(CHAPTER_Ch17B)
 
 LABEL 9
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 SecretShopList:

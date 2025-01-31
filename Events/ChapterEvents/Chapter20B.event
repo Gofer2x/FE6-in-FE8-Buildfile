@@ -291,7 +291,9 @@ CLEAN
 STAL 64
 MoveToChapter(CHAPTER_Ch21)
 LABEL 9
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 

@@ -159,7 +159,9 @@ Text(BG_Cave,Ch12x_EndElffinDead)
 LABEL 3 //either way, message from etruria
 Text(BG_Cave,Ch12_Ch12x_EndEtruriaRevolution)
 MoveToChapter(CHAPTER_Ch13)
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

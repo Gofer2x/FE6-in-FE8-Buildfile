@@ -157,7 +157,9 @@ STAL 64
 Text(BG_LavaFort,Ch8_Ch8x_WyvernsAtOstia)
 FadeIntoBlack
 CALL OstiaNarcianCutscene
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

@@ -1,9 +1,10 @@
-//neither of these actually work. the patch doesn't support doing all units on map (i think) and only does player units.
-
 //Enables events that simulate the bugged double Hard Mode bonuses for Chapter 1-5 enemies.
 //TODO The current patch only works for singular units, and only player ones.
-#define CONFIG_BuggedEarlyHMBonuses 1
+#define CONFIG_BuggedEarlyHMBonuses
 
 //Enables Hard Mode bonuses for recruitable enemies who usually don't get them (Raigh, Ch13!Percival, Hugh, Douglas).
 //TODO Look at previous todo.
-#define CONFIG_RecruitableUnitsHMBonusesExtra 1
+#define CONFIG_RecruitableUnitsHMBonusesExtra
+
+//Adds a call to a "revive Merlinus" event to be called at end of each chapter.
+#define CONFIG_EnableReviveMerlinus

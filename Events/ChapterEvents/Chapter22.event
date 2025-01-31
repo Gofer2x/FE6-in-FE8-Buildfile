@@ -317,12 +317,16 @@ TEXTEND
 REMA
 CLEAN
 FlagON(PostChapter22Flag)
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9
 
 LABEL 3
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ChangeMode(0x2) //Eirika Mode change for Epilogue
 MNC4 0 //Epilogue Save
 

@@ -453,7 +453,9 @@ LABEL 5
 CALL EVENT_BindingBladeAndRoyPromo
 
 LABEL 9
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 ArmoryList:

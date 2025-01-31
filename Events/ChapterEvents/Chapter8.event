@@ -299,7 +299,9 @@ MOVE 0x0 Roy [16,23]
 FadeIntoBlack
 CALL OstiaNarcianCutscene
 LABEL 9
+#ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
+#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

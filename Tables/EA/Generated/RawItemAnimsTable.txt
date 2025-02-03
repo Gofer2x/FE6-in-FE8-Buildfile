@@ -9,8 +9,8 @@ NormalWeapon(XYZ, PoisonSword)
 NormalWeapon(XYZ, KillingEdge)
 NormalWeapon(XYZ, BraveSword)
 NormalWeapon(XYZ, Lancereaver)
-MagicWeapon(XYZ, LightBrand, MBA_Lightning, Yellow)
-MagicWeapon(XYZ, Runesword, MBA_Nosferatu, White)
+MagicWeapon(XYZ, LightBrand, SpellAnim_Lightning, Yellow)
+MagicWeapon(XYZ, Runesword, SpellAnim_Nosferatu, White)
 NormalWeapon(XYZ, Armorslayer)
 NormalWeapon(XYZ, Wyrmslayer)
 NormalWeapon(XYZ, Rapier)
@@ -56,37 +56,37 @@ BallistaWeapon(XYZ, Ballista)
 BallistaWeapon(XYZ, IronBallista)
 BallistaWeapon(XYZ, KillerBallista)
 
-MagicWeapon(XYZ, Fire, MBA_Fire, Red)
-MagicWeapon(XYZ, Thunder, MBA_Thunder, Yellow)
-MagicWeapon(XYZ, Elfire, MBA_Elfire, Red)
-MagicWeapon(XYZ, Aircalibur, MBA_Aircalibur, Blue) //BGM Kill, TODO Does this work?
-MagicWeapon(XYZ, Fimbulvetr, MBA_Fimbulvetr, Blue)
-MagicWeapon(XYZ, Bolting, MBA_Bolting, White)
+MagicWeapon(XYZ, Fire, SpellAnim_Fire, Red)
+MagicWeapon(XYZ, Thunder, SpellAnim_Thunder, Yellow)
+MagicWeapon(XYZ, Elfire, SpellAnim_Elfire, Red)
+MagicWeapon(XYZ, Aircalibur, SpellAnim_Aircalibur, Blue) //BGM Kill, TODO Does this work?
+MagicWeapon(XYZ, Fimbulvetr, SpellAnim_Fimbulvetr, Blue)
+MagicWeapon(XYZ, Bolting, SpellAnim_Bolting, White)
 
-MagicWeapon(XYZ, Lightning, MBA_Lightning, Yellow)
-MagicWeapon(XYZ, Divine, MBA_Divine, Yellow)
-MagicWeapon(XYZ, Purge, MBA_Purge, Yellow)
-MagicWeapon(XYZ, Flux, MBA_Flux, Black)
+MagicWeapon(XYZ, Lightning, SpellAnim_Lightning, Yellow)
+MagicWeapon(XYZ, Divine, SpellAnim_Divine, Yellow)
+MagicWeapon(XYZ, Purge, SpellAnim_Purge, Yellow)
+MagicWeapon(XYZ, Flux, SpellAnim_Flux, Black)
 
-MagicWeapon(XYZ, Nosferatu, MBA_Nosferatu, Black)
-MagicWeapon(XYZ, Fenrir, MBA_Fenrir, Black)
-MagicWeapon(XYZ, Eclipse, MBA_Eclipse, Black)
+MagicWeapon(XYZ, Nosferatu, SpellAnim_Nosferatu, Black)
+MagicWeapon(XYZ, Fenrir, SpellAnim_Fenrir, Black)
+MagicWeapon(XYZ, Eclipse, SpellAnim_Eclipse, Black)
 
-FullItemEffect(XYZ, Heal, MapAndBattle, MBA_Heal, 0x9A4A54, DoShowHP, DontTurn, White)
-FullItemEffect(XYZ, Mend, MapAndBattle, MBA_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
-FullItemEffect(XYZ, Recover, MapAndBattle, MBA_Recover, 0x9A4B24, DoShowHP, DontTurn, White)
-FullItemEffect(XYZ, Physic, MapAndBattle, MBA_Physic, 0x9A4B8C, DoShowHP, DontTurn, White)
-FullItemEffect(XYZ, Fortify, MapOnly, MBA_Fortify, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
-FullItemEffect(XYZ, Restore, MapAndBattle, MBA_Restore, 0x9A4F44, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Silence, MapAndBattle, MBA_Silence, 0x9A4EA4, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Sleep, MapAndBattle, MBA_Sleep, 0x9A4D64, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Berserk, MapAndBattle, MBA_Berserk, 0x9A4CC4, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Warp, MapAndBattle, MBA_MapAnimOnly, 0x9A4CC4, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Rescue, MapAndBattle, MBA_MapAnimOnly, 0x9A4CC4, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, TorchStaff, MapOnly, MBA_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
-FullItemEffect(XYZ, Hammerne, MapAndBattle, MBA_Hammerne, 0x9A4FCC, DontShowHP, DontTurn, White)
-FullItemEffect(XYZ, Unlock, MapOnly, MBA_MapAnimOnly, 0x9A4C3C, DontShowHP, TurnLeft, White)
-FullItemEffect(XYZ, Barrier, MapAndBattle, MBA_Barrier, 0x9A518C, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Heal, MapAndBattle, SpellAnim_Heal, 0x9A4A54, DoShowHP, DontTurn, White)
+FullItemEffect(XYZ, Mend, MapAndBattle, SpellAnim_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
+FullItemEffect(XYZ, Recover, MapAndBattle, SpellAnim_Recover, 0x9A4B24, DoShowHP, DontTurn, White)
+FullItemEffect(XYZ, Physic, MapAndBattle, SpellAnim_Physic, 0x9A4B8C, DoShowHP, DontTurn, White)
+FullItemEffect(XYZ, Fortify, MapOnly, SpellAnim_Fortify, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
+FullItemEffect(XYZ, Restore, MapAndBattle, SpellAnim_Restore, 0x9A4F44, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Silence, MapAndBattle, SpellAnim_Silence, 0x9A4EA4, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Sleep, MapAndBattle, SpellAnim_Sleep, 0x9A4D64, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Berserk, MapAndBattle, SpellAnim_Berserk, 0x9A4CC4, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Warp, MapAndBattle, SpellAnim_MapAnimOnly, 0x9A4CC4, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Rescue, MapAndBattle, SpellAnim_MapAnimOnly, 0x9A4CC4, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, TorchStaff, MapOnly, SpellAnim_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Hammerne, MapAndBattle, SpellAnim_Hammerne, 0x9A4FCC, DontShowHP, DontTurn, White)
+FullItemEffect(XYZ, Unlock, MapOnly, SpellAnim_MapAnimOnly, 0x9A4C3C, DontShowHP, TurnLeft, White)
+FullItemEffect(XYZ, Barrier, MapAndBattle, SpellAnim_Barrier, 0x9A518C, DontShowHP, DontTurn, White)
 
 FullItemEffect(XYZ, HeroCrest, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, KnightCrest, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
@@ -94,35 +94,35 @@ FullItemEffect(XYZ, OrionsBolt, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, Whi
 FullItemEffect(XYZ, ElysianWhip, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 FullItemEffect(XYZ, GuidingRing, MapAndBattle, 0x32, 0x0, DoShowHP, DontTurn, White)
 
-FullItemEffect(XYZ, Vulnerary, MapOnly, MBA_MapAnimOnly, 0x9A49FC, DoShowHP, TurnDown, White)
-FullItemEffect(XYZ, Elixir, MapOnly, MBA_MapAnimOnly, 0x9A49A4, DoShowHP, TurnDown, White)
-FullItemEffect(XYZ, PureWater, MapOnly, MBA_MapAnimOnly, 0x9A495C, DontShowHP, TurnDown, White)
-FullItemEffect(XYZ, Antitoxin, MapOnly, MBA_MapAnimOnly, 0x9A4914, DontShowHP, TurnDown, White)
-FullItemEffect(XYZ, Torch, MapOnly, MBA_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Vulnerary, MapOnly, SpellAnim_MapAnimOnly, 0x9A49FC, DoShowHP, TurnDown, White)
+FullItemEffect(XYZ, Elixir, MapOnly, SpellAnim_MapAnimOnly, 0x9A49A4, DoShowHP, TurnDown, White)
+FullItemEffect(XYZ, PureWater, MapOnly, SpellAnim_MapAnimOnly, 0x9A495C, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Antitoxin, MapOnly, SpellAnim_MapAnimOnly, 0x9A4914, DontShowHP, TurnDown, White)
+FullItemEffect(XYZ, Torch, MapOnly, SpellAnim_MapAnimOnly, 0x9A4BF4, DontShowHP, TurnDown, White)
 
-MagicWeapon(XYZ, BindingBlade, MBA_Fire, Red) //TODO Binding blade anim
-MagicWeapon(XYZ, Eckesachs, MBA_Fire, Red) //TODO Eckesachs anim
+MagicWeapon(XYZ, BindingBlade, SpellAnim_BindingBlade, Red)
+MagicWeapon(XYZ, Eckesachs, SpellAnim_Eckesachs, Red)
 NormalWeapon(XYZ, Durandal)
 NormalWeapon(XYZ, Maltet)
 NormalWeapon(XYZ, Armads)
 BowWeapon(XYZ, Mulagir)
-MagicWeapon(XYZ, Forblaze, MBA_Fire, Red) //TODO Forblaze anim
-MagicWeapon(XYZ, Aureola, MBA_Ivaldi, Yellow) //TODO Aureola anim
-MagicWeapon(XYZ, Apocalypse, MBA_Gleipnir, Black) //TODO Apocalypse anim
-FullItemEffect(XYZ, SaintsStaff, MapOnly, MBA_Latona, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
+MagicWeapon(XYZ, Forblaze, SpellAnim_Forblaze, Red)
+MagicWeapon(XYZ, Aureola, SpellAnim_Aureola, Yellow)
+MagicWeapon(XYZ, Apocalypse, SpellAnim_Apocalypse, Black)
+FullItemEffect(XYZ, SaintsStaff, MapOnly, SpellAnim_Latona, 0x9A489C, DontShowHP, TurnDown, White) //TODO can i make this play the battle anim?
 
 NormalWeapon(XYZ, AlsSword)
 NormalWeapon(XYZ, GantsLance)
-FullItemEffect(XYZ, TinasStaff, MapAndBattle, MBA_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
+FullItemEffect(XYZ, TinasStaff, MapAndBattle, SpellAnim_Mend, 0x9A4ABC, DoShowHP, DontTurn, White)
 
-MagicWeapon(XYZ, Firestone, MBA_Flametongue, White)
-MagicWeapon(XYZ, Divinestone, MBA_FaeDivinestone, White) //TODO BGM SFX Kill?
-MagicWeapon(XYZ, DarkBreath, MBA_IdunnDarkStone, White)
+MagicWeapon(XYZ, Firestone, SpellAnim_Flametongue, White)
+MagicWeapon(XYZ, Divinestone, SpellAnim_FaeDivinestone, White) //TODO BGM SFX Kill?
+MagicWeapon(XYZ, DarkBreath, SpellAnim_IdunnDarkStone, White)
 
 //Unused in FE6
 
 NormalWeapon(XYZ, Zanbato)
-MagicWeapon(XYZ, WindSword, MBA_Aircalibur, Blue)
+MagicWeapon(XYZ, WindSword, SpellAnim_Aircalibur, Blue)
 
 JavelinWeapon(XYZ, ShortSpear)
 NormalWeapon(XYZ, HeavySpear)
@@ -133,6 +133,6 @@ HandAxeWeapon(XYZ, Hatchet)
 NormalWeapon(XYZ, Swordslayer)
 NormalWeapon(XYZ, DragonAxe)
 
-MagicWeapon(XYZ, Shine, MBA_Shine, Yellow)
-MagicWeapon(XYZ, Aura, MBA_Aura, Yellow)
-MagicWeapon(XYZ, Luna, MBA_Luna, Black)
+MagicWeapon(XYZ, Shine, SpellAnim_Shine, Yellow)
+MagicWeapon(XYZ, Aura, SpellAnim_Aura, Yellow)
+MagicWeapon(XYZ, Luna, SpellAnim_Luna, Black)

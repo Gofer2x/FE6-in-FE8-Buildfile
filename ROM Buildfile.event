@@ -29,8 +29,8 @@
 	
 	#include "Map/Master Map Installer.event"
 	
-	#include "Tables/NightmareModules/Table Installer.event"
 	#include "Tables/EA/Installer.event"
+	#include "Tables/NightmareModules/Table Installer.event"
 	#include "Misc/EditMovementCosts.event"
 	
 	#include "Events/_Master Events Installer.event"

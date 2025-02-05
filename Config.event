@@ -6,5 +6,5 @@
 //TODO Look at previous todo.
 #define CONFIG_RecruitableUnitsHMBonusesExtra
 
-//Adds a call to a "revive Merlinus" event to be called at end of each chapter.
+//Adds a call to a "revive Merlinus" event at end of each chapter.
 #define CONFIG_EnableReviveMerlinus

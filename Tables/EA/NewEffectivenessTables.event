@@ -18,7 +18,6 @@ BYTE MageKnight
 BYTE MageKnightF
 BYTE 0x0
 
-#undef FlierEffectiveness
 ALIGN 4
 FlierEffectiveness:
 BYTE PegasusKnight
@@ -32,7 +31,6 @@ BYTE WyvernKnightF
 BYTE 0x0
 
 
-#undef ArmorEffectiveness
 ALIGN 4
 ArmorEffectiveness:
 BYTE Knight
@@ -44,7 +42,6 @@ BYTE GreatKnightF
 BYTE 0x0
 
 
-#undef HorseEffectiveness
 ALIGN 4
 HorseEffectiveness:
 BYTE Cavalier
@@ -61,8 +58,6 @@ BYTE MageKnight
 BYTE MageKnightF
 BYTE 0x0
 
-
-#undef DragonEffectiveness
 ALIGN 4
 DragonEffectiveness:
 BYTE WyvernRider
@@ -102,8 +97,6 @@ BYTE FireDragon
 BYTE DemonDragon
 BYTE 0x0
 
-
-#undef SwordEffectiveness
 ALIGN 4
 SwordEffectiveness:
 BYTE Myrmidon

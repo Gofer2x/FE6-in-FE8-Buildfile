@@ -57,6 +57,7 @@
 
 #define AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)   "AREA eventID EventPointer [corner1x,corner1y] [corner2x,corner2y]" 
 
+//Friendlier names for "Start following units with camera" and "Stop following units with camera"
 #define CMON "EVBIT_T 0x09"
 #define CMOF "EVBIT_F 0x09"
 
@@ -70,12 +71,13 @@
 
 #define MoveNextTo(speed,unit1,unit2) "BYTE $49 $2F ; SHORT speed ; SHORT unit1 ; SHORT unit2 "
 
-//door but with event flag
+//Door but with event flag
 #define Door(EventFlag, DoorX, DoorY) "DOOR EventFlag [DoorX, DoorY] 0x12"
 
-//door but with event flag and event pointer
+//Door but with event flag and event pointer
 #define DoorWithEvent(EventPointer,doorX,doorY) "DOOR 0 EventPointer [doorX,doorY] 0x12"
 
+//Trigger tile change by coordinate
 #define TileChangeCoord(x,y) "SCOORD sB [x,y] ; TILECHANGE -1"
 #define ReverseTileChangeCoord(x,y) "SCOORD sB [x,y] ; TILEREVERSE -1"
 
@@ -117,9 +119,14 @@
 //16 fastest, 1 slowest
 #define FlashWhiteAdjustable(speed) "FAWI speed ; FAWU speed"
 
+//Clears Player, Enemy, NPC units from map
 #define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0"
 
+//Used in Ch8
 #define GotoPrepScreenNoENDA "CALL $591FD8"
+
+//Used for clearing background and returning to map after a non-standard (TEXTSTART, TEXTCONT etc.) text display with a background
+#define RemaFadeClean "REMA ; FadeIntoBlack(Fade1s) ; CLEAN ; FadeFromBlack(Fade1s)"
 
 //don't feel like dealign with world map events rn
 MESSAGE cuz i dont feel like dealing with map events rn

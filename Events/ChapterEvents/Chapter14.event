@@ -293,18 +293,21 @@ BranchIfFlagON(8,Ch14_GaidenGoneFlag) //check gaiden flag, if fail go to 8
 //gaiden success
 Text(BG_Castle3,Ch14_EndGaidenGot)
 STAL 64
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch14x)
 GOTO 9
 
 LABEL 8 //fail gaiden and go to 15
 Text(BG_Castle3,Ch14_Ch14x_EndElder)
 STAL 64
-MoveToChapter(CHAPTER_Ch15)
-
-LABEL 9 //end event
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch15)
+
+LABEL 9 //end event
 ENDA
 
 ArmoryList:

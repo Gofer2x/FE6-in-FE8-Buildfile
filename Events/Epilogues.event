@@ -251,11 +251,13 @@ BranchIfUnitDead(9,Fae)
 //TODO "Later, in Arcadia..."
 Text(TempLaterInArcadia)
 
-LOMA CHAPTER_Ch14
-CAM1 [27,3]
 PlayMusic(MUS_DistantUtopia)
 Text(BG_Temple1,EpilogueTrue_FaeIdunn1)
 FadeIntoBlack(Fade2s)
+LOMA CHAPTER_Ch14
+WEA1 Clear
+CAM1 [27,3]
+FadeFromBlack(Fade2s)
 LOAD2 0x1 IdunnAndFae
 ENUN
 
@@ -316,6 +318,7 @@ MOVE 20 Fae [22,7] //Top Right
 ENUN
 //Second lap done
 //Move to below Armory offscreen
+REMA
 MOVE 16 Fae [29,5]
 ENUN
 STAL 30
@@ -331,6 +334,8 @@ ENUN
 WEA1 Clear
 STAL 100
 Text(EpilogueTrue_AWarmBreeze)
+
+LABEL 9
 
 StopHereIfSkipping
 StopGameGraphicsLogic

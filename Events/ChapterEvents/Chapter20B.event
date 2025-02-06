@@ -270,6 +270,9 @@ BranchIfFlagON(5,Ch20B_GaidenGoneFlag)
 PlayMusic(MUS_Triumph)
 Text(BG_Castle3,Ch20B_EndGaidenGot)
 STAL 64
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch20Bx)
 GOTO 9
 
@@ -289,21 +292,11 @@ TEXTEND
 REMA
 CLEAN
 STAL 64
-MoveToChapter(CHAPTER_Ch21)
-LABEL 9
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-ENDA
-
-
-
-
-
-
-
-
-MoveToChapter(CHAPTER_Ch20Bx)
+MoveToChapter(CHAPTER_Ch21)
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

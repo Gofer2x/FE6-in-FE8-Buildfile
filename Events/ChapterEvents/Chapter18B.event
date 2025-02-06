@@ -347,10 +347,10 @@ TEXTCONT
 TEXTEND
 REMA
 STAL 64
-MoveToChapter(CHAPTER_Ch19B)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch19B)
 ENDA
 
 ArmoryList:

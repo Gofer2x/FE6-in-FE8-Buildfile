@@ -231,10 +231,10 @@ PlayMusic(MUS_Triumph)
 Text(BG_Temple2White,Ch21x_End)
 GiveItemToCharacter(Roy,Apocalypse)
 STAL 64
-CALL EVENT_BindingBladeAndRoyPromo 
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+CALL EVENT_BindingBladeAndRoyPromo 
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

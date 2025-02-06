@@ -245,31 +245,48 @@ HouseEvent(Ch9_FleeingToMainlandHouse,BG_House)
 
 EndingScene:
 PlayMusic(MUS_Triumph)
-Text(BG_Castle1,Ch9_End1)
+SetBackground(BG_Castle1)
+TEXTSTART
+TEXTSHOW Ch9_End1
+TEXTEND
 
+BranchIfFlagON(1,Ch9_LeftVillageVisitedFlag)
+BranchIfFlagON(2,Ch9_RightVillageVisitedFlag)
 
-BranchIfFlagOFF(1,Ch9_LeftVillageVisitedFlag)
-//left visited, go to echidna route
-Text(BG_Castle1,Ch9_EndNorth)
+//If neither visited, Echidna route
+TEXTSHOW2 Ch9_EndNorthNoVillage
+TEXTEND
+RemaFadeClean
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 1
-BranchIfFlagOFF(2,Ch9_RightVillageVisitedFlag)
-FlagON(WestIslesBartreRouteFlag)
-Text(BG_Castle1,Ch9_EndWest)
-MoveToChapter(CHAPTER_Ch10B)
-GOTO 9
-
-LABEL 2
-//neither visited, go echidna route
-Text(BG_Castle1,Ch9_EndNorthNoVillage)
-MoveToChapter(CHAPTER_Ch10A)
-
-LABEL 9
+//If left visited, Echidna route
+TEXTSHOW2 Ch9_EndNorth
+TEXTEND
+RemaFadeClean
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch10A)
+GOTO 9
+
+LABEL 2
+//If right visited, Bartre Route
+FlagON(WestIslesBartreRouteFlag)
+TEXTSHOW2 Ch9_EndWest
+TEXTEND
+RemaFadeClean
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
+MoveToChapter(CHAPTER_Ch10B)
+GOTO 9
+
+LABEL 9
 ENDA
 
 VendorList:

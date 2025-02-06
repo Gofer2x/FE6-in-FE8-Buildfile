@@ -447,7 +447,7 @@ TEXTEND
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 TEXTCONT
 TEXTEND
-REMA
+RemaFadeClean
 
 //hero crest
 BranchIfFlagOFF(1,Ch11A_VillageFlag1)
@@ -485,10 +485,10 @@ GiveItemToCharacter(Thea,ElysianWhip)
 
 LABEL 3
 
-MoveToChapter(CHAPTER_Ch12)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch12)
 ENDA
 
 

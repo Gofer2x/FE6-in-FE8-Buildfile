@@ -212,10 +212,10 @@ PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle1,Ch10A_End)
 GiveItemToCharacter(Roy,Wyrmslayer)
 STAL 64
-MoveToChapter(CHAPTER_Ch11A)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch11A)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

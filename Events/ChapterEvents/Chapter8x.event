@@ -156,10 +156,10 @@ GiveItemToCharacter(Roy,Durandal)
 STAL 64
 Text(BG_LavaFort,Ch8_Ch8x_WyvernsAtOstia)
 FadeIntoBlack
-CALL OstiaNarcianCutscene
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+CALL OstiaNarcianCutscene
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

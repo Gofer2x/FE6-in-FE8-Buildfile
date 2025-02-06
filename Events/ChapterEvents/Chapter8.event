@@ -283,13 +283,18 @@ TEXTEND
 PlayMusic(MUS_FinalFarewell)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 64
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch8x)
 GOTO 9
 
 LABEL 1 //lilina dead, go to ch9
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
 //this is technically a manual move but we only have 1steps in fe8 so let's just
 //02   01    01    01    01    02   02   01    02   02   02   01    01    01    01    01
@@ -299,9 +304,6 @@ MOVE 0x0 Roy [16,23]
 FadeIntoBlack
 CALL OstiaNarcianCutscene
 LABEL 9
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

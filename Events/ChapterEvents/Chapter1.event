@@ -175,17 +175,18 @@ HouseEvent(Ch1_MoneyHouse,BG_House)
 EndingScene:
 PlayMusic(MUS_Triumph)
 SetBackground(BG_Castle1)
-TextNoBGNoREMA(Ch1_End1)
+TEXTSTART
+TEXTSHOW Ch1_End1
+TEXTEND
 BranchIfUnitDead(1,Bors)
-TextNoBGNoREMA(Ch1_End2LilinaBors)
+TEXTSHOW2 Ch1_End2LilinaBors
+TEXTEND
 LABEL 1
-TextNoBGNoREMA(Ch1_End3)
-REMA
+TEXTSHOW2 Ch1_End3
+TEXTEND
+RemaFadeClean
 STAL 64
 MoveToChapter(CHAPTER_Ch2)
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

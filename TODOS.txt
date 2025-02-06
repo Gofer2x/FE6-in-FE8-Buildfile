@@ -8,8 +8,6 @@ IER???? skillsys???????
 
 idunn dragon mug bungled
 
-i wrote a patch for getting exp amount from unit data but doesn't work. fix it
-
 fe6 different battle sprites:
 mercenary
 bishop (has hat, + different staff anim)

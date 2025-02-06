@@ -336,17 +336,20 @@ BranchIfFlagON(8,Ch12_GaidenGoneFlag) //check gaiden flag and go to label 8 if o
 PlayMusic(MUS_Triumph)
 Text(BG_Castle2,Ch12_EndGaidenGot)
 STAL 64
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch12x)
 GOTO 9
 
 LABEL 8 //fail gaiden and go to 13
 Text(BG_Castle2,Ch12_Ch12x_EndEtruriaRevolution)
-MoveToChapter(CHAPTER_Ch13)
-
-LABEL 9
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch13)
+
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

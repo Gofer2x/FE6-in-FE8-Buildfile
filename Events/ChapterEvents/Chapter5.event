@@ -214,13 +214,12 @@ TEXTEND
 PlayMusic(MUS_CogsOfFate)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 64
-MoveToChapter(CHAPTER_Ch6)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch6)
 ENDA
 
 VendorList:

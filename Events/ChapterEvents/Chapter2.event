@@ -262,21 +262,27 @@ HouseEvent(Ch2_WeaponTriangleHouse,BG_House)
 EndingScene:
 PlayMusic(MUS_Triumph)
 SetBackground(BG_Castle1)
-TextNoBGNoREMA(Ch2_End1)
+TEXTSTART
+TEXTSHOW Ch2_End1
+TEXTEND
 BranchIfUnitDead(1,Elen)
-TextNoBGNoREMA(Ch2_End2IfElen)
+TEXTSHOW2 Ch2_End2IfElen
+TEXTEND
 LABEL 1
-TextNoBGNoREMA(Ch2_End3)
+TEXTSHOW2 Ch2_End3
+TEXTEND
 BranchIfUnitDead(2,Elen)
-TextNoBGNoREMA(Ch2_End4IfElen)
+TEXTSHOW2 Ch2_End4IfElen
+TEXTEND
 LABEL 2
-TextNoBGNoREMA(Ch2_End5)
-REMA
+TEXTSHOW2 Ch2_End5
+TEXTEND
+RemaFadeClean
 STAL 64
-MoveToChapter(CHAPTER_Ch3)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch3)
 ENDA
 
 ArmoryList:

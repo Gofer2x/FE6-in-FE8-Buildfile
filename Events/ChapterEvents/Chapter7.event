@@ -10,10 +10,10 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-#define Ch7_ConvoFlagA 0x7
-#define Ch7_ConvoFlagB 0x8
-#define Ch7_ConvoFlagC 0x9
-#define Ch7_ConvoFlagD 0xA
+#define Ch7_ZelotRecruitmentFlag 0x7
+#define Ch7_NoahRecruitmentFlag 0x8
+#define Ch7_TreckRecruitmentFlag 0x9
+#define Ch7_RoyZelotExtraTalkFlag 0xA
 #define Ch7_ThroneEnemiesFlag 0xB
 #define Ch7_ThroneEnemiesZoneFlag 0xC
 //Ch7_BorsVsDebiasFlag 0x1F
@@ -48,24 +48,14 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
-//roy talk to zelot, flag A
-CharacterEvent(Ch7_ConvoFlagA,RoyRecruitsZelot,Roy,Zelot)
-//noah talk to zelot, flag A
-CharacterEvent(Ch7_ConvoFlagA,NoahRecruitsZelot,Noah,Zelot)
-//treck talk to zelot, flag A
-CharacterEvent(Ch7_ConvoFlagA,TrecRecruitsZelot,Trec,Zelot)
-//roy talk to noah, flag B
-CharacterEvent(Ch7_ConvoFlagB,RoyRecruitsNoah,Roy,Noah)
-//zelot talk to noah, flag B
-CharacterEvent(Ch7_ConvoFlagB,ZelotRecruitsNoah,Zelot,Noah)
-//zelot talk to treck, flag C
-CharacterEvent(Ch7_ConvoFlagC,ZelotRecruitsTrec,Zelot,Trec)
-//roy talk to treck, flag C
-CharacterEvent(Ch7_ConvoFlagC,RoyRecruitsTrec,Roy,Trec)
-//flag D starts as ON and is only turned OFF if someone other than roy recruit zelot
-//roy talks to zelot, flag D
-//zelot talks to roy, flag D
-CharacterEventBothWays(Ch7_ConvoFlagD,RoyAndZelotTalk,Roy,Zelot)
+CharacterEvent(Ch7_ZelotRecruitmentFlag,RoyRecruitsZelot,Roy,Zelot)
+CharacterEvent(Ch7_ZelotRecruitmentFlag,NoahRecruitsZelot,Noah,Zelot)
+CharacterEvent(Ch7_ZelotRecruitmentFlag,TrecRecruitsZelot,Trec,Zelot)
+CharacterEvent(Ch7_NoahRecruitmentFlag,RoyRecruitsNoah,Roy,Noah)
+CharacterEvent(Ch7_NoahRecruitmentFlag,ZelotRecruitsNoah,Zelot,Noah)
+CharacterEvent(Ch7_TreckRecruitmentFlag,ZelotRecruitsTrec,Zelot,Trec)
+CharacterEvent(Ch7_TreckRecruitmentFlag,RoyRecruitsTrec,Roy,Trec)
+CharacterEventBothWays(Ch7_RoyZelotExtraTalkFlag,RoyAndZelotTalk,Roy,Zelot)
 END_MAIN
 
 LocationBasedEvents:
@@ -200,7 +190,7 @@ LOAD1 0x1 HardExtraEnemies
 LABEL 1
 ENUN
 ChStartFadeFromBlack
-FlagON(Ch7_ConvoFlagD)
+FlagON(Ch7_RoyZelotExtraTalkFlag)
 FlagON(Ch7_ThroneEnemiesFlag)
 MOVE 0x0 Debias [4,2]
 ENUN
@@ -296,7 +286,7 @@ SwitchMusic(MUS_JoinUs)
 Text(Ch7_NoahRecruitsZelot)
 BecomeAlly(Zelot)
 RestoreMusic
-FlagOFF(Ch7_ConvoFlagD)
+FlagOFF(Ch7_RoyZelotExtraTalkFlag)
 EndEvent
 
 TrecRecruitsZelot:
@@ -304,7 +294,7 @@ SwitchMusic(MUS_JoinUs)
 Text(Ch7_TrecRecruitsZelot)
 BecomeAlly(Zelot)
 RestoreMusic
-FlagOFF(Ch7_ConvoFlagD)
+FlagOFF(Ch7_RoyZelotExtraTalkFlag)
 EndEvent
 
 RoyRecruitsNoah:
@@ -376,13 +366,12 @@ TEXTEND
 PlayMusic(MUS_CogsOfFate)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 64
-MoveToChapter(CHAPTER_Ch8)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch8)
 ENDA
 
 VendorList:

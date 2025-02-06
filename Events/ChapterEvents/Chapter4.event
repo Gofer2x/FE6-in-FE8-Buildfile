@@ -281,8 +281,7 @@ TEXTEND
 PlayMusic(MUS_PrincessOfDestiny)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 64
 MoveToChapter(CHAPTER_Ch5)
 #ifdef CONFIG_EnableReviveMerlinus

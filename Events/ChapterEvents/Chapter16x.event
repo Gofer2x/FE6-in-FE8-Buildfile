@@ -173,16 +173,19 @@ STAL 64
 CALL EVENT_IlliaSacaeRouteDetermination
 
 BranchIfFlagON(8,SacaeRouteFlag)
+#ifdef CONFIG_EnableReviveMerlinus
+CALL EVENT_ReviveMerlinus
+#endif
 MoveToChapter(CHAPTER_Ch17A)
 GOTO 9
 
 LABEL 8
-MoveToChapter(CHAPTER_Ch17B)
-
-LABEL 9
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
+MoveToChapter(CHAPTER_Ch17B)
+
+LABEL 9
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

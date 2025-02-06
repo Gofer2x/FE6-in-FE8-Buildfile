@@ -69,6 +69,7 @@
 #define MUS_TheFinalBattle 0x45
 #define MUS_Epilogue 0x46
 
+#define SND_MenuAPling 0x6A
 
 #define SND_VillageDestruction 0xAB
 #define SND_WaterTileGoingDown 0xBD

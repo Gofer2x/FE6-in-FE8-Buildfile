@@ -48,7 +48,7 @@ UNIT IdunnHuman ShamanF 0x0 Level(20,NPC,1) [30,8] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
 PUSH
-ORG 0x9EC0 //hopefully this is right
+ORG 0x9EC0 //hopefully this is right. change eirika mode ending event
 POIN Epilogue_Choicer
 POP
 
@@ -272,9 +272,65 @@ MOVE 0xC IdunnHuman [22,8] //Idunn slowly follows her
 STAL 60
 MOVE 8 Fae [22,7] //Fae moves a bit up
 ENUN
-//PlayMusic(MUS_Something) idunn theme)
-Text(EpilogueTrue_FaeIdunn2)
-//TODO coconut
+PlayMusic(MUS_EternalWind)
+TEXTSTART
+TEXTSHOW EpilogueTrue_FaeIdunn2
+TEXTEND //[...]And if you shake the tree like this...
+
+EARTHQUAKE_START 0
+PlaySound(SND_MenuAPling)
+
+TEXTCONT //empty move?
+TEXTEND
+
+EARTHQUAKE_END
+
+TEXTCONT //Oww!
+TEXTEND
+
+//nothing here?
+
+TEXTCONT //It fell on my head...
+TEXTEND
+
+//I'm runnin' circles around ya!
+
+MOVE 20 Fae [21,7] //Top Left
+ENUN
+MOVE 20 Fae [21,9] //Bottom Left
+ENUN
+MOVE 20 Fae [23,9] //Bottom Right
+ENUN
+MOVE 20 Fae [23,7] //Top Right
+ENUN
+//First lap done
+MOVE 20 Fae [21,7] //Top Left
+ENUN
+MOVE 20 Fae [21,9] //Bottom Left
+ENUN
+MOVE 20 Fae [23,9] //Bottom Right
+ENUN
+MOVE 20 Fae [23,7] //Top Right
+ENUN
+MOVE 20 Fae [22,7] //Top Right
+ENUN
+//Second lap done
+//Move to below Armory offscreen
+MOVE 16 Fae [29,5]
+ENUN
+STAL 30
+MOVE 5 IdunnHuman [27,8]
+STAL 100
+FadeOutMusic
+STAL 100
+WEA1 SandStorm
+PlayMusic(BGS_Envsound_Windgusts)
+STAL 15
+FadeOutMusic
+ENUN
+WEA1 Clear
+STAL 100
+Text(EpilogueTrue_AWarmBreeze)
 
 StopHereIfSkipping
 StopGameGraphicsLogic

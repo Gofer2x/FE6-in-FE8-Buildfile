@@ -6,7 +6,7 @@
 #define RoutFlag 0x6
 // 0x7 to 0x28 are temporary flags
 #define GameOverFlag 0x65
-#define DistableObjectiveWindowFlag 0x66
+#define DisableObjectiveWindowFlag 0x66
 // 0x67 to 0x70 are "Extra unit appearance"? idk
 // 0x71 to 0x77 are eirika ephraim route stuff
 #define RoyCathTalkFlag1 0x78
@@ -15,7 +15,7 @@
 #define WestIslesBartreRouteFlag 0x7B //off means echidna route, on means bartre route
 #define PercevalRecruitedOrDeadFlag 0x7C //for ch15
 #define SacaeRouteFlag 0x7D //off means illia route, on means sacae route
-#define PostChapter22Flag 0x7E //used for true ending
+#define PostChapter22Flag 0x7E //on if past chapter 22, used for true ending
 #define TriangleAttackDialogFlag1 0x7F
 #define TriangleAttackDialogFlag2 0x80
 #define TriangleAttackDialogFlag3 0x81

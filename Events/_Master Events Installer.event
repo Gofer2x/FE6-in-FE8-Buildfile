@@ -8,6 +8,7 @@
 #include "SacaeIlliaDetermination.event"
 #include "BindingBladeAndRoyPromo.event"
 #include "ReviveMerlinus.event"
+#include "IdunnDeathBindingBladeCheck.event"
 #include "Epilogues.event"
 {
 #include "ChapterEvents/Chapter1.event"

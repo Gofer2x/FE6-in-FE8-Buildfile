@@ -1,0 +1,8 @@
+EVENT_IdunnDeathBindingBladeCheck:
+BranchIfUnitNotActive(9,Roy)
+//TODO binding blade check
+STAL 64
+FlagON(IdunnBindingBladeFlag)
+
+LABEL 9
+EndEvent

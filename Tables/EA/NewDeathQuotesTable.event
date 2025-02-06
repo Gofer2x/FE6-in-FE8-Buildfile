@@ -89,7 +89,7 @@ DeathQuote(Brunnya,CHAPTER_Ch23,BossDefeatFlag,BrunnyaDeathQuote)
 
 DeathQuote(Jahn,CHAPTER_Ch23,BossDefeatFlag,JahnDeathQuote)
 
-DeathQuote(IdunnDragon,CHAPTER_Final,BossDefeatFlag,IdunnDeathQuote)
+DeathQuote(IdunnDragon,CHAPTER_Final,BossDefeatFlag,IdunnDeathQuote,EVENT_IdunnDeathBindingBladeCheck)
 
 
 

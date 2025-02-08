@@ -172,8 +172,7 @@ TEXTEND
 PlayMusic(MUS_ShadowApproaches)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 CAM1 Roy
 GotoPrepScreen
 
@@ -261,8 +260,7 @@ TEXTEND
 PlayMusic(MUS_CogsOfFate)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

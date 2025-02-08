@@ -20,7 +20,6 @@
 #include "IDs/PListIDs.event"
 #include "IDs/EventFlags.event"
 #include "IDs/Sounds.event"
-#include "IDs/BattleAnimationIDs.event"
 
 #include "NewWeaponRanks.event"
 #include "ChapterTextStuffs.event"

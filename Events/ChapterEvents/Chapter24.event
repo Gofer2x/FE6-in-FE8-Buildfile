@@ -177,8 +177,7 @@ TEXTEND
 PlayMusic(MUS_ShockingTruth1)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 GotoPrepScreen
 
 Throne1Seize:

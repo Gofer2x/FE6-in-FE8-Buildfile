@@ -159,8 +159,7 @@ TEXTEND
 PlayMusic(MUS_WhenTheRushComes)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 LOAD1 0x0 JustChad
 ENUN
 CAM1 Roy

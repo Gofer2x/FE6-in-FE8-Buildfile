@@ -143,8 +143,7 @@ TEXTEND
 PlayMusic(MUS_MainThemeArrangement)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 STAL 6
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

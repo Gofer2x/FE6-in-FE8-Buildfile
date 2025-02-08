@@ -1,6 +1,3 @@
-
-//IDs in IDs Folder!
-
   {
   #include "RoyLord\1.Sword\SwordInstaller.event"
   }
@@ -29,9 +26,6 @@
   {
   #include "RogueF\1.Sword\SwordInstaller.event"
   #include "RogueF\8.Unarmed\UnarmedInstaller.event"
-  }
-  {
-  #include "BishopF\8.Unarmed(FE6)\UnarmedInstaller.event"
   }
   {
   #include "Nomad\5.Bow\BowInstaller.event"

@@ -314,8 +314,7 @@ PlaySound(SND_MagicShineLonger)
 FlashWhiteAdjustable(12)
 TEXTCONT
 TEXTEND
-REMA
-CLEAN
+RemaFadeClean
 FlagON(PostChapter22Flag)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

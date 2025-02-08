@@ -1,10 +1,15 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
 	#include "EA Standard Library/Backward Compatibility.txt"
-	#include "Definitions/Master Definitions Installer.event"
-	#define FreeSpace 0xefb2e0
 	#include "Config.event"
 	
+	//Most definitions
+	#include "Definitions/Master Definitions Installer.event"
+	
+	//Initializing definitions that are used before they would normally be defined
+	#include "Graphics\Animation\BattleAnimationIDs.event" //Needed for Battle Transformations patch
+	
+	#define FreeSpace 0xefb2e0
 	ORG FreeSpace
 	
 	#include "Engine Hacks/_Master Hack Installer.event"

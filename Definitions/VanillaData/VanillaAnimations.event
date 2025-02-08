@@ -130,7 +130,7 @@
 #define Bishop_UnarmedAnim 0x81 
 #define Bishop_MagicAnim 0x82 
 #define BishopF_MagicAnim 0x83 
-#define BishopF_UnarmedAnimBroken 0x84 
+#define BishopF_UnarmedAnim 0x84 
 #define Troubadour_UnarmedAnim 0x85 
 #define Troubadour_StaffAnim 0x86 
 #define Valkyrie_MagicAnim 0x87 

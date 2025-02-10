@@ -477,6 +477,7 @@ TEXTEND
 RemaFadeClean
 
 //Skip Knight Crest reward if Perceval is unrecruited/dead, or if any of his soldiers died.
+BranchIfUnitNotAlly(1,Perceval)
 BranchIfUnitDead(1,Perceval)
 BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
 

@@ -1,17 +1,23 @@
 EVENT_IlliaSacaeRouteDetermination:
 
 GetUnitEXPGain(Shanna)
-SADD s1 sC s0 //s1 is now Shanna Exp.
+SADD s7 sC s0 //s7 is now Shanna Exp.
+STAL 200
 GetUnitEXPGain(Thea)
-SADD s1 s1 sC //s1 is now Shanna+Thea Exp.
+SADD s7 s7 sC //s7 is now Shanna+Thea Exp.
+STAL 200
 
 GetUnitEXPGain(Sue)
-SADD s2 sC s0 //s2 is now Sue Exp.
+SADD s8 sC s0 //s8 is now Sue Exp.
+STAL 200
 GetUnitEXPGain(Sin)
-SADD s2 s2 sC //s2 is now Sin Exp.
+SADD s8 s8 sC //s8 is now Sue+Sin Exp.
+STAL 200
 
-//If s1 is equal to or larger than s2 we are on Illia route, branch. Else, turn on Sacae flag.
-BGE 1 s1 s2
+//If s7 is equal to or larger than s8 we are on Illia route. Skip the Sacae flag enable.
+BGE 1 s7 s8
+
+//Else, turn it on.
 FlagON(SacaeRouteFlag)
 
 LABEL 1

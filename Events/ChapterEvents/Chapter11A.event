@@ -469,6 +469,7 @@ GiveItemToCharacter(Roy,HeroCrest)
 LABEL 1
 
 //Skip the Orion's Bolt reward if Klein is unrecruited/dead or if any of his archers died.
+BranchIfUnitNotAlly(2,Klein)
 BranchIfUnitDead(2,Klein)
 BranchIfFlagON(2,Ch11A_Ch10B_GenericArcherKleinDeathFlag)
 
@@ -480,6 +481,7 @@ GiveItemToCharacter(Klein,OrionsBolt)
 LABEL 2
 
 //Skip the Elysian Whip reward Thea is unrecruited/dead or if any of her pegasus knights died.
+BranchIfUnitNotAlly(3,Thea)
 BranchIfUnitDead(3,Thea)
 BranchIfFlagON(3,Ch11A_Ch10B_GenericPegKnightTheaDeathFlag)
 

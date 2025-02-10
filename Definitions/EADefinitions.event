@@ -8,6 +8,8 @@
 #define BranchIfUnitDead(label,unit) "CHECK_ALIVE unit ; BEQ label s0 sC"
 #define BranchIfUnitAlive(label,unit) "CHECK_ALIVE unit ; BNE label s0 sC"
 
+#define BranchIfUnitNotAlly(label,unit) "CHECK_ALLEGIANCE unit ; BNE label s0 sC"
+
 #define BranchIfFlagOFF(label,flag) "CheckFlag(flag) ; BEQ label s0 sC"
 #define BranchIfFlagON(label,flag) "CheckFlag(flag) ; BNE label s0 sC"
 

@@ -422,12 +422,14 @@ STAL 64
 CALL EVENT_IlliaSacaeRouteDetermination
 
 BranchIfFlagON(8,SacaeRouteFlag)
+//Illia route.
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
 MoveToChapter(CHAPTER_Ch17A)
 GOTO 9
 
+//Sacae route.
 LABEL 8
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

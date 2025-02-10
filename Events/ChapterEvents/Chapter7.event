@@ -81,7 +81,7 @@ END_MAIN
 
 MiscBasedEvents:
 AreaEvent(Ch7_ThroneEnemiesZoneFlag,EnableThroneReinforcements,0,0,22,6)
-AreaEvent(Ch7_ThroneEnemiesZoneFlag,EnableThroneReinforcements,5,7,8,7) //this is wrong but it's also wrong in fe6 so lol
+AreaEvent(Ch7_ThroneEnemiesZoneFlag,EnableThroneReinforcements,5,7,8,7) //This range is wrong but it's also wrong in FE6.
 CauseGameOverIfLordDies
 END_MAIN
 

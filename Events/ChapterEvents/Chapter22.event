@@ -210,16 +210,20 @@ ALIGN 4
 BeginningScene:
 MUSC MUS_TheKingOfBern
 LOAD1 0x1 Enemies
+
+//Extra Hard enemies.
 BranchIfNotHard(1)
 LOAD1 0x1 HardExtraEnemies
+
 LABEL 1
 ENUN
 ChStartFadeFromBlack
 
+//If Cath is recruited (or dead), disable her talk with Roy.
 BranchIfFlagOFF(2,CathRecruitedOrDeadFlag)
 FlagON(Ch22_RoyCathTalkFlag)
-LABEL 2
 
+LABEL 2
 CAM1 [18,19]
 Text(BG_Castle2,Ch22_Start1)
 CAM1 [1,0]
@@ -237,6 +241,7 @@ Text(BG_Castle2,Ch22_Start4)
 GotoPrepScreen
 
 CathAndAThiefAppear:
+//Skip Cath's appearance if she's been recruited or is dead.
 BranchIfFlagON(3,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
@@ -245,6 +250,7 @@ RestoreMusic
 #ifdef CONFIG_RecruitableUnitsHMBonuses
 //Level Cath by +14
 #endif
+
 LABEL 3
 LoadReinforcements(ThiefReinforcements)
 EndEvent
@@ -273,9 +279,12 @@ UnquieterMusic
 EndEvent
 
 ThroneRoomOpens:
+//Only open the throne room if the unit in range is Roy and both switches are on.
 UnitInRange(Roy)
 BranchIfFlagOFF(5,Ch22_EastSwitchFlag)
 BranchIfFlagOFF(5,Ch22_WestSwitchFlag)
+
+//Open.
 SwitchMusic(MUS_TheKingOfBern)
 TILECHANGE 0
 Text(BG_Castle2,Ch22_ThroneRoomOpen)
@@ -287,7 +296,7 @@ EndEvent
 
 EndingScene:
 FadeOutMusic
-
+//True ending determination. Do we have all the legendary weapons?
 BranchIfItemNotInPossession(3,Durandal)
 BranchIfItemNotInPossession(3,Armads)
 BranchIfItemNotInPossession(3,Forblaze)
@@ -298,7 +307,8 @@ BranchIfItemNotInPossession(3,SaintsStaff)
 BranchIfItemNotInPossession(3,Apocalypse)
 BranchIfItemNotInPossession(3,BindingBlade)
 
-LABEL 1
+
+//True ending. Move to Ch23.
 SetBackground(BG_Castle2)
 TEXTSTART
 TEXTSHOW Ch22_EndTrue
@@ -315,6 +325,7 @@ FlashWhiteAdjustable(12)
 TEXTCONT
 TEXTEND
 RemaFadeClean
+//Used for Epilogue determination.
 FlagON(PostChapter22Flag)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
@@ -322,12 +333,15 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9
 
+//Bad ending.
 LABEL 3
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-ChangeMode(0x2) //Eirika Mode change for Epilogue
-MNC4 0 //Epilogue Save
+//Eirika Mode change for Epilogue.
+ChangeMode(0x2)
+//Epilogue Save
+MNC4 0
 
 LABEL 9
 ENDA

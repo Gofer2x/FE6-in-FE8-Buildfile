@@ -11,7 +11,7 @@
 // 0x5
 //RoutFlag 0x6
 
-//TODO how the hell do i do this
+//These are not set up yet. TODO
 #define Ch21x_WestLeftChestTrappedFlag 0x7
 #define Ch21x_WestRightChestTrappedFlag 0x8
 #define Ch21x_CenterLeftChestTrappedFlag 0x9
@@ -45,7 +45,13 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(15,1)
-//the chest traps are gonna be oof
+//Just real chests for now. TODO
+Chest(Elixir,3,1)
+Chest(Elixir,6,1)
+Chest(Elixir,14,12)
+Chest(Elixir,16,12)
+Chest(Elixir,25,1)
+Chest(Elixir,29,1)
 END_MAIN
 
 MiscBasedEvents:
@@ -172,6 +178,7 @@ FlashCursor(Roy,60)
 Text(BG_Temple2White,Ch21x_Start2Melady)
 GotoPrepScreen
 
+//This won't do. TODO
 WestLeftChest:
 BranchIfFlagON(3,Ch21x_WestLeftChestTrappedFlag)
 GiveItemToCurrent(Elixir)

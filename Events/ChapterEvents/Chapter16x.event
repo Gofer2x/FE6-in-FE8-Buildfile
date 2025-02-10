@@ -153,26 +153,34 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_Triumph)
+
+//Skip to special text if Douglas is dead.
 BranchIfUnitDead(1,Douglas)
 Text(BG_Temple2Yellow,Ch16x_EndDouglasAlive)
 GOTO 2
+
+//Douglas dead case.
 LABEL 1
 Text(BG_Temple2Yellow,Ch16x_EndDouglasDead1)
+
+//This happens either way.
 LABEL 2
 PlayMusic(MUS_PrincessOfDestiny)
 Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
 
+//More dead Douglas text.
 BranchIfUnitDead(3,Douglas)
 PlayMusic(MUS_Triumph)
 Text(BG_Temple1,Ch16x_EndDouglasDead2)
-LABEL 3
 
+LABEL 3
 GiveItemToCharacter(Roy,Aureola)
 STAL 64
 
+//Route determination.
 CALL EVENT_IlliaSacaeRouteDetermination
-
 BranchIfFlagON(8,SacaeRouteFlag)
+
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif

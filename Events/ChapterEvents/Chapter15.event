@@ -11,7 +11,7 @@
 // 0x5
 //RoutFlag 0x6
 #define Ch15_PercevalRecruitmentFlag 0x7
-#define Ch15_PercevalRecruitedInCh15Flag 0x8 //to avoid triggering knight crest reward with perceval recruited in ch13
+#define Ch15_PercevalRecruitedInCh15Flag 0x8 //Used to avoid triggering Knight Crest reward here if Perceval recruited in Ch13.
 #define Ch15_RoyPercevalTalkFlag 0x9
 #define Ch15_LilinaGarrettTalkFlag 0xA
 //Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
@@ -49,7 +49,7 @@ ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
 CharacterEvent(Ch15_PercevalRecruitmentFlag,LarumRecruitsPerceval,Larum,Perceval)
 CharacterEvent(Ch15_PercevalRecruitmentFlag,ElffinRecruitsPerceval,Elffin,Perceval)
-CharacterEvent(Ch15_RoyPercevalTalkFlag,RoyPercevalTalk,Roy,Perceval) //only available if perceval recruited this chapter
+CharacterEvent(Ch15_RoyPercevalTalkFlag,RoyPercevalTalk,Roy,Perceval)
 CharacterEvent(Ch15_LilinaGarrettTalkFlag,LilinaRecruitsGarrett,Lilina,Garrett)
 END_MAIN
 
@@ -162,14 +162,17 @@ PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
 ChStartFadeFromBlack
+//Set Perceval's recruitment flag on to prevent his recruitment and Roy talks from happening if he's already recruited.
 FlagON(Ch15_PercevalRecruitmentFlag)
 FlagON(Ch15_RoyPercevalTalkFlag)
-CMOF
 CAM1 Raith
 FlashCursor(Raith,60)
 Text(BG_Castle1,Ch15_Start1)
+
+//Skip Perceval's appearance is he's been recruited or is dead.
 BranchIfFlagON(1,PercevalRecruitedOrDeadFlag)
 
+//Perceval alive and unrecruited, he appears. Turn his recruitment talk flag off so he can be recruited.
 LOAD1 0x1 PercevalSquad
 ENUN
 FlagOFF(Ch15_PercevalRecruitmentFlag)
@@ -281,20 +284,20 @@ TEXTEND
 PlayMusic(MUS_DistantUtopia)
 TEXTCONT
 TEXTEND
-REMA
+RemaFadeClean
 
-BranchIfFlagOFF(1,Ch15_PercevalRecruitedInCh15Flag)
-BranchIfFlagOFF(1,Ch15_PercevalRecruitmentFlag)
+//Skip Knight Crest reward if Perceval is unrecruited/dead, if he has not been recruited in this chapter (so was in Ch13), of if any of his soldiers died.
 BranchIfUnitDead(1,Perceval)
+BranchIfFlagOFF(1,Ch15_PercevalRecruitedInCh15Flag)
 BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
 
+//All alive and Perceval recruited this chapter, Knight Crest got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch13_Ch15_EndKnightCrest)
 GiveItemToCharacter(Perceval,KnightCrest)
 
 LABEL 1
 
-CLEAN
 LOAD1 0x1 JustFae
 ENUN
 STAL 64

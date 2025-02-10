@@ -169,7 +169,11 @@ GotoPrepScreen
 
 
 
+//These are a bit complicated.
+//Refer to the FEWiki on how the bridge groups behave.
+//https://fireemblemwiki.org/wiki/The_Infernal_Truth
 
+//The way I set it up probably could be improved, not sure if I like the fallbacks. But eh, it's more readable this way I think.
 
 BridgeGroup1Processing:
 IncrementCounter(Ch14x_BridgeGroup1Counter)
@@ -182,16 +186,21 @@ LABEL 0
 BranchIfCounterEqualTo(1 ,Ch14x_BridgeGroup1Counter,1)
 BranchIfCounterEqualTo(2 ,Ch14x_BridgeGroup1Counter,2)
 BranchIfCounterEqualTo(3 ,Ch14x_BridgeGroup1Counter,3)
+//Early exit.
 BranchIfCounterEqualTo(50,Ch14x_BridgeGroup1Counter,4)
 BranchIfCounterEqualTo(5 ,Ch14x_BridgeGroup1Counter,5)
 BranchIfCounterEqualTo(6 ,Ch14x_BridgeGroup1Counter,6)
 BranchIfCounterEqualTo(7 ,Ch14x_BridgeGroup1Counter,7)
 BranchIfCounterEqualTo(8 ,Ch14x_BridgeGroup1Counter,8)
 BranchIfCounterEqualTo(9 ,Ch14x_BridgeGroup1Counter,9)
+//Ditto.
 BranchIfCounterEqualTo(50,Ch14x_BridgeGroup1Counter,10)
 BranchIfCounterEqualTo(11,Ch14x_BridgeGroup1Counter,11)
 BranchIfCounterEqualTo(12,Ch14x_BridgeGroup1Counter,12)
+
+//Fallback. Should not happen.
 Text(ThisShouldNotHappen)
+GOTO 50
 
 LABEL 1
 WaterBridgeSubmerge(Ch14x_Bridge1,2,11)
@@ -267,7 +276,10 @@ BranchIfCounterEqualTo(7 ,Ch14x_BridgeGroup2Counter,7)
 BranchIfCounterEqualTo(8 ,Ch14x_BridgeGroup2Counter,8)
 BranchIfCounterEqualTo(9 ,Ch14x_BridgeGroup2Counter,9)
 BranchIfCounterEqualTo(10,Ch14x_BridgeGroup2Counter,10)
+
+//Fallback. Should not happen.
 Text(ThisShouldNotHappen)
+GOTO 50
 
 LABEL 1
 WaterBridgeSubmerge(Ch14x_Bridge6,4,18)
@@ -336,13 +348,13 @@ BranchIfCounterEqualTo(2,Ch14x_BridgeGroup3Counter,2)
 BranchIfCounterEqualTo(3,Ch14x_BridgeGroup3Counter,3)
 BranchIfCounterEqualTo(4,Ch14x_BridgeGroup3Counter,4)
 BranchIfCounterEqualTo(5,Ch14x_BridgeGroup3Counter,5)
-//not making 15 blank checks
+//Skipping 15 checks that would just skip.
 BranchIfCounterEqualTo(21,Ch14x_BridgeGroup3Counter,21)
 BranchIfCounterEqualTo(22,Ch14x_BridgeGroup3Counter,22)
 BranchIfCounterEqualTo(23,Ch14x_BridgeGroup3Counter,23)
 BranchIfCounterEqualTo(24,Ch14x_BridgeGroup3Counter,24)
 BranchIfCounterEqualTo(25,Ch14x_BridgeGroup3Counter,25)
-//just go here if all fail
+//Ditto.
 GOTO 50
 
 LABEL 1
@@ -397,11 +409,6 @@ EndEvent
 
 
 
-//Bridges 17–19 disappear or reappear every three turns
-//Bridge 17 disappears on turn 4
-//Bridge 18 disappears on turn 5
-//Bridge 19 disappears on turn 6
-
 BridgeGroup4Processing:
 IncrementCounter(Ch14x_BridgeGroup4Counter)
 BranchIfCounterNotEqualTo(0,Ch14x_BridgeGroup4Counter,7)
@@ -416,7 +423,10 @@ BranchIfCounterEqualTo(3,Ch14x_BridgeGroup4Counter,3)
 BranchIfCounterEqualTo(4,Ch14x_BridgeGroup4Counter,4)
 BranchIfCounterEqualTo(5,Ch14x_BridgeGroup4Counter,5)
 BranchIfCounterEqualTo(6,Ch14x_BridgeGroup4Counter,6)
+
+//Fallback. Should not happen.
 Text(ThisShouldNotHappen)
+GOTO 50
 
 LABEL 1
 WaterBridgeSubmerge(Ch14x_Bridge17,18,23)
@@ -470,7 +480,10 @@ BranchIfCounterEqualTo(5,Ch14x_BridgeGroup5Counter,5)
 BranchIfCounterEqualTo(6,Ch14x_BridgeGroup5Counter,6)
 BranchIfCounterEqualTo(7,Ch14x_BridgeGroup5Counter,7)
 BranchIfCounterEqualTo(8,Ch14x_BridgeGroup5Counter,8)
+
+//Fallback. Should not happen.
 Text(ThisShouldNotHappen)
+GOTO 50
 
 LABEL 1
 WaterBridgeSubmerge(Ch14x_Bridge20,24,15)
@@ -524,16 +537,22 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_DistantUtopia)
-BranchIfUnitDead(1,Sophia) //go to 1 if sophia dead
-//else, alive processing
-Text(BG_Temple1,Ch14x_EndSophiaAlive)
-GOTO 9
 
+//The text here has two variants, one if Sophia is alive and other if she is dead.
+//Branch if Sophia is dead.
+BranchIfUnitDead(1,Sophia)
+
+//Alive Sophia case.
+Text(BG_Temple1,Ch14x_EndSophiaAlive)
+GOTO 2
+
+//Dead Sophia case.
 LABEL 1
 Text(BG_Temple1,Ch14x_EndSophiaDead1)
 Text(BG_Outside,Ch14x_EndSophiaDead2)
-LABEL 9
 
+//Either way, continue here.
+LABEL 2
 Text(BG_Castle3,Ch14_Ch14x_EndElder)
 GiveItemToCharacter(Roy,Forblaze)
 STAL 64

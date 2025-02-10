@@ -205,13 +205,19 @@ LOAD3 0x0 Units
 ENUN
 CAM1 Roy
 
+//There is different text for the start of this chapter depending on if you went Echidna or Bartre route.
+//Branch if Bartre route.
 BranchIfFlagON(2,WestIslesBartreRouteFlag)
+
+//Echidna route case.
 Text(BG_Outside,Ch12_Start3EchidnaRoute)
 GOTO 9
 
+//Bartre route case.
 LABEL 2
 Text(Ch12_Start3BartreRoute)
 
+//Either way, continue here.
 LABEL 9
 GotoPrepScreen
 
@@ -242,6 +248,7 @@ RestoreMusic
 EndEvent
 
 CathAppears:
+//Skip Cath's appearance if she's been recruited (impossible this chapter) or is dead.
 BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
@@ -324,15 +331,19 @@ EndEvent
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle2,Ch12_End1)
-BranchIfFlagOFF(1,WestIslesBartreRouteFlag) //did we go echidna or bartre route?
+//Ch12x on Bartre route requires Elffin to be alive.
+//If we're not on Bartre route, skip the check.
+BranchIfFlagOFF(1,WestIslesBartreRouteFlag)
 
-//bartre route
-BranchIfUnitDead(8,Elffin) //if elffin dead, fail and go to label 8
-//else, continue as if we were on echidna route
+//We're on Bartre route. Check if Elffin is alive. If he's not, branch to gaiden failure.
+BranchIfUnitDead(8,Elffin)
 
-LABEL 1 //echidna route
-BranchIfFlagON(8,Ch12_GaidenGoneFlag) //check gaiden flag and go to label 8 if on
-//else, onto the gaiden
+//Either Echidna route or Bartre route with Elffin alive.
+LABEL 1
+//Check if gaiden gone flag is ON. If yes, branch to gaiden failure.
+BranchIfFlagON(8,Ch12_GaidenGoneFlag)
+
+//Flag is off, gaiden got. Move to Ch12x.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle2,Ch12_EndGaidenGot)
 STAL 64
@@ -342,7 +353,8 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch12x)
 GOTO 9
 
-LABEL 8 //fail gaiden and go to 13
+//Gaiden failure. Move to Ch13.
+LABEL 8
 Text(BG_Castle2,Ch12_Ch12x_EndEtruriaRevolution)
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

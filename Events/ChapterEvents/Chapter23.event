@@ -37,6 +37,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+//Only run this event if Karel hasn't been recruited turn 1, checked by flag.
 TurnEventEnemy(Ch23_KarelVillageDone,VillageComplains,1)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
@@ -173,12 +174,15 @@ EndEvent
 
 
 KarelVillageVisit:
+//Branch if the visiting unit is Fir or Bartre.
 BranchIfUnitActive(1,Fir)
 BranchIfUnitActive(3,Bartre)
-//default case
+
+//Default case. Karel fail, don't trigger tile change.
 Text(BG_Village,Ch23_KarelVillageDefault)
 GOTO 9
 
+//Fir case. Karel success.
 LABEL 1
 SwitchMusic(MUS_JoinUs)
 Text(BG_Village,Ch23_KarelVillageFir)
@@ -186,14 +190,16 @@ FlagOFF(Ch23_BartreKarelTalkFlag)
 FlagOFF(Ch23_RoyKarelTalkFlag)
 GOTO 7
 
+//Bartre case. Karel success.
 LABEL 3
 SwitchMusic(MUS_JoinUs)
 Text(BG_Village,Ch23_KarelVillageBartre)
 FlagOFF(Ch23_FirKarelTalkFlag)
 FlagOFF(Ch23_RoyKarelTalkFlag)
 
+//Load Karel, turn turn 1 event flag on, and manually trigger tile change.
 LABEL 7
-CLEAN
+FlagON(Ch23_KarelVillageDone)
 LOAD1 0x1 JustKarel
 ENUN
 TILECHANGE 1
@@ -221,8 +227,6 @@ QuieterMusic
 Text(Ch23_RoyKarelTalk)
 UnquieterMusic
 EndEvent
-
-
 
 EndingScene:
 PlayMusic(MUS_Triumph)

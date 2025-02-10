@@ -145,13 +145,11 @@ ChStartFadeFromBlack
 CAM1 [19,2]
 STAL 16
 Text(BG_Castle1, Ch3_Start1)
-
 LOAD3 0x0 Units
 ENUN
 MUSC MUS_JoinUs
 CAM1 Roy
 STAL 16
-
 SetBackground(BG_Outside)
 TEXTSTART
 TEXTSHOW Ch3_Start2
@@ -195,15 +193,19 @@ EndEvent
 NorthVillageVisit:
 SwitchMusic(MUS_JoinUs)
 
+//Special branch if Chad visits the village.
 BranchIfUnitActive(1,Chad)
 
+//Default case.
 Text(BG_Village, Ch3_LughVillage)
 GOTO 3
 
+//Chad case. Also disables the Lugh and Chad Talk.
 LABEL 1
 Text(BG_Village, Ch3_ChadLughVillage)
 FlagON(Ch3_ChadLughTalkFlag)
 
+//Either way, continue here.
 LABEL 3
 RestoreMusic
 LOAD1 0x1 JustLugh

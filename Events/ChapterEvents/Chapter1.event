@@ -30,7 +30,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventEnemy(0x0,CursesReinforcementsAlready,1)
+TurnEventEnemy(0x0,DamasComplains,1)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -150,7 +150,7 @@ MOVE 0x0 Lance [4,18]
 #endif
 EndEvent
 
-CursesReinforcementsAlready:
+DamasComplains:
 PlayMusic(MUS_DeerOfThePlains)
 CAM1[5,3]
 ENUN
@@ -178,9 +178,12 @@ SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch1_End1
 TEXTEND
+
+//Skip Bors and Lilina's convo if Bors is dead.
 BranchIfUnitDead(1,Bors)
 TEXTSHOW2 Ch1_End2LilinaBors
 TEXTEND
+
 LABEL 1
 TEXTSHOW2 Ch1_End3
 TEXTEND

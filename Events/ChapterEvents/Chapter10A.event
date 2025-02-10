@@ -48,6 +48,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+//Both Gonzalez's and Geese's events are in the WestIslesEvents.event file.
 CharacterEvent(Ch10A_LilinaGonzalesTalkFlag,EVENT_LilinaRecruitsGonzalez,Lilina,Gonzalez)
 CharacterEvent(Ch10A_RoyGeeseTalkFlag,EVENT_RoyRecruitsGeese,Roy,Geese)
 END_MAIN

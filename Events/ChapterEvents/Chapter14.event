@@ -226,7 +226,7 @@ HardReinforcementEvent(BrigandReinforcementsSouthEast)
 
 GaidenGone:
 VCWF 0x0
-WEA1 0x0 //is this it????
+WEA1 0x0
 STAL 128
 CAM1 Roy
 QuieterMusic
@@ -285,12 +285,12 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_DistantUtopia)
-BranchIfUnitDead(8,Sophia)//if sophia dead, fail and go to label 8
-//else, continue
 
-BranchIfFlagON(8,Ch14_GaidenGoneFlag) //check gaiden flag, if fail go to 8
+//Branch to gaiden fail if Sophia is dead or Gaiden Fail flag is ON.
+BranchIfUnitDead(8,Sophia)
+BranchIfFlagON(8,Ch14_GaidenGoneFlag)
 
-//gaiden success
+//If Sophia alive and flag off, go to Ch14x.
 Text(BG_Castle3,Ch14_EndGaidenGot)
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
@@ -299,7 +299,8 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch14x)
 GOTO 9
 
-LABEL 8 //fail gaiden and go to 15
+//Gaiden fail, go to Ch15.
+LABEL 8
 Text(BG_Castle3,Ch14_Ch14x_EndElder)
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
@@ -307,7 +308,7 @@ CALL EVENT_ReviveMerlinus
 #endif
 MoveToChapter(CHAPTER_Ch15)
 
-LABEL 9 //end event
+LABEL 9
 ENDA
 
 ArmoryList:

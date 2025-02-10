@@ -89,7 +89,8 @@ DeathQuote(Brunnya,CHAPTER_Ch23,BossDefeatFlag,BrunnyaDeathQuote)
 
 DeathQuote(Jahn,CHAPTER_Ch23,BossDefeatFlag,JahnDeathQuote)
 
-DeathQuote(IdunnDragon,CHAPTER_Final,BossDefeatFlag,IdunnDeathQuote,EVENT_IdunnDeathBindingBladeCheck)
+//Idunn's boss flag is in the death event.
+DeathQuote(IdunnDragon,CHAPTER_Final,0x0,IdunnDeathQuote,EVENT_IdunnDeathBindingBladeCheck)
 
 
 

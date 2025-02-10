@@ -192,7 +192,7 @@ PlayMusic(MUS_DeerOfThePlains)
 LOAD1 0x1 Enemies
 ENUN
 ChStartFadeFromBlack
-//weird asm
+//FE6 has some ASM here.
 MoveByCoords(0, 6, 19, 6, 18)
 ENUN
 Text(Ch8_Start1)
@@ -211,6 +211,7 @@ CAM1 Roy
 ENUN
 STAL 16
 Text(BG_Castle2,Ch8_Start2)
+//Trick for Lilina to not appear in preps.
 DISA Lilina
 GotoPrepScreenNoENDA
 LOAD 0x1 JustLilina
@@ -233,6 +234,7 @@ RestoreMusic
 EndEvent
 
 CathAppearsIfAlive:
+//Skip Cath's appearance if she's been recruited (impossible this chapter) or is dead.
 BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LOAD1 0x1 CathThief
@@ -273,9 +275,10 @@ ConvoEvent(Ch8_BartheLilinaTalk)
 
 
 EndingScene:
+//Ending changes based on if Lilina is dead.
 BranchIfUnitDead(1,Lilina)
 
-// lilina alive, go to ch8x
+//Lilina alive case. Go to Ch8x.
 SetBackground(BG_Castle2)
 TEXTSTART
 TEXTSHOW Ch8_EndLilinaAlive
@@ -291,18 +294,16 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch8x)
 GOTO 9
 
-LABEL 1 //lilina dead, go to ch9
+//Lilina dead case. Call Narcian cutscene and go to Ch9 (done from the Narcian event).
+LABEL 1
+Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
+MOVE 0x0 Roy [16,23]
+FadeIntoBlack
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
-//this is technically a manual move but we only have 1steps in fe8 so let's just
-//02   01    01    01    01    02   02   01    02   02   02   01    01    01    01    01
-//Down Right Right Right Right Down Down Right Down Down Down Right Right Right Right Right 
-MOVE 0x0 Roy [16,23]
-
-FadeIntoBlack
 CALL OstiaNarcianCutscene
+
 LABEL 9
 ENDA
 

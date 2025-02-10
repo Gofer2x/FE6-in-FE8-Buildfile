@@ -65,7 +65,7 @@ TurnEventEnemy(0x0,EchidnaAppears,8)
 TurnEventEnemy(0x0,OrloComplainsAndTalksAboutReinforcements,9)
 TurnEventEnemy(0x0,NorthCavsAppearIfBossAlive,10)
 TurnEventEnemy(0x0,MoreBanditsAppear,12,4)
-TurnEventEnemy(0x0,HardOrloMoreReinforcements,13)
+TurnEventEnemy(0x0,HardOrloMoreReinforcementsComing,13)
 TurnEventEnemy(0x0,HardSouthCavsAppearIfBossAlive,14)
 
 
@@ -74,6 +74,7 @@ ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
 CharacterEvent(Ch11A_LarumEchidnaTalkFlag,LarumRecruitsEchidna,Larum,Echidna)
+//For Klein-Clarine-Roy-Shanna-Thea events, check the WestIslesEvents.event file.
 CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_RoyRecruitsKlein,Roy,Klein)
 CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_ClarineRecruitsKlein,Clarine,Klein)
 CharacterEventBothWays(Ch11A_Ch10B_ClarineKleinExtraTalkFlag,EVENT_ClarineKleinExtraTalk,Clarine,Klein)
@@ -85,6 +86,7 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(27,2)
+//Special flags for visiting the villages. Used for checking Hero Crest reward in the ending event.
 Village(Ch11A_VillageFlag1,DragonshieldVillageVisit,11,18)
 Village(Ch11A_VillageFlag2,SleepVillageVisit,24,18)
 Village(Ch11A_VillageFlag3,MoneyVillageVisit,18,14)
@@ -382,7 +384,7 @@ EndEvent
 MoreBanditsAppear:
 ReinforcementEvent(BrigandReinforcements2)
 
-HardOrloMoreReinforcements:
+HardOrloMoreReinforcementsComing:
 BranchIfBossDead(9)
 BranchIfNotHard(9)
 SwitchMusic(MUS_WildFrontier)
@@ -449,7 +451,7 @@ TEXTCONT
 TEXTEND
 RemaFadeClean
 
-//hero crest
+//Skip the Hero Crest reward if any of the villages were not visited.
 BranchIfFlagOFF(1,Ch11A_VillageFlag1)
 BranchIfFlagOFF(1,Ch11A_VillageFlag2)
 BranchIfFlagOFF(1,Ch11A_VillageFlag3)
@@ -459,26 +461,29 @@ BranchIfFlagOFF(1,Ch11A_VillageFlag6)
 BranchIfFlagOFF(1,Ch11A_VillageFlag7)
 BranchIfFlagOFF(1,Ch11A_VillageFlag8)
 
+//All visited, Hero Crest got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch11A_EndHeroCrest)
 GiveItemToCharacter(Roy,HeroCrest)
 
 LABEL 1
 
-//orion's bolt
+//Skip the Orion's Bolt reward if Klein is unrecruited/dead or if any of his archers died.
 BranchIfUnitDead(2,Klein)
 BranchIfFlagON(2,Ch11A_Ch10B_GenericArcherKleinDeathFlag)
 
+//If all alive, Orion's Bolt got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndOrionsBolt)
 GiveItemToCharacter(Klein,OrionsBolt)
 
 LABEL 2
 
-//elysian whip
+//Skip the Elysian Whip reward Thea is unrecruited/dead or if any of her pegasus knights died.
 BranchIfUnitDead(3,Thea)
 BranchIfFlagON(3,Ch11A_Ch10B_GenericPegKnightTheaDeathFlag)
 
+//If all alive, Elysian Whip got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)
 GiveItemToCharacter(Thea,ElysianWhip)

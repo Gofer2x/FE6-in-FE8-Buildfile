@@ -163,7 +163,8 @@ Text(Ch17B_Start3)
 MOVE 0x0 Yoder [0,0]
 ENUN
 DISA Yoder
-LOAD1 0x1 PillagerThiefReinforcements1 //idk lol fe6 is weird
+//FE6 is weird.
+LOAD1 0x1 PillagerThiefReinforcements1
 ENUN
 GotoPrepScreen
 

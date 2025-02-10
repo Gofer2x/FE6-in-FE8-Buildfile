@@ -190,8 +190,11 @@ PlayMusic(MUS_Suspicious)
 LOAD1 0x1 Enemies
 ENUN
 ChStartFadeFromBlack
+
+//If Cath is recruited (or dead), disable her talk with Roy.
 BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch16_RoyCathTalkFlag)
+
 LABEL 1
 FlashCursor(Narcian,60)
 Text(BG_Castle2,Ch16_Start1)
@@ -252,7 +255,7 @@ RestoreMusic
 EndEvent
 
 HughComplains:
-//some asm with a branch here?
+//FE6 has some ASM with a branch here.
 SwitchMusic(MUS_HappinessAbounds)
 CAM1 Hugh
 Text(Ch16_HughComplains)
@@ -260,6 +263,7 @@ RestoreMusic
 EndEvent
 
 CathAndAThiefAppear:
+//Skip Cath's appearance if she's been recruited or is dead.
 BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(CathAndThief)
@@ -306,26 +310,29 @@ EndEvent
 
 
 HughRecruitment:
-DisableSkipping //No skip allowed
+DisableSkipping
 Text(Ch16_HughRecruitmentStart)
-BranchIfGoldAtLeast(1,10000) //Do we have 10000 Gold? If yes, branch to 1
-BranchIfGoldAtLeast(2,8000)  //Do we have 8000 Gold? If yes, branch to 2
-BranchIfGoldAtLeast(3,6000)  //Do we have 6000 Gold? If yes, branch to 3
-BranchIfGoldAtLeast(4,5000)  //Do we have 5000 Gold? If yes, branch to 4
-GOTO 7 //else, fail
+BranchIfGoldAtLeast(1,10000) //Do we have 10000 Gold? If yes, branch to 1.
+BranchIfGoldAtLeast(2,8000)  //Do we have 8000 Gold? If yes, branch to 2.
+BranchIfGoldAtLeast(3,6000)  //Do we have 6000 Gold? If yes, branch to 3.
+BranchIfGoldAtLeast(4,5000)  //Do we have 5000 Gold? If yes, branch to 4.
+GOTO 7 //Else, fail.
 
-LABEL 1 //10k recruitment
+//10k recruitment
+LABEL 1 
 Text(Ch16_HughRecruitmentWellYesNo)
-BEQ 2 s0 sC //branch to next threshold if No
-//else recruit
+BEQ 2 s0 sC //Branch to next threshold if No.
+//Else, recruit.
 LoseMoney(10000)
-GOTO 8 //branch to recruitment
+//Branch to recruitment.
+GOTO 8
 
-LABEL 2 //8k recruitment
+//8k recruitment
+LABEL 2
 Text(Ch16_HughDownTo8k)
 Text(Ch16_HughRecruitmentWellYesNo)
-BEQ 3 s0 sC //branch to next threshold if No
-//else, nerf and recruit
+BEQ 3 s0 sC //Branch to next threshold if No.
+//Else, nerf and recruit.
 DecreaseUnitParam(Hugh,param_MaxHP,1)
 DecreaseUnitParam(Hugh,param_HP,1)
 DecreaseUnitParam(Hugh,param_Pow,1)
@@ -335,13 +342,14 @@ DecreaseUnitParam(Hugh,param_Def,1)
 DecreaseUnitParam(Hugh,param_Res,1)
 DecreaseUnitParam(Hugh,param_Luck,1)
 LoseMoney(8000)
-GOTO 8 //branch to recruitment
+GOTO 8 //Branch to recruitment.
 
-LABEL 3 //6k recruitment
+//6k recruitment
+LABEL 3
 Text(Ch16_HughDownTo6k)
 Text(Ch16_HughRecruitmentWellYesNo)
-BEQ 4 s0 sC //branch to next threshold if No
-//else, nerf and recruit
+BEQ 4 s0 sC //Branch to next threshold if No.
+//Else, nerf and recruit.
 DecreaseUnitParam(Hugh,param_MaxHP,2)
 DecreaseUnitParam(Hugh,param_HP,2)
 DecreaseUnitParam(Hugh,param_Pow,2)
@@ -351,13 +359,14 @@ DecreaseUnitParam(Hugh,param_Def,2)
 DecreaseUnitParam(Hugh,param_Res,2)
 DecreaseUnitParam(Hugh,param_Luck,2)
 LoseMoney(6000)
-GOTO 8 //branch to recruitment
+GOTO 8 //Branch to recruitment.
 
-LABEL 4 //5k recruitment
+//5k recruitment
+LABEL 4
 Text(Ch16_HughDownTo5k)
 Text(Ch16_HughRecruitmentWellYesNo)
-BEQ 7 s0 sC //branch to failure if No
-//else, nerf and recruit
+BEQ 7 s0 sC //Branch to failure if No.
+//Else, nerf and recruit.
 DecreaseUnitParam(Hugh,param_MaxHP,3)
 DecreaseUnitParam(Hugh,param_HP,3)
 DecreaseUnitParam(Hugh,param_Pow,3)
@@ -367,14 +376,16 @@ DecreaseUnitParam(Hugh,param_Def,3)
 DecreaseUnitParam(Hugh,param_Res,3)
 DecreaseUnitParam(Hugh,param_Luck,3)
 LoseMoney(5000)
-GOTO 8 //branch to recruitment
+GOTO 8 //Branch to recruitment.
 
-LABEL 7 //not recruited
+//Not recruited.
+LABEL 7
 Text(Ch16_HughFinalRejected)
 GOTO 9
 
-LABEL 8 //hugh gets recruited
-EnableSkipping //allow skip
+ //Hugh gets recruited.
+LABEL 8
+EnableSkipping
 SwitchMusic(MUS_JoinUs)
 Text(Ch16_HughRecruited)
 TurnAlly(Hugh) 
@@ -393,14 +404,18 @@ LoadStairsReinforcements:
 ReinforcementEvent(StairsReinforcements)
 
 EndingScene:
+//Branch to gaiden fail is Douglas is dead.
 BranchIfFlagON(1,Ch16_DouglasDeathFlag)
+
+//Else, gaiden got. Go to Ch16x.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle2,Ch16_EndGaidenGot)
 STAL 64
 MoveToChapter(CHAPTER_Ch16x)
 GOTO 9
 
-LABEL 1 //gaiden fail
+//Gaiden fail. Determine route and go to Ch17.
+LABEL 1
 PlayMusic(MUS_PrincessOfDestiny)
 Text(BG_Castle2,Ch16_Ch16x_EndRoyAndGuinivereTalk)
 STAL 64

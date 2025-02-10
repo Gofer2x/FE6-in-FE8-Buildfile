@@ -135,7 +135,6 @@ EndingScene:
 PlayMusic(MUS_Triumph)
 Text(BG_Temple2White,Ch20Ax_End)
 GiveItemToCharacter(Roy,Maltet)
-
 SetBackground(BG_Temple2White)
 TEXTSTART
 TEXTSHOW Ch20A_Ch20Ax_EndRoyAndGuinivereTalk

@@ -15,7 +15,7 @@
 //Ch18B_MonkeVsSueFlag 0x1E
 //Ch18B_MonkeVsSinFlag 0x1F
 
-#define Ch18B_AmbushChance 0xA //TODO try to find what chance this is specifically
+#define Ch18B_AmbushChance 0xA //Try to find what chance this is specifically. TODO
 
 #define Ch18B_AmbushCounter 0x0
 
@@ -66,6 +66,9 @@ House(0x0,UnitedClansHouseVisit,15,6)
 Armory(ArmoryList,4,3)
 Vendor(VendorList,2,3)
 END_MAIN
+
+//The ambush is enabled for one turn when a player unit ends their turn in yurt circle.
+//It turns off after 5 (Normal mode) or 10 (Hard mode) trap events have occured.
 
 MiscBasedEvents:
 AreaEvent(Ch18B_AmbushStopCheckFlag,TriggerAmbush,14,15,20,15)
@@ -246,17 +249,22 @@ HouseEvent(Ch18B_UnitedClansHouse,BG_House)
 
 TriggerAmbush:
 PlayerInRange
+//Special handling for Hard mode.
 BranchIfHard(1)
 
-BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,5) //the ambush can only happen 5 times on normal
+//The ambush can only happen 5 times on Normal. If counter above that, skip rest of the event.
+BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,5)
 GOTO 8
 
+//Ditto but 10 times on Hard.
 LABEL 1
-BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,10) //and 10 on hard
+BranchIfCounterEqualTo(9,Ch18B_AmbushCounter,10)
 
+//Turn off the event flags to let the ambush happen again next turn.
 LABEL 8
 FlagOFF(Ch18B_AmbushFlag)
 FlagOFF(Ch18B_AmbushStopCheckFlag)
+
 LABEL 9
 EndEvent
 

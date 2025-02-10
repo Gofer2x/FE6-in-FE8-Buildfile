@@ -191,8 +191,10 @@ FlagON(Ch20A_ShannaJunoExtraTalkFlag)
 FlagON(Ch20A_TheaJunoExtraTalkFlag)
 FlagON(Ch20A_ZelotJunoExtraTalkFlag)
 
+//If Cath is recruited (or dead), disable her talk with Roy.
 BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
 FlagON(Ch12_RoyCathTalkFlag)
+
 LABEL 1
 FlashCursor(Roartz,60)
 Text(BG_Castle1,Ch20A_Start1)
@@ -265,6 +267,7 @@ UnquieterMusic
 EndEvent
 
 CathAndThievesAppear:
+//Skip Cath's appearance if she's been recruited or is dead.
 BranchIfFlagON(3,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
@@ -300,18 +303,23 @@ LoadHardFighters:
 HardReinforcementEvent(FighterReinforcements)
 
 EndingScene:
+//Branch to gaiden fail is Juno or Zelot are unrecruited/dead or if the gaiden gone flag is on.
 BranchIfUnitDead(5,Juno)
 BranchIfUnitDead(5,Zelot)
 BranchIfFlagON(5,Ch20A_GaidenGoneFlag)
 
-//gaiden epic success
-
+//All alive and flag off, gaiden success.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch20A_EndGaidenGot)
 
+//Skip Angelic Robe reward if any of the citizens died.
 BranchIfFlagON(3,Ch20A_GenericCitizenIlliaDeathFlag)
+
+//All alive, Angelic Robe got.
 Text(BG_Castle1,Ch20A_EndAngelicRobe)
 GiveItemToCharacter(Roy,AngelicRobe)
+
+//Move to Ch20Ax.
 LABEL 3
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
@@ -320,9 +328,9 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch20Ax)
 GOTO 9
 
-LABEL 5 //gaiden epic fail
+//Gaiden fail branch. Go to Ch21.
+LABEL 5
 PlayMusic(MUS_PrincessOfDestiny)
-
 SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch20A_Ch20Ax_EndRoyAndGuinivereTalk
@@ -330,13 +338,17 @@ TEXTEND
 PlayMusic(MUS_MainThemeArrangement)
 TEXTCONT
 TEXTEND
-REMA
+RemaFadeClean
 
+//Angel Robe reward again.
 BranchIfFlagON(7,Ch20A_GenericCitizenIlliaDeathFlag)
+
+//Got.
 Text(BG_Castle1,Ch20A_EndAngelicRobe)
 GiveItemToCharacter(Roy,AngelicRobe)
+
+//Move to Ch21.
 LABEL 7
-CLEAN
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

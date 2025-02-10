@@ -91,16 +91,16 @@ UNIT Ward Fighter Dieck Level(2,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_16 [IronAxe,
 UNIT Lot Fighter Dieck Level(3,Ally,0) [15,18] 0x0 0x0 0x1 REDA_12_18 [IronAxe, SteelAxe, HandAxe] DummyAI
 UNIT
 
-ElenChaserSoldier:
+ElenChasers1:
 UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [7,17] 0x0 0x0 0x1 REDA_3_14 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
-ElenChasers:
+ElenChasers2:
 UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_5_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericBernCh2 Soldier Ruud Level(3,Enemy,1) [8,18] 0x0 0x0 0x1 REDA_1_16 [IronLance] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT
 
-ElenChasers2:
+ElenChasers3:
 UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_8_17 [IronAxe, HandAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericBernCh2 Fighter Ruud Level(1,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_6_18 [IronAxe] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_HP, AI4_Retreat]
 UNIT GenericBernCh2 Fighter Ruud Level(2,Enemy,1) [11,18] 0x0 0x0 0x1 REDA_4_18 [HandAxe] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_HP, AI4_Retreat]
@@ -184,7 +184,7 @@ Text(Ch2_Start3)
 LOAD1 0x1 JustElen
 ENUN
 STAL 16
-//move elen 3x up, ENUN, then 1x up and 1x left and ENUN.. i'll just do a normal move and not manual lol
+//FE6 uses a manual move here, but this will do.
 MOVE 0x0 Elen [4,11]
 ENUN
 MOVE 0x0 Elen [3,10]
@@ -196,14 +196,14 @@ PlayMusic(MUS_AnUnexpectedCaller)
 TEXTCONT
 TEXTEND
 REMA
-LOAD1 0x1 ElenChaserSoldier
+LOAD1 0x1 ElenChasers1
 ENUN
 STAL 16
 CAM1 [0,14]
 Text(Ch2_Start5)
-LOAD1 0x1 ElenChasers
-ENUN
 LOAD1 0x1 ElenChasers2
+ENUN
+LOAD1 0x1 ElenChasers3
 ENUN
 CAM1 Roy
 Text(Ch2_Start6)
@@ -265,15 +265,21 @@ SetBackground(BG_Castle1)
 TEXTSTART
 TEXTSHOW Ch2_End1
 TEXTEND
+
+//Skip Elen's part if she is dead.
 BranchIfUnitDead(1,Elen)
 TEXTSHOW2 Ch2_End2IfElen
 TEXTEND
+
 LABEL 1
 TEXTSHOW2 Ch2_End3
 TEXTEND
+
+//Ditto.
 BranchIfUnitDead(2,Elen)
 TEXTSHOW2 Ch2_End4IfElen
 TEXTEND
+
 LABEL 2
 TEXTSHOW2 Ch2_End5
 TEXTEND

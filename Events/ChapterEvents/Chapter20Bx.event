@@ -50,15 +50,12 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-
 Seize(Ch20Bx_ThorilTriedFlag,TryThorilSeize,17,8)
 Seize(Ch20Bx_BrakulTriedFlag,TryBrakulSeize,21,15)
 Seize(Ch20Bx_KudokaTriedFlag,TryKudokaSeize,3,10)
 Seize(Ch20Bx_MarralTriedFlag,TryMarralSeize,8,14)
 Seize(Ch20Bx_KabulTriedFlag,TryKabulSeize,3,24)
 Seize(Ch20Bx_ChanTriedFlag,TryChanSeize,12,26)
-
-
 END_MAIN
 
 MiscBasedEvents:
@@ -215,7 +212,7 @@ CAM1 Roy
 FlashCursor(Roy,60)
 Text(Ch20Bx_Start2Elffin)
 
-//set random gate throne thing
+//Set up which gate is the correct one.
 RANDOMNUMBER 5
 BEQ 0 s0 sC
 SVAL s1 1
@@ -226,7 +223,7 @@ SVAL s1 3
 BEQ 3 s1 sC
 SVAL s1 4
 BEQ 4 s1 sC
-//if none of the previous branched, it's 5
+//If none of the previous branched, it's 5.
   FlagON(Ch20Bx_ThorilCorrectFlag)
   GOTO 9
 LABEL 4
@@ -245,9 +242,9 @@ LABEL 0
   FlagON(Ch20Bx_ChanCorrectFlag)
   GOTO 9
 LABEL 9
-
 GotoPrepScreen
 
+//Ambush events below. Self explanatory.
 TryThorilSeize:
 BranchIfFlagOFF(5,Ch20Bx_ThorilCorrectFlag)
 FlagON(SeizeFlag)

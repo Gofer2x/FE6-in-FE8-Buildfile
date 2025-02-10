@@ -71,7 +71,8 @@ House(0x0,PercevalLoyalHouseVisit,41,19)
 END_MAIN
 
 MiscBasedEvents:
-AreaEvent(Ch13_NarcianLeavesFlag,NarcianLeaves,22,0,45,24) //idk if this is right
+//Event for the Narcian leaving cutscene. Only plays once Narcian is on the throne.
+AreaEvent(Ch13_NarcianLeavesFlag,NarcianLeaves,22,0,45,24)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -234,15 +235,13 @@ Text(BG_Outside,Ch13_Start3)
 GotoPrepScreen
 
 CeciliaDies:
-//idk zephiel music here
 CAM1 [43,9]
 MOVE 0x0 Zephiel [43,10]
 ENUN
 Text(Ch13_ZephielAttacksCecilia)
-//battle. is this how you do it? hopefully yes
 StartBattle
 MissedAttack(0,0)
-//can you kill her but not cause an actual death?? idk, just putting damage at so it leaves her at 1
+//Cecilia's HP hits zero here in FE6, but we have to keep her at 1 here. TODO?
 CriticalHit(1,29)
 EndAttack
 FIG1 Cecilia Zephiel 0x0
@@ -272,10 +271,10 @@ RestoreMusic
 EndEvent
 
 GuinivereFound:
-//NOTE: this section uses some asm to, i think, do a two-layer music switch + return.
-//first switch from map theme to zephiel music, then switch to guinivere, then back to zephiel, then finally back to map music.
-//i will do a normal "play music" at the start and do a restore for the zephiel music, then just keep the music at end.
-//enemy phase starts right as the event ends so you don't get to hear the player phase track anyway.
+//NOTE: this section uses some ASM to, i think, do a two-layer music switch + return.
+//First switch from map theme to Zephiel music, then switch to Guinivere, then back to Zephiel, then finally back to map music.
+//I will do a normal "play music" at the start and do a restore for the Zephiel music, then just keep the music at end.
+//Enemy phase starts right as the event ends so you don't get to hear the player phase track anyway.
 PlayMusic(MUS_TheKingOfBern)
 CAM1 [43,9]
 MOVE 0x0 Narcian [43,10]
@@ -390,7 +389,7 @@ MOVE 0x0 Perceval [45,6]
 ENUN
 DISA Perceval
 RestoreMusic
-//this is a bit lazy but works
+//This is a bit lazy but it works. TODO
 MOVE 0x0 GenericSoldierPercevalCh13_Ch15 [45,6]
 ENUN
 DISA GenericSoldierPercevalCh13_Ch15
@@ -475,12 +474,13 @@ TEXTEND
 PlayMusic(MUS_DistantUtopia)
 TEXTCONT
 TEXTEND
-REMA
+RemaFadeClean
 
-BranchIfFlagOFF(1,Ch13_PercevalRecruitedFlag)
+//Skip Knight Crest reward if Perceval is unrecruited/dead, or if any of his soldiers died.
 BranchIfUnitDead(1,Perceval)
 BranchIfFlagON(1,Ch13_Ch15_GenericSoldierPercevalDeathFlag)
 
+//All alive, Knight Crest got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch13_Ch15_EndKnightCrest)
 GiveItemToCharacter(Perceval,KnightCrest)

@@ -1,8 +1,8 @@
 EVENT_BindingBladeAndRoyPromo:
 
-//TODO make this less janky lol. both visually and the dummy promo item. for the latter, just make it a fake binding blade lol?
-//most notably the backgrounds that appear between white flashes show up for as they're set before the fade from white finishes.
-//also the ending. how to show the map, then promo, then map back again?
+//TODO Make this less janky. Both visually and the dummy promo item. fFor the latter, just make it a fake Binding Blade maybe?
+//Most notably the backgrounds that appear between white flashes show up for as they're set before the fade from white finishes.
+//Also the ending. How to show the map, Then promo, then map back again?
 
 FadeOutMusic
 STAL 64
@@ -10,13 +10,13 @@ SetBackground(BG_Castle2)
 TEXTSTART
 TEXTSHOW Ch21_Ch21x_EndBindingBlade1
 TEXTEND
-FadeIntoWhite(16) //quick flash of white
+FadeIntoWhite(16)
 PlaySound(SND_MagicShine)
 FadeFromWhite(16)
 TEXTCONT //whoa! what's happening?
 TEXTEND
 PlaySound(SND_MagicShine)
-FadeIntoWhite(4) // does this work?
+FadeIntoWhite(4)
 REMA
 SetBackground(BG_Temple1Bright)
 FadeFromWhite(4)
@@ -24,7 +24,7 @@ PlayMusic(MUS_TheDarkPriestess)
 TEXTSTART
 TEXTSHOW Ch21_Ch21x_EndBindingBlade2
 TEXTEND
-FlashWhiteAdjustable(16) //quick flash of white again
+FlashWhiteAdjustable(16)
 
 
 PlaySound(SND_MagicShine)

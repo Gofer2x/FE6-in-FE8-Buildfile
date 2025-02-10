@@ -207,6 +207,7 @@ ReinforcementEvent(FortPiratesReinforcements)
 SilverSwordVillageVisit:
 VillageEventItem(Ch9_SilverSwordVillage,BG_Village,SilverSword)
 
+//Manual Village event. Triggers the other village's tile change so it can't be visited.
 KillerBowEchidnaRouteVillage:
 MUSI
 SMOV 0x2 BG_Village
@@ -219,6 +220,7 @@ GIVEITEMTO 0xFFFF
 TILECHANGE 5
 EndEvent
 
+//Ditto but for Bartre route. Also enables Bartre Route flag.
 BarrierBartreRouteVillage:
 MUSI
 SMOV 0x2 BG_Village
@@ -229,6 +231,7 @@ CALL $591F40
 SMOV 0x3 Barrier
 GIVEITEMTO 0xFFFF
 TILECHANGE 4
+FlagON(WestIslesBartreRouteFlag)
 EndEvent
 
 MistHouseVisit:
@@ -250,10 +253,11 @@ TEXTSTART
 TEXTSHOW Ch9_End1
 TEXTEND
 
+//Branch based on if either village was visited, and if so which.
 BranchIfFlagON(1,Ch9_LeftVillageVisitedFlag)
 BranchIfFlagON(2,Ch9_RightVillageVisitedFlag)
 
-//If neither visited, Echidna route
+//Neither village visited case. Echidna route, Ch10A.
 TEXTSHOW2 Ch9_EndNorthNoVillage
 TEXTEND
 RemaFadeClean
@@ -264,7 +268,7 @@ MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 1
-//If left visited, Echidna route
+//Left village visited case. Echidna route, Ch10A.
 TEXTSHOW2 Ch9_EndNorth
 TEXTEND
 RemaFadeClean
@@ -275,8 +279,7 @@ MoveToChapter(CHAPTER_Ch10A)
 GOTO 9
 
 LABEL 2
-//If right visited, Bartre Route
-FlagON(WestIslesBartreRouteFlag)
+//Right village visited case. Bartre route, Ch10B.
 TEXTSHOW2 Ch9_EndWest
 TEXTEND
 RemaFadeClean

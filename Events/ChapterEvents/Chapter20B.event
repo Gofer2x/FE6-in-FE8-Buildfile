@@ -171,11 +171,14 @@ PlayMusic(MUS_DistantLands)
 LOAD1 0x1 Enemies
 ENUN
 ChStartFadeFromBlack
-BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
-FlagON(Ch20B_RoyCathTalkFlag)
-LABEL 1
 FlagON(Ch20B_SueDayanExtraTalkFlag)
 FlagON(Ch20B_SinDayanExtraTalkFlag)
+
+//If Cath is recruited (or dead), disable her talk with Roy.
+BranchIfFlagOFF(1,CathRecruitedOrDeadFlag)
+FlagON(Ch20B_RoyCathTalkFlag)
+
+LABEL 1
 FlashCursor(15,2,60)
 Text(BG_Castle1,Ch20B_Start1)
 LOAD3 0x0 Units
@@ -192,7 +195,6 @@ PlayMusic(MUS_Talking)
 TEXTCONT
 TEXTEND
 REMA
-CLEAN
 GotoPrepScreen
 
 DayanAppears:
@@ -202,6 +204,7 @@ Text(BG_Castle3,Ch20B_DayanAppears)
 EndEvent
 
 CathAppears:
+//Skip Cath's appearance if she's been recruited or is dead.
 BranchIfFlagON(9,CathRecruitedOrDeadFlag)
 SwitchMusic(MUS_GoingMyWay)
 LoadReinforcements(JustCath)
@@ -260,13 +263,13 @@ EndEvent
 
 
 EndingScene:
+//Branch to gaiden fail is Sue, Sin, or Dayan are unrecruited/dead or if the gaiden gone flag is on.
 BranchIfUnitDead(5,Sue)
 BranchIfUnitDead(5,Sin)
 BranchIfUnitDead(5,Dayan)
 BranchIfFlagON(5,Ch20B_GaidenGoneFlag)
 
-//gaiden epic success
-
+//All alive and flag off, gaiden success. Move to Ch20Bx.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle3,Ch20B_EndGaidenGot)
 STAL 64
@@ -276,9 +279,9 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch20Bx)
 GOTO 9
 
-LABEL 5 //gaiden epic fail
+//Gaiden fail branch. Move to Ch21.
+LABEL 5
 PlayMusic(MUS_PrincessOfDestiny)
-
 SetBackground(BG_Castle3)
 TEXTSTART
 TEXTSHOW Ch20B_Ch20Bx_EndRoyAndGuinivereTalk

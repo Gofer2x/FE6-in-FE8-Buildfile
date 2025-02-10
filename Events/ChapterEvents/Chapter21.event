@@ -58,7 +58,6 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(Ch21_GaidenGoneFlag,GaidenGone,31) //yes, this is not an ambush
-
 TurnEventEnemy(Ch21_RedZoneDoneFlag,RedZoneEvent,1,255)
 TurnEventEnemy(Ch21_OrangeZoneDoneFlag,OrangeZoneEvent,1,255)
 TurnEventEnemy(Ch21_BlueZoneDoneFlag,BlueZoneEvent,1,255)
@@ -279,8 +278,11 @@ ALIGN 4
 BeginningScene:
 PlayMusic(MUS_Dignified)
 LOAD1 0x1 Enemies
+
+//Extra Hard enemies.
 BranchIfNotHard(1)
 LOAD1 0x1 HardExtraEnemies
+
 LABEL 1
 ENUN
 ChStartFadeFromBlack
@@ -309,12 +311,15 @@ TEXTCONT
 TEXTEND
 RemaFadeClean
 
+//Branch to load Yoder with Maltet if we're on Sacae route.
 BranchIfFlagON(2,SacaeRouteFlag)
-//took illia route
+
+//Illia Mulagir case.
 LOAD1 0x1 YoderMulagir
 ENUN
 GOTO 3
-//took sacae route
+
+//Sacae Maltet case.
 LABEL 2
 LOAD1 0x1 YoderMaltet
 LABEL 3
@@ -438,10 +443,12 @@ RestoreMusic
 EndEvent
 
 EndingScene:
+//Branch to gaiden fail is Melady or Zeiss are unrecruited/dead or if the gaiden gone flag is on.
 BranchIfUnitDead(5,Melady)
 BranchIfUnitDead(5,Zeiss)
 BranchIfFlagON(5,Ch21_GaidenGoneFlag)
-//gaiden got
+
+//All alive and flag off, gaiden success. Move to Ch21x.
 Text(BG_Temple2White,Ch21_EndGaidenGot)
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
@@ -450,7 +457,7 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch21x)
 GOTO 9
 
-//epic fail
+//Gaiden fail. Promote Roy and move to Ch22 (from within that event).
 LABEL 5
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus

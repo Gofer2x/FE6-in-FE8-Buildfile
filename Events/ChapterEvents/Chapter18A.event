@@ -11,9 +11,6 @@
 // 0x5
 //RoutFlag 0x6
 
-
-//
-
 EventPointerTable(EVENTS_Ch18A,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch18A,0x0)
 NPCEscapePointPointerTable(CHAPTER_Ch18A,0x0)
@@ -185,8 +182,7 @@ Text(BG_Castle1,Ch18A_RiverFreezes1)
 CAM1 Roy
 FlashCursor(Roy,60)
 Text(BG_SnowOutside,Ch18A_RiverFreezes2)
-//sound here TODO
-//gfx?
+//Sound and gfx here? TODO
 TILECHANGE 6
 TILECHANGE 7
 TILECHANGE 8

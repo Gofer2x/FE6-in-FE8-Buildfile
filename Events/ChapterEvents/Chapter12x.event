@@ -143,21 +143,27 @@ GotoPrepScreen
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
-BranchIfFlagOFF(1, WestIslesBartreRouteFlag) //did we go echidna or bartre route?
+//There is special dialogue if we are on Bartre route and Elffin died.
+//Skip the check for that if we are not on Bartre route.
+BranchIfFlagOFF(1, WestIslesBartreRouteFlag)
 
-//bartre route
-BranchIfUnitDead(2,Elffin) //if bartre route and elffin dead, elfinless dialogue
-//else, continue as if we were on echidna route
+//We are on Bartre route. Branch if Elffin dead.
+BranchIfUnitDead(2,Elffin)
 
-LABEL 1 //echidna route and elffin alive on bartre route
+//Echidna route or Bartre route Elffin alive case.
+LABEL 1
 Text(BG_Cave,Ch12x_EndElffinAlive)
 GOTO 3
 
+//Bartre route, Elffin dead case.
 LABEL 2
 Text(BG_Cave,Ch12x_EndElffinDead)
 
-LABEL 3 //either way, message from etruria
+//Either way, continue here.
+LABEL 3
 Text(BG_Cave,Ch12_Ch12x_EndEtruriaRevolution)
+GiveItemToCharacter(Roy,Armads)
+STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif

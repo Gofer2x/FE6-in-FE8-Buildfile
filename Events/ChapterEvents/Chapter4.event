@@ -32,11 +32,11 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventNPC(0x0,RutgerClarine1,2)
-TurnEventNPC(0x0,RutgerClarine2,3)
+TurnEventNPC(0x0,RutgerClarineEvent1,2)
+TurnEventNPC(0x0,RutgerClarineEvent2,3)
 TurnEventEnemy(0x0,PiratesAppear,4)
 TurnEventEnemy(0x0,RutgerWarning,5)
-//turn 5 some weird fuckin asm
+//Turn 5 has some ASM in FE6.
 TurnEventEnemy(0x0,RutgerAppears,6)
 TurnEventEnemy(0x0,LoadPirateReinforcements,6)
 TurnEventEnemy(0x0,LoadPirateReinforcements,8,3)
@@ -162,7 +162,7 @@ LOAD 0x1 Enemies
 ENUN
 STAL 16
 CMON
-MOVE 0x0 Narcian [13,65535]
+MOVE 0x0 Narcian [13,0]
 ENUN
 DISA Narcian
 STAL 16
@@ -178,7 +178,7 @@ CAM1 Roy
 #endif
 EndEvent
 
-RutgerClarine1:
+RutgerClarineEvent1:
 CAM1 [4,8]
 QuieterMusic
 STAL 16
@@ -186,7 +186,7 @@ Text(BG_Dungeon, Ch4_RutgerClarine1)
 UnquieterMusic
 EndEvent
 
-RutgerClarine2:
+RutgerClarineEvent2:
 CAM1 [4,8]
 QuieterMusic
 STAL 16

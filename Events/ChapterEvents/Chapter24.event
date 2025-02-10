@@ -220,7 +220,6 @@ RestoreMusic
 SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
-
 Throne6Seize:
 SwitchMusic(MUS_ShockingTruth1)
 Text(BG_Temple1,Ch24_LoreDump6)
@@ -230,9 +229,12 @@ SetCounter(Ch24_ReinforcementCounter,5)
 EndEvent
 
 ThroneReinforcements:
-BranchIfCounterZero(9,Ch24_ReinforcementCounter) //don't run if counter exhausted
-BranchIfFlagOFF(9,Ch24_Throne1SeizeFlag) //skip if no thrones have been seized yet
-CHECK_TURNS //only run on even turns. copied this from febuilder
+//Skip if counter exhausted or no thrones have been seized.
+BranchIfCounterZero(9,Ch24_ReinforcementCounter)
+BranchIfFlagOFF(9,Ch24_Throne1SeizeFlag)
+
+//Only run on even turns. Skip otherwise.
+CHECK_TURNS
 SVAL s7 1
 SAND 0xC7C
 BNE 9 sC s0
@@ -274,6 +276,7 @@ LABEL 9
 EndEvent
 
 EndingScene:
+//Skip dialogue with Fae if she's dead.
 BranchIfUnitDead(1,Fae)
 FadeOutMusic
 SetBackground(BG_Temple1)

@@ -1,58 +1,52 @@
-on the gay agenda, from highest to lowest priority (aka how much i feel like it):
+The Gay agenda:
 
-final chapter and epilogue(s)
-
-add some items back. like metis tome (id 0x89), gold bags, usable earth seal (id 0x88).
-roy seal config?
-IER???? skillsys???????
-
-idunn dragon mug bungled
-
-fe6 different battle sprites:
-mercenary
-bishop (has hat, + different staff anim)
-bishop f (needs different staff anim)
-mage f
-sage
-sage f
-shaman, druid (m and f) have different palettes
-
-triangle attack doesn't have text?
-
-manakete anims
-
-harp and birdie sounds for elffin animation
-
-recruitable characters only go up to 63/0x3F i think. so it might be worth culling the trial chars (and doing a dummy for guinivere) to make room for new recruitables?
-
-bard and dancer map sounds are weird
-
-different length fade ins and fadeouts? rn all are just 60 i think
-
-slight visual bug with ballista ammo counter (also shows terrain info i think)
-
-world map lol. i am in uhh no rush though
-
-recruitable character hm bonuses and bugged early hm bonuses need modified/new patch to work.
-
-there is now a custom game over event for the extra character dialogue, but because of how it's set up it only plays after roy has disappeared from the map. when i tried calling the dialogue event as a death event, it would exit early because i think CHECK_DEPLOYED wouldn't work properly. dunno maybe look into it at some point.
-
-experimental: since i only use my own map and tileset data, use the space for it all in the original rom as free space?
-this also can apply to much more like mugs. it would need some tinkering and counting, but could save a decent bit of space.
-that's definitely the plan btw.
+HIGH PRIORITY
+Finish Epilogue work.
+Idunn's dragon mug is glitched.
+Find accurate probability for the Ch18B ambush.
+Implement Ch16x arrows.
+Re-add some items like the Metis' tome and Earth Seal.
+Fae and Idunn dragon animations.
+Write scripts to autogenerate MMS and footstep tables.
 
 
 
+MEDIUM PRIORITY
+FE6 has different animations for the following classes:
+	Mercenary
+	Bishop (has hat + unique staff anim)
+	BishopF (unique staff anim)
+	MageF
+	Sage
+	SageF
+	Shaman, Druid, ShamanF and DruidF have different palettes.
+Implement Triangle attack text.
 
-note on differences from fe6:
-the double hard mode bonuses in the first few chapters are not implemented. i will need a patch that can handle multiple units at once for that.
 
-torch staff has fe8 behavior. needs a patch ig.
 
-thieves need higher speed to steal. this will need a patch to be changed.
+LOW PRIORITY
+Music and Audio insertion via FEBuilder in CMD mode. 
+Bard and Dancer map sounds are weird.
+Slight visual bug with ballista ammo counter. Terrain info overlaps it.
+Recruitable characters only go up so high. Double check the limit against current amount and Trial characters (possibly culling then).
+The "Custom Game Over" thing is a bit messy. Try to fix it up.
+World map. This is a big one but really not a priority right now.
 
-brigand and pirate berserker promo have different stat bonuses in fe6, but i had to combine them here.
 
-all the enemies with the wacky "ghost of bern" ai have more standard ai instead.
-ditto with galle and his squad's ai. might change this eventually if a need arises.
+
+NEED PATCHES
+Recruitable Character HM bonuses.
+Bugged (doubled) early HM bonuses.
+Add IER...?
+Let thieves Steal regardless of Speed.
+Ch21x traps...? Some might be possible to recreate with eventing, but not all for sure.
+
+
+
+MISC
+Brigand and Berserker promos have been merged. In FE6 they're slightly different.
+Torch staff currently has FE8 behavior. Though is this really worth changing...?
+All enemies with FE6 specific AI (Galle, the Ch2/23 gate enemies..) have more standard AI.
+Free space management and overwriting now-unused vanilla data.
+
 

@@ -71,7 +71,9 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
 CharacterBasedEvents:
+//Gonzalez's event is in the WestIslesEvents.event file.
 CharacterEvent(Ch10B_LilinaGonzalezTalkFlag,EVENT_LilinaRecruitsGonzalez,Lilina,Gonzalez)
+//For Klein-Clarine-Roy-Shanna-Thea events, check the WestIslesEvents.event file.
 CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_RoyRecruitsKlein,Roy,Klein)
 CharacterEvent(Ch11A_Ch10B_RoyOrClarineKleinTalkFlag,EVENT_ClarineRecruitsKlein,Clarine,Klein)
 CharacterEventBothWays(Ch11A_Ch10B_ClarineKleinExtraTalkFlag,EVENT_ClarineKleinExtraTalk,Clarine,Klein)
@@ -284,7 +286,7 @@ Text(Ch10B_ScollanOrdersGonzalez)
 EndEvent
 
 KleinAppears:
-SwitchMusic(MUS_DeerOfThePlains) //yes, really. fe6 is weird
+SwitchMusic(MUS_DeerOfThePlains) //Yes, this is correct. Ch10B uses that theme here for some reason.
 LoadReinforcements(KleinSquad1)
 ENUN
 LoadReinforcements(KleinSquad2)
@@ -369,19 +371,22 @@ VillageEventItem(Ch10B_BarrierVillage,BG_Village,Barrier)
 MaryVillageVisit:
 QuieterMusic
 
+//Branch based on if Ward or Lot visit.
 BranchIfUnitActive(1,Ward)
 BranchIfUnitActive(2,Lot)
 
-//default case
+//Neither of them, default case.
 Text(BG_Village,Ch10B_MaryVillageNotLotWard)
 GiveItemToCurrent(DoorKey)
 GOTO 9
 
+//Ward case.
 LABEL 1
 Text(BG_Village,Ch10B_MaryVillageWard)
 GiveItemToCurrent(Swordreaver)
 GOTO 9
 
+//Lot case.
 LABEL 2
 Text(BG_Village,Ch10B_MaryVillageLot)
 GiveItemToCurrent(Swordreaver)
@@ -396,10 +401,10 @@ EndEvent
 MieuVillageVisit:
 QuieterMusic
 
+//Ditto as above.
 BranchIfUnitActive(1,Ward)
 BranchIfUnitActive(2,Lot)
 
-//default case
 Text(BG_Village,Ch10B_MieuVillageNotLotWard)
 GiveItemToCurrent(Elixir)
 GOTO 9
@@ -445,7 +450,7 @@ TEXTEND
 REMA
 GiveItemToCharacter(Roy,Wyrmslayer)
 
-//hero crest
+//Skip the Hero Crest reward if any of the villages were not visited.
 BranchIfFlagOFF(1,Ch10B_VillageFlag1)
 BranchIfFlagOFF(1,Ch10B_VillageFlag2)
 BranchIfFlagOFF(1,Ch10B_VillageFlag3)
@@ -454,26 +459,29 @@ BranchIfFlagOFF(1,Ch10B_VillageFlag5)
 BranchIfFlagOFF(1,Ch10B_VillageFlag6)
 BranchIfFlagOFF(1,Ch10B_VillageFlag7)
 
+//Hero Crest got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_EndHeroCrest)
 GiveItemToCharacter(Roy,HeroCrest)
 
 LABEL 1
 
-//orion's bolt
+//Skip the Orion's Bolt reward if Klein is unrecruited/dead or if any of his archers died.
 BranchIfUnitDead(2,Klein)
 BranchIfFlagON(2,Ch11A_Ch10B_GenericArcherKleinDeathFlag)
 
+//If all alive, Orion's Bolt got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndOrionsBolt)
 GiveItemToCharacter(Klein,OrionsBolt)
 
 LABEL 2
 
-//elysian whip
+//Skip the Elysian Whip reward Thea is unrecruited/dead or if any of her pegasus knights died.
 BranchIfUnitDead(3,Thea)
 BranchIfFlagON(3,Ch11A_Ch10B_GenericPegKnightTheaDeathFlag)
 
+//If all alive, Elysian Whip got.
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch10B_Ch11A_EndElysianWhip)
 GiveItemToCharacter(Thea,ElysianWhip)

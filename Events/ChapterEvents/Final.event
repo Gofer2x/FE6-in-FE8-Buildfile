@@ -105,8 +105,7 @@ LOAD3 0x0 Units
 LOAD1 0x1 IdunnManaketes
 ENUN
 ChStartFadeFromBlack
-//asm here
-//more asm
+//FE6 has some ASM here. Twice.
 STAL 16
 MOVE 0x0 Roy [8,9]
 ENUN
@@ -123,7 +122,7 @@ FadeFromWhite(Fade5s)
 STAL 16
 CAM1 [8,15]
 CALL FinalBattleQuotes
-//asm
+//More ASM.
 CAM1 Roy
 BranchIfUnitDead(1,Fae)
 Text(Final_Start2FaeAlive)
@@ -346,14 +345,14 @@ LABEL 52
 EndEvent
 
 RandomManaketeSpawn:
-//Only if one has already been killed
+//Only happens if one has already been killed.
 BranchIfFlagOFF(9,Final_ManaketeSlainFlag)
 
 RANDOMNUMBER 3
 BranchIfResultEqualTo(1,0)
 BranchIfResultEqualTo(2,1)
 BranchIfResultEqualTo(3,2)
-//else it's 3
+//Else, it's 3.
 
 LoadReinforcements(ManaketeReinforcements1)
 GOTO 9
@@ -378,8 +377,10 @@ EndingScene:
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-ChangeMode(0x2) //Eirika Mode change for Epilogue
-MNC4 0 //Epilogue Save
+//Eirika Mode change for Epilogue.
+ChangeMode(0x2)
+//Epilogue Save.
+MNC4 0
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

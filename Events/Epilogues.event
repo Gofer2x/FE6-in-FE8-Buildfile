@@ -81,7 +81,7 @@ Text(BG_Castle2,EpilogueBad_ThroneRoom)
 STAL 64
 PlayMusic(MUS_Epilogue)
 
-//TODO text scroll
+//TODO Text scroll.
 Text(TempBadEndingScroll)
 STAL 128
 
@@ -115,6 +115,8 @@ CAM1 [8,9]
 LOAD3 0x0 DummyPlayerUnitsTemple
 ENUN
 FadeFromBlack(Fade1s)
+
+//Skip if Idunn not defeated by Roy with Binding Blade.
 BranchIfFlagOFF(1,IdunnBindingBladeFlag)
 
 //Idunn saved
@@ -127,19 +129,23 @@ SHOWMAP
 FadeFromWhite(Fade5s)
 
 LABEL 1
-
 STAL 60
 EARTHQUAKE_START 100
 PlayMusic(BGS_Earthquake)
 
+//Text changed depending on if Fae is dead or alive.
 BranchIfUnitDead(3,Fae)
+
+//Fae alive case.
 Text(EpilogueTrue_CollapsingFae)
 GOTO 3
+
+//Fae dead case.
 LABEL 2
 Text(EpilogueTrue_CollapsingNoFae)
-LABEL 3
 
-//Everyone "escapes" offscreen
+//Everyone "escapes" offscreen.
+LABEL 3
 MoveByCoords(0x0, 4, 9, 6, 16)
 MoveByCoords(0x0, 5, 10, 7, 16)
 MoveByCoords(0x0, 6, 9, 8, 16)
@@ -151,9 +157,10 @@ MoveByCoords(0x0, 11, 10, 9, 17)
 MoveByCoords(0x0, 12, 9, 10, 17)
 ENUN
 
+//Skip roy walking up to Idunn if she hasn't been saved.
 BranchIfFlagOFF(4,IdunnBindingBladeFlag)
 
-//Idunn saved
+//Idunn saved, walk up to her.
 CMON
 MoveNextTo(0x0,Roy,IdunnHuman)
 ENUN
@@ -162,19 +169,23 @@ LABEL 4
 
 FadeIntoBlack(Fade5s)
 EARTHQUAKE_END
-FadeOutMusic //aka shake
+FadeOutMusic
 
 ClearAll
+
+//Move outside.
 LOMA CHAPTER_Ch23
 CAM1 [0,0]
 LOAD3 0x0 DummyPlayerUnitsOutside
 ENUN
+//Roy is loaded by LOAD3, DISA him.
 REMU Roy
-LOAD2 0x0 DummyMerlinusOutside //TODO test if this works fine if merlinus was deployed in final
+LOAD2 0x0 DummyMerlinusOutside //Test if this works fine if merlinus was deployed in Final. TODO
 ENUN
 FadeFromBlack(Fade5s)
 
 STAL 150
+//Roy reappears at the gate.
 REVEAL Roy
 LOAD2 0x1 RoyOutside
 ENUN
@@ -183,38 +194,34 @@ ENUN
 STAL 60
 PlayMusic(MUS_MainThemeArrangement)
 
+//Text depends on if Idunn was saved or not.
 BranchIfFlagOFF(5,IdunnBindingBladeFlag)
-//Idunn saved
+
+//Idunn saved case.
 Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnSaved)
 //TODO this has the text fade into black without REMAing if idunn lives
 GOTO 6
 
+//Idunn dead case.
 LABEL 5
-//Idunn not saved
 Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnDead)
 
 LABEL 6
-
 FadeIntoBlack(Fade5s)
-
 HIDEMAP
 ClearAll
-
-//TODO text scroll here
+//TODO Text scroll here.
 Text(TempTrueEndingScroll)
-
 FadeOutMusic
 STAL 120
 
 PlayMusic(MUS_Epilogue)
-
+//If we get the Guinivere throneroom cutscene or just a convo depends on if Roy and Lilina have an A support.
 GetSupportLevel(Roy,Lilina)
 SVAL s1 3
-BNE 7 s1 sC
-Text(BG_Castle3,EpilogueTrue_RoyLilinaASupport)
-GOTO 8
+BEQ 7 s1 sC
 
-LABEL 7
+//No Roy and Lilina A support case.
 FadeOutMusic
 LOMA CHAPTER_Ch22
 TILECHANGE 0
@@ -225,29 +232,35 @@ SHOWMAP
 FadeFromBlack(Fade5s)
 Text(EpilogueTrue_GuiniveresCrowning1)
 STAL 30
-MoveByCoords(0x0,15,17,15,9) //Soldier guy moves up to throne
+MoveByCoords(0x0,15,17,15,9) //Soldier guy moves up to throne.
 ENUN
 Text(EpilogueTrue_GuiniveresCrowning2)
-MoveByCoords(0x0,15,9,15,17) //Soldier guy moves back offscreen
+MoveByCoords(0x0,15,9,15,17) //Soldier guy moves back offscreen.
 ENUN
-MOVE 0x0 GuinivereTrial [15,10] //Two down
+MOVE 0x0 GuinivereTrial [15,10]
 ENUN
 Text(EpilogueTrue_GuiniveresCrowning3)
 
 //Roy doesn't move in the Idunn saved + Fae alive ending apparently. Not implementing that here lol.
-//Roy and Guinivere run off together
+//Roy and Guinivere run off together.
 MOVE 8 GuinivereTrial [15,22]
 STAL 10
 MOVE 8 Roy [16,22]
 ENUN
 FadeIntoBlack(Fade2s)
 ClearAll
+GOTO 8
 
+LABEL 7
+//Roy and Lilina A support case.
+Text(BG_Castle3,EpilogueTrue_RoyLilinaASupport)
+
+//Idunn and Fae event. Skip if Idunn wasn't saved or Fae is dead.
 LABEL 8
-
 BranchIfFlagOFF(9,IdunnBindingBladeFlag)
 BranchIfUnitDead(9,Fae)
 
+//Both alive and well. Proceed.
 //TODO "Later, in Arcadia..."
 Text(TempLaterInArcadia)
 
@@ -261,18 +274,12 @@ FadeFromBlack(Fade2s)
 LOAD2 0x1 IdunnAndFae
 ENUN
 
-//Fadein
-//FAE Move Speed 14, Left x7, Highlight (4)
-//STAL 30
-//IDUNN Move Speed 6, Left x8
-//ENUN
-
 FadeFromBlack(Fade2s)
-MOVE 14 Fae [22,8] //Fae runs left
+MOVE 14 Fae [22,8] //Fae runs left.
 STAL 30
-MOVE 0xC IdunnHuman [22,8] //Idunn slowly follows her
+MOVE 0xC IdunnHuman [22,8] //Idunn slowly follows her.
 STAL 60
-MOVE 8 Fae [22,7] //Fae moves a bit up
+MOVE 8 Fae [22,7] //Once Idunn is close, Fae moves a bit up.
 ENUN
 PlayMusic(MUS_EternalWind)
 TEXTSTART
@@ -282,7 +289,7 @@ TEXTEND //[...]And if you shake the tree like this...
 EARTHQUAKE_START 0
 PlaySound(SND_MenuAPling)
 
-TEXTCONT //empty move?
+TEXTCONT //Empty move?
 TEXTEND
 
 EARTHQUAKE_END
@@ -290,12 +297,12 @@ EARTHQUAKE_END
 TEXTCONT //Oww!
 TEXTEND
 
-//nothing here?
+//Nothing here?
 
 TEXTCONT //It fell on my head...
 TEXTEND
 
-//I'm runnin' circles around ya!
+//Fae runs circle around Idunn.
 
 MOVE 20 Fae [21,7] //Top Left
 ENUN
@@ -305,7 +312,7 @@ MOVE 20 Fae [23,9] //Bottom Right
 ENUN
 MOVE 20 Fae [23,7] //Top Right
 ENUN
-//First lap done
+//First lap done.
 MOVE 20 Fae [21,7] //Top Left
 ENUN
 MOVE 20 Fae [21,9] //Bottom Left
@@ -316,12 +323,13 @@ MOVE 20 Fae [23,7] //Top Right
 ENUN
 MOVE 20 Fae [22,7] //Top Right
 ENUN
-//Second lap done
-//Move to below Armory offscreen
+//Second lap done.
+//Fae runs to below the Armory, offscreen.
 REMA
 MOVE 16 Fae [29,5]
 ENUN
-STAL 30
+
+STAL 30 //TODO Timing here is tricky.
 MOVE 5 IdunnHuman [27,8]
 STAL 100
 FadeOutMusic

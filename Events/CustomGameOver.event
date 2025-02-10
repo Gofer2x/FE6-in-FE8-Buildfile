@@ -1,4 +1,4 @@
-//THIS IS VERY VERY DUMB
+//TODO THIS IS VERY VERY DUMB
 PUSH
 ORG 0x592104 //overwriting og game over event
 CALL EVENT_CustomGameOver
@@ -48,16 +48,16 @@ EVENT_IsGuinivereAround:
 //LABEL 1 = True
 //LABEL 2 = False
 
-//Guinivere present after Ch13
+//Guinivere is present after Ch13.
 BranchIfChapterIDLargerThan(1,CHAPTER_Ch13)
 
-//Not present in Ch1 and Ch2, aka before Ch3
+//Not present in Ch1 and Ch2, aka before Ch3.
 BranchIfChapterIDSmallerThan(2,CHAPTER_Ch3)
 
-//Present during Ch3-Ch8x, aka before Ch9
+//Present during Ch3-Ch8x, aka before Ch9.
 BranchIfChapterIDSmallerThan(1,CHAPTER_Ch9)
 
-//Otherwise we're in Ch9-13, where she's not present
+//Otherwise we're in Ch9-13, where she's not present.
 GOTO 2
 
 //True

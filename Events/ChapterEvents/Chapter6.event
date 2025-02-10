@@ -83,22 +83,14 @@ Door(20,9)
 Door(20,14)
 Door(Ch6_SouthmostWestRoomOpenFlag, 7,17)
 Door(Ch6_SouthmostEastRoomOpenFlag, 19,17)
-
-//"door" x8 y4, northmost west room side entrance
+//Special events for the northmost rooms' doors.
 DoorWithEvent(NorthmostWestRoomEvent,8,4)
-
-//"door" x6 y6, northmost west room bottom entrance
 DoorWithEvent(NorthmostWestRoomEvent,6,6)
-
-//"door" x19 y6, northmost east room bottom entrance
 DoorWithEvent(NorthmostEastRoomEvent,19,6)
-
-//"door" x16 y4, northmost east room side entrance
 DoorWithEvent(NorthmostEastRoomEvent,16,4)
 END_MAIN
 
 MiscBasedEvents:
-//check for player units in bottom half and do the reinforcement thing
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -299,9 +291,9 @@ HardReinforcementEvent(ThroneRoomReinforcements3)
 
 
 
-
+//Event for the enemies that spawn when all your units have moved to the upper half of the map.
 BottomHalfReinforcementsEvent:
-CountUnitsInRange(0,0,0,0,$F0000,$170019,0) //just took em from febuilder idk how to turn coords into shorts lol
+CountUnitsInRange(0,0,0,0,$F0000,$170019,0) //Not sure how to convert coords into one short, so just took this from FEBuilder.
 BranchIfResultIsZero(1)
 FlagOFF(Ch6_SouthReinforcementsFlag)
 GOTO 9
@@ -316,7 +308,7 @@ EndEvent
 
 
 
-
+//The two rooms at south of the map spawn enemies 3 turns after they have been opened. This is the west one.
 SouthWestRoomReinforcementsEvent:
 BranchIfFlagOFF(1,Ch6_SouthmostWestRoomOpenFlag)
 IncrementCounter(Ch6_SouthmostWestRoomCounter)
@@ -335,7 +327,7 @@ EndEvent
 
 
 
-
+//Ditto but east.
 SouthEastRoomReinforcementsEvent:
 BranchIfFlagOFF(1,Ch6_SouthmostEastRoomOpenFlag)
 IncrementCounter(Ch6_SouthmostEastRoomCounter)
@@ -358,9 +350,11 @@ EndEvent
 
 EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
+
+//Skip Roy and Sue's convo if Sue hasn't been recruited or is dead.
 BranchIfUnitDead(1,Sue)
-BranchIfFlagOFF(1,Ch6_RoySueTalkFlag)
 Text(BG_Castle3, Ch6_EndSue)
+
 LABEL 1
 Text(BG_Castle3, Ch6_End)
 STAL 64

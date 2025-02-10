@@ -71,6 +71,7 @@ Village(0x0,VisitRedGemVillage,18,21)
 END_MAIN
 
 MiscBasedEvents:
+//When you end your turn on the southern landmass, some enemies turn aggressive.
 AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,0,24,16,27)
 AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,0,21,2,23)
 AreaEvent(Ch11B_MercsAggroFlag,TurnMercsAggressive,3,20,5,22)
@@ -301,15 +302,23 @@ ChangeAIAllEnemy(AI1_InRange,AI2_Charge,GenericEidynaAggroCh11B,0)
 EndEvent
 
 EndingScene:
+
+//Special text for if Elffin died during this chapter. Skip it if he's alive.
 BranchIfUnitAlive(1,Elffin)
 PlayMusic(MUS_PoemOfTheSoftWind)
 Text(BG_Castle1,Ch11B_EndElffinDead)
+
 LABEL 1
 PlayMusic(MUS_Triumph)
 Text(BG_Castle1,Ch11B_End)
+
+//Skip the Energy Ring reward any of the citizens died.
 BranchIfFlagON(2,Ch11B_GenericCitizenEidynaDeathFlag)
+
+//If all alive, Energy Ring got.
 Text(BG_Castle1,Ch11B_EndEnergyRing)
 GiveItemToCharacter(Roy,EnergyRing)
+
 LABEL 2
 STAL 64
 #ifdef CONFIG_EnableReviveMerlinus

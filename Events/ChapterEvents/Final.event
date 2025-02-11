@@ -344,27 +344,29 @@ Text(FinalQuoteKarel)
 LABEL 52
 EndEvent
 
+
+// https://github.com/FireEmblemUniverse/fireemblem6j/blob/b158d46dfc4d6590d783b0072fed90cf0227edf7/data/chapters/final/eventscript.h#L53C15-L53C23
+// https://github.com/FireEmblemUniverse/fireemblem6j/blob/b158d46dfc4d6590d783b0072fed90cf0227edf7/src/eventfunctions.c#L1679
+//Only happens if there are less than 3 enemies on the map. The spawns are also random, with a 1/5 chance for the first 3 ones and the last one spawning if all others fail.
 RandomManaketeSpawn:
-//Only happens if one has already been killed.
-BranchIfFlagOFF(9,Final_ManaketeSlainFlag)
+CHECK_ENEMIES
+BranchIfResultSmallerThan(9,3)
 
-RANDOMNUMBER 3
-BranchIfResultEqualTo(1,0)
-BranchIfResultEqualTo(2,1)
-BranchIfResultEqualTo(3,2)
-//Else, it's 3.
-
+BranchIfRandomNotZero(1,5)
 LoadReinforcements(ManaketeReinforcements1)
 GOTO 9
 
 LABEL 1
+BranchIfRandomNotZero(2,5)
 LoadReinforcements(ManaketeReinforcements2)
 GOTO 9
 
 LABEL 2
+BranchIfRandomNotZero(3,5)
 LoadReinforcements(ManaketeReinforcements3)
-GOTO 9
+GOTO 3
 
+//If all others fail, load this one.
 LABEL 3
 LoadReinforcements(ManaketeReinforcements4)
 

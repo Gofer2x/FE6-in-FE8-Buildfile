@@ -13,7 +13,7 @@ Mugs/Portraits:
 
 All blinking mugs by {Lenh, Obsidian Daddy}
 
-Thea mug fixed by me.
+Thea mug along with some missing/misaligned villager mugs fixed by me.
 
 Spell Animations:
 
@@ -24,6 +24,7 @@ Spell Animations:
 [Dark] Apocalypse - FE8 {SHYUTERz}  1
 
 
-Various scripts and macros/definitions taken from other projects. Most of them I found from github searches and they appeared in multiple repos, so not sure how to credit them lol. But thanks.
+
+Various scripts and macros/definitions taken from other projects. I've kept credits in ones that had them, but most of them I found from github searches and they appeared in multiple repos, so not sure how to credit them. But thank you.
 
 Also thanks to Vesly for their great .bat files for processing data, and the people on the FEU discord.

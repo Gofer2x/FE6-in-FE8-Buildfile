@@ -10,7 +10,6 @@
 //SecondBGMFlag 0x4
 // 0x5
 //RoutFlag 0x6
-//Final_ManaketeSlainFlag 0x20
 
 EventPointerTable(EVENTS_Final,ThisChapter)
 EscapePointPointerTable(CHAPTER_Final,0x0)

@@ -25,19 +25,18 @@
 
 
 
-//flags for the mess that is thea recruitment
+//Flags for the mess that is Klein & Thea recruitment.
 #define Ch11A_Ch10B_RoyOrClarineKleinTalkFlag 0x7
 #define Ch11A_Ch10B_ShannaTheaTalkFlag 0x8
 #define Ch11A_Ch10B_NoKleinShannaTheaTalkFlag 0x9
 #define Ch11A_Ch10B_ClarineKleinExtraTalkFlag 0xA
 #define Ch11A_Ch10B_KleinTheaTalkFlag 0xB
 
-//temporary flags for specific generic deaths
+//Temporary flags for specific generics (and Douglas) deaths.
 #define Ch11A_Ch10B_GenericArcherKleinDeathFlag 0x20
 #define Ch11A_Ch10B_GenericPegKnightTheaDeathFlag 0x21
 #define Ch11B_GenericCitizenEidynaDeathFlag 0x20
 #define Ch13_Ch15_GenericSoldierPercevalDeathFlag 0x20
 #define Ch20A_GenericCitizenIlliaDeathFlag 0x20
-#define Final_ManaketeSlainFlag 0x20
 
 #define Ch16_DouglasDeathFlag 0x20

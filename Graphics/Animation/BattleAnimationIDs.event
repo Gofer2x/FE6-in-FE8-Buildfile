@@ -23,7 +23,6 @@
 #define NomadTrooperF_BowAnim 0xE0
 #define NomadTrooperF_SwordAnim 0xE1
 #define NomadTrooperF_UnarmedAnim 0xE2
-#define BishopF_UnarmedAnim 0xE2
 #define Bard_RefreshAnim 0xE3
 #define Dancer_RefreshAnim 0xE4
 #define FireManakete_Transform 0xE5

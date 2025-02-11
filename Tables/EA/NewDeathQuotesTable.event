@@ -12,91 +12,49 @@ POP
 ALIGN 4
 NewDeathQuotesTable:
 DeathQuote(Damas,CHAPTER_Ch1,BossDefeatFlag,DamasDeathQuote)
-
 DeathQuote(Ruud,CHAPTER_Ch2,BossDefeatFlag,RuudDeathQuote)
-
 DeathQuote(Slater,CHAPTER_Ch3,BossDefeatFlag,SlaterDeathQuote)
-
 DeathQuote(Erik,CHAPTER_Ch4,BossDefeatFlag,ErikDeathQuote)
-
 DeathQuote(Dory,CHAPTER_Ch5,BossDefeatFlag,DoryDeathQuote)
-
 DeathQuote(Wagner,CHAPTER_Ch6,BossDefeatFlag,WagnerDeathQuote)
-
 DeathQuote(Debias,CHAPTER_Ch7,BossDefeatFlag,DebiasDeathQuote)
-
 DeathQuote(Legance,CHAPTER_Ch8,BossDefeatFlag,LeganceDeathQuote)
-
 DeathQuote(Henning,CHAPTER_Ch8x,BossDefeatFlag,HenningDeathQuote)
-
 DeathQuote(Scott,CHAPTER_Ch9,BossDefeatFlag,ScottDeathQuote)
-
 DeathQuote(Nord,CHAPTER_Ch10A,BossDefeatFlag,NordDeathQuote)
-
 DeathQuote(Orlo,CHAPTER_Ch11A,BossDefeatFlag,OrloDeathQuote)
-
 DeathQuote(Zinque,CHAPTER_Ch10B,BossDefeatFlag,ZinqueDeathQuote)
-
 DeathQuote(Morgan,CHAPTER_Ch11B,BossDefeatFlag,MorganDeathQuote)
-
 DeathQuote(Ein,CHAPTER_Ch12,BossDefeatFlag,EinDeathQuote)
-
 DeathQuote(Guerrero,CHAPTER_Ch12x,BossDefeatFlag,GuerreroDeathQuote)
-
 DeathQuote(Flaer,CHAPTER_Ch13,BossDefeatFlag,FlaerDeathQuote)
-
 DeathQuote(Randy,CHAPTER_Ch14,BossDefeatFlag,RandyDeathQuote)
-
 DeathQuote(Maggie,CHAPTER_Ch14,BossDefeatFlag,MaggieDeathQuote)
-
 DeathQuote(Rose,CHAPTER_Ch14,BossDefeatFlag,RoseDeathQuote)
-
 DeathQuote(Oates,CHAPTER_Ch14x,BossDefeatFlag,OatesDeathQuote)
-
 DeathQuote(Raith,CHAPTER_Ch15,BossDefeatFlag,RaithDeathQuote)
-
 DeathQuote(Narcian,CHAPTER_Ch16,BossDefeatFlag,NarcianDeathQuote)
-
 DeathQuote(Windham,CHAPTER_Ch16x,BossDefeatFlag,WindhamDeathQuote)
-
 DeathQuote(Arcardo,CHAPTER_Ch17A,BossDefeatFlag,ArcardoDeathQuote)
-
 DeathQuote(Martel,CHAPTER_Ch18A,BossDefeatFlag,MartelDeathQuote)
-
 DeathQuote(Sigune,CHAPTER_Ch19A,BossDefeatFlag,SiguneDeathQuote)
-
 DeathQuote(Roartz,CHAPTER_Ch20A,BossDefeatFlag,RoartzDeathQuote)
-
 DeathQuote(Tick,CHAPTER_Ch20Ax,BossDefeatFlag,TickDeathQuote)
-
 DeathQuote(Arcardo,CHAPTER_Ch17B,BossDefeatFlag,ArcardoDeathQuote)
-
 DeathQuote(Monke,CHAPTER_Ch18B,BossDefeatFlag,MonkeDeathQuote)
-
 DeathQuote(Kel,CHAPTER_Ch19B,BossDefeatFlag,KelDeathQuote)
-
 DeathQuote(Roartz,CHAPTER_Ch20B,BossDefeatFlag,RoartzDeathQuote)
-
 DeathQuote(Murdock,CHAPTER_Ch21,BossDefeatFlag,MurdockDeathQuote)
-
 DeathQuote(Galle,CHAPTER_Ch21,0,GalleDeathQuote)
-
 DeathQuote(Peres,CHAPTER_Ch21x,BossDefeatFlag,PeresDeathQuote)
-
 DeathQuote(Zephiel,CHAPTER_Ch22,BossDefeatFlag,ZephielDeathQuote)
-
 DeathQuote(Brunnya,CHAPTER_Ch23,BossDefeatFlag,BrunnyaDeathQuote)
-
 DeathQuote(Jahn,CHAPTER_Ch23,BossDefeatFlag,JahnDeathQuote)
+//Special event for the Binding Blade check. Her death quote is in it.
+DeathQuote(IdunnDragon,CHAPTER_Final,BossDefeatFlag,0x0,EVENT_IdunnDeathBindingBladeCheck)
 
-//Idunn's boss flag is in the death event.
-DeathQuote(IdunnDragon,CHAPTER_Final,0x0,IdunnDeathQuote,EVENT_IdunnDeathBindingBladeCheck)
-
-
-
+//Special death criteria for Ch16's gaiden check.
 DeathQuote(Douglas,CHAPTER_Ch16,Ch16_DouglasDeathFlag,DouglasDeathQuote)
-
-
 
 DeathQuote(Roy,AnyChapter,0x65,RoyDeathQuote) //extra char dialogue is in new game over event
 DeathQuote(Marcus,AnyChapter,0,MarcusDeathQuote)
@@ -159,7 +117,6 @@ DeathQuote(GenericCitizenEidyna1Ch11B,AnyChapter,Ch11B_GenericCitizenEidynaDeath
 DeathQuote(GenericCitizenEidyna2Ch11B,AnyChapter,Ch11B_GenericCitizenEidynaDeathFlag,0x0)
 DeathQuote(GenericSoldierPercevalCh13_Ch15,AnyChapter,Ch13_Ch15_GenericSoldierPercevalDeathFlag,0x0)
 DeathQuote(GenericCitizenIlliaCh20A,AnyChapter,Ch20A_GenericCitizenIlliaDeathFlag,0x0)
-DeathQuote(GenericManaketeFinal,AnyChapter,Final_ManaketeSlainFlag,0x0)
 
 
 DeathQuote(0xFFFF,2,0,0) // terminator

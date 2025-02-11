@@ -2,7 +2,7 @@ The Gay agenda:
 
 HIGH PRIORITY
 Finish Epilogue work.
-Idunn's dragon mug is glitched.
+Idunn's dragon mug is glitched?
 Implement Ch16x arrows.
 Re-add some items like the Metis' tome and Earth Seal.
 Fae and Idunn dragon animations.
@@ -20,10 +20,12 @@ FE6 has different animations for the following classes:
 	SageF
 	Shaman, Druid, ShamanF and DruidF have different palettes.
 Implement Triangle attack text.
+Apocalypse's icon is bugged.
 
 
 
 LOW PRIORITY
+Ch16x background.
 Music and Audio insertion via FEBuilder in CMD mode. 
 Bard and Dancer map sounds are weird.
 Slight visual bug with ballista ammo counter. Terrain info overlaps it.
@@ -34,6 +36,7 @@ World map. This is a big one but really not a priority right now.
 
 
 NEED PATCHES
+Add Binding Blade check for Idunn.
 Recruitable Character HM bonuses.
 Bugged (doubled) early HM bonuses.
 Add IER...?

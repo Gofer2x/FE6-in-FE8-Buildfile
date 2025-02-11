@@ -1,9 +1,8 @@
 EVENT_IdunnDeathBindingBladeCheck:
+Text(IdunnDeathQuote)
 BranchIfUnitNotActive(9,Roy)
 //TODO Binding blade check.
-STAL 64
 FlagON(IdunnBindingBladeFlag)
-FlagON(BossDefeatFlag)
 
 LABEL 9
 EndEvent

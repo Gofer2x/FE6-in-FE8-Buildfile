@@ -30,7 +30,7 @@ Music and Audio insertion via FEBuilder in CMD mode.
 Bard and Dancer map sounds are weird.
 Slight visual bug with ballista ammo counter. Terrain info overlaps it.
 Recruitable characters only go up so high. Double check the limit against current amount and Trial characters (possibly culling then).
-The "Custom Game Over" thing is a bit messy. Try to fix it up.
+The "Custom Game Over" thing is a bit messy. Try to fix it up. The reason I can't put the character check thing as Roy's death quote is that CHECK_DEPLOYED seems to exit the function early from that context?
 World map. This is a big one but really not a priority right now.
 
 

@@ -82,7 +82,7 @@ STAL 64
 PlayMusic(MUS_Epilogue)
 
 //TODO Text scroll.
-Text(TempBadEndingScroll)
+TextWindow(TempBadEndingScroll)
 STAL 128
 
 StopHereIfSkipping
@@ -198,20 +198,28 @@ PlayMusic(MUS_MainThemeArrangement)
 BranchIfFlagOFF(5,IdunnBindingBladeFlag)
 
 //Idunn saved case.
-Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnSaved)
-//TODO this has the text fade into black without REMAing if idunn lives
+SetBackground(BG_Outside)
+TEXTSTART
+TEXTSHOW EpilogueTrue_OutsideTempleIdunnSaved
+TEXTEND
+FadeIntoBlack(Fade5s)
+REMA
 GOTO 6
 
 //Idunn dead case.
 LABEL 5
 Text(BG_Outside,EpilogueTrue_OutsideTempleIdunnDead)
+FadeIntoBlack(Fade5s)
 
 LABEL 6
-FadeIntoBlack(Fade5s)
 HIDEMAP
 ClearAll
+SetBackground(BG_Black) //To hide the map for the text scroll. Or well, probably not scroll. But still text.
+FadeFromBlack(Fade1s)
 //TODO Text scroll here.
-Text(TempTrueEndingScroll)
+TextWindow(TempTrueEndingScroll)
+FadeIntoBlack(Fade1s)
+CLEAN
 FadeOutMusic
 STAL 120
 
@@ -222,7 +230,7 @@ SVAL s1 3
 BEQ 7 s1 sC
 
 //No Roy and Lilina A support case.
-FadeOutMusic
+
 LOMA CHAPTER_Ch22
 TILECHANGE 0
 CAM1 [15,9]
@@ -252,28 +260,42 @@ ClearAll
 GOTO 8
 
 LABEL 7
-//Roy and Lilina A support case.
-Text(BG_Castle3,EpilogueTrue_RoyLilinaASupport)
+//Roy and Lilina A support case. This one has no map so let's try to keep the still-loaded Ch23 hidden by fancy means.
+SetBackground(BG_Castle3)
+FadeFromBlack(Fade1s)
+TEXTSTART
+TEXTSHOW EpilogueTrue_RoyLilinaASupport
+TEXTEND
+REMA //Does this work?
+FadeIntoBlack(Fade1s)
 
-//Idunn and Fae event. Skip if Idunn wasn't saved or Fae is dead.
+//Idunn and Fae event check. Skip if Idunn wasn't saved or Fae is dead.
 LABEL 8
 BranchIfFlagOFF(9,IdunnBindingBladeFlag)
 BranchIfUnitDead(9,Fae)
 
 //Both alive and well. Proceed.
-//TODO "Later, in Arcadia..."
-Text(TempLaterInArcadia)
-
-PlayMusic(MUS_DistantUtopia)
-Text(BG_Temple1,EpilogueTrue_FaeIdunn1)
-FadeIntoBlack(Fade2s)
 LOMA CHAPTER_Ch14
 WEA1 Clear
-CAM1 [27,3]
-FadeFromBlack(Fade2s)
+CAM1 [21,7]
+
+SetBackground(BG_Black)
+FadeFromBlack(Fade1s)
+TextWindow(TempLaterInArcadia)
+FadeIntoBlack(Fade1s)
+CLEAN
+
+PlayMusic(MUS_DistantUtopia)
+SetBackground(BG_Temple1)
+TEXTSTART
+TEXTSHOW EpilogueTrue_FaeIdunn1
+TEXTEND
+REMA //Does this keep the background?
+FadeIntoBlack(Fade2s)
+CLEAN
+
 LOAD2 0x1 IdunnAndFae
 ENUN
-
 FadeFromBlack(Fade2s)
 MOVE 14 Fae [22,8] //Fae runs left.
 STAL 30

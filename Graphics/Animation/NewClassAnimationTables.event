@@ -448,16 +448,16 @@ EndAnim
 
 ALIGN 4
 FireManakete_Anims:
-UnarmedAnim(FireManakete_Unarmed)
-SpecialAnim(FireManakete_Unarmed,Firestone)
+UnarmedAnim(FireManakete_UnarmedAnim)
+SpecialAnim(FireManakete_UnarmedAnim,Firestone)
 EndAnim
 
 #define DivineDragon_Anims 0x0
 
 ALIGN 4
 FireDragon_Anims:
-UnarmedAnim(FireManakete_Unarmed)
-SpecialAnim(FireManakete_Unarmed,Firestone)
+UnarmedAnim(FireManakete_UnarmedAnim)
+SpecialAnim(FireManakete_UnarmedAnim,Firestone)
 EndAnim
 
 ALIGN 4

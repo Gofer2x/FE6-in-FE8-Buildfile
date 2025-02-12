@@ -1,7 +1,7 @@
 ///////Animation Install.event///////
     
 PUSH
-AnimTableEntry(FireManakete_Revert) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
+AnimTableEntry(FireManakete_RevertAnim) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
 WORD 0 0 0 //empty name field, who cares
 POIN Anim_Revert_sectiondata
 POIN Anim_Revert_framedata

@@ -3,10 +3,10 @@ Transformation_Table:
 //Fire
 BYTE FireManakete //Class ID
 BYTE Firestone //Item ID
-SHORT FireManakete_Transform //Human to Dragon
-SHORT FireManakete_Dragonstone //Dragon breath
-SHORT FireManakete_Revert //Dragon to Human
-SHORT FireManakete_Unarmed //Human standing
+SHORT FireManakete_TransformAnim //Human to Dragon
+SHORT FireManakete_DragonstoneAnim //Dragon breath
+SHORT FireManakete_RevertAnim //Dragon to Human
+SHORT FireManakete_UnarmedAnim //Human standing
 SHORT SND_ManaketeTransform //Transform Start Sound
 SHORT SND_ManaketeYowl //Transform Finish Sound
 SHORT SND_ManaketeUntransform //Untransform Sound

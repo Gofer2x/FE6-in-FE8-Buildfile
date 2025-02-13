@@ -17,7 +17,7 @@
 
 // https://github.com/FireEmblemUniverse/fireemblem6j/blob/b158d46dfc4d6590d783b0072fed90cf0227edf7/src/eventfunctions.c#L1697
 // That should be it? 5
-#define Ch18B_AmbushChance 5 //Try to find what chance this is specifically. TODO
+#define Ch18B_AmbushChance 5
 
 #define Ch18B_AmbushCounter 0x0
 

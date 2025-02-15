@@ -56,7 +56,19 @@ END_MAIN
 Tutorial:
 END_MAIN
 
+//These are random in FE6, but we have to do timers here. TODO make these timers better? Just put them as whatever for now.
 TrapData:
+//ArrowTrap(XX,YY,startTurn,repeatTimer)
+ArrowTrap(5,0,0,3)
+ArrowTrap(7,0,1,3)
+ArrowTrap(9,0,2,3)
+ArrowTrap(14,0,3,3)
+ArrowTrap(15,0,0,3)
+ArrowTrap(17,0,1,3)
+ArrowTrap(18,0,2,3)
+ArrowTrap(23,0,3,3)
+ArrowTrap(25,0,0,3)
+ArrowTrap(27,0,1,3)
 ENDTRAP
 
 ALIGN 4

@@ -15,7 +15,7 @@ ORG $3788
 POIN NewItemIconsTable
 POP
 
-MESSAGE New Item Icons Table at NewItemIconsTable
+//MESSAGE New Item Icons Table at NewItemIconsTable
 
 #define Aircalibur_ItemIcon 222 
 #define AlsSword_ItemIcon 223 

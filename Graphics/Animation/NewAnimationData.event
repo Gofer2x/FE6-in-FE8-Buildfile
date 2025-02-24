@@ -41,9 +41,9 @@
   #include "NomadTrooper\8.Unarmed\UnarmedInstaller.event"
   }
   {
-  #include "NomadTrooperF\BowInstaller.event"
-  #include "NomadTrooperF\SwordInstaller.event"
-  #include "NomadTrooperF\UnarmedInstaller.event"
+  #include "NomadTrooperF\5.Bow(Vanilla+Fix)\BowInstaller.event"
+  #include "NomadTrooperF\1.Sword\SwordInstaller.event"
+  #include "NomadTrooperF\8.Unarmed\UnarmedInstaller.event"
   }
   {
   #include "Bard\8.Refresh(FE6)(BirdSfx)\RefreshInstaller.event"

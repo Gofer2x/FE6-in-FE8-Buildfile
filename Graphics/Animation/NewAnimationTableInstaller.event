@@ -32,4 +32,4 @@ POP
 
 #define ClassAnimTable NewAnimTable
 
-MESSAGE New Animation Table at ClassAnimTable
+//MESSAGE New Animation Table at ClassAnimTable

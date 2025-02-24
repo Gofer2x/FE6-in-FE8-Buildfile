@@ -1,6 +1,6 @@
 //#include "Tools/Tool Helpers.txt"
 #define SetSMS(index, size, graphics) "PUSH ; ORG NewStandingMapSpriteTable + (index)*8 + 2; BYTE size 0; POIN graphics ; POP"
-#define SetMMS(index, graphics, another_ptr) "PUSH ; ORG NewMovingMapSpriteTable + (index)*8; POIN graphics another_ptr ; POP"
+#define SetMMS(index, graphics, another_ptr) "PUSH ; ORG NewMovingMapSpriteTable + (index-1)*8; POIN graphics another_ptr ; POP"
 
 #define MapSprite16x16 0
 #define MapSprite16x32 1

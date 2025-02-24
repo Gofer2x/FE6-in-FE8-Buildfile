@@ -16,9 +16,7 @@ POP
   
 #define PortraitTable NewPortraitTable
 
-MESSAGE New Portrait Table at PortraitTable
-
-
+//MESSAGE New Portrait Table at PortraitTable
 
 #define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"
 

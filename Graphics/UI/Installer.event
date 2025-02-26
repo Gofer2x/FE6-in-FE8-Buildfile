@@ -1,0 +1,55 @@
+//Phase change graphics
+
+ALIGN 4
+PlayerPhaseGraphicData:
+#incbin "PhaseGraphics/PlayerPhase.dmp"
+
+ALIGN 4
+PlayerPhaseGraphicPal:
+#incbin "PhaseGraphics/PlayerPhase_pal.dmp"
+
+ALIGN 4
+EnemyPhaseGraphicData:
+#incbin "PhaseGraphics/EnemyPhase.dmp"
+
+ALIGN 4
+EnemyPhaseGraphicPal:
+#incbin "PhaseGraphics/EnemyPhase_pal.dmp"
+
+ALIGN 4
+OtherPhaseGraphicData:
+#incbin "PhaseGraphics/OtherPhase.dmp"
+
+ALIGN 4
+OtherPhaseGraphicPal:
+#incbin "PhaseGraphics/OtherPhase_pal.dmp"
+
+ALIGN 4
+BlankPhaseFrameData:
+#incbin "PhaseGraphics/BlankPhaseFrame.dmp"
+
+
+PUSH
+//Player Phase
+ORG $01F338
+POIN PlayerPhaseGraphicData
+ORG $01F340
+POIN PlayerPhaseGraphicPal
+
+//Enemy Phase
+ORG $01F368 //Graphic
+POIN EnemyPhaseGraphicData
+ORG $01F370 //Palette
+POIN EnemyPhaseGraphicPal
+
+//Other Phase
+ORG $01F39C
+POIN OtherPhaseGraphicData
+ORG $01F3A4
+POIN OtherPhaseGraphicPal
+
+//Blank Phase frame
+ORG $01F310
+POIN BlankPhaseFrameData
+
+POP

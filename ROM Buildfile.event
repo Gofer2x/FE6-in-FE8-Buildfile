@@ -4,21 +4,26 @@
 	#include "Config.event"
 	
 	//Most definitions
+	MESSAGE Initializing Definitions
 	#include "Definitions/Master Definitions Installer.event"
 	
 	//Initializing definitions that are used before they would normally be defined
 	#include "Graphics\Animation\BattleAnimationIDs.event" //Needed for Battle Transformations patch
 	
+	MESSAGE Jumping to Free Space
 	#define FreeSpace 0xefb2e0
 	ORG FreeSpace
 	
+	MESSAGE Installing Engine Hacks
 	#include "Engine Hacks/_Master Hack Installer.event"
 	
+	MESSAGE Installing Misc Stuff
 	#include "Misc/EditVanillaStatBoosts.event"
 	#include "Misc/EditItemEffects.event"
 	#include "Misc/EditTerrainBGFloorsTable.event"
 	#include "Misc/EditArenaWeapons.event"
 	
+	MESSAGE Installing Text
 	#include "Text/NewTextTableInstaller.event"
 	
 	#define TextSizeStart CURRENTOFFSET
@@ -26,19 +31,29 @@
 	#define TextSizeTotal (CURRENTOFFSET-TextSizeStart)
 	MESSAGE Text Size is TextSizeTotal Bytes
 	
+	MESSAGE Installing Graphics
 	#include "Graphics/Master Graphics Installer.event"
 	
+	MESSAGE Installing Tilesets
 	#include "Map/Tilesets/Tilesets Installer.event"
 	
+	MESSAGE Installing Tile Animations
 	#include "Map/Tile Animations/Tile Animations Installer.event"
 	
+	MESSAGE Installing Maps
 	#include "Map/Master Map Installer.event"
 	
+	MESSAGE Installing EA Tables
 	#include "Tables/EA/Installer.event"
+	MESSAGE Installing Nightmare Tables
 	#include "Tables/NightmareModules/Table Installer.event"
+	
+	MESSAGE Editing Movement Costs
 	#include "Misc/EditMovementCosts.event"
 	
+	MESSAGE Installing Chapter Events
 	#include "Events/_Master Events Installer.event"
+	MESSAGE Installing World Map Events
 	#include "Events/WMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"

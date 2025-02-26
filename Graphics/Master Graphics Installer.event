@@ -8,6 +8,8 @@
 
 #include "Backgrounds/Installer.event"
 
+#include "UI/Installer.event"
+
 #include "BattleBG/Installer.event"
 
 #include "ItemIcons/Installer.event"

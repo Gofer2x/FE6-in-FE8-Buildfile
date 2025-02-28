@@ -284,14 +284,14 @@ EndAnim
 ALIGN 4
 Bishop_Anims:
 MagicAnim(Bishop_MagicAnim)
-StaffAnim(Bishop_MagicAnim)
+StaffAnim(Bishop_StaffAnim)
 UnarmedAnim(Bishop_UnarmedAnim)
 EndAnim
 
 ALIGN 4
 BishopF_Anims:
 MagicAnim(BishopF_MagicAnim)
-StaffAnim(BishopF_MagicAnim)
+StaffAnim(BishopF_StaffAnim)
 UnarmedAnim(BishopF_UnarmedAnim)
 EndAnim
 

@@ -26,8 +26,18 @@ The following are various Vanilla FE6 animations. I have only kept the ones I in
 
 "FireManakete" aka "[Manakete-Base] [F] Vanilla FE6 Fire Dragon +FE7"
     8. Dragonstone (FE8) {Eldritch Abomination}
+	
 "NomadTrooperF" aka 
-    I assume Bow fix by {IS, ltranc, Valak}
+    I assume Bow fix by {ltranc, Valak}
+
+"MageF" aka 
+	Magic by Shin19 and SHYUTERz.
+	
+"Sage" aka
+	Fixed magic by Shin19.
+
+"SageF" aka
+	FE8 Fixes by SHYUTERz.
 
 All others are by IS.
 

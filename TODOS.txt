@@ -11,12 +11,6 @@ Write scripts to autogenerate MMS and footstep tables.
 
 MEDIUM PRIORITY
 FE6 has different animations for the following classes:
-	Mercenary
-	Bishop (has hat + unique staff anim)
-	BishopF (unique staff anim)
-	MageF
-	Sage
-	SageF
 	Shaman, Druid, ShamanF and DruidF have different palettes.
 Implement Triangle attack text.
 Apocalypse's icon is bugged.

@@ -6,6 +6,10 @@
   #include "RoyLord\8.Unarmed\UnarmedInstaller.event"
   }
   {
+  #include "Mercenary\1.Sword\SwordInstaller.event"
+  #include "Mercenary\8.Unarmed\UnarmedInstaller.event"
+  }
+  {
   #include "HeroF\1.Sword\SwordInstaller.event"
   #include "HeroF\3.Axe\AxeInstaller.event"
   #include "HeroF\4.HandAxe\HandAxeInstaller.event"
@@ -18,6 +22,10 @@
   {
   #include "PaladinF\3.Axe\AxeInstaller.event"
   #include "PaladinF\4.HandAxe\HandAxeInstaller.event"
+  }
+  {
+  #include "Thief\1.Sword\SwordInstaller.event"
+  #include "Thief\8.Unarmed\UnarmedInstaller.event"
   }
   {
   #include "ThiefF\1.Sword\SwordInstaller.event"
@@ -46,6 +54,27 @@
   #include "NomadTrooperF\8.Unarmed\UnarmedInstaller.event"
   }
   {
+  #include "MageF\6.Magic(Fixed)\MagicInstaller.event"
+  }
+  {
+  #include "Sage\6.Magic(Fixed)\MagicInstaller.event"
+  #include "Sage\7.Staff\StaffInstaller.event"
+  }
+  {
+  #include "SageF\6.Magic(FE8)\MagicInstaller.event"
+  #include "SageF\7.Staff\StaffInstaller.event"
+  }
+  {
+  #include "Bishop\6.Magic\MagicInstaller.event"
+  #include "Bishop\7.Staff\StaffInstaller.event"
+  #include "Bishop\8.Unarmed\UnarmedInstaller.event"
+  }
+  {
+  #include "BishopF\6.Magic(FE6)\MagicInstaller.event"
+  #include "BishopF\7.Staff(FE6)\StaffInstaller.event"
+  #include "BishopF\8.Unarmed(FE6)\UnarmedInstaller.event"
+  }
+  {
   #include "Bard\8.Refresh(FE6)(BirdSfx)\RefreshInstaller.event"
   }
   {
@@ -58,5 +87,5 @@
   #include "FireManakete\8.Dragonstone(FE8)\RevertInstaller.event"
   }
   {
-  #include "King\Sword\ZephielKingInstaller.event"
+  #include "King\Sword\SwordInstaller.event"
   }

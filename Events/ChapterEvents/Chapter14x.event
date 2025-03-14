@@ -31,8 +31,8 @@
 #define Ch14x_Bridge25 24
 #define Ch14x_Bridge26 25
 
-#define WaterBridgeSubmerge(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileGoingDown) ; TILECHANGE bridge"
-#define WaterBridgeSurface(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileGoingUp) ; TILEREVERSE bridge "
+#define WaterBridgeSubmerge(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileSubmerge) ; TILECHANGE bridge"
+#define WaterBridgeSurface(bridge,x,y) "CAM1 [x,y] ; PlaySound(SND_WaterTileSurface) ; TILEREVERSE bridge "
 
 //Flags/EventIDs
 //BossQuoteFlag 0x1

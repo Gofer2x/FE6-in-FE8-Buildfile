@@ -72,8 +72,8 @@
 #define SND_MenuAPling 0x6A
 
 #define SND_VillageDestruction 0xAB
-#define SND_WaterTileGoingDown 0xBD
-#define SND_WaterTileGoingUp 0xBE
+#define SND_WaterTileSubmerge 0xBD
+#define SND_WaterTileSurface 0xBE
 
 #define SND_ManaketeTransform 0xDC
 #define SND_ManaketeYowl 0xDE

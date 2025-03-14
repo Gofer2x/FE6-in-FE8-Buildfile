@@ -24,8 +24,9 @@
 #include "WeaponPatches/FE6Eclipse.event"
 #include "WeaponPatches/WeaponRanks.event"
 #include "WeaponPatches/WeaponTriangle.event"
+#include "WeaponPatches/DevilAxe.event"
 
-#include "WeaponPatches/WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event"
+#include "WeaponPatches/WeaponEffectiveness2x3x/WeaponEffectiveness2x3x.event" //INCOMPATIBLE WITH SKILLSYSTEMS!
 #include "WeaponPatches/SacredWeapons2/weapon_battle_flash.event"
 #include "WeaponPatches/Magic Sword Rework/MagicSwordRework.event"
 

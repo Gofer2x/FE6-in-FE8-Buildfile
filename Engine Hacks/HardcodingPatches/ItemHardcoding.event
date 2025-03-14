@@ -135,6 +135,8 @@ BYTE SacrificialItem
 ORG 0x115AE
 BYTE SacrificialItem
 
+
+
 //Nightmare
 ORG 0x02FF78
 BYTE SacrificialItem
@@ -162,5 +164,11 @@ BYTE SacrificialItem
 //Dropped Gold Items End List 2
 ORG 0x115B2
 BYTE SacrificialItem
+
+
+
+
+
+
 
 POP

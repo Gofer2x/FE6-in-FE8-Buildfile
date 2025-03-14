@@ -1,4 +1,5 @@
 #define DumbEggID 0x34
+//Gonna use that as the dump for all the others.
 
 //0x9, OG Knight "Armor Triangle Attack Class Range From"
 PUSH
@@ -30,7 +31,7 @@ ORG 0x75044
 BYTE General
 POP
 
-//0xB, OG General "Great Shield First Class" Incompatible with SkillSystems
+//0xB, OG General "Great Shield First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x02B34A
 BYTE DumbEggID
@@ -50,43 +51,43 @@ ORG 0x0074FBA
 BYTE GeneralF
 POP
 
-//0xC, OG GeneralF "Great Shield Last Class" Incompatible with SkillSystems
+//0xC, OG GeneralF "Great Shield Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x02B346
 BYTE DumbEggID
 POP
 
-//OG 0x1B, Sniper "Sure Strike Skill First Class" Incompatible with SkillSystems
+//OG 0x1B, Sniper "Sure Strike Skill First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x02B22A
 BYTE DumbEggID
 POP
 
-//OG 0x1C, SniperF "Sure Strike Skill Last Class" Incompatible with SkillSystems
+//OG 0x1C, SniperF "Sure Strike Skill Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x02B226
 BYTE DumbEggID
 POP
 
-//OG 0x23, WyvernKnight "Skill Pierce from this class" Incompatible with SkillSystems
+//OG 0x23, WyvernKnight "Skill Pierce from this class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x02B2AE
 BYTE DumbEggID
 POP
 
-//OG 0x24, WyvernKnightF "Skill Pierce to this class" Incompatible with SkillSystems
+//OG 0x24, WyvernKnightF "Skill Pierce to this class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x2B2AA
 BYTE DumbEggID
 POP
 
-//OG 0x2B, Bishop "Slayer Skill First Class" Incompatible with SkillSystems
+//OG 0x2B, Bishop "Slayer Skill First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x016C98
 BYTE DumbEggID
 POP
 
-//OG 0x2C, BishopF "Slayer Skill Last Class" Incompatible with SkillSystems
+//OG 0x2C, BishopF "Slayer Skill Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 PUSH
 ORG 0x016C94
 BYTE DumbEggID
@@ -137,10 +138,6 @@ ORG 0x75156
 BYTE PegasusKnight
 POP
 
-PROTECT 0x00750C4
-PROTECT 0x7510C
-PROTECT 0x75156
-
 //OG 0x49, FalcoKnight "Triangle Attack Class Promoted"
 PUSH
 ORG 0x00750CC
@@ -152,5 +149,27 @@ POP
 //OG 0x50, Fleet "Worldmap fleet icon"
 PUSH
 ORG 0xBD4CE
-Byte DumbEggID
+BYTE DumbEggID
+POP
+
+//OG 0x66, DemonKing hardcoding
+PUSH
+//These class force the staff to hit 0% and deactivate it
+ORG 0x002CD3C
+BYTE DemonDragon
+//Class that weakens the staff's hit rate without using the base value
+ORG 0x02CD22
+BYTE DemonDragon
+//Forcibly defeats 0 defeat EXP.Class 1
+ORG 0x002C514
+BYTE DemonDragon
+//Set Class that prohibits additional effects such as poisons from bad status
+ORG 0x002B62C
+BYTE DemonDragon
+//Silencer-Immune Class INCOMPATIBLE WITH SKILLSYSTEMS!
+ORG 0x0024506 
+BYTE DemonDragon
+//Demon King Multi-Summon Class
+ORG 0x024506
+BYTE DumbEggID
 POP

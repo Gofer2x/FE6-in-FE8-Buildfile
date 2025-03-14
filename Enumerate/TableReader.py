@@ -1,9 +1,9 @@
 import csv
 
 filepaths = [
-    "../Tables/Character and Class/CharacterTable.csv",
-    "../Tables/Character and Class/ClassTable.csv",
-    "../Tables/Item/ItemTable.csv"
+    "../Tables/NightmareModules/Character and Class/CharacterTable.csv",
+    "../Tables/NightmareModules/Character and Class/ClassTable.csv",
+    "../Tables/NightmareModules/Item/ItemTable.csv"
 ]
 
 
@@ -46,8 +46,6 @@ for filepath in filepaths:
 
     with open(valueType+"IDs.txt",'w') as write:
         write.writelines(values)
-    
+    print("Writing "+valueType+"IDs.txt")
 
-    pass
-    pass
-    pass
+#input("Enter to exit...")

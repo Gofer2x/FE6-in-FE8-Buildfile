@@ -192,7 +192,7 @@ GotoPrepScreen
 
 PathThroughTheOcean:
 CAM1 [10,8]
-PlaySound(SND_WaterTileGoingUp)
+PlaySound(SND_WaterTileSurface)
 TILECHANGE 0x2
 STAL 64
 BranchIfBossDead(9)

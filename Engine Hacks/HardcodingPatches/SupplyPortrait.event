@@ -1,4 +1,9 @@
 PUSH
+//Mini Mug Portrait of Supply carriage wagon
 ORG 0x9D70E
-BYTE Merlinus
+BYTE MerlinusMug
+
+//Mini Mug Portrait of carriage wagon at sale on world map
+ORG 0xA00BA
+BYTE MerlinusMug
 POP

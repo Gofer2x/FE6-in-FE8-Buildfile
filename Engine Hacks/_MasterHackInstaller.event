@@ -15,7 +15,6 @@
 
 #include "HardcodingPatches/ClassHardcoding.event"
 #include "HardcodingPatches/CharacterHardcoding.event"
-#include "HardcodingPatches/SupplyPortrait.event"
 #include "HardcodingPatches/PortraitHeightFix.event"
 #include "HardcodingPatches/ItemHardcoding.event"
 #include "HardcodingPatches/ChapterHardcoding.event"

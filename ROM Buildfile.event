@@ -15,7 +15,7 @@
 	ORG FreeSpace
 	
 	MESSAGE Installing Engine Hacks
-	#include "Engine Hacks/_Master Hack Installer.event"
+	#include "Engine Hacks/_MasterHackInstaller.event"
 	
 	MESSAGE Installing Misc Stuff
 	#include "Misc/EditVanillaStatBoosts.event"
@@ -57,6 +57,10 @@
 	#include "Events/WMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"
+	
+	MESSAGE Installing Late Engine Hacks
+	#include "Engine Hacks/_LateHackInstaller.event"
+	
 #else
     ERROR You are not assembling FE8 events!
 #endif

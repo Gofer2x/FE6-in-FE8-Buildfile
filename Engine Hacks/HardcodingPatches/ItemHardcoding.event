@@ -127,16 +127,6 @@ BYTE SacrificialItem
 ORG 0x0291C6
 BYTE SacrificialItem
 
-//Dropped Gold Items Start List
-ORG 0x115AA
-BYTE SacrificialItem
-
-//Dropped Gold Items End List
-ORG 0x115AE
-BYTE SacrificialItem
-
-
-
 //Nightmare
 ORG 0x02FF78
 BYTE SacrificialItem
@@ -157,6 +147,14 @@ BYTE SacrificialItem
 ORG 0x02ACB6
 BYTE SacrificialItem
 
+//Dropped Gold Items Start List 1
+ORG 0x115AA
+BYTE SacrificialItem
+
+//Dropped Gold Items End List 1
+ORG 0x115AE
+BYTE SacrificialItem
+
 //Dropped Gold Items Start List 2
 ORG 0x115B6
 BYTE SacrificialItem
@@ -165,10 +163,20 @@ BYTE SacrificialItem
 ORG 0x115B2
 BYTE SacrificialItem
 
+//Item ID1, which changes to money when stolen.Begin.
+ORG 0x324CE
+BYTE SacrificialItem
 
+//Item ID1, which changes to money when stolen.End.
+ORG 0x324D2
+BYTE SacrificialItem
 
+//Item ID1, which changes to money when stolen.Begin.
+ORG 0x324DA
+BYTE SacrificialItem
 
-
-
+//Item ID2, which changes to money when stolen.End.
+ORG 0x324D6
+BYTE SacrificialItem
 
 POP

@@ -144,7 +144,7 @@ Author: hypergammaspaces
 Skip:Game Opening Demo
 Author: Fati
 
-Item ID which changes to money when stolen patches TODO install these
+Item ID which changes to money when stolen patches
 Author: v
 
 Extended Moving Map Animation List
@@ -152,6 +152,9 @@ Authors: Icecube https://feuniverse.us/t/max-number-of-standing-map-sprites/773/
 
 Units after this Unit ID will Class Grow
 Source: fe8 decomp project. https://feuniverse.us/t/autolevel-function/12463/2
+
+Summon Skill: Edit Summoned Class
+Source: FE8 Summoneditor by Nintenlord, ZaneAvernathy
 
 Following patches by Aera:
     Additional AI: Talk AI
@@ -228,7 +231,7 @@ Uncredited
     Fix Stone's map animation crashing no$ due to a bad decompression
     Class Crit% Bonus
     Fixes the world map chapter ID being loaded instead of the actual chapter ID
-    Mini Mug Portrait of carriage wagon at sale on world map TODO INSTALL THIS
+    Mini Mug Portrait of carriage wagon at sale on world map
     Mini Mug Portrait of Supply carriage wagon
     Skip World Map Fix (Disable Skirmishes & World Map)
     fix prep screen in ch5x
@@ -238,8 +241,12 @@ Uncredited
     Fix CG Fade Glitch, ported by 7743
     Class that weakens the staff's hit rate without using the base value
     Forcibly defeats 0 defeat EXP.Class 1
+    Forcibly defeats 0 defeat EXP.Class 2
     Set Class that prohibits additional effects such as poisons from bad status
     Demon King Multi-Summon Class
+    Forcibly overwrites defeat EXP. Class1
+    Class that disappears when the chapter is cleared
+    Prohibits the use of Arena by Class
 
     Portrait Upshift Edit(or?) <- got this one from Github search but couldn't find a proper source?
 

@@ -24,10 +24,10 @@ SHORT SND_ManaketeUntransform //Untransform Sound
 //Idunn
 BYTE DemonDragon //Class ID
 BYTE DarkBreath //Item ID
-SHORT 0x0 //Human to Dragon
-SHORT 0x0 //Dragon breath
-SHORT 0x0 //Dragon to Human
-SHORT 0x0 //Human standing
+SHORT DemonDragon_TransformAnim //Human to Dragon
+SHORT DemonDragon_DragonstoneAnim //Dragon breath
+SHORT DemonDragon_RevertAnim //Dragon to Human
+SHORT DemonDragon_UnarmedAnim //Human standing
 SHORT 0x0 //Transform Start Sound
 SHORT 0x0 //Transform Finish Sound
 SHORT 0x0 //Untransform Sound

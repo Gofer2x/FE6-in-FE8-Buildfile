@@ -95,3 +95,9 @@
   {
   #include "King\Sword\SwordInstaller.event"
   }
+  {
+  #include "DemonDragon\Transform\TransformInstaller.event"
+  #include "DemonDragon\8.Dragonstone(Claw+Transform)\DragonstoneInstaller.event"
+  #include "DemonDragon\Revert\RevertInstaller.event"
+  #include "DemonDragon\Unarmed\UnarmedInstaller.event"
+  }

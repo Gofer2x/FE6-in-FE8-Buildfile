@@ -472,4 +472,8 @@ SwordAnim(King_SwordAnim)
 UnarmedAnim(King_SwordAnim) //yeah, it's like that in fe6 lol
 EndAnim
 
-#define DemonDragon_Anims 0x0 //TODO
+ALIGN 4
+DemonDragon_Anims:
+UnarmedAnim(DemonDragon_UnarmedAnim)
+SpecialAnim(DemonDragon_UnarmedAnim,DarkBreath)
+EndAnim

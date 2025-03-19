@@ -36,3 +36,7 @@
 #define FaeManakete_RevertAnim 0xED
 #define FaeManakete_UnarmedAnim 0xEE
 #define King_SwordAnim 0xEF
+#define DemonDragon_TransformAnim 0xF0
+#define DemonDragon_DragonstoneAnim 0xF1
+#define DemonDragon_RevertAnim 0xF2
+#define DemonDragon_UnarmedAnim 0xF3

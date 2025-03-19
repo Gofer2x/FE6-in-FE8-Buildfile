@@ -19,8 +19,6 @@ The following are various Vanilla FE6 animations. I have only kept the ones I in
     Refresh (Heart FE8 Compatible) by SHYUTERz.
 
 "DemonDragon" aka "[Boss-Base] [U] Vanilla FE6 Idunn +FE7-8"
-    Dragonstone (FEx + Transform) by {SHYUTERz}
-    Dragonstone (FEx) by {Marlon0024}
     Dragonstone (FEx, Claw Attack + Transform) by {SHYUTERz}
 
 "FireManakete" aka "[Manakete-Base] [F] Vanilla FE6 Fire Dragon +FE7"

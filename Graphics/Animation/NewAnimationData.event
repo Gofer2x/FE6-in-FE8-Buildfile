@@ -81,10 +81,16 @@
   #include "Dancer\8.Refresh(Heart FE8)\RefreshInstaller.event" //Not sure which one to use
   }
   {
-  #include "FireManakete\8.Unarmed(Vanilla)\UnarmedInstaller.event"
-  #include "FireManakete\8.Dragonstone(FE8)\DragonstoneInstaller.event"
   #include "FireManakete\8.Dragonstone(FE8)\TransformInstaller.event"
+  #include "FireManakete\8.Dragonstone(FE8)\DragonstoneInstaller.event"
   #include "FireManakete\8.Dragonstone(FE8)\RevertInstaller.event"
+  #include "FireManakete\8.Unarmed(Vanilla)\UnarmedInstaller.event"
+  }
+  {
+  #include "FaeManakete\TransformReduced\TransformInstaller.event"
+  #include "FaeManakete\8.Dragonstone\DragonstoneInstaller.event"
+  #include "FaeManakete\RevertReduced\RevertInstaller.event"
+  #include "FaeManakete\8.Unarmed\UnarmedInstaller.event"
   }
   {
   #include "King\Sword\SwordInstaller.event"

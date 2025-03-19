@@ -13,10 +13,10 @@ SHORT SND_ManaketeUntransform //Untransform Sound
 //Fae
 BYTE FaeManakete //Class ID
 BYTE Divinestone //Item ID
-SHORT 0x0 //Human to Dragon
-SHORT 0x0 //Dragon breath
-SHORT 0x0 //Dragon to Human
-SHORT 0x0 //Human standing
+SHORT FaeManakete_TransformAnim //Human to Dragon
+SHORT FaeManakete_DragonstoneAnim //Dragon breath
+SHORT FaeManakete_RevertAnim //Dragon to Human
+SHORT FaeManakete_UnarmedAnim //Human standing
 SHORT SND_ManaketeTransform //Transform Start Sound
 SHORT SND_ManaketeYowl //Transform Finish Sound
 SHORT SND_ManaketeUntransform //Untransform Sound

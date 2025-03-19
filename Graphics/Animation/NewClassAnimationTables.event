@@ -442,9 +442,11 @@ Dancer_Anims:
 UnarmedAnim(Dancer_RefreshAnim)
 EndAnim
 
-//Sadly will have to do this for now
-//TODO at them at some point
-#define FaeManakete_Anims 0x0
+ALIGN 4
+FaeManakete_Anims:
+UnarmedAnim(FaeManakete_UnarmedAnim)
+SpecialAnim(FaeManakete_UnarmedAnim,Divinestone)
+EndAnim
 
 ALIGN 4
 FireManakete_Anims:
@@ -452,7 +454,11 @@ UnarmedAnim(FireManakete_UnarmedAnim)
 SpecialAnim(FireManakete_UnarmedAnim,Firestone)
 EndAnim
 
-#define DivineDragon_Anims 0x0
+ALIGN 4
+DivineDragon_Anims:
+UnarmedAnim(FaeManakete_UnarmedAnim)
+SpecialAnim(FaeManakete_UnarmedAnim,Divinestone)
+EndAnim
 
 ALIGN 4
 FireDragon_Anims:
@@ -466,4 +472,4 @@ SwordAnim(King_SwordAnim)
 UnarmedAnim(King_SwordAnim) //yeah, it's like that in fe6 lol
 EndAnim
 
-#define DemonDragon_Anims 0x0
+#define DemonDragon_Anims 0x0 //TODO

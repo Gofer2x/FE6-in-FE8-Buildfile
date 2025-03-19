@@ -4,8 +4,8 @@ HIGH PRIORITY
 Finish Epilogue work.
 Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
-Fae and Idunn dragon animations.
-Write scripts to autogenerate MMS and footstep tables.
+Idunn dragon animations.
+Take a closer look at footstep tables.
 
 
 
@@ -35,6 +35,7 @@ Bugged (doubled) early HM bonuses.
 Add IER...?
 Let thieves Steal regardless of Speed.
 Ch21x traps...? Some might be possible to recreate with eventing, but not all for sure.
+Is there some way to bypass the palette limitations for Fae's animations?
 
 
 

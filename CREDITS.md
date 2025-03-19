@@ -23,9 +23,6 @@ The following are various Vanilla FE6 animations. I have only kept the ones I in
     Dragonstone (FEx) by {Marlon0024}
     Dragonstone (FEx, Claw Attack + Transform) by {SHYUTERz}
 
-"FaeManakete" aka "[Manakete-Base] [F] Vanilla FE6 Fae +FE7"
-    FE7 Dragonstone by Circleseverywhere.
-
 "FireManakete" aka "[Manakete-Base] [F] Vanilla FE6 Fire Dragon +FE7"
     8. Dragonstone (FE8) {Eldritch Abomination}
 	

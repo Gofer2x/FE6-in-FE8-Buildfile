@@ -242,6 +242,7 @@ Uncredited
     Forcibly overwrites defeat EXP. Class1
     Class that disappears when the chapter is cleared
     Prohibits the use of Arena by Class
+    All Sound Hardcoding patches
 
     Portrait Upshift Edit(or?) <- got this one from Github search but couldn't find a proper source?
 

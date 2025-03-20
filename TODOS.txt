@@ -4,8 +4,8 @@ HIGH PRIORITY
 Finish Epilogue work.
 Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
-Idunn dragon animations.
 Take a closer look at footstep tables.
+Insert remaining Sounds for battle animations and make sure all hardcoded ones work.
 
 
 
@@ -19,7 +19,6 @@ Apocalypse's icon is bugged.
 
 LOW PRIORITY
 Ch16x background.
-Music and Audio insertion via FEBuilder in CMD mode. 
 Bard and Dancer map sounds are weird.
 Slight visual bug with ballista ammo counter. Terrain info overlaps it.
 Recruitable characters only go up so high. Double check the limit against current amount and Trial characters (possibly culling then).

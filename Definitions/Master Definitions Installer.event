@@ -19,7 +19,7 @@
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"
 #include "IDs/EventFlags.event"
-#include "IDs/Sounds.event"
+#include "IDs/SoundIDs.event"
 
 #include "NewWeaponRanks.event"
 #include "ChapterTextStuffs.event"

@@ -18,6 +18,7 @@
 #include "HardcodingPatches/PortraitHeightFix.event"
 #include "HardcodingPatches/ItemHardcoding.event"
 #include "HardcodingPatches/ChapterHardcoding.event"
+#include "HardcodingPatches/SoundHardcoding.event"
 
 
 #include "WeaponPatches/FE6Eclipse.event"

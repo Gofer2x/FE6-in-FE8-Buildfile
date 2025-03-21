@@ -6,6 +6,7 @@ Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
 Take a closer look at footstep tables.
 Insert remaining Sounds for battle animations and make sure all hardcoded ones work.
+Limit Sacae's Yurt Trap to 5 enemies per turn and update probability (5%?).
 
 
 
@@ -14,7 +15,7 @@ FE6 has different animations for the following classes:
 	Shaman, Druid, ShamanF and DruidF have different palettes.
 Implement Triangle attack text.
 Apocalypse's icon is bugged.
-
+Start managing the free space created by unused vanilla assets to save on ROM space.
 
 
 LOW PRIORITY
@@ -42,6 +43,5 @@ MISC
 Brigand and Berserker promos have been merged. In FE6 they're slightly different.
 Torch staff currently has FE8 behavior. Though is this really worth changing...?
 All enemies with FE6 specific AI (Galle, the Ch2/23 gate enemies..) have more standard AI.
-Free space management and overwriting now-unused vanilla data.
 
 

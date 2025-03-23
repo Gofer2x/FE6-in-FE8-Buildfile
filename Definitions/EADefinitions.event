@@ -19,6 +19,8 @@
 #define BranchIfCounterEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BEQ label s1 sC"
 #define BranchIfCounterNotEqualTo(label,counter,value) "SVAL 1 value; COUNTER_CHECK counter ; BNE label s1 sC"
 
+#define BranchIfCounterLargerThan(label,counter,value) "SVAL 1 value ; COUNTER_CHECK counter ; BGT label s1 sC"
+
 #define BranchIfUnitActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BEQ label s1 sC"
 #define BranchIfUnitNotActive(label,unit) "SVAL s1 unit ; CHECK_ACTIVE ; BNE label s1 sC"
 

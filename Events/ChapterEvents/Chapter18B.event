@@ -17,9 +17,12 @@
 
 // https://github.com/FireEmblemUniverse/fireemblem6j/blob/b158d46dfc4d6590d783b0072fed90cf0227edf7/src/eventfunctions.c#L1697
 // That should be it? 5
+// There is also a limit on the amount of enemies spawned? I was never able to get more than 4.
 #define Ch18B_AmbushChance 5
+#define Ch18B_AmbushEnemyLimit 4
 
 #define Ch18B_AmbushCounter 0x0
+#define Ch18B_AmbushSpawnedCounter 0x1
 
 EventPointerTable(EVENTS_Ch18B,ThisChapter)
 EscapePointPointerTable(CHAPTER_Ch18B,0x0)
@@ -273,62 +276,88 @@ IncrementCounter(Ch18B_AmbushCounter)
 
 BranchIfRandomNotZero(1,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad1)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 1
 
 BranchIfRandomNotZero(2,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad2)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 2
 
 BranchIfRandomNotZero(3,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad3)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 3
 
 BranchIfRandomNotZero(4,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad4)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 4
 
+//Start checking if we've already spawned 4 enemies.
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(5,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad5)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 5
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(6,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad6)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 6
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(7,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad7)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 7
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(8,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad8)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 8
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(9,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad9)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 9
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(10,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad10)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 10
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(11,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad11)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 11
 
 BranchIfRandomNotZero(12,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad12)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 12
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(13,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad13)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 13
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(14,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad14)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 14
 
+BranchIfCounterLargerThan(15,Ch18B_AmbushSpawnedCounter,Ch18B_AmbushEnemyLimit)
 BranchIfRandomNotZero(15,Ch18B_AmbushChance)
 LoadReinforcements(YurtsNomad15)
+IncrementCounter(Ch18B_AmbushSpawnedCounter)
 LABEL 15
 
 EndEvent

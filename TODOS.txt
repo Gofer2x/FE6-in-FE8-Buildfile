@@ -6,7 +6,6 @@ Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
 Take a closer look at footstep tables.
 Insert remaining Sounds for battle animations and make sure all hardcoded ones work.
-Limit Sacae's Yurt Trap to 5 enemies per turn and update probability (5%?).
 
 
 

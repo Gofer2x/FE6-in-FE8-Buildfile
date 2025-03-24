@@ -1,138 +1,140 @@
 PUSH
 
+//Should these be BYTEs or SHORTs?
+
 //Arena Battle BGM
 ORG 0x072714
-SHORT MUS_ArenaBattle
+BYTE MUS_ArenaBattle
 
 //Defeat in the Arena BGM, LINK Arena
 ORG 0x0458FC
-SHORT MUS_WithinSadness
+BYTE MUS_WithinSadness
 ORG 0x045922
-SHORT MUS_WithinSadness
+BYTE MUS_WithinSadness
 
 //Arena Entrance BGM
 ORG 0x047C42
-SHORT MUS_ArenaEntrance
+BYTE MUS_ArenaEntrance
 ORG 0x047ED0
-SHORT MUS_ArenaEntrance
+BYTE MUS_ArenaEntrance
 ORG 0x0B5D14
-SHORT MUS_ArenaEntrance
+BYTE MUS_ArenaEntrance
 ORG 0x0B5D2E
-SHORT MUS_ArenaEntrance
+BYTE MUS_ArenaEntrance
 
 //Arena Win BGM
 ORG 0x0B5CF8
-SHORT MUS_ArenaVictory
+BYTE MUS_ArenaVictory
 ORG 0x0458F0
-SHORT MUS_ArenaVictory
+BYTE MUS_ArenaVictory
 
 //Armory BGM
 ORG 0x0B4C02
-SHORT MUS_Shop
+BYTE MUS_Shop
 
 //Record Reel BGM
 ORG 0x038232
-SHORT MUS_BattleResults
+BYTE MUS_BattleResults
 
 //Promotion BGM
 ORG 0x07272A
-SHORT MUS_ToTheHeights
+BYTE MUS_ToTheHeights
 
 ////MUSIC_Creature Campaign
 //ORG 0x0B9FA8
-//SHORT MUS_
+//BYTE MUS_
 
 ////MUSIC_Creature Campaign2
 //ORG 0x0B9F62
-//SHORT MUS_
+//BYTE MUS_
 
 //Dance BGM, how does this work with two dancers? TODO
 ORG 0x07282A
-SHORT MUS_CaptivatingDance
+BYTE MUS_CaptivatingDance
 
 //Epilogue BGM
 ORG 0x0B8122
-SHORT MUS_BattleResults
+BYTE MUS_BattleResults
 
 //ExtraMenu Support Room BGM
 ORG 0x0A9C92
-SHORT MUS_BeyondDistantSkies
+BYTE MUS_BeyondDistantSkies
 ORG 0x0A2BE2
-SHORT MUS_BeyondDistantSkies
+BYTE MUS_BeyondDistantSkies
 
 //ExtraMenu Support Room BGM When selected
 ORG 0x0A2BAC
-SHORT MUS_BeyondDistantSkies
+BYTE MUS_BeyondDistantSkies
 
 //MUSIC_FIN
 ORG 0x0B74C6
-SHORT MUS_GoingMyWay
+BYTE MUS_GoingMyWay
 
 //Game Over BGM
 ORG 0x0835FA 
-SHORT MUS_GameOver
+BYTE MUS_GameOver
 ORG 0x0212CA
-SHORT MUS_GameOver
+BYTE MUS_GameOver
 ORG 0x0837B8
-SHORT MUS_GameOver
+BYTE MUS_GameOver
 
 //Unit Death BGM
 ORG 0x083628
-SHORT MUS_WithinSadness
+BYTE MUS_WithinSadness
 
 //Eirika's BGM, Does this even matter?
 ORG 0x0A2BF6
-SHORT MUS_BeyondDistantSkies
+BYTE MUS_BeyondDistantSkies
 
 //MUSIC_Main theme(OP title screen) 0x43
 ORG 0x009ABE
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 ORG 0x0C640A
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 ORG 0x0C6434
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 ORG 0x0A1946
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 ORG 0x0AFA78
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 
 //Title Screen BGM
 ORG 0x0C5C9C
-SHORT MUS_FireEmblemTheme
+BYTE MUS_FireEmblemTheme
 
 //Preparation Screen BGM
 ORG 0x04D3E0
-SHORT MUS_PrepareToCharge
+BYTE MUS_PrepareToCharge
 ORG 0x0B1CEE
-SHORT MUS_PrepareToCharge
+BYTE MUS_PrepareToCharge
 ORG 0x0341BE
-SHORT MUS_PrepareToCharge
+BYTE MUS_PrepareToCharge
 ORG 0x0965D6
-SHORT MUS_PrepareToCharge
+BYTE MUS_PrepareToCharge
 ORG 0x0A195A
-SHORT MUS_PrepareToCharge
+BYTE MUS_PrepareToCharge
 
 //Prologue Text Reel BGM, this is 0?
 ORG 0x0C4A0C
-SHORT 0x0
+BYTE 0x0
 
 //Healing Staff BGM
 ORG 0x072876
-SHORT MUS_Healing
+BYTE MUS_Healing
 
 //Curing Staff BGM
 ORG 0x072872
-SHORT MUS_Curing
+BYTE MUS_Curing
 
 //Support Room BGM
 ORG 0x0951F6
-SHORT MUS_GoingMyWay
+BYTE MUS_GoingMyWay
 ORG 0x0960C0
-SHORT MUS_GoingMyWay
+BYTE MUS_GoingMyWay
 
 //Shop BGM
 ORG 0x0B4C0C
-SHORT MUS_Shop
+BYTE MUS_Shop
 
 //idc about these lol
 //Lagdou/Valni Floor Victory BGM

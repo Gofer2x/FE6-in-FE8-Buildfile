@@ -64,4 +64,6 @@ Erm, what the sigma?[X]
 
 #include "CharacterStuff/Supports.txt"
 
+#include "NamesAndDescs/SongNames.txt"
+
 #include "Debug.txt"

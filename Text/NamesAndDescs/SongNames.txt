@@ -1,0 +1,206 @@
+## FireEmblemThemeSongName
+Fire Emblem Theme[X]
+
+## DeerOfThePlainsSongName
+Deer Of The Plains[X]
+
+## WildFrontierSongName
+Wild Frontier[X]
+
+## DistantLandsSongName
+Distant Lands[X]
+
+## TheKingdomOfBernSongName
+The Kingdom Of Bern[X]
+
+## DragonSanctuarySongName
+Dragon Sanctuary[X]
+
+## LegendaryInheritanceSongName
+Legendary Inheritance[X]
+
+## MessengerFromTheDarknessSongName
+Messenger From The Darkness[X]
+
+## DisquietingStepsSongName
+Disquieting Steps[X]
+
+## BeyondDistantSkiesSongName
+Beyond Distant Skies[X]
+
+## OneWillSongName
+One Will[X]
+
+## BeholdingNaturesBeautySongName
+Beholding Natures Beauty[X]
+
+## BeneathANewLightSongName
+Beneath A New Light[X]
+
+## ThePathToGreatnessSongName
+The Path To Greatness[X]
+
+## ScarsOfTheScouringSongName
+Scars Of The Scouring[X]
+
+## ShadowApproachesSongName
+Shadow Approaches[X]
+
+## MarchToDeliveranceSongName
+March To Deliverance[X]
+
+## BindingTiesSongName
+Binding Ties[X]
+
+## WinningRoadSongName
+Winning Road[X]
+
+## PoemOfTheSoftWindSongName
+Poem Of The Soft Wind[X]
+
+## AtTheFinalDragonSongName
+At The Final Dragon[X]
+
+## BattleForTomorrowSongName
+Battle For Tomorrow[X]
+
+## InTheNameOfBernSongName
+In The Name Of Bern[X]
+
+## BattleForWhoseSakeSongName
+Battle For Whose Sake[X]
+
+## PriestessInTheDarkSongName
+Priestess In The Dark[X]
+
+## CuringSongName
+Curing[X]
+
+## HealingSongName
+Healing[X]
+
+## ToTheHeightsSongName
+To The Heights[X]
+
+## ICampaignSongName
+I Campaign[X]
+
+## IIRecapturingTheRoyalCapitalSongName
+II Recapturing The Royal Capital[X]
+
+## IIIInvisibleEnemySongName
+III Invisible Enemy[X]
+
+## IVFinalChapterSongName
+IV Final Chapter[X]
+
+## PrepareToChargeSongName
+Prepare To Charge[X]
+
+## AnUnexpectedCallerSongName
+An Unexpected Caller[X]
+
+## WhenTheRushComesSongName
+When The Rush Comes[X]
+
+## CogsOfFateSongName
+Cogs Of Fate[X]
+
+## DistantUtopiaSongName
+Distant Utopia[X]
+
+## TriumphSongName
+Triumph[X]
+
+## IntoTheShadowOfTriumphSongName
+Into The Shadow Of Triumph[X]
+
+## TheDarkPriestessSongName
+The Dark Priestess[X]
+
+## TheKingOfBernSongName
+The King Of Bern[X]
+
+## PrincessOfDestinySongName
+Princess Of Destiny[X]
+
+## SuspiciousSongName
+Suspicious[X]
+
+## DignifiedSongName
+Dignified[X]
+
+## MelancholicSongName
+Melancholic[X]
+
+## FinalFarewellSongName
+Final Farewell[X]
+
+## GoingMyWaySongName
+Going My Way[X]
+
+## JoinUsSongName
+Join Us[X]
+
+## EpilogueSongName
+Epilogue[X]
+
+## BattleResultsSongName
+Battle Results[X]
+
+## AfterTheWarSongName
+After The War[X]
+
+## GameOverSongName
+Game Over[X]
+
+## ShopSongName
+Shop[X]
+
+## ArenaEntranceSongName
+Arena Entrance[X]
+
+## ArenaBattleSongName
+Arena Battle[X]
+
+## HappinessAboundsSongName
+Happiness Abounds[X]
+
+## MainThemeArrangementSongName
+Main Theme Arrangement[X]
+
+## ShockingTruth1SongName
+Shocking Truth1[X]
+
+## ShockingTruth2SongName
+Shocking Truth2[X]
+
+## TalkingSongName
+Talking[X]
+
+## PerilousDanceSongName
+Perilous Dance[X]
+
+## CaptivatingDanceSongName
+Captivating Dance[X]
+
+## PreludeTellingALegendSongName
+Prelude Telling A Legend[X]
+
+## EternalWindSongName
+Eternal Wind[X]
+
+## WithinSadnessSongName
+Within Sadness[X]
+
+## ArenaVictorySongName
+Arena Victory[X]
+
+## WhatCameBeforeSongName
+What Came Before[X]
+
+## AttackSongName
+Attack[X]
+
+## RevengeSongName
+Revenge[X]

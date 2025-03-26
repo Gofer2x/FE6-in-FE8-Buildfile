@@ -2,6 +2,7 @@
 
 
 
+//#include "EnginePatches/FE6StyleStatScreen/StatScreenfx.event" TODO implement and install this
 #include "EnginePatches/FillAIDangerMap/FillAIDangerMap.event"
 #include "EnginePatches/MultiDancer/Installer.event"
 #include "EnginePatches/Chapternamesastext2.1/fe8_chnames.event"

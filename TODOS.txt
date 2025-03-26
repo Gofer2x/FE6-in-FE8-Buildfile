@@ -10,6 +10,7 @@ Insert remaining Sounds for battle animations and make sure all hardcoded ones w
 
 
 MEDIUM PRIORITY
+Install the FE6-style background patch once I can get the WSL environment working.
 FE6 has different animations for the following classes:
 	Shaman, Druid, ShamanF and DruidF have different palettes.
 Implement Triangle attack text.

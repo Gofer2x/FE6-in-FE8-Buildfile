@@ -60,6 +60,8 @@ Spell Animations:
 
 
 Scripts/patches:
+FE6 style StatScreenfx
+Author: Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204/33 https://github.com/MokhaLeee/fe8_hacks_sundries/tree/main/wizardry/StatScreenfx
 
 16 Tracks/12 Sounds Fix
 Author: Agro/Brendor https://feuniverse.us/t/fe7-fe8-16-tracks-12-sounds-patch/895
@@ -72,9 +74,6 @@ Authors: Tequila, UNKNOWN, Aera, circleseverywhere, Ported by 7743 https://feuni
 
 Convert Chapter Titles to Text v2.1
 Author: circleseverywhere, 7743, gamma https://feuniverse.us/t/hypergammaspaces-assorted-asm/4085/24
-
-Add Event: AutoLvlUnit
-Author: Vesly https://feuniverse.us/t/veslys-asm/12011/14 https://github.com/Veslyquix/ASM/blob/main/AutoLevelUnits/
 
 Remove Enemy Control Glitch
 Author: Brendor, Compatability/Ported by 7743
@@ -99,6 +98,9 @@ Author: Hextator, Compatability/Ported by 7743
 
 FillAIDangerMap Efficiency Fix 20220712
 Author: Hextator, Updated by 7743 https://feuniverse.us/t/hypergammaspaces-assorted-asm/4085/8
+
+Add Event: AutoLvlUnit
+Author: Vesly https://feuniverse.us/t/veslys-asm/12011/14 https://github.com/Veslyquix/ASM/blob/main/AutoLevelUnits/
 
 AddEvent: Get the number of Count number of units in a specific range
 Author: 7743, add state suusuke

@@ -1,0 +1,166 @@
+#define SetWalkSoundEntry(index,type) "PUSH ; ORG NewWalkSoundsTable+(4*index) ; POIN type ; POP"
+#define WalkSoundInfantry 0x78FEC
+#define WalkSoundNone 0x79022
+#define WalkSoundGargoyle 0x78D9C
+#define WalkSoundZombie 0x78FA4
+#define WalkSoundSkeleton 0x78FAC
+#define WalkSoundMogall 0x78DB0
+#define WalkSoundSpider 0x78FB4
+#define WalkSoundMautheDoog 0x78FBC
+#define WalkSoundHorse 0x78FC4
+#define WalkSoundGorgon 0x78FCC
+#define WalkSoundHeavy 0x78FD4
+#define WalkSoundFleet 0x78FDC
+#define WalkSoundManakete 0x78FE4 //Wings
+#define WalkSoundPegasus 0x78DB8
+
+PUSH
+
+//Patches Fix PlaySoundStepByClass HardCode (PatchForm) Fix PlaySoundStepByClass HardCode29.03.2025 01:31:57
+ORG $078D84
+BYTE  $1C $E0;
+
+//This expands the range of the table from $0A-$7B to $00-$7F I think?
+ORG $078DC2
+BYTE  $00;
+ORG $078DC4
+BYTE  $7F;
+
+//Set new Table
+ORG $078DD4
+POIN NewWalkSoundsTable
+
+POP
+
+ALIGN 4
+NewWalkSoundsTable:
+FILL (129*4)
+
+SetWalkSoundEntry(0x0,WalkSoundNone)
+SetWalkSoundEntry(RoyLord,WalkSoundInfantry)
+SetWalkSoundEntry(RoyGreatLord,WalkSoundInfantry)
+SetWalkSoundEntry(Mercenary,WalkSoundInfantry)
+SetWalkSoundEntry(MercenaryF,WalkSoundInfantry)
+SetWalkSoundEntry(Hero,WalkSoundInfantry)
+SetWalkSoundEntry(HeroF,WalkSoundInfantry)
+SetWalkSoundEntry(Myrmidon,WalkSoundInfantry)
+SetWalkSoundEntry(MyrmidonF,WalkSoundInfantry)
+SetWalkSoundEntry(Swordmaster,WalkSoundInfantry)
+SetWalkSoundEntry(SwordmasterF,WalkSoundInfantry)
+SetWalkSoundEntry(Fighter,WalkSoundInfantry)
+SetWalkSoundEntry(Warrior,WalkSoundInfantry)
+SetWalkSoundEntry(Brigand,WalkSoundInfantry)
+SetWalkSoundEntry(Pirate,WalkSoundInfantry)
+SetWalkSoundEntry(Berserker,WalkSoundInfantry)
+SetWalkSoundEntry(Soldier,WalkSoundInfantry)
+SetWalkSoundEntry(Knight,WalkSoundHeavy)
+SetWalkSoundEntry(KnightF,WalkSoundHeavy)
+SetWalkSoundEntry(General,WalkSoundHeavy)
+SetWalkSoundEntry(GeneralF,WalkSoundHeavy)
+SetWalkSoundEntry(Archer,WalkSoundInfantry)
+SetWalkSoundEntry(ArcherF,WalkSoundInfantry)
+SetWalkSoundEntry(Sniper,WalkSoundInfantry)
+SetWalkSoundEntry(SniperF,WalkSoundInfantry)
+SetWalkSoundEntry(Thief,WalkSoundInfantry)
+SetWalkSoundEntry(ThiefF,WalkSoundInfantry)
+SetWalkSoundEntry(Rogue,WalkSoundInfantry)
+SetWalkSoundEntry(RogueF,WalkSoundInfantry)
+SetWalkSoundEntry(Assassin,WalkSoundInfantry)
+SetWalkSoundEntry(AssassinF,WalkSoundInfantry)
+SetWalkSoundEntry(Cavalier,WalkSoundHorse)
+SetWalkSoundEntry(CavalierF,WalkSoundHorse)
+SetWalkSoundEntry(Paladin,WalkSoundHorse)
+SetWalkSoundEntry(PaladinF,WalkSoundHorse)
+SetWalkSoundEntry(GreatKnight,WalkSoundHorse)
+SetWalkSoundEntry(GreatKnightF,WalkSoundHorse)
+SetWalkSoundEntry(Nomad,WalkSoundHorse)
+SetWalkSoundEntry(NomadF,WalkSoundHorse)
+SetWalkSoundEntry(NomadTrooper,WalkSoundHorse)
+SetWalkSoundEntry(NomadTrooperF,WalkSoundHorse)
+SetWalkSoundEntry(Priest,WalkSoundInfantry)
+SetWalkSoundEntry(Cleric,WalkSoundInfantry)
+SetWalkSoundEntry(Monk,WalkSoundInfantry)
+SetWalkSoundEntry(Bishop,WalkSoundInfantry)
+SetWalkSoundEntry(BishopF,WalkSoundInfantry)
+SetWalkSoundEntry(Troubadour,WalkSoundInfantry)
+SetWalkSoundEntry(Valkyrie,WalkSoundInfantry)
+SetWalkSoundEntry(Mage,WalkSoundInfantry)
+SetWalkSoundEntry(MageF,WalkSoundInfantry)
+SetWalkSoundEntry(Sage,WalkSoundInfantry)
+SetWalkSoundEntry(SageF,WalkSoundInfantry)
+SetWalkSoundEntry(Unused_GorgonEgg,WalkSoundInfantry)
+SetWalkSoundEntry(MageKnight,WalkSoundHorse)
+SetWalkSoundEntry(MageKnightF,WalkSoundHorse)
+SetWalkSoundEntry(Shaman,WalkSoundInfantry)
+SetWalkSoundEntry(ShamanF,WalkSoundInfantry)
+SetWalkSoundEntry(Druid,WalkSoundInfantry)
+SetWalkSoundEntry(DruidF,WalkSoundInfantry)
+SetWalkSoundEntry(Summoner,WalkSoundInfantry)
+SetWalkSoundEntry(PegasusKnight,WalkSoundPegasus)
+SetWalkSoundEntry(Falcoknight,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernRider,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernRiderF,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernLord,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernLordF,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernKnight,WalkSoundPegasus)
+SetWalkSoundEntry(WyvernKnightF,WalkSoundPegasus)
+SetWalkSoundEntry(Bard,WalkSoundInfantry)
+SetWalkSoundEntry(Dancer,WalkSoundInfantry)
+SetWalkSoundEntry(Transporter,WalkSoundInfantry)
+SetWalkSoundEntry(FaeManakete,WalkSoundInfantry)
+SetWalkSoundEntry(DivineDragon,WalkSoundInfantry)
+SetWalkSoundEntry(FireManakete,WalkSoundInfantry)
+SetWalkSoundEntry(FireDragon,WalkSoundInfantry)
+SetWalkSoundEntry(King,WalkSoundInfantry)
+SetWalkSoundEntry(DemonDragon,WalkSoundHeavy)
+SetWalkSoundEntry(Civilian,WalkSoundInfantry)
+SetWalkSoundEntry(CivilianF,WalkSoundInfantry)
+SetWalkSoundEntry(Child,WalkSoundInfantry)
+SetWalkSoundEntry(ChildF,WalkSoundInfantry)
+SetWalkSoundEntry(BlankClass1,WalkSoundNone)
+SetWalkSoundEntry(BlankClass2,WalkSoundNone)
+SetWalkSoundEntry(BlankClass3,WalkSoundNone)
+SetWalkSoundEntry(BlankClass4,WalkSoundNone)
+SetWalkSoundEntry(BlankClass5,WalkSoundNone)
+SetWalkSoundEntry(BlankClass6,WalkSoundNone)
+SetWalkSoundEntry(BlankClass7,WalkSoundNone)
+SetWalkSoundEntry(BlankClass8,WalkSoundNone)
+SetWalkSoundEntry(BlankClass9,WalkSoundNone)
+SetWalkSoundEntry(BlankClass10,WalkSoundNone)
+SetWalkSoundEntry(BlankClass11,WalkSoundNone)
+SetWalkSoundEntry(BlankClass12,WalkSoundNone)
+SetWalkSoundEntry(BlankClass13,WalkSoundNone)
+SetWalkSoundEntry(BlankClass14,WalkSoundNone)
+SetWalkSoundEntry(BlankClass15,WalkSoundNone)
+SetWalkSoundEntry(BlankClass16,WalkSoundNone)
+SetWalkSoundEntry(BlankClass17,WalkSoundNone)
+SetWalkSoundEntry(BlankClass18,WalkSoundNone)
+SetWalkSoundEntry(BlankClass19,WalkSoundNone)
+SetWalkSoundEntry(BlankClass20,WalkSoundNone)
+SetWalkSoundEntry(BlankClass21,WalkSoundNone)
+SetWalkSoundEntry(BlankClass22,WalkSoundNone)
+SetWalkSoundEntry(MannedBallista,WalkSoundNone)
+SetWalkSoundEntry(MannedIronBallista,WalkSoundNone)
+SetWalkSoundEntry(MannedKillerBallista,WalkSoundNone)
+SetWalkSoundEntry(UnmannedBallista,WalkSoundNone)
+SetWalkSoundEntry(UnmannedIronBallista,WalkSoundNone)
+SetWalkSoundEntry(UnmannedKillerBallista,WalkSoundNone)
+SetWalkSoundEntry(BlankClass23,WalkSoundNone)
+SetWalkSoundEntry(BlankClass24,WalkSoundNone)
+SetWalkSoundEntry(BlankClass25,WalkSoundNone)
+SetWalkSoundEntry(BlankClass26,WalkSoundNone)
+SetWalkSoundEntry(BlankClass27,WalkSoundNone)
+SetWalkSoundEntry(BlankClass28,WalkSoundNone)
+SetWalkSoundEntry(BlankClass29,WalkSoundNone)
+SetWalkSoundEntry(BlankClass30,WalkSoundNone)
+SetWalkSoundEntry(BlankClass31,WalkSoundNone)
+SetWalkSoundEntry(BlankClass32,WalkSoundNone)
+SetWalkSoundEntry(BlankClass33,WalkSoundNone)
+SetWalkSoundEntry(BlankClass34,WalkSoundNone)
+SetWalkSoundEntry(BlankClass35,WalkSoundNone)
+SetWalkSoundEntry(BlankClass36,WalkSoundNone)
+SetWalkSoundEntry(BlankClass37,WalkSoundNone)
+SetWalkSoundEntry(BlankClass38,WalkSoundNone)
+SetWalkSoundEntry(BlankClass39,WalkSoundNone)
+SetWalkSoundEntry(BlankClass40,WalkSoundNone)
+SetWalkSoundEntry(BlankClass41,WalkSoundNone)

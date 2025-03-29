@@ -59,8 +59,9 @@
 
 
 
-#include "MiscPatches/FE8WalkingSoundsFix/FE8-Walking Sounds EA.event"
+//#include "MiscPatches/FE8WalkingSoundsFix/FE8-Walking Sounds EA.event" //Replaced with a vanilla-style patch for FEB compatibility.
 #include "MiscPatches/NarrowFont/Narrowfont installer.event"
 #include "MiscPatches/FixSomeBattleSounds.event"
 #include "MiscPatches/PrepsShop.event"
+#include "MiscPatches/WalkingSounds.event"
 

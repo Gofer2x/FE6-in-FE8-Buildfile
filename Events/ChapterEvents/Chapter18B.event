@@ -223,6 +223,7 @@ ALIGN 4
 
 BeginningScene:
 PlayMusic(MUS_DistantLands)
+FlagON(Ch18B_AmbushFlag)
 LOAD1 0x1 Enemies
 ENUN
 ChStartFadeFromBlack

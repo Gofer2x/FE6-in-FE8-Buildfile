@@ -18,8 +18,8 @@ for item in csvData:
     else:
         id = item["FE8 Target ID"]    
 
-    define = ("#define "+name+" "+id+"\n")
-    print(define)
+    define = (f"#define {name} {id}\n")
+    print(define,end="")
     output.append(define)
 
 with open("Definitions/IDs/SoundIDs.event","w") as write:

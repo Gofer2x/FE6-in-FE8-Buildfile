@@ -4,9 +4,9 @@
 
 #include "Chapter Data\ChapterData.event"
 
-#include "Character and Class\CharacterTable.event"
+#include "CharacterAndClass\CharacterTable.event"
 
-#include "Character and Class\ClassTable.event"
+#include "CharacterAndClass\ClassTable.event"
 
 #include "Item\ItemTable.event"
 

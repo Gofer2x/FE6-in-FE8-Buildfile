@@ -12,7 +12,7 @@ def songExchange(name,fromID,targetID):
         fromID = hex(int(fromID))
     if "0x" not in targetID:
         targetID = hex(int(targetID))
-    print("Inserting "+name+" from ID "+fromID+" into ID "+targetID)
+    print(f"Inserting {name} from ID {fromID} into ID {targetID}")
     os.system('%s --songexchange --fromrom=%s --target=%s --fromsong=%s --tosong=%s' % (FEBuilderGBA, fromROM, targetROM, fromID, targetID))
 
 csvData = []

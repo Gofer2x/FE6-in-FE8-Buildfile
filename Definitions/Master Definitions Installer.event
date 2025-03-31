@@ -12,10 +12,11 @@
 //#include "VanillaData/VanillaEffectivenessTables.event"
 #include "VanillaData/VanillaSounds.event"
 
+#include "Generated/ItemIDs.event"
+#include "Generated/ClassIDs.event"
+#include "Generated/CharacterIDs.event"
+
 #include "IDs/ChapterIDs.event"
-#include "IDs/ItemIDs.event"
-#include "IDs/ClassIDs.event"
-#include "IDs/CharacterIDs.event"
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"
 #include "IDs/EventFlags.event"

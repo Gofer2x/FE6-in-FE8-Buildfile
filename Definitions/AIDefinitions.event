@@ -58,11 +58,11 @@
 
 
 
-//used for player and cutscene units.
+//Used for player and cutscene units.
 #define DummyAI [0x6, 0x3, 0x9, 0x20]
 
 
-//these won't be used but might as well keep them
+//These won't be used but might as well keep them
 
 #define BossAI [0x3, 0x3, 0x9, 0x20]
 //AI1_InPlace 0x3

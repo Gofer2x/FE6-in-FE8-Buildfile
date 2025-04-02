@@ -1,8 +1,6 @@
 //FE8 Walking Sounds Fix patch
 //By Tequila
 
-//TODO: this is good and works, but it's not febuilder friendly. eventually might switch this out to the usual vanilla method. but for now it's here.
-
 #define WalkingSounds 0x0
 #define MountedSounds 0x1 
 #define WyvernSounds 0x2

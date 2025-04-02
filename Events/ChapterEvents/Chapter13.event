@@ -145,9 +145,9 @@ UNIT GenericEtruriaCh13 Cavalier Flaer Level(14,Enemy,1) [31,21] 0x0 0x0 0x0 0x0
 UNIT GenericEtruriaCh13 Cavalier Flaer Level(14,Enemy,1) [30,20] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_Charge, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruriaCh13 Troubadour Flaer Level(15,Enemy,1) [31,18] 0x0 0x0 0x0 0x0 [Heal, Vulnerary] [AI1_HealAllies, AI2_Charge, RAI_30_80|TAI_Reckless, AI4_Retreat]
 UNIT Perceval Paladin 0x0 Level(5,Enemy,0) [34,3] 0x0 0x0 0x0 0x0 [SilverLance] [AI1_InRange, AI2_DontMove, RAI_10_50|TAI_Pos, AI4_Retreat]
-UNIT GenericSoldierPercevalCh13_Ch15 Cavalier Perceval Level(14,Enemy,1) [33,4] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat] //[AI1_GaleSquad, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
-UNIT GenericSoldierPercevalCh13_Ch15 Sniper Perceval Level(1,Enemy,1) [35,4] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat] //ditto
-UNIT GenericSoldierPercevalCh13_Ch15 Cavalier Perceval Level(14,Enemy,1) [33,2] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat] //ditto
+UNIT GenericSoldierPercevalCh13_Ch15_1 Cavalier Perceval Level(14,Enemy,1) [33,4] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat] //[AI1_GaleSquad, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
+UNIT GenericSoldierPercevalCh13_Ch15_2 Sniper Perceval Level(1,Enemy,1) [35,4] 0x0 0x0 0x0 0x0 [SteelBow] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Arch, AI4_Retreat] //ditto
+UNIT GenericSoldierPercevalCh13_Ch15_3 Cavalier Perceval Level(14,Enemy,1) [33,2] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat] //ditto
 UNIT GenericEtruriaCh13 Hero Flaer Level(2,Enemy,1) [42,22] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruriaCh13 Mercenary Flaer Level(15,Enemy,1) [40,21] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
 UNIT GenericEtruriaCh13 Mercenary Flaer Level(14,Enemy,1) [40,23] 0x0 0x0 0x0 0x0 [SteelSword] [AI1_InRange, AI2_DontMove, RAI_30_80|TAI_Pos, AI4_Retreat]
@@ -336,8 +336,12 @@ LarumRecruitsPerceval:
 SwitchMusic(MUS_JoinUs)
 Text(Ch13_Ch15_LarumRecruitsPerceval)
 BecomeAlly(Perceval)
-AllEnemiesToNPC(GenericSoldierPercevalCh13_Ch15,0)
-ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPercevalCh13_Ch15,0)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_1)
+SetAI(GenericSoldierPercevalCh13_Ch15_1,AI1_None,AI2_Escape)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_2)
+SetAI(GenericSoldierPercevalCh13_Ch15_2,AI1_None,AI2_Escape)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_3)
+SetAI(GenericSoldierPercevalCh13_Ch15_3,AI1_None,AI2_Escape)
 FlagON(PercevalRecruitedOrDeadFlag)
 RestoreMusic
 EndEvent
@@ -346,8 +350,12 @@ ElffinRecruitsPerceval:
 SwitchMusic(MUS_JoinUs)
 Text(Ch13_Ch15_ElffinRecruitsPerceval)
 BecomeAlly(Perceval)
-AllEnemiesToNPC(GenericSoldierPercevalCh13_Ch15,0)
-ChangeAIAllNPC(AI1_None,AI2_Escape,GenericSoldierPercevalCh13_Ch15,0)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_1)
+SetAI(GenericSoldierPercevalCh13_Ch15_1,AI1_None,AI2_Escape)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_2)
+SetAI(GenericSoldierPercevalCh13_Ch15_2,AI1_None,AI2_Escape)
+BecomeNPC(GenericSoldierPercevalCh13_Ch15_3)
+SetAI(GenericSoldierPercevalCh13_Ch15_3,AI1_None,AI2_Escape)
 FlagON(PercevalRecruitedOrDeadFlag)
 RestoreMusic
 EndEvent
@@ -389,16 +397,15 @@ MOVE 0x0 Perceval [45,6]
 ENUN
 DISA Perceval
 RestoreMusic
-//This is a bit lazy but it works. TODO
-MOVE 0x0 GenericSoldierPercevalCh13_Ch15 [45,6]
+MOVE 0x0 GenericSoldierPercevalCh13_Ch15_1 [45,6]
 ENUN
-DISA GenericSoldierPercevalCh13_Ch15
-MOVE 0x0 GenericSoldierPercevalCh13_Ch15 [45,6]
+DISA GenericSoldierPercevalCh13_Ch15_1
+MOVE 0x0 GenericSoldierPercevalCh13_Ch15_2 [45,6]
 ENUN
-DISA GenericSoldierPercevalCh13_Ch15
-MOVE 0x0 GenericSoldierPercevalCh13_Ch15 [45,6]
+DISA GenericSoldierPercevalCh13_Ch15_2
+MOVE 0x0 GenericSoldierPercevalCh13_Ch15_3 [45,6]
 ENUN
-DISA GenericSoldierPercevalCh13_Ch15
+DISA GenericSoldierPercevalCh13_Ch15_3
 LABEL 9
 EndEvent
 

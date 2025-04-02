@@ -175,7 +175,6 @@ PlayerInRange
 QuieterMusic
 Text(Ch5_GateOpens)
 TILECHANGE 0x1
-//In FE6 this uses some ASM check to see if it should spawn the enemies, but I don't know what it does. So just putting it as a "Is Boss Alive". TODO
 BranchIfBossDead(1)
 STAL 32
 CAM1 [2,14]

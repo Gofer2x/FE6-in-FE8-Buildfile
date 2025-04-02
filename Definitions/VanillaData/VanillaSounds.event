@@ -79,7 +79,6 @@
 #define SND_ManaketeYowl 0xDE
 #define SND_ManaketeUntransform  0xDD
 
-//TODO when doing audio, don't forget to replace these too (maybe)
 #define BGS_Envsound_Windgusts 0x4E
 
 #define SND_MagicShine 0x2E9

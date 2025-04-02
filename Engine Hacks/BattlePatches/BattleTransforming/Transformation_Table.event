@@ -1,5 +1,4 @@
 Transformation_Table:
-//TODO Set this when importing drake animations
 //Fire
 BYTE FireManakete //Class ID
 BYTE Firestone //Item ID

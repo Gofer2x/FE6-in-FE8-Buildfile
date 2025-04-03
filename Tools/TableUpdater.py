@@ -2,6 +2,17 @@ import csv, os, time, sys
 
 ENUMERATE = "Tools\\Enumerate\\Enumerate.py"
 
+# Value types that have an invalid first item in the table.
+invalidFirstItemTypes = [
+    "Item",
+    "Class"
+]
+
+# Value types that start their valid indexes at 0.
+zeroIndexedTypes = [
+    "Chapter"
+]
+
 inputPath = sys.argv[1]
 outputPath = sys.argv[2]
 valueType = sys.argv[3]
@@ -26,11 +37,14 @@ for row in rows:
 blankCounter = 1
 
 # Item and Class tables have an invalid first item
-if valueType == "Item" or valueType == "Class":
+if valueType in invalidFirstItemTypes:
     values = values[1:]
 
 # First value as 1
-values[0] = values[0]+" 1"
+if valueType in zeroIndexedTypes:
+    values[0] = values[0]+" 0"
+else:
+    values[0] = values[0]+" 1"
 for i in range(len(values)):
     
     # Replace the empty values with "BlankVALUE"

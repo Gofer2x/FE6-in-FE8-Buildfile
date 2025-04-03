@@ -15,8 +15,8 @@
 #include "Generated/ItemIDs.event"
 #include "Generated/ClassIDs.event"
 #include "Generated/CharacterIDs.event"
+#include "Generated/ChapterIDs.event"
 
-#include "IDs/ChapterIDs.event"
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"
 #include "IDs/EventFlags.event"

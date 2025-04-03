@@ -2,7 +2,7 @@
 
 #include "Table Definitions.txt"
 
-#include "Chapter Data\ChapterData.event"
+#include "ChapterData\ChapterData.event"
 
 #include "CharacterAndClass\CharacterTable.event"
 

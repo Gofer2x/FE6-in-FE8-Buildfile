@@ -1,18 +1,24 @@
+import os
+
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
+
 # [char1,char2,initial,growth]
-pairs = [["Roy","Marcus",30,2], #ROY
+pairs = [
+["Roy","Marcus",30,2], #ROY
 ["Roy","Alen",20,2], #ROY
 ["Roy","Lance",20,2], #ROY
 ["Roy","Wolt",30,2], #ROY
 ["Roy","Shanna",1,1], #ROY
-#["Roy","Sue",1,1], #ROY
+["Roy","Sue",1,1], #ROY
 ["Roy","Lilina",56,4], #ROY, LILINA
-#["Roy","Larum",1,1], #ROY
+["Roy","Larum",1,1], #ROY
 ["Roy","Cecilia",20,2], #ROY
-#["Roy","Sophia",1,1], #ROY
+["Roy","Sophia",1,1], #ROY
 ["Marcus","Alen",20,2],
 ["Marcus","Lance",20,2],
 ["Marcus","Wolt",20,2],
-#["Marcus","Lilina",1,1], #LILINA
+["Marcus","Lilina",1,1], #LILINA
 ["Alen","Lance",30,2],
 ["Alen","Wolt",20,2],
 ["Alen","Ward",1,1],
@@ -84,10 +90,10 @@ pairs = [["Roy","Marcus",30,2], #ROY
 ["Astolfo","Gwendolyn",1,2],
 ["Astolfo","Igrene",10,1],
 ["Lilina","Barthe",30,2],
-#["Lilina","Ogier",10,2], #LILINA
+["Lilina","Ogier",10,2], #LILINA
 ["Lilina","Gwendolyn",30,2], #LILINA
 ["Lilina","Gonzalez",30,2], #LILINA
-#["Lilina","Cecilia",50,1], #LILINA
+["Lilina","Cecilia",50,1], #LILINA
 ["Lilina","Garrett",10,2], #LILINA
 ["Barthe","Ogier",10,2],
 ["Barthe","Gwendolyn",20,2],
@@ -227,6 +233,56 @@ template = {
 
 output = []
 aror = False
+
+roySupports = {}
+lilinaSupports = {}
+roySupportsPartners = []
+lilinaSupportsPartners = []
+
+for pair in pairs:
+    char1,char2 = pair[0],pair[1]
+    if char1 == "Roy":
+        roySupports[char2] = pair
+        roySupportsPartners.append(char2)
+    elif char2 == "Roy":
+        roySupports[char1] = pair
+        roySupportsPartners.append(char1)
+    if char1 == "Lilina":
+        lilinaSupports[char2] = pair
+        lilinaSupportsPartners.append(char2)
+    elif char2 == "Lilina":
+        lilinaSupports[char1] = pair
+        lilinaSupportsPartners.append(char1)
+
+print("Due to engine limitations, Roy and Lilina both cannot have all of their FE6 supports.")
+
+while len(roySupportsPartners) > 7:
+    print("Current Roy support count: "+str(len(roySupportsPartners)))
+    print("Please type in the name of a Roy partner to remove.")
+    for partner in roySupportsPartners:
+        print(partner)
+    toRemove = input("Partner to remove - ")
+    try:
+        roySupportsPartners.remove(toRemove)
+        pairs.remove(roySupports[toRemove])
+        roySupports.pop(toRemove)
+        print(f"Removed {toRemove}.")
+    except Exception as e:
+        print(e)
+
+while len(lilinaSupportsPartners) > 7:
+    print("Current Lilina support count: "+str(len(lilinaSupportsPartners)))
+    print("Please type in the name of a Lilina partner to remove.")
+    for partner in lilinaSupportsPartners:
+        print(partner)
+    toRemove = input("Partner to remove - ")
+    try:
+        lilinaSupportsPartners.remove(toRemove)
+        pairs.remove(lilinaSupports[toRemove])
+        lilinaSupports.pop(toRemove)
+        print(f"Removed {toRemove}.")
+    except Exception as e:
+        print(e)
 
 for char in charsInOrder:
     output.append("ALIGN 4\n")

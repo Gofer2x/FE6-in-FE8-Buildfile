@@ -8,6 +8,7 @@
 #include "NewArenaTables.event"
 #include "NewBossBGMTable.event"
 #include "NewCharacterEndingsTables.event"
+#include "NewPromotionBranchesTable.event"
 
 //Generated
 #include "Generated/NewSupportTables.event"

@@ -1,0 +1,35 @@
+#define SetPromotionBranchesTableEntry(class,promo1) "PUSH ; ORG PromotionBranchesTable+(class*2) ; BYTE promo1 ; BYTE 0x0 ; POP"
+#define SetPromotionBranchesTableEntry(class,promo1,promo2) "PUSH ; ORG PromotionBranchesTable+(class*2) ; BYTE promo1 ; BYTE promo2 ; POP"
+
+PUSH
+ORG 0x95DFA4
+#define PromotionBranchesTable CurrentOffset
+FILL 128*2
+POP
+
+SetPromotionBranchesTableEntry(RoyLord,RoyGreatLord)
+SetPromotionBranchesTableEntry(Mercenary,Hero)
+SetPromotionBranchesTableEntry(MercenaryF,HeroF)
+SetPromotionBranchesTableEntry(Myrmidon,Swordmaster)
+SetPromotionBranchesTableEntry(MyrmidonF,SwordmasterF)
+SetPromotionBranchesTableEntry(Fighter,Warrior)
+SetPromotionBranchesTableEntry(Brigand,Berserker)
+SetPromotionBranchesTableEntry(Pirate,Berserker)
+SetPromotionBranchesTableEntry(Knight,General)
+SetPromotionBranchesTableEntry(KnightF,GeneralF)
+SetPromotionBranchesTableEntry(Archer,Sniper)
+SetPromotionBranchesTableEntry(ArcherF,SniperF)
+SetPromotionBranchesTableEntry(Cavalier,Paladin)
+SetPromotionBranchesTableEntry(CavalierF,PaladinF)
+SetPromotionBranchesTableEntry(Nomad,NomadTrooper)
+SetPromotionBranchesTableEntry(NomadF,NomadTrooperF)
+SetPromotionBranchesTableEntry(Priest,Bishop)
+SetPromotionBranchesTableEntry(Cleric,BishopF)
+SetPromotionBranchesTableEntry(Troubadour,Valkyrie)
+SetPromotionBranchesTableEntry(Mage,Sage)
+SetPromotionBranchesTableEntry(MageF,SageF)
+SetPromotionBranchesTableEntry(Shaman,Druid)
+SetPromotionBranchesTableEntry(ShamanF,DruidF)
+SetPromotionBranchesTableEntry(PegasusKnight,Falcoknight)
+SetPromotionBranchesTableEntry(WyvernRider,WyvernLord)
+SetPromotionBranchesTableEntry(WyvernRiderF,WyvernLordF)

@@ -10,5 +10,3 @@
 
 #include "Item\ItemTable.event"
 
-#include "Promotion\Promotion Branch Editor.event"
-

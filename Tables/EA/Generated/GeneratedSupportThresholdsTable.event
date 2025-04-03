@@ -626,22 +626,22 @@ BYTE Roy //Partner 1
 BYTE Bors //Partner 2
 BYTE Astolfo //Partner 3
 BYTE Barthe //Partner 4
-BYTE Gwendolyn //Partner 5
-BYTE Gonzalez //Partner 6
+BYTE Gonzalez //Partner 5
+BYTE Cecilia //Partner 6
 BYTE Garrett //Partner 7
 BYTE 56 //Partner 1 Intial Value
 BYTE 30 //Partner 2 Intial Value
 BYTE 30 //Partner 3 Intial Value
 BYTE 30 //Partner 4 Intial Value
 BYTE 30 //Partner 5 Intial Value
-BYTE 30 //Partner 6 Intial Value
+BYTE 50 //Partner 6 Intial Value
 BYTE 10 //Partner 7 Intial Value
 BYTE 4 //Partner 1 Growth
 BYTE 2 //Partner 2 Growth
 BYTE 2 //Partner 3 Growth
 BYTE 2 //Partner 4 Growth
 BYTE 2 //Partner 5 Growth
-BYTE 2 //Partner 6 Growth
+BYTE 1 //Partner 6 Growth
 BYTE 2 //Partner 7 Growth
 BYTE 7 //Amount
 SHORT 0x0
@@ -705,26 +705,26 @@ ALIGN 4
 GwendolynSupportData:
 BYTE Bors //Partner 1
 BYTE Astolfo //Partner 2
-BYTE Lilina //Partner 3
-BYTE Barthe //Partner 4
-BYTE Ogier //Partner 5
+BYTE Barthe //Partner 3
+BYTE Ogier //Partner 4
+BYTE 0
 BYTE 0
 BYTE 0
 BYTE 35 //Partner 1 Intial Value
 BYTE 1 //Partner 2 Intial Value
-BYTE 30 //Partner 3 Intial Value
-BYTE 20 //Partner 4 Intial Value
-BYTE 10 //Partner 5 Intial Value
+BYTE 20 //Partner 3 Intial Value
+BYTE 10 //Partner 4 Intial Value
+BYTE 0
 BYTE 0
 BYTE 0
 BYTE 3 //Partner 1 Growth
 BYTE 2 //Partner 2 Growth
 BYTE 2 //Partner 3 Growth
 BYTE 2 //Partner 4 Growth
-BYTE 2 //Partner 5 Growth
 BYTE 0
 BYTE 0
-BYTE 5 //Amount
+BYTE 0
+BYTE 4 //Amount
 SHORT 0x0
 
 ALIGN 4
@@ -1110,26 +1110,26 @@ ALIGN 4
 CeciliaSupportData:
 BYTE Roy //Partner 1
 BYTE Saul //Partner 2
-BYTE Elffin //Partner 3
-BYTE Perceval //Partner 4
-BYTE Douglas //Partner 5
-BYTE 0
+BYTE Lilina //Partner 3
+BYTE Elffin //Partner 4
+BYTE Perceval //Partner 5
+BYTE Douglas //Partner 6
 BYTE 0
 BYTE 20 //Partner 1 Intial Value
 BYTE 1 //Partner 2 Intial Value
-BYTE 20 //Partner 3 Intial Value
-BYTE 30 //Partner 4 Intial Value
+BYTE 50 //Partner 3 Intial Value
+BYTE 20 //Partner 4 Intial Value
 BYTE 30 //Partner 5 Intial Value
-BYTE 0
+BYTE 30 //Partner 6 Intial Value
 BYTE 0
 BYTE 2 //Partner 1 Growth
 BYTE 1 //Partner 2 Growth
-BYTE 2 //Partner 3 Growth
+BYTE 1 //Partner 3 Growth
 BYTE 2 //Partner 4 Growth
 BYTE 2 //Partner 5 Growth
+BYTE 2 //Partner 6 Growth
 BYTE 0
-BYTE 0
-BYTE 5 //Amount
+BYTE 6 //Amount
 SHORT 0x0
 
 ALIGN 4

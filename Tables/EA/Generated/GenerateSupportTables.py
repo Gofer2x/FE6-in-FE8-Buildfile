@@ -232,7 +232,8 @@ template = {
 }
 
 output = []
-aror = False
+
+#This whole section is a bit of a mess but it works I guess.
 
 roySupports = {}
 lilinaSupports = {}
@@ -247,14 +248,8 @@ for pair in pairs:
     elif char2 == "Roy":
         roySupports[char1] = pair
         roySupportsPartners.append(char1)
-    if char1 == "Lilina":
-        lilinaSupports[char2] = pair
-        lilinaSupportsPartners.append(char2)
-    elif char2 == "Lilina":
-        lilinaSupports[char1] = pair
-        lilinaSupportsPartners.append(char1)
 
-print("Due to engine limitations, Roy and Lilina both cannot have all of their FE6 supports.")
+print("Both Roy and Lilina cannot have all of their FE6 supports, as the FE8 engine support cap is 7.\nYou will be asked which of their supports to remove to accommodate.")
 
 while len(roySupportsPartners) > 7:
     print("Current Roy support count: "+str(len(roySupportsPartners)))
@@ -270,6 +265,15 @@ while len(roySupportsPartners) > 7:
     except Exception as e:
         print(e)
 
+for pair in pairs:
+    char1,char2 = pair[0],pair[1]
+    if char1 == "Lilina":
+        lilinaSupports[char2] = pair
+        lilinaSupportsPartners.append(char2)
+    elif char2 == "Lilina":
+        lilinaSupports[char1] = pair
+        lilinaSupportsPartners.append(char1)
+
 while len(lilinaSupportsPartners) > 7:
     print("Current Lilina support count: "+str(len(lilinaSupportsPartners)))
     print("Please type in the name of a Lilina partner to remove.")
@@ -283,6 +287,8 @@ while len(lilinaSupportsPartners) > 7:
         print(f"Removed {toRemove}.")
     except Exception as e:
         print(e)
+
+#Begin proper processing. Thresholds table.
 
 for char in charsInOrder:
     output.append("ALIGN 4\n")
@@ -314,6 +320,8 @@ with open("GeneratedSupportThresholdsTable.event","w") as w:
 
 
 output = []
+
+# Support convo table.
 
 for pair in pairs:
     char1,char2 = pair[0],pair[1]

@@ -26,6 +26,7 @@ BYTE Elixir 0x0
 BYTE ChestKey5Uses 0x0
 BYTE ChestKey1Use 0x0
 BYTE Lockpick 0x0
+BYTE Vulnerary 0x0
 BYTE PureWater 0x0
 BYTE Torch 0x0
 BYTE Antitoxin 0x0

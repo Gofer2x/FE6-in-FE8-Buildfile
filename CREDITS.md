@@ -182,7 +182,7 @@ Following patches by/from Chap@FE8_GIRLS:
     Great Shield First Class and Last Class https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Slayer Skill First Class and Last Class https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Sure Strike Skill First Class and Last Class
-    Disabled Status Screen On Map 1 and 2 https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81 TODO install second
+    Disabled Status Screen On Map 2 https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Skill Pick https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Skill Pierce from this class and to this class https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
@@ -212,9 +212,9 @@ Following patches by 7743:
     Main Character - Eirika's Tale and Ephraim's Tale
     Item ID that reduces damage to 0
     Prohibits the Crit by Item _ Stone
-    Special class 1 to reduce number of possessed items to zero when loading TODO install all of these??
-    Special class 2 to that BadStatus A when load
-    Special class 2 to that fixes HP to 5 when load
+    Special class 1 and 2 to reduce number of possessed items to zero when loading
+    Special class 1 and 2 to that BadStatus A when load
+    Special class 1 and 2 to that fixes HP to 5 when load
     Summoned Creature Weapon 1-4
     Eirika Campaign Supply
     Ephraim Campaign Supply

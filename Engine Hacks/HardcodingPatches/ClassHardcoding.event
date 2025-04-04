@@ -1,4 +1,4 @@
-#define DumbEggID 0x34
+#define SacrificialClass 0x7F
 //Gonna use that as the dump for all the others.
 
 PUSH
@@ -27,7 +27,7 @@ BYTE General
 
 //0xB, OG General "Great Shield First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x02B34A
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //0xC, OG GeneralF "Armor Triangle Attack Class Promoted2"
 ORG 0x0074FE0
@@ -41,56 +41,56 @@ BYTE GeneralF
 
 //0xC, OG GeneralF "Great Shield Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x02B346
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x1B, Sniper "Sure Strike Skill First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x02B22A
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x1C, SniperF "Sure Strike Skill Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x02B226
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x23, WyvernKnight "Skill Pierce from this class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x02B2AE
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x24, WyvernKnightF "Skill Pierce to this class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x2B2AA
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x2B, Bishop "Slayer Skill First Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x016C98
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x2C, BishopF "Slayer Skill Last Class" INCOMPATIBLE WITH SKILLSYSTEMS!
 ORG 0x016C94
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x2D, Shaman "Ewan Promotes To Class For Weapon Rank Removal"
 ORG 0x2bd10
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2BE60
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x33, Rogue "Class ID that determines that the AI can use Rogue lockpick skill"
 ORG 0x40C6A
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x33, Rogue "Skill Pick"
 ORG 0x023E90
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x3C, MyrrhManakete "Special class ID to turn the battle background into a Manakete"
 //This will be handled by patches I think.
 ORG 0x070B7E
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x3E, Pupil1 "Ewan Base Class For Weapon Rank Removal"
 ORG 0x2bd0a
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2BE5A
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x48, PegasusKnight "Triangle Attack Class UnPromoted"
 ORG 0x00750C4
@@ -108,61 +108,59 @@ BYTE Falcoknight
 
 //OG 0x50, Fleet "Worldmap fleet icon"
 ORG 0xBD4CE
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x61, Gorgon "Class ID of an enemy unit born from an egg"
 ORG 0x07CF62
-BYTE DumbEggID
-
-//OG 0x62, GorgonEgg "Forcibly overwrites defeat EXP. Class1"
-ORG 0x002C4F8
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x53, Entombed "Enemy Class Grants Bonus EXP"
 ORG 0x02C3FE
-BYTE DumbEggID
+BYTE SacrificialClass
+
+//Is there a point in changing all of these? Probably no. Will I do it anyways? Yes.
 
 //OG 0x51, Phantom hardcoding
 //Summon Skill: Edit Summoned Class
 ORG 0x07ADD0
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x22BEC
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x18EDE
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2304C
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x23F78
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x23FE2
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2403E
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2409A
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2523E
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x25246
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x3122E
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x232CC
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x25366
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x2536E
-BYTE DumbEggID
+BYTE SacrificialClass
 //Class that disappears when the chapter is cleared
 ORG 0x18EDE
-BYTE DumbEggID
+BYTE SacrificialClass
 ORG 0x3122E
-BYTE DumbEggID
+BYTE SacrificialClass
 //Forcibly defeats 0 defeat EXP.Class 2
 ORG 0x002C528
-BYTE DumbEggID
+BYTE SacrificialClass
 //Prohibits the use of Arena by Class
 ORG 0x0240F6
-BYTE DumbEggID
+BYTE SacrificialClass
 
 //OG 0x66, DemonKing hardcoding
 //These class force the staff to hit 0% and deactivate it
@@ -182,6 +180,50 @@ ORG 0x0024506
 BYTE DemonDragon
 //Demon King Multi-Summon Class
 ORG 0x024506
-BYTE DumbEggID
+BYTE SacrificialClass
+
+//OG 0x62, GorgonEgg2 hardcoding
+//Disabled Status Screen On Map (2)
+ORG 0x01C92E
+BYTE SacrificialClass
+ORG 0x0879C6
+BYTE SacrificialClass
+ORG 0x0874AE
+BYTE SacrificialClass
+//Special class 1 to that BadStatus A when load
+ORG 0x17C00
+BYTE SacrificialClass
+//Special class 2 to reduce number of possessed items to zero when loading
+ORG 0x17D96
+BYTE SacrificialClass
+//Forcibly overwrites defeat EXP. Class1
+ORG 0x002C4F8
+BYTE SacrificialClass
+///Special Class 1 to that fixes HP to 5 when load
+ORG 0x17CF8
+BYTE SacrificialClass
+
+//OG 0x34, GorgonEgg hardcoding
+//Disabled Status Screen On Map
+ORG 0x01C932
+BYTE SacrificialClass
+ORG 0x0879CA
+BYTE SacrificialClass
+ORG 0x0874B2
+BYTE SacrificialClass
+//Special class 2 to that BadStatus A when load
+ORG 0x17C04
+BYTE SacrificialClass
+//Special class 1 to reduce number of possessed items to zero when loading
+ORG 0x17D9A
+BYTE SacrificialClass
+//Forcibly overwrites defeat EXP. Class2
+ORG 0x002C4FC
+BYTE SacrificialClass
+///Special Class 2 to that fixes HP to 5 when load
+ORG 0x17CFC
+BYTE SacrificialClass
+
+
 
 POP

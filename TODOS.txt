@@ -32,7 +32,6 @@ Add Binding Blade check for Idunn.
 Recruitable Character HM bonuses.
 Bugged (doubled) early HM bonuses.
 Add IER...?
-Let thieves Steal regardless of Speed.
 Ch21x traps...? Some might be possible to recreate with eventing, but not all for sure.
 Is there some way to bypass the palette limitations for Fae's animations?
 

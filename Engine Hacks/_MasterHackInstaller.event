@@ -11,7 +11,7 @@
 #include "EnginePatches/BattleMusicChange2_20200603/install_battle_music_changer2.event"
 
 #include "EnginePatches/InlineFix_GenerateBestMovementScript.event"
-
+#include "EnginePatches/FE6Stealing.event"
 
 
 #include "HardcodingPatches/ClassHardcoding.event"

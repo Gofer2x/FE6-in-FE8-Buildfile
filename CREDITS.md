@@ -252,4 +252,6 @@ Uncredited
 
 Various scripts and macros/definitions taken from other projects. I've kept credits in ones that had them, but most of them I found from github searches and they appeared in multiple repos, so not sure how to credit them. But thank you.
 
+Thanks to the Fire Emblem Wiki (https://fireemblemwiki.org/) for various information about specific chapters and mechanics. Ch14x's bridges, Ch16x's arrow trap timings, Ch21's reinforcement zones and probably more.
+
 Also thanks to Vesly for their great .bat files for processing data, and the various people on the FEU discord for helping out when I ran into problems.

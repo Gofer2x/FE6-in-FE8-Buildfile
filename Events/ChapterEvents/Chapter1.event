@@ -30,7 +30,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventEnemy(0x0,EVENT_TestFaeIdunnCutscene,1)
+TurnEventEnemy(0x0,DamasComplains,1)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 

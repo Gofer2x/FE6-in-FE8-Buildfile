@@ -297,11 +297,11 @@ CLEAN
 LOAD2 0x1 IdunnAndFae
 ENUN
 FadeFromBlack(Fade2s)
-MOVE 14 Fae [22,8] //Fae runs left.
+MOVE 4 Fae [22,8] //Fae runs left.
 STAL 30
-MOVE 0xC IdunnHuman [22,8] //Idunn slowly follows her.
-STAL 60
-MOVE 8 Fae [22,7] //Once Idunn is close, Fae moves a bit up.
+MOVE 1 IdunnHuman [22,8] //Idunn slowly follows her.
+STAL 240
+MOVE 4 Fae [22,7] //Once Idunn is close, Fae moves a bit up.
 ENUN
 PlayMusic(MUS_EternalWind)
 TEXTSTART
@@ -326,33 +326,33 @@ TEXTEND
 
 //Fae runs circle around Idunn.
 
-MOVE 20 Fae [21,7] //Top Left
+MOVE 4 Fae [21,7] //Top Left
 ENUN
-MOVE 20 Fae [21,9] //Bottom Left
+MOVE 4 Fae [21,9] //Bottom Left
 ENUN
-MOVE 20 Fae [23,9] //Bottom Right
+MOVE 4 Fae [23,9] //Bottom Right
 ENUN
-MOVE 20 Fae [23,7] //Top Right
+MOVE 4 Fae [23,7] //Top Right
 ENUN
 //First lap done.
-MOVE 20 Fae [21,7] //Top Left
+MOVE 4 Fae [21,7] //Top Left
 ENUN
-MOVE 20 Fae [21,9] //Bottom Left
+MOVE 4 Fae [21,9] //Bottom Left
 ENUN
-MOVE 20 Fae [23,9] //Bottom Right
+MOVE 4 Fae [23,9] //Bottom Right
 ENUN
-MOVE 20 Fae [23,7] //Top Right
+MOVE 4 Fae [23,7] //Top Right
 ENUN
-MOVE 20 Fae [22,7] //Top Right
+MOVE 4 Fae [22,7] //Top Right
 ENUN
 //Second lap done.
 //Fae runs to below the Armory, offscreen.
 REMA
-MOVE 16 Fae [29,5]
+MOVE 4 Fae [29,5]
 ENUN
 
 STAL 30 //TODO Timing here is tricky.
-MOVE 5 IdunnHuman [27,8]
+MOVE 1 IdunnHuman [27,8]
 STAL 100
 FadeOutMusic
 STAL 100

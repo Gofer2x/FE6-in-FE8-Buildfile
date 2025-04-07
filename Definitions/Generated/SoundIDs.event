@@ -85,3 +85,10 @@
 #define SND_Forblaze1 0x12D
 #define SND_Forblaze2 0x12E
 #define SND_Forblaze3 0x12F
+#define SND_RiverFreezing 0xC6
+#define SND_IdunnThunder 0xAD
+#define SND_IdunnDodge 0xBB
+#define SND_IdunnTransformStomp 0xAE
+#define SND_IdunnTransformRoar 0x2BA
+#define SND_IdunnSwoosh 0x143
+#define SND_IdunnShortNoise 0x144

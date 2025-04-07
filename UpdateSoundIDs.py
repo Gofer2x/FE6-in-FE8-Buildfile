@@ -22,7 +22,7 @@ for item in csvData:
     print(define,end="")
     output.append(define)
 
-with open("Definitions/IDs/SoundIDs.event","w") as write:
+with open("Definitions/Generated/SoundIDs.event","w") as write:
     write.writelines(output)
 
 input("Done. Enter to exit program...")

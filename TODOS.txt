@@ -3,8 +3,7 @@ The Gay agenda:
 HIGH PRIORITY
 Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
-Insert remaining Sounds for battle animations and make sure all hardcoded ones work.
-
+Inserting sounds finished, but due to how FEB handles sound priorities some end up incorrect. I made an .event that fixes the wrong imports but considering you'd have to run it after MAKE HACK and SoundInsertion, it's not exactly useful. Ticket FEB on GitHub?
 
 
 MEDIUM PRIORITY

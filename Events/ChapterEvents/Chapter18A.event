@@ -182,7 +182,7 @@ Text(BG_Castle1,Ch18A_RiverFreezes1)
 CAM1 Roy
 FlashCursor(Roy,60)
 Text(BG_SnowOutside,Ch18A_RiverFreezes2)
-//Sound and gfx here? TODO
+PlaySound(SND_RiverFreezing)
 TILECHANGE 6
 TILECHANGE 7
 TILECHANGE 8

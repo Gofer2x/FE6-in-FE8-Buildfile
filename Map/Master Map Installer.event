@@ -10,115 +10,115 @@
 #define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*148)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP" 
 
 {
-#include "Chapter 1\Chapter1.event"
+#include "Chapter1\Chapter1.event"
 }
 {
-#include "Chapter 10A\Chapter10A.event"
+#include "Chapter10A\Chapter10A.event"
 }
 {
-#include "Chapter 10B\Chapter10B.event"
+#include "Chapter10B\Chapter10B.event"
 }
 {
-#include "Chapter 11A\Chapter11A.event"
+#include "Chapter11A\Chapter11A.event"
 }
 {
-#include "Chapter 11B\Chapter11B.event"
+#include "Chapter11B\Chapter11B.event"
 }
 {
-#include "Chapter 12\Chapter12.event"
+#include "Chapter12\Chapter12.event"
 }
 {
-#include "Chapter 12x\Chapter12x.event"
+#include "Chapter12x\Chapter12x.event"
 }
 {
-#include "Chapter 13\Chapter13.event"
+#include "Chapter13\Chapter13.event"
 }
 {
-#include "Chapter 14\Chapter14.event"
+#include "Chapter14\Chapter14.event"
 }
 {
-#include "Chapter 14x\Chapter14x.event"
+#include "Chapter14x\Chapter14x.event"
 }
 {
-#include "Chapter 15\Chapter15.event"
+#include "Chapter15\Chapter15.event"
 }
 {
-#include "Chapter 16\Chapter16.event"
+#include "Chapter16\Chapter16.event"
 }
 {
-#include "Chapter 16x\Chapter16x.event"
+#include "Chapter16x\Chapter16x.event"
 }
 {
-#include "Chapter 17A\Chapter17A.event"
+#include "Chapter17A\Chapter17A.event"
 }
 {
-#include "Chapter 17B\Chapter17B.event"
+#include "Chapter17B\Chapter17B.event"
 }
 {
-#include "Chapter 18A\Chapter18A.event"
+#include "Chapter18A\Chapter18A.event"
 }
 {
-#include "Chapter 18B\Chapter18B.event"
+#include "Chapter18B\Chapter18B.event"
 }
 {
-#include "Chapter 19A\Chapter19A.event"
+#include "Chapter19A\Chapter19A.event"
 }
 {
-#include "Chapter 19B\Chapter19B.event"
+#include "Chapter19B\Chapter19B.event"
 }
 {
-#include "Chapter 2\Chapter2.event"
+#include "Chapter2\Chapter2.event"
 }
 {
-#include "Chapter 20A\Chapter20A.event"
+#include "Chapter20A\Chapter20A.event"
 }
 {
-#include "Chapter 20Ax\Chapter20Ax.event"
+#include "Chapter20Ax\Chapter20Ax.event"
 }
 {
-#include "Chapter 20B\Chapter20B.event"
+#include "Chapter20B\Chapter20B.event"
 }
 {
-#include "Chapter 20Bx\Chapter20Bx.event"
+#include "Chapter20Bx\Chapter20Bx.event"
 }
 {
-#include "Chapter 21\Chapter21.event"
+#include "Chapter21\Chapter21.event"
 }
 {
-#include "Chapter 21x\Chapter21x.event"
+#include "Chapter21x\Chapter21x.event"
 }
 {
-#include "Chapter 22\Chapter22.event"
+#include "Chapter22\Chapter22.event"
 }
 {
-#include "Chapter 23\Chapter23.event"
+#include "Chapter23\Chapter23.event"
 }
 {
-#include "Chapter 24\Chapter24.event"
+#include "Chapter24\Chapter24.event"
 }
 {
-#include "Chapter 3\Chapter3.event"
+#include "Chapter3\Chapter3.event"
 }
 {
-#include "Chapter 4\Chapter4.event"
+#include "Chapter4\Chapter4.event"
 }
 {
-#include "Chapter 5\Chapter5.event"
+#include "Chapter5\Chapter5.event"
 }
 {
-#include "Chapter 6\Chapter6.event"
+#include "Chapter6\Chapter6.event"
 }
 {
-#include "Chapter 7\Chapter7.event"
+#include "Chapter7\Chapter7.event"
 }
 {
-#include "Chapter 8\Chapter8.event"
+#include "Chapter8\Chapter8.event"
 }
 {
-#include "Chapter 8x\Chapter8x.event"
+#include "Chapter8x\Chapter8x.event"
 }
 {
-#include "Chapter 9\Chapter9.event"
+#include "Chapter9\Chapter9.event"
 }
 {
 #include "Endgame\Final.event"

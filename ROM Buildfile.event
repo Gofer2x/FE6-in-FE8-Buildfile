@@ -5,7 +5,7 @@
 	
 	//Most definitions
 	MESSAGE Initializing Definitions
-	#include "Definitions/Master Definitions Installer.event"
+	#include "Definitions/_MasterDefinitionsInstaller.event"
 	
 	//Initializing definitions that are used before they would normally be defined
 	#include "Graphics\Animation\BattleAnimationIDs.event" //Needed for Battle Transformations patch
@@ -32,13 +32,13 @@
 	MESSAGE Text Size is TextSizeTotal Bytes
 	
 	MESSAGE Installing Graphics
-	#include "Graphics/Master Graphics Installer.event"
+	#include "Graphics/_MasterGraphicsInstaller.event"
 	
 	MESSAGE Installing Tilesets
-	#include "Map/Tilesets/Tilesets Installer.event"
+	#include "Map/Tilesets/TilesetsInstaller.event"
 	
 	MESSAGE Installing Tile Animations
-	#include "Map/Tile Animations/Tile Animations Installer.event"
+	#include "Map/TileAnimations/TileAnimationsInstaller.event"
 	
 	MESSAGE Installing Maps
 	#include "Map/Master Map Installer.event"
@@ -52,9 +52,9 @@
 	#include "Misc/EditMovementCosts.event"
 	
 	MESSAGE Installing Chapter Events
-	#include "Events/_Master Events Installer.event"
+	#include "Events/_MasterChapterEventsInstaller.event"
 	MESSAGE Installing World Map Events
-	#include "Events/WMEventsInstaller.event"
+	#include "Events/_MasterWMEventsInstaller.event"
 	
 	//#include "Music/Music Installer.event"
 	

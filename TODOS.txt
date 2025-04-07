@@ -1,7 +1,6 @@
 The Gay agenda:
 
 HIGH PRIORITY
-Finish Epilogue work.
 Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
 Insert remaining Sounds for battle animations and make sure all hardcoded ones work.

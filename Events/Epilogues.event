@@ -300,7 +300,7 @@ FadeFromBlack(Fade2s)
 MOVE 4 Fae [22,8] //Fae runs left.
 STAL 30
 MOVE 1 IdunnHuman [22,8] //Idunn slowly follows her.
-STAL 240
+STAL 220
 MOVE 4 Fae [22,7] //Once Idunn is close, Fae moves a bit up.
 ENUN
 PlayMusic(MUS_EternalWind)
@@ -351,7 +351,8 @@ REMA
 MOVE 4 Fae [29,5]
 ENUN
 
-STAL 30 //TODO Timing here is tricky.
+//Idunn moves to the right, and a sandstorm briefly happens.
+STAL 30
 MOVE 1 IdunnHuman [27,8]
 STAL 100
 FadeOutMusic
@@ -364,6 +365,7 @@ ENUN
 WEA1 Clear
 STAL 100
 Text(EpilogueTrue_AWarmBreeze)
+FadeIntoBlack(Fade5s)
 
 LABEL 9
 

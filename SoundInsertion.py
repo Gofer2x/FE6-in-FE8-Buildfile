@@ -2,10 +2,12 @@ import os, shutil, csv
 
 fromROM = "FE6Localization_v1.2.1.gba"
 baseROM = "myHack.gba"
+tempTargetROM = "myHackWithMusicBroken.gba"
 targetROM = "myHackWithMusic.gba"
-FEBuilderGBA = "..\\FEBuilderGBA\\FEBuilderGBA.exe --rom="+targetROM
+FEBuilderGBA = "..\\FEBuilderGBA\\FEBuilderGBA.exe --rom="+tempTargetROM
+SoundPriorityFix = "SoundPriorityFix.cmd"
 
-shutil.copy(baseROM, targetROM)
+shutil.copy(baseROM, tempTargetROM)
 
 def songExchange(name,fromID,targetID):
     if "0x" not in fromID:
@@ -13,7 +15,7 @@ def songExchange(name,fromID,targetID):
     if "0x" not in targetID:
         targetID = hex(int(targetID))
     print(f"Inserting {name} from ID {fromID} into ID {targetID}")
-    os.system('%s --songexchange --fromrom=%s --target=%s --fromsong=%s --tosong=%s' % (FEBuilderGBA, fromROM, targetROM, fromID, targetID))
+    os.system('%s --songexchange --fromrom=%s --target=%s --fromsong=%s --tosong=%s' % (FEBuilderGBA, fromROM, tempTargetROM, fromID, targetID))
 
 csvData = []
 with open('FE6toFE8Sounds.csv', mode ='r', encoding="utf-8")as file:
@@ -39,5 +41,11 @@ for item in csvData:
         fe8ID = item["FE8 Target ID"]
     
     songExchange(name,fe6ID,fe8ID)
+
+print("Finished inserting new sounds.")
+
+print("Running SoundPriorityFix.")
+
+os.system(SoundPriorityFix)
 
 input("Done. Enter to exit program...")

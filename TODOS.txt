@@ -3,7 +3,6 @@ The Gay agenda:
 HIGH PRIORITY
 Idunn's dragon mug is glitched?
 Re-add some items like the Metis' tome and Earth Seal.
-Inserting sounds finished, but due to how FEB handles sound priorities some end up incorrect. I made an .event that fixes the wrong imports but considering you'd have to run it after MAKE HACK and SoundInsertion, it's not exactly useful. Ticket FEB on GitHub?
 
 
 MEDIUM PRIORITY
@@ -22,6 +21,7 @@ Slight visual bug with ballista ammo counter. Terrain info overlaps it.
 Recruitable characters only go up so high. Double check the limit against current amount and Trial characters (possibly culling then).
 The "Custom Game Over" thing is a bit messy. Try to fix it up. The reason I can't put the character check thing as Roy's death quote is that CHECK_DEPLOYED seems to exit the function early from that context?
 World map. This is a big one but really not a priority right now.
+Importing music via FEB can use the wrong priority due to how prio is(n't) implemented in the process. I made an EA file that's ran post-insertion but that's not an ideal solution. Potentially make a ticket.
 
 
 

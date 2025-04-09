@@ -15,6 +15,7 @@ Start managing the free space created by unused vanilla assets to save on ROM sp
 
 
 LOW PRIORITY
+The big world map implementation is VERY BAD. UndoBuffer cheese. I have no idea how the Palette Map works.
 Ch16x background.
 Bard and Dancer map sounds are weird.
 Slight visual bug with ballista ammo counter. Terrain info overlaps it.

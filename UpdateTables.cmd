@@ -2,3 +2,4 @@
 "Tools/TableUpdater.py" "Tables/NightmareModules/CharacterAndClass/ClassTable.csv" "Definitions/Generated/ClassIDs.event" "Class"
 "Tools/TableUpdater.py" "Tables/NightmareModules/Item/ItemTable.csv" "Definitions/Generated/ItemIDs.event" "Item"
 "Tools/TableUpdater.py" "Tables/NightmareModules/ChapterData/ChapterData.csv" "Definitions/Generated/ChapterIDs.event" "Chapter"
+"Tools/TableUpdater.py" "Tables/NightmareModules/WorldMap/Nodes.csv" "Definitions/Generated/WMNodeIDs.event" "Node"

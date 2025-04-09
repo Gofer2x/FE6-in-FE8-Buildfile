@@ -17,6 +17,7 @@
 #include "Generated/CharacterIDs.event"
 #include "Generated/ChapterIDs.event"
 #include "Generated/SoundIDs.event"
+#include "Generated/WMNodeIDs.event"
 
 #include "IDs/ChNumbersIDs.event"
 #include "IDs/PListIDs.event"

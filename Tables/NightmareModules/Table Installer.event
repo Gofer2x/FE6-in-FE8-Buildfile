@@ -10,3 +10,5 @@
 
 #include "Item\ItemTable.event"
 
+#include "WorldMap\Nodes.event"
+

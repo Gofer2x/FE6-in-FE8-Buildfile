@@ -10,7 +10,8 @@ invalidFirstItemTypes = [
 
 # Value types that start their valid indexes at 0.
 zeroIndexedTypes = [
-    "Chapter"
+    "Chapter",
+    "Node"
 ]
 
 inputPath = sys.argv[1]

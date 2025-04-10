@@ -21,4 +21,5 @@
 
 #include "SpellAnimations/SpellAnimsInstaller.event"
 
-#include "WorldMap/Installer.event"
+#include "WorldMap/BigMap/Installer.event"
+#include "WorldMap/EventMap/Installer.event"

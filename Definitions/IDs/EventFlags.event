@@ -22,7 +22,7 @@
 // 0x82 is "fought with demon king"
 #define IdunnBindingBladeFlag 0x83 //ON if Idunn beaten with Roy wielding the Binding Blade.
 #define HideBossIconsFlag 0x84
-
+#define WorldMapInitializedFlag 0x89
 
 
 //Flags for the mess that is the Klein & Thea recruitment.

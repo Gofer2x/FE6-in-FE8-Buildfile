@@ -1,0 +1,19 @@
+//Can I really just get away with doing this?
+
+PROTECT 0xA9E544 //First address after supposed end of Palette.
+
+PUSH
+
+ORG 0xA99140
+FE6EventMapData:
+#incbin "FE6EventMapReduced.dmp"
+
+ORG 0xA9DF74
+FE6EventMapTSA:
+#incbin "FE6EventMapReducedTSA.dmp"
+
+ORG 0xA9E4C4
+FE6EventMapPalette:
+#incbin "FE6EventMapReduced_pal.dmp"
+
+POP

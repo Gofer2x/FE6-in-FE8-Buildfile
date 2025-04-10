@@ -55,9 +55,11 @@
 
 #define BranchIfGoldAtLeast(label,amount) "SVAL s1 amount ; CHECK_MONEY ; BGE label sC s1"
 
+
+
 #define LoadHardReinforcements(unitPtr) "SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C"
 
-//Yep, this is how these work in fe6 apparently. hard mode exclusive = don't appear if boss dead. For events that use LoadHardReinforcements, make sure to add BranchIfBossDead.
+//Yep, this is how these work in FE6 apparently. Hard mode exclusive = don't appear if boss dead. For events that use LoadHardReinforcements, make sure to add BranchIfBossDead.
 #define HardReinforcementEvent(unitPtr) "BranchIfBossDead(9) ; SMOV 0x2 (unitPtr|0x8000000); CALL $9EE29C; LABEL 9 ; EVBIT_T 0x7 ; ENDA"
 
 #define AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)   "AREA eventID EventPointer [corner1x,corner1y] [corner2x,corner2y]" 
@@ -66,6 +68,7 @@
 #define CMON "EVBIT_T 0x09"
 #define CMOF "EVBIT_F 0x09"
 
+//Use at start of Range events.
 #define PlayerInRange "SVAL s2 0 ; CALL 0x89EE1B8"
 #define UnitInRange(unit) "SVAL s2 unit ; CALL 0x89EE19C"
 

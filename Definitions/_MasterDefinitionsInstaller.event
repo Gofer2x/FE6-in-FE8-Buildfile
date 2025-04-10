@@ -27,3 +27,4 @@
 #include "ChapterTextStuffs.event"
 #include "AIDefinitions.event"
 #include "EADefinitions.event"
+#include "WMDefinitions.event"

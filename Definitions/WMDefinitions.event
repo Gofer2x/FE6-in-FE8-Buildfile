@@ -1,0 +1,38 @@
+//World Map stuff.
+
+////Units, Moving units
+//Register sprite to be shown.
+#define WM_RegisterSprite(id,class,affiliation,node) "PUTSPRITE id class affiliation node"
+
+//Load registered sprite.
+#define WM_LoadSprite(id,affiliation,X,Y) "WM_PUTSPRITE id affiliation X Y"
+
+//Load sprite and move it immediately.
+#define WM_LoadMovingSprite(class,acceleration,startX,startY,endX,endT,time,flags,delay) "WM_PUTMOVINGSPRITE 0x0 class acceleration startX startY endX endY time flags delay 0x0"
+
+//Remove sprite.
+#define WM_RemoveSprite(id) "REMSPRITE id"
+
+//Fades a sprite in.
+#define WM_FadeInSprite(id,speed) "WM_FADEINSPRITE id speed"
+
+//Fades a sprite out.
+#define WM_FadeOutSprite(id,speed) "WM_FADEOUTSPRITE id speed"
+
+
+//Spawns Lord unit.
+#define WM_SpawnLord(unit,node) "WM_SPAWNLORD 0x0 0x0 unit node 0x0"
+
+
+////Camera Logic
+//Sets camera location to X and Y.
+#define WM_SetCam(x,y) "WM_SETCAM x y"
+
+//Wait for end of camera movement.
+#define WM_WaitForCam "WM_WAITFORCAM"
+
+
+
+////Other logic
+//Skips WM Event.
+#define WM_SkipEvent "SKIPWM"

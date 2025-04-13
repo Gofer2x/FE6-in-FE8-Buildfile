@@ -1,0 +1,23 @@
+WorldMapPointerTable(CHAPTER_Ch2,AfterPrevious)
+
+AfterPrevious:
+WM_DisableSkip
+WM_SpawnLord(Roy,NODE_Ch1)
+WM_UnlockNode(NODE_Ch1)
+WM_CENTERCAMONLORD
+WM_FADEOUT 0x0 0x0 0x0
+WM_TEXTDECORATE
+
+WM_EnableSkip
+
+STAL 20
+WM_CREATENEXTDESTINATION
+WM_WAITFORFX
+STAL 40
+WM_DrawRoad(0x0)
+WM_WAITFORFX
+STAL 60
+WM_MakeLordVisible
+
+
+ENDA

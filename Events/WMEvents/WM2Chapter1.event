@@ -1,9 +1,5 @@
-WorldMapIntroPointerTable(0,Intro)
-
 //honestly let's just
 
-WorldMapIntroPointerTable(1,Intro)
-WorldMapIntroPointerTable(2,Intro)
 WorldMapIntroPointerTable(3,Intro)
 WorldMapIntroPointerTable(4,Intro)
 WorldMapIntroPointerTable(5,Intro)
@@ -41,6 +37,6 @@ WorldMapIntroPointerTable(36,Intro)
 WorldMapIntroPointerTable(37,Intro)
 
 Intro:
-EVBIT_MODIFY 0x1
-ENUT 0x89
+WM_DisableSkip
+SKIPWN
 ENDA

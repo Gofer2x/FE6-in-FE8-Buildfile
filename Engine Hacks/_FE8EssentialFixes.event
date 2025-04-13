@@ -26,27 +26,27 @@ SHORT 0xB470 0x4C07 0x4D07 0x3408 0x42AC 0xD806 0x78A6 0x2E00 0xD1F9 0x7020 0x70
 //RAHHHHHHHHHHHHHHHH MNC2 Patch
 //fix node name being displayed instead of chapter name
 //TODO remove this when implementing world map at some distant point in time
-
-ORG $0BD070
-BYTE  $B8;
-ORG $0BD071
-BYTE  $E0;
-ORG $0897B2
-BYTE  $00;
-ORG $0897B3
-BYTE  $00;
-ORG $0897B4
-BYTE  $00;
-ORG $0897B5
-BYTE  $00;
-ORG $0897C4
-BYTE  $0E;
-ORG $0897C5
-BYTE  $20;
-ORG $0897C6
-BYTE  $20;
-ORG $0897C7
-BYTE  $56;
+//
+//ORG $0BD070
+//BYTE  $B8;
+//ORG $0BD071
+//BYTE  $E0;
+//ORG $0897B2
+//BYTE  $00;
+//ORG $0897B3
+//BYTE  $00;
+//ORG $0897B4
+//BYTE  $00;
+//ORG $0897B5
+//BYTE  $00;
+//ORG $0897C4
+//BYTE  $0E;
+//ORG $0897C5
+//BYTE  $20;
+//ORG $0897C6
+//BYTE  $20;
+//ORG $0897C7
+//BYTE  $56;
 
 
 //Set Default Options

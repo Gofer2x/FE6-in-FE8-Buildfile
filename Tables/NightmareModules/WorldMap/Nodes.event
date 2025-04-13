@@ -2,7 +2,7 @@
 
 PUSH
 ORG 0x2060b0
-csvmacro004(0x0,NoSkirmishFlag,0x5,0x5,CHAPTER_Ch1,CHAPTER_Ch1,NoAltDestFlag,NODE_Ch2,0xff,NODE_Ch2,0xff,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,330,220,Ch1_NodeName,0x0,0x0)
+csvmacro004(0x0,NoSkirmishFlag,0x5,0x5,CHAPTER_Intro,CHAPTER_Intro,WorldMapInitializedFlag,NODE_Ch1,NODE_Ch1,NODE_Ch2,NODE_Ch2,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,330,220,Ch1_NodeName,0x0,0x0)
 csvmacro004(0x0,NoSkirmishFlag,0xb,0xb,CHAPTER_Ch2,CHAPTER_Ch2,NoAltDestFlag,NODE_Ch3,0xff,NODE_Ch3,0xff,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,344,202,Ch2_NodeName,0x0,0x0)
 csvmacro004(0x0,NoSkirmishFlag,0x5,0x5,CHAPTER_Ch3,CHAPTER_Ch3,NoAltDestFlag,NODE_Ch4,0xff,NODE_Ch4,0xff,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,320,175,Ch3_NodeName,0x0,0x0)
 csvmacro004(0x0,NoSkirmishFlag,0x5,0x5,CHAPTER_Ch4,CHAPTER_Ch4,NoAltDestFlag,NODE_Ch5,0xff,NODE_Ch5,0xff,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,EmptyShopTable|IsPointer,294,190,Ch4_NodeName,0x0,0x0)

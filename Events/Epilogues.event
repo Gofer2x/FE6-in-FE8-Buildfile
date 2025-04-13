@@ -67,7 +67,7 @@ ENDA
 
 
 Epilogue_BadEnding:
-DisableSkipping
+DisableSceneDialogueSkipping
 ClearAll
 PlayMusic(0x0)
 STAL 30
@@ -106,7 +106,7 @@ ENDA
 
 
 Epilogue_TrueEnding:
-DisableSkipping
+DisableSceneDialogueSkipping
 ClearAll
 PlayMusic(0x0)
 STAL 30

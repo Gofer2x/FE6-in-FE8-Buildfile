@@ -11,6 +11,9 @@
 #include "IdunnDeathBindingBladeCheck.event"
 #include "Epilogues.event"
 {
+#include "ChapterEvents/Intro.event"
+}
+{
 #include "ChapterEvents/Chapter1.event"
 }
 {

@@ -87,6 +87,9 @@ Author: Stan
 Fix proc names not being cleared
 Author: Stan
 
+Skip World Map Fix (For World Map Users)
+Author: Stan
+
 Fix Weak Promoted Enemies
 Author: Gryz https://feuniverse.us/t/fe7-fe8-difficulty-stat-changes/1295/3
 
@@ -230,7 +233,6 @@ Uncredited
     Fixes the world map chapter ID being loaded instead of the actual chapter ID
     Mini Mug Portrait of carriage wagon at sale on world map
     Mini Mug Portrait of Supply carriage wagon
-    Skip World Map Fix (Disable Skirmishes & World Map)
     fix prep screen in ch5x
     Show gold in ch5x
     Supply Unlock Prologue and Chapter 1

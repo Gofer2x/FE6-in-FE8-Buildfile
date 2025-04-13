@@ -139,13 +139,18 @@
 #define RemaFadeClean "REMA ; FadeIntoBlack(Fade1s) ; CLEAN ; FadeFromBlack(Fade1s)"
 
 //Don't feel like dealign with world map events rn.
-#define MoveToChapter(chapter) "MNC2 chapter"
+//#define MoveToChapter(chapter) "MNC2 chapter"
 
 //Vanilla function that I just copied the bytes of from FEBuilder, lol. Ugly.
 #define DesertTreasure(item,id) "BYTE $28 $33 $FF $FF $20 $06 $C2 $00 $40 $05 $03 $00 ; BYTE item ; BYTE $00 $00 $00 $40 $0A $00 $00 $1C $E6 $9E $08 $41 $0C ; SHORT id ; BYTE $0C $00 $00 $00 $40 $0A $00 $00 $D4 $E1 $9E $08 $20 $08 ; SHORT id ; BYTE $28 $02 $07 $00 $20 $01 $00 $00"
 
-#define DisableSkipping "EVBIT_MODIFY 4"
-#define EnableSkipping "EVBIT_MODIFY 0"
+#define DisableSceneSkipping "EVBIT_MODIFY 3"
+#define DisableSceneDialogueSkipping "EVBIT_MODIFY 4"
+#define DisableSceneDialogueFastForwardSkipping "EVBIT_MODIFY 1"
+
+#define EnableSceneDialogueSkipping "EVBIT_MODIFY 2"
+
+#define EnableSceneDialogueFastForwardSkipping "EVBIT_MODIFY 0"
 
 #define DisplayCharacterEndings "BYTE $40 $0D $00 $00 $95 $6C $0B $08"
 #define DisplayTurnCounts "BYTE $40 $0D $00 $00 $75 $81 $0B $08"

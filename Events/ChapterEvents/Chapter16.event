@@ -310,7 +310,7 @@ EndEvent
 
 
 HughRecruitment:
-DisableSkipping
+DisableSceneDialogueSkipping
 Text(Ch16_HughRecruitmentStart)
 BranchIfGoldAtLeast(1,10000) //Do we have 10000 Gold? If yes, branch to 1.
 BranchIfGoldAtLeast(2,8000)  //Do we have 8000 Gold? If yes, branch to 2.
@@ -385,7 +385,7 @@ GOTO 9
 
  //Hugh gets recruited.
 LABEL 8
-EnableSkipping
+EnableSceneDialogueSkipping
 SwitchMusic(MUS_JoinUs)
 Text(Ch16_HughRecruited)
 TurnAlly(Hugh) 

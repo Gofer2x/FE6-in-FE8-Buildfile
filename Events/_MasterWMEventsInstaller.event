@@ -3,13 +3,21 @@
 
 {
   ALIGN 4
-  #include "WMEvents/WMChapter1.event"
+  #include "WMEvents/Intro.event"
 }
 {
   ALIGN 4
-  #include "WMEvents/WM2Chapter1.event"
+  #include "WMEvents/Chapter1.event"
 }
 {
   ALIGN 4
-  #include "WMEvents/WMChapter2.event"
+  #include "WMEvents/Chapter2.event"
 }
+//{
+//  ALIGN 4
+//  #include "WMEvents/WM2Chapter1.event"
+//}
+//{
+//  ALIGN 4
+//  #include "WMEvents/WMChapter2.event"
+//}

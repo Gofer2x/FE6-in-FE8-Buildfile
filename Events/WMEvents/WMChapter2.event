@@ -1,5 +1,3 @@
-WorldMapPointerTable(1,WM_Events)
-WorldMapPointerTable(2,WM_Events)
 WorldMapPointerTable(3,WM_Events)
 WorldMapPointerTable(4,WM_Events)
 WorldMapPointerTable(5,WM_Events)
@@ -37,4 +35,6 @@ WorldMapPointerTable(36,WM_Events)
 WorldMapPointerTable(37,WM_Events)
 
 WM_Events:
+WM_DisableSkip
+SKIPWN
 ENDA

@@ -198,3 +198,4 @@
 #define TILEANIM2_Lava 0xC6
 #define TILEANIM2_Stronghold 0xC7
 #define TILEANIM2_Final 0xC8
+#define EVENTS_Intro 0xC9

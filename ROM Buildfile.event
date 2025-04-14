@@ -51,6 +51,8 @@
 	MESSAGE Editing Movement Costs
 	#include "Misc/EditMovementCosts.event"
 	
+	MESSAGE Installing Specific Events
+	#include "Events/_MasterSpecificEventsInstaller.event"
 	MESSAGE Installing Chapter Events
 	#include "Events/_MasterChapterEventsInstaller.event"
 	MESSAGE Installing World Map Events

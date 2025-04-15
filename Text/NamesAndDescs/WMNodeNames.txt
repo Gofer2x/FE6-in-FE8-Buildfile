@@ -2,7 +2,7 @@
 Castle Pharae[X]
 
 ## Ch2_NodeName
-Pharae-Bern Border[X]
+Bern Border[X]
 
 ## Ch3_NodeName
 Castle Araphen[X]
@@ -47,7 +47,7 @@ Missur Peninsula[X]
 Arcadia[X]
 
 ## Ch15_NodeName
-Nabata-Etruria Border[X]
+Etruria Border[X]
 
 ## Ch16_NodeName
 Castle Aquileia[X]

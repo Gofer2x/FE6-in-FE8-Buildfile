@@ -2,11 +2,20 @@
 
 ////Units, Moving units
 
+//Waits for any currently moving sprites to finish moving.
+#define WM_ENUN "WM_WAITFORSPRITES 0x0 0xFFFF 0xFFFF"
+
 //Spawns Lord unit at specified node.
 #define WM_SpawnLord(unit,node) "WM_SPAWNLORD 0x0 0x0 unit node 0x0"
 
 //Makes Lord unit visible.
 #define WM_MakeLordVisible "WM_MAKELORDVISIBLE 0x0"
+
+//Move Lord unit from node to node. Basically the below def but with id locked to 0.
+#define WM_MoveLord(fromNode,toNode,time,delay) "WM_MOVESPRITETO 0x0 0x0 0x2 fromNode toNode time delay"
+
+//Move any registered unit from node to node.
+#define WM_MoveLord(id,fromNode,toNode,time,delay) "WM_MOVESPRITETO 0x0 id 0x2 fromNode toNode time delay"
 
 //Register sprite to be shown.
 #define WM_RegisterSprite(id,class,affiliation,node) "PUTSPRITE id class affiliation node"
@@ -34,7 +43,7 @@
 ////Node Logic
 
 //Unlocks the next node (set in nodes table).
-#define WM_UnlockNextNode "WM_CREATENEXTDESTINATION"
+#define WM_UnlockNextNode WM_CREATENEXTDESTINATION
 
 //Unlocks a specified node.
 #define WM_UnlockNode(id) "WM_LOADLOCATION2 0x0 id 0x0"
@@ -57,6 +66,22 @@
 
 
 
+//Text Logic
+
+//Decorates the text. The fancy layout or something.
+#define WM_TextDecorate WM_TEXTDECORATE
+
+
+
+////Graphics/FX Logic
+
+//Waits for any currently playing graphics effects to end.
+#define WM_WaitForFx WM_WAITFORFX
+
+//Alias for Fadeout.
+#define WM_Fadeout "WM_FADEOUT 0x0 0x0 0x0"
+
+
 ////Camera Logic
 
 //Scrolls camera to X and Y.
@@ -66,10 +91,11 @@
 #define WM_SetCam(x,y) "WM_SETCAM x y"
 
 //Wait for end of camera movement.
-#define WM_WaitForCam "WM_WAITFORCAM"
+#define WM_WaitForCam WM_WAITFORCAM
 
 //Moves the camera to the Lord unit.
-#define WM_CamOnLord "WM_CENTERCAMONLORD"
+#define WM_CamOnLord WM_CENTERCAMONLORD
+
 
 
 ////Other logic
@@ -81,7 +107,7 @@
 #define WM_EnableSkip "EVBIT_MODIFY 0"
 
 //Skips the current WM Event.
-#define WM_SkipEvent "SKIPWN"
+#define WM_SkipEvent SKIPWN
 
-//Waits for any currently playing graphics effects to end.
-#define WM_WaitForFx "WM_WAITFORFX"
+
+

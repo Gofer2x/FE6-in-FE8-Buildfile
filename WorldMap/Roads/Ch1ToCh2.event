@@ -1,0 +1,10 @@
+ALIGN 4
+Ch1ToCh2RoadMovement:
+RoadMovementItem(1024,328,199)
+RoadMovementTerminator
+
+ALIGN 4
+Ch1ToCh2RoadData:
+#incbin "Ch1ToCh2.road.bin"
+
+SetRoadTableEntry(ROAD_Ch1ToCh2,Ch1ToCh2RoadData,NODE_Ch1,NODE_Ch2,Ch1ToCh2RoadMovement)

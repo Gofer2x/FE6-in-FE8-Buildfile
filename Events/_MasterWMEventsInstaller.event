@@ -1,5 +1,8 @@
 //World Map Events Installer
-// #define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3AD8+(4*id); POIN offset; POP"
+
+#define WMEVENT_UnlockNextNodeAfterChapter(currentNode,road) "WM_DisableSkip ; WM_SpawnLord(Roy,currentNode) ; WM_CamOnLord ; WM_Fadeout ; WM_TextDecorate ; WM_EnableSkip ; STAL 20 ; WM_UnlockNextNode ; WM_WaitForFX ; STAL 40 ; WM_DrawRoad(road) ; STAL 70 ; WM_MakeLordVisible ; ENDA"
+
+#define WMEVENT_SimpleNextChapterNodeSelect(currentNode,nextNode) "WM_DisableSkip ; WM_MoveLord(currentNode,nextNode,60,10) ; WM_ENUN ; ENDA"
 
 {
   ALIGN 4
@@ -13,11 +16,3 @@
   ALIGN 4
   #include "WMEvents/Chapter2.event"
 }
-//{
-//  ALIGN 4
-//  #include "WMEvents/WM2Chapter1.event"
-//}
-//{
-//  ALIGN 4
-//  #include "WMEvents/WMChapter2.event"
-//}

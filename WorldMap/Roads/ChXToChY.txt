@@ -1,0 +1,10 @@
+ALIGN 4
+ChXToChYRoadMovement:
+RoadMovementItem(speed,x,y)
+RoadMovementTerminator
+
+ALIGN 4
+ChXToChYRoadData:
+#incbin "ChXToChY.road.bin"
+
+SetRoadTableEntry(ROAD_ChXToChY,ChXToChYRoadData,NODE_ChX,NODE_ChY,ChXToChYRoadMovement)

@@ -53,8 +53,13 @@
 	
 	MESSAGE Installing Specific Events
 	#include "Events/_MasterSpecificEventsInstaller.event"
+	
 	MESSAGE Installing Chapter Events
 	#include "Events/_MasterChapterEventsInstaller.event"
+	
+	MESSAGE Installing World Map Roads
+	#include "WorldMap/Roads/_MasterRoadInstaller.event"
+
 	MESSAGE Installing World Map Events
 	#include "Events/_MasterWMEventsInstaller.event"
 	

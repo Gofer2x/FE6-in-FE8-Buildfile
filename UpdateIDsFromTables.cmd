@@ -1,0 +1,5 @@
+"Tools/TableUpdater.py" "Tables/NightmareModules/CharacterAndClass/CharacterTable.csv" "Definitions/Generated/CharacterIDs.event" "Character"
+"Tools/TableUpdater.py" "Tables/NightmareModules/CharacterAndClass/ClassTable.csv" "Definitions/Generated/ClassIDs.event" "Class" "--IgnoreFirstItem"
+"Tools/TableUpdater.py" "Tables/NightmareModules/Item/ItemTable.csv" "Definitions/Generated/ItemIDs.event" "Item" "--IgnoreFirstItem"
+"Tools/TableUpdater.py" "Tables/NightmareModules/ChapterData/ChapterData.csv" "Definitions/Generated/ChapterIDs.event" "Chapter" "--ZeroIndexed"
+"Tools/TableUpdater.py" "Tables/NightmareModules/WorldMap/Nodes.csv" "Definitions/Generated/WMNodeIDs.event" "Node" "--ZeroIndexed"

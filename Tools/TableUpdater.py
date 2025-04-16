@@ -2,21 +2,19 @@ import csv, os, time, sys
 
 ENUMERATE = "Tools\\Enumerate\\Enumerate.py"
 
-# Value types that have an invalid first item in the table.
-invalidFirstItemTypes = [
-    "Item",
-    "Class"
-]
+#Used for Items, Classes...
+ignoreFirstItem = False 
 
-# Value types that start their valid indexes at 0.
-zeroIndexedTypes = [
-    "Chapter",
-    "Node"
-]
+#Used for Chapters, Nodes...
+zeroIndexed = False
 
 inputPath = sys.argv[1]
 outputPath = sys.argv[2]
 valueType = sys.argv[3]
+if "--IgnoreFirstItem" in sys.argv:
+    ignoreFirstItem = True
+if "--ZeroIndexed" in sys.argv:
+    zeroIndexed = True
 
 filename = os.path.split(inputPath)[1].replace(".csv","")
 
@@ -38,11 +36,11 @@ for row in rows:
 blankCounter = 1
 
 # Item and Class tables have an invalid first item
-if valueType in invalidFirstItemTypes:
+if ignoreFirstItem:
     values = values[1:]
 
 # First value as 1
-if valueType in zeroIndexedTypes:
+if zeroIndexed:
     values[0] = values[0]+" 0"
 else:
     values[0] = values[0]+" 1"

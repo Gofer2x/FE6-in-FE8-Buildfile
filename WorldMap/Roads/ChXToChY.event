@@ -5,6 +5,6 @@ RoadMovementTerminator
 
 ALIGN 4
 ChXToChYRoadData:
-#incbin "ChXToChY.road.bin"
+#incbin "RoadData/ChXToChY.road.bin"
 
 SetRoadTableEntry(ROAD_ChXToChY,ChXToChYRoadData,NODE_ChX,NODE_ChY,ChXToChYRoadMovement)

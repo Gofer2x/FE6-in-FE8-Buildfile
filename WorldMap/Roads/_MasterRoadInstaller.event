@@ -7,10 +7,12 @@
 #define RoadMovementTerminator "WORD 0xFFFFFFFF"
 
 #define ROAD_Ch1ToCh2 0x0
-#define ROAD_Ch2ToCh3 0x0
-#define ROAD_Ch3ToCh4 0x0
-#define ROAD_Ch4ToCh5 0x0
-#define ROAD_Ch5ToCh6 0x0
-#define ROAD_Ch6ToCh7 0x0
+#define ROAD_Ch2ToCh3 0x1
+#define ROAD_Ch3ToCh4 0x2
+#define ROAD_Ch4ToCh5 0x3
+#define ROAD_Ch5ToCh6 0x4
+#define ROAD_Ch6ToCh7 0x5
 
 #include "Ch1ToCh2.event"
+#include "Ch2ToCh3.event"
+#include "Ch3ToCh4.event"

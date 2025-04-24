@@ -16,3 +16,19 @@
   ALIGN 4
   #include "WMEvents/Chapter2.event"
 }
+{
+  ALIGN 4
+  #include "WMEvents/Chapter3.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter4.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter5.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter6.event"
+}

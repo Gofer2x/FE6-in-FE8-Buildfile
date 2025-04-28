@@ -1,5 +1,0 @@
-ALIGN 4
-Ch3ToCh4RoadData:
-#incbin "RoadData/Ch3ToCh4.road.bin"
-
-SetRoadTableEntry(ROAD_Ch3ToCh4,Ch3ToCh4RoadData,NODE_Ch3,NODE_Ch4)

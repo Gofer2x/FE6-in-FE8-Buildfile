@@ -1,18 +1,31 @@
-#define WMRoadsTable 0x206674
-
-#define SetRoadTableEntry(index,roadData,startNode,endNode,movementData) "PUSH ; ORG WMRoadsTable+(index*12) ; POIN roadData ; BYTE startNode ; BYTE endNode ; SHORT 0 ; POIN movementData ; POP"
-#define SetRoadTableEntry(index,roadData,startNode,endNode) "PUSH ; ORG WMRoadsTable+(index*12) ; POIN roadData ; BYTE startNode ; BYTE endNode ; SHORT 0 ; WORD 0 ; POP"
-
 #define RoadMovementItem(time,x,y) "WORD time ; SHORT x ; SHORT y;"
 #define RoadMovementTerminator "WORD 0xFFFFFFFF"
 
-#define ROAD_Ch1ToCh2 0x0
-#define ROAD_Ch2ToCh3 0x1
-#define ROAD_Ch3ToCh4 0x2
-#define ROAD_Ch4ToCh5 0x3
-#define ROAD_Ch5ToCh6 0x4
-#define ROAD_Ch6ToCh7 0x5
+//Temp
+ALIGN 4
+TempDummyRoad:
+#incbin "RoadData/TempDummyRoad.road.bin"
 
-#include "Ch1ToCh2.event"
-#include "Ch2ToCh3.event"
-#include "Ch3ToCh4.event"
+
+////Ch1ToCh2
+//ALIGN 4
+//Ch1ToCh2RoadData:
+//#incbin "RoadData/Ch1ToCh2.road.bin"
+//ALIGN 4
+//Ch1ToCh2RoadMovement:
+//RoadMovementItem(2048,328,199)
+//RoadMovementTerminator
+//
+////Ch2ToCh3
+//ALIGN 4
+//Ch2ToCh3RoadData:
+//#incbin "RoadData/Ch2ToCh3.road.bin"
+//ALIGN 4
+//Ch2ToCh3RoadMovement:
+//RoadMovementItem(2048,344,176)
+//RoadMovementTerminator
+//
+////Ch3ToCh4
+//ALIGN 4
+//Ch3ToCh4RoadData:
+//#incbin "RoadData/Ch3ToCh4.road.bin"

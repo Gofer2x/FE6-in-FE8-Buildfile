@@ -3,3 +3,4 @@
 "Tools/TableUpdater.py" "Tables/NightmareModules/Item/ItemTable.csv" "Definitions/Generated/ItemIDs.event" "Item" "--IgnoreFirstItem"
 "Tools/TableUpdater.py" "Tables/NightmareModules/ChapterData/ChapterData.csv" "Definitions/Generated/ChapterIDs.event" "Chapter" "--ZeroIndexed"
 "Tools/TableUpdater.py" "Tables/NightmareModules/WorldMap/Nodes.csv" "Definitions/Generated/WMNodeIDs.event" "Node" "--ZeroIndexed"
+"Tools/TableUpdater.py" "Tables/NightmareModules/WorldMap/Roads.csv" "Definitions/Generated/WMRoadIDs.event" "Road" "--ZeroIndexed"

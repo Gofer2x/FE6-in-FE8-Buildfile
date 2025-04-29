@@ -325,7 +325,7 @@ STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-MoveToChapter(CHAPTER_Ch20Ax)
+MoveToChapterWithoutWM(CHAPTER_Ch20Ax)
 GOTO 9
 
 //Gaiden fail branch. Go to Ch21.

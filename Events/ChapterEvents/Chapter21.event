@@ -454,7 +454,7 @@ STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-MoveToChapter(CHAPTER_Ch21x)
+MoveToChapterWithoutWM(CHAPTER_Ch21x)
 GOTO 9
 
 //Gaiden fail. Promote Roy and move to Ch22 (from within that event).

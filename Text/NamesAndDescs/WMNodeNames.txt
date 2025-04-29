@@ -5,7 +5,7 @@ Castle Pharae[X]
 Bern Border[X]
 
 ## Ch3_NodeName
-Castle Araphen[X]
+Araphen[X]
 
 ## Ch4_NodeName
 Laus[X]
@@ -41,7 +41,7 @@ Eidyna[X]
 Juteaux[X]
 
 ## Ch13_NodeName
-Missur Peninsula[X]
+Missur[X]
 
 ## Ch14_NodeName
 Arcadia[X]

@@ -32,3 +32,51 @@
   ALIGN 4
   #include "WMEvents/Chapter6.event"
 }
+{
+  ALIGN 4
+  #include "WMEvents/Chapter7.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter8.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter9.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter10A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter11A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter10B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter11B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter12.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter13.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter14.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter15.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter16.event"
+}

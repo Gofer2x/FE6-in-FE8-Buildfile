@@ -87,9 +87,6 @@ Author: Stan
 Fix proc names not being cleared
 Author: Stan
 
-Skip World Map Fix (For World Map Users)
-Author: Stan
-
 Fix Weak Promoted Enemies
 Author: Gryz https://feuniverse.us/t/fe7-fe8-difficulty-stat-changes/1295/3
 
@@ -188,6 +185,7 @@ Following patches by/from Chap@FE8_GIRLS:
     Disabled Status Screen On Map 2 https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Skill Pick https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
     Skill Pierce from this class and to this class https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
+    Toggle World Map Monster Skirmishes https://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
 Following patches by 7743:
     Unique Battle Music Per Unit
@@ -247,6 +245,7 @@ Uncredited
     Class that disappears when the chapter is cleared
     Prohibits the use of Arena by Class
     All Sound Hardcoding patches
+    Skip World Map Fix (Disable Skirmishes & World Map)
 
     Portrait Upshift Edit(or?) <- got this one from Github search but couldn't find a proper source?
 

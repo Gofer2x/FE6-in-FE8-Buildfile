@@ -6,15 +6,15 @@ ENUMERATE = "Tools\\Enumerate\\Enumerate.py"
 ignoreFirstItem = False 
 
 #Used for Chapters, Nodes...
-zeroIndexed = False
+oneIndexed = False
 
 inputPath = sys.argv[1]
 outputPath = sys.argv[2]
 valueType = sys.argv[3]
 if "--IgnoreFirstItem" in sys.argv:
     ignoreFirstItem = True
-if "--ZeroIndexed" in sys.argv:
-    zeroIndexed = True
+if "--OneIndexed" in sys.argv:
+    oneIndexed = True
 
 filename = os.path.split(inputPath)[1].replace(".csv","")
 
@@ -40,10 +40,10 @@ if ignoreFirstItem:
     values = values[1:]
 
 # First value as 1
-if zeroIndexed:
-    values[0] = values[0]+" 0"
-else:
+if oneIndexed:
     values[0] = values[0]+" 1"
+else:
+    values[0] = values[0]+" 0"
 for i in range(len(values)):
     
     # Replace the empty values with "BlankVALUE"

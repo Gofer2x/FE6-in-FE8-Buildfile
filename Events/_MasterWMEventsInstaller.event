@@ -1,15 +1,126 @@
 //World Map Events Installer
-// #define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3AD8+(4*id); POIN offset; POP"
+
+#define WMEVENT_UnlockNextNodeAfterChapter(currentNode,road) "WM_DisableSkip ; WM_SpawnLord(Roy,currentNode) ; WM_CamOnLord ; WM_Fadeout ; WM_TextDecorate ; WM_EnableSkip ; STAL 20 ; WM_UnlockNextNode ; WM_WaitForFX ; STAL 40 ; WM_DrawRoad(road) ; STAL 70 ; WM_MakeLordVisible ; ENDA"
+
+#define WMEVENT_SimpleNextChapterNodeSelect(currentNode,nextNode) "WM_DisableSkip ; WM_MoveLord(currentNode,nextNode,60,10) ; WM_ENUN ; ENDA"
 
 {
   ALIGN 4
-  #include "WMEvents/WMChapter1.event"
+  #include "WMEvents/Intro.event"
 }
 {
   ALIGN 4
-  #include "WMEvents/WM2Chapter1.event"
+  #include "WMEvents/Chapter1.event"
 }
 {
   ALIGN 4
-  #include "WMEvents/WMChapter2.event"
+  #include "WMEvents/Chapter2.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter3.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter4.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter5.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter6.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter7.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter8.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter9.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter10A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter11A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter10B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter11B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter12.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter13.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter14.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter15.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter16.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter17A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter18A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter19A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter20A.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter17B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter18B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter19B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter20B.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter21.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter22.event"
+}
+{
+  ALIGN 4
+  #include "WMEvents/Chapter23.event"
 }

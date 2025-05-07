@@ -296,7 +296,7 @@ STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-MoveToChapter(CHAPTER_Ch14x)
+MoveToChapterWithoutWM(CHAPTER_Ch14x)
 GOTO 9
 
 //Gaiden fail, go to Ch15.

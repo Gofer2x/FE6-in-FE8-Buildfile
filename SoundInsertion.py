@@ -1,6 +1,6 @@
 import os, shutil, csv
 
-fromROM = "FE6Localization_v1.2.1.gba"
+fromROM = "FE6.gba"
 baseROM = "myHack.gba"
 tempTargetROM = "myHackWithMusicBroken.gba"
 targetROM = "myHackWithMusic.gba"

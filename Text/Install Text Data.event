@@ -8087,3 +8087,7 @@ TxtData0x1530:
 #incext ParseFile "_textentries\0x1530.txt"
 setText(0x1530,TxtData0x1530)
 
+TxtData0x1531:
+#incext ParseFile "_textentries\0x1531.txt"
+setText(0x1531,TxtData0x1531)
+

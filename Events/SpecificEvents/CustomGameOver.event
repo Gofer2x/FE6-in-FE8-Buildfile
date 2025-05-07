@@ -7,7 +7,7 @@ POP
 
 //i tried running an event to only show the quote from the "death calls event", but it wouldn't work properly. CHECK_DEPLOYED would exit early.
 EVENT_CustomGameOver:
-DisableSkipping
+DisableSceneDialogueSkipping
 
 //Character quotes
 //Lilina

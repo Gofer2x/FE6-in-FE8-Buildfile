@@ -291,7 +291,7 @@ STAL 64
 #ifdef CONFIG_EnableReviveMerlinus
 CALL EVENT_ReviveMerlinus
 #endif
-MoveToChapter(CHAPTER_Ch8x)
+MoveToChapterWithoutWM(CHAPTER_Ch8x)
 GOTO 9
 
 //Lilina dead case. Call Narcian cutscene and go to Ch9 (done from the Narcian event).

@@ -47,8 +47,9 @@ UNIT Fae FaeManakete 0x0 Level(20,Ally,1) [29,8] 0x0 0x0 0x0 0x0 [Divinestone] D
 UNIT IdunnHuman ShamanF 0x0 Level(20,NPC,1) [30,8] 0x0 0x0 0x0 0x0 [] DummyAI
 UNIT
 
+//Change Eirika mode ending event.
 PUSH
-ORG 0x9EC0 //hopefully this is right. change eirika mode ending event
+ORG 0x9EC0
 POIN Epilogue_Choicer
 POP
 
@@ -67,7 +68,7 @@ ENDA
 
 
 Epilogue_BadEnding:
-DisableSkipping
+DisableSceneDialogueSkipping
 ClearAll
 PlayMusic(0x0)
 STAL 30
@@ -106,7 +107,7 @@ ENDA
 
 
 Epilogue_TrueEnding:
-DisableSkipping
+DisableSceneDialogueSkipping
 ClearAll
 PlayMusic(0x0)
 STAL 30

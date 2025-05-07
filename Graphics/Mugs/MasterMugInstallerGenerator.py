@@ -1,3 +1,6 @@
+TextParseDefsPath = "../../Text/ParseDefinitions.txt"
+TextParseMarker = "[Marker_LoadMugsBelow] = [.]\n"
+
 #Names for all the mugs and their mouth and eye data.
 mugsData = { #"Name": [mouthX,mouthY,eyeX,eyeY]
     "Roy":[2,6,3,4],
@@ -419,7 +422,6 @@ try:
         w.writelines(mugsOutput)
     print("Finished processing mugs.")
 
-
     #Class Cards
     print("Processing class cards.")
     cardsOutput = []
@@ -435,6 +437,32 @@ try:
         writeCardInstaller.writelines(cardsOutput)
     print("Finished processing class cards.")
     input("Press enter to end program.")
+
+    #LoadMugs for Text Parse Definitions 
+    parseDefsLoadMugs = []
+    names = mugsData.keys()
+    j = 1
+    #Generate the actual LoadMugs definitions
+    for name in names:
+        parseDefsLoadMugs.append(f"[Load"+name+"] = [LoadPortrait]["+intToHex(j)+"][0x1]\n")
+        j += 1
+    #Read current ParseDefs
+    with open(TextParseDefsPath, "r") as read:
+        textParseData = read.readlines()
+    #Find index of the marker
+    for i in range(len(textParseData)):
+        if textParseData[i] == TextParseMarker:
+            markerIndex = i
+            break
+    #Cut off everything after the marker (previous LoadMugs)
+    textParseData = textParseData[:markerIndex+1]
+    for loadMug in parseDefsLoadMugs:
+        textParseData.append(loadMug)
+    #Write back to file
+    with open(TextParseDefsPath, "w") as write:
+        write.writelines(textParseData)
+    print("Finished inserting new LoadMugs into ParseDefinitions.txt.")
+
 
 except Exception as e:
     print("Something went wrong. "+e)

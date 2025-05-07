@@ -52,6 +52,8 @@
 
 [NormalPrint] = [.]
 
+[Marker_LoadMugsBelow] = [.]
+
 [LoadRoy] = [LoadPortrait][0x1][0x1]
 [LoadMarcus] = [LoadPortrait][0x2][0x1]
 [LoadAlen] = [LoadPortrait][0x3][0x1]

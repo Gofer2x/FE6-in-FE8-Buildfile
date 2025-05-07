@@ -2,6 +2,10 @@ myHack.sym
 *.ups
 custom/*.*
 
+# FEBuilder
+Tools/FEBuilderGBA/*
+!Tools/FEBuilderGBA/PutFEBuilderHere.txt
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -12,6 +16,10 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# Misc
+/Text/_textentries
+Text/Text Definitions.event
+Text/Install Text Data.event
 
 
 *.cab
@@ -71,14 +79,3 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.csv#
-/Text/_textentries
-Text/Text Definitions.event
-Text/Install Text Data.event
-Text/Text Definitions.event
-Text/Install Text Data.event
-Text/Install Text Data.event
-Text/Text Definitions.event
-Text/Text Definitions.event
-Text/Text Definitions.event
-Text/Text Definitions.event
-Text/Install Text Data.event

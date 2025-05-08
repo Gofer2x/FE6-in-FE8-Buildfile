@@ -5,8 +5,6 @@ ALIGN 4
 WMPaletteMapData:
 #incbin "PaletteMap.dmp"
 
-MESSAGE New WM Palette Map at WMPaletteMapData
-
 PUSH
 
 //World Map Image  (WorldMapImageForm) 13.04.2025 14:49:09

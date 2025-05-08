@@ -10,6 +10,7 @@
 #include "VanillaData/VanillaItemIcons.event"
 #include "VanillaData/VanillaStatBoosts.event"
 //#include "VanillaData/VanillaEffectivenessTables.event"
+//#include "VanillaData/VanillaMusic.event"
 #include "VanillaData/VanillaSounds.event"
 
 #include "Generated/ItemIDs.event"

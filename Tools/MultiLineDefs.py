@@ -76,7 +76,7 @@ def doProcessing(inputPath):
         print(f"No MultiLines found in {inputPath}. Exiting.")
         exit()
 
-parser = argparse.ArgumentParser(description='Folds commented multi-line Event Assembler defines into single line ones that can be used.')
+parser = argparse.ArgumentParser(description='Using MultiLineStart and End markers, parses commented out multi-line Event Assembler definitions into usable single-line versions.')
 parser.add_argument('input', type=str, help='Path of the .event file to process.')
 parser.add_argument('--startMarker', type=str, default="//MultiLineStart", help='Strin to look for to detect the start of a MultiLine.')
 parser.add_argument('--endMarker', type=str, default="//MultiLineEnd", help='Strin to look for to detect the end of a MultiLine.')

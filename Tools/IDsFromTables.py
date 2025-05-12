@@ -1,11 +1,10 @@
 import argparse, csv, os, time
 
-ENUMERATE = "Tools\\Enumerate\\Enumerate.py"
-
 parser = argparse.ArgumentParser(description='Reads Nightmare .csv tables to automatically create EventAssembler ID definitions using Enumerate.')
 parser.add_argument('input', type=str, help='Path of the input .csv to process.')
 parser.add_argument('output', type=str, help='Path of the final output .event file with IDs.')
 parser.add_argument('valueType', type=str, help='Name of the type of object being ID\'d. Used for blank items.')
+parser.add_argument('enumeratePath', type=str, help='Path to the tool Enumerate.py.')
 parser.add_argument('--ignoreFirstItem', action='store_true', help='Ignores the first item in the .csv table.')
 parser.add_argument('--oneIndexed', action='store_true', help='Starts the IDs at 1 instead of 0.')
 args = parser.parse_args()
@@ -13,6 +12,7 @@ args = parser.parse_args()
 input = args.input
 output = args.output
 valueType = args.valueType
+enumeratePath = args.enumeratePath
 ignoreFirstItem = args.ignoreFirstItem
 oneIndexed = args.oneIndexed
 
@@ -60,7 +60,7 @@ with open(tempFilePath,'w') as write:
     write.writelines(values)
 
 print(f"Running Enumerator on {tempFilePath}")
-os.system('%s %s %s' % (ENUMERATE, tempFilePath, output))
+os.system('%s %s %s' % (enumeratePath, tempFilePath, output))
 os.remove(tempFilePath)
 
 print("Exiting.")

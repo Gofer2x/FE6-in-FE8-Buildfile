@@ -20,7 +20,7 @@ def intToHex(i):
     return str(j)
 
 def formatCmd(fromSongID, toSongID):
-    return(f"{febPath} --rom={targetROMPath} --songexchange --fromrom={fromROMPath} --target={targetROMPath} --fromsong={fromSongID} --tosong={toSongID}\n")
+    return(f"%febPath% --rom=%targetROMPath% --songexchange --fromrom=%fromROMPath% --target=%targetROMPath% --fromsong={fromSongID} --tosong={toSongID}\n")
 
 csvData = []
 with open(csvPath, mode ='r', encoding="utf-8")as file:
@@ -31,6 +31,12 @@ with open(csvPath, mode ='r', encoding="utf-8")as file:
 fe6ID = None
 fe8ID = None
 cmdOutput = []
+cmdOutput.append(f"set febPath={febPath}\n")
+cmdOutput.append(f"set fromROMPath={fromROMPath}\n")
+cmdOutput.append(f"set targetROMPath={targetROMPath}\n")
+cmdOutput.append(f"set soundPrioFixPath={soundPrioFixPath}\n")
+
+
 
 for item in csvData:
     name = item["Name"]
@@ -52,8 +58,9 @@ for item in csvData:
     
     cmdOutput.append(formatCmd(fe6ID,fe8ID))
 
+# Move to EA folder and run the priority fix EA.
 cmdOutput.append("cd %~dp0EventAssembler\n")
-cmdOutput.append(f"ColorzCore A FE8 -output:%~dp0{targetROMPath} -input:%~dp0{soundPrioFixPath} --build-times\n")
+cmdOutput.append(f"ColorzCore A FE8 -output:%~dp0%targetROMPath% -input:%~dp0%soundPrioFixPath% --build-times\n")
 cmdOutput.append("cd %~dp0")
 
 with open(generatedBatPath,"w") as w:

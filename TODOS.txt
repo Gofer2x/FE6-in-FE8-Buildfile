@@ -15,13 +15,14 @@ Start managing the free space created by unused vanilla assets to save on ROM sp
 
 
 LOW PRIORITY
+My #include size measuring method got slightly borked by the new ColorzCore. Find a way to fix it possibly.
+tmx2ea creates lowercase EAstdlib imports, which ColorzCore complains about. Make a new .exe from the original .py and use it.
 The big world map implementation is VERY BAD. UndoBuffer cheese. I have no idea how the Palette Map works.
 Ch16x background.
 Bard and Dancer map sounds are weird.
 Slight visual bug with ballista ammo counter. Terrain info overlaps it.
 Recruitable characters only go up so high. Double check the limit against current amount and Trial characters (possibly culling then).
 The "Custom Game Over" thing is a bit messy. Try to fix it up. The reason I can't put the character check thing as Roy's death quote is that CHECK_DEPLOYED seems to exit the function early from that context?
-World map. This is a big one but really not a priority right now.
 Importing music via FEB can use the wrong priority due to how prio is(n't) implemented in the process. I made an EA file that's ran post-insertion but that's not an ideal solution. Potentially make a ticket.
 
 

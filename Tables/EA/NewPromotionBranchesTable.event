@@ -1,9 +1,9 @@
 #define SetPromotionBranchesTableEntry(class,promo1) "PUSH ; ORG PromotionBranchesTable+(class*2) ; BYTE promo1 ; BYTE 0x0 ; POP"
 #define SetPromotionBranchesTableEntry(class,promo1,promo2) "PUSH ; ORG PromotionBranchesTable+(class*2) ; BYTE promo1 ; BYTE promo2 ; POP"
 
+#define PromotionBranchesTable 0x95DFA4
 PUSH
-ORG 0x95DFA4
-#define PromotionBranchesTable CurrentOffset
+ORG PromotionBranchesTable
 FILL 128*2
 POP
 

@@ -26,10 +26,10 @@
 	MESSAGE Installing Text
 	#include "Text/NewTextTableInstaller.event"
 	
-	#define TextSizeStart CURRENTOFFSET
+	TextSizeStart:
 	#include "Text/Install Text Data.event"
-	#define TextSizeTotal (CURRENTOFFSET-TextSizeStart)
-	MESSAGE Text Size is TextSizeTotal Bytes
+	TextSizeEnd:
+	MESSAGE "Text Size is {CurrentOffset-TextSizeStart:N1} Bytes"
 	
 	MESSAGE Installing Graphics
 	#include "Graphics/_MasterGraphicsInstaller.event"

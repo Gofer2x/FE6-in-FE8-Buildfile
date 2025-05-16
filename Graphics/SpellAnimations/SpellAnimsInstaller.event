@@ -7,7 +7,7 @@
 #define SpellAnim_Apocalypse 0x4D
 #define SpellAnim_Eckesachs 0x4E
 
-#define SpellAnimsSizeStart CURRENTOFFSET
+SpellAnimsSizeStart:
 
 //[Fire] Forblaze - FE8  FE6 Version {SHYUTERz}
 //NOTE: SE had their indexes increased by 3 (so $12A -> $12D, $12B -> $12E, $12C -> $12F)
@@ -31,5 +31,5 @@
 #include "[Other] Eckesachs Wave {SHYUTERz, IS}/Spell.event"
 }
 
-#define SpellAnimsSizeTotal (CURRENTOFFSET-SpellAnimsSizeStart)
-MESSAGE Spell Anims Size is SpellAnimsSizeTotal Bytes
+SpellAnimsSizeEnd:
+MESSAGE "Spell Anims Size is {SpellAnimsSizeEnd-SpellAnimsSizeStart:N1} Bytes"

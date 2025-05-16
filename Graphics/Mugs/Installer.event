@@ -1,9 +1,9 @@
 #include "NewPortraitTableInstaller.event"
 
-#define MugsSizeStart CURRENTOFFSET
+MugsSizeStart:
 
 #include "GeneratedMugsInstaller.event"
 #include "GeneratedCardsInstaller.event"
 
-#define MugsSizeTotal (CURRENTOFFSET-MugsSizeStart)
-MESSAGE Mugs Size is MugsSizeTotal Bytes
+MugsSizeEnd:
+MESSAGE "Mugs Size is {MugsSizeEnd-MugsSizeStart:N1} Bytes"

@@ -17,6 +17,6 @@ TilesetsSizeStart:
 #include "Mountainous/Installer.event"
 #include "Stronghold/Installer.event"
 
-TilesetsSizeEnd
+TilesetsSizeEnd:
 
 MESSAGE "Tilesets Size is {TilesetsSizeStart-TilesetsSizeEnd:N1} Bytes"

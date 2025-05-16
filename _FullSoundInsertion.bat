@@ -6,10 +6,16 @@ set fe6Path=FE6.gba
 set myHackWMusicPath=myHackWithMusic.gba
 set prioFixEAPath=Tools\SoundScripts\SoundPriorityFixEA.event
 
+set updateSoundIDsScriptPath=Tools\SoundScripts\UpdateSoundIDs.py
+set soundIDsPath=Definitions\Generated\SoundIDs.event
 
 
 
 cd %~dp0
+
+echo Updating sound IDs.
+
+call %updateSoundIDsScriptPath% %csvPath% %soundIDsPath%
 
 copy %~dp0myHack.gba %myHackWMusicPath%
 

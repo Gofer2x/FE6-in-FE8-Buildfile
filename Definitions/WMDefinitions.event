@@ -110,4 +110,26 @@
 #define WM_SkipEvent SKIPWN
 
 
+////Temporary/simple events.
 
+#define WMEVENT_UnlockNextNodeAfterChapter(currentNode,road) \
+WM_DisableSkip ; \
+WM_SpawnLord(Roy,currentNode) ; \
+WM_CamOnLord ; \
+WM_Fadeout ; \
+WM_TextDecorate ; \
+WM_EnableSkip ; \
+STAL 20 ; \
+WM_UnlockNextNode ; \
+WM_WaitForFX ; \
+STAL 40 ; \
+WM_DrawRoad(road) ; \
+STAL 70 ; \
+WM_MakeLordVisible ; \
+ENDA
+
+#define WMEVENT_SimpleNextChapterNodeSelect(currentNode,nextNode) \
+WM_DisableSkip ; \
+WM_MoveLord(currentNode,nextNode,60,10) ; \
+WM_ENUN ; \
+ENDA

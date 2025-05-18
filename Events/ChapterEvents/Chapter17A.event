@@ -247,4 +247,4 @@ ENDA
 ArmoryList:
 SHLI SlimSword IronSword KillingEdge IronBlade SlimLance IronLance KillerLance Javelin IronAxe KillerAxe HandAxe IronBow KillerBow
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

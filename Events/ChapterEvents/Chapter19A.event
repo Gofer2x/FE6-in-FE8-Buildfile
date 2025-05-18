@@ -232,4 +232,4 @@ ENDA
 VendorList:
 SHLI Thunder Lightning Flux Heal Mend Physic Restore DoorKey ChestKey5Uses
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

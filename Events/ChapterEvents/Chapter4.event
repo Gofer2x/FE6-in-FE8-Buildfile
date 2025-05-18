@@ -295,4 +295,4 @@ SHLI Fire Heal Vulnerary
 ArmoryList:
 SHLI SlimSword IronSword SlimLance IronLance Javelin IronAxe HandAxe IronBow
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

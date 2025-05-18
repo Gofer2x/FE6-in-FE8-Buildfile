@@ -162,4 +162,4 @@ CALL EVENT_ReviveMerlinus
 CALL OstiaNarcianCutscene
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

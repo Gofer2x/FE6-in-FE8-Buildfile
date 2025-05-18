@@ -244,4 +244,4 @@ CALL EVENT_ReviveMerlinus
 CALL EVENT_BindingBladeAndRoyPromo 
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

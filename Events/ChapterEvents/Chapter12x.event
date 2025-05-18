@@ -170,4 +170,4 @@ CALL EVENT_ReviveMerlinus
 MoveToChapter(CHAPTER_Ch13)
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

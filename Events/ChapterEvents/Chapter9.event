@@ -298,4 +298,4 @@ SHLI Fire Heal Mend Vulnerary Antitoxin DoorKey
 ArmoryList:
 SHLI SlimSword IronSword SteelSword IronBlade SteelBlade IronAxe SteelAxe HandAxe Hammer
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

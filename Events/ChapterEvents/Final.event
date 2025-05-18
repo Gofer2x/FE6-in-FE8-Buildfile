@@ -384,4 +384,4 @@ ChangeMode(0x2)
 MNC4 0
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

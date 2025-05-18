@@ -363,4 +363,4 @@ SHLI IronSword SteelSword SilverSword IronBlade SteelBlade IronLance SteelLance 
 VendorList:
 SHLI Fire Thunder Elfire Aircalibur Lightning Divine Flux Vulnerary PureWater
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

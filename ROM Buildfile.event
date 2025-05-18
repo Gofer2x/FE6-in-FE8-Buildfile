@@ -23,39 +23,49 @@
 	#include "Misc/EditTerrainBGFloorsTable.event"
 	#include "Misc/EditArenaWeapons.event"
 	
-	MESSAGE Installing Text
 	#include "Text/NewTextTableInstaller.event"
 	
 	TextSizeStart:
+	MESSAGE Installing Text
 	#include "Text/Install Text Data.event"
-	TextSizeEnd:
 	MESSAGE "Text Size is {CurrentOffset-TextSizeStart:N1} Bytes"
 	
 	MESSAGE Installing Graphics
 	#include "Graphics/_MasterGraphicsInstaller.event"
 	
+	TilesetsSizeStart:
 	MESSAGE Installing Tilesets
 	#include "Map/Tilesets/TilesetsInstaller.event"
+	MESSAGE "Tilesets Size is {CurrentOffset-TilesetsSizeStart:N1} Bytes"
 	
+	TileAnimationsSizeStart:
 	MESSAGE Installing Tile Animations
 	#include "Map/TileAnimations/TileAnimationsInstaller.event"
+	MESSAGE "Tile Animations Size is {CurrentOffset-TileAnimationsSizeStart:N1} Bytes"
 	
+	MapsSizeStart:
 	MESSAGE Installing Maps
 	#include "Map/Master Map Installer.event"
+	MESSAGE "Maps Size is {CurrentOffset-MapsSizeStart:N1} Bytes"
 	
 	MESSAGE Installing EA Tables
 	#include "Tables/EA/Installer.event"
+	
 	MESSAGE Installing Nightmare Tables
 	#include "Tables/NightmareModules/Table Installer.event"
 	
 	MESSAGE Editing Movement Costs
 	#include "Misc/EditMovementCosts.event"
 	
+	SpecificEventsSizeStart:
 	MESSAGE Installing Specific Events
 	#include "Events/_MasterSpecificEventsInstaller.event"
+	MESSAGE "Specific Events Size is {CurrentOffset-SpecificEventsSizeStart:N1} Bytes"
 	
+	ChapterEventsSizeStart:
 	MESSAGE Installing Chapter Events
 	#include "Events/_MasterChapterEventsInstaller.event"
+	MESSAGE "Chapter Events Size is {CurrentOffset-ChapterEventsSizeStart:N1} Bytes"
 	
 	MESSAGE Installing World Map Roads
 	#include "WorldMap/Roads/_MasterRoadInstaller.event"

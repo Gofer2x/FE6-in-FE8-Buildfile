@@ -323,4 +323,4 @@ ENDA
 VendorList:
 SHLI Thunder Lightning Flux Mend Vulnerary DoorKey ChestKey5Uses Torch
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

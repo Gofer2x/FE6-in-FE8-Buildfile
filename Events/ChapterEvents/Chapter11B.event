@@ -330,4 +330,4 @@ ENDA
 VendorList:
 SHLI Fire Thunder Lightning Heal Vulnerary Antitoxin DoorKey ChestKey5Uses
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

@@ -192,4 +192,4 @@ STAL 64
 MoveToChapter(CHAPTER_Ch2)
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

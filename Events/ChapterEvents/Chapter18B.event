@@ -397,4 +397,4 @@ SHLI IronSword KillingEdge IronBlade IronLance KillerLance Javelin IronAxe Kille
 VendorList:
 SHLI Thunder Lightning Flux Heal Mend Physic Restore DoorKey ChestKey5Uses
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

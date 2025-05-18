@@ -1,5 +1,3 @@
-TilesetsSizeStart:
-
 #include "Fields/Installer.event"
 #include "FieldsBridge/Installer.event"
 #include "Village/Installer.event"
@@ -16,7 +14,3 @@ TilesetsSizeStart:
 #include "PlainsCastle/Installer.event"
 #include "Mountainous/Installer.event"
 #include "Stronghold/Installer.event"
-
-TilesetsSizeEnd:
-
-MESSAGE "Tilesets Size is {TilesetsSizeStart-TilesetsSizeEnd:N1} Bytes"

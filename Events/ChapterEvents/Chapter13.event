@@ -507,4 +507,4 @@ SHLI IronSword SteelSword KillingEdge IronLance SteelLance KillerLance Javelin I
 VendorList:
 SHLI Fire Thunder Elfire Lightning Flux Heal Mend Restore Vulnerary Antitoxin Torch
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

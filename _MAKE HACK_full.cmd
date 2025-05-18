@@ -12,7 +12,7 @@ echo: | (textprocess_v2 text_buildfile.txt --parser-exe "%parsefile%" --installe
 
 cd "%~dp0EventAssembler"
 
-ColorzCore A FE8 "-output:%~dp0myHack.gba" "-input:%~dp0ROM Buildfile.event" "--nocash-sym:%~dp0FE8Hack.sym" "--build-times"
+ColorzCore A FE8 "-output:%~dp0myHack.gba" "-input:%~dp0ROM Buildfile.event" "--nocash-sym:%~dp0FE8Hack.sym" "--build-times" "--warnings:no-nonportable-pathnames"
 type "%~dp0FE8_clean.sym" >> "%~dp0myHack.sym"
 
 cd "%~dp0ups"

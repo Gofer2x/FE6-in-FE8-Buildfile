@@ -317,4 +317,4 @@ SHLI SteelSword SteelBlade SteelLance SteelAxe SteelBow
 VendorList:
 SHLI Elfire Aircalibur Lightning Flux Nosferatu Mend Restore Torch PureWater
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

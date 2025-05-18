@@ -208,4 +208,4 @@ ENDA
 ArmoryList:
 SHLI IronSword SteelSword SilverSword IronBlade SteelBlade IronLance SteelLance SilverLance IronAxe SteelAxe SilverAxe IronBow SteelBow SilverBow ShortBow
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

@@ -364,4 +364,4 @@ MoveToChapter(CHAPTER_Ch13)
 LABEL 9
 ENDA
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

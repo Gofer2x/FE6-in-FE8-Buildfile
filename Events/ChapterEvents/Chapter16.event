@@ -442,4 +442,4 @@ ENDA
 SecretShopList:
 SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing AngelicRobe Lockpick
 
-MESSAGE Events end at offset CURRENTOFFSET
+//MESSAGE Events end at offset CURRENTOFFSET

@@ -16,6 +16,7 @@
 #include "Generated/ItemIDs.event"
 #include "Generated/ClassIDs.event"
 #include "Generated/CharacterIDs.event"
+#include "Generated/MugIDs.event"
 #include "Generated/ChapterIDs.event"
 #include "Generated/SoundIDs.event"
 #include "Generated/WMNodeIDs.event"

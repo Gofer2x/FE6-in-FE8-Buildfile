@@ -1,5 +1,6 @@
 TextParseDefsPath = "../../Text/ParseDefinitions.txt"
 TextParseMarker = "[Marker_LoadMugsBelow] = [.]\n"
+defsOutputPath="../../Definitions/Generated/MugIDs.event"
 
 #Names for all the mugs and their mouth and eye data.
 mugsData = { #"Name": [mouthX,mouthY,eyeX,eyeY]
@@ -356,114 +357,110 @@ def intToHex(i):
 
 #Begin processing.
 
-try:
-    paletteSwapValues = []
-    for list in list(paletteSwaps.values()):
-        for swap in list:
-            paletteSwapValues.append(swap)
-
-    mugsOutput = []
-    names = mugsData.keys()
-    i = 0
-    for name in names:
-        currentOutput = []
-        i += 1
-        mouthX,mouthY,eyeX,eyeY = mugsData[name]
-        mouthX,mouthY,eyeX,eyeY = str(mouthX),str(mouthY),str(eyeX),str(eyeY)
+paletteSwapValues = []
+for list in list(paletteSwaps.values()):
+    for swap in list:
+        paletteSwapValues.append(swap)
+mugsOutput = []
+defsOutput = []
+names = mugsData.keys()
+i = 0
+for name in names:
+    currentOutput = []
+    i += 1
+    mouthX,mouthY,eyeX,eyeY = mugsData[name]
+    mouthX,mouthY,eyeX,eyeY = str(mouthX),str(mouthY),str(eyeX),str(eyeY)
+    defsOutput.append(
+        ("#define "+name+"Mug "+intToHex(i)+"\n")
+    )
+    if name not in paletteSwapValues: #Normal (not palette swap) processing
         currentOutput.append([
-            ("#define "+name+"Mug "+intToHex(i)+"\n")
+            (name+"MugData:\n"),
+            ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
+            (name+"MugFramesData:\n"),
+            ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
+            (name+"MugPaletteData:\n"),
+            ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
         ])
-        if name not in paletteSwapValues: #Normal (not palette swap) processing
+        if name not in noMinis: #Yes Mini
             currentOutput.append([
-                (name+"MugData:\n"),
-                ("#incbin \"Dmp/"+name+"_mug.dmp\"\n"),
-                (name+"MugFramesData:\n"),
-                ("#incbin \"Dmp/"+name+"_frames.dmp\"\n"),
-                (name+"MugPaletteData:\n"),
-                ("#incbin \"Dmp/"+name+"_palette.dmp\"\n"),
+                (name+"MugMiniData:\n"),
+                ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
+                ("setMugEntryManual("+name+"Mug, "+name+"MugData, "+name+"MugMiniData, "+name+"MugPaletteData, "+name+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
             ])
-            if name not in noMinis: #Yes Mini
-                currentOutput.append([
-                    (name+"MugMiniData:\n"),
-                    ("#incbin \"Dmp/"+name+"_minimug.dmp\"\n"),
-                    ("setMugEntryManual("+name+"Mug, "+name+"MugData, "+name+"MugMiniData, "+name+"MugPaletteData, "+name+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
-                ])
-            else: #No Mini
-                currentOutput.append([
-                    ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
-                ])
-
-
-        else: #Palette swap processing
-            #Find original
-            for swapOriginal in paletteSwaps:
-                if name in paletteSwaps[swapOriginal]:
-                    ogName = swapOriginal
-                    break
+        else: #No Mini
             currentOutput.append([
-                (name+"MugPaletteData:\n"),
-                ("#incbin \"Dmp/"+name+"_palette.dmp\"\n")
-                ])
-            if name not in noMinis: #Normal
-                currentOutput.append([
-                    ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, "+ogName+"MugMiniData, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
-                ])
-            else: #No Mini
-                currentOutput.append([
-                    ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, 0x0, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
-                ])
-        for list in currentOutput:
-            for line in list:
-                mugsOutput.append(line)
-        mugsOutput.append("\n")
-        print("Successfully processed mug "+name+".")
+                ("setMugEntryManual("+name+"Mug, "+name+"MugData, 0x0, "+name+"MugPaletteData, "+name+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
+            ])
+    else: #Palette swap processing
+        #Find original
+        for swapOriginal in paletteSwaps:
+            if name in paletteSwaps[swapOriginal]:
+                ogName = swapOriginal
+                break
+        currentOutput.append([
+            (name+"MugPaletteData:\n"),
+            ("#incbin \"Dmp/"+name+"_palette.dmp\"\n")
+            ])
+        if name not in noMinis: #Normal
+            currentOutput.append([
+                ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, "+ogName+"MugMiniData, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
+            ])
+        else: #No Mini
+            currentOutput.append([
+                ("setMugEntryManual("+name+"Mug, "+ogName+"MugData, 0x0, "+name+"MugPaletteData, "+ogName+"MugFramesData, "+mouthX+","+mouthY+","+eyeX+","+eyeY+")\n")
+            ])
+    for list in currentOutput:
+        for line in list:
+            mugsOutput.append(line)
+    mugsOutput.append("\n")
+    print("Successfully processed mug "+name+".")
 
-    with open("GeneratedMugsInstaller.event", "w") as w:
-        w.writelines(mugsOutput)
-    print("Finished processing mugs.")
+with open(defsOutputPath, "w") as w:
+    w.writelines(defsOutput)
+print("Wrote Mud definitions to "+defsOutputPath+".")
 
-    #Class Cards
-    print("Processing class cards.")
-    cardsOutput = []
-    for name in classCards:
-        i += 1
-        cardsOutput.append("#define "+name+"ClassCard"+" "+intToHex(i)+"\n")
-        cardsOutput.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPalette)\n")
-        cardsOutput.append("\n")
-        print("Successfully processed class card "+name+".")
-        
+with open("GeneratedMugsInstaller.event", "w") as w:
+    w.writelines(mugsOutput)
+print("Finished processing mugs.")
 
-    with open("GeneratedCardsInstaller.event", "w") as writeCardInstaller:
-        writeCardInstaller.writelines(cardsOutput)
-    print("Finished processing class cards.")
-    input("Press enter to end program.")
+#Class Cards
+print("Processing class cards.")
 
-    #LoadMugs for Text Parse Definitions 
-    parseDefsLoadMugs = []
-    names = mugsData.keys()
-    j = 1
-    #Generate the actual LoadMugs definitions
-    for name in names:
-        parseDefsLoadMugs.append(f"[Load"+name+"] = [LoadPortrait]["+intToHex(j)+"][0x1]\n")
-        j += 1
-    #Read current ParseDefs
-    with open(TextParseDefsPath, "r") as read:
-        textParseData = read.readlines()
-    #Find index of the marker
-    for i in range(len(textParseData)):
-        if textParseData[i] == TextParseMarker:
-            markerIndex = i
-            break
-    #Cut off everything after the marker (previous LoadMugs)
-    textParseData = textParseData[:markerIndex+1]
-    for loadMug in parseDefsLoadMugs:
-        textParseData.append(loadMug)
-    #Write back to file
-    with open(TextParseDefsPath, "w") as write:
-        write.writelines(textParseData)
-    print("Finished inserting new LoadMugs into ParseDefinitions.txt.")
+cardsOutput = []
+for name in classCards:
+    i += 1
+    cardsOutput.append("#define "+name+"ClassCard"+" "+intToHex(i)+"\n")
+    cardsOutput.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPalette)\n")
+    cardsOutput.append("\n")
+    print("Successfully processed class card "+name+".")
+    
+with open("GeneratedCardsInstaller.event", "w") as writeCardInstaller:
+    writeCardInstaller.writelines(cardsOutput)
+print("Finished processing class cards.")
+input("Press enter to end program.")
 
-
-except Exception as e:
-    print("Something went wrong. "+e)
-    input("Press enter to end program.")
+#LoadMugs for Text Parse Definitions 
+parseDefsLoadMugs = []
+names = mugsData.keys()
+j = 1
+#Generate the actual LoadMugs definitions
+for name in names:
+    parseDefsLoadMugs.append(f"[Load"+name+"] = [LoadPortrait]["+intToHex(j)+"][0x1]\n")
+    j += 1
+#Read current ParseDefs
+with open(TextParseDefsPath, "r") as read:
+    textParseData = read.readlines()
+#Find index of the marker
+for i in range(len(textParseData)):
+    if textParseData[i] == TextParseMarker:
+        markerIndex = i
+        break
+#Cut off everything after the marker (previous LoadMugs)
+textParseData = textParseData[:markerIndex+1]
+for loadMug in parseDefsLoadMugs:
+    textParseData.append(loadMug)
+#Write back to file
+with open(TextParseDefsPath, "w") as write:
+    write.writelines(textParseData)
+print("Finished inserting new LoadMugs into ParseDefinitions.txt.")

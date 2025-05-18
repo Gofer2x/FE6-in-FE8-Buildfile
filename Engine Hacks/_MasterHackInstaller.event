@@ -10,6 +10,7 @@
 #include "EnginePatches/multi_discover_desert_treasures/Installer.event"
 #include "EnginePatches/BattleMusicChange2_20200603/install_battle_music_changer2.event"
 
+
 #include "EnginePatches/InlineFix_GenerateBestMovementScript.event"
 #include "EnginePatches/FE6Stealing.event"
 
@@ -20,6 +21,7 @@
 #include "HardcodingPatches/ItemHardcoding.event"
 #include "HardcodingPatches/ChapterHardcoding.event"
 #include "HardcodingPatches/SoundHardcoding.event"
+#include "HardcodingPatches/SupplyPortrait.event"
 
 
 #include "WeaponPatches/FE6Eclipse.event"

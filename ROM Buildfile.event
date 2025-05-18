@@ -75,9 +75,6 @@
 	
 	//#include "Music/Music Installer.event"
 	
-	MESSAGE Installing Late Engine Hacks
-	#include "Engine Hacks/_LateHackInstaller.event"
-	
 #else
     ERROR You are not assembling FE8 events!
 #endif

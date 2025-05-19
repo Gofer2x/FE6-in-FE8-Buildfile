@@ -4,7 +4,7 @@ The file [Config.event](Config.event) contains a few definitions that you can un
 
 Table Readers
 ===============
-There is a Python script (TableUpdater.py in the Tools folder) that can take the names out of the leftmost column of a Nightmare table and using Enumerate (another script) and autogenerate EA definitions. It's ran on various tables through UpdateIDsFromTables.cmd in the root folder.
+There is a Python script (TableUpdater.py in the Tools folder) that can take the names out of the leftmost column of a Nightmare table and using Enumerate (another script) autogenerate EA definitions. It's ran on various tables through _UpdateIDsFromTables.cmd in the root folder.
 
 Supports
 ===============

@@ -495,9 +495,7 @@ GiveItemToCharacter(Perceval,KnightCrest)
 
 LABEL 1
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch14)
 ENDA
 

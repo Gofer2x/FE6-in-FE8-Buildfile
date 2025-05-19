@@ -156,9 +156,7 @@ GiveItemToCharacter(Roy,Durandal)
 STAL 64
 Text(BG_LavaFort,Ch8_Ch8x_WyvernsAtOstia)
 FadeIntoBlack
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 CALL OstiaNarcianCutscene
 ENDA
 

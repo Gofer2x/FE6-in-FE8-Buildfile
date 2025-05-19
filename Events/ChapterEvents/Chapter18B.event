@@ -385,9 +385,7 @@ TEXTCONT
 TEXTEND
 REMA
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch19B)
 ENDA
 

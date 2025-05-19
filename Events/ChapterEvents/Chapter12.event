@@ -347,18 +347,14 @@ BranchIfFlagON(8,Ch12_GaidenGoneFlag)
 PlayMusic(MUS_Triumph)
 Text(BG_Castle2,Ch12_EndGaidenGot)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapterWithoutWM(CHAPTER_Ch12x)
 GOTO 9
 
 //Gaiden failure. Move to Ch13.
 LABEL 8
 Text(BG_Castle2,Ch12_Ch12x_EndEtruriaRevolution)
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch13)
 
 LABEL 9

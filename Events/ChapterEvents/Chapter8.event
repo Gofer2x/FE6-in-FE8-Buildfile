@@ -288,9 +288,7 @@ TEXTCONT
 TEXTEND
 RemaFadeClean
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapterWithoutWM(CHAPTER_Ch8x)
 GOTO 9
 
@@ -299,9 +297,7 @@ LABEL 1
 Text(BG_Castle2, Ch8_Ch8x_WyvernsAtOstia)
 MOVE 0x0 Roy [16,23]
 FadeIntoBlack
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 CALL OstiaNarcianCutscene
 
 LABEL 9

@@ -213,9 +213,7 @@ PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle1,Ch10A_End)
 GiveItemToCharacter(Roy,Wyrmslayer)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch11A)
 ENDA
 

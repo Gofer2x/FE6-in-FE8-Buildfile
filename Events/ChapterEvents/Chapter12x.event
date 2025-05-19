@@ -164,9 +164,7 @@ LABEL 3
 Text(BG_Cave,Ch12_Ch12x_EndEtruriaRevolution)
 GiveItemToCharacter(Roy,Armads)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch13)
 ENDA
 

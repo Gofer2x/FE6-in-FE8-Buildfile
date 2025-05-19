@@ -327,17 +327,13 @@ TEXTEND
 RemaFadeClean
 //Used for Epilogue determination.
 FlagON(PostChapter22Flag)
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch23)
 GOTO 9
 
 //Bad ending.
 LABEL 3
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 //Eirika Mode change for Epilogue.
 ChangeMode(0x2)
 //Epilogue Save

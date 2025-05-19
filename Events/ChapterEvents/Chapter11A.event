@@ -492,9 +492,7 @@ GiveItemToCharacter(Thea,ElysianWhip)
 
 LABEL 3
 
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch12)
 ENDA
 

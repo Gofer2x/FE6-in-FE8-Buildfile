@@ -291,9 +291,7 @@ LABEL 1
 PlayMusic(MUS_Triumph)
 Text(BG_Temple1,Ch24_End2)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Final)
 ENDA
 

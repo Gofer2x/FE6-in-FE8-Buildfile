@@ -232,9 +232,7 @@ EndingScene:
 PlayMusic(MUS_Triumph)
 Text(BG_Temple1,Ch23_End)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch24)
 ENDA
 

@@ -492,9 +492,7 @@ LABEL 3
 CLEAN
 STAL 64
 
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch11B)
 ENDA
 

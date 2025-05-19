@@ -158,3 +158,10 @@
 #define RollEndgameCredits "BYTE $40 $0D $00 $00 $79 $48 $0C $08"
 
 #define StopHereIfSkipping "BYTE $20 $02 $02 $00"
+
+#ifdef CONFIG_EnableReviveMerlinus
+	#define ReviveMerlinusIfConfig "CALL EVENT_ReviveMerlinus"
+#endif
+#ifndef CONFIG_EnableReviveMerlinus
+	#define ReviveMerlinusIfConfig 
+#endif

@@ -293,9 +293,7 @@ BranchIfFlagON(8,Ch14_GaidenGoneFlag)
 //If Sophia alive and flag off, go to Ch14x.
 Text(BG_Castle3,Ch14_EndGaidenGot)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapterWithoutWM(CHAPTER_Ch14x)
 GOTO 9
 
@@ -303,9 +301,7 @@ GOTO 9
 LABEL 8
 Text(BG_Castle3,Ch14_Ch14x_EndElder)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch15)
 
 LABEL 9

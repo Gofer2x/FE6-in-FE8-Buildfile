@@ -451,17 +451,13 @@ BranchIfFlagON(5,Ch21_GaidenGoneFlag)
 //All alive and flag off, gaiden success. Move to Ch21x.
 Text(BG_Temple2White,Ch21_EndGaidenGot)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapterWithoutWM(CHAPTER_Ch21x)
 GOTO 9
 
 //Gaiden fail. Promote Roy and move to Ch22 (from within that event).
 LABEL 5
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 CALL EVENT_BindingBladeAndRoyPromo
 
 LABEL 9

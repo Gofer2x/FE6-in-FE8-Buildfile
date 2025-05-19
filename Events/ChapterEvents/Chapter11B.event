@@ -321,9 +321,7 @@ GiveItemToCharacter(Roy,EnergyRing)
 
 LABEL 2
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch12)
 ENDA
 

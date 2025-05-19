@@ -375,9 +375,7 @@ EndEvent
 
 
 EndingScene:
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 //Eirika Mode change for Epilogue.
 ChangeMode(0x2)
 //Epilogue Save.

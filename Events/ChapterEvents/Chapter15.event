@@ -314,9 +314,7 @@ LABEL 1
 LOAD1 0x1 JustFae
 ENUN
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch16)
 ENDA
 

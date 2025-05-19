@@ -274,9 +274,7 @@ EndingScene:
 PlayMusic(MUS_IntoTheShadowOfTriumph)
 Text(BG_Castle1, Ch3_End)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch4)
 ENDA
 

@@ -144,9 +144,7 @@ TEXTCONT
 TEXTEND
 RemaFadeClean
 STAL 6
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch21)
 ENDA
 

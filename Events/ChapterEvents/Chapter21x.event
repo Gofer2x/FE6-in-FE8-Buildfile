@@ -238,9 +238,7 @@ PlayMusic(MUS_Triumph)
 Text(BG_Temple2White,Ch21x_End)
 GiveItemToCharacter(Roy,Apocalypse)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 CALL EVENT_BindingBladeAndRoyPromo 
 ENDA
 

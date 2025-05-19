@@ -556,9 +556,7 @@ LABEL 2
 Text(BG_Castle3,Ch14_Ch14x_EndElder)
 GiveItemToCharacter(Roy,Forblaze)
 STAL 64
-#ifdef CONFIG_EnableReviveMerlinus
-CALL EVENT_ReviveMerlinus
-#endif
+ReviveMerlinusIfConfig
 MoveToChapter(CHAPTER_Ch15)
 ENDA
 

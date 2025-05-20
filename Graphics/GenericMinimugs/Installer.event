@@ -13,7 +13,7 @@ BYTE $00 $B5 $FF $22 $10 $40 $C0 $00 $05 $4A $80 $18 $40 $68 $49 $01 $20 $22 $02
 POIN GenericMinimugTable
 POP
 
-#define GenericMinimugEntry(id,gfx,pal) "PUSH; ORG (GenericMinimugTable+(8*id)); POIN gfx pal; POP"
+#define SetGenericMinimugEntry(id,gfx,pal) "PUSH; ORG (GenericMinimugTable+(8*id)); POIN gfx pal; POP"
 
 ALIGN 4
 SwordGenericMinimugData:
@@ -22,8 +22,6 @@ SwordGenericMinimugData:
 ALIGN 4
 SwordGenericMinimugPalette:
 #incbin "Sword_pal.dmp" 
-
-
 
 ALIGN 4
 BanditGenericMinimugData:
@@ -67,11 +65,11 @@ FILL 8*16
 #define IlliaGenericMinimug 0x5
 #define SacaeGenericMinimug 0x6
 
-GenericMinimugEntry(0,SwordGenericMinimugData,SwordGenericMinimugPalette)
-GenericMinimugEntry(1,BanditGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(2,BernGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(3,LyciaGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(4,EtruriaGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(5,IlliaGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(6,SacaeGenericMinimugData,TrulyGenericMinimugPalette)
-GenericMinimugEntry(7,0x0,0x0)
+SetGenericMinimugEntry(SwordGenericMinimug,SwordGenericMinimugData,SwordGenericMinimugPalette)
+SetGenericMinimugEntry(BanditGenericMinimug,BanditGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(BernGenericMinimug,BernGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(LyciaGenericMinimug,LyciaGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(EtruriaGenericMinimug,EtruriaGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(IlliaGenericMinimug,IlliaGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(SacaeGenericMinimug,SacaeGenericMinimugData,TrulyGenericMinimugPalette)
+SetGenericMinimugEntry(0x7,0x0,0x0)

@@ -1,7 +1,7 @@
 The Gay agenda:
 
 HIGH PRIORITY
-Idunn's dragon mug is glitched?
+Idunn's dragon mug is glitched? It causes some visual glitches (even with other portraits?) and crashes the game. Or is it somethign else in the final chapter?
 Re-add some items like the Metis' tome and Earth Seal.
 
 
@@ -15,7 +15,6 @@ Start managing the free space created by unused vanilla assets to save on ROM sp
 
 
 LOW PRIORITY
-My #include size measuring method got slightly borked by the new ColorzCore. Find a way to fix it possibly.
 tmx2ea creates lowercase EAstdlib imports, which ColorzCore complains about. Make a new .exe from the original .py and use it.
 The big world map implementation is VERY BAD. UndoBuffer cheese. I have no idea how the Palette Map works.
 Ch16x background.

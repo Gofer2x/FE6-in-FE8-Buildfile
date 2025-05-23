@@ -3,6 +3,38 @@ import os
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
+def cullSupports(character):
+    global pairs
+
+    characterSupports = {}
+    characterSupportsPartners = []
+
+    # Set up dict of the character's supports and a list of their support partners.
+    for pair in pairs:
+        char1,char2 = pair[0],pair[1]
+        if char1 == character:
+            characterSupports[char2] = pair
+            characterSupportsPartners.append(char2)
+        elif char2 == character:
+            characterSupports[char1] = pair
+            characterSupportsPartners.append(char1)
+
+    # Actually process the supports until there are few enough left.
+    while len(characterSupportsPartners) > 7:
+        print(f"Current {character} support count: "+str(len(characterSupportsPartners)))
+        print(f"Please type in the name of a {character} partner to remove.")
+        for partner in characterSupportsPartners:
+            print(partner)
+        toRemove = input("Partner to remove - ")
+        try:
+            characterSupportsPartners.remove(toRemove)
+            pairs.remove(characterSupports[toRemove])
+            characterSupports.pop(toRemove)
+            print(f"Removed {toRemove}.")
+        except Exception as e:
+            print("Something went wrong.",e)
+    return
+
 # [char1,char2,initial,growth]
 pairs = [
 ["Roy","Marcus",30,2], #ROY
@@ -251,42 +283,8 @@ for pair in pairs:
 
 print("Both Roy and Lilina cannot have all of their FE6 supports, as the FE8 engine support cap is 7.\nYou will be asked which of their supports to remove to accommodate.")
 
-while len(roySupportsPartners) > 7:
-    print("Current Roy support count: "+str(len(roySupportsPartners)))
-    print("Please type in the name of a Roy partner to remove.")
-    for partner in roySupportsPartners:
-        print(partner)
-    toRemove = input("Partner to remove - ")
-    try:
-        roySupportsPartners.remove(toRemove)
-        pairs.remove(roySupports[toRemove])
-        roySupports.pop(toRemove)
-        print(f"Removed {toRemove}.")
-    except Exception as e:
-        print(e)
-
-for pair in pairs:
-    char1,char2 = pair[0],pair[1]
-    if char1 == "Lilina":
-        lilinaSupports[char2] = pair
-        lilinaSupportsPartners.append(char2)
-    elif char2 == "Lilina":
-        lilinaSupports[char1] = pair
-        lilinaSupportsPartners.append(char1)
-
-while len(lilinaSupportsPartners) > 7:
-    print("Current Lilina support count: "+str(len(lilinaSupportsPartners)))
-    print("Please type in the name of a Lilina partner to remove.")
-    for partner in lilinaSupportsPartners:
-        print(partner)
-    toRemove = input("Partner to remove - ")
-    try:
-        lilinaSupportsPartners.remove(toRemove)
-        pairs.remove(lilinaSupports[toRemove])
-        lilinaSupports.pop(toRemove)
-        print(f"Removed {toRemove}.")
-    except Exception as e:
-        print(e)
+cullSupports("Roy")
+cullSupports("Lilina")
 
 #Begin proper processing. Thresholds table.
 

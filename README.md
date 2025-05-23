@@ -4,7 +4,7 @@ Requires "FE8_clean.gba" (sha1: c25b145e37456171ada4b0d440bf88a19f4d509f) and "F
 
 Requires Python 3 and a copy of FEBuilder in Tools/FEBuilderGBA.
 
-To build, run "MAKE HACK_full.cmd", which will build "myHack.gba". Afterwards run "SoundInsertion.py" to build "myHackWithSound.gba" (using FEBuilder's Sound Import function), which will be the proper finished ROM. It will take a few minutes though.
+To build, run "MAKE HACK_full.cmd", which will build "myHack.gba". Afterwards run "_FullSoundInsertion.bat" to build "myHackWithSound.gba" (using FEBuilder's Sound Import function), which will be the proper finished ROM. It will take a few minutes though.
 
 For information about how to insert new data, various helper scripts used etc. please read [GUIDE.md](GUIDE.md).
 

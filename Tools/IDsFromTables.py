@@ -1,6 +1,6 @@
 import argparse, csv, os, time
 
-parser = argparse.ArgumentParser(description='Reads Nightmare .csv tables to automatically create EventAssembler ID definitions using Enumerate.')
+parser = argparse.ArgumentParser(description='Reads Nightmare .csv tables to automatically create EventAssembler ID definitions using Enumerate. Names are taken from the leftmost field.')
 parser.add_argument('input', type=str, help='Path of the input .csv to process.')
 parser.add_argument('output', type=str, help='Path of the final output .event file with IDs.')
 parser.add_argument('enumeratePath', type=str, help='Path to the tool Enumerate.py.')

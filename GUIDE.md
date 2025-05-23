@@ -19,16 +19,12 @@ To insert new Mugs/Portraits, go into [Graphics/Mugs](Graphics/Mugs).
 
 Drop your mug's png file (Have it named like "Character.png") into the "Png" folder, and run "_BatchPortraitFormatter.cmd". 
  
-Afterwards, open "MasterMugInstallerGenerator.py" in a text editor. This is where you'll set up how your mug should be installed.
+Afterwards, open "Mugs.csv". This is where you'll set up how your mug should be installed.
  
-Add your mug's name to the mugsData dict, but only put it after the "SecretShop" entry. Otherwise it will mess up vendor menus.
- 
-The template is:
- 
-	"Name": [mouthX,mouthY,eyeX,eyeY]
+Add your mug's name to the csv, but only put it after the "SecretShop" entry. Otherwise it will mess up vendor menus.
      
-If your mug doesn't have a mini version, also add it to the "noMinis" array. Order doesn't matter there.
+If your mug doesn't have a mini version, set the "NoMini" field to any non-blank value.
  
-If it's a palette swap, add it to the "paletteSwaps" dict. How it works is described there.
+If it's a palette swap, set the "PalSwapOf" value to what this mug is a palette swap of.
  
 When done, run "MasterMugInstallerGenerator.py". Press enter when it finishes. It will have generated all the relevant data imports, definitions, and also put the various LoadMugs into ParseDefinitions in the main Text folder.

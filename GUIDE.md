@@ -21,9 +21,9 @@ Drop your mug's png file (Have it named like "Character.png") into the "Png" fol
  
 Afterwards, open "Mugs.csv". This is where you'll set up how your mug should be installed.
  
-Add your mug's name to the csv, but only put it after the "SecretShop" entry. Otherwise it will mess up vendor menus.
+Add your mug's entry to the csv (the Name and Eye/Mouth X/Y fields should be obvious), but only put it after the "SecretShop" entry. Otherwise it will mess up vendor menus.
      
-If your mug doesn't have a mini version, set the "NoMini" field to any non-blank value.
+If your mug doesn't have a mini version, set the "NoMini" field to any non-blank value. Preferably stick to the "TRUE".
  
 If it's a palette swap, set the "PalSwapOf" value to what this mug is a palette swap of.
  

@@ -17,12 +17,12 @@ with open("Mugs.csv", mode ='r', encoding="utf-8")as file:
         mugsData.append(lines)
 
 mugsOutput = []
-defsOutput = []
+mugsDefsOutput = []
 i = 1
 
 for mug in mugsData:
     name,mouthX,mouthY,eyeX,eyeY,palSwapOf,noMini = mug["Name"],mug["MouthX"],mug["MouthY"],mug["EyeX"],mug["EyeY"],mug["PalSwapOf"],mug["NoMini"]
-    defsOutput.append(f"#define {name}Mug "+intToHex(i)+"\n")
+    mugsDefsOutput.append(f"#define {name}Mug "+intToHex(i)+"\n")
 
     if not palSwapOf: # Normal Processing
         mugsOutput.append(f"{name}MugData:\n")
@@ -48,10 +48,6 @@ for mug in mugsData:
     mugsOutput.append("\n")
     print(f"Successfully processed mug {name}.")
 
-with open(defsOutputPath, "w") as w:
-    w.writelines(defsOutput)
-print("Wrote Mug definitions to "+defsOutputPath+".")
-
 with open("GeneratedMugsInstaller.event", "w") as w:
     w.writelines(mugsOutput)
 print("Finished processing mugs.")
@@ -59,6 +55,7 @@ print("Finished processing mugs.")
 #Class Cards
 print("Processing class cards.")
 cardsData = []
+carsdDefsOutput = []
 with open("ClassCards.csv", mode ='r', encoding="utf-8")as file:
     csvFile = csv.DictReader(file)
     for lines in csvFile:
@@ -67,8 +64,12 @@ with open("ClassCards.csv", mode ='r', encoding="utf-8")as file:
 cardsOutput = []
 for card in cardsData:
     name = card["Name"]
-    cardsOutput.append("#define "+name+"ClassCard"+" "+intToHex(i)+"\n")
-    cardsOutput.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPalette)\n")
+    mugsDefsOutput.append("#define "+name+"ClassCard"+" "+intToHex(i)+"\n")
+    cardsOutput.append(f"{name}CardData:\n")
+    cardsOutput.append(f"#incbin \"DmpCards/{name}.dmp\"\n")
+    cardsOutput.append(f"{name}CardPaletteData:\n")
+    cardsOutput.append(f"#incbin \"DmpCards/{name}_pal.dmp\"\n")
+    cardsOutput.append("setCardEntry("+name+"ClassCard, "+name+"CardData, "+name+"CardPaletteData)\n")
     cardsOutput.append("\n")
     i += 1
     print("Successfully processed class card "+name+".")
@@ -76,6 +77,10 @@ for card in cardsData:
 with open("GeneratedCardsInstaller.event", "w") as writeCardInstaller:
     writeCardInstaller.writelines(cardsOutput)
 print("Finished processing class cards.")
+
+with open(defsOutputPath, "w") as w:
+    w.writelines(mugsDefsOutput)
+print("Wrote Mug definitions to "+defsOutputPath+".")
 
 #LoadMugs for Text Parse Definitions 
 parseDefsLoadMugs = []

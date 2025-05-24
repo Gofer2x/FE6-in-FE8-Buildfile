@@ -1,108 +1,216 @@
-#define MercenaryClassCard 0xB5
-setCardEntry(MercenaryClassCard, MercenaryCardData, MercenaryCardPalette)
+MercenaryCardData:
+#incbin "DmpCards/Mercenary.dmp"
+MercenaryCardPaletteData:
+#incbin "DmpCards/Mercenary_pal.dmp"
+setCardEntry(MercenaryClassCard, MercenaryCardData, MercenaryCardPaletteData)
 
-#define HeroClassCard 0xB6
-setCardEntry(HeroClassCard, HeroCardData, HeroCardPalette)
+HeroCardData:
+#incbin "DmpCards/Hero.dmp"
+HeroCardPaletteData:
+#incbin "DmpCards/Hero_pal.dmp"
+setCardEntry(HeroClassCard, HeroCardData, HeroCardPaletteData)
 
-#define MyrmidonClassCard 0xB7
-setCardEntry(MyrmidonClassCard, MyrmidonCardData, MyrmidonCardPalette)
+MyrmidonCardData:
+#incbin "DmpCards/Myrmidon.dmp"
+MyrmidonCardPaletteData:
+#incbin "DmpCards/Myrmidon_pal.dmp"
+setCardEntry(MyrmidonClassCard, MyrmidonCardData, MyrmidonCardPaletteData)
 
-#define SwordmasterClassCard 0xB8
-setCardEntry(SwordmasterClassCard, SwordmasterCardData, SwordmasterCardPalette)
+SwordmasterCardData:
+#incbin "DmpCards/Swordmaster.dmp"
+SwordmasterCardPaletteData:
+#incbin "DmpCards/Swordmaster_pal.dmp"
+setCardEntry(SwordmasterClassCard, SwordmasterCardData, SwordmasterCardPaletteData)
 
-#define FighterClassCard 0xB9
-setCardEntry(FighterClassCard, FighterCardData, FighterCardPalette)
+FighterCardData:
+#incbin "DmpCards/Fighter.dmp"
+FighterCardPaletteData:
+#incbin "DmpCards/Fighter_pal.dmp"
+setCardEntry(FighterClassCard, FighterCardData, FighterCardPaletteData)
 
-#define WarriorClassCard 0xBA
-setCardEntry(WarriorClassCard, WarriorCardData, WarriorCardPalette)
+WarriorCardData:
+#incbin "DmpCards/Warrior.dmp"
+WarriorCardPaletteData:
+#incbin "DmpCards/Warrior_pal.dmp"
+setCardEntry(WarriorClassCard, WarriorCardData, WarriorCardPaletteData)
 
-#define BrigandClassCard 0xBB
-setCardEntry(BrigandClassCard, BrigandCardData, BrigandCardPalette)
+BrigandCardData:
+#incbin "DmpCards/Brigand.dmp"
+BrigandCardPaletteData:
+#incbin "DmpCards/Brigand_pal.dmp"
+setCardEntry(BrigandClassCard, BrigandCardData, BrigandCardPaletteData)
 
-#define PirateClassCard 0xBC
-setCardEntry(PirateClassCard, PirateCardData, PirateCardPalette)
+PirateCardData:
+#incbin "DmpCards/Pirate.dmp"
+PirateCardPaletteData:
+#incbin "DmpCards/Pirate_pal.dmp"
+setCardEntry(PirateClassCard, PirateCardData, PirateCardPaletteData)
 
-#define BerserkerClassCard 0xBD
-setCardEntry(BerserkerClassCard, BerserkerCardData, BerserkerCardPalette)
+BerserkerCardData:
+#incbin "DmpCards/Berserker.dmp"
+BerserkerCardPaletteData:
+#incbin "DmpCards/Berserker_pal.dmp"
+setCardEntry(BerserkerClassCard, BerserkerCardData, BerserkerCardPaletteData)
 
-#define SoldierClassCard 0xBE
-setCardEntry(SoldierClassCard, SoldierCardData, SoldierCardPalette)
+SoldierCardData:
+#incbin "DmpCards/Soldier.dmp"
+SoldierCardPaletteData:
+#incbin "DmpCards/Soldier_pal.dmp"
+setCardEntry(SoldierClassCard, SoldierCardData, SoldierCardPaletteData)
 
-#define KnightClassCard 0xBF
-setCardEntry(KnightClassCard, KnightCardData, KnightCardPalette)
+KnightCardData:
+#incbin "DmpCards/Knight.dmp"
+KnightCardPaletteData:
+#incbin "DmpCards/Knight_pal.dmp"
+setCardEntry(KnightClassCard, KnightCardData, KnightCardPaletteData)
 
-#define GeneralClassCard 0xC0
-setCardEntry(GeneralClassCard, GeneralCardData, GeneralCardPalette)
+GeneralCardData:
+#incbin "DmpCards/General.dmp"
+GeneralCardPaletteData:
+#incbin "DmpCards/General_pal.dmp"
+setCardEntry(GeneralClassCard, GeneralCardData, GeneralCardPaletteData)
 
-#define ArcherClassCard 0xC1
-setCardEntry(ArcherClassCard, ArcherCardData, ArcherCardPalette)
+ArcherCardData:
+#incbin "DmpCards/Archer.dmp"
+ArcherCardPaletteData:
+#incbin "DmpCards/Archer_pal.dmp"
+setCardEntry(ArcherClassCard, ArcherCardData, ArcherCardPaletteData)
 
-#define SniperClassCard 0xC2
-setCardEntry(SniperClassCard, SniperCardData, SniperCardPalette)
+SniperCardData:
+#incbin "DmpCards/Sniper.dmp"
+SniperCardPaletteData:
+#incbin "DmpCards/Sniper_pal.dmp"
+setCardEntry(SniperClassCard, SniperCardData, SniperCardPaletteData)
 
-#define ThiefClassCard 0xC3
-setCardEntry(ThiefClassCard, ThiefCardData, ThiefCardPalette)
+ThiefCardData:
+#incbin "DmpCards/Thief.dmp"
+ThiefCardPaletteData:
+#incbin "DmpCards/Thief_pal.dmp"
+setCardEntry(ThiefClassCard, ThiefCardData, ThiefCardPaletteData)
 
-#define RogueClassCard 0xC4
-setCardEntry(RogueClassCard, RogueCardData, RogueCardPalette)
+RogueCardData:
+#incbin "DmpCards/Rogue.dmp"
+RogueCardPaletteData:
+#incbin "DmpCards/Rogue_pal.dmp"
+setCardEntry(RogueClassCard, RogueCardData, RogueCardPaletteData)
 
-#define CavalierClassCard 0xC5
-setCardEntry(CavalierClassCard, CavalierCardData, CavalierCardPalette)
+CavalierCardData:
+#incbin "DmpCards/Cavalier.dmp"
+CavalierCardPaletteData:
+#incbin "DmpCards/Cavalier_pal.dmp"
+setCardEntry(CavalierClassCard, CavalierCardData, CavalierCardPaletteData)
 
-#define PaladinClassCard 0xC6
-setCardEntry(PaladinClassCard, PaladinCardData, PaladinCardPalette)
+PaladinCardData:
+#incbin "DmpCards/Paladin.dmp"
+PaladinCardPaletteData:
+#incbin "DmpCards/Paladin_pal.dmp"
+setCardEntry(PaladinClassCard, PaladinCardData, PaladinCardPaletteData)
 
-#define GreatKnightClassCard 0xC7
-setCardEntry(GreatKnightClassCard, GreatKnightCardData, GreatKnightCardPalette)
+GreatKnightCardData:
+#incbin "DmpCards/GreatKnight.dmp"
+GreatKnightCardPaletteData:
+#incbin "DmpCards/GreatKnight_pal.dmp"
+setCardEntry(GreatKnightClassCard, GreatKnightCardData, GreatKnightCardPaletteData)
 
-#define NomadClassCard 0xC8
-setCardEntry(NomadClassCard, NomadCardData, NomadCardPalette)
+NomadCardData:
+#incbin "DmpCards/Nomad.dmp"
+NomadCardPaletteData:
+#incbin "DmpCards/Nomad_pal.dmp"
+setCardEntry(NomadClassCard, NomadCardData, NomadCardPaletteData)
 
-#define NomadTrooperClassCard 0xC9
-setCardEntry(NomadTrooperClassCard, NomadTrooperCardData, NomadTrooperCardPalette)
+NomadTrooperCardData:
+#incbin "DmpCards/NomadTrooper.dmp"
+NomadTrooperCardPaletteData:
+#incbin "DmpCards/NomadTrooper_pal.dmp"
+setCardEntry(NomadTrooperClassCard, NomadTrooperCardData, NomadTrooperCardPaletteData)
 
-#define MonkClericClassCard 0xCA
-setCardEntry(MonkClericClassCard, MonkClericCardData, MonkClericCardPalette)
+PriestClericMonkCardData:
+#incbin "DmpCards/PriestClericMonk.dmp"
+PriestClericMonkCardPaletteData:
+#incbin "DmpCards/PriestClericMonk_pal.dmp"
+setCardEntry(PriestClericMonkClassCard, PriestClericMonkCardData, PriestClericMonkCardPaletteData)
 
-#define BishopClassCard 0xCB
-setCardEntry(BishopClassCard, BishopCardData, BishopCardPalette)
+BishopCardData:
+#incbin "DmpCards/Bishop.dmp"
+BishopCardPaletteData:
+#incbin "DmpCards/Bishop_pal.dmp"
+setCardEntry(BishopClassCard, BishopCardData, BishopCardPaletteData)
 
-#define TroubadourClassCard 0xCC
-setCardEntry(TroubadourClassCard, TroubadourCardData, TroubadourCardPalette)
+TroubadourCardData:
+#incbin "DmpCards/Troubadour.dmp"
+TroubadourCardPaletteData:
+#incbin "DmpCards/Troubadour_pal.dmp"
+setCardEntry(TroubadourClassCard, TroubadourCardData, TroubadourCardPaletteData)
 
-#define ValkyrieClassCard 0xCD
-setCardEntry(ValkyrieClassCard, ValkyrieCardData, ValkyrieCardPalette)
+ValkyrieCardData:
+#incbin "DmpCards/Valkyrie.dmp"
+ValkyrieCardPaletteData:
+#incbin "DmpCards/Valkyrie_pal.dmp"
+setCardEntry(ValkyrieClassCard, ValkyrieCardData, ValkyrieCardPaletteData)
 
-#define MageClassCard 0xCE
-setCardEntry(MageClassCard, MageCardData, MageCardPalette)
+MageCardData:
+#incbin "DmpCards/Mage.dmp"
+MageCardPaletteData:
+#incbin "DmpCards/Mage_pal.dmp"
+setCardEntry(MageClassCard, MageCardData, MageCardPaletteData)
 
-#define SageClassCard 0xCF
-setCardEntry(SageClassCard, SageCardData, SageCardPalette)
+SageCardData:
+#incbin "DmpCards/Sage.dmp"
+SageCardPaletteData:
+#incbin "DmpCards/Sage_pal.dmp"
+setCardEntry(SageClassCard, SageCardData, SageCardPaletteData)
 
-#define MageKnightClassCard 0xD0
-setCardEntry(MageKnightClassCard, MageKnightCardData, MageKnightCardPalette)
+MageKnightCardData:
+#incbin "DmpCards/MageKnight.dmp"
+MageKnightCardPaletteData:
+#incbin "DmpCards/MageKnight_pal.dmp"
+setCardEntry(MageKnightClassCard, MageKnightCardData, MageKnightCardPaletteData)
 
-#define ShamanClassCard 0xD1
-setCardEntry(ShamanClassCard, ShamanCardData, ShamanCardPalette)
+ShamanCardData:
+#incbin "DmpCards/Shaman.dmp"
+ShamanCardPaletteData:
+#incbin "DmpCards/Shaman_pal.dmp"
+setCardEntry(ShamanClassCard, ShamanCardData, ShamanCardPaletteData)
 
-#define DruidClassCard 0xD2
-setCardEntry(DruidClassCard, DruidCardData, DruidCardPalette)
+DruidCardData:
+#incbin "DmpCards/Druid.dmp"
+DruidCardPaletteData:
+#incbin "DmpCards/Druid_pal.dmp"
+setCardEntry(DruidClassCard, DruidCardData, DruidCardPaletteData)
 
-#define PegasusKnightClassCard 0xD3
-setCardEntry(PegasusKnightClassCard, PegasusKnightCardData, PegasusKnightCardPalette)
+PegasusKnightCardData:
+#incbin "DmpCards/PegasusKnight.dmp"
+PegasusKnightCardPaletteData:
+#incbin "DmpCards/PegasusKnight_pal.dmp"
+setCardEntry(PegasusKnightClassCard, PegasusKnightCardData, PegasusKnightCardPaletteData)
 
-#define FalcoknightClassCard 0xD4
-setCardEntry(FalcoknightClassCard, FalcoknightCardData, FalcoknightCardPalette)
+FalcoknightCardData:
+#incbin "DmpCards/Falcoknight.dmp"
+FalcoknightCardPaletteData:
+#incbin "DmpCards/Falcoknight_pal.dmp"
+setCardEntry(FalcoknightClassCard, FalcoknightCardData, FalcoknightCardPaletteData)
 
-#define WyvernRiderClassCard 0xD5
-setCardEntry(WyvernRiderClassCard, WyvernRiderCardData, WyvernRiderCardPalette)
+WyvernRiderCardData:
+#incbin "DmpCards/WyvernRider.dmp"
+WyvernRiderCardPaletteData:
+#incbin "DmpCards/WyvernRider_pal.dmp"
+setCardEntry(WyvernRiderClassCard, WyvernRiderCardData, WyvernRiderCardPaletteData)
 
-#define WyvernLordClassCard 0xD6
-setCardEntry(WyvernLordClassCard, WyvernLordCardData, WyvernLordCardPalette)
+WyvernLordCardData:
+#incbin "DmpCards/WyvernLord.dmp"
+WyvernLordCardPaletteData:
+#incbin "DmpCards/WyvernLord_pal.dmp"
+setCardEntry(WyvernLordClassCard, WyvernLordCardData, WyvernLordCardPaletteData)
 
-#define WyvernKnightClassCard 0xD7
-setCardEntry(WyvernKnightClassCard, WyvernKnightCardData, WyvernKnightCardPalette)
+WyvernKnightCardData:
+#incbin "DmpCards/WyvernKnight.dmp"
+WyvernKnightCardPaletteData:
+#incbin "DmpCards/WyvernKnight_pal.dmp"
+setCardEntry(WyvernKnightClassCard, WyvernKnightCardData, WyvernKnightCardPaletteData)
 
-#define FireManaketeClassCard 0xD8
-setCardEntry(FireManaketeClassCard, FireManaketeCardData, FireManaketeCardPalette)
+FireManaketeCardData:
+#incbin "DmpCards/FireManakete.dmp"
+FireManaketeCardPaletteData:
+#incbin "DmpCards/FireManakete_pal.dmp"
+setCardEntry(FireManaketeClassCard, FireManaketeCardData, FireManaketeCardPaletteData)
 

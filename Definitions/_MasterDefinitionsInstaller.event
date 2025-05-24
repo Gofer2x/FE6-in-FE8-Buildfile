@@ -1,4 +1,4 @@
-#include "VanillaData/VanillaClassCards.event"
+//#include "VanillaData/VanillaClassCards.event"
 #include "VanillaData/VanillaMovementDataPointers.event"
 //#include "VanillaData/VanillaClassAnimationTables.event"
 #include "VanillaData/VanillaAnimations.event"

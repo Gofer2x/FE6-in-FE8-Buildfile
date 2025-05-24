@@ -27,4 +27,8 @@ echo Running sound insertion .bat.
 
 call %~dp0%generatedBatPath%
 
+cd "%~dp0ups"
+
+ups diff -b "%~dp0FE8_clean.gba" -m "%~dp0myHackWithMusic.gba" -o "%~dp0myHackWithMusic.ups"
+
 pause

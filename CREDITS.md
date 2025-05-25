@@ -63,6 +63,9 @@ Scripts/patches:
 FE6 style StatScreenfx
 Author: Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204/33 https://github.com/MokhaLeee/fe8_hacks_sundries/tree/main/wizardry/StatScreenfx
 
+Death Dance (aka refresh unit when they are dropped by a rescuing ally on player phase)
+Author: snow.chr https://feuniverse.us/t/snows-code-repo/29119
+
 16 Tracks/12 Sounds Fix
 Author: Agro/Brendor https://feuniverse.us/t/fe7-fe8-16-tracks-12-sounds-patch/895
 

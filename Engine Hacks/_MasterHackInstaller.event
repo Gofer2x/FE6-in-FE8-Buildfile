@@ -9,7 +9,7 @@
 #include "EnginePatches/Allow254genericminimugs/Allow 254 generic minimugs.event"
 #include "EnginePatches/multi_discover_desert_treasures/Installer.event"
 #include "EnginePatches/BattleMusicChange2_20200603/install_battle_music_changer2.event"
-
+#include "EnginePatches/DeathDanceAkaRefreshUnitWhenDeathDrop/death_dance.event"
 
 #include "EnginePatches/InlineFix_GenerateBestMovementScript.event"
 #include "EnginePatches/FE6Stealing.event"

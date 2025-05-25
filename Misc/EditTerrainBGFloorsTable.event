@@ -1,10 +1,10 @@
-//gonna be lazy with this one
-//the battle BGs have been edited to be the same as fe6 and the floors are unchanged.
-//so i can copy the bytes directly from fe6. hopefully.
-//i'll also take its names.
+//Gonna be lazy with this one
+//The battle BGs have been edited to be the same as FE6 and the floors are unchanged.
+//So i can copy the bytes directly from FE6. hopefully.
+//I'll also take its names.
 //Normal, Snow, Fiery Cave, Rocky Cave, Gray Castle, Town, Yellow Castle, Mountains?, Castle Again?, Desert
 
-//65 terrain types, fe6 only has 48. the remaining ..65-48, 27? can stay the same. or maybe i'll blank em out at some point idk.
+//65 terrain types, FE6 only has 48. The remaining ..65-48, 27? Can stay the same. Or maybe i'll blank 'em out at some point idk.
 
 #define BattleBG_Normal 0x0
 #define BattleBG_Snow 0x1
@@ -17,22 +17,22 @@
 #define BattleBG_CastleAgain 0x8
 #define BattleBG_Desert 0x9
 
-//ch6, yellow castle
-//ch7, town
-//ch8, gray castle
-//ch8x, fiery cave
-//ch9, mountains
-//ch10b, town
-//ch12 yellow castle
-//ch12x, rocky cave
-//ch13 castle again
-//ch14 desert
-//ch14x, gray castle
-//ch16x, town
-//ch18a, 19a, 20a, snow
-//ch20b, yellow castle
-//ch21x, gray castle
-//ch22, gray castle
+//Ch6, Yellow Castle
+//Ch7, Town
+//Ch8, Gray Castle
+//Ch8x, Fiery Cave
+//Ch9, Mountains
+//Ch10b, Town
+//Ch12 Yellow Castle
+//Ch12x, Rocky Cave
+//Ch13 Castle Again
+//Ch14 Desert
+//Ch14x, Gray Castle
+//Ch16x, Town
+//Ch18a, 19A, 20A, Snow
+//Ch20b, Yellow Castle
+//Ch21x, Gray Castle
+//Ch22, Gray Castle
 
 
 

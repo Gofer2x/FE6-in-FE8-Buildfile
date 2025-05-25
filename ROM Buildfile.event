@@ -15,7 +15,7 @@
 	ORG FreeSpace
 	
 	MESSAGE Installing Engine Hacks
-	#include "Engine Hacks/_MasterHackInstaller.event"
+	#include "EngineHacks/_MasterHackInstaller.event"
 	
 	MESSAGE Installing Misc Stuff
 	#include "Misc/EditVanillaStatBoosts.event"

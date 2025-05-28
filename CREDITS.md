@@ -46,7 +46,7 @@ The following are various Vanilla FE6 animations. I have only kept the ones I in
 All others are by IS.
 
 
-Map sprites:
+# Map sprites:
 
 "RogueF_SMS" AKA "Rogue (F) {Unknown}-stand" by Unknown
 

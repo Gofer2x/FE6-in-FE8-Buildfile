@@ -8,4 +8,6 @@ To build, run "_MAKE HACK_full.cmd", which will build "myHack.gba". Afterwards r
 
 For information about how to insert new data, various helper scripts used etc. please read [GUIDE.md](GUIDE.md).
 
+Credits in [CREDITS.md](CREDITS.md).
+
 Based on [EasyBuildFile](https://github.com/MysticOCE/EasyBuildfile) by MysticOCE.

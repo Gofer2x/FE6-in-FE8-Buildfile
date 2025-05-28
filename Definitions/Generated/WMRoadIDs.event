@@ -12,7 +12,7 @@
 #define ROAD_Ch9ToCh10B 0xB
 #define ROAD_Ch10BToCh11B 0xC
 #define ROAD_Ch11BToCh12 0xD
-#define ROAD_Ch11BToCh13 0xE
+#define ROAD_Ch12ToCh13 0xE
 #define ROAD_Ch13ToCh14 0xF
 #define ROAD_Ch14ToCh15 0x10
 #define ROAD_Ch15ToCh16 0x11

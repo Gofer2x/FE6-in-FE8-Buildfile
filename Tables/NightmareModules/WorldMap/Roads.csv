@@ -13,7 +13,7 @@ ROAD_Ch11AToCh12,TempDummyRoad|IsPointer,NODE_Ch11A,NODE_Ch12,0x0,0x0
 ROAD_Ch9ToCh10B,TempDummyRoad|IsPointer,NODE_Ch9,NODE_Ch10B,0x0,0x0
 ROAD_Ch10BToCh11B,TempDummyRoad|IsPointer,NODE_Ch10B,NODE_Ch11B,0x0,0x0
 ROAD_Ch11BToCh12,TempDummyRoad|IsPointer,NODE_Ch11B,NODE_Ch12,0x0,0x0
-ROAD_Ch11BToCh13,TempDummyRoad|IsPointer,NODE_Ch11B,NODE_Ch13,0x0,0x0
+ROAD_Ch12ToCh13,TempDummyRoad|IsPointer,NODE_Ch12,NODE_Ch13,0x0,0x0
 ROAD_Ch13ToCh14,TempDummyRoad|IsPointer,NODE_Ch13,NODE_Ch14,0x0,0x0
 ROAD_Ch14ToCh15,TempDummyRoad|IsPointer,NODE_Ch14,NODE_Ch15,0x0,0x0
 ROAD_Ch15ToCh16,TempDummyRoad|IsPointer,NODE_Ch15,NODE_Ch16,0x0,0x0
